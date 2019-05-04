@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基于相似运算、聚类运算和SVM的数据特征分类算法</title>
+    <style type="text/css" media="all">
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #777;
+        background-color: white;
+      }
+      .container {
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .post {
+        font-family: Georgia, "Times New Roman", Times, "SimSun", serif;
+        position: relative;
+        padding: 70px;
+        bottom: 0;
+        overflow-y: auto;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 25px;
+        color: #515151;
+      }
+
+      .post h1{
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-bottom: 40px;
+        color: inherit;
+      }
+
+      .post p {
+        margin: 0 0 35px 0;
+      }
+
+      .post img {
+        border: 1px solid #D9D9D9;
+      }
+
+      .post a {
+        color: #28A1C5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="post">
+        <h1 class="title">基于相似运算、聚类运算和SVM的数据特征分类算法</h1>
+        <div class="show-content">
+          <p>对于数据分析和处理而言，最重要的莫过于数据特征分类。这是所有数据分析与处理的第一步，只有经过分类的数据才有分析与处理的价值。所以如何对数据分类，便是本文的重点。</p><p>本文主要介绍相似运算、聚类运算和SVM三种数据特征分类算法。在这三类中同样也包含诸多运算方法，相似运算包括欧式距离、曼哈顿距离与皮尔逊相关系数；聚类运算包括K-均值聚类和Fisher聚类等；而SVM作为当今最热门的运算方法，其分类更是多不胜数。</p><p>所以本文主要对于以上几种方法的核心思想和算法做介绍，仅涉及少量的具体算法。</p><p>相似运算</p><p>在各种分类算法中，最为容易实现的是相似运算，包括欧几里得空间距离、皮尔逊相关系数和曼哈顿距离。"&gt;在各种分类算法中，最为容易实现的是相似运算，包括欧几里得空间距离、皮尔逊相关系数和曼哈顿距离。</p><p>欧几里得距离运算是指在二维空间里，两个点间直线的距离。在数据的特征分类计算中，一般用于比较在同一维度下，两样本数据特征的相似程度。用欧式距离计算两样本的相似度时，一般采用样本数据为维度，以样本个体为主体，计算两主体的相似程度。与其相关的便是曼哈顿距离，其概念与欧式距离相似，但其运算并非采用两点间的直线距离，而是将空间分为等距网孔后的网孔格边界距离，这一做法可以有效的减少浮点运算，加快运算速度，在早期计算机性能不发达的时候，这是计算机科学家们最常采用的算法。如今随着计算机性能的大幅上升，只有在极大量的数据运算中会看到其身影。</p><p>与欧式距离相似的另一相似运算概念是皮尔逊相关系数，该算法一般用于在高维度中比较两个样本数据的相似程度。在计算时，一般以计算主体为维度，以样本数据为相似度比较量，用以比较样本的相似程度。其于皮尔逊相关系数的相似计算的优点在于，允许存在“夸张分度”这一常量。可以帮助我们在样本数据特征的分类中，发现具有相似偏好的数据特征。</p><p>总的来说，欧氏距离与皮尔逊相关系数这两种方式在数据特征分类中各有应用。欧式距离计算两样本的相似度，诸如根据用户对于不同电影的评价寻找具有相似喜好的用户，再做出电影推荐；皮尔逊相关系数的计算则是基于不同用户对于多部电影的评分趋势，寻找具有相似兴趣偏好的用户，并做出电影推荐。</p><p>聚类运算</p><p>聚类运算是我们十分常用的一类相似度计算方法。常见的相似度计算方法包括K-均值计算方法、Fisher方法与贝叶斯方法。</p><p>K-均值计算方法，又称KNN算法，即K最邻近算法。其主要思想是对于分类数据集，随机产生分类数据中点，再将周围的数据点分于数据中点，计算这一类的数据点的平均位置，移动至平均位置，再次计算与移动，直到数据移动不再产生变化。</p><p>Fisher方法是指在分类运算中，对于每一分类特征分别计算属于某一分类的概率，再以各特征的分类概率计算样本数据的分类</p><p>贝叶斯分类算法的使用与Fisher相似，详细介绍见以前的文章。</p><p>在以上三种算法中，Fisher方法与贝叶斯算法常用于垃圾邮件、文字识别等分类，而KNN算法一般用于可视数据的分类。</p><p>SVM分类算法</p><p>在常见的数据特征分类算法中，SVM一直是最为著名和有效的。在确定合适的Hyper Plain之后，其可以完成以上任一种运算的功能，甚至做的更好。"&gt;在常见的数据特征分类算法中，SVM一直是最为著名和有效的。在确定合适的Hyper Plain之后，其可以完成以上任一种运算的功能，甚至做的更好。</p><p>鉴于SVM的优良作用于效果，SVM一直是机器学习算法中最为活跃的研究部分，有关其的研究文章与论文层出不穷。也因而使SVM 在不停的发展历程中变得越来越复杂。</p><p>SVM，全称为Support Vector Machine，中文名称支持向量机。是一个监督学习模型（但本文中几乎全是监督学习模型），通常用于模式识别、分类与回归。</p><p>在我们常见的数据分类算法中，复杂数据的分类总是令人头疼的一件事，无论是聚类运算，还是相似运算对于极为复杂的数据分离总是会心有余而力不足，于是乎SVM应时而生。SVM的核心思想在使用<b>核方法</b>，将复杂数据投影到高维空间，然后在高维空间寻找对分类点形成最大间隔平面的分类。因为其的分类空间为高维空间，所以可以将很多在低维空间无法分类的数据予以分类，分类效果极好</p><div class="image-package">
+<img data-height="720" data-width="1681" data-image-slug="714982b0302af913" src="http://upload-images.jianshu.io/upload_images/3065026-714982b0302af913.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" data-original-src="http://upload-images.jianshu.io/upload_images/3065026-714982b0302af913.png?imageMogr2/auto-orient/strip"><br><div class="image-caption"></div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

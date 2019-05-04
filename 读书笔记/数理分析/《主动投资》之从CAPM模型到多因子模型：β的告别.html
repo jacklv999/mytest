@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《主动投资》之从CAPM模型到多因子模型：β的告别</title>
+    <style type="text/css" media="all">
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #777;
+        background-color: white;
+      }
+      .container {
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .post {
+        font-family: Georgia, "Times New Roman", Times, "SimSun", serif;
+        position: relative;
+        padding: 70px;
+        bottom: 0;
+        overflow-y: auto;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 25px;
+        color: #515151;
+      }
+
+      .post h1{
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-bottom: 40px;
+        color: inherit;
+      }
+
+      .post p {
+        margin: 0 0 35px 0;
+      }
+
+      .post img {
+        border: 1px solid #D9D9D9;
+      }
+
+      .post a {
+        color: #28A1C5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="post">
+        <h1 class="title">《主动投资》之从CAPM模型到多因子模型：β的告别</h1>
+        <div class="show-content">
+          <p>前几天看完了《主动投资组合管理》，今天来总结这本书的读书笔记，同时也写下自己的些许感想。本书由量化投资领域的先驱Grinold和Kahn合著，是美国量化基金经理的圣经。翻译工作由刘震先生和他的团队在两年时间内细致地完成，本书的可读性非常高，内容十分贴切，而其中的CAPM模型、多因子模型和APT模型部分尤为出彩，本系列的文章也将依据这三个模型来写作。<br></p><p>本文主要在于CAPM模型与多因子模型的推导和应用。从CAPM模型的一般假设推导出多因子模型的系统，这一过程主要依赖于对于Beta值特性的讨论。</p><p>CAPM模型是现代量化投资系统的基础，在各大基金与投资银行得到了广泛的使用，其最大的优点在于简单、明确。它把任何一种风险证券的价格都划分为三个因素：无风险收益率、风险的价格和风险的计算单位，并把这三个因素有机结合在一起。因而大大减少了模型的复杂程度，而且提高了模型的实用价值。CAPM的另一优点在于实用性。其模型假设为绝对风险而不是总风险，并且以绝对风险来对各种竞争报价的金融资产作出评价和选择。这种方法已经被金融市场上的投资者广为接受，在各大资管公司与基金中得到了广泛的应用。</p><p>但是CAPM模型也有其天生不足，首先，CAPM的假设前提是难以实现的。诸如其完全竞争假设等。在实际操作中很难实现的，包括“做市”等时有发生。其二假设是投资者的投资期限相同且不考虑投资计划期之后的情况。但是，市场上的投资者数目众多，他们的资产持有期间不可能完全相同，而且现在进行长期投资的投资者越来越多，所以假设二也就变得不那么现实了。假设之三是投资者可以不受限制地以固定的无风险利率借贷，这一点也是很难办到的。假设之四是市场无摩擦。但实际上，市场存在交易成本、税收和信息不对称等等问题。假设之五、六是理性人假设和一致预期假设。显然，这两个假设也只是一种理想状态。其次，CAPM中的β值难以确定。某些证券由于缺乏历史数据，其β值不易估计。此外，由于经济的不断发展变化，各种证券的β值也会产生相应的变化，因此，依靠历史数据估算出的β值对未来的指导作用也要打折扣。总之，由于CAPM的上述局限性，金融市场学家仍在不断探求比CAPM更为准确的资本市场理论。目前，已经出现了另外一些颇具特色的资本市场理论（如套利定价模型），但尚无一种理论可与CAPM相匹敌。</p><p>接下来为大家介绍CAPM模型的详细内容与模型结构。资本资产定价模型：E(ri)=rf+βi(E(r)-rf)</p><p>E(ri) 是资产i 的预期回报率</p><p>rf 是无风险利率</p><p>βi 是[[Beta系数]]，即资产i 的系统性风险</p><p>E(r) 是市场m的预期市场回报率</p><p>E(r)-rf 是市场风险溢价（market risk premium），即预期市场回报率与无风险回报率之差</p><p>CAPM公式中的右边第一个是无风险收益率，比较典型的无风险回报率是10年期的政府债券。如果股票投资者需要承受额外的风险，那么他将需要在无风险回报率的基础上多获得相应的溢价。那么，股票市场溢价（equity market premium）就等于市场期望回报率减去无风险回报率。证券风险溢价就是股票市场溢价和一个β系数的乘积。</p><p>对于CAPM模型的应用，资本资产定价模型主要应用于资产估值、<a href="http://baike.baidu.com/view/113105.htm" target="_blank">资金成本</a>预算以及资源配置等方面。</p><p><b>资产估值：</b>在资产估值方面，资本资产定价模型主要被用来判断证券是否被市场错误定价。根据资本资产定价模型，每一证券的<a href="http://baike.baidu.com/view/1491167.htm" target="_blank">期望收益率</a>应等于无风险利率加上该证券由<a href="http://baike.baidu.com/view/1098884.htm" target="_blank">β系数</a>测定的<a href="http://baike.baidu.com/view/1162916.htm" target="_blank">风险溢价</a>：</p><p>E（ri）=rF+[E(rM)-rF]βi</p><p>一方面，当我们获得<a href="http://baike.baidu.com/view/1600020.htm" target="_blank">市场组合</a>的期望收益率的估计和该证券的风险 βi的估计时，我们就能计算<a href="http://baike.baidu.com/view/1579460.htm" target="_blank">市场均衡</a>状态下证券i的期望收益率E（ri）；另一方面，市场对证券在未来所产生的收入流（<a href="http://baike.baidu.com/view/11186.htm" target="_blank">股息</a>加期末价格）有一个预期值，这个预期值与证券i的期初市场价格及其<a href="http://baike.baidu.com/view/1106604.htm" target="_blank">预期收益率</a>E（ri）之间有如下关系：</p><p><a href="http://baike.baidu.com/pic/%E8%B5%84%E6%9C%AC%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7%E6%A8%A1%E5%9E%8B/10867338/0/948bcfc864b82b4a7f3e6fb9?fr=lemma&amp;ct=single" target="_blank"></a></p><div class="image-package">
+<img name="" src="http://upload-images.jianshu.io/upload_images/3065026-90912e4d167f7430.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br><div class="image-caption"></div>
+</div><p>在均衡状态下，上述两个E（ri）应有相同的值。因此，均衡期初价格应定为：</p><p><a href="http://baike.baidu.com/pic/%E8%B5%84%E6%9C%AC%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7%E6%A8%A1%E5%9E%8B/10867338/0/5327ce16ee674945972b4386?fr=lemma&amp;ct=single" target="_blank"></a></p><div class="image-package">
+<img name="" src="http://upload-images.jianshu.io/upload_images/3065026-70f9f7856d7a771a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br><div class="image-caption"></div>
+</div><p>于是，我们可以将现行的实际市场价格与均衡的期初价格进行比较。二者不等，则说明市场价格被误定，被误定的价格应该有回归的要求。利用这一点，我们便可获得超额收益。具体来讲，当<a href="http://baike.baidu.com/view/680714.htm" target="_blank">实际价格</a>低于<a href="http://baike.baidu.com/view/140038.htm" target="_blank">均衡价格</a>时，说明该证券是廉价证券，我们应该购买该证券；相反，我们则应卖出该证券，而将资金转向购买其他廉价证券。当把公式中的期末价格视作未来现金流的贴现值时，公式也可以被用来判断证券市场价格是否被误定。</p><p><b>资源配置：</b>资本资产定价模型在资源配置方面的一项重要应用，就是根据对市场走势的预测来选择具有不同<a href="http://baike.baidu.com/view/1098884.htm" target="_blank">β系数</a>的证券或组合以获得较高收益或规避<a href="http://baike.baidu.com/view/798119.htm" target="_blank">市场风险</a>。</p><p><a href="http://baike.baidu.com/view/165400.htm" target="_blank">证券市场</a>线表明，β系数反映证券或组合对市场变化的敏感性，因此，当有很大把握预测牛市到来时，应选择那些高β系数的证券或组合。这些高β系数的证券将成倍地放大市场<a href="http://baike.baidu.com/view/969420.htm" target="_blank">收益率</a>，带来较高的收益。相反，在熊市到来之际，应选择那些低β系数的证券或组合，以减少因市场下跌而造成的损失。</p><p>然后，我们回到上面的问题，Beta值如何确定？</p><p>一般情况下，贝塔系数利用回归的方法计算。贝塔系数为1即证券的价格与市场一同变动。贝塔系数高于1即证券价格比总体市场更波动。贝塔系数低于1（大于0）即证券价格的波动性比市场为低。<br></p><p><b>贝塔系数的计算公式</b><br></p><p>公式为：</p><div class="image-package">
+<img name="" src="http://upload-images.jianshu.io/upload_images/3065026-4f7192d67ca2a21e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br><div class="image-caption"></div>
+</div><p>其中Cov(<i>r</i><i>a</i>,<i>r</i><i>m</i>)是证券<i>a</i>的收益与市场收益的<a href="http://wiki.mbalib.com/wiki/%E5%8D%8F%E6%96%B9%E5%B7%AE" target="_blank">协方差</a>；σ^2<i>m</i>是市场收益的<a href="http://wiki.mbalib.com/wiki/%E6%96%B9%E5%B7%AE" target="_blank">方差</a>。因为：Cov(<i>r</i><i>a</i>,<i>r</i><i>m</i>) = ρ<i>a</i><i>m·</i>σ<i>a·</i>σ<i>m，</i>所以公式也可以写成：</p><p><br></p><div class="image-package">
+<img name="" src="http://upload-images.jianshu.io/upload_images/3065026-172b45274d1f194d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br><div class="image-caption"></div>
+</div><p>其中ρ<i>a</i><i>m</i>为证券<i>a</i>与市场的<a href="http://wiki.mbalib.com/wiki/%E7%9B%B8%E5%85%B3%E7%B3%BB%E6%95%B0" target="_blank">相关系数</a>；σ<i>a</i>为证券<i>a</i>的标准差；σ<i>m</i>为市场的标准差。</p><p>从公式其实我们可以看出来，Beta值实际上与市场风险并没本质上的关联，并不代表市场风险。所以当我们在CAPM模型中使用Beta值衡量资产的风险与收益时，会造成一定的偏差。</p><p>但是我们知道，准确的CAPM模型的核心在于以Beta值衡量市场风险，但是如果Beta值得假设有错，那么准确的计量将无从谈起。对于Beta值得计算，我们有两个假定：</p><p>假定一：在过去一段时间内影响资产风险程度的因素，在未来的短期内仍将影响资产的风险程度。基于这一假定，所以我们可以对于Beta值做如下使用，假设对于证券A，在过去一个月内受到其财务信息，公告信息等基本面资料，其证券在过去一个月的相对于市场基准的Beta值为5，那么在接下来的短期内，如一周，我们可以假定其Beta值仍旧为5.并且以该值计算其风险期望模型。</p><p>假定二：对于任意资产，我们认为其风险程度取决于其本身的特质。诸如，对于市场的股票，我们认为市值越大的股票，其风险越低；同样我们还可以认为银行股的风险性会远低于周期性股票。所以在长期对于资产的风险程度的测量中，我们应该认为：Beta=f（q、p、……）+a，</p><div class="image-package">
+<img name="" src="http://upload-images.jianshu.io/upload_images/3065026-4bdb3839255d5abd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br><div class="image-caption"></div>
+</div><br><p>式中：δ<i>k</i><i>t</i>——第是个<a href="http://wiki.mbalib.com/wiki/%E9%A3%8E%E9%99%A9%E5%9B%A0%E7%B4%A0" target="_blank">风险因素</a>在时期，的意外变化；<i>b</i><i>i</i><i>k</i>资产i对第是个风险因素的<a href="http://wiki.mbalib.com/wiki/%E6%95%8F%E6%84%9F%E7%B3%BB%E6%95%B0" target="_blank">敏感系数</a>。</p><p>非常巧，多因子模型的结构已经被我们推到出来了。</p><p>最后附注三个典型的多因子模型：</p><p>第一，Brennan—Schwartz模型<br></p><p>Brennan—Schwartz模型运用<a href="http://wiki.mbalib.com/wiki/%E7%9F%AD%E6%9C%9F" target="_blank">短期</a>和<a href="http://wiki.mbalib.com/wiki/%E9%95%BF%E6%9C%9F%E5%88%A9%E7%8E%87" target="_blank">长期利率</a>作为因子解释<a href="http://wiki.mbalib.com/wiki/%E5%88%A9%E7%8E%87%E6%9C%9F%E9%99%90%E7%BB%93%E6%9E%84" target="_blank">利率期限结构</a>。<a href="http://wiki.mbalib.com/wiki/%E7%9F%AD%E6%9C%9F%E5%88%A9%E7%8E%87" target="_blank">短期利率</a>对长期均衡有均值回复的效应，并遵循对数正态过程，长期利率遵循另外的对数正态过程，即：</p><p><i>d</i>ln<i>r</i>=<i>a</i>(ln<i>l</i>− ln<i>r</i>)<i>d</i><i>t</i>+<i>b</i>1<i>W</i>1</p><p><i>d</i><i>l</i>=<i>l</i><i>a</i>(<i>r</i>,<i>l</i>,<i>b</i>2)<i>d</i><i>t</i>+<i>b</i>2<i>l</i><i>d</i><i>W</i>2</p><p>其中<i>E</i>[<i>d</i><i>W</i>1<i>d</i><i>W</i>2] =<i>p</i><i>d</i><i>t</i>.从模型中无法直接得到<a href="http://wiki.mbalib.com/wiki/%E5%80%BA%E5%88%B8%E4%BB%B7%E6%A0%BC" target="_blank">债券价格</a>的封闭解，必须求解其数值解。</p><p>第二，Richard模型</p><p>Richard模型运用实际利率ρ和<a href="http://wiki.mbalib.com/wiki/%E9%80%9A%E8%B4%A7%E8%86%A8%E8%83%80%E7%8E%87" target="_blank">通货膨胀率</a>π作为两种因子，两者相互独立，并遵循以下平方根过程：</p><div class="image-package">
+<img name="" src="http://upload-images.jianshu.io/upload_images/3065026-5b243f9724c130a2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br><div class="image-caption"></div>
+</div><div class="image-package">
+<img name="" src="http://upload-images.jianshu.io/upload_images/3065026-0271fb1e7b0777bf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br><div class="image-caption"></div>
+</div><p>得到<a href="http://wiki.mbalib.com/wiki/%E5%90%8D%E4%B9%89%E5%88%A9%E7%8E%87" target="_blank">名义利率</a>与<a href="http://wiki.mbalib.com/wiki/%E5%AE%9E%E9%99%85%E5%88%A9%E7%8E%87" target="_blank">实际利率</a>、通货膨胀率之间的关系式：</p><p><i>r</i>= ρ + π(1 −<i>v</i><i>a</i><i>r</i>[<i>d</i><i>P</i>/<i>P</i>])</p><p>其中，P表示预期变化为通货膨胀率的<a href="http://wiki.mbalib.com/wiki/%E4%BB%B7%E6%A0%BC" target="_blank">价格</a>。因而名义债券价格的解为：</p><div class="image-package">
+<img name="" src="http://upload-images.jianshu.io/upload_images/3065026-cf79de50678646f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br><div class="image-caption"></div>
+</div><p>第三，Cox-Ingersoll-Ross／Langetieg模型</p><p>1985年，Cox，Ingersoll和Ross又发展了两因子模型，认为<a href="http://wiki.mbalib.com/wiki/%E5%88%A9%E7%8E%87" target="_blank">利率</a>的变化除了短期利率的随机过程外，还存在长期利率的随机过程。遵循<a href="http://wiki.mbalib.com/wiki/CIR%E6%A8%A1%E5%9E%8B" target="_blank">CIR模型</a>的思路，<a href="http://wiki.mbalib.com/wiki/%E7%9E%AC%E6%97%B6%E5%88%A9%E7%8E%87" target="_blank">瞬时利率r</a>可以分解成两个独立的因子<i>Y</i>1和<i>Y</i>2(即<i>r</i>=<i>y</i>1+<i>y</i>2)，则关于债券价格的解为：</p><div class="image-package">
+<img name="" src="http://upload-images.jianshu.io/upload_images/3065026-3512131986b056a6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br><div class="image-caption"></div>
+</div><p>如果每一因子都遵循Vasicek假设，那么其中每一个P值都会有单因子解；如果每一因子都遵循CIR假设，那么债券价格将是两个CIR公式的乘积。</p><p><br></p><p>图片附注：</p><div class="image-package">
+<img name="" src="http://upload-images.jianshu.io/upload_images/3065026-0abf80bd6284db00.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br><div class="image-caption"></div>
+</div><p><br></p><div class="image-package">
+<img name="" src="http://upload-images.jianshu.io/upload_images/3065026-63f2c2d9c4a5b61b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br><div class="image-caption"></div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
