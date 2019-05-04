@@ -71,6 +71,10 @@ $$
 
 #### 13.补充
 对于部分符号无法用 markdown 的公式表达,可以使用 `\符号` 转义表达,如 $$$ \%  $$$等
-
-
+#### 14.GitHub的markdown补充
+```
+- [x] this is a complete item
+- [ ] this is an incomplete item
+[GitHub](http://github.com)
+```
 
