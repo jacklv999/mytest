@@ -3,7 +3,7 @@
 ## [知乎收藏夹](https://jacklv999.github.io/mytest/zhihu/)
 ## [读书笔记](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html)
 
-## [英语单词](https://jacklv999.github.io/mytest/egls/)
+## [英语单词](https://jacklv999.github.io/mytest/egls/word.html)
 
 
 
