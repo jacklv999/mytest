@@ -12,3 +12,15 @@ dissident| ['dɪsɪdənt]
 gargantuan| [ɡɑr'ɡæntʃuən]
 clip |[klɪp]
 
+
+
+ <audio controls src="http://dict.youdao.com/dictvoice?audio=further&type=2"></audio>
+
+
+
+
+
+
+
+
+
