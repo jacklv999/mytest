@@ -1,5 +1,21 @@
 ## 英语单词
 
+'-------------------------------------------------------'
+
+### 5.19
+
+- #### sabotage---------[,sæbə'tɑʒ]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=sabotage&type=2"></audio>
+
+- #### simmer-----------------['sɪmɚ]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=simmer&type=2"></audio>
+
+
+
+
+
 ### 5.18
 
 - #### ability-----------------[əˈbɪlətɪ]
