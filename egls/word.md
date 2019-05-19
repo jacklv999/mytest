@@ -2,7 +2,49 @@
 
 '-------------------------------------------------------'
 
-### 5.19
+## 5.19
+
+- #### build------------------------[bɪld]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=build&type=2"></audio>
+
+- #### molecule----------['mɑlɪkjul]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=molecule&type=2"></audio>
+
+- #### immune---------------[ɪ'mjʊn]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=immune&type=2"></audio>
+
+- #### substitute-------['sʌbstɪtut]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=substitute&type=2"></audio>
+
+- #### hitherto-------------[hɪðɚ'tu]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=hitherto&type=2"></audio>
+
+- #### cereal-------------------['sɪrɪəl]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=cereal&type=2"></audio>
+
+- #### docile--------------[ˈdoʊˌsaɪl]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=docile&type=1"></audio>
+
+- #### drudgery---------['drʌdʒəri]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=drudgery&type=1"></audio>
+
+- #### embryo-------------['ɛmbrɪo]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=embryo&type=1"></audio>
+
+
+
+
+
+### 5.18
 
 - #### sabotage---------[,sæbə'tɑʒ]
 
@@ -16,7 +58,7 @@
 
 
 
-### 5.18
+### 5.17
 
 - #### ability-----------------[əˈbɪlətɪ]
 <audio controls src="http://dict.youdao.com/dictvoice?audio=ability&type=2"></audio>
