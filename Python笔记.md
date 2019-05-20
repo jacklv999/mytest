@@ -600,7 +600,7 @@ try...except...finally..., 若代码可能出错则用try运行，出错时跳�
   - 1.Python处理URL的函数就是C：Controller，Controller负责业务逻辑
   - 2.包含变量的模板是V：View，负责显示逻辑，最终输出用户看到的HTML
   - 3.Model传给View，View在替换变量的时候，从Model中取出相应的数据
-- 2.Jinja2: Flask默认使用Jinja2模板, 用{% ... %}表示指令
+- 2.Jinja2: Flask默认使用Jinja2模板, 指令为 `{% ... %}`
 
 
 
