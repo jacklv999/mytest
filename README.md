@@ -1,9 +1,7 @@
 # Mytest
 
-## [知乎收藏夹](https://jacklv999.github.io/mytest/zhihu/)
-## [读书笔记](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
-
-## [英语单词](https://jacklv999.github.io/mytest/egls/word.html)
+## [知乎收藏夹](https://jacklv999.github.io/mytest/zhihu/)          [读书笔记](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
+## [英语单词](https://jacklv999.github.io/mytest/egls/word.html)              [计量经济学笔记](https://jacklv999.github.io/mytest/计量经济学笔记.html)
 
 
 
@@ -22,8 +20,8 @@
 - [ ] 04.24[基本会计表](http://)
 - [ ] 04.23[做题笔记-4.24](https://jacklv999.github.io/mytest/做题笔记-4.24.html)
 - [ ] 04.22[做题笔记-4.22](https://jacklv999.github.io/mytest/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0-4.22.html)
-- [ ] 04.21[正则表达式](https://jacklv999.github.io/mytest/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) ---------  [OfficeRe](http://)  ---------  [做题笔记-4.21](https://jacklv999.github.io/mytest/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0-4.21.html)
-- [ ] 04.20[Markdown目录](https://github.com/jacklv999/Mytest/blob/master/RE5%8F%A3.md) ---------  [R语言强制类型转换](https://jacklv999.github.io/mytest/R语言强制类型转换.html)
-- [ ] 04.19[摄影曲线](https://www.jianshu.com/p/e8ad530b5073) ---------- [R数据接口](https://jacklv999.github.io/mytest/R%E8%AF%AD%E8%A8%80%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%8F%A3.html)
-- [ ] 04.18[R语言笔记](https://jacklv999.github.io/mytest/R%E8%AF%AD%E8%A8%80%E7%AC%94%E8%AE%B0.html)
+- [ ] ~~04.21[正则表达式](https://jacklv999.github.io/mytest/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) ---------  [OfficeRe](http://)  ---------  [做题笔记-4.21](https://jacklv999.github.io/mytest/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0-4.21.html)~~
+- [ ] ~~04.20[Markdown目录](https://github.com/jacklv999/Mytest/blob/master/RE5%8F%A3.md) ---------  [R语言强制类型转换](https://jacklv999.github.io/mytest/R语言强制类型转换.html)~~
+- [ ] ~~04.19[摄影曲线](https://www.jianshu.com/p/e8ad530b5073) ---------- [R数据接口](https://jacklv999.github.io/mytest/R%E8%AF%AD%E8%A8%80%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%8F%A3.html)~~
+- [ ] ~~04.18[R语言笔记](https://jacklv999.github.io/mytest/R%E8%AF%AD%E8%A8%80%E7%AC%94%E8%AE%B0.html)~~
 
