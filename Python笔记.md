@@ -160,11 +160,22 @@
 
 - 1.类
   - 1.定义class Sth(object): pass; class后为类名,object表继承类,默认object
-  - 2.__init__方法: 设定强制绑定该类的属性, def __init__(self,arg...):语句
+  - 2.`__init__`方法: 设定强制绑定该类的属性, `def __init__(self,arg...):语句`
 - 2.实例: 创建实例 sth = Sth()
 - 3.封装
   - 1.含义: 为调用数据方便,一般直接将调用数据的方法写入 "类" 中
-  - 2.使用: class Sth(object): def __init__(self):... def new_func():...
+  
+  - 2.使用: 
+  
+    ```
+    class Sth(object):
+    	def __init__(self):
+    	... 
+    	def new_func():
+    	...
+    ```
+  
+    
 
 #### 2.访问限制
 
@@ -192,7 +203,7 @@
   - 2.使用 isinstance(): isinstance(classname,class)
 - 2.判断对象的方法
   - 1.使用 dir(): dir(object) 得该对象下的所有方法
-  - 2.特殊方法: object.__func__() = func(object)
+  - 2.特殊方法: `object.__func__() = func(object)`
 - 3.其它判断方式
   - 1.getattr(obj, A), 获取属性 A
   - 2.hasattr(obj, A), 判断是否存在属性 A
@@ -211,7 +222,10 @@
     - 2.绑定方法 from ...  s.set_attr = MethodType(set_age, s)
 - 2.`__slots__`
   - 1.含义: 限制实例或类的属性
-  - 2.表达式: class Sth(object): __slots__ = ('k_1','k_2'...)
+  
+  - 2.表达式: 
+  
+    `class Sth(object): __slots__ = ('k_1','k_2'...)`
 
 #### 2.使用@property
 

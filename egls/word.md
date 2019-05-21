@@ -2,17 +2,23 @@
 
 '-------------------------------------------------------'
 
-## 5.20
+## 5.21
 
-'-------------------------------------------------------'
+- #### alter-----------------------['ɔltɚ]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=alter&type=2"></audio>
+
+- #### synonym----------[ˈsɪnənɪm]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=synonym&type=2"></audio>
+
+
+
+## 5.20
 
 - #### protein----------------['protin]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=protein&type=2"></audio>
-
-
-
-
 
 
 
