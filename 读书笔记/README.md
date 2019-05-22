@@ -6,6 +6,10 @@
 
 #### [语言篇](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%AF%AD%E8%A8%80%E7%AF%87/%E8%AF%AD%E8%A8%80%E7%AF%87.md)
 
+- [Pyramid]((https://jacklv999.github.io/mytest/读书笔记/语言篇/Pyramid.html)) 
+- [语言篇]
+- [American Accent Course]
+
 #### [Computer Science](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/CS/cs.md)
 
 - [CS]
