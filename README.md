@@ -3,11 +3,12 @@
 
 ## [Python笔记](https://jacklv999.github.io/mytest/Python笔记.html)&ensp;&ensp; [计量经济学笔记](https://jacklv999.github.io/mytest/计量经济学笔记.html)
 
+## [自然拼读](https://jacklv999.github.io/mytest/egls/自然拼读法.html) &emsp;&emsp;&emsp;[自然拼读规则](https://jacklv999.github.io/mytest/egls/自然拼读规则.html) 
 
 
-- [ ] 05.18 [
 
-- [ ] 05.17  [投影](https://jacklv999.github.io/mytest/投影.html)
+- [ ] 05.22[空间计量经济学笔记](https://jacklv999.github.io/mytest/空间计量经济学笔记.html)
+- [ ] 05.21[练习笔记5-21](https://jacklv999.github.io/mytest/练习笔记 -5.21.html)
 
 
 - [ ] 05.05英语发音: [开闭音节](https://jacklv999.github.io/mytest/egls/Prnc-%E5%BC%80%E9%97%AD%E9%9F%B3%E8%8A%82.html)---------[特殊读音](https://jacklv999.github.io/mytest/egls/Prnc-%E7%89%B9%E6%AE%8A%E8%AF%BB%E9%9F%B3.html)---------[R音节](https://jacklv999.github.io/mytest/egls/Prnc-R%E9%9F%B3%E8%8A%82.html)--------[Re音节](https://jacklv999.github.io/mytest/egls/Prnc-Re%E9%9F%B3%E8%8A%82.html)-------[元音字组](https://jacklv999.github.io/mytest/egls/Prnc-%E5%85%83%E9%9F%B3%E5%AD%97%E7%BB%84.html)---------[非重读](https://jacklv999.github.io/mytest/egls/Prnc-%E9%9D%9E%E9%87%8D%E8%AF%BB.html)
@@ -19,13 +20,5 @@
 - [ ] 04.29[Pronunciation-Part I](https://jacklv999.github.io/mytest/Prnct--HART.html) --------- [Pronunciation-Part II](https://jacklv999.github.io/mytest/Prnct-Rhythm&Intonation.html) ---------  [Pronunciation-Part III](https://jacklv999.github.io/mytest/Prnct--Consonsant.html) ---------  [Pronunciation-Part IV](https://jacklv999.github.io/mytest/Prnct--Vowel.html)
 - [ ] 04.28[计量经济学笔记](https://jacklv999.github.io/mytest/%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6-Part%20I.html)
 - [ ] 04.27[Markdown数学公式](https://jacklv999.github.io/mytest/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html)
-- [ ] 04.26[反脆弱性](https://www.jianshu.com/p/eb847f984489)   ---------  [做题笔记-04.26](https://jacklv999.github.io/mytest/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0-4.26.html)
-- [ ] 04.25[做题笔记-4.25](https://jacklv999.github.io/mytest/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0-4.25.html)
-- [ ] 04.24[基本会计表](http://)
-- [ ] 04.23[做题笔记-4.24](https://jacklv999.github.io/mytest/做题笔记-4.24.html)
-- [ ] 04.22[做题笔记-4.22](https://jacklv999.github.io/mytest/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0-4.22.html)
-- [ ] ~~04.21[正则表达式](https://jacklv999.github.io/mytest/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html) ---------  [OfficeRe](http://)  ---------  [做题笔记-4.21](https://jacklv999.github.io/mytest/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0-4.21.html)~~
-- [ ] ~~04.20[Markdown目录](https://github.com/jacklv999/Mytest/blob/master/RE5%8F%A3.md) ---------  [R语言强制类型转换](https://jacklv999.github.io/mytest/R语言强制类型转换.html)~~
-- [ ] ~~04.19[摄影曲线](https://www.jianshu.com/p/e8ad530b5073) ---------- [R数据接口](https://jacklv999.github.io/mytest/R%E8%AF%AD%E8%A8%80%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%8F%A3.html)~~
-- [ ] ~~04.18[R语言笔记](https://jacklv999.github.io/mytest/R%E8%AF%AD%E8%A8%80%E7%AC%94%E8%AE%B0.html)~~
+- [ ] 04.26[反脆弱性](https://www.jianshu.com/p/eb847f984489) 
 
