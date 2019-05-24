@@ -2,6 +2,20 @@
 
 '-------------------------------------------------------'
 
+## 5.24
+
+- #### vendor----------------['vɛndɚ]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=vendor&type=2"></audio>
+
+- #### voucher-------------['vaʊtʃɚ]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=voucher&type=2"></audio>
+
+
+
+
+
 ## 5.21
 
 - #### alter-----------------------['ɔltɚ]
