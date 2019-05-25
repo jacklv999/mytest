@@ -2,6 +2,18 @@
 
 '-------------------------------------------------------'
 
+## 5.25
+
+- #### sign-------------------------[saɪn]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=sign&type=2"></audio>
+
+- #### rectangular-[rɛk'tæŋgjʊlə]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=rectangular&type=2"></audio>
+
+
+
 ## 5.24
 
 - #### vendor----------------['vɛndɚ]
@@ -11,8 +23,6 @@
 - #### voucher-------------['vaʊtʃɚ]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=voucher&type=2"></audio>
-
-
 
 
 

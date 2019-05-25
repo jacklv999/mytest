@@ -101,13 +101,36 @@
 #### 3.列表生成式
 
 - 1.普通列表生成: list (range (a,b)), range(a,b)可替换成任意Iterable Object
-- 2.复杂列表生成: list (f(x) for x in range (a,b) if g(x)==True)
-- 3.双重列表生成: list (x+y for x in A for y in B)
+
+- 2.复杂列表生成: 
+
+  ```python
+  list (f(x) for x in range (a,b) if g(x)==True)
+  ```
+
+- 3.双重列表生成:
+
+  ```python
+   list (x+y for x in A for y in B)
+  ```
+
+  
 
 #### 4.生成器
 
-- 1.用以处理极复杂的列表生成: generator = (f(x) x in IterableObject)
-- 2.以函数创建generator: def func(): 语句 yield 值, return改为yield则为generator
+- 1.用以处理极复杂的列表生成: 
+
+  ```python
+  generator = (f(x) x in IterableObject)
+  ```
+
+- 2.以函数创建generator: 改函数中的 return 改为 yield 则为generator
+
+  ```python
+  def func(): 
+      语句 
+      yield 值
+  ```
 
 #### 5.迭代器	
 
@@ -120,16 +143,39 @@
 #### 1.高阶函数	
 
 - 1.map函数	
-  - 1.表达式: map (func, IterableObj) = Iterator
+  - 1.表达式:
+  
+    ```python
+    map (func, IterableObj) = Iterator
+    ```
+  
   -  2.含义: 对单参数函数func, 依次传入 IterableObj 构建 Iterator
+  
 - 2.reduce函数
-  - 1.表达式: reduce (func, IterableObj) = func(func(...),x2)x1)
+  - 1.表达式: 
+  
+  ```python
+  reduce (func, IterableObj) = func((func(...),x2)x1)
+  ```
+  
   - 2.含义: 对两参数的函数 func 重复运算至结束
+  
 - 3.filter函数
-  - 1.表达式: filter (func, IterableObj) = Iterator
+  - 1.表达式: 
+  
+  ```python
+  filter (func, IterableObj) = Iterator
+  ```
+  
   - 2.含义: 用函数 func 依次判断 IterableObj 是否满足要求并返回
+  
 - 4.sorted函数
-  - 1.表达式: sorted (IterableObj, key=func, reverse=False) =list
+  - 1.表达式: 
+  
+  ```python
+  sorted (IterableObj, key=func, reverse=False) =list
+  ```
+  
   - 2.含义: 对 IterableObj 按 func 返回值排序
 
 #### 2.返回函数
@@ -144,13 +190,26 @@
 #### 4.装饰器
 
 - 1.含义: 在代码运行期间动态增加功能的方式
+- 2.表达式: 先定义装饰器, 再将装饰器以@语法置于函数定义前
 
-- 2.表达式: def func-1(func): 语句 return func-1; @func-1 def func-2, 装饰func-2
+```python
+def func_name(func_1): 
+    语句 
+    return func_1
+
+@func-1 
+def func-1(arg):
+    pass
+```
 
 #### 5.偏函数
 
   - 1.含义: 将函数的某些参数给固定住（也就是设置默认值），返回一个新的函数
-  - 2.表达式: func-1 = functools.partial(func, arg-1...)
+  - 2.表达式: 
+
+```python
+func_1 = functools.partial(func, arg-1...)
+```
 
 
 
@@ -159,15 +218,29 @@
 #### 1.类和实例	
 
 - 1.类
-  - 1.定义class Sth(object): pass; class后为类名,object表继承类,默认object
-  - 2.`__init__`方法: 设定强制绑定该类的属性, `def __init__(self,arg...):语句`
+  - 1.定义:  class后为类名,object表继承类,默认object
+  
+  ```python
+  class Sth(object): 
+      pass
+  ```
+  
+  - 2.`__init__`方法: 设定强制绑定该类的属性, 第一个参数必须为 self, 该实例的所有参数必须同时传入
+  
+  ```python
+  class Sth(object):
+      def __init__(self,arg...):
+          语句
+  ```
+  
 - 2.实例: 创建实例 sth = Sth()
+
 - 3.封装
   - 1.含义: 为调用数据方便,一般直接将调用数据的方法写入 "类" 中
   
   - 2.使用: 
   
-    ```
+    ```python
     class Sth(object):
     	def __init__(self):
     	... 
@@ -175,7 +248,6 @@
     	...
     ```
   
-    
 
 #### 2.访问限制
 
@@ -185,8 +257,13 @@
 
   - 2.表达式: 
 
-    ~~~  
-    def  __init__(self...): self.__name = name ...  
+    ~~~  python
+    def  __init__(self...): 
+        self.__name = name 
+        ...  
+        
+    def print_score(self):
+        pass
     ~~~
 
 - 2.外部访问私有变量: 可在内部定义专门修改状态和参量的方法
@@ -216,22 +293,48 @@
 #### 1.使用`__slots__`
 
 - 1.实例
-  - 1.给实例绑定属性: 设定属性 s = classA()； 绑定属性 s.name = A
+  - 1.给实例绑定属性: 
+  
+    - 设定属性 s = classA()
+    - 绑定属性 s.name = A
+  
   - 2.给实例绑定方法: 
-    - 1.设定方法 def set_attr(self...): pass 
-    - 2.绑定方法 from ...  s.set_attr = MethodType(set_age, s)
+    - 1.设定方法 
+    
+      ```python
+      def set_attr(self...): 
+          pass 
+      ```
+    
+    - 2.绑定方法 
+    
+    ```python
+    from types import MethodType
+    s.set_attr = MethodType(set_attr, 实例_name, Class_name)
+    ```
 - 2.`__slots__`
   - 1.含义: 限制实例或类的属性
   
   - 2.表达式: 
   
-    `class Sth(object): __slots__ = ('k_1','k_2'...)`
+    ```python
+    class Sth(object): 
+        __slots__ = ('k_1','k_2'...)
+    ```
 
 #### 2.使用@property
 
 - 1.作用: 将方法变成属性调用
+
 - 2.表达式
   - 1.默认@property装饰器: @property def func()... = 默认get方法
+  
+  ```python
+  @property 
+  def func():
+      ...
+  ```
+  
   - 2.衍生@property装饰器: @func.setter, 表set值的方法
 
 #### 3.多重继承
@@ -247,7 +350,13 @@
 - 2.定制`__str__`类
 
   - 1.意义: 优化输出, 用户看到的 print() 输出以 `__str__`输出
-  - 2.表达式: class Sth(object): `def __str__(self)...`
+  - 2.表达式: 
+
+  ```python
+  class Sth(object): 
+      def __str__(self):
+          return ...
+  ```
 
 - 3.定制`__iter__`类
 
@@ -255,15 +364,25 @@
 
   - 2.表达式:
 
-    ```
-    class Sth(object): def __iter__(self)...
-    								     def __next__(self)...
+    ```python
+    class Sth(object): 
+        def __iter__(self):
+            return self
+        #实例本身就是迭代对象, 故返回自己
+    	def __next__(self):
+            ...
     ```
 
 - 4.定制`__getitem__`类
 
   - 1.意义: 定制类以实现按下标读取
-  - 2.表达式: `class Sth(object): def __getitem__(self, n)...`
+  - 2.表达式: 
+
+  ```python
+  class Sth(object): 
+      def __getitem__(self, n):
+          ...
+  ```
 
 - 5.定制`__call__`类
 
@@ -275,7 +394,7 @@
 - 1.枚举类的一般用法: `from enum import Enum  list-1 = Enum (list-1, list[])` 
 - 2.枚举类的高级用法: 
 
-```
+```python
 from enum import Enum, unique 
 				    @unique
 					class list-1(Enum): ...
@@ -348,8 +467,22 @@ try...except...finally..., 若代码可能出错则用try运行，出错时跳�
 #### 1.多进程
 
 - 1.os实现: 代码实现, ChildPid = os.fork()    (注: 仅适用于unix系统)
-- 2.multiprocessing代码: p = Process(target=func, args=('1',))  p.start()
-- 3.进程池: p = Pool(n)  p.apply_async(func, args=(i,))
+- 2.multiprocessing代码: 
+
+```python
+p = Process(target=func, args=('1',))  
+p.start()
+#start()方法启动进程
+p.join()
+```
+
+- 3.进程池: 
+
+```python
+p = Pool(n)  
+p.apply_async(func, args=(i,))
+```
+
 - 4.函数
   - 1.apply_async(func[,args[,kwds[,callback]]]), 即异步非阻塞执行
   - 2.p.close()  关闭进程创造
@@ -402,9 +535,21 @@ try...except...finally..., 若代码可能出错则用try运行，出错时跳�
 #### 1.TCP编程
 
 - 1.客户端
-  - 1.创建Socket: `socket.socket(socket.AF_INET, socket.SOCK_STREAM)` 
-  - 2.连接Socket: `s.connect(tuple), 注: tuple=('url', 端口)` 
+  - 1.创建Socket: 
+  
+    ```python
+    socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    ```
+  
+  - 2.连接Socket: 
+  
+    ```python
+    s.connect(tuple)
+    #tuple=('url', 端口)
+    ```
+  
   - 3.接收数据: `bfr=[]... d=s.recv(1024)  bfr.append(d)` 
+  
   - 4.解析数据:` header, html = d.split(b'\r\n\r\n', 1)` 
 - 2.服务端
   - 1.创建Socket:`s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)` 
