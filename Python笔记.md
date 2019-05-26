@@ -197,8 +197,8 @@ def func_name(func_1):
     语句 
     return func_1
 
-@func-1 
-def func-1(arg):
+@func_name 
+def func_1(arg):
     pass
 ```
 
@@ -218,6 +218,7 @@ func_1 = functools.partial(func, arg-1...)
 #### 1.类和实例	
 
 - 1.类
+  
   - 1.定义:  class后为类名,object表继承类,默认object
   
   ```python
@@ -336,6 +337,18 @@ func_1 = functools.partial(func, arg-1...)
   ```
   
   - 2.衍生@property装饰器: @func.setter, 表set值的方法
+  
+    ```python
+    class Student(object):
+    
+        @property
+        def birth(self):
+            return self._birth
+    
+        @birth.setter
+        def birth(self, value):
+            self._birth = value
+    ```
 
 #### 3.多重继承
 
