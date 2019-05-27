@@ -2,6 +2,14 @@
 
 '-------------------------------------------------------'
 
+## 5.26
+
+- #### automobile---['ɔːtəməbiːl]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=automobile&type=2"></audio>
+
+
+
 ## 5.25
 
 - #### sign-------------------------[saɪn]
