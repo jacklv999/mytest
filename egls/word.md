@@ -16,6 +16,10 @@
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=oncology&type=2"></audio>
 
+- #### monarch-----------['mɑnɚk]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=monarch&type=2"></audio>
+
 
 
 ## 5.26

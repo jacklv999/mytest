@@ -7,7 +7,9 @@
 
 
 
-- [ ] 05.28[CMD命令](https://jacklv999.github.io/mytest/CMD脚本.html)
+- [ ] 05.28[空间模型使用](https://jacklv999.github.io/mytest/空间模型使用.html)
+
+- [ ] 05.27[CMD命令](https://jacklv999.github.io/mytest/CMD脚本.html)
 
 - [ ] 05.22[空间计量经济学笔记](https://jacklv999.github.io/mytest/空间计量经济学笔记.html)
 - [ ] 05.21[练习笔记5-21](https://jacklv999.github.io/mytest/练习笔记 -5.21.html)
