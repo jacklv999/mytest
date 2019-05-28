@@ -2,6 +2,22 @@
 
 '-------------------------------------------------------'
 
+## 5.28
+
+- #### dread---------------------[drɛd]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=dread&type=2"></audio>
+
+- #### mortality-------[mɔr'tæləti]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=mortality&type=2"></audio>
+
+- #### oncology--------[ɑn'kɑlədʒi]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=oncology&type=2"></audio>
+
+
+
 ## 5.26
 
 - #### automobile---['ɔːtəməbiːl]
