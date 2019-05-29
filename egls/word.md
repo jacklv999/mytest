@@ -2,6 +2,32 @@
 
 '-------------------------------------------------------'
 
+## 5.29
+
+ghost  climb  gnaw  pneumonia  knee
+
+psychologist    scissor  eight   wrong   rhinoceros 
+
+- #### pneumonia----[nu'moʊniə]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=pneumonia&type=2"></audio>
+
+- #### conclusion-- [kən'kluʒ(ə)n]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=conclusion&type=2"></audio>
+
+- #### gnaw------------------------[nɔː]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=gnaw&type=2"></audio>
+
+- #### rhinoceros---[raɪˈnɒsərəs]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=rhinoceros&type=2"></audio>
+
+
+
+
+
 ## 5.28
 
 - #### dread---------------------[drɛd]
