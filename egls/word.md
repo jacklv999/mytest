@@ -1,12 +1,42 @@
 ## 英语单词
 
-'-------------------------------------------------------'
-
-## 5.29
-
 ghost  climb  gnaw  pneumonia  knee
 
 psychologist    scissor  eight   wrong   rhinoceros 
+
+'-------------------------------------------------------'
+
+## 5.31
+
+- #### live-----adj/v------[laɪv；lɪv]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=live&type=2"></audio>
+
+- #### civic----------------------['sɪvɪk]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=civic&type=2"></audio>
+
+- #### virtue-------------------['vɝtʃʊ] 
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=virtue&type=2"></audio>
+
+- #### policy------------------['pɑləsi]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=policy&type=2"></audio>
+
+- #### jewel--------------------['dʒuəl]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=jewel&type=2"></audio>
+
+- #### bald-----------------------[bɔld]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=bald&type=2"></audio>
+
+
+
+
+
+## 5.29
 
 - #### pneumonia----[nu'moʊniə]
 
