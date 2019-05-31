@@ -1,7 +1,7 @@
 ## [知乎收藏夹](https://jacklv999.github.io/mytest/zhihu/) &emsp;&emsp;&emsp;&emsp; [读书笔记](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
 ## [英语单词](https://jacklv999.github.io/mytest/egls/word.html) &ensp;&ensp;&emsp;&emsp;&emsp;&emsp;[Pyramid](https://jacklv999.github.io/mytest/读书笔记/语言篇/Pyramid.html)
 
-## [Python笔记](https://jacklv999.github.io/mytest/Python笔记.html)&ensp;&ensp; [计量经济学笔记](https://jacklv999.github.io/mytest/计量经济学笔记.html)
+## [Python笔记](https://jacklv999.github.io/mytest/旧文件整理/Python笔记.html)&ensp;&ensp; [计量经济学笔记](https://jacklv999.github.io/mytest/旧文件整理/计量经济学笔记.html)
 
 ## [自然拼读](https://jacklv999.github.io/mytest/egls/自然拼读法.html) &emsp;&emsp;&emsp;[自然拼读规则](https://jacklv999.github.io/mytest/egls/自然拼读规则.html) 
 

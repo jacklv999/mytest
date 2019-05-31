@@ -1,219 +1,6 @@
 # Python
 
-## 01.数据类型关键字
-
-#### 1.引号		
-
-- 1.任何由引号所包括的文本均为字符串, 且单引号''与双引号""等价
-- 2.若字符串中存在单引号,则必须使用双引号定义字符串
-
-#### 2.数学运算	
-
-- 1.除法: / 表除法; // 表取整除法
-- 2.% 表取余除法	
-
-#### 3.编码		
-
-- 1.Python默认Unicode编码,可支持包括中文在内的多语言
-- 2.ord() 表字符转编码; chm() 表编码转字符
-- 3.字符串: 'string'; 字节码: b'string'
-- 4.编码函数: 'string'.encode('编码类型'), 将指定字符串 'string' 转化至字节码
-- 5.解码函数: 'string'.decode('编码类型'), 将指定字节码 'string' 解码至字符串
-
-#### 4.格式化	
-
-- 1.% 表字符串替换: 单个替换时{'%s'%var}; 多个替换{'%s %d'%(var-1,var-2)} 
-- 2.format()使用: 'string-1 {0} {1}'.format(var-1,var-2)
-- 3.%d 表整数: %nd表占n位以整数输出补空格,%0nd表占n位以整数输出补0
-- 4.%f 表浮点数: %.nf表取n位输出浮点数; %.ne表取n位输出浮点数,以科学计数法表示
-
-#### 5.列表与元组	
-
-- 1.列表	
-   - 1.list: 定义列表, list = []
-   - 2.列表索引: list[0]表从第一个元素开始; list[-1]表从最后一个元素开始
-   - 3.追加列表元素: list.append(value)
-   - 4.增加列表元素: list.insert(索引,value)
-   - 5.删除列表元素: 删除列表最后一项 pop(); 删除列表指定位置 pop(索引)
-   - 6.替换列表元素: list[索引] = value
-- 2.元组	
-   - 1.tuple: 定义 tuple = (值)
-   - 2.tuple值不可更改,但若初始某值为list,则可以改变list中的值
-
-#### 6.字典和集	
-
-- 1.字典
-  - 1.dict: 定义 dict = dict() 或 dict = {key-1:value-1,key-2:value-2...}
-  - 2.取值
-     - 1.dict[key] 取值
-     - 2.key判断: key in dict 得 T/F 或 dict.get(key,value)赋值
-     - 3.删除key: dict.pop(key)
-
-- 2.集
-  - 1.set: 定义 set = set([list]),set中重复元素会自动删除
-  - 2.增加元素: set.add(key)
-  - 3.删除元素: set.remove(key)
-  - 4.集合运算: s1 & s2 表set交集; s1 | s2 表set并集
-
-
-
-## 03.函数
-
-#### 1.调用函数	
-
-- 1.调用方式: 以function(x)调用函数,x为参数
-- 2.数据类型转化:int()转为整数; float()转为浮点; str()转为字符串; bool()转为bool
-
-#### 2.定义函数	
-
-- 1.定义方式: def func(arg): 语句 return 语句
-- 2.定义空函数: def func(): pass
-- 3.参数检查: isinstance(arg,(参数类型1,参数类型2...))
-- 4.返回多个值: arg-1,arg-2 = func; 调用 x 或 y 即所得值  (注: 实际为返回tuple)
-
-#### 3.函数参数	
-
-- 1.默认参数: def func(arg-1,arg-2=n), 调用函数时缺省即为使用默认参数
-- 2.可变参数: def func(*arg), 调用函数时可传入可变参数,其中 arg 为 list 或 tuple*
-- 3.关键字参数: def func(arg-1,**arg-2),用于获取可选参数,arg-2 = dict(key-value)
-- 4.命名关键字参数:def func(arg-1,*,arg_name_1...)获取自定义可选参数,a_name为key
-- 5.参数组合: 同时使用多种参数时,需按顺序:必选、默认、可变、命名关键字和关键字
-
-#### 4.递归函数
-
-- 递归即在函数内部调用自身, def func(): func(), 有助于减少代码复杂度
-
-​	
-
-## 04.高级特性
-
-#### 1.切片		
-
-- 1.正向切片: list[a:b] 或 tuple[a:b] 表索引a - b-1 的切片,若a = 0, 可省略
-- 2.逆向切片: list[-a:-b] 或 tuple[-a:-b] 表索引倒数第 a - b-1 的切片, 若b=0可省
-
-#### 2.迭代
-
-- 1.判断是否可迭代: from collections import Iterable isinstance(object,Iterable)
-- 2.迭代: for key in dict 或 for i in list
-- 3.下标迭代: for i value in enumerate(list) 
-
-#### 3.列表生成式
-
-- 1.普通列表生成: list (range (a,b)), range(a,b)可替换成任意Iterable Object
-
-- 2.复杂列表生成: 
-
-  ```python
-  list (f(x) for x in range (a,b) if g(x)==True)
-  ```
-
-- 3.双重列表生成:
-
-  ```python
-   list (x+y for x in A for y in B)
-  ```
-
-  
-
-#### 4.生成器
-
-- 1.用以处理极复杂的列表生成: 
-
-  ```python
-  generator = (f(x) x in IterableObject)
-  ```
-
-- 2.以函数创建generator: 改函数中的 return 改为 yield 则为generator
-
-  ```python
-  def func(): 
-      语句 
-      yield 值
-  ```
-
-#### 5.迭代器	
-
-- 使用 iter(IterableObject) = iterator
-
-
-
-## 05.函数式编程
-
-#### 1.高阶函数	
-
-- 1.map函数	
-  - 1.表达式:
-  
-    ```python
-    map (func, IterableObj) = Iterator
-    ```
-  
-  -  2.含义: 对单参数函数func, 依次传入 IterableObj 构建 Iterator
-  
-- 2.reduce函数
-  - 1.表达式: 
-  
-  ```python
-  reduce (func, IterableObj) = func((func(...),x2)x1)
-  ```
-  
-  - 2.含义: 对两参数的函数 func 重复运算至结束
-  
-- 3.filter函数
-  - 1.表达式: 
-  
-  ```python
-  filter (func, IterableObj) = Iterator
-  ```
-  
-  - 2.含义: 用函数 func 依次判断 IterableObj 是否满足要求并返回
-  
-- 4.sorted函数
-  - 1.表达式: 
-  
-  ```python
-  sorted (IterableObj, key=func, reverse=False) =list
-  ```
-  
-  - 2.含义: 对 IterableObj 按 func 返回值排序
-
-#### 2.返回函数
-
-- 1.将函数作为返回值: 函数式编程中可以定义函数的返回值为另一函数
-- 2.返回值为函数时,该函数值并未计算得出,若函数参数变化,函数值亦会变化
-
-#### 3.匿名函数	
-
-- lambda x: x * x, 冒号前的 x 为参数
-
-#### 4.装饰器
-
-- 1.含义: 在代码运行期间动态增加功能的方式
-- 2.表达式: 先定义装饰器, 再将装饰器以@语法置于函数定义前
-
-```python
-def func_name(func_1): 
-    语句 
-    return func_1
-
-@func_name 
-def func_1(arg):
-    pass
-```
-
-#### 5.偏函数
-
-  - 1.含义: 将函数的某些参数给固定住（也就是设置默认值），返回一个新的函数
-  - 2.表达式: 
-
-```python
-func_1 = functools.partial(func, arg-1...)
-```
-
-
-
-## 06.面对对象编程
+## 01.面对对象编程
 
 #### 1.类和实例	
 
@@ -289,7 +76,7 @@ func_1 = functools.partial(func, arg-1...)
 
 
 
-## 07.面对对象高级编程
+## 02.面对对象高级编程
 
 #### 1.使用`__slots__`
 
@@ -415,7 +202,19 @@ from enum import Enum, unique
 
 
 
-## 08.错误、调试和测试
+
+
+---
+
+背诵15天
+
+----
+
+
+
+
+
+## 03.IO编程
 
 #### 1.错误处理: 
 
@@ -584,7 +383,7 @@ p.apply_async(func, args=(i,))
 
 
 
-## 	12.访问数据库
+## 	06.访问数据库
 
 #### 1.使用SQLite
 
@@ -608,7 +407,7 @@ p.apply_async(func, args=(i,))
 
 
 
-## 13.Web开发
+## 07.Web开发
 
 #### 1.Web页面
 
@@ -643,7 +442,7 @@ p.apply_async(func, args=(i,))
 
 
 
-## 14.异步IO
+## 08.异步IO
 
 #### 1.协程
 
