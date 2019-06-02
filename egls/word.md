@@ -4,7 +4,19 @@ ghost  climb  gnaw  pneumonia  knee
 
 psychologist    scissor  eight   wrong   rhinoceros 
 
+before cure care mere fire
+
 '-------------------------------------------------------'
+
+## 6.1
+
+- #### mere-----------------------[mɪə]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=mere&type=2"></audio>
+
+
+
+
 
 ## 5.31
 
