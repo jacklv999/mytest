@@ -8,13 +8,47 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 6.5
+
+- #### famine----------------['fæmɪn]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=famine&type=2"></audio>
+
+- #### emulsify---------[ɪ'mʌlsə'fai]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=emulsify&type=2"></audio>
+
+- #### guide----------------------[ɡaɪd]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=guide&type=2"></audio>
+
+- #### society------------[səˈsaɪətɪ]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=society&type=2"></audio>
+
+
+
+## 6.4
+
+- #### -sion后缀-----发音[ʒən]/[ʒn]
+
+  - #### precision-------[prɪ'sɪʒn]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=precision&type=2"></audio>
+
+- #### -ssion后缀-----------发音[ʃən]
+
+  - #### expression-[ɪk'sprɛʃən]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=expression&type=2"></audio>
+
+
+
 ## 6.1
 
 - #### mere-----------------------[mɪə]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=mere&type=2"></audio>
-
-
 
 
 
