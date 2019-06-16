@@ -32,6 +32,10 @@
 - [心理学--相关]
 - [科学学习: the ABCs of learning]
 
+#### 伦理学
+
+- [伦理学导论](https://jacklv999.github.io/mytest/读书笔记/伦理学/伦理学导论.html) 
+
 #### [社会学](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E7%A4%BE%E4%BC%9A%E5%AD%A6/%E7%A4%BE%E4%BC%9A%E5%AD%A6.md)
 
 - [社会学的邀请]
