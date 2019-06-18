@@ -1,13 +1,11 @@
 ## [知乎收藏夹](https://jacklv999.github.io/mytest/zhihu/) &emsp;&emsp;&emsp;&emsp; [读书笔记](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
-## [英语单词](https://jacklv999.github.io/mytest/egls/word.html) &ensp;&ensp;&emsp;&emsp;&emsp;&emsp;[Pyramid](https://jacklv999.github.io/mytest/读书笔记/语言篇/Pyramid.html)
+## [伦理学导论](https://jacklv999.github.io/mytest/读书笔记/伦理学/伦理学导论.html)&ensp;&emsp;&emsp;&emsp;&emsp;[Pyramid](https://jacklv999.github.io/mytest/读书笔记/语言篇/Pyramid.html)
 
 ## [Python笔记](https://jacklv999.github.io/mytest/旧文件整理/Python笔记.html)&ensp;&ensp; [计量经济学笔记](https://jacklv999.github.io/mytest/旧文件整理/计量经济学笔记.html)
 
 ## [自然拼读](https://jacklv999.github.io/mytest/egls/自然拼读法.html) &emsp;&emsp;&emsp;[自然拼读规则](https://jacklv999.github.io/mytest/egls/自然拼读规则.html) 
 
-
-
-- [ ] 待完成 [伦理学导论](https://jacklv999.github.io/mytest/读书笔记/伦理学/伦理学导论.html)
+## [英语单词](https://jacklv999.github.io/mytest/egls/word.html) 
 
 
 
@@ -26,7 +24,6 @@
 - [ ] 05.01[Requests笔记](https://jacklv999.github.io/mytest/requests笔记.html)
 - [ ] 04.30[BeautifulSoup笔记](https://www.jianshu.com/p/03fb1603343c)
 - [ ] 04.29[Pronunciation-Part I](https://jacklv999.github.io/mytest/Prnct--HART.html) --------- [Pronunciation-Part II](https://jacklv999.github.io/mytest/Prnct-Rhythm&Intonation.html) ---------  [Pronunciation-Part III](https://jacklv999.github.io/mytest/Prnct--Consonsant.html) ---------  [Pronunciation-Part IV](https://jacklv999.github.io/mytest/Prnct--Vowel.html)
-- [ ] 04.28[计量经济学笔记](https://jacklv999.github.io/mytest/%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6-Part%20I.html)
-- [ ] 04.27[Markdown数学公式](https://jacklv999.github.io/mytest/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html)
-- [ ] 04.26[反脆弱性](https://www.jianshu.com/p/eb847f984489) 
+- [ ] 04.28[计量经济学笔记](https://jacklv999.github.io/mytest/%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6-Part%20I.html) 
+- [ ] 04.27[Markdown数学公式](https://jacklv999.github.io/mytest/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html) 
 
