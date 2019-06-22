@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>伦理学导论 _简版</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:first-child { margin-top: -20px; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
+html { font-size: 16px; }
+body { font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6; }
+#write { max-width: 860px; margin: 0px auto; padding: 30px 30px 100px; }
+#write > ul:first-child, #write > ol:first-child { margin-top: 30px; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1rem; margin-bottom: 1rem; font-weight: bold; line-height: 1.4; cursor: text; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 tt, h1 code { font-size: inherit; }
+h2 tt, h2 code { font-size: inherit; }
+h3 tt, h3 code { font-size: inherit; }
+h4 tt, h4 code { font-size: inherit; }
+h5 tt, h5 code { font-size: inherit; }
+h6 tt, h6 code { font-size: inherit; }
+h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
+li > ol, li > ul { margin: 0px; }
+hr { height: 2px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; overflow: hidden; box-sizing: content-box; }
+li p.first { display: inline-block; }
+ul, ol { padding-left: 30px; }
+ul:first-child, ol:first-child { margin-top: 0px; }
+ul:last-child, ol:last-child { margin-bottom: 0px; }
+blockquote { border-left: 4px solid rgb(223, 226, 229); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; word-break: initial; }
+table tr { border-top: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; }
+table tr:nth-child(2n), thead { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(223, 226, 229); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr th:first-child, table tr td:first-child { margin-top: 0px; }
+table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
+.CodeMirror-lines { padding-left: 4px; }
+.code-tooltip { box-shadow: rgba(0, 28, 36, 0.3) 0px 1px 1px 0px; border-top: 1px solid rgb(238, 242, 242); }
+.md-fences, code, tt { border: 1px solid rgb(231, 234, 237); background-color: rgb(248, 248, 248); border-radius: 3px; padding: 2px 4px 0px; font-size: 0.9em; }
+code { background-color: rgb(243, 244, 244); padding: 0px 2px; }
+.md-fences { margin-bottom: 15px; margin-top: 15px; padding-top: 8px; padding-bottom: 6px; }
+.md-task-list-item > input { margin-left: -1.3em; }
+@media print {
+  html { font-size: 13px; }
+  table, pre { break-inside: avoid; }
+  pre { word-wrap: break-word; }
+}
+.md-fences { background-color: rgb(248, 248, 248); }
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+.md-mathjax-midline { background: rgb(250, 250, 250); }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h5.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+.md-image > .md-meta { border-radius: 3px; padding: 2px 0px 0px 4px; font-size: 0.9em; color: inherit; }
+.md-tag { color: rgb(167, 167, 167); opacity: 1; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+.sidebar-tabs { border-bottom: none; }
+#typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
+#typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
+.on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
+header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Arial, sans-serif; }
+.file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
+.mac-seamless-mode #typora-sidebar { background-color: var(--side-bar-bg-color); }
+.md-lang { color: rgb(180, 101, 77); }
+.html-for-mac .context-menu { --item-hover-bg-color: #E6F0FE; }
+#md-notification .btn { border: 0px; }
+.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
+
+
+
+
+
+
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>伦理学导论</h1><h2><a name='header-n2' class='md-header-anchor '></a>1.引言</h2><h4><a name='header-n3' class='md-header-anchor '></a>1.Part I 专注于分析和回应伦理学的六种挑战</h4><ul><li>挑战1.利己主义的人性观</li><li>挑战2.决定论与自由之争</li><li>挑战3.道德与宗教</li><li>挑战4.道德相对主义与绝对主义</li><li>挑战5.主观主义对伦理学的挑战</li><li>挑战6.科学主义对伦理学的挑战-----------------------------------------------------------------------</li></ul><h4><a name='header-n17' class='md-header-anchor '></a>2.Part II 寻求伦理学的普世性基础</h4><ul><li>探究人类福祉的概念: 价值论, 探讨人类的善与恶</li><li>思考人类自身的道德: 行动观, 人类的理性与道德 </li><li>讨论伦理学的方法论: 方法论</li></ul><h4><a name='header-n25' class='md-header-anchor '></a>3.Part III 介绍伦理学的理论</h4><ul><li>功利主义</li><li>义务论</li><li>美德理论</li></ul><h1><a name='header-n33' class='md-header-anchor '></a>Part I 挑战</h1><h2><a name='header-n34' class='md-header-anchor '></a>第一章 人都是自私的</h2><h4><a name='header-n35' class='md-header-anchor '></a>1.心理利己主义及其策略</h4><ul><li><p>1.基本假设: 认为人的行为总是源于自私的考虑</p></li><li><p>2.利己主义的策略:</p><ul><li>1.美德是恶品的面具</li><li>2.利他主义是利己主义的手段</li><li>3.利他主义只是为了利己的动机</li><li>4.高尚的行为只是为寻求别人的好感或夸赞或良知的满足, 自私的动机则被隐藏</li></ul></li></ul><h4><a name='header-n68' class='md-header-anchor '></a>2.对利己主义的回应</h4><ul><li>1.即使有大量的事实表明人们经常把道德当成自我利益的手段, 但是也不能证明所有人, 所有时候都这样做</li><li>2.利他的动机源于利他的欲望, 而这一欲望表明利他行为给自己带来快乐, 但是我们不是为得到快乐而采取利他行为</li><li>3.被隐藏和未察觉的动机在未被察觉前不能被视为利他, 利己抑或是其他类型的动机</li></ul><h4><a name='header-n76' class='md-header-anchor '></a>3.自私的基因</h4><ul><li><p>立论: 通过培植一种个体生物层次的有限利他主义, 基因可以最好地实现其自私的目标</p></li><li><p>驳论: </p><ul><li>1.基因本身不具备任何情感, 其只存在一定限度的物理化学反应</li><li>2.即使某些基因促成了宏观层次上的某种行为特征, 也不能否认该行为特征的存在</li></ul></li></ul><h4><a name='header-n87' class='md-header-anchor '></a> </h4><h2><a name='header-n88' class='md-header-anchor '></a>2.决定论</h2><h4><a name='header-n89' class='md-header-anchor '></a>1.选择与责任</h4><ul><li><p>1.指派责任的条件: 只有同时满足以下两条件主体才有必要负责</p><ul><li>1.主事条件: 某人 X 做了 A, 即某主体完成某行为</li><li>2.自由条件: 某人 X 除 A 以外还有其他选择</li></ul></li><li><p>2.决定论认为人们的行动是预先设定或被上帝设定好的, 人们没有自由</p></li></ul><h4><a name='header-n100' class='md-header-anchor '></a>2.决定论与道德责任</h4><ul><li>1.刚性决定论: 全盘接受决定论</li><li>2.意动论: 认为即使过去固定且自然法则不可违背, 个体仍有自由</li><li>3.相容论: 认为自由意志和决定论可相容, 其取决于科学的进展</li></ul><h4><a name='header-n130' class='md-header-anchor '></a>3.如果拒绝决定论...(意动论观点)</h4><ul><li><p>1.论据</p><ul><li>1.使用现象学证据: 我们在直觉上是自由的</li><li>2.宏观论据: 即使我们的生活在大体上是决定的, 某些情况下我们也拥有自由意志</li></ul></li><li><p>2.反驳: </p><ul><li>1.即使拥有自由, 行为由我们自己决定, 但促成决定的因素使实质的自由丧失</li><li>2.若无自由, 个体行为非决定的, 但行为的发生则与事实相悖</li></ul></li></ul><h4><a name='header-n146' class='md-header-anchor '></a>4.即使世界是决定论的...(相容论观点)</h4><ul><li><p>1.人们的行为限于个人能力, 但个人能力与决定论不一定相容</p></li><li><p>2.法兰克福情形: 存在神当且仅当个体的决定与其不一致时干扰个体决定</p><ul><li>备择选项缺失时, 若该行为仍与主观一致, 则仍存在道德责任</li></ul></li></ul><p>&nbsp;</p><h2><a name='header-n162' class='md-header-anchor '></a>第三章 上帝之死</h2><h4><a name='header-n163' class='md-header-anchor '></a>1.卡拉马佐夫论题</h4><ul><li><p>1.宗教信仰的意义</p><ul><li>1.给信徒关于对错的绝对观点</li><li>2.相信绝对权威的奖惩机制</li></ul></li><li><p>2.上帝之死</p><ul><li>1.道德体系的立法者消失</li><li>2.人们不再相信道德</li></ul></li></ul><h4><a name='header-n179' class='md-header-anchor '></a>2.神令论的几个明显困难</h4><ul><li>1.在实践问题上神令论无能为力: 关于动物保护, 自杀等</li><li>2.圣经的道德缺陷: 旧约圣经存在大量非道德叙述</li><li>3.恶的问题: 现实中恶的存在对于全知全能的神的质疑</li></ul><h4><a name='header-n187' class='md-header-anchor '></a>3.游叙弗伦两难</h4><ul><li>1.游叙弗伦两难问题:  上帝命令正确的行动是因为它是正确的, 还是说该行动之所以正确是因为上帝命令了它 ? </li><li>2.宗教的反驳: 认为神是全知全能全善的, 上帝即善</li><li>3.缺陷: 上帝全善意味着上帝本身不创造道德, 仅表示其能更好地分辨善恶</li></ul><h4><a name='header-n195' class='md-header-anchor '></a>4.总结</h4><ul><li>1.若上帝不是伦理学基础, 则上帝之死不影响伦理学</li><li>2.宗教是很多人的心理基础, 但绝对不是逻辑基础</li><li>3.宗教通过大量的事例样本为信徒提供道德推理途径</li></ul><p>&nbsp;</p><h2><a name='header-n204' class='md-header-anchor '></a>第四章 相对主义</h2><h4><a name='header-n205' class='md-header-anchor '></a>1.文化多样性的思考</h4><ul><li>1.即使在不同的文化实践中, 文化的内核仍有很多相似之处: 如尊老爱幼</li><li>2.道德的意义在于提升整体的福祉, 与之背道而驰的习俗 在任何意义上都是不道德的</li></ul><h4><a name='header-n218' class='md-header-anchor '></a>4.宽容及其他</h4><ul><li><p>1.相对主义观点</p><ul><li>1.若道德相对于文化, 则不存在批评其他文化的道德, 我们应宽容其他文化的道德</li><li>2.辩护原则: 我们不应该干涉他人, 除非我们的干涉在他们面前是可辩护的</li></ul></li><li><p>2.反驳: </p><ul><li>1.文化的多样性意味着很多文化不一定支持宽容, 至少是在特定领域的宽容</li><li>2.辩护原则意味着文化间不能存在干涉</li><li>3.无条件的宽容并不一定总具有正面价值, 宽容应该存在限度</li></ul></li><li><p>3.相对主义本身的问题</p><ul><li>1.道德进步问题: 道德随时间进步于相对主义而言是潮流变化, 但是却是时代进步</li><li>2.亚群体问题: 社会的规范与亚群体的规范不一定一致, 两者常常冲突</li></ul></li></ul><p>&nbsp;</p><h2><a name='header-n244' class='md-header-anchor '></a>第五章 主观主义</h2><h4><a name='header-n245' class='md-header-anchor '></a>1.个体与社会</h4><ul><li>1.道德不是普遍的, 是因人而异的. 即主观主义反对道德的社会性</li><li>2.认为道德施加的内容值得怀疑, 道德的权威性应该颠覆</li></ul><h4><a name='header-n251' class='md-header-anchor '></a>2.主观主义的论证</h4><ul><li>1.道德证明是不可能的:  关于道德的正确性难以证明</li><li>2.宽容:  主观主义是对他人观点的一种宽容</li><li>3.自由:  每个人的道德观都不逊于他人的道德观</li><li>4.率真性:  源自笛卡尔, 只有自我是确定的, 他者均需验证</li></ul><h4><a name='header-n261' class='md-header-anchor '></a>3.对主观主义的回应</h4><ul><li><p>1.道德证明:  道德的证明分为两个方面, 道德是否存在和如何证明</p><ul><li><p>1.道德的存在问题:  由形而上学证明</p></li><li><p>2.道德的论证问题:  </p><ul><li>1.部分道德原则建立于错误的非道德信念, 则应该放弃</li><li>2.部分道德原则之间有内在的不一致性, 则应该调整</li></ul></li><li><p>3.补充论据: 即使道德不能证明, 也不能说明所有道德观点均正确</p></li></ul></li><li><p>2.关于宽容:  </p><ul><li>1.宽容于某理论的优点除非独有, 否则不能支持该理论</li><li>2.宽容不是终点而是起点, 旨在保留分歧减少争论以共同解决问题</li></ul></li><li><p>3.关于率真</p><ul><li>1.率真之于主观使得任何逻辑表述均需要表示对相对论述</li><li>2.基于率真的主观主义可导致不可接受的规范伦理结果, 如屠杀,纳粹</li></ul></li></ul><h4><a name='header-n302' class='md-header-anchor '></a>4.对主观主义的批评</h4><ul><li>1.道德判断不可能出错:  主观主义的相对论述使得其不具备可证伪性</li><li>2.所有道德判断相左:  主观主义道德的主观判断使得所有道德判断向左</li><li>3.不可能有道德分歧</li></ul><p>&nbsp;</p><h2><a name='header-n311' class='md-header-anchor '></a>第六章 科学主义</h2><h4><a name='header-n312' class='md-header-anchor '></a>1.道德事实的地位</h4><ul><li>科学主义认为道德事实的存在于道德的解释无意义</li></ul><h4><a name='header-n318' class='md-header-anchor '></a>2.道德观察</h4><ul><li>1.于科学主义而言, 描述世界不需要引入善恶等道德性质--奥卡姆原则</li><li>2.道德不能被直接观察到 (但不能被观察不否定存在)--休谟观点</li><li>3.科学主义认为事件的道德性质是人们后来加上的</li></ul><h4><a name='header-n326' class='md-header-anchor '></a>3.道德属性的怪异性</h4><ul><li><p>1.道德的客观规约性--迈奇的观点</p><ul><li>1.道德的客观性: 道德不具备客观实在性</li><li>2.道德的规约性:  道德仅具有规约性</li></ul></li><li><p>2.迈奇由此认为道德类似于迷信而不存在</p></li></ul><h4><a name='header-n337' class='md-header-anchor '></a>4.理解客观价值</h4><ul><li><p>1.关于道德观点的总结:  三点(休谟观点, 奥卡姆原则和迈奇观点)</p></li><li><p>2.对迈奇观点的反驳:  </p><ul><li>1.视道德为倾向性, 不能被观察但表现在特定情形</li><li>2.视道德为规范命题, 很多人的违反和忽视并不否定其存在</li></ul></li></ul><p>&nbsp;</p><h1><a name='header-n359' class='md-header-anchor '></a>Part II 基础</h1><h2><a name='header-n360' class='md-header-anchor '></a>第七章 人类善</h2><h4><a name='header-n361' class='md-header-anchor '></a>1.享乐主义</h4><ul><li>1.快乐和痛苦抵消的余额是个人福利状况的唯一指标</li><li>2.快乐和痛苦是仅有的内在善和内在恶</li></ul><h4><a name='header-n390' class='md-header-anchor '></a>2.趣向论</h4><ul><li><p>1.心理状态论: 认为个体心理状态决定福祉, 即个体主观感受决定福利</p><ul><li>争议: 个体的对外感知决定福利, 则欺骗和背叛的道德基础消失</li></ul></li><li><p>2.趣向论: 个体的福祉取决于其是否拥有其期望的东西</p><ul><li>优势: 不必诉诸于价值论和形而上学, 契合于自由主义, 避免了缸中脑争论</li></ul></li><li><p>3.实际趣向论:  指与生活相关的趣向, 但受制于个人经验和信息常不合理</p></li><li><p>4.理想趣向论:  指准确信息, 理性思考下的欲望的满足决定福祉. 如饮酒, 善的判断转向客观.</p></li></ul><h4><a name='header-n406' class='md-header-anchor '></a>3.客观善与至善论</h4><ul><li><p>1.客观善: 存在客观的善和恶, 个体的福祉取决于其生活包含的客观善与恶.</p></li><li><p>2.至善论: 对客观善的讨论引向了至善论</p><ul><li>缺陷: 否定个体对于自身福利的判断</li></ul></li></ul><p>&nbsp;</p><h2><a name='header-n416' class='md-header-anchor '></a>第八章 实践理性</h2><h4><a name='header-n417' class='md-header-anchor '></a>1.实践理性的理论要求</h4><ul><li>1.必须包含规范性理由: 说明在某种情况下让人们如何行事的理由</li><li>2.必须包含动机性理由: 使行动在心理学意义上可行的理由</li></ul><h4><a name='header-n446' class='md-header-anchor '></a>2.工具主义</h4><ul><li><p>1.工具主义实践理性观: 理性指导实践, 是且仅是说明何种手段可达目标, 手段是否恰当不论</p></li><li><p>2.工具主义的局限:</p><ul><li>1.工具主义的限制条件: 存在目标X, 相信Y是达成X的必要手段, 打算行为Y</li><li>2.局限: 工具原则要求采取必要手段满足欲望, 但是欲望本身需要辩护理由</li></ul></li><li><p>3.对工具主义的回应: </p><ul><li>1.尽管所有价值最终均依赖于个人主观目的, 但是个人的欲望之间存在重要性的不同</li><li>2.工具主义理性仅说明行动的必要性, 但对目标的说明需借助其他理论, 因而不完善</li><li>3.良序性的条件太弱无法对一组目标提供说明</li></ul></li></ul><h4><a name='header-n468' class='md-header-anchor '></a>3.超越工具主义</h4><ul><li><p>1.关于客观目的的实践推理: </p><ul><li>1.关于理性: 认为理性既发现独立于人类认知的客观目的, 又通过客观目的的指引去激发行动</li><li>2.缺陷: 不能确定如何认识到独立于人类认知的客观目的</li></ul></li><li><p>2.既不预设主观目的, 也不以客观目的为导向的实践推理: </p><ul><li><p>1.绝对命令: 由普遍性认证所确立的最高道德原则, 即康德的实践理性</p></li><li><p>2.缺陷: 认为绝对命令是不充分且不必要的</p><ul><li>1.普遍性的认证也可以是不道德的</li><li>2.道德也不一定能获得普遍性认证</li></ul></li></ul></li></ul><p>&nbsp;</p><h2><a name='header-n498' class='md-header-anchor '></a>第九章 理论与方法</h2><h4><a name='header-n499' class='md-header-anchor '></a>1.伦理理论本质</h4><ul><li><p>1.伦理理论的分类:</p><ul><li>1.功利主义: 把对结果的评价当作最基本的评价, 其他范畴的评价均来自结果评价的推演</li><li>2.义务论: 对行动的判断时最基本的道德判断, 其他道德判断均衍生的</li><li>3.美德理论: 把对行动主体所展现的品格的评价看作是根本性的</li></ul></li><li><p>2.对伦理理论的说明: </p><ul><li><p>1.行动规则理论: 关于如何行动的说明</p></li><li><p>2.价值理论: 对于价值的说明</p><ul><li>1.道德价值理论</li><li>2.非道德价值理论</li></ul></li></ul></li><li><p>3.伦理理论的目的:</p><ul><li>1.实践目的: 使我们在思考对错时有法可依</li><li>2.理论目的: 解释为什么对的行为是对的, 好的事态是好的, 什么使得行为是对的, 是好的</li></ul></li></ul><h4><a name='header-n546' class='md-header-anchor '></a>2.反理论思潮</h4><ul><li><p>1.理论性的模型是不当的</p><ul><li>1.道德概念, 诸如义务, 应该等, 继承于神学道德观, 在今天已不具备可理解性</li><li>2.道德概念源于法律, 而上帝作为道德立法者的形象已不存在</li></ul></li><li><p>2.理论化观点的关注点是错误的: </p><ul><li>认为道德是社会实践, 根植于人们的交往, 敏感于情境性和特殊性, 不限于抽象规则</li></ul></li><li><p>3.单一的伦理理论不可能: 存在多元的道德传统, 道德理论是混乱的, 道德实践是分裂的</p></li><li><p>4.特殊主义: </p></li><li><p>5.案例法: 从可以直接做出判断的典型情形推导新的情形</p></li><li><p>6.对反理论思潮的回应:</p><ul><li>1.理论化的活动实际上是道德实践的一部分, 道德的理论化, 力求严格的推导广泛存在</li><li>2.在个人层次和社会层次上, 对可能后果的计算和权衡常常是重要的推理方式</li><li>3.道德劝导, 道德教育以及其他广泛形式的道德交流常依赖于对一般原则的引证</li><li>4.若上述观察正确, 则伦理理论化是人们实践理论化的延申</li></ul></li></ul><h4><a name='header-n584' class='md-header-anchor '></a>3.案例法再思考</h4><ul><li><p>1.案例法原则: 通过技巧将复杂的道德推理简化, 通过案例对照和类比达到道德结论</p></li><li><p>2.关于道德原则: 案例法主义者怀疑普遍原则, 而看重先例和案例</p></li><li><p>3.案例法的缺陷: </p><ul><li>1.从案例到案例的过渡可能依赖某些未被意识到的原则</li><li>2.案例同样可能出现冲突, 每一具体案例都有非常复杂和丰富的特点</li><li>3.案例法隐含了一种道德上的保守性</li><li>4.不同个体对案例的思考可能导致不同结论</li></ul></li></ul><h4><a name='header-n601' class='md-header-anchor '></a>4.理论化方法</h4><ul><li><p>1.基础主义: </p><ul><li>1.信念体系的辩护是通过被辩护的信念与不需被辩护的信念逻辑关系完成的</li><li>2.不需被辩护的信念包括自明信念(1+1=2)和自我辩护信念(不可能所有话都是错的)</li><li>3.当代基础主义早已式微, 因为逻辑命题和感觉命题都无法成为道德命题的基础</li></ul></li><li><p>2.融贯论: </p><ul><li>1.信念的辩护只能通过它与其他信念的关系来进行</li><li>2.若一个信念系统的信念相互支持, 那么整个系统就得到了辩护</li><li>3.融贯论是当代最流行的伦理学方法</li></ul></li></ul><p>&nbsp;</p><h1><a name='header-n622' class='md-header-anchor '></a>Part III 理论</h1><h2><a name='header-n623' class='md-header-anchor '></a>第十章 功利主义</h2><h4><a name='header-n624' class='md-header-anchor '></a>1.功利主义的一般结构</h4><ul><li><p>1.功利主义的结构</p><ul><li>1.福利主义: 认为福利是伦理考虑的唯一要素, 凡是不影响福利升降的事情都与道德无关</li><li>2.个体福祉的基本性: 行动的功利是对所有个体功利的函数</li><li>3.功利的定量化: 功利是一个定量或者至少原则上可以定量的概念</li><li>4.普遍性:  当我们考察一个行动带来的功利时, 需考虑该行动对所有受影响个体的功利</li><li>5.不偏不倚: 功利主义拒绝对于某些人的利益的优先考虑, 要求平等对待每个人的福利</li><li>6.功利的最大化</li></ul></li><li><p>2.功利主义对于正确的行动: 一个行动是正确的, 当且仅当其功利不小于行动者其他行为功利</p></li></ul><h4><a name='header-n652' class='md-header-anchor '></a>2.古典功利主义</h4><ul><li><p>1.古典主义的功利主义是一种享乐主义的功利主义理论</p></li><li><p>2.古典主义对正确行动的原则: 正确的行动产生的快乐减去痛苦后至少与其他行动一样大</p></li><li><p>3.对痛苦或快乐的经验定量化: 强度, 持续期, 确定性, 临近性等</p></li><li><p>4.密尔的改进:  高级快乐绝对优先低级快乐</p></li><li><p>5.对密尔观点的批评:</p><ul><li>1.对质的概念的不可理解性容易导致塌缩到量上</li><li>2.对质的判断以及谁可以对质做出判断</li></ul></li></ul><h4><a name='header-n689' class='md-header-anchor '></a>3.对古典功利主义的几个反驳</h4><ul><li><p>1.来自于不可实践性的反驳</p><ul><li>1.在具体情况下, 计量功利主义的最有需要过于复杂的考量</li><li>2.尽管我们了解自己的福利偏好, 但是对于他人的福利函数缺乏了解</li></ul></li><li><p>2.诺齐克的体验机器: 无法解决 &quot;体验机器&quot;, &quot;缸中脑&quot; 等道德情形</p></li><li><p>3.功利最大化原则要求太高</p></li><li><p>4.与日常道德相抵触</p></li></ul><h4><a name='header-n706' class='md-header-anchor '></a>4.当代功利主义</h4><ul><li><p>1.与日常道德相抵触:</p><ul><li>1.否认日常道德在想象情形中的有效性</li><li>2.否认批评者对功利主义道德判断的推定, 如除考虑当前价值, 还需要考虑长远影响</li></ul></li><li><p>2.趣向满足功利主义: 认为福利取决于欲望的实现, 而非单纯的感官感受</p></li><li><p>3.规则功利主义: 不要求绝对意义的功利最大化, 但要求个体行为与最大化原则相关</p><ul><li>缺陷: 可能具有不一致性和不稳定性</li></ul></li><li><p>4.多元主义的功利主义: 人类福利是由合理计划的追求和实现以及个人和社会关系构成</p></li></ul><p>&nbsp;</p><h2><a name='header-n728' class='md-header-anchor '></a>第十一章 义务论</h2><h4><a name='header-n729' class='md-header-anchor '></a>1.义务论的一般特点</h4><ul><li><p>1.义务论的行动约束方式: </p><ul><li>1.规则义务论: 列出一个或一组规则让行动者遵守</li><li>2.行动义务论：认为道德行为不靠规则指导，人们只需要诉诸良知或信仰等</li></ul></li><li><p>2.义务论理论：</p><ul><li>1.构成道德要求的原则或义务的理论基础</li><li>2.人类的基本义务及其指导规则</li><li>3.不同义务之间的逻辑关系</li></ul></li><li><p>3.义务论的制约：</p><ul><li>1.对消极义务和积极义务的区分</li><li>2.强调消极义务优先于积极义务</li><li>3.义务论对最大化善存在制约</li></ul></li><li><p>4.自由度</p><ul><li>1.认为人们可以自由追求个人目标，只要不违反道德规则</li><li>2.功利主义否认这种自由</li></ul></li><li><p>5.特殊关系的义务：承认特殊关系引起的义务，并认可其优先性</p></li><li><p>6.超义务：认为帮助他人的义务是有限的，但也认可超过义务的道德行为</p></li></ul><h4><a name='header-n767' class='md-header-anchor '></a>2.康德的道德理论</h4><ul><li><p>1.道德要求是实践理性的要求</p><ul><li>1.康德认为道德义务在所有实践要求中具有至高无上的地位: 不受限制且具有无上权威</li><li>2.道德义务存在的原因: 实践理性的要求促成道德义务</li><li>3.实践理性: 康德从我们不断追求行为背后理由的过程确认我们是依据理由的行动者</li><li>4.实践理性的特点: 理性不受任何限制, 且理性的是压倒性的, 因为其他权威都可怀疑</li><li>5.道德义务的根据: 依据理由去行动</li><li>6.康德认为实践理性的能力及运作, 体现在行动者能够做出自己的决定, 施行自己的行动</li></ul></li><li><p>2.对普遍法则的尊重</p><ul><li>1.义务源于法则的要求, 法则使得有些行动成为义务</li><li>2.道德义务适用且仅适用所有理性存在者, 因此与道德义务相联系的法则就是普遍法则</li></ul></li><li><p>3.绝对命令和假言命令</p><ul><li><p>1.绝对命令与假言命令</p><ul><li>1.假言命令: 如果你想要A, 那么做B</li><li>2.绝对命令: 做X</li></ul></li><li><p>2.只有绝对命令才是道德义务的真正表达</p></li><li><p>3.假言命令的合理性通常可以检验, 而绝对命令不可以, 只依赖于人类的理性</p></li><li><p>4.对人性的表述: 永远不要把人性只当作工具, 而要当作目的</p></li></ul></li><li><p>4.可普遍化检验</p><ul><li>1.检验方式: 当行动者以某准则行事, 该行动是否正确依赖于其是否期望所有人如此行事</li><li>2.关键要素: 行动准则和意愿的一致性</li></ul></li><li><p>5.价值论</p><ul><li>1.康德非常看重自由做出选择的能力</li><li>2.康德特别强调服务于义务的履行的道德价值</li></ul></li></ul><h4><a name='header-n821' class='md-header-anchor '></a>3.检验可普遍化检验</h4><ul><li>1.可普遍化检验产生了一些无聊或无关道德的结论: 如对左撇子的偏见</li><li>2.错误行动依据的准则可通过可普遍化检验: 如利用法律漏洞</li><li>3.正确行动依据的准则不能通过可普遍化检验: 如错峰交通</li></ul><h4><a name='header-n829' class='md-header-anchor '></a>4.罗斯的显见义务</h4><ul><li><p>1.显见义务: </p><ul><li>1.某情形具有一个道德上相关的特点, 要求你做某个行动</li><li>2.若该情形没有其他道德相关的特点, 则该行动成为正式义务</li></ul></li><li><p>2.基本显见义务: 诚实, 赔偿, 感恩, 公正, 行善, 自新, 与人为善</p></li><li><p>3.对显见义务的证明: 显见义务是自明的, 不需要证明且不可证明</p></li></ul><p>&nbsp;</p><h2><a name='header-n843' class='md-header-anchor '></a>第十二章 美德理论</h2><h4><a name='header-n844' class='md-header-anchor '></a>1.何为美德?</h4><ul><li><p>1.美德</p><ul><li>1.伦理学家认为, 美德是一类有着丰富特点的品格特征, 正是这些特征将值得赞扬和钦佩的人与其他人区分开来</li><li>2.品质: 相对固定, 习惯性的行动倾向和行动模式</li></ul></li><li><p>2.美德的要素</p><ul><li>1.美德具有行为学的要素, 表示个体总具有某些行为的倾向和动机, 且更容易完成该类行为</li><li>2.美德具有情感的要素, 对他人的美德行为总持有正面态度</li><li>3.美德具有理智的要素, 体现在理智的判断中</li></ul></li><li><p>3.美德的获取</p><ul><li>1.美德伦理学家一般认为美德是通过学习和训练获取的</li><li>2.美德是狡猾, 训练和坚持的结果</li></ul></li><li><p>4.美德与中道</p><ul><li>1.美德是在两个极端之间取中道, 不完全压制欲望, 也不沉湎欲望</li><li>2.举例: 勇敢是鲁莽和怯懦的中道, 慷慨是奢侈和吝啬的中道</li></ul></li><li><p>5.美德的分类</p><ul><li><p>1.亚里士多德的观点:</p><ul><li>1.理智的美德: 属于心灵的从事推理的美德</li><li>2.伦理的美德: 不做推理但能够遵循的美德</li></ul></li><li><p>2.当代观点:</p><ul><li>1.认为一部分美德比其他美德更加基本, 称为基要美德</li><li>2.原因: 其不依赖且不从属于其他美德</li></ul></li></ul></li><li><p>6.美德是统一的还是多元的</p><ul><li>1.亚里士多德认为美德是统一的: 要求拥有一种美德实际上等于拥有所有美德</li><li>2.当代观点认为美德是多元的: 当美德存在冲突时, 个体按自己的道德判断行事</li></ul></li><li><p>7.美德是普遍的, 还是因人而异的 ?</p><ul><li>1.从个人层面看, 每个个体都是不同种类的个体, 应该具有不同的品格</li><li>2.从社会层面看, 不同社会之间存在巨大的差异, 美德的标准因而是局部的</li></ul></li></ul><h4><a name='header-n907' class='md-header-anchor '></a>2.为什么需要美德? </h4><ul><li><p>1.观点一: 认为美德是好事, 具有美德的人倾向于做道德上正确的事</p><ul><li>缺陷: 美德只是帮助了道德上正确的事, 但不决定何者正确于道德</li></ul></li><li><p>2.观点二: 认为美德本身就是值得追求的价值, 不论其是否具有其他工具性价值</p><ul><li>论证: 于人类而言, 存在某种最高形式的善, 是个人的自我实现, 是美德的指向</li></ul></li></ul><h4><a name='header-n919' class='md-header-anchor '></a>3.美德理论与正确行动</h4><ul><li><p>1.美德理论对价值的说明</p><ul><li>观点一: 非道德的善更加基本, 我们可以用它定义美德</li><li>观点二: 美德在价值论中是根本性的, 非道德的善是根据美德来定义的</li><li>总结: 美德伦理学家认为, 正确行动即是按照美德来定义的</li></ul></li><li><p>2.赫斯特豪斯的理论</p><ul><li><p>原则: 某行动在某环境正确的前提是有美德的行动者会在该环境中如此反应</p></li><li><p>优点: 更具体, 更丰富, 更有机</p></li><li><p>缺陷: </p><ul><li>1.美德理论无法提供精确指导</li><li>2.面临游叙弗伦两难</li></ul></li></ul></li></ul></div>
+</body>
+</html>

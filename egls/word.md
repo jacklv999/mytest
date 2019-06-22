@@ -8,6 +8,18 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 5.20
+
+- #### coerce---------------------[ko'ɝs]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=coerce&type=2"></audio>
+
+- #### shepherd---------------['ʃɛpɚd]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=shepherd&type=2"></audio>
+
+
+
 ## 6.5
 
 - #### famine----------------['fæmɪn]

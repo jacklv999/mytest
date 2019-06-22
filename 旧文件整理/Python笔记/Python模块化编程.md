@@ -1,18 +1,16 @@
-# 练习笔记 -5.21
-
 #### 1.Python模块化编程
 
 - 1.模块化编程: 
-  
+
   - 1.代码: 
-  
-    ``` python
+
+    ```python
     if __name__ == "__main__":
     	pass	
     ```
-  
+
   - 2.含义: Python代码运行时引入其他模块, `__name__`的值变为该模块名称, 若不强制赋值会导致完整运行整个引入模块
-  
+
 - 2.模块路径
 
   - 1.自定义模块与主程序在同一目录: 
@@ -30,24 +28,4 @@
     from 工程文件夹顶级目录.次级目录...file_name import func_name
     ```
 
-#### 2.R语言空间计量
-
-- 1.赤池信息准则函数: `AIC(model)`
-
-- 2.施瓦茨信息准则: `BIC(model)`
-
-- 3.假设检验
-
-  - 1.B-P检验
-
-  ```R
-  #首先引入包lmtest 和 tseries
-  bptest(model)
-  ```
-  - 2.J-B检验
-
-  ```R
-  jarque.beta.test(model$residuals)
-  ```
-
-  
+#### 
