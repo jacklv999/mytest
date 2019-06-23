@@ -74,10 +74,11 @@ cleanup - code
 
   ```R
   try(expr, silent = FALSE,
-      outFile = getOption("try.outFile", default = stderr()))#
+      outFile = getOption("try.outFile", ))#
   ```
 
   - try()函数第一个参数为调用的方法，第二个参数为是否显示异常消息。
+  - 代码块用大括号包含, `try({code},silent = FALSE)` 
 
 #### 5.data.frame数据
 
