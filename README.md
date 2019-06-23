@@ -3,7 +3,7 @@
 
 ## [自然拼读](https://jacklv999.github.io/mytest/egls/自然拼读法.html) &emsp;&emsp;&emsp;[自然拼读规则](https://jacklv999.github.io/mytest/egls/自然拼读规则.html) 
 
-## [英语单词](https://jacklv999.github.io/mytest/egls/word.html) &emsp;&emsp;&emsp;&emsp;  [Python笔记](https://jacklv999.github.io/mytest/旧文件整理/Python笔记.html)
+## [英语单词](https://jacklv999.github.io/mytest/egls/word.html) &ensp;&emsp;&emsp;&emsp;  [Python笔记](https://jacklv999.github.io/mytest/旧文件整理/Python笔记.html)
 
 
 - [ ] 05.30[空间回归代码](https://jacklv999.github.io/mytest/旧文件整理/空间计量/空间回归代码.html) 
