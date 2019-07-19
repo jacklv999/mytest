@@ -10,6 +10,8 @@
 
 
 
+
+
 - [ ] 06.20[R语言特征值相关性分析](https://jacklv999.github.io/mytest/pic/R语言特征值相关性分析.html) 
 - [ ] 06.18[练习6-18笔记](https://jacklv999.github.io/mytest/6-18笔记.html) 
 - [ ] 05.30[空间回归代码](https://jacklv999.github.io/mytest/旧文件整理/空间计量/空间回归代码.html) 
