@@ -14,7 +14,7 @@
 
 [BiGAN及InfoGAN](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/BiGAN及InfoGAN.html)
 
-[RL for LM, SeqGAN, and MaliGAN](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/RL-for-LM,-SeqGAN-and-MaliGAN.html)
+[RL for LM, SeqGAN, and MaliGAN](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/RL-for-LM-SeqGAN-and-MaliGAN.html)
 
 [Evalution of GAN model](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/Evalution-of-GAN-model.html)
 
