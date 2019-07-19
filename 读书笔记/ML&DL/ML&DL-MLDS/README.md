@@ -22,3 +22,4 @@
 
 [Inverse RL](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/Inverse-RL.html)
 
+[SELU-BN-HighWayNN](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/SELU-BN-HighWayNN.html) 
