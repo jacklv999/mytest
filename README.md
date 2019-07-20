@@ -5,13 +5,10 @@
 
 ## [英语单词](https://jacklv999.github.io/mytest/egls/word.html) &ensp;&emsp;&emsp;&emsp;  [Python笔记](https://jacklv999.github.io/mytest/Python笔记.html)
 
-## [MLDS](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/)
+## [MLDS](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/) 
 
 
-
-
-
-
+- [ ] 07.20[Scrapy selector](https://jacklv999.github.io/mytest/Scrapy Selector.html) 
 - [ ] 06.20[R语言特征值相关性分析](https://jacklv999.github.io/mytest/pic/R语言特征值相关性分析.html) 
 - [ ] 06.18[练习6-18笔记](https://jacklv999.github.io/mytest/6-18笔记.html) 
 - [ ] 05.30[空间回归代码](https://jacklv999.github.io/mytest/旧文件整理/空间计量/空间回归代码.html) 
