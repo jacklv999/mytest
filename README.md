@@ -1,11 +1,11 @@
 ## [知乎收藏夹](https://jacklv999.github.io/mytest/zhihu/) &emsp;&emsp;&emsp;&emsp; [读书笔记](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
 ## [伦理学导论](https://jacklv999.github.io/mytest/读书笔记/伦理学/伦理学导论.html)&ensp;p2&ensp;&emsp;&emsp;[Pyramid](https://jacklv999.github.io/mytest/读书笔记/语言篇/Pyramid.html)
 
-## [自然拼读](https://jacklv999.github.io/mytest/egls/自然拼读法.html) &emsp;&emsp;&emsp;[自然拼读规则](https://jacklv999.github.io/mytest/egls/自然拼读规则.html) 
+## [自然拼读](https://jacklv999.github.io/mytest/egls/自然拼读法.html) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[MLDS](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/) 
 
 ## [英语单词](https://jacklv999.github.io/mytest/egls/word.html) &ensp;&emsp;&emsp;&emsp;  [Python笔记](https://jacklv999.github.io/mytest/Python笔记.html)
 
-## [MLDS](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/)   
+
 
 
 - [ ] 07.20[Scrapy selector](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Scrapy-Selector.html)  
