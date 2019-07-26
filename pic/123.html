@@ -2,31 +2,25 @@
 <html>
 <head>
  <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+
+
+
+
+
+<meta name="full-screen" content="yes">
+<meta name="browsermode" content="application">
+
+
+
+
+
+
+
+
 <title>MARI</title>
 </head>
 <body>
-
-<div style="margin:0 auto;height:600px;width:700px;">  
-<button id="btn">js控制页面的全屏展示和退出全屏显示</button>  
-
-
-
-
-
-
-  
-<div id="content" style="margin:0 auto;height:500px;width:700px; background:#dbe4e6;" >  
-
-
-
-
-
-
-
-
-
-
-
     <table>
         <tr>
             <td align="center" width="550"><img src="http://mari.hzau.edu.cn/images/logo1.png" width="500" height="75" /></td>
@@ -91,15 +85,6 @@
 
 
 
-
-
-
-
-   
-</div>  
-</div>    
-
- 
 
 
 
@@ -1266,23 +1251,65 @@ $(function(){
     </style>
 
 
-<script language="JavaScript">      
-document.getElementById("btn").onclick=function(){     
-    var elem = document.getElementById("content");      
-    requestFullScreen(elem);     
-};     
-function requestFullScreen(element) {    
-    var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullScreen;    
-    if (requestMethod) {      
-        requestMethod.call(element);    
-    } else if (typeof window.ActiveXObject !== "undefined") {      
-        var wscript = new ActiveXObject("WScript.Shell");    
-        if (wscript !== null) {    
-            wscript.SendKeys("{F11}");    
-        }    
-    }    
-}    
-</script>   
+
+
+
+
+
+
+
+
+
+
+<html><head></head><body>123
+<input value="全屏" type='button' οnclick='toggleFullScreen();' />
+<template>
+    <div v-if='!isFullscreen'> 非全屏状态</div>
+    <div v-if='isFullscreen'> 全屏状态</div>
+</template>
+
+<script>function toggleFullScreen() {
+	if (!document.fullscreenElement && // alternative standard method
+		!document.mozFullScreenElement && !document.webkitFullscreenElement) {// current working methods
+		if (document.documentElement.requestFullscreen) {
+			document.documentElement.requestFullscreen();
+		} else if (document.documentElement.mozRequestFullScreen) {
+			document.documentElement.mozRequestFullScreen();
+		} else if (document.documentElement.webkitRequestFullscreen) {
+			document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+		}
+	} else {
+		if (document.cancelFullScreen) {
+			document.cancelFullScreen();
+		} else if (document.mozCancelFullScreen) {
+			document.mozCancelFullScreen();
+		} else if (document.webkitCancelFullScreen) {
+			document.webkitCancelFullScreen();
+		}
+	}
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   </html>
