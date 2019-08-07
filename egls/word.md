@@ -8,6 +8,14 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 8.7
+
+- #### charlotte----------['ʃɑrlət]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=charlotte&type=2"></audio>
+
+
+
 ## 8.6
 
 - #### inference---------推理, 推论
@@ -15,16 +23,14 @@ before cure care mere fire
 <audio controls src="http://dict.youdao.com/dictvoice?audio=inference&type=2"></audio>
 
 
-
 ## 5.20
 
-- #### coerce---------------------[ko'ɝs]
+- #### coerce--------------------[ko'ɝs]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=coerce&type=2"></audio>
-- #### shepherd---------------['ʃɛpɚd]
+- #### shepherd--------------['ʃɛpɚd]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=shepherd&type=2"></audio>
-
 
 ## 6.5
 
@@ -34,13 +40,12 @@ before cure care mere fire
 - #### emulsify---------[ɪ'mʌlsə'fai]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=emulsify&type=2"></audio>
-- #### guide----------------------[ɡaɪd]
+- #### guide---------------------[ɡaɪd]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=guide&type=2"></audio>
 - #### society------------[səˈsaɪətɪ]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=society&type=2"></audio>
-
 
 ## 6.4
 
@@ -57,10 +62,9 @@ before cure care mere fire
 
 
 
-
 ## 5.31
 
-- #### civic----------------------['sɪvɪk]
+- #### civic---------------------['sɪvɪk]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=civic&type=2"></audio>
 - #### virtue-------------------['vɝtʃʊ] 
@@ -78,16 +82,14 @@ before cure care mere fire
 
 
 
-
 ## 5.29
 
-- #### gnaw------------------------[nɔː]
+- #### gnaw-----------------------[nɔː]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=gnaw&type=2"></audio>
 - #### rhinoceros---[raɪˈnɒsərəs]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=rhinoceros&type=2"></audio>
-
 
 ## 5.24
 
@@ -98,13 +100,11 @@ before cure care mere fire
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=voucher&type=2"></audio>
 
-
 ## 5.19
 
 - #### hitherto-------------[hɪðɚ'tu]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=hitherto&type=2"></audio>
-
 
 ### 5.18
 
@@ -112,14 +112,12 @@ before cure care mere fire
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=simmer&type=2"></audio>
 
-
 ### 5.17
 
-- #### dawn-----------------------[dɔn] 
+- #### dawn----------------------[dɔn] 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=dawn&type=2"></audio>
 - #### perfume------------[pɚ'fjum]
 <audio controls src="http://dict.youdao.com/dictvoice?audio=perfume&type=2"></audio>
-
 
 
 ### 5.17
@@ -130,6 +128,6 @@ before cure care mere fire
 <audio controls src="http://dict.youdao.com/dictvoice?audio=dissident&type=2"></audio>
 - #### gargantuan
 
-  #### ------------------[ɡɑr'ɡæntʃuən]
+  #### ----------------[ɡɑr'ɡæntʃuən]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=gargantuan&type=2"></audio>
