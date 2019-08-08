@@ -1,82 +1,6 @@
 # Python
 
-## 01.面对对象编程
-
-#### 1.类和实例	
-
-- 1.类
-  
-  - 1.定义:  class后为类名,object表继承类,默认object
-  
-  ```python
-  class Sth(object): 
-      pass
-  ```
-  
-  - 2.`__init__`方法: 设定强制绑定该类的属性, 第一个参数必须为 self, 该实例的所有参数必须同时传入
-  
-  ```python
-  class Sth(object):
-      def __init__(self,arg...):
-          语句
-  ```
-  
-- 2.实例: 创建实例 sth = Sth()
-
-- 3.封装
-  - 1.含义: 为调用数据方便,一般直接将调用数据的方法写入 "类" 中
-  
-  - 2.使用: 
-  
-    ```python
-    class Sth(object):
-    	def __init__(self):
-    	... 
-    	def new_func():
-    	...
-    ```
-  
-
-#### 2.访问限制
-
-- 1.私有变量
-
-  - 1.含义: 变量名前加 "__" 变为私有变量,外部不可访问
-
-  - 2.表达式: 
-
-    ~~~  python
-    def  __init__(self...): 
-        self.__name = name 
-        ...  
-        
-    def print_score(self):
-        pass
-    ~~~
-
-- 2.外部访问私有变量: 可在内部定义专门修改状态和参量的方法
-
-#### 3.继承和多态
-
-- 1.继承: classA = classB(), 表示类的继承
-- 2.多态: 定义方法时 def(classA), 则任何 classA 的子类均可运行该方法
-
-#### 4.获取对象信息
-
-- 1.判断对象类信息
-  - 1.使用 type(): type (object) 得对象的类信息
-  - 2.使用 isinstance(): isinstance(classname,class)
-- 2.判断对象的方法
-  - 1.使用 dir(): dir(object) 得该对象下的所有方法
-  - 2.特殊方法: `object.__func__() = func(object)`
-- 3.其它判断方式
-  - 1.getattr(obj, A), 获取属性 A
-  - 2.hasattr(obj, A), 判断是否存在属性 A
-  - 3.setattr(obj, A), 设定属性 A
-
-
-
-## 02.面对对象高级编程
+## 01.面对对象高级编程
 
 #### 1.实例
 
@@ -186,46 +110,7 @@ from enum import Enum, unique
 
 
 
-## 03.IO编程
-
-#### 1.文件读写
-
-- 1.读文件
-  - 1.一般写法: f = open('/path/to/file', 'r')   以 f.read() 调用
-  - 2.严谨写法: with open('/path/to/file', 'r') as f:   以 f.read() 调用
-  - 3.二进制文件: 用'rb'模式打开文件
-  - 4.字符编码
-    - 1.编码: f = open('/path/to/file', 'r',encoding='gbk')
-    - 2.错误处理: f = open('...',errors='ignore')
-- 2.写文件
-  - 1.一般写法: f = open('/path/to/file', 'w')      以f.write() 调用
-  - 2.严谨写法: with open('/path/to/file', 'w') as f: 以f.write() 调用
-
-#### 2.StringIO和BytesIO
-
-- 1.StringIO: 读写字符串,创建StringIO, from io import StringIO  f = StringIO()
-- 2.BytesIO: 读写二进制数据,创建BytesIO, from io import BytesIO  f = BytesIO()
-
-#### 3.操作文件和目录
-
-- 1.环境变量: os.environ	或 调用os.environ.get('key')
-- 2.操作文件和目录
-  - 1.修改文件路径: 合并路径 os.path.join() 或 拆分路径 os.path.split()
-  - 2.查看当前目录的绝对路径: os.path.abspath('.')
-  - 3.在某目录下创建新目录: os.mkdir(os.path.join('/path/', 'testdir'))
-  - 4.删掉一个目录:  os.rmdir('/path/testdir')
-
-#### 4.序列化
-
-- 1.JSON与dict
-
-  - 1.序列化 ` json.dumps(d) = str` 
-  - 2.反序列化 `json.loads(json_str) = json` 
-- 2.JSON与class:` json.dumps(s, default=lambda obj: obj.__dict__)` 
-
-
-
-## 04.线程和进程
+## 02.线程和进程
 
 #### 1.多进程
 
@@ -293,7 +178,7 @@ p.apply_async(func, args=(i,))
 
 
 
-## 05.网络编程
+## 03.网络编程
 
 #### 1.TCP编程
 
