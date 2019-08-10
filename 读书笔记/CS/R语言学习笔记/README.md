@@ -2,4 +2,5 @@
 
 - [R语言基础语法](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言基础语法.html)
 - [R语言进阶语法](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言进阶语法.html) 
+- [R语言多进程](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言多进程.html) 
 
