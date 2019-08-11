@@ -1,8 +1,6 @@
 # Python
 
-## 01.面对对象高级编程
-
-#### 1.实例
+## 01.线程和进程
 
 - 1.给实例绑定属性: 
 
@@ -50,63 +48,6 @@
         def birth(self, value):
             self._birth = value
     ```
-
-#### 3.定制类
-
-- 1.作用: 定制个性化类以简化Python开发
-
-- 2.定制`__str__`类
-
-  - 1.意义: 优化输出, 用户看到的 print() 输出以 `__str__`输出
-  - 2.表达式: 
-
-  ```python
-  class Sth(object): 
-      def __str__(self):
-          return ...
-  ```
-
-- 3.定制`__iter__`类
-
-  - 1.意义: 定制类以实现迭代
-
-  - 2.表达式:
-
-    ```python
-    class Sth(object): 
-        def __iter__(self):
-            return self
-        #实例本身就是迭代对象, 故返回自己
-    	def __next__(self):
-            ...
-    ```
-
-- 4.定制`__getitem__`类
-
-  - 1.意义: 定制类以实现按下标读取
-  - 2.表达式: 
-
-  ```python
-  class Sth(object): 
-      def __getitem__(self, n):
-          ...
-  ```
-
-- 5.定制`__call__`类
-
-  -  1.意义: 定制类以实现自定义调用方式
-  - 2.表达式:` class Sth(object): def __call__(self)...` 
-
-#### 4.枚举类
-
-- 1.枚举类的一般用法: `from enum import Enum  list-1 = Enum (list-1, list[])` 
-- 2.枚举类的高级用法: 
-
-```python
-from enum import Enum, unique 
-				    @unique
-					class list-1(Enum): ...
-```
 
 
 
