@@ -8,6 +8,26 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 8.15
+
+- #### wireless---['waɪərləs]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=wireless&type=2"></audio>
+
+- #### clandestine: 
+
+#### -------------------[klæn'dɛstɪn]
+
+clandestine work: 秘密工作
+
+- #### espionage--['ɛspɪənɑʒ]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=espionage&type=2"></audio>
+
+- #### compromised
+
+#### ---------缺乏抵抗力的, 妥协的
+
 
 
 ## 8.8
@@ -21,19 +41,15 @@ before cure care mere fire
 - #### elite---------------[ɪˈliːt]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=elite&type=2"></audio>
-
 - #### third---------[θɝd]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=third&type=2"></audio>
-
 - #### tuna----['tunə]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=tuna&type=2"></audio>
-
 - #### umami---[u'mɑmi]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=umami&type=2"></audio>
-
 
 
 
@@ -50,7 +66,6 @@ before cure care mere fire
 - #### inference---------推理, 推论
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=inference&type=2"></audio>
-
 ## 5.20
 
 - #### coerce--------------------[ko'ɝs]
@@ -86,7 +101,6 @@ before cure care mere fire
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=expression&type=2"></audio>
 
-
 ## 5.31
 
 - #### civic---------------------['sɪvɪk]
@@ -104,7 +118,6 @@ before cure care mere fire
 - #### bald-----------------------[bɔld]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=bald&type=2"></audio>
-
 
 ## 5.29
 
@@ -138,4 +151,3 @@ before cure care mere fire
 <audio controls src="http://dict.youdao.com/dictvoice?audio=dawn&type=2"></audio>
 - #### perfume------------[pɚ'fjum]
 <audio controls src="http://dict.youdao.com/dictvoice?audio=perfume&type=2"></audio>
-
