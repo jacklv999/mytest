@@ -53,9 +53,10 @@
 
 #### [政治学与领导](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%94%BF%E6%B2%BB%E5%AD%A6%E4%B8%8E%E9%A2%86%E5%AF%BC/%E6%94%BF%E6%B2%BB%E5%AD%A6%E4%B8%8E%E9%A2%86%E5%AF%BC.md)
 
-#### [摄影](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1.md)
+#### [摄影](https://jacklv999.github.io/mytest/读书笔记/摄影) 
 
 - [数码摄影手册]
 - [摄影讨论]
 - [摄影后期]
 - [人像摄影构图](https://jacklv999.github.io/mytest/读书笔记/摄影/人像摄影构图.html) 
+- [HSL调色](https://jacklv999.github.io/mytest/读书笔记/摄影/HSL调色 _饱和度和明度.html) 
