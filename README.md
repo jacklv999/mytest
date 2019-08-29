@@ -6,7 +6,8 @@
 
 
 
-- [ ] 08.17[R语言面向对象](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言多进程.html) 
+- [ ] 08.29[人像摄影构图](https://jacklv999.github.io/mytest/读书笔记/摄影/人像摄影构图.html) 
+- [ ] 08.17[R语言面向对象](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言面向对象编程.html) 
 - [ ] 08.10[R语言多进程](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言多进程.html) 
 - [ ] 08.09[Python多进程](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python多进程.html) 
 - [ ] 08.08[R语言进阶语法](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言进阶语法.html) 
