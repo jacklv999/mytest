@@ -101,12 +101,30 @@ Fm = R6Class("Fm",
 
 - 3.传递参数: `zs.h1 <- 1` , 使用 `<-` 符号将参数传入对象内部并运算
 
-#### 6.批量实例化对象
+#### 6.批量处理对象
+
+- 1.批量实例化对象
 
 ```R
 for (i in 1:10) {
   s <- sprintf("a%s <- Fm$new(%s,%s)",i,i,i+1)
   eval(parse(text = s))
 }
+```
+
+- 2.批量调用对象
+
+```r
+for (i in 1:10) {
+  s <- sprintf("print(a%s$h1)",i)
+  eval(parse(text = s))
+}
+```
+
+##### 注: 对  `eval()` 函数, 作用把字符串转化成表达式来执行, eval和parse结合使用，参数 text 等于要转化的字符串
+
+```R
+s<- "print('hello world')"
+eval(parse(text = s))
 ```
 
