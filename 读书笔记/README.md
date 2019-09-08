@@ -23,6 +23,8 @@
 - [Pytorch教程](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-Pytorch教程Mvan/目录.html) 
 - [机器学习-MLDS](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/) 
 
+#### [论文笔记](https://jacklv999.github.io/mytest/读书笔记/论文笔记/) 
+
 #### [数理分析](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E7%90%86%E5%88%86%E6%9E%90/%E6%95%B0%E7%90%86%E5%88%86%E6%9E%90.md)
 
 #### [心理学](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%BF%83%E7%90%86%E5%AD%A6/%E5%BF%83%E7%90%86%E5%AD%A6.md)

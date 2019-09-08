@@ -8,12 +8,19 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 9.08
+
+- #### I guess not
+
+- #### I would guess not
+
+
+
 ## 8.15
 
 - #### wireless---['waɪərləs]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=wireless&type=2"></audio>
-
 - #### clandestine: 
 
 #### -------------------[klæn'dɛstɪn]
@@ -23,7 +30,6 @@ clandestine work: 秘密工作
 - #### espionage--['ɛspɪənɑʒ]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=espionage&type=2"></audio>
-
 - #### compromised
 
 #### ---------缺乏抵抗力的, 妥协的
@@ -50,7 +56,6 @@ clandestine work: 秘密工作
 - #### umami---[u'mɑmi]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=umami&type=2"></audio>
-
 
 
 
@@ -100,7 +105,6 @@ clandestine work: 秘密工作
   - #### expression-[ɪk'sprɛʃən]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=expression&type=2"></audio>
-
 ## 5.31
 
 - #### civic---------------------['sɪvɪk]
@@ -118,7 +122,6 @@ clandestine work: 秘密工作
 - #### bald-----------------------[bɔld]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=bald&type=2"></audio>
-
 ## 5.29
 
 - #### gnaw-----------------------[nɔː]
