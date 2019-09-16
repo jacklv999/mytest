@@ -22,6 +22,7 @@
 - [机器学习--李宏毅](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-机器学习-李宏毅/目录.html) 
 - [Pytorch教程](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-Pytorch教程Mvan/目录.html) 
 - [机器学习-MLDS](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/) 
+- [CV Paper](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/) 
 
 #### [论文笔记](https://jacklv999.github.io/mytest/读书笔记/论文笔记/) 
 
