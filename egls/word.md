@@ -8,6 +8,14 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 9.17
+
+The governor just gave a press conference a little while ago
+
+#### ------a little while ago
+
+
+
 ## 9.08
 
 - #### I guess not
@@ -56,7 +64,6 @@ clandestine work: 秘密工作
 - #### umami---[u'mɑmi]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=umami&type=2"></audio>
-
 
 
 ## 8.7
