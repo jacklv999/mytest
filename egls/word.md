@@ -8,6 +8,20 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 9.18
+
+- #### wont---[wɔnt]
+
+    adj. 习惯于
+
+    n. 习惯
+
+    v. 使习惯于
+
+##### human beings are wont to do
+
+##### Paul woke early, as was his wont.
+
 ## 9.17
 
 The governor just gave a press conference a little while ago
@@ -70,7 +84,6 @@ clandestine work: 秘密工作
 - #### umami---[u'mɑmi]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=umami&type=2"></audio>
-
 
 ## 8.7
 
