@@ -13,6 +13,14 @@
     - 3.设置刻度线和标签: ``scale_y_continuous(breaks=v_1, labels=dt_5)`` 
     - 4.隐藏刻度线和刻度标签: ``theme(axis.text.y=element_blank())`` 
 
+```R
+ggplot(dt)+geom_point(aes(x = dt_1, y = dt_2),
+        color=dt_3,shape=dt_4)+xlim(a,b)+ylim(a,b)+
+		xlab("text")+ylab("text")
+```
+
+
+
 #### 2.ggplot常用图形函数
 
 | 图形     | 函数           |

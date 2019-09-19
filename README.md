@@ -8,7 +8,7 @@
 
 - [ ] 09.19[R语言可视化基础](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言可视化.html) 
 - [ ] 09.18[ggplot绘图笔记](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/ggplot绘图.html) 
-- [ ] 09.16[微调Fine-tuning](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/Fine-tunning.html) 
+- [ ] 09.16[微调Fine-tuning](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/Finetunning.html) 
 - [ ] 09.15[VGG](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/02VGG论文.html)  
 - [ ] 09.08[CV基础及AlexNet](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/01基础及AlexNet.html) 
 - [ ] 08.29[人像摄影构图](https://jacklv999.github.io/mytest/读书笔记/摄影/人像摄影构图.html) 
@@ -29,6 +29,6 @@
 - [ ] 05.22[空间计量经济学笔记](https://jacklv999.github.io/mytest/旧文件整理/空间计量/空间计量经济学笔记.html) 
 - [ ] 05.05英语发音: [开闭音节](https://jacklv999.github.io/mytest/egls/Prnc-%E5%BC%80%E9%97%AD%E9%9F%B3%E8%8A%82.html)---------[特殊读音](https://jacklv999.github.io/mytest/egls/Prnc-%E7%89%B9%E6%AE%8A%E8%AF%BB%E9%9F%B3.html)---------[R音节](https://jacklv999.github.io/mytest/egls/Prnc-R%E9%9F%B3%E8%8A%82.html)--------[Re音节](https://jacklv999.github.io/mytest/egls/Prnc-Re%E9%9F%B3%E8%8A%82.html)-------[元音字组](https://jacklv999.github.io/mytest/egls/Prnc-%E5%85%83%E9%9F%B3%E5%AD%97%E7%BB%84.html)---------[非重读](https://jacklv999.github.io/mytest/egls/Prnc-%E9%9D%9E%E9%87%8D%E8%AF%BB.html) 
 - [ ] 05.03[数据库基础](https://jacklv999.github.io/mytest/数据库基础.html) 
-- [ ] 04.30[BeautifulSoup笔记](https://www.jianshu.com/p/03fb1603343c)
+- [ ] 04.30[BeautifulSoup笔记](https://www.jianshu.com/p/03fb1603343c) 
 - [ ] 04.29[Pronunciation-Part I](https://jacklv999.github.io/mytest/Prnct--HART.html) --------- [Pronunciation-Part II](https://jacklv999.github.io/mytest/Prnct-Rhythm&Intonation.html) ---------  [Pronunciation-Part III](https://jacklv999.github.io/mytest/Prnct--Consonsant.html) ---------  [Pronunciation-Part IV](https://jacklv999.github.io/mytest/Prnct--Vowel.html)
 
