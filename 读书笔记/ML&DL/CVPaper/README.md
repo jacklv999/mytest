@@ -8,5 +8,5 @@
 
 ## Code笔记
 
-[微调Fine-tuning](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/Finetunning.html) 
+[微调Fine-tuning](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/Finetuning.html) 
 
