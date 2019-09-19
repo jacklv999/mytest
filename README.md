@@ -6,6 +6,8 @@
 
 
 
+- [ ] 09.19[R语言可视化基础](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言可视化.html) 
+- [ ] 09.18[ggplot绘图笔记](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/ggplot绘图.html) 
 - [ ] 09.16[微调Fine-tuning](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/Fine-tunning.html) 
 - [ ] 09.15[VGG](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/02VGG论文.html)  
 - [ ] 09.08[CV基础及AlexNet](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/01基础及AlexNet.html) 
