@@ -8,7 +8,7 @@
 
 影响Fine-tuning效果的主要因素是: 新数据集的大小和新数据集同原数据集的相似性
 
-**$ \begin{cases}      内容相似        \begin{cases} 新数据集小      &\text{仅训练最后一层} \\    新数据集大 &\text{微调整个网络 }       \end{cases}     \\\\内容不相似\begin{cases}          新数据集小 &\text{冻结大部分卷积层, 训练高层卷积层及全连接层}    \\ 新数据集大&\text{不建议fine-tuning, 可以重新训练网络}                        \end{cases}                     \end{cases} $ ** 
+**$ \begin{cases}      内容相似        \begin{cases} 新数据集小      &\text{仅训练最后一层} \\    新数据集大 &\text{微调整个网络 }       \end{cases}     \\\\内容不相似\begin{cases}          新数据集小 &\text{冻结大部分卷积层,  训练高层卷积层及全连接层}    \\ 新数据集大&\text{不建议fine-tuning, 可以重新训练网络}                        \end{cases}                     \end{cases} $ ** 
 
 #### 3.Fine-tuning代码
 

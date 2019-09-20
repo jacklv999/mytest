@@ -8,6 +8,18 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 09.20
+
+- #### skirt--------绕过,沿边走
+
+He skirted the hardest issues
+
+a field that skirted the slope of a hill
+
+- #### inundation--------**n. 洪水** 
+
+
+
 ## 9.18
 
 - #### wont---[wɔnt]
@@ -84,7 +96,6 @@ clandestine work: 秘密工作
 - #### umami---[u'mɑmi]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=umami&type=2"></audio>
-
 ## 8.7
 
 - #### charlotte----------['ʃɑrlət]
@@ -161,22 +172,3 @@ clandestine work: 秘密工作
 - #### vendor----------------['vɛndɚ]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=vendor&type=2"></audio>
-- #### voucher-------------['vaʊtʃɚ]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=voucher&type=2"></audio>
-## 5.19
-
-- #### hitherto-------------[hɪðɚ'tu]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=hitherto&type=2"></audio>
-### 5.18
-
-- #### simmer-----------------['sɪmɚ]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=simmer&type=2"></audio>
-### 5.17
-
-- #### dawn----------------------[dɔn] 
-<audio controls src="http://dict.youdao.com/dictvoice?audio=dawn&type=2"></audio>
-- #### perfume------------[pɚ'fjum]
-<audio controls src="http://dict.youdao.com/dictvoice?audio=perfume&type=2"></audio>
