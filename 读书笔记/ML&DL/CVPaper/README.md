@@ -4,6 +4,12 @@
 
 [02 VGG](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/02VGG.html) 
 
+[03 GoogleNet](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/GoogleNet.html) 
+
+[04 ResNet](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/ResNet笔记.html) 
+
+
+
 
 
 ## Code笔记
