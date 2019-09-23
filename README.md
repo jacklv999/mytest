@@ -6,6 +6,7 @@
 
 
 
+- [ ] 09.22[ YOLO](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/Yolo笔记.html) 
 - [ ] 09.22[ GoogleNet](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/GoogleNet.html) 
 - [ ] 09.22[ ResNet](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/ResNet笔记.html)  
 - [ ] 09.19[R语言可视化基础](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言可视化.html) 
