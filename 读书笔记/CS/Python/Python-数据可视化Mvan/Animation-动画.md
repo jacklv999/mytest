@@ -40,3 +40,4 @@ ani = animation.FuncAnimation(fig=fig, func=animate, frames=100, init_func=init,
 
 plt.show()
 ~~~
+
