@@ -6,6 +6,7 @@
 
 
 
+- [ ] 09.25[高低频和双曲线磨皮](https://jacklv999.github.io/mytest/读书笔记/摄影/摄影——后期/磨皮方法.html) 
 - [ ] 09.23[ 如何用Python实现虚拟机?](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python实现虚拟机.html) 
 - [ ] 09.22[ YOLO](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/Yolo笔记.html) 
 - [ ] 09.22[ GoogleNet](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/GoogleNet.html) 
