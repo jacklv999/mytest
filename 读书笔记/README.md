@@ -12,7 +12,7 @@
 
 #### [Computer Science](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/CS/cs.md)
 
-- [CS]
+- [CS](https://jacklv999.github.io/mytest/读书笔记/CS/cs/) 
 - [Office系列软件]
 - [Python](https://jacklv999.github.io/mytest/读书笔记/CS/Python/) 
 - [R语言学习笔记](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/目录.html) 
@@ -60,7 +60,4 @@
 
 - [数码摄影手册]
 - [摄影讨论]
-- [摄影后期]
-- [人像摄影构图](https://jacklv999.github.io/mytest/读书笔记/摄影/人像摄影构图.html) 
-- [HSL调色](https://jacklv999.github.io/mytest/读书笔记/摄影/HSL调色 _饱和度和明度.html) 
-- [高低频和双曲线磨皮](https://jacklv999.github.io/mytest/读书笔记/摄影/摄影——后期/磨皮方法.html) 
+- [摄影后期](https://jacklv999.github.io/mytest/读书笔记/摄影/摄影后期/) 

@@ -12,9 +12,9 @@
 
 [Numba库使用简介](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Numba库使用简介.html) 
 
-[Pytorch与Python模块化编程](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Pytorch与Py模块化笔记.html) 
-
 [Scrapy-Selector笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Scrapy-Selector.html) 
+
+[Python监听模拟鼠标键盘](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Python监听模拟鼠标键盘.html) 
 
 
 
