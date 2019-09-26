@@ -12,15 +12,16 @@ before cure care mere fire
 
 - ##### there are ups and downs in life
 
-- con: 重读时念/ˈkɑːn/, 非重读念/kən/
-    - #### conceive-----------[kənˈsiːv]
-
-        <audio controls src="http://dict.youdao.com/dictvoice?audio=conceive&type=2"></audio>
-
+- #### con: 重读时念/ˈkɑːn/
+  
+  - #### conceive-----------[kənˈsiːv]
+  
+<audio controls src="http://dict.youdao.com/dictvoice?audio=conceive&type=2"></audio>
+- #### con: 非重读念/kən/
+  
     - #### constant-------[ˈkɑːnstənt]
-
-        <audio controls src="http://dict.youdao.com/dictvoice?audio=constant&type=2"></audio>
-
+    
+<audio controls src="http://dict.youdao.com/dictvoice?audio=constant&type=2"></audio>
 
 
 ## 09.20
@@ -34,18 +35,15 @@ a field that skirted the slope of a hill
 - #### inundation--------**n. 洪水** 
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=inundation&type=2"></audio>
-
-
-
 ## 9.18
 
 - #### wont---[wɔnt]
 
     <audio controls src="http://dict.youdao.com/dictvoice?audio=wont&type=2"></audio>
+adj. 习惯于
+    
 
-    adj. 习惯于
-
-    n. 习惯
+n. 习惯
     
     v. 使习惯于
 
