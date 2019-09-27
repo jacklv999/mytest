@@ -1,5 +1,7 @@
 ## Python文章
 
+[Python核心笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python核心笔记.html) 
+
 [Pytorch与Py模块化笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Pytorch与Py模块化笔记.html) 
 
 [Python多进程](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python多进程.html)  
