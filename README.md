@@ -3,7 +3,7 @@
 
 ## [英语单词](https://jacklv999.github.io/mytest/egls/word.html) &ensp;&emsp;&emsp;&emsp;  [Python笔记](https://jacklv999.github.io/mytest/Python笔记.html)
 
-[1111](https://jacklv999.github.io/mytest/egls/word/) 
+[英语单词](https://jacklv999.github.io/mytest/egls/word/) 
 
 
 - [ ] 09.25[高低频和双曲线磨皮](https://jacklv999.github.io/mytest/读书笔记/摄影/摄影——后期/磨皮方法.html) 

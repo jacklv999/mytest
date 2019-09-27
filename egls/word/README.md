@@ -1,13 +1,5 @@
 ## 英语单词
 
-ghost  climb  gnaw  pneumonia  knee
-
-psychologist    scissor  eight   wrong   rhinoceros 
-
-before cure care mere fire
-
-'-------------------------------------------------------'
-
 ## 09.26
 
 - ##### there are ups and downs in life
@@ -36,16 +28,14 @@ a field that skirted the slope of a hill
 <audio controls src="http://dict.youdao.com/dictvoice?audio=inundation&type=2"></audio>
 
 
-
 ## 9.18
 
 - #### wont---[wɔnt]
 
     <audio controls src="http://dict.youdao.com/dictvoice?audio=wont&type=2"></audio>
-
-    adj. 习惯于
-
-    n. 习惯
+adj. 习惯于
+    
+n. 习惯
     
     v. 使习惯于
 

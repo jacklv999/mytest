@@ -12,17 +12,16 @@ before cure care mere fire
 
 - ##### there are ups and downs in life
 
-- #### con: 重读时念/ˈkɑːn/
+- #### con: 非重读念/kən/
   
   - #### conceive-----------[kənˈsiːv]
   
 <audio controls src="http://dict.youdao.com/dictvoice?audio=conceive&type=2"></audio>
-- #### con: 非重读念/kən/
+- #### con: 重读时念/ˈkɑːn/
   
     - #### constant-------[ˈkɑːnstənt]
     
 <audio controls src="http://dict.youdao.com/dictvoice?audio=constant&type=2"></audio>
-
 
 ## 09.20
 
