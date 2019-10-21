@@ -8,6 +8,18 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 10.21
+
+- #### radioactive-[ˌreɪdioʊˈæktɪv]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=radioactive&type=2"></audio>
+
+- #### tsunami---------[tsuːˈnɑːmi]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=tsunami&type=2"></audio>
+
+
+
 ## 09.26
 
 - ##### there are ups and downs in life
@@ -22,7 +34,6 @@ before cure care mere fire
     - #### constant-------[ˈkɑːnstənt]
     
 <audio controls src="http://dict.youdao.com/dictvoice?audio=constant&type=2"></audio>
-
 ## 09.20
 
 - #### skirt--------绕过,沿边走
@@ -39,12 +50,8 @@ a field that skirted the slope of a hill
 - #### wont---[wɔnt]
 
     <audio controls src="http://dict.youdao.com/dictvoice?audio=wont&type=2"></audio>
-adj. 习惯于
+adj. 习惯于  n. 习惯  v. 使习惯于
     
-
-n. 习惯
-    
-    v. 使习惯于
 
 ##### human beings are wont to do
 
