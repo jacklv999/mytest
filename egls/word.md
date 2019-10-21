@@ -13,12 +13,19 @@ before cure care mere fire
 - #### radioactive-[ˌreɪdioʊˈæktɪv]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=radioactive&type=2"></audio>
-
 - #### tsunami---------[tsuːˈnɑːmi]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=tsunami&type=2"></audio>
 
+## 10.19
 
+- #### debris------------[dəˈbri]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=debris&type=2"></audio>
+
+- #### aid-------------------[eɪd]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=aid&type=2"></audio>
 
 ## 09.26
 
@@ -47,15 +54,14 @@ a field that skirted the slope of a hill
 <audio controls src="http://dict.youdao.com/dictvoice?audio=inundation&type=2"></audio>
 ## 9.18
 
-- #### wont---[wɔnt]
+- #### wont------------[wɔnt]
 
-    <audio controls src="http://dict.youdao.com/dictvoice?audio=wont&type=2"></audio>
-adj. 习惯于  n. 习惯  v. 使习惯于
-    
 
-##### human beings are wont to do
+<audio controls src="http://dict.youdao.com/dictvoice?audio=wont&type=2"></audio>
 
-##### Paul woke early, as was his wont.
+##### human beings are wont to do, adj. 习惯于
+
+##### Paul woke early, as was his wont, n. 习惯
 
 ## 9.17
 
@@ -105,11 +111,6 @@ clandestine work: 秘密工作
 
 > (尤指从高处看到的) 景色 [书面]
 
-
-
-- #### elite---------------[ɪˈliːt]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=elite&type=2"></audio>
 - #### third---------[θɝd]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=third&type=2"></audio>
@@ -133,9 +134,6 @@ clandestine work: 秘密工作
 <audio controls src="http://dict.youdao.com/dictvoice?audio=inference&type=2"></audio>
 ## 5.20
 
-- #### coerce--------------------[ko'ɝs]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=coerce&type=2"></audio>
 - #### shepherd--------------['ʃɛpɚd]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=shepherd&type=2"></audio>
@@ -179,14 +177,6 @@ clandestine work: 秘密工作
 - #### bald-----------------------[bɔld]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=bald&type=2"></audio>
-## 5.29
-
-- #### gnaw-----------------------[nɔː]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=gnaw&type=2"></audio>
-- #### rhinoceros---[raɪˈnɒsərəs]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=rhinoceros&type=2"></audio>
 ## 5.24
 
 - #### vendor----------------['vɛndɚ]
