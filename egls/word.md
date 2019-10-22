@@ -8,6 +8,22 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 10.22
+
+- #### 准确地说
+
+    - accurately speaking 
+    - Or more precisely: XX
+    - To be precise / more specific
+
+- ##### No less than anyone 不比任何人少
+
+- ##### Studying for a master's degree
+
+- #### elliptical-----------[ɪˈlɪptɪkl]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=elliptical&type=2"></audio>
+
 ## 10.21
 
 - #### radioactive-[ˌreɪdioʊˈæktɪv]
@@ -16,17 +32,14 @@ before cure care mere fire
 - #### tsunami---------[tsuːˈnɑːmi]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=tsunami&type=2"></audio>
-
 ## 10.19
 
 - #### debris------------[dəˈbri]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=debris&type=2"></audio>
-
 - #### aid-------------------[eɪd]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=aid&type=2"></audio>
-
 ## 09.26
 
 - ##### there are ups and downs in life
@@ -43,12 +56,6 @@ before cure care mere fire
 <audio controls src="http://dict.youdao.com/dictvoice?audio=constant&type=2"></audio>
 ## 09.20
 
-- #### skirt--------绕过,沿边走
-
-He skirted the hardest issues
-
-a field that skirted the slope of a hill
-
 - #### inundation--------**n. 洪水** 
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=inundation&type=2"></audio>
@@ -58,7 +65,6 @@ a field that skirted the slope of a hill
 
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=wont&type=2"></audio>
-
 ##### human beings are wont to do, adj. 习惯于
 
 ##### Paul woke early, as was his wont, n. 习惯
@@ -69,20 +75,13 @@ The governor just gave a press conference a little while ago
 
 #### ------a little while ago
 
-
-
 ## 9.10
 
 #### better late than never
 
-
-
 ## 9.08
 
-- #### I guess not
-
 - #### I would guess not
-
 
 
 ## 8.15
@@ -102,8 +101,6 @@ clandestine work: 秘密工作
 - #### compromised
 
 #### ---------缺乏抵抗力的, 妥协的
-
-
 
 ## 8.8
 
@@ -125,26 +122,16 @@ clandestine work: 秘密工作
 - #### charlotte----------['ʃɑrlət]
 
 
-
-
 ## 8.6
 
 - #### inference---------推理, 推论
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=inference&type=2"></audio>
-## 5.20
-
-- #### shepherd--------------['ʃɛpɚd]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=shepherd&type=2"></audio>
 ## 6.5
 
 - #### famine----------------['fæmɪn]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=famine&type=2"></audio>
-- #### emulsify---------[ɪ'mʌlsə'fai]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=emulsify&type=2"></audio>
 - #### guide---------------------[ɡaɪd]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=guide&type=2"></audio>
@@ -168,9 +155,6 @@ clandestine work: 秘密工作
 - #### civic---------------------['sɪvɪk]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=civic&type=2"></audio>
-- #### virtue-------------------['vɝtʃʊ] 
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=virtue&type=2"></audio>
 - #### policy------------------['pɑləsi]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=policy&type=2"></audio>
