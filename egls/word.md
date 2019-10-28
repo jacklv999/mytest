@@ -8,6 +8,10 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+
+
+
+
 ## 10.22
 
 - #### 准确地说
@@ -23,7 +27,6 @@ before cure care mere fire
 - #### elliptical-----------[ɪˈlɪptɪkl]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=elliptical&type=2"></audio>
-
 ## 10.21
 
 - #### radioactive-[ˌreɪdioʊˈæktɪv]
