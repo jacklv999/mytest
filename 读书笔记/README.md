@@ -54,7 +54,7 @@
 - [私法的基础]
 - [关于法律的一些讨论]
 
-#### [政治学与领导](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%94%BF%E6%B2%BB%E5%AD%A6%E4%B8%8E%E9%A2%86%E5%AF%BC/%E6%94%BF%E6%B2%BB%E5%AD%A6%E4%B8%8E%E9%A2%86%E5%AF%BC.md) 
+#### [政治学与领导](https://jacklv999.github.io/mytest/读书笔记/政治学与领导/) 
 
 #### [摄影](https://jacklv999.github.io/mytest/读书笔记/摄影) 
 
