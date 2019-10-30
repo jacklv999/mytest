@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>论战的继续</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
+html { font-size: 16px; }
+body { font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6; }
+#write { max-width: 860px; margin: 0px auto; padding: 30px 30px 100px; }
+#write > ul:first-child, #write > ol:first-child { margin-top: 30px; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1rem; margin-bottom: 1rem; font-weight: bold; line-height: 1.4; cursor: text; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 tt, h1 code { font-size: inherit; }
+h2 tt, h2 code { font-size: inherit; }
+h3 tt, h3 code { font-size: inherit; }
+h4 tt, h4 code { font-size: inherit; }
+h5 tt, h5 code { font-size: inherit; }
+h6 tt, h6 code { font-size: inherit; }
+h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
+li > ol, li > ul { margin: 0px; }
+hr { height: 2px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; overflow: hidden; box-sizing: content-box; }
+li p.first { display: inline-block; }
+ul, ol { padding-left: 30px; }
+ul:first-child, ol:first-child { margin-top: 0px; }
+ul:last-child, ol:last-child { margin-bottom: 0px; }
+blockquote { border-left: 4px solid rgb(223, 226, 229); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; word-break: initial; }
+table tr { border-top: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; }
+table tr:nth-child(2n), thead { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(223, 226, 229); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr th:first-child, table tr td:first-child { margin-top: 0px; }
+table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
+.CodeMirror-lines { padding-left: 4px; }
+.code-tooltip { box-shadow: rgba(0, 28, 36, 0.3) 0px 1px 1px 0px; border-top: 1px solid rgb(238, 242, 242); }
+.md-fences, code, tt { border: 1px solid rgb(231, 234, 237); background-color: rgb(248, 248, 248); border-radius: 3px; padding: 2px 4px 0px; font-size: 0.9em; }
+code { background-color: rgb(243, 244, 244); padding: 0px 2px; }
+.md-fences { margin-bottom: 15px; margin-top: 15px; padding-top: 8px; padding-bottom: 6px; }
+.md-task-list-item > input { margin-left: -1.3em; }
+@media print {
+  html { font-size: 13px; }
+  table, pre { break-inside: avoid; }
+  pre { overflow-wrap: break-word; }
+}
+.md-fences { background-color: rgb(248, 248, 248); }
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+.md-mathjax-midline { background: rgb(250, 250, 250); }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h5.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+.md-image > .md-meta { border-radius: 3px; padding: 2px 0px 0px 4px; font-size: 0.9em; color: inherit; }
+.md-tag { color: rgb(167, 167, 167); opacity: 1; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+.sidebar-tabs { border-bottom: none; }
+#typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
+#typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
+.on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
+header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Arial, sans-serif; }
+.file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
+.mac-seamless-mode #typora-sidebar { background-color: var(--side-bar-bg-color); }
+.md-lang { color: rgb(180, 101, 77); }
+.html-for-mac .context-menu { --item-hover-bg-color: #E6F0FE; }
+#md-notification .btn { border: 0px; }
+.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
+
+
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h1><a name="%E8%AE%BA%E6%88%98%E7%9A%84%E7%BB%A7%E7%BB%AD" class="md-header-anchor"></a><span>论战的继续</span></h1><h4><a name="%E4%B8%80%E3%80%81%E8%8C%83%E5%BC%8F%E4%B9%8B%E9%97%B4%E4%BA%89%E8%AE%BA" class="md-header-anchor"></a><span>一、范式之间争论</span></h4><p><span>三种范式：现实主义、多元主义和全球主义</span></p><h5><a name="1.%E7%8E%B0%E5%AE%9E%E4%B8%BB%E4%B9%89:-%E6%98%AF%E4%BB%A5%22%E5%9B%BD%E5%AE%B6%E4%B8%BA%E4%B8%AD%E5%BF%83%22%E7%9A%84%E5%88%86%E6%9E%90%E6%B3%95%EF%BC%8C%E7%9D%80%E9%87%8D%E7%A0%94%E7%A9%B6%E5%9B%BD%E5%AE%B6%E6%9D%83%E5%8A%9B%E5%92%8C%E6%9D%83%E5%8A%9B%E5%9D%87%E5%8A%BF%E3%80%82%E5%85%B6%E8%A6%81%E7%82%B9%E6%98%AF" class="md-header-anchor"></a><span>1.现实主义: 是以“国家为中心”的分析法，着重研究国家权力和权力均势。其要点是</span></h5><ol><li><span>国家是最重要最核心的国际关系角色；</span></li></ol><ol start='2' ><li><span>国家本质上是一理性角色；</span></li></ol><ol start='3' ><li><span>权力是国际关系中的核心概念；</span></li></ol><ol start='4' ><li><span>国家安全是国际关系诸角色的核心问题。</span></li></ol><h5><a name="2.%E5%A4%9A%E5%85%83%E4%B8%BB%E4%B9%89:-%E6%98%AF%E4%B8%80%E7%A7%8D%22%E5%A4%9A%E4%B8%AD%E5%BF%83%22%E7%9A%84%E5%88%86%E6%9E%90%E6%B3%95%EF%BC%8C%E6%89%80%E5%BC%BA%E8%B0%83%E7%9A%84%E6%98%AF%E5%9B%BD%E5%AE%B6%E5%86%B3%E7%AD%96%E5%92%8C%E8%B7%A8%E5%9B%BD%E4%B8%BB%E4%B9%89" class="md-header-anchor"></a><span>2.多元主义: 是一种“多中心”的分析法，所强调的是国家决策和跨国主义</span></h5><ol><li><span>非国家角色是国际关系中不可忽视的重要行为者；</span></li></ol><ol start='2' ><li><span>国家不一定是理性角色；</span></li></ol><ol start='3' ><li><span>相互依存和跨国主义是国际关系的核心概念；</span></li></ol><ol start='4' ><li><span>国家安全不一定是国际关系诸角色的核心问题，国际关系的重要议题不是一成不变的。</span></li></ol><h5><a name="3.%E5%85%A8%E7%90%83%E4%B8%BB%E4%B9%89:-%E4%BB%A5%E4%B8%96%E7%95%8C%E4%BD%93%E7%B3%BB%E4%B8%BA%E5%88%86%E6%9E%90%E5%9F%BA%E7%A1%80%EF%BC%8C%E5%BC%BA%E8%B0%83%E4%B8%96%E7%95%8C%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E%E4%B8%AD%22%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E5%85%A8%E7%90%83%E7%BB%93%E6%9E%84%22%E7%9A%84%E4%BD%9C%E7%94%A8" class="md-header-anchor"></a><span>3.全球主义: 以世界体系为分析基础，强调世界政治经济中“资本主义全球结构”的作用</span></h5><ol><li><span>国际关系分析的出发点是国家与其他非国家角色赖以发生相互作用的全球体系，而不是国家；</span></li></ol><ol start='2' ><li><span>在承认国家和国际组织等角色的重要性的同时，注重探讨如何使其协力建立国际关系机制；</span></li></ol><ol start='3' ><li><p><span>比现实主义和多元主义更加注重国际关系汇总的经济因素。</span></p><p>&nbsp;</p></li></ol><h4><a name="%E4%BA%8C%E3%80%81%E6%89%B9%E5%88%A4%E7%90%86%E8%AE%BA%E5%AF%B9%E5%AE%9E%E8%AF%81%E4%B8%BB%E4%B9%89%E7%9A%84%E6%8C%91%E6%88%98" class="md-header-anchor"></a><span>二、批判理论对实证主义的挑战</span></h4><p><span>当代西方国际关系理论从认识论上来说，可分为两大类：</span></p><ol><li><span>为建立在理性主义基础上的解释性理论，认为国际社会存在某种确定的规律性，国际事件和国际现象的发生有其一般趋势，由内在的规律所支配。</span></li></ol><ol start='2' ><li><span>为建立在反思主义基础上的构成性理论，强调理论的反思和思想、文化建构的功能，包括后现代主义、女性主义、建构主义等。</span></li></ol><h5><a name="1.-%E6%89%B9%E5%88%A4%E7%90%86%E8%AE%BA" class="md-header-anchor"></a><span>1. 批判理论</span></h5><p><span>冷战的结束，以及冷战后出现的复杂性、多边形的国际形势是批判理论出现的现实背景。新现实主义与新自由主义理论都没有能够预见苏联的解体和冷战的结束。批判理论应运而生。</span></p><h5><a name="2.%E6%89%B9%E5%88%A4%E7%90%86%E8%AE%BA%E5%AF%B9%E5%AE%9E%E8%AF%81%E4%B8%BB%E4%B9%89%E7%9A%84%E6%89%B9%E5%88%A4" class="md-header-anchor"></a><span>2.批判理论对实证主义的批判</span></h5><p><span>批判理论的共性是：否定一般界定为“实证主义”的理论批判理论对实证主义“范式争论”的三个主流理论的批评：</span></p><ul><li><p><span>1.对现实主义的批评: 现实主义是以“国家为中心”的分析法，着重研究国家权力和权力均势。</span></p><ul><li><span>1.现实主义过于强调权力与安全，从整体上忽视了“世界政治”中的文化因素；</span></li><li><span>2.现实主义，特别是新现实主义未能对单位与体系作详细的描述和分析；</span></li><li><span>3.新现实主义未能把握国际关系中道义和伦理变化的意义。</span></li></ul></li></ul><ul><li><p><span>2.对多元主义的批评: 多元主义是一种“多中心”的分析法，强调国家决策和跨国主义。</span></p><ul><li><span>1.多元主义过于“技术化”</span></li><li><span>2.在研究方法定位上趋于“折衷”；</span></li><li><span>3.没有能满足研究“人类社会需要”的要求，缺乏从历史、经济、政治、机构不同角度和内容进行研究。</span></li></ul></li></ul><ul><li><p><span>3.对全球主义的批评</span></p><p><span>全球主义以世界体系为分析基础，强调世界政治经济中“资本主义全球结构”的作用。全球主义缺乏促进认知利益的实质内容和指导行动的明晰的规范原则。</span></p></li></ul><h5><a name="2.%E5%9C%A8%E6%80%BB%E4%BD%93%E4%B8%8A%E7%9A%84%E6%89%B9%E8%AF%84%E5%92%8C%E6%8C%91%E6%88%98%E3%80%82" class="md-header-anchor"></a><span>2.在总体上的批评和挑战。</span></h5><ul><li><p><span>1.认识论</span></p><p><span>批判理论批判实证主义关于认识知识的观点，批评试图建立客观的，在经验上可以获得验证的真理性陈述，反对关于独立于人的思想和实践之外存在客观标准的观点。</span></p></li></ul><ul><li><p><span>2.方法论</span></p><p><span>批判理论反对单一的科学方法占据支配地位，提倡在探索知识的过程中使用多种方法指出研究方法中诠释战略的重要性。</span></p></li></ul><h4><a name="%E4%B8%89%E3%80%81%E5%90%8E%E7%8E%B0%E4%BB%A3%E4%B8%BB%E4%B9%89%E4%B8%8E%E8%A5%BF%E6%96%B9%E5%9B%BD%E9%99%85%E5%85%B3%E7%B3%BB%E7%90%86%E8%AE%BA" class="md-header-anchor"></a><span>三、后现代主义与西方国际关系理论</span></h4><p><span>“后现代”的主要含义是：打破旧的统一性和整体性，冲破由现代主义所确立起来的条条框框。后现代主义思潮的一个总的特点就是反对实证和经验的方法论和认识论，反对关于理性是决定因素的说法，反对现代性和启蒙传统。后现代主义的核心观点包括以下三点:</span></p><ol><li><span>是社会像文本一样能够被多元理解；</span></li></ol><ol start='2' ><li><span>是对行为的解构包括了从强调结构向强调文化的转变，或者说，后现代强调的是文化的作用</span></li></ol><ol start='3' ><li><span>是它存在着用一种相对主义和多元性来反对基础主义的倾向。</span></li></ol><h5><a name="1.%E5%90%8E%E7%8E%B0%E4%BB%A3%E4%B8%BB%E4%B9%89%E5%9B%BD%E9%99%85%E5%85%B3%E7%B3%BB%E7%90%86%E8%AE%BA%E7%9A%84%E8%A7%82%E7%82%B9%E5%92%8C%E6%96%B9%E6%B3%95%EF%BC%9A" class="md-header-anchor"></a><span> 1.后现代主义国际关系理论的观点和方法：</span></h5><ol><li><span>主要任务:  注重被现代主流所搁置在一边的偶然事件、边缘问题、不连贯或被忽视的问题、被压抑和被忘却的问题，提出重新讨论正统或主流认为不以为然或理所当然的东西。</span></li></ol><ol start='2' ><li><p><span>研究的主要内容——强调“文本”和“话语”研究</span></p><ol><li><span>文本与作者的关系: 认为所有文本具有多种含义，是通过“文本之间的相互联系”体现出来。</span></li><li><span>知识与权力的关系: 强调话语在社会及权力组成方面所具有的重要作用, 认为语言并不反映现实，只不过是创造和再制作出一个世界。</span></li></ol></li></ol><ol start='3' ><li><p><span>方法论——“内在反省”、“多元解释”、“解构”、“延异”</span></p><p><span>1). 内在反省: 反对实证主义的方法，不承认、也不谋求揭示由一个独立于主观以外的“真实”</span></p><p><span>2). 多元解释: 强调依靠直觉、感悟等去揭示文本，认为所有的解释同样具有意义</span></p><p><span>3). 解构</span></p><p><span>4). 延异: 延异具有双重含义：“差异”和“拖延”。前者指“不同于别的东西”，后者指“推迟至以后”。</span></p><p>&nbsp;</p></li></ol><h4><a name="%E5%9B%9B%E3%80%81%E5%BB%BA%E6%9E%84%E4%B8%BB%E4%B9%89" class="md-header-anchor"></a><span>四、建构主义</span></h4><h5><a name="1.-%E5%BB%BA%E6%9E%84%E4%B8%BB%E4%B9%89" class="md-header-anchor"></a><span>1. 建构主义</span></h5><p><span>通过把社会学、哲学等领域的知识引用到国际关系理论研究中，从而开创了国际关系的社会学视角。其代表人物和主要理论家为亚历山大·温特。冷战结束以及冷战后的国际关系现实出现了深刻的变化，这种现实在相当程度上揭示了新现实主义为主流的理论范式在解释和预测国际政治方面所存在的缺陷，特别是对社会和文化因素的忽视，这一情况促使学术界出现了新的研究视角。</span></p><p><span>建构主义有三个鲜明的共同特征:认为主体间互动建构社会意义，强调施动者和结构互动建构身份和认同，突出观念在塑造行为方面的作用。</span></p><h5><a name="2.-%E5%BB%BA%E6%9E%84%E4%B8%BB%E4%B9%89%E7%9A%84%E4%B8%BB%E8%A6%81%E5%86%85%E5%AE%B9%EF%BC%9A" class="md-header-anchor"></a><span>2. 建构主义的主要内容：</span></h5><p><span>建构主义批评新现实主义的理性原则，主张用社会学视角看待世界政治，认为事实乃是同时社会建构而存在的，因而被称为建构主义。</span></p><ol><li><span>注重国际关系中所存在的社会规范结构，而不是经济物质结构；</span></li></ol><ol start='2' ><li><span>强调机制、规范和认同在国家行为和国家利益形成过程中所具有的重要作用；</span></li></ol><ol start='3' ><li><span>指明国际体系最根本的结构就是共有的知识和文化，即行为体共同具有的理解和期望。</span></li></ol><h5><a name="3.-%E5%BB%BA%E6%9E%84%E4%B8%BB%E4%B9%89%E7%9A%84%E6%A0%B8%E5%BF%83%E5%91%BD%E9%A2%98" class="md-header-anchor"></a><span>3. 建构主义的核心命题</span></h5><p><span>1）世界政治体系包括物质结构和社会结构两个方面</span></p><p><span>2）认同是利益的基础，认同构成利益和行为。</span></p><p><span>3）世界政治行为体和结构之间存在着相互构成关系</span></p><h5><a name="4.%E5%BB%BA%E6%9E%84%E4%B8%BB%E4%B9%89%E4%B8%8E%E6%96%B0%E7%8E%B0%E5%AE%9E%E4%B8%BB%E4%B9%89%E3%80%81%E6%96%B0%E8%87%AA%E7%94%B1%E4%B8%BB%E4%B9%89%22%E6%96%B0%E4%B8%89%E6%96%B9%E4%BA%89%E8%AE%BA%22%E7%9A%84%E5%BC%82%E5%90%8C%E7%82%B9" class="md-header-anchor"></a><span>4.建构主义与新现实主义、新自由主义“新三方争论”的异同点</span></h5><figure><table><thead><tr><th><span>       </span></th><th><span>   新现实主义   </span></th><th><span>   新自由主义   </span></th><th><span>   建构主义   </span></th></tr></thead><tbody><tr><td><span>   主要理论观点   </span></td><td><span>   国家追求自身利益，为   权力和安全而进行无休止的战争   </span></td><td><span>   关注与经济和政治因素   有关的权力，追求发展富裕，促进自由价值。   </span></td><td><span>   国际行为的思想信念、集体规范、以及社会认同决定。   </span></td></tr><tr><td><span>   主要分析单位   </span></td><td><span>   国家   </span></td><td><span>   国家   </span></td><td><span>   个人（尤其是精英集团）   </span></td></tr><tr><td><span>   主要研究手段   </span></td><td><span>   经济实力，同时特别情   调军事实力   </span></td><td><span>   价值取向（国际制度、   经济交流、扩展民主）   </span></td><td><span>   思想和对话   </span></td></tr><tr><td><span>   对冷战后的预测   </span></td><td><span>   再次出现公开的大国竞争   </span></td><td><span>   随着自有价值、自由市场和国际制度的发展，   合作会得到加强   </span></td><td><span>   不可知论，因为难以确定思想信念的变化   </span></td></tr><tr><td><span>   主要局限   </span></td><td><span>   未能说明国际变化   </span></td><td><span>   过于忽视权力的作用   </span></td><td><span>   描述过去与预测未来更强   </span></td></tr></tbody></table></figure><p>&nbsp;</p><h5><a name="5.%E5%BB%BA%E6%9E%84%E4%B8%BB%E4%B9%89%E5%92%8C%E6%96%B0%E7%8E%B0%E5%AE%9E%E4%B8%BB%E4%B9%89%E7%9A%84%E5%88%86%E6%AD%A7" class="md-header-anchor"></a><span>5.建构主义和新现实主义的分歧</span></h5><p><span>1）国际体系结构到底是由什么构成的问题。</span></p><ol><li><span>新现实主义强调国际体系的物质结构影响行为体的理性行为，认为处于残酷竞争压力状态下的国际体系决定着国家的利益行为并采取诸如权力均势之类的形式；</span></li></ol><ol start='2' ><li><span>建构主义则认为除了物质能力的分配之外，国际体系结构还由社会关系所组成，认为文化内容更重要。</span></li></ol><p><span>2）国际体系中的国家自主原则问题。</span></p><ol><li><span>新现实主义认为，由于国际体系的无政府状态以及在国家之上没有更高的权力机构，国家完全从自私利益考虑出发；</span></li></ol><ol start='2' ><li><span>建构主义则认为，由于受社会规范和认同的作用，国家的行为有时是利他性的，社会规范往往胜过物质上的自我利益。</span></li></ol><p><span>3）影响国家利益和行为形成的动因</span></p><ol><li><span>新现实主义认为，国际体系的无政府状态决定了国家利益和行为的自私性，它们是理所当然的客观存在；</span></li></ol><ol start='2' ><li><span>建构主义则认为，国际无政府状态是一种社会建构，国际规范、认同和其他文化内容决定、影响或改变国家的利益和行为。</span></li></ol><p><span>4）国内因素对国际政治的影响问题。</span></p><ol><li><span>新现实主义认为，国际政治不受国内因素影响；</span></li></ol><ol start='2' ><li><span>建构主义则认为，国内因素如国家机构、国内社会规范、认同和文化也是解释国际政治的重要因素。</span></li></ol><p><span>建构主义与新现实主义的分歧实际上是反思主义和理性主义之间的分歧，前者强调规则、认同、利益和知识，后者注重结构、信息、策略、制度。</span></p></div>
+</body>
+</html>
