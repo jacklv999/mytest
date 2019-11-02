@@ -24,7 +24,7 @@
 - 2.26\*26尺度的预测: 第七层的feature map经过上采样和第六层feature map拼接(concat), 再进行卷积, 然后用于预测
 - 3.52\*52尺度的预测 : 26\*26尺度卷积feature map和第五层feature map concat进行卷积后预测
 
-![1572673429693](C:\Users\C\AppData\Roaming\Typora\typora-user-images\1572673429693.png)
+![1572673429693](https://jacklv999.github.io/mytest/pic/3309.jpg) 
 
 #### 3.YOLO v3的损失函数
 

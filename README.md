@@ -4,6 +4,7 @@
 
 
 
+- [ ] 11.01[ YOLO v3](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/YOLOV3.html) 
 - [ ] 10.30[西方国际关系理论](https://jacklv999.github.io/mytest/读书笔记/政治学与领导/当代西方国际关系理论/当代西方国际关系理论.html) 
 - [ ] 10.27注意力机制
 
