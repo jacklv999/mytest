@@ -15,7 +15,7 @@
 - [CS](https://jacklv999.github.io/mytest/读书笔记/CS/cs/) 
 - [Office系列软件]
 - [Python](https://jacklv999.github.io/mytest/读书笔记/CS/Python/) 
-- [R语言学习笔记](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/目录.html) 
+- [R语言学习笔记](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/) 
 
 #### [ML&DL](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/ML&DL/ML&DL.md)
 
