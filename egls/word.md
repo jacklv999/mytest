@@ -10,6 +10,12 @@ before cure care mere fire
 
 
 
+## 11.5
+
+- #### empirical----[ɪmˈpɪrɪkl]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=empirical&type=2"></audio>
+
 
 
 ## 10.22
