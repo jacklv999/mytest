@@ -29,9 +29,7 @@
 - [ ] 08.29[人像摄影构图](https://jacklv999.github.io/mytest/读书笔记/摄影/人像摄影构图.html) 
 - [ ] 08.17[R语言面向对象](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言面向对象编程.html) 
 - [ ] 08.09[Python多进程](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python多进程.html) 
-- [ ] 08.08[R语言进阶语法](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言进阶语法.html)  
 - [ ] 07.20[Scrapy selector](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Scrapy-Selector.html)  
-- [ ] 05.30[空间回归代码](https://jacklv999.github.io/mytest/旧文件整理/空间计量/空间回归代码.html) 
 - [ ] 05.22[空间计量经济学笔记](https://jacklv999.github.io/mytest/旧文件整理/空间计量/空间计量经济学笔记.html) 
 - [ ] 05.05英语发音: 
 
