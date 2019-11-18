@@ -4,6 +4,8 @@
 
 
 
+- [ ] 11.18[大数据下的替代模型](https://jacklv999.github.io/mytest/读书笔记/计量经济学/空间计量/大数据下的替代模型.html) 
+- [ ] 11.15[空间计量的深入讨论](https://jacklv999.github.io/mytest/读书笔记/计量经济学/空间计量/空间计量经济学的深入讨论.html) 
 - [ ] 11.03[计量经济学各类模型补充](https://jacklv999.github.io/mytest/读书笔记/计量经济学/logit模型.html) 
 - [ ] 11.01[ YOLO v3](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/YOLOV3.html) 
 - [ ] 10.30[西方国际关系理论](https://jacklv999.github.io/mytest/读书笔记/政治学与领导/当代西方国际关系理论/当代西方国际关系理论.html) 
