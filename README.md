@@ -4,6 +4,7 @@
 
 
 
+- [ ] 11.19[空间计量模型的动因及解释](https://jacklv999.github.io/mytest/读书笔记/计量经济学/空间计量/空间计量模型的动因及解释.html) 
 - [ ] 11.18[大数据下的替代模型](https://jacklv999.github.io/mytest/读书笔记/计量经济学/空间计量/大数据下的替代模型.html) 
 - [ ] 11.15[空间计量的深入讨论](https://jacklv999.github.io/mytest/读书笔记/计量经济学/空间计量/空间计量经济学的深入讨论.html) 
 - [ ] 11.03[计量经济学各类模型补充](https://jacklv999.github.io/mytest/读书笔记/计量经济学/logit模型.html) 
@@ -19,20 +20,14 @@
 - [ ] 10.22[变分自编码器VAE](https://jacklv999.github.io/mytest/读书笔记/ML&DL/VAE.html) 
 - [ ] 10.21[变分推断简述](https://jacklv999.github.io/mytest/读书笔记/ML&DL/变分推断简述.html)  
 - [ ] 09.25[高低频和双曲线磨皮](https://jacklv999.github.io/mytest/读书笔记/摄影/摄影——后期/磨皮方法.html) 
-- [ ] 09.23[ 如何用Python实现虚拟机?](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python实现虚拟机.html) 
 - [ ] 09.22[ YOLO](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/Yolo笔记.html) 
-- [ ] 09.22[ GoogleNet](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/GoogleNet.html) 
-- [ ] 09.22[ ResNet](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/ResNet笔记.html)  
 - [ ] 09.19[R语言可视化基础](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言可视化.html) 
 - [ ] 09.18[ggplot绘图笔记](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/ggplot绘图.html) 
 - [ ] 09.16[微调Fine-tuning](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/Finetuning.html) 
 - [ ] 09.15[VGG](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/02VGG论文.html)  
 - [ ] 09.08[CV基础及AlexNet](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/01基础及AlexNet.html) 
-- [ ] 08.29[人像摄影构图](https://jacklv999.github.io/mytest/读书笔记/摄影/人像摄影构图.html) 
-- [ ] 08.17[R语言面向对象](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言面向对象编程.html) 
 - [ ] 08.09[Python多进程](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python多进程.html) 
 - [ ] 07.20[Scrapy selector](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Scrapy-Selector.html)  
-- [ ] 05.22[空间计量经济学笔记](https://jacklv999.github.io/mytest/旧文件整理/空间计量/空间计量经济学笔记.html) 
 - [ ] 05.05英语发音: 
 
     - [ ] [开闭音节](https://jacklv999.github.io/mytest/egls/Prnc-%E5%BC%80%E9%97%AD%E9%9F%B3%E8%8A%82.html)
