@@ -8,14 +8,35 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 11.22
 
+- #### neither-----[ˈnaɪðə;ˈniːðə]英/美
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=neither&type=2"></audio>
+
+- #### say---[seɪ]   said----[sed]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=say&type=2"></audio>
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=said&type=2"></audio>
+
+- #### anger-----------[ˈæŋɡər]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=anger&type=2"></audio>
+
+- #### rampant--------[ˈræmpənt]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=rampant&type=2"></audio>
+
+- #### plagiarism---[ˈplājəˌrizəm]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=plagiarism&type=2"></audio>
 
 ## 11.5
 
 - #### empirical----[ɪmˈpɪrɪkl]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=empirical&type=2"></audio>
-
 
 
 ## 10.22
@@ -30,9 +51,7 @@ before cure care mere fire
 
 - ##### Studying for a master's degree
 
-- #### elliptical-----------[ɪˈlɪptɪkl]
 
-<audio controls src="http://dict.youdao.com/dictvoice?audio=elliptical&type=2"></audio>
 ## 10.21
 
 - #### radioactive-[ˌreɪdioʊˈæktɪv]
@@ -68,16 +87,6 @@ before cure care mere fire
 - #### inundation--------**n. 洪水** 
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=inundation&type=2"></audio>
-## 9.18
-
-- #### wont------------[wɔnt]
-
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=wont&type=2"></audio>
-##### human beings are wont to do, adj. 习惯于
-
-##### Paul woke early, as was his wont, n. 习惯
-
 ## 9.17
 
 The governor just gave a press conference a little while ago
@@ -95,9 +104,6 @@ The governor just gave a press conference a little while ago
 
 ## 8.15
 
-- #### wireless---['waɪərləs]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=wireless&type=2"></audio>
 - #### clandestine: 
 
 #### -------------------[klæn'dɛstɪn]
@@ -107,40 +113,17 @@ clandestine work: 秘密工作
 - #### espionage--['ɛspɪənɑʒ]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=espionage&type=2"></audio>
-- #### compromised
-
-#### ---------缺乏抵抗力的, 妥协的
-
 ## 8.8
 
-- #### vista-------------['vɪstə]
-
-> (尤指从高处看到的) 景色 [书面]
-
-- #### third---------[θɝd]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=third&type=2"></audio>
 - #### tuna----['tunə]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=tuna&type=2"></audio>
-- #### umami---[u'mɑmi]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=umami&type=2"></audio>
 ## 8.7
 
 - #### charlotte----------['ʃɑrlət]
 
-
-## 8.6
-
-- #### inference---------推理, 推论
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=inference&type=2"></audio>
 ## 6.5
 
-- #### famine----------------['fæmɪn]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=famine&type=2"></audio>
 - #### guide---------------------[ɡaɪd]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=guide&type=2"></audio>
@@ -164,14 +147,6 @@ clandestine work: 秘密工作
 - #### civic---------------------['sɪvɪk]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=civic&type=2"></audio>
-- #### policy------------------['pɑləsi]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=policy&type=2"></audio>
 - #### bald-----------------------[bɔld]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=bald&type=2"></audio>
-## 5.24
-
-- #### vendor----------------['vɛndɚ]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=vendor&type=2"></audio>
