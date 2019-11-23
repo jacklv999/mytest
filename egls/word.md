@@ -8,36 +8,33 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+
+
+
+
 ## 11.22
 
 - #### neither-----[ˈnaɪðə;ˈniːðə]英/美
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=neither&type=2"></audio>
-
 - #### say---[seɪ]   said----[sed]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=say&type=2"></audio>
-
 <audio controls src="http://dict.youdao.com/dictvoice?audio=said&type=2"></audio>
-
 - #### anger-----------[ˈæŋɡər]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=anger&type=2"></audio>
-
 - #### rampant--------[ˈræmpənt]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=rampant&type=2"></audio>
-
 - #### plagiarism---[ˈplājəˌrizəm]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=plagiarism&type=2"></audio>
-
 ## 11.5
 
 - #### empirical----[ɪmˈpɪrɪkl]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=empirical&type=2"></audio>
-
 
 ## 10.22
 
@@ -97,9 +94,7 @@ The governor just gave a press conference a little while ago
 
 #### better late than never
 
-## 9.08
-
-- #### I would guess not
+#### I would guess not
 
 
 ## 8.15
@@ -108,16 +103,13 @@ The governor just gave a press conference a little while ago
 
 #### -------------------[klæn'dɛstɪn]
 
+<audio controls src="http://dict.youdao.com/dictvoice?audio=clandestine&type=2"></audio>
+
 clandestine work: 秘密工作
 
 - #### espionage--['ɛspɪənɑʒ]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=espionage&type=2"></audio>
-## 8.8
-
-- #### tuna----['tunə]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=tuna&type=2"></audio>
 ## 8.7
 
 - #### charlotte----------['ʃɑrlət]
@@ -142,11 +134,3 @@ clandestine work: 秘密工作
   - #### expression-[ɪk'sprɛʃən]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=expression&type=2"></audio>
-## 5.31
-
-- #### civic---------------------['sɪvɪk]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=civic&type=2"></audio>
-- #### bald-----------------------[bɔld]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=bald&type=2"></audio>
