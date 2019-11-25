@@ -8,7 +8,11 @@ before cure care mere fire
 
 '-------------------------------------------------------'
 
+## 11.25
 
+- mechanics----[mə'kænɪks]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=mechanics&type=2"></audio>
 
 
 
@@ -35,7 +39,6 @@ before cure care mere fire
 - #### empirical----[ɪmˈpɪrɪkl]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=empirical&type=2"></audio>
-
 ## 10.22
 
 - #### 准确地说
@@ -104,7 +107,6 @@ The governor just gave a press conference a little while ago
 #### -------------------[klæn'dɛstɪn]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=clandestine&type=2"></audio>
-
 clandestine work: 秘密工作
 
 - #### espionage--['ɛspɪənɑʒ]
