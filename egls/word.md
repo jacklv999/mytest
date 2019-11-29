@@ -2,26 +2,38 @@
 
 '-------------------------------------------------------'
 
+## 11.29
+
+- #### ambassador-[æmˈbæsədər]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=ambassador&type=2"></audio>
+
+- #### trajectory-----[trəˈdʒektəri]
+
+- #### ominous------------[ˈɑːmɪnəs]
+
+- #### pharmaceutical
+
+    #### ----------------[ˌfɑːrməˈsuːtɪkl]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=pharmaceutical&type=2"></audio>
+
 ## 11.26
 
 - #### Volume------------[ˈvɑːljuːm]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=Volume&type=2"></audio>
-
 - #### gigaton-------------['gɪgə,tən]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=gigaton&type=2"></audio>
-
 - #### cellular--------------[ˈseljələr]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=cellular&type=2"></audio>
-
 ## 11.25
 
 - #### mechanics----[mə'kænɪks]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=mechanics&type=2"></audio>
-
 
 ## 11.22
 
@@ -143,3 +155,4 @@ clandestine work: 秘密工作
   - #### expression-[ɪk'sprɛʃən]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=expression&type=2"></audio>
+
