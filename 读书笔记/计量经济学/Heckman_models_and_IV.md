@@ -12,7 +12,7 @@ The common causes of endogenity include:
     - Motivation/choice
     - Ability/talent
     - **Self-selection**
-2. **Measurement error** (we would like to include xjxj, but we only observe xj∗xj∗)
+2. **Measurement error** (we would like to include $x_j$, but we only observe $x_j^∗$)
 3. **Simultaneity/bidirectionality** (in children under 5, the relationship between the nutritional status indicator “weight for age” and whether the child had a recent illness might be simultaneous).
 
 Different types of problems require slightly different solutions, which is where the difference between IV and Heckman-type corrections lie. Of course there are differences in the underlying mechanics of these methods, but the premise is the same: which is to remove endogeneity, ideally via an exclusion restriction, i.e. one or more instruments in the case of IV or a variable that affects selection but not the outcome in the case of Heckman.
