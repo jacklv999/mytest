@@ -1,6 +1,6 @@
 # 读书笔记
 
-#### [读书笔记-整理](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%95%B4%E7%90%86/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%95%B4%E7%90%86.md) 
+#### [读书笔记-整理](https://jacklv999.github.io/mytest/读书笔记/读书笔记-整理/) 
 
 #### [IDEA整理](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/IDEA%E6%95%B4%E7%90%86/IDEA%E6%95%B4%E7%90%86.md) 
 

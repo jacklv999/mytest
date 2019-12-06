@@ -4,6 +4,7 @@
 
 
 
+- [ ] 12.05[About Presentation](https://jacklv999.github.io/mytest/读书笔记/读书笔记-整理/AboutPresentation.html) 
 - [ ] 11.25[Heckman model and IV](https://jacklv999.github.io/mytest/读书笔记/计量经济学/Heckman_models_and_IV.html) 
 - [ ] 11.19[空间计量模型的动因及解释](https://jacklv999.github.io/mytest/读书笔记/计量经济学/空间计量/空间计量模型的动因及解释.html) 
 - [ ] 11.18[大数据下的替代模型](https://jacklv999.github.io/mytest/读书笔记/计量经济学/空间计量/大数据下的替代模型.html) 
