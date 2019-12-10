@@ -6,10 +6,13 @@
 
 ## 12.10
 
-- #### silver----[ˈsɪlvər]
+- #### toxic---------------[ˈtɑːksɪk]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=silver&type=2"></audio>
 
+- #### silver----------------[ˈsɪlvər]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=silver&type=2"></audio>
 ## 11.29
 
 - #### ambassador-[æmˈbæsədər]
