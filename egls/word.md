@@ -2,12 +2,19 @@
 
 '-------------------------------------------------------'
 
+
+
+## 12.10
+
+- #### silver----[ˈsɪlvər]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=silver&type=2"></audio>
+
 ## 11.29
 
 - #### ambassador-[æmˈbæsədər]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=ambassador&type=2"></audio>
-
 - #### trajectory-----[trəˈdʒektəri]
 
 - #### ominous------------[ˈɑːmɪnəs]
@@ -17,7 +24,6 @@
     #### ----------------[ˌfɑːrməˈsuːtɪkl]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=pharmaceutical&type=2"></audio>
-
 ## 11.26
 
 - #### Volume------------[ˈvɑːljuːm]
@@ -34,7 +40,6 @@
 - #### mechanics----[mə'kænɪks]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=mechanics&type=2"></audio>
-
 ## 11.22
 
 - #### neither-----[ˈnaɪðə;ˈniːðə]英/美
@@ -44,9 +49,6 @@
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=say&type=2"></audio>
 <audio controls src="http://dict.youdao.com/dictvoice?audio=said&type=2"></audio>
-- #### anger-----------[ˈæŋɡər]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=anger&type=2"></audio>
 - #### rampant--------[ˈræmpənt]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=rampant&type=2"></audio>
@@ -70,12 +72,6 @@
 
 - ##### Studying for a master's degree
 
-
-## 10.21
-
-- #### radioactive-[ˌreɪdioʊˈæktɪv]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=radioactive&type=2"></audio>
 - #### tsunami---------[tsuːˈnɑːmi]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=tsunami&type=2"></audio>
@@ -112,8 +108,6 @@ The governor just gave a press conference a little while ago
 
 #### ------a little while ago
 
-## 9.10
-
 #### better late than never
 
 #### I would guess not
@@ -140,11 +134,6 @@ clandestine work: 秘密工作
 - #### guide---------------------[ɡaɪd]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=guide&type=2"></audio>
-- #### society------------[səˈsaɪətɪ]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=society&type=2"></audio>
-## 6.4
-
 - #### -sion后缀-----发音[ʒən]/[ʒn]
 
   - #### precision-------[prɪ'sɪʒn]
@@ -155,4 +144,3 @@ clandestine work: 秘密工作
   - #### expression-[ɪk'sprɛʃən]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=expression&type=2"></audio>
-
