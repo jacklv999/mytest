@@ -6,10 +6,11 @@
 
 ## 12.10
 
+#### Let me propose a toast to Mr.Smith
+
 - #### toxic---------------[ˈtɑːksɪk]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=silver&type=2"></audio>
-
 - #### silver----------------[ˈsɪlvər]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=silver&type=2"></audio>
