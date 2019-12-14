@@ -2,7 +2,13 @@
 
 '-------------------------------------------------------'
 
+## 12.13
 
+#### i am here by sentence you to death
+
+#### high profile
+
+a position attracting much attention and publicity
 
 ## 12.10
 

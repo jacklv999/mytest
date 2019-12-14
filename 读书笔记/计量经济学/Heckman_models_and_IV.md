@@ -61,6 +61,14 @@ That is, $Wage=Wage^∗_i$ IFF $LaborForce^∗_i>0$ and $Wage=.$ IFF $LaborForce
 
 The solution here is therefore to predict the likelihood of participation in the labor force at first stage using a probit model and the exclusion restriction (the same criteria for valid instruments apply here), calculate the predicted inverse Mills ratio (λ^λ^) for each observation, and in second stage, estimate the wage offer using the λ^λ^ as a predictor in the model (Wooldridge 2009). If the coefficient on λ^λ^ is statistically equal to zero, there is no evidence of sample selection (endogeneity), and OLS results are consistent and can be presented. If the coefficient on λ^λ^ is statistically significantly different from zero, you will need to report the coefficients from the corrected model.
 
+
+
+
+
+
+
+
+
 **References**
 
 1. Antonakis, John, Samuel Bendahan, Philippe Jacquart, and Rafael Lalive. 2010. “On Making Causal Claims: A Review and Recommendations.” *The Leadership Quarterly* 21 (6): 1086–1120. doi:10.1016/j.leaqua.2010.10.010.

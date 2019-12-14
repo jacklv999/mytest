@@ -3,6 +3,7 @@
 - [计量经济学基础](https://jacklv999.github.io/mytest/读书笔记/计量经济学/计量经济学笔记.html) 
 - [计量经济学各类模型补充](https://jacklv999.github.io/mytest/读书笔记/计量经济学/logit模型.html)  
 - [Heckman model and IV](https://jacklv999.github.io/mytest/读书笔记/计量经济学/Heckman_models_and_IV.html) 
+- [The ESR Model](https://jacklv999.github.io/mytest/读书笔记/计量经济学/The ESR Model.html) 
 
 
 
