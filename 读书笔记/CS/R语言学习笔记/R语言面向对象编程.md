@@ -34,10 +34,10 @@ library(R6)
 ```R
 Fm = R6Class("Fm",
 		public = list(
-		name = NA,age = NA,num = NA,#必须全部初始化
-		initialize = function(name,age){#实例化赋值
-			self$name = name
-			self$age = age
+			name = NA,age = NA,num = NA,#必须全部初始化
+			initialize = function(name,age){#实例化赋值
+				self$name = name
+				self$age = age
 		},
         pt = function(){
         	print("11")
