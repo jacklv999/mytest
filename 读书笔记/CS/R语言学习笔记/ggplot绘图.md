@@ -23,33 +23,50 @@ ggplot(dt)+geom_point(aes(x = dt_1, y = dt_2),
 
 #### 2.ggplot常用图形函数
 
-| 图形     | 函数           |
-| -------- | -------------- |
-| 绝对线   | geom_abline    |
-| 柱状图   | geom_bar       |
-| 箱型图   | geom_boxplot   |
-| 等高线图 | geom_contour   |
-| 密度图   | geom_density   |
-| 直方图   | geom_histogram |
-| 折线图   | geom_line      |
-| 地图     | geom_map       |
-| 散点图   | geom_point     |
-| 文字云图 | geom_text      |
-| 小提琴图 | geom_violin    |
+| 图形     | 函数                                         |
+| -------- | -------------------------------------------- |
+| 绝对线   | geom_abline                                  |
+| 柱状图   | geom_bar       `geom_bar(stat = "identity")` |
+| 箱型图   | geom_boxplot                                 |
+| 等高线图 | geom_contour                                 |
+| 密度图   | geom_density                                 |
+| 直方图   | geom_histogram                               |
+| 折线图   | geom_line                                    |
+| 地图     | geom_map                                     |
+| 散点图   | geom_point                                   |
+| 文字云图 | geom_text                                    |
+| 小提琴图 | geom_violin                                  |
 
-#### 3.ggplot的统计变换
+#### 3.ggplot的常用参数
 
-| 统计变换      | 含义 |
-| ------------- | ---- |
-| stat_abline   |      |
-| stat_contour  |      |
-| stat_identity |      |
-| stat_summary  |      |
-| stat_density  |      |
-| stat_qq       |      |
-| stat_quantile |      |
-| stat_smooth   |      |
-| stat_unique   |      |
-| stat_function |      |
-| stat_hline    |      |
+- 1.颜色填充: 以 `fill`  参数传递, `ggplot(Dtmp, aes(x = Value, 	fill = Area)` 
 
+- 2.图标排序: 对 `X` 排序后再传入参数, `ggplot(Dtmp, aes(x = reorder(Area_1, -Value))` 
+
+- 3.水平画图:  `coord_flip()` 
+
+- 4.去除背景线和背景色: 
+
+     ```theme(panel.background=element_rect(fill='transparent',	color ="gray")```  
+
+- 5.设置图例字号: 
+
+    ```R
+    theme(legend.text=element_text(size=10),
+          legend.title=element_text(size=20))
+    ```
+
+- 6.设置坐标轴刻度字号:
+
+    ```R
+    theme(axis.text.x = element_text(size = 14),
+    	 axis.text.y = element_text(size = 14)) 
+    ```
+
+- 7.设置图例列数:
+
+    ```R
+    guides(fill=guide_legend(ncol=1))
+    ```
+
+    

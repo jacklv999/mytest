@@ -43,3 +43,8 @@ animate(p,fps = 35, detail=5,renderer = gifski_renderer())
 ```
 
 注: `gganimate` 不支持插帧, 所以 `fps`, `duration` 等参数需要相互契合
+
+### 3.各种参数
+
+- 1.设置动态图大小: `options(gganimate.dev_args = list(width = 1200, height = 1000))`
+- 2.设置起止停顿: `animate(end_pause = 10)` 
