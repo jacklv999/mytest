@@ -28,7 +28,7 @@ p = ggplot(gapminder, aes(x = log(gdpPercap), y=lifeExp,
 p = ggplot(gapminder, aes(x = log(gdpPercap), y=lifeExp,
 		size = pop, colour = country)) +
 	geom_point(show.legend = FALSE, alpha = 0.7)+
-	transition_states(year, state_length = 1952) +
+	transition_states(year, state_length = 1952) +ease_aes('sine-in-out')+
 	ggtitle('Now showing {closest_state}',
           subtitle = 'Frame {frame} of {nframes}')
 ```
@@ -48,3 +48,4 @@ animate(p,fps = 35, detail=5,renderer = gifski_renderer())
 
 - 1.设置动态图大小: `options(gganimate.dev_args = list(width = 1200, height = 1000))`
 - 2.设置起止停顿: `animate(end_pause = 10)` 
+- 3.平滑过渡: `ease_aes('sine-in-out')` 
