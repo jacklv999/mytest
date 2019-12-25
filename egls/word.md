@@ -2,6 +2,14 @@
 
 '-------------------------------------------------------'
 
+## 12.25
+
+- culinary---[ˈkʌlɪnəri]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=culinary&type=2"></audio>
+
+
+
 ## 12.13
 
 #### i am here by sentence you to death
@@ -42,19 +50,8 @@ a position attracting much attention and publicity
 - #### gigaton-------------['gɪgə,tən]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=gigaton&type=2"></audio>
-- #### cellular--------------[ˈseljələr]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=cellular&type=2"></audio>
-## 11.25
-
-- #### mechanics----[mə'kænɪks]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=mechanics&type=2"></audio>
 ## 11.22
 
-- #### neither-----[ˈnaɪðə;ˈniːðə]英/美
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=neither&type=2"></audio>
 - #### say---[seɪ]   said----[sed]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=say&type=2"></audio>
@@ -65,11 +62,6 @@ a position attracting much attention and publicity
 - #### plagiarism---[ˈplājəˌrizəm]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=plagiarism&type=2"></audio>
-## 11.5
-
-- #### empirical----[ɪmˈpɪrɪkl]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=empirical&type=2"></audio>
 ## 10.22
 
 - #### 准确地说
@@ -85,14 +77,6 @@ a position attracting much attention and publicity
 - #### tsunami---------[tsuːˈnɑːmi]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=tsunami&type=2"></audio>
-## 10.19
-
-- #### debris------------[dəˈbri]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=debris&type=2"></audio>
-- #### aid-------------------[eɪd]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=aid&type=2"></audio>
 ## 09.26
 
 - ##### there are ups and downs in life
@@ -112,16 +96,6 @@ a position attracting much attention and publicity
 - #### inundation--------**n. 洪水** 
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=inundation&type=2"></audio>
-## 9.17
-
-The governor just gave a press conference a little while ago
-
-#### ------a little while ago
-
-#### better late than never
-
-#### I would guess not
-
 
 ## 8.15
 
@@ -135,22 +109,3 @@ clandestine work: 秘密工作
 - #### espionage--['ɛspɪənɑʒ]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=espionage&type=2"></audio>
-## 8.7
-
-- #### charlotte----------['ʃɑrlət]
-
-## 6.5
-
-- #### guide---------------------[ɡaɪd]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=guide&type=2"></audio>
-- #### -sion后缀-----发音[ʒən]/[ʒn]
-
-  - #### precision-------[prɪ'sɪʒn]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=precision&type=2"></audio>
-- #### -ssion后缀-----------发音[ʃən]
-
-  - #### expression-[ɪk'sprɛʃən]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=expression&type=2"></audio>
