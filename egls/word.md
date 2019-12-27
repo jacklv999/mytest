@@ -4,10 +4,13 @@
 
 ## 12.25
 
-- culinary---[ˈkʌlɪnəri]
+- #### culinary----------[ˈkʌlɪnəri]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=culinary&type=2"></audio>
 
+- #### isolate---------[ˈaɪsəleɪt]
+
+<audio controls src="http://dict.youdao.com/dictvoice?audio=isolate&type=2"></audio>
 
 
 ## 12.13
@@ -96,7 +99,6 @@ a position attracting much attention and publicity
 - #### inundation--------**n. 洪水** 
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=inundation&type=2"></audio>
-
 ## 8.15
 
 - #### clandestine: 
