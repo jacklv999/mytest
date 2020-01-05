@@ -2,17 +2,22 @@
 
 '-------------------------------------------------------'
 
+## 03.03
+
+- #### get sb up to speed on sth
+
+- 赶上进度/了解最新情况
+
+
+
 ## 12.25
 
 - #### culinary----------[ˈkʌlɪnəri]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=culinary&type=2"></audio>
-
 - #### isolate---------[ˈaɪsəleɪt]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=isolate&type=2"></audio>
-
-
 ## 12.13
 
 #### i am here by sentence you to death
