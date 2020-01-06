@@ -4,6 +4,7 @@
 
 
 
+- [ ] 01.06[rust简明教程](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Rust简明教程.html) 
 - [ ] 12.25[用R语言画 Cartogram](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/Plot A Cartogram.html) 
 - [ ] 12.23[用R语言画流向图](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言画流向图.html) 
 - [ ] 12.19[REmap Note](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/REmap Note.html) 

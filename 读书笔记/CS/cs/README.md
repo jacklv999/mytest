@@ -14,3 +14,4 @@
 
 [Chrome快捷键](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Chrome快捷键.html) 
 
+[rust简明教程](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Rust简明教程.html) 
