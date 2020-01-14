@@ -17,3 +17,5 @@
 [rust简明教程](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Rust简明教程.html) 
 
 [VM based on Register](https://jacklv999.github.io/mytest/读书笔记/CS/cs/vm_register.html) 
+
+[编译原理简记](https://jacklv999.github.io/mytest/读书笔记/CS/cs/编译原理简记.html) 
