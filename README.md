@@ -4,6 +4,7 @@
 
 
 
+- [ ] 01.15[Golang教程](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Go语言教程.html) 
 - [ ] 01.14[编译原理简记](https://jacklv999.github.io/mytest/读书笔记/CS/cs/编译原理简记.html) 
 - [ ] 01.13[VM based on Register](https://jacklv999.github.io/mytest/读书笔记/CS/cs/vm_register.html)
 - [ ] 01.06[rust简明教程](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Rust简明教程.html) 
