@@ -14,6 +14,8 @@
 
 [07 SSD](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/SSD论文.html) 
 
+[08 DSSD](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/DSSD论文简析.html) 
+
 
 
 

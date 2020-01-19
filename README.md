@@ -3,7 +3,8 @@
 
 
 
-- [ ] 01.19[SSD论文](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/SSD论文.html) 
+- [ ] 01.19[DSSD论文简析](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/DSSD论文简析.html) 
+- [ ] 01.18[SSD论文](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/SSD论文.html) 
 - [ ] 01.15[Golang教程](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Go语言教程.html) 
 - [ ] 01.14[编译器原理简记](https://jacklv999.github.io/mytest/读书笔记/CS/cs/编译器原理简记.html) 
 - [ ] 01.13[VM based on Register](https://jacklv999.github.io/mytest/读书笔记/CS/cs/vm_register.html)
