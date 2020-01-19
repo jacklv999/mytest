@@ -12,6 +12,8 @@
 
 [06 YOLO v3](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/YOLOV3.html) 
 
+[07 SSD](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/SSD论文.html) 
+
 
 
 
