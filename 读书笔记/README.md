@@ -1,16 +1,18 @@
 # 读书笔记
 
+#### [英语学习](https://jacklv999.github.io/mytest/egls/) 
+
 #### [读书笔记-整理](https://jacklv999.github.io/mytest/读书笔记/读书笔记-整理/) 
 
 #### [IDEA整理](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/IDEA%E6%95%B4%E7%90%86/IDEA%E6%95%B4%E7%90%86.md) 
 
-### [计量经济学](https://jacklv999.github.io/mytest/读书笔记/计量经济学/) 
+#### [计量经济学](https://jacklv999.github.io/mytest/读书笔记/计量经济学/) 
 
-#### [语言篇](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%AF%AD%E8%A8%80%E7%AF%87/%E8%AF%AD%E8%A8%80%E7%AF%87.md)
+#### 语言篇
 
 - [Pyramid](https://jacklv999.github.io/mytest/读书笔记/语言篇/Pyramid.html) 
-- [语言篇]
-- [American Accent Course]
+- [语言篇](https://jacklv999.github.io/mytest/读书笔记/语言篇/) 
+- [American Accent Course](https://jacklv999.github.io/mytest/读书笔记/语言篇/AAC目录.html) 
 
 #### [Computer Science](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/CS/cs.md)
 
@@ -61,4 +63,4 @@
 
 - [数码摄影手册]
 - [摄影讨论]
-- [摄影后期](https://jacklv999.github.io/mytest/读书笔记/摄影/摄影后期/) 
+- [摄影后期](https://jacklv999.github.io/mytest/读书笔记/摄影/摄影——后期/) 

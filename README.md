@@ -1,5 +1,4 @@
-## [知乎收藏夹](https://jacklv999.github.io/mytest/zhihu/) &emsp;&emsp;&emsp;&emsp; [读书笔记](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/) 
-## [英语单词](https://jacklv999.github.io/mytest/egls/word.html) &emsp;&emsp;&emsp;&emsp;&emsp; [自然拼读](https://jacklv999.github.io/mytest/egls/自然拼读法.html) 
+# [英语单词](https://jacklv999.github.io/mytest/egls/word.html) &emsp;&emsp;&emsp;&emsp;&emsp;  [读书笔记](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/) 
 
 
 

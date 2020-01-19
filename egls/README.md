@@ -1,5 +1,9 @@
 [自然拼读规则](https://jacklv999.github.io/mytest/egls/自然拼读规则.html) 
 
+[自然拼读法](https://jacklv999.github.io/mytest/egls/自然拼读法.html) 
+
+[自然拼读](https://jacklv999.github.io/mytest/egls/自然拼读法.html) 
+
 - [ ] 英语发音: 
     - [ ] [开闭音节](https://jacklv999.github.io/mytest/egls/Prnc-%E5%BC%80%E9%97%AD%E9%9F%B3%E8%8A%82.html)
     - [ ] [特殊读音](https://jacklv999.github.io/mytest/egls/Prnc-%E7%89%B9%E6%AE%8A%E8%AF%BB%E9%9F%B3.html)
