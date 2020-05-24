@@ -1,22 +1,26 @@
 ## Python文章
 
-[Python完整笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python核心笔记.html) 
+- [Python完整笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python核心笔记.html) 
+- [Pytorch与Py模块化笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Pytorch与Py模块化笔记.html) 
+- [Python多进程](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python多进程.html)  
+- [如何用Python实现虚拟机?](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python实现虚拟机.html)  
+- [Numba库使用简介](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Numba库使用简介.html) 
+- [Python监听模拟鼠标键盘](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Python监听模拟鼠标键盘.html) 
+- [Python的FFI编程](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python的FFI编程.html) 
 
-[Pytorch与Py模块化笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Pytorch与Py模块化笔记.html) 
 
-[Python多进程](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python多进程.html)  
 
-[Pytorch与Numpy/pd笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Pytorch与Nppd笔记.html) 
+## Python数据分析
 
-[Python爬虫笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/requests笔记.html) 
+- [Pytorch与Numpy/pd笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Pytorch与Nppd笔记.html) 
 
-[如何用Python实现虚拟机?](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python实现虚拟机.html)  
 
-[Numba库使用简介](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Numba库使用简介.html) 
 
-[Scrapy-Selector笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Scrapy-Selector.html) 
+## Python 爬虫
 
-[Python监听模拟鼠标键盘](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Python监听模拟鼠标键盘.html) 
+- [BeautifulSoup基础](https://jacklv999.github.io/mytest/读书笔记/CS/Python/BeautifulSoup基础.html) 
+- [Scrapy-Selector笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Scrapy-Selector.html) 
+- [Python request爬虫笔记](https://jacklv999.github.io/mytest/读书笔记/CS/Python/requests笔记.html) 
 
 
 
