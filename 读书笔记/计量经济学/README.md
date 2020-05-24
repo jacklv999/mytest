@@ -4,6 +4,8 @@
 - [计量经济学各类模型补充](https://jacklv999.github.io/mytest/读书笔记/计量经济学/logit模型.html)  
 - [Heckman model and IV](https://jacklv999.github.io/mytest/读书笔记/计量经济学/Heckman_models_and_IV.html) 
 - [The ESR Model](https://jacklv999.github.io/mytest/读书笔记/计量经济学/The ESR Model.html) 
+- [因子分析在量表设计中的应用](https://jacklv999.github.io/mytest/读书笔记/计量经济学/因子分析在量表设计中的应用.html) 
+- [What is GMM](https://jacklv999.github.io/mytest/读书笔记/计量经济学/What is GMM.html) 
 
 
 

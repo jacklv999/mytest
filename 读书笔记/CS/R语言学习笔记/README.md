@@ -32,3 +32,7 @@
 ## R语言深入
 
 [R语言与其他编程语言协作](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言与其它编程语言的协作.html) 
+
+[Rust FFI in R](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/Rust FFI in R.html) 
+
+[R语言 GUI in tcltk](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/the document of tcltk in R.html) 

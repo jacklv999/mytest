@@ -3,6 +3,17 @@
 
 
 
+- [ ] 05.24[AdBlocker规则简单整理](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/ADblocker规则简单整理.html) 
+- [ ] 05.24[Python的FFI编程](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python的FFI编程.html) 
+- [ ] 05.24[Markdown 流程图](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Markdown 流程图.html) 
+- [ ] 05.24[Javascript In GreaseMonkey](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/Javascript Coding.html) 
+- [ ] 05.24[使用 TypeScript 来写 Vue[转]](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/使用 TypeScript 来写 Vue.html) 
+- [ ] 05.24[因子分析在量表设计中的应用](https://jacklv999.github.io/mytest/读书笔记/计量经济学/因子分析在量表设计中的应用.html) 
+- [ ] 05.24[阅读的核心](https://jacklv999.github.io/mytest/读书笔记/IDEA整理/阅读的核心.html) 
+- [ ] 05.24[What is GMM](https://jacklv999.github.io/mytest/读书笔记/计量经济学/What is GMM.html) 
+- [ ] 05.24[About GNN 基础](https://jacklv999.github.io/mytest/读书笔记/ML&DL/About graph neural network.html) 
+- [ ] 05.24[Rust FFI in R](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/Rust FFI in R.html) 
+- [ ] 05.24[R语言 GUI in tcltk](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/the document of tcltk in R.html) 
 - [ ] 01.19[DSSD论文简析](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/DSSD论文简析.html) 
 - [ ] 01.18[SSD论文](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/SSD论文.html) 
 - [ ] 01.15[Golang教程](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Go语言教程.html) 
