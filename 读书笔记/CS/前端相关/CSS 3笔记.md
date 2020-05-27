@@ -40,6 +40,7 @@ linear-gradient(direction, color-stop1, color-stop2, ...);
 <div style="float:left;height:100px;width:20%;transform: translate(15px,10px);background-color:Cyan">Cyan</div>
 <div style="float:left;height:100px;width:20%;transform: scale(0.5,0.5);background-color:CornflowerBlue ">CornflowerBlue</div>
 <div style="float:left;height:60px;width:15%;transform: skew(10deg,10deg);background-color:DarkTurquoise  ">DarkTurquoise</div>
+<div style="clear:both"></div>
 
 | 函数                      | 描述                                     |
 | :------------------------ | :--------------------------------------- |
