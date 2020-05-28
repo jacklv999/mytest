@@ -6,7 +6,6 @@
 - [ ] 05.27[CSS 3笔记](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/CSS 3笔记.html) 
 - [ ] 05.26[CSS 基础](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/CSS基础.html) 
 - [ ] 05.26[CSS 布局](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/CSS 布局.html) 
-- [ ] 05.25[HTML DOM 元素处理](./读书笔记/CS/前端相关/HTML DOM 元素处理.html) 
 - [ ] 05.25[HTML DOM 元素处理](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/HTML DOM 元素处理.html) 
 - [ ] 05.25[JavaScript基础](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/JavaScript基础.html) 
 - [ ] 05.25[HTML DOM事件](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/HTML DOM事件.html) 
