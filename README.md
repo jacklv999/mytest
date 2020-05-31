@@ -3,6 +3,7 @@
 
 
 
+- [ ] 06.01[Transformer笔记](https://jacklv999.github.io/mytest/读书笔记/ML&DL/NLP/Transformer笔记.html) 
 - [ ] 05.31[Seq2Seq解析](https://jacklv999.github.io/mytest/读书笔记/ML&DL/NLP/seq2seq解析.html) 
 - [ ] 05.27[CSS 3笔记](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/CSS 3笔记.html) 
 - [ ] 05.26[CSS 基础](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/CSS基础.html) 
