@@ -25,9 +25,9 @@
 - [NLP 相关](https://jacklv999.github.io/mytest/读书笔记/ML&DL/NLP/) 
 - [其他类别](https://jacklv999.github.io/mytest/读书笔记/ML&DL/) 
 
-## [数理分析](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E7%90%86%E5%88%86%E6%9E%90/%E6%95%B0%E7%90%86%E5%88%86%E6%9E%90.md) 
+## [数理分析](https://jacklv999.github.io/mytest/读书笔记/数理分析/) 
 
-## [心理学](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%BF%83%E7%90%86%E5%AD%A6/%E5%BF%83%E7%90%86%E5%AD%A6.md)
+## [心理学](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%BF%83%E7%90%86%E5%AD%A6/) 
 
 - [普通心理学]
 - [社会心理学]
