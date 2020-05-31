@@ -22,12 +22,13 @@
 - [Python](https://jacklv999.github.io/mytest/读书笔记/CS/Python/) 
 - [R语言学习笔记](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/) 
 
-## [ML&DL](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/ML&DL/) 
+## ML/DL 相关
 
 - [机器学习--李宏毅](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-机器学习-李宏毅/目录.html) 
 - [Pytorch教程](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-Pytorch教程Mvan/目录.html)  
 - [机器学习-MLDS](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/) 
-- [CV Paper](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/) 
+- [CV 相关](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/) 
+- [NLP 相关](https://jacklv999.github.io/mytest/读书笔记/ML&DL/NLP/)
 - [其他类别](https://jacklv999.github.io/mytest/读书笔记/ML&DL/) 
 
 ## [数理分析](https://jacklv999.github.io/mytest/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E7%90%86%E5%88%86%E6%9E%90/%E6%95%B0%E7%90%86%E5%88%86%E6%9E%90.md) 

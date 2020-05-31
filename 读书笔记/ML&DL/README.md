@@ -1,7 +1,3 @@
-## [CV Paper](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/) 
-
-
-
 ## Attention机制
 
 - [Attention模型方法综述](https://mp.weixin.qq.com/s/sAYOXEjAdA91x3nliHNX8w) 
