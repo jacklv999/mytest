@@ -8,7 +8,7 @@
 
 #### [摄影](https://www.zhihu.com/collection/309978470)
 
-#### [Interesting](https://www.zhihu.com/collection/309978470)
+#### [Interesting](https://www.zhihu.com/collection/309978470) 
 
 #### [行业分析](https://www.zhihu.com/collection/239736435)
 
@@ -36,23 +36,4 @@
 
 #### [发展心理学](https://www.zhihu.com/collection/240271189)
 
-#### [Useful-技巧篇](https://www.zhihu.com/collection/63293728)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### [Useful-技巧篇](https://www.zhihu.com/collection/63293728) 

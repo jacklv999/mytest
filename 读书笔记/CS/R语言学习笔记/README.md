@@ -7,8 +7,7 @@
 - [R语言面向对象](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言面向对象编程.html) 
 - [R语言强制类型转化](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言强制数据类型转化.html) 
 - [R语言数据接口](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/R语言数据接口.html) 
-
-
+- [R语言相关性分析](./R语言特征值相关性分析.html) 
 
 ## R语言可视化
 
@@ -37,4 +36,4 @@
 
 [R语言 GUI in tcltk](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/the document of tcltk in R.html) 
 
-[Using R to simulate the minimum of human](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/Using R to simulate the minimum of human.html)
+[Using R to simulate the minimum of human](https://jacklv999.github.io/mytest/读书笔记/CS/R语言学习笔记/Using R to simulate the minimum of human.html) 
