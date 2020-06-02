@@ -5,7 +5,7 @@
 - [Python多进程](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python多进程.html)  
 - [如何用Python实现虚拟机?](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python实现虚拟机.html)  
 - [Numba库使用简介](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Numba库使用简介.html) 
-- [Python监听模拟鼠标键盘](https://jacklv999.github.io/mytest/读书笔记/CS/cs/Python监听模拟鼠标键盘.html) 
+- [Python监听模拟鼠标键盘](./Python监听模拟鼠标键盘.html) 
 - [Python的FFI编程](https://jacklv999.github.io/mytest/读书笔记/CS/Python/Python的FFI编程.html) 
 
 
