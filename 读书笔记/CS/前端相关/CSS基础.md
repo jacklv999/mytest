@@ -10,7 +10,7 @@
 | *element*<br />p        |    选择\<p\>元素                        |
 | *element,element*<br />div,p | 选择\<div\>和\<p\>元素           |
 | *element*>*element*<br />div>p | 子代元素选择器 |
-| *element* +*element*<br />div+p | x相邻兄弟选择器 |
+| *element* +*element*<br />div+p | 相邻兄弟选择器 |
 | *element* ~*element*<br />div~p |  后续兄弟选择器 |
 | *element* *element*<br />div p   | 选择所有\<div\>元素后的\<p\> |
 | [*attribute*\]<br />[target] |  选择带有target属性元素               |
@@ -62,7 +62,7 @@ h1 {color:rgb(255,0,0);}                    /*文本颜色*/
 h1 {text-align:center;}                     /*文本对齐方式*/
 h1 {text-indent:50px;}                      /*文本缩进*/
 h2 {text-decoration: underline wavy red;}   /*红色波浪形下划线*/
-h3 {text-shadow: 2px 2px 2px #ff0000;}      /*水平,垂直,模糊,颜色*/
+h3 {text-shadow: 2px 2px 2px #ff0000;}   /*水平,垂直,模糊,颜色*/
 ```
 
 | 属性                                                         | 描述             | 实例                               |
