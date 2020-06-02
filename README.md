@@ -48,4 +48,4 @@
 - [ ] 10.22[变分自编码器VAE](https://jacklv999.github.io/mytest/读书笔记/ML&DL/VAE.html) 
 - [ ] 10.21[变分推断简述](https://jacklv999.github.io/mytest/读书笔记/ML&DL/变分推断简述.html)  
 - [ ] 09.25[高低频和双曲线磨皮](https://jacklv999.github.io/mytest/读书笔记/摄影/摄影——后期/磨皮方法.html) 
-- [ ] 09.22[ YOLO](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/Yolo笔记.html)   
+- [ ] 09.22[ YOLO](https://jacklv999.github.io/mytest/读书笔记/ML&DL/CVPaper/Yolo笔记.html)        
