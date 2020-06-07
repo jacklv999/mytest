@@ -64,3 +64,25 @@ if (adSidebar) {
 
 if you have any trouble in debug, i would suggest Chrome console, it could make any problem far more easy than you think
 
+```javascript
+/*change style in tag*/
+var x=document.getElementsByTagName("html")[0];
+x.style.overflow="scroll";
+
+var y = document.getElementsByClassName("Modal-wrapper")[0];
+y.style.display="none";
+
+    
+var y = document.getElementById("playerwrap");
+var st = document.createAttribute("style");
+st.value='min-width:800px;';
+y.setAttributeNode(st);
+
+document.getElementById("playerwrap").classList.add("stick");
+
+var mr = document.getElementsByClassName("mr")[0];
+var styl = document.createAttribute("style");
+styl.value='right:0px;';
+mr.setAttributeNode(styl);
+```
+
