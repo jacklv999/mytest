@@ -2,6 +2,11 @@
 
 '-------------------------------------------------------'
 
+## 06.10
+
+- sth is shown bellow
+- sth is as follows
+
 ## 01.03
 
 - #### get sb up to speed on sth
