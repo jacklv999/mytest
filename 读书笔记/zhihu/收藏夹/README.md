@@ -1,8 +1,8 @@
 # 知乎收藏夹
 
-#### [语言学习与写作](https://jacklv999.github.io/mytest/zhihu/languagelearning&write.html)
+#### [语言学习与写作](../languagelearning&write.html) 
 
-#### [编程与电脑](https://jacklv999.github.io/mytest/zhihu/programe&computer.html)
+#### [编程与电脑](../programe&computer.html) 
 
 #### [文学相关](https://www.zhihu.com/collection/346973728)
 
