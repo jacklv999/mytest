@@ -1,7 +1,5 @@
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\1.txt
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\README.md
-F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\新建文本文档.html
-F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\新建文本文档.txt
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\cs\Chrome快捷键.html
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\cs\Chrome快捷键.md
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\cs\CMD脚本.html
