@@ -25,7 +25,7 @@ for i in tmp_str_3:
         tmp_2 = '](.'+tmp_1[:-1]+')\n'
         tmp_1 = tmp_1[:-6]
         tmp_3 = tmp_1.split('/')
-        tmp_4 = '\n- [ ] '+time_now+'['+tmp_3[-1]+tmp_2
+        tmp_4 = '- [ ] '+time_now+'['+tmp_3[-1]+tmp_2
         fp = open('F:\\MyInterest\\MyDir\\Pages\\mytest\\mytest\\README.md','r+',encoding='UTF-8')
         s = fp.read()                   #将指定文件读入内存
         fp.close()
