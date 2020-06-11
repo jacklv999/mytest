@@ -30,7 +30,7 @@ for i in tmp_str_3:
         s = fp.read()                   #将指定文件读入内存
         fp.close()
         a = s.split('\n')
-        a.insert(5, tmp_4)    #在第 LINE+1 行插入
+        a.insert(6, tmp_4)    #在第 LINE+1 行插入
         s = '\n'.join(a)                #用'\n'连接各个元素
         #print(s)
         fp = open('F:\\MyInterest\\MyDir\\Pages\\mytest\\mytest\\README.md','w',encoding='UTF-8')
