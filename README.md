@@ -3,6 +3,7 @@
 
 
 
+- [ ] 06.11[习惯养成和神经系统](./习惯养成和神经系统.html) 
 - [ ] 06.11[熵增定律](https://jacklv999.github.io/mytest/读书笔记/IDEA整理/熵增定律.html) 
 - [ ] 06.10[信息熵理论](https://jacklv999.github.io/mytest/读书笔记/IDEA整理/信息熵理论.html) 
 - [ ] 06.01[Transformer笔记](https://jacklv999.github.io/mytest/读书笔记/ML&DL/NLP/Transformer笔记.html) 
