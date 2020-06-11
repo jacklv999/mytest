@@ -3,12 +3,6 @@
 
 
 
-
-- [ ] 0612[新建文本文档](./读书笔记/CS/新建文本文档.html)
-
-
-- [ ] 0611[新建文本文档](./读书笔记/新建文本文档.html)
-
 - [ ] 06.11[习惯养成和神经系统](https://jacklv999.github.io/mytest/读书笔记/IDEA整理/习惯养成和神经系统.html) 
 - [ ] 06.11[熵增定律](https://jacklv999.github.io/mytest/读书笔记/IDEA整理/熵增定律.html) 
 - [ ] 06.10[信息熵理论](https://jacklv999.github.io/mytest/读书笔记/IDEA整理/信息熵理论.html) 
