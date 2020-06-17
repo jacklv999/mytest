@@ -2,10 +2,10 @@
 
 
 
+- [ ] 0617[如何了解一个行业](./读书笔记/IDEA整理/如何了解一个行业.html)
 
 - [ ] 06.11[习惯养成和神经系统](https://jacklv999.github.io/mytest/读书笔记/IDEA整理/习惯养成和神经系统.html) 
 - [ ] 06.11[熵增定律](https://jacklv999.github.io/mytest/读书笔记/IDEA整理/熵增定律.html) 
-- [ ] 0617[如何了解一个行业](./读书笔记/IDEA整理/如何了解一个行业.html)
 - [ ] 06.10[信息熵理论](https://jacklv999.github.io/mytest/读书笔记/IDEA整理/信息熵理论.html) 
 - [ ] 06.01[Transformer笔记](https://jacklv999.github.io/mytest/读书笔记/ML&DL/NLP/Transformer笔记.html) 
 - [ ] 05.27[CSS 3笔记](https://jacklv999.github.io/mytest/读书笔记/CS/前端相关/CSS 3笔记.html) 
