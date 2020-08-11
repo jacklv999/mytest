@@ -1,8 +1,8 @@
-## [机器学习基础--李宏毅](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-机器学习-李宏毅/目录.html) 
+## [机器学习基础--李宏毅](./ML&DL-机器学习-李宏毅/目录.html) 
 
-## [机器学习深入-李宏毅](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-MLDS/) 
+## [机器学习深入-李宏毅](./ML&DL-MLDS/) 
 
-## [Pytorch教程](https://jacklv999.github.io/mytest/读书笔记/ML&DL/ML&DL-Pytorch教程Mvan/目录.html)  
+## [Pytorch教程](./ML&DL-Pytorch教程Mvan/目录.html)  
 
 ## Attention机制
 
@@ -13,8 +13,8 @@
 
 ## 其他类别
 
-- [基于flow的生产模型](https://jacklv999.github.io/mytest/读书笔记/ML&DL/基于 flow 的生成模型.html) 
-- [变分推断简述](https://jacklv999.github.io/mytest/读书笔记/ML&DL/变分推断简述.html) 
-- [变分自编码器VAE](https://jacklv999.github.io/mytest/读书笔记/ML&DL/VAE.html) 
-- [About GNN 基础](https://jacklv999.github.io/mytest/读书笔记/ML&DL/About graph neural network.html) 
+- [基于flow的生产模型](./基于 flow 的生成模型.html) 
+- [变分推断简述](./变分推断简述.html) 
+- [变分自编码器VAE](./VAE.html) 
+- [About GNN 基础](./About graph neural network.html) 
 
