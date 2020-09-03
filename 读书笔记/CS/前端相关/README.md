@@ -3,11 +3,11 @@
 - [AdBlocker规则简单整理](./ADblocker规则简单整理.html) 
 - [Javascript In GreaseMonkey](./Javascript Coding.html) 
 - [使用 TypeScript 来写 Vue[转]](./使用 TypeScript 来写 Vue.html) 
-- [最强大的 CSS 布局 —— Grid 布局](https://juejin.im/post/6854573220306255880) 
 
 ## JavaScript 笔记
 
 - [JavaScript基础](./JavaScript基础.html) 
+- [jQuery教程](https://www.runoob.com/jquery/jquery-tutorial.html) 
 
 ## HTML笔记
 
@@ -22,4 +22,5 @@
 - [CSS 基础](./CSS基础.html)
 - [CSS 布局](./CSS 布局.html) 
 - [CSS 3笔记](./CSS 3笔记.html) 
+- [最强大的 CSS 布局 —— Grid 布局](https://juejin.im/post/6854573220306255880) 
 
