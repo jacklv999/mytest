@@ -37,3 +37,5 @@
 [R语言 GUI in tcltk](./the document of tcltk in R.html) 
 
 [Using R to simulate the minimum of human](./Using R to simulate the minimum of human.html) 
+
+[R语言爬虫基础](./R语言爬虫.html) 
