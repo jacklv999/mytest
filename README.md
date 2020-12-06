@@ -3,7 +3,7 @@
 
 
 
-- [ ] 126[Bayesian 统计简述](.数理分析/Bayesian 统计简述.html)
+- [ ] 1206[Bayesian 统计简述](./读书笔记/数理分析/Bayesian 统计简述.html) 
 - [ ] 1205[R语言爬虫](./读书笔记/CS/R语言学习笔记/R语言爬虫.html)
 
 - [ ] 0904[jQuery教程](https://www.runoob.com/jquery/jquery-tutorial.html) 
