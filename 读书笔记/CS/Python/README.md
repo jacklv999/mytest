@@ -7,7 +7,11 @@
 - [Numba库使用简介](./Numba库使用简介.html) 
 - [Python监听模拟鼠标键盘](./Python监听模拟鼠标键盘.html) 
 - [Python的FFI编程](./Python的FFI编程.html) 
-- [Python GUI: Dear Python GUI Tutorial](./DPG Tutorials.html) 
+
+## GUI Programming
+
+- [Dear Python GUI Tutorial](./DPG Tutorials.html)  
+- [DearPyGUI Tutorial Note](./DearPyGUI Tutorial Note.html) 
 
 
 

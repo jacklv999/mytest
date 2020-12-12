@@ -38,6 +38,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\cs\Office相关\Word-Tips.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\cs\Office相关\Word-Tips.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\BeautifulSoup基础.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\BeautifulSoup基础.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\DearPyGUI Tutorial Note.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\DearPyGUI Tutorial Note.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\DPG Tutorials.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Numba库使用简介.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Numba库使用简介.md
