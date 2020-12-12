@@ -214,6 +214,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\YOLOV3.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\YOLOV3.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Yolo笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Yolo笔记.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\1. AlexNet\AlexNet Code.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\1. AlexNet\AlexNet Note.ipynb
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\ML&DL-MLDS\BiGAN及InfoGAN.html

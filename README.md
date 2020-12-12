@@ -3,11 +3,11 @@
 
 
 
+- [ ] 1212[AlexNet Code](./读书笔记/ML&DL/CVPaper/1. AlexNet/AlexNet Code.html)
 - [ ] 1212[DearPyGUI Tutorial Note](./读书笔记/CS/Python/DearPyGUI Tutorial Note.html)
 - [ ] 1212[DPG Tutorials](./读书笔记/CS/Python/DPG Tutorials.html)
 - [ ] 1206[Bayesian 统计简述](./读书笔记/数理分析/Bayesian 统计简述.html) 
 - [ ] 1205[R语言爬虫](./读书笔记/CS/R语言学习笔记/R语言爬虫.html)
-
 - [ ] 0904[jQuery教程](https://www.runoob.com/jquery/jquery-tutorial.html) 
 - [ ] 0903[最强大的 CSS 布局 — Grid 布局](https://juejin.im/post/6854573220306255880) 
 - [ ] 0707[摄影中冷暖色调](./读书笔记/摄影/摄影中冷暖色调.html)
