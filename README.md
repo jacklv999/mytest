@@ -3,7 +3,6 @@
 
 
 
-- [ ] 1213[1](./读书笔记/CS/1.html)
 - [ ] 1213[权重初始化方法](./读书笔记/ML&DL/权重初始化方法.html)
 - [ ] 1213[L-2 Regularization](./读书笔记/ML&DL/L-2 Regularization.html)
 - [ ] 1212[AlexNet Code](./读书笔记/ML&DL/CVPaper/1. AlexNet/AlexNet Code.html)
