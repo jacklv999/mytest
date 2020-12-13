@@ -3,11 +3,7 @@
 
 
 
-- [ ] 1213[01基础及AlexNet](./读书笔记/ML&DL/CVPaper/CV-Baseline/01基础及AlexNet.html)
-- [ ] 1213[ResNet笔记](./读书笔记/ML&DL/CVPaper/CV-Baseline/ResNet笔记.html)
-- [ ] 1213[02VGG论文](./读书笔记/ML&DL/CVPaper/CV-Baseline/02VGG论文.html)
-- [ ] 1213[GoogleNet](./读书笔记/ML&DL/CVPaper/CV-Baseline/GoogleNet.html)
-- [ ] 1213[AlexNet Code](./读书笔记/ML&DL/CVPaper/CV-Baseline/1. AlexNet/AlexNet Code.html)
+- [ ] 1213[1](./读书笔记/CS/1.html)
 - [ ] 1213[权重初始化方法](./读书笔记/ML&DL/权重初始化方法.html)
 - [ ] 1213[L-2 Regularization](./读书笔记/ML&DL/L-2 Regularization.html)
 - [ ] 1212[AlexNet Code](./读书笔记/ML&DL/CVPaper/1. AlexNet/AlexNet Code.html)
