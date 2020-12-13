@@ -3,6 +3,8 @@
 
 
 
+- [ ] 1213[权重初始化方法](./读书笔记/ML&DL/权重初始化方法.html)
+- [ ] 1213[L-2 Regularization](./读书笔记/ML&DL/L-2 Regularization.html)
 - [ ] 1212[AlexNet Code](./读书笔记/ML&DL/CVPaper/1. AlexNet/AlexNet Code.html)
 - [ ] 1212[DearPyGUI Tutorial Note](./读书笔记/CS/Python/DearPyGUI Tutorial Note.html)
 - [ ] 1212[DPG Tutorials](./读书笔记/CS/Python/DPG Tutorials.html)

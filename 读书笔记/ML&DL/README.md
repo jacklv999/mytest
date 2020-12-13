@@ -17,4 +17,6 @@
 - [变分推断简述](./变分推断简述.html) 
 - [变分自编码器VAE](./VAE.html) 
 - [About GNN 基础](./About graph neural network.html) 
+- [权重初始化方法](./权重初始化方法.html) 
+- [L-2 Regularization](./L-2 Regularization.html) 
 

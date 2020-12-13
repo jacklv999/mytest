@@ -188,6 +188,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\IDEA整理\阅读的核心.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\56421.jpg
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\About graph neural network.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\About graph neural network.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\L-2 Regularization.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\L-2 Regularization.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\README.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\VAE.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\VAE.md
@@ -195,6 +197,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\变分推断简述.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\变分推断简述.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\基于 flow 的生成模型.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\基于 flow 的生成模型.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\权重初始化方法.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\权重初始化方法.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\01基础及AlexNet.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\01基础及AlexNet.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\02VGG论文.html
