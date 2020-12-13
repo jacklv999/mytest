@@ -199,27 +199,28 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\基于 flow 的生成模型.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\基于 flow 的生成模型.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\权重初始化方法.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\权重初始化方法.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\01基础及AlexNet.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\01基础及AlexNet.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\02VGG论文.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\02VGG论文.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\DSSD论文简析.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\DSSD论文简析.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Finetuning.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Finetuning.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GoogleNet.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GoogleNet.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\README.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\ResNet笔记.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\ResNet笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\SSD论文.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\SSD论文.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\YOLOV3.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\YOLOV3.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Yolo笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Yolo笔记.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\1. AlexNet\AlexNet Code.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\1. AlexNet\AlexNet Note.ipynb
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\01基础及AlexNet.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\01基础及AlexNet.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\02VGG论文.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\02VGG论文.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\GoogleNet.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\GoogleNet.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\README.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNet笔记.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNet笔记.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Code.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Note.ipynb
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\ML&DL-MLDS\BiGAN及InfoGAN.html
@@ -332,8 +333,7 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\伦理学\伦理学导论 _简版.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\伦理学\伦理学导论(程炼）.pdf
 D:\PythonCode\Pages\mytest\mytest\读书笔记\伦理学\伦理学导论.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\伦理学\伦理学导论.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\心理学\README.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\心理学\心理学-普通心理学\2019-04-07.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\心理学\心理学-普通心理学\README.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\心理学\心理学-普通心理学\津巴多普通学-·-什么是心理学？.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\心理学\心理学-普通心理学\津巴多普通心理学-·-人格心理学.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\心理学\心理学-普通心理学\津巴多普通心理学-·-压力、健康和幸福-.html
