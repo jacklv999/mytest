@@ -188,6 +188,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\IDEA整理\阅读的核心.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\56421.jpg
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\About graph neural network.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\About graph neural network.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\Activation Functions.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\Activation Functions.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\L-2 Regularization.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\L-2 Regularization.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\README.md

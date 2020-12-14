@@ -23,4 +23,5 @@
 - [About GNN 基础](./About graph neural network.html) 
 - [权重初始化方法](./权重初始化方法.html) 
 - [L-2 Regularization](./L-2 Regularization.html) 
+- [Activation Functions](./Activation Functions.html) 
 
