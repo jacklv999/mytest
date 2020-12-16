@@ -188,10 +188,6 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\IDEA整理\阅读的核心.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\56421.jpg
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\About graph neural network.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\About graph neural network.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\Activation Functions.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\Activation Functions.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\L-2 Regularization.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\L-2 Regularization.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\README.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\VAE.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\VAE.md
@@ -199,8 +195,6 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\变分推断简述.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\变分推断简述.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\基于 flow 的生成模型.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\基于 flow 的生成模型.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\权重初始化方法.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\权重初始化方法.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\DSSD论文简析.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\DSSD论文简析.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Finetuning.html
@@ -223,6 +217,15 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNet笔记.
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNet笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Code.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Note.ipynb
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\Activation Functions.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\Activation Functions.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\L-2 Regularization.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\L-2 Regularization.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\README.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\Regularization.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\Regularization.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\权重初始化方法.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\权重初始化方法.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\ML&DL-MLDS\BiGAN及InfoGAN.html

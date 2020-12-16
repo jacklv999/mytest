@@ -12,12 +12,14 @@
 
 ## Computer Science
 
-- [CS ](./CS/cs/) 
+- [Computer Science基础知识 ](./CS/cs/) 
 - [前端相关](./CS/前端相关/) 
 - [Python](./CS/Python/) 
 - [R语言学习笔记](./CS/R语言学习笔记/) 
 
 ## ML/DL 相关
+
+- [General Methods](./ML&DL/general/) 
 
 - [CV 相关](./ML&DL/CVPaper/) 
 - [NLP 相关](./ML&DL/NLP/) 
