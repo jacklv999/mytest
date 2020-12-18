@@ -20,9 +20,9 @@
 ## ML/DL 相关
 
 - [General Methods](./ML&DL/general/) 
-
 - [CV 相关](./ML&DL/CVPaper/) 
 - [NLP 相关](./ML&DL/NLP/) 
+- [轻量化网络](./ML&DL/轻量化网络/) 
 - [其他类别](./ML&DL/) 
 
 ## [数理分析](./数理分析/) 

@@ -325,6 +325,9 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\NLP\seq2seq解析.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\NLP\seq2seq解析.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\NLP\Transformer笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\NLP\Transformer笔记.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\轻量化网络\README.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\轻量化网络\轻量化网络笔记.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\轻量化网络\轻量化网络笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\zhihu\README.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\zhihu\何为八股文.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\zhihu\何为八股文.md

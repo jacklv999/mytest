@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1218[轻量化网络笔记](./读书笔记/ML&DL/轻量化网络/轻量化网络笔记.html)
 - [ ] 1214[Activation Functions](./读书笔记/ML&DL/Activation Functions.html)
 - [ ] 1213[权重初始化方法](./读书笔记/ML&DL/权重初始化方法.html)
 - [ ] 1213[L-2 Regularization](./读书笔记/ML&DL/L-2 Regularization.html)
