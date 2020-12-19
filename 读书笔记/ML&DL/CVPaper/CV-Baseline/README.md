@@ -9,3 +9,5 @@
 [03 GoogleNet](./GoogleNet.html) 
 
 [04 ResNet](./ResNet笔记.html) 
+
+[05 ResNeXt论文笔记](./ResNet笔记.html)  
