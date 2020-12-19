@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1219[DenseNet论文笔记](./读书笔记/ML&DL/CVPaper/CV-Baseline/DenseNet论文笔记.html)
 - [ ] 1219[ResNeXt笔记](./读书笔记/ML&DL/CVPaper/CV-Baseline/ResNeXt笔记.html)
 - [ ] 1218[轻量化网络笔记](./读书笔记/ML&DL/轻量化网络/轻量化网络笔记.html)
 - [ ] 1214[Activation Functions](./读书笔记/ML&DL/Activation Functions.html)
