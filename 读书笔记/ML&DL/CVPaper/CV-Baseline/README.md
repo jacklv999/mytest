@@ -13,3 +13,5 @@
 [05 ResNeXt论文笔记](./ResNet笔记.html)  
 
 [06 DenseNet论文笔记](./DenseNet论文笔记.html) 
+
+[07 SENet论文笔记](./SENet论文笔记.html) 

@@ -219,6 +219,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNet笔记.
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNet笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNeXt笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNeXt笔记.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\SENet论文笔记.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\SENet论文笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Code.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Note.ipynb
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\Activation Functions.html

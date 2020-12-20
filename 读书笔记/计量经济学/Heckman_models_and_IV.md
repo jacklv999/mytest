@@ -65,10 +65,6 @@ The solution here is therefore to predict the likelihood of participation in the
 
 
 
-
-
-
-
 **References**
 
 1. Antonakis, John, Samuel Bendahan, Philippe Jacquart, and Rafael Lalive. 2010. “On Making Causal Claims: A Review and Recommendations.” *The Leadership Quarterly* 21 (6): 1086–1120. doi:10.1016/j.leaqua.2010.10.010.
