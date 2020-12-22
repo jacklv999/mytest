@@ -55,6 +55,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Python的FFI编程.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Python的FFI编程.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Python监听模拟鼠标键盘.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Python监听模拟鼠标键盘.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Python虚拟环境及打包.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Python虚拟环境及打包.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Pytorch与Nppd笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Pytorch与Nppd笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Pytorch与Py模块化笔记.html

@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1222[Python虚拟环境及打包](./读书笔记/CS/Python/Python虚拟环境及打包.html)
 - [ ] 1220[SENet论文笔记](./读书笔记/ML&DL/CVPaper/CV-Baseline/SENet论文笔记.html)
 - [ ] 1219[DenseNet论文笔记](./读书笔记/ML&DL/CVPaper/CV-Baseline/DenseNet论文笔记.html)
 - [ ] 1219[ResNeXt笔记](./读书笔记/ML&DL/CVPaper/CV-Baseline/ResNeXt笔记.html)
