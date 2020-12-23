@@ -7,7 +7,7 @@
 - [Numba库使用简介](./Numba库使用简介.html) 
 - [Python监听模拟鼠标键盘](./Python监听模拟鼠标键盘.html) 
 - [Python的FFI编程](./Python的FFI编程.html) 
-- [Python虚拟环境及打包](.Python虚拟环境及打包.html) 
+- [Python虚拟环境及打包](./Python虚拟环境及打包.html) 
 
 ## GUI Programming
 
