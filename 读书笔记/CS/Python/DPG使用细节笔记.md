@@ -51,3 +51,14 @@ def reset(sender,data):
     add_input_text("txt",multiline=True,before="csv")
 ```
 
+#### 5. 使用中文字体
+
+使用中文字体可以在工作目录添加 “NotoSerifCJKjp-Medium.otf” 或第三方TTF/OTF字体文件, 并在`start_dearpygui()` 导入字体, 指明字号和字体类型.
+
+NOTE: 华文新魏貌似是体积最小的中文字体
+
+```python
+add_additional_font("NotoSerifCJKjp-Medium.otf", 20, "chinese_full")
+start_dearpygui(primary_window="Main Window")
+```
+
