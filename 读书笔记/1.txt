@@ -218,6 +218,8 @@ D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\DenseNet¬€Œ
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\DenseNet¬€Œƒ± º«.md
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\GoogleNet.html
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\GoogleNet.md
+D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\NIN¬€Œƒ± º«.html
+D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\NIN¬€Œƒ± º«.md
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\README.md
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\ResNet± º«.html
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\ResNet± º«.md
@@ -227,6 +229,7 @@ D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\SENet¬€Œƒ± 
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\SENet¬€Œƒ± º«.md
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Code.html
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Note.ipynb
+D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\CVPaper\GAN\README.md
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\general\Activation Functions.html
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\general\Activation Functions.md
 D:\PythonCode\Pages\mytest\mytest\∂¡ È± º«\ML&DL\general\L-2 Regularization.html

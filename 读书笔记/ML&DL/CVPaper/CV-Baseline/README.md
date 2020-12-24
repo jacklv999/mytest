@@ -15,3 +15,7 @@
 [06 DenseNet论文笔记](./DenseNet论文笔记.html) 
 
 [07 SENet论文笔记](./SENet论文笔记.html) 
+
+## 补充论文
+
+[Network in Network论文笔记](./NIN论文笔记.html) 
