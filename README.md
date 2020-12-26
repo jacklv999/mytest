@@ -3,6 +3,9 @@
 
 
 
+- [ ] 1226[CGAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/CGAN论文笔记.html)
+- [ ] 1226[从PM到GAN——LSTM之父的怨念](./读书笔记/ML&DL/CVPaper/GAN/从PM到GAN——LSTM之父的怨念.html)
+- [ ] 1226[GAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/GAN论文笔记.html)
 - [ ] 1224[NIN论文笔记](./读书笔记/ML&DL/CVPaper/CV-Baseline/NIN论文笔记.html)
 - [ ] 1222[DPG使用细节笔记](./读书笔记/CS/Python/DPG使用细节笔记.html)
 - [ ] 1222[Python虚拟环境及打包](./读书笔记/CS/Python/Python虚拟环境及打包.html) 
