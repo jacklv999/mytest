@@ -42,6 +42,12 @@ Next, we concatenate the output $o(x_i)$  with $f(x_i)$ , and we feed it into th
 
 The $D$ is therefore able to use the other examples in the minibatch as side information. 
 
+**NOTE**: Sample Version
+$$
+o =\frac{1}{n}\sum_{i=1}^n(\sigma_i)\\
+\sigma_i=\sqrt{  \frac{1}{m-1}\sum_{j=1}^m( f(x_j)_i-\hat{f_i} )^2   }
+$$
+
 ##### Historical averaging
 
 Modifying player’s cost to include a term:

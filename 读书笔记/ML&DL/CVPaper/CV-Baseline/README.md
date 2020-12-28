@@ -10,7 +10,7 @@
 
 [04 ResNet论文笔记](./ResNet笔记.html) 
 
-[05 ResNeXt论文笔记](./ResNet笔记.html)  
+[05 ResNeXt论文笔记](./ResNeXt笔记.html)  
 
 [06 DenseNet论文笔记](./DenseNet论文笔记.html) 
 

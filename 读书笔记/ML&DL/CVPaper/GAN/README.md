@@ -4,6 +4,7 @@
 - [02 CGAN论文笔记](./CGAN论文笔记.html) 
 - [03 DCGAN论文笔记](./DCGAN论文笔记.html) 
 - [04 Techniques for Training GANs](./Techniques for GANs.html) 
+- [05 pix2pix论文笔记](./pix2pix论文笔记.html) 
 
 ## 补充资料
 

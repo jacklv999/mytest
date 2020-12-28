@@ -2,25 +2,26 @@
 
 ### 1. Abstract
 
-- Repeating a building block that aggregates a set of transformations with the same topology
-- Exposing a new dimension, which we call “cardinality” (the size of the set of transformations), as an essential factor in addition to the dimensions of depth and width.
-- Moreover, increasing cardinality is more effective than going deeper or wider when we increase the capacity. 
+- Repeating a building block that aggregates a set of transformations
+- Exposing a new dimension, which we call “cardinality” as an essential dim in addition to depth and width.
+- Increasing cardinality is more effective than going deeper or wider. 
 
 ### 2. Introduction
 
 - ##### Background
 
-Research on visual recognition is undergoing a transition from “feature engineering” to “network engineering”, and it results in designing architectures becomes increasingly difficult with the growing number of hyper-parameters (width, filter sizes, strides, etc.), especially when there are many layers. 
+Designing architectures becomes difficult with the growing number of hyper-parameters (width, strides, etc.). 
 
 - ##### Status quo
 
-    - VGG exhibit a simple yet effective strategy of constructing deep net: stacking building blocks of the same shape. 
-        - the simplicity of this rule may reduce the risk of over-adapting the hyperparameters to a specific dataset
-    - The family of Inception models have demonstrated that carefully designed net are able to achieve compelling accuracy with low complexity.
-        - an important common property is a split-transform-merge strategy
-            - In an Inception module, the input is split into a few lower-dimensional embeddings
-                (by 1×1 convolutions), transformed by a set of specialized filters (3×3, 5×5, etc.), and merged by concatenation.
-        -  Although careful combinations of these components yield excellent neural network recipes, it is in general unclear how to adapt the Inception architectures to new datasets/tasks,
+    VGG exhibit a simple yet effective strategy: stacking same building blocks. 
+
+    - the simplicity of this rule may reduce the risk of over-adapting the hyperparams to a specific dataset
+
+    Inceptions demonstrate that carefully designed net are able to achieve compelling accuracy with low complexity.
+    - an important property is a split-transform-merge strategy
+        - The input is split into a few lower-dim embeddings (by 1×1 convs), transformed by a set of specialized filters (3×3, 5×5, etc.), and concatenated.
+    -  Although it yield excellent recipes, it is unclear how to adapt the Inception to new datasets/tasks,
 
 - ##### Innovation of This Paper
 
