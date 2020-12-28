@@ -2,9 +2,9 @@
 
 ### 1. Abstract
 
-- building micro neural networks with more complex structures to abstract the data within the receptive field
-- the micro neural network with a multilayer perceptron is a potent function approximator
-- utilize global average pooling in the classification layer, which is easier to interpret and less prone to overfitting than FC
+- NIN builds a micro neural networks with complex structures to abstract data within the receptive field
+- the micro neural network with a MLP is a potent function approximator
+- utilize global average pooling in the classification layer, which is easier to interpret and less prone to overfitting than FC.
 
 ### 2. Introduction
 
@@ -12,13 +12,13 @@
 
 The convolution filter in CNN is a GLM for the underlying data patch, and the level of abstraction is low with GLM.
 
-GLM achieves a good extent of abstraction when the latent concepts are linearly separable, Thus CNN implicitly makes the same assumption
+GLM achieves  good abstraction when the latent concepts are linearly separable.
 
 ##### NIN
 
 In NIN, the GLM is replaced with a ”micro network” structure which is a general nonlinear function approximator. 
 
-We choose multilayer perceptron which is a universal function approximator and a neural network trainable by back-propagation.
+We choose MLP which is a universal function approximator and was trainable by BP.
 
 ##### Comparison
 
@@ -26,58 +26,52 @@ We choose multilayer perceptron which is a universal function approximator and a
 
 ### 3. CNN
 
-Classic CNN consist of alternatively stacked CNN layers and spatial pooling layers
-
-The CNN layers generate feature maps by linear convolutional filters followed by nonlinear activation functions. The feature map can be calculated as follows:
+The CNN layers generate feature maps by conv filters followed by activation funcs. The feature map can be calculated as follows:
 $$
 f_{i,j,k} = max(w_k^Tx_{i,j},0)
 $$
-Here $(i, j)$ is the pixel index in the feature map, $x_{i,j}$ stands for the input patch centered at location
-$(i, j)$, and $k$ is used to index the channels of the feature map.
+Here $(i, j)$ is the pixel index in the feature map,and $k$ indexs the channels.
 
 ##### Disadvantage
 
-This linear convolution is sufficient for abstraction when the latent concepts are linearly separable. 
+This linear conv is sufficient for abstractn when the latent concepts are linearly separable. 
 
-However, representations that achieve good abstraction are generally highly nonlinear functions of the input data
+However, representations that achieve good abstraction are generally highly nonlinear functions.
 
 CNN addresses it by covering all variations of the latent concepts. Namely, having many filters for a single concept.
 
-But it imposes extra burden on the next layer, which needs to consider all combinations of variations from previous layer. As CNN generates a higher level concept by combining the lower level concepts from the layer below
+But it imposes extra burden on the next layer, which needs to consider all combinations of variations from previous layer. 
 
 Therefore, it would be beneficial to do an abstraction before combining them into higher level concepts.
 
 ##### Maxout Network
 
-In maxout network, the number of feature maps is reduced by maximum pooling layer. Maxout layer makes a piecewise linear approximator which is capable of approximating any convex functions. 
-
-Compared to CNNs, the maxout net can separate concepts that lie within convex sets.  
+Maxout layer makes a piecewise linear approximator which is capable of approximating any convex functions. 
 
 ##### NIN
 
 However, maxout network assume latent concept lie within a convex set. 
 
-But It would be necessary to employ a more general approximator, We seek to achieve this by introducing the “NIN” structure, in which a micro network is introduced within each CNN layer to compute more abstract features for local patches.
+But a more general approximator is bttr, We achieve this by the “NIN” structure, in which a micro network is introduced within each CNN layer to compute more abstract features for local patches.
 
-Sliding a micro network over the input has been proposed in several previous works for specific problems. 
+Sliding a micro network over the input has been proposed in previous works: 
 
-- SMLP  applies a shared multilayer perceptron on different patches; 
-- in another work, a neural network based filter is trained for face detection.
+- SMLP  applies a shared MLP on different patches; 
 
-NIN is proposed from a more general perspective, the micro network is integrated into CNN for a better abstractions of features.
+NIN is proposed from a more general perspective: **for a better abstraction**.
 
 ### 4. NIN
 
 ##### MLP Convolution Layers
 
-Given no priors about the distributions of the latent concepts, it is desirable to use a universal function approximator for feature extraction of the local patches. 
+Given no priors about the distributions of the latent concepts, it is desirable to use a universal function approximator. 
 
-Radial basis network and multilayer perceptron are two well known universal function approximators. We choose multilayer perceptron in this work for two reasons. 
+Radial basis network and MLP are two universal function approximators. We choose multilayer perceptron for:  
 
 - First, MLP is trainable using BP. 
-- Second, MLP can be a deep model itself, in the purpose of feature re-use. 
+- Second, MLP can be deep in the purpose of feature re-use. 
 
-The calculation performed by mlpconv layer is shown as follows:
+The calculation performed by mlpconv layer is as follows:
 $$
 f_{i,j,k_1}^1 = \max(w^1_{k_1}x_{i,j}+b_{k_1},0)\\
 ...\\
@@ -85,7 +79,7 @@ f_{i,j,k_1}^n = \max(w^n_{k_n}x_{i,j}+b_{k_n},0)
 $$
 Here $n$ is the number of layers in the multilayer perceptron
 
-From cross channel (feature map) pooling point of view, it is equivalent to cascaded cross channel pooling. Each pooling layer performs weighted linear recombination on the input feature maps.
+From cross channel view, it is equivalent to cascaded cross channel pooling. Each pooling layer performs weighted linear recombination on the input feature maps.
 
 This cascaded cross channel parameteric pooling structure allows complex and learnable interactions of cross channel information.
 
@@ -116,5 +110,3 @@ The overall structure of NIN is a stack of MLP, on top of which lie the GAP and 
 We proposed a novel deep network called NIN, which consists of mlpconv layers which use MLP to convolve the input and a GAP layer as a replacement of FCs in CNN. 
 
 Mlpconv layers model the local patches better, and global average pooling acts as a structural regularizer that prevents overfitting globally
-
-With these two components of NIN we demonstrated state-of-the-art performance on CIFAR-10, CIFAR-100 and SVHN datasets
