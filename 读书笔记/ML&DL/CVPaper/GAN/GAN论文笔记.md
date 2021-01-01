@@ -3,14 +3,14 @@
 ### 1. Abstract
 
 - propose a new framework for estimating generative models via an adversarial process
-- simultaneously train two models: a generative model $G$ that captures the data distribution, and a discriminative model $D$ that estimates the probability that a sample came from the training data rather than $G$.
+- simultaneously train two models:  $G$ captures data distribution, and $D$ that estimates the where sample came.
 - $G$ and $D$ are defined by multilayer perceptrons
 
 ### 2. Introduction
 
-The promise of DL is to discover models that represent probability distributions over the kinds of data encountered in AI applications. 
+The promise of DL is to discover models that represent probability distributions.
 
-So far, the most striking successes is discriminative models, which mapping a high-dimensional input to a class label. it based on the BP and dropout algorithms, using piecewise linear units which have a well-behaved gradient . 
+The most striking successes is discrimntv model (mapping high-dim inputs to label)
 
 Deep generative models have had less of an impact: 
 
@@ -24,9 +24,9 @@ In the proposed adversarial nets framework:
 - discriminator learns to determine whether a sample is from the model distribution or the data distribution. 
 - generator trying to produce fake sample and use it
 
-In this article, the generative model generates samples by passing random noise through a multilayer perceptron, and the discriminative model is also a multilayer perceptron
+In this article, the generative model generates samples by passing random noise through a MLP, and the discriminative model is also a MLP
 
-In this case, we can train both models using only the BP and dropout algorithms and sample from the generative model using only forward propagation
+In this case, we can train both models using only the BP.
 
 ### 3. Related work
 

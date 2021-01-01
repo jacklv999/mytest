@@ -2,15 +2,15 @@
 
 ### 1. Abstract
 
-- NIN builds a micro neural networks with complex structures to abstract data within the receptive field
+- NIN builds a micro networks with complex structures to abstract data.
 - the micro neural network with a MLP is a potent function approximator
-- utilize global average pooling in the classification layer, which is easier to interpret and less prone to overfitting than FC.
+- utilize global average pooling in the classification layer, which is easier to interpret and less prone to overfitting.
 
 ### 2. Introduction
 
 ##### Traditional CNN
 
-The convolution filter in CNN is a GLM for the underlying data patch, and the level of abstraction is low with GLM.
+The conv filter in CNN is a GLM for the underlying data patch, and the level of abstraction is low with GLM.
 
 GLM achieves  good abstraction when the latent concepts are linearly separable.
 
@@ -18,7 +18,7 @@ GLM achieves  good abstraction when the latent concepts are linearly separable.
 
 In NIN, the GLM is replaced with a ”micro network” structure which is a general nonlinear function approximator. 
 
-We choose MLP which is a universal function approximator and was trainable by BP.
+We choose MLP which is a universal func approxmtr and was trainable by BP.
 
 ##### Comparison
 
@@ -26,7 +26,7 @@ We choose MLP which is a universal function approximator and was trainable by BP
 
 ### 3. CNN
 
-The CNN layers generate feature maps by conv filters followed by activation funcs. The feature map can be calculated as follows:
+CNN layers gen feature maps by conv filters. Feature maps can be calcd as:
 $$
 f_{i,j,k} = max(w_k^Tx_{i,j},0)
 $$
@@ -34,31 +34,25 @@ Here $(i, j)$ is the pixel index in the feature map,and $k$ indexs the channels.
 
 ##### Disadvantage
 
-This linear conv is sufficient for abstractn when the latent concepts are linearly separable. 
+Linear conv is suffcnt for abstractn when latent concepts are linearly separable. 
 
-However, representations that achieve good abstraction are generally highly nonlinear functions.
+However, good abstraction are generally highly nonlinear functions.
 
-CNN addresses it by covering all variations of the latent concepts. Namely, having many filters for a single concept.
+CNN addresses it by covering all variations of the latent concepts. Namely, many filters for a single concept.
 
-But it imposes extra burden on the next layer, which needs to consider all combinations of variations from previous layer. 
+But it imposes extra burden on the next layer, which needs to consider all combs of variations from previous. 
 
-Therefore, it would be beneficial to do an abstraction before combining them into higher level concepts.
+Doing an abstraction before combining them to high level concept are necessry.
 
 ##### Maxout Network
 
-Maxout layer makes a piecewise linear approximator which is capable of approximating any convex functions. 
+Maxout is a piecewise linear approximator which could approximt any convex funcs. 
 
 ##### NIN
 
-However, maxout network assume latent concept lie within a convex set. 
-
-But a more general approximator is bttr, We achieve this by the “NIN” structure, in which a micro network is introduced within each CNN layer to compute more abstract features for local patches.
-
-Sliding a micro network over the input has been proposed in previous works: 
-
-- SMLP  applies a shared MLP on different patches; 
-
 NIN is proposed from a more general perspective: **for a better abstraction**.
+
+In which a micro network is introduced within each CNN layer to compute more abstract features.
 
 ### 4. NIN
 
@@ -89,8 +83,7 @@ The cross channel parametric pooling layer is also equivalent to a convolution l
 
 ##### Global Average Pooling
 
-CNNs perform convolution in the lower layers of the network. For classification, the feature maps of the last CNN layer are fed into FCs followed by a softmax layer. It treats CNNs as feature extractors.
-However, FCs are prone to overfitting, thus using dropout to improved the generalization ability and prevents overfitting.
+FCs are prone to overfitting, thus using dropout to improved the generalization ability and prevents overfitting.
 
 In this paper, we propose global average pooling to replace the FC layers.  Instead of adding FC layers, we take the average of each feature map, and fed ti into the softmax. 
 
