@@ -237,6 +237,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\DCGAN论文笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\DCGAN论文笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\GAN论文笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\GAN论文笔记.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\PGGAN论文笔记.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\PGGAN论文笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\pix2pix论文笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\pix2pix论文笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\README.md
