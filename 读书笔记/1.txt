@@ -229,6 +229,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\SENet论文笔
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\SENet论文笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Code.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Note.ipynb
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\BigGAN论文笔记.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\BigGAN论文笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\CGAN论文笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\CGAN论文笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\CycleGAN论文笔记.html

@@ -2,18 +2,17 @@
 
 ### 1. Abstract
 
-We present a variety of new architectural features and training procedures that we
-apply to the GANs framework
+Present a variety of architectural features and training technique apply to GAN
 
 ### 2. Introduction
 
-Training GANs requires finding a **Nash equil of a non-convex game with continuous, high dim params**. 
+Training GANs is find **Nash equil of non-convex game with continuous, high dim params**. 
 
 ### 3. Converging GAN
 
 ##### Feature matching
 
-In the beginning of training, $G$ only gives poor samples, so the $D$ is much close to 0 and therefore lead $L_{GD}$ to be infinite and gredient unstable.
+In begin, $G$ gives poor smpl, so  $D$ close to 0 and lead $L_{GD}$ to infinite/gredient unstbl
 
 Letting $f(x)$ denote activations on an layer of the $D$, our new objective for $G$ is:
 $$
@@ -58,4 +57,4 @@ We smooth only the positive labels to $α$, leaving negative labels set to 0.
 
 ### 4. Conclusion
 
-GANs are promising generative models that has so far been held back by unstable training.
+GANs are promising,but so far being held back by unstable training.
