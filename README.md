@@ -25,5 +25,5 @@
 
 ------
 
-# [ERROR RECORD](./ERROR_RECORD/) 
+# [ERROR RECORD](./读书笔记/ERROR_RECORD/) 
 
