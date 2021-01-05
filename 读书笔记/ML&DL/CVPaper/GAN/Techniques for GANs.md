@@ -6,7 +6,7 @@ Present a variety of architectural features and training technique apply to GAN
 
 ### 2. Introduction
 
-Training GANs is find **Nash equil of non-convex game with continuous, high dim params**. 
+GANs is find **Nash equl of non-convex game with continuous, high dim param** 
 
 ### 3. Converging GAN
 

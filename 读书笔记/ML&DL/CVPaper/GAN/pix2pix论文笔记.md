@@ -10,7 +10,7 @@ img2img translation is task of translating one representation into another
 
 **NOTE**: for loss function
 
-> Euclidean distance, which lead to blurry results. cause’ it is minimized by averaging all plausible outputs.
+> Euclidean distance lead to blurry. cause’ it is minimized by averaging all plausible outputs.
 >
 > Solution:    *Energy-based GAN* 
 >
@@ -19,13 +19,13 @@ img2img translation is task of translating one representation into another
 
 ##### Structured losses for image modeling
 
-Img-2-img translation  used to treat the output as “unstructured” which means pixels are considered independently. 
+Img-2-img used to treat output as “unstructured” which means pixels are considered independently. 
 
-The CGAN learn a structured loss in which the loss can penalize any structure that differs from output and target.
+CGAN learn structurd loss by loss penalze any structure that differs from target
 
 ##### Conditional GANs 
 
-Others use GAN for img-2-img mapping unconditional, relying on others (L2) to get conditional results.
+GAN for img-2-img mapng unconditional, relying others (L2) to get condtnl result
 
 ### 4. Method
 

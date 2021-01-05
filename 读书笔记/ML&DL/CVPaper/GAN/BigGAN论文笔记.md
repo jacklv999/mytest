@@ -61,6 +61,6 @@ Training becomes stable but performance severely degrades.
 
 ##### NOTE: Spectral Normalization 
 
-> Enforcing Lipschitz continuity on D by normlg its param with fir. sngulr valu
+> Enforcing Lipschitz continuity on D by norm. its param with fir. eigen valu
 >
 > Inducing backwards dynamics that regularize top singular direction

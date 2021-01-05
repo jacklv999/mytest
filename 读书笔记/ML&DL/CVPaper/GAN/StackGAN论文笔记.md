@@ -4,7 +4,7 @@
 
 - Synthesizing high-res img from text
 - Proposing StackGAN
-- Introducing Conditioning Augment (for smooth in latent conditional space)
+- Introducing Conditioning Augment (for smooth in latent space)
 
 ### 2. Introduction
 
