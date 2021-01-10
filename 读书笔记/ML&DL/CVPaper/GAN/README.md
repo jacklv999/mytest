@@ -9,6 +9,7 @@
 - [07 ProgressiveGAN论文笔记](./PGGAN论文笔记.html) 
 - [08 StackGAN论文笔记](./StackGAN论文笔记.html) 
 - [09 BigGAN论文笔记](./BigGAN论文笔记.html) 
+- [10 StyleGAN论文笔记](./StyleGAN论文笔记.html) 
 
 ## 补充资料
 

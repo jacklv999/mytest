@@ -29,3 +29,18 @@ R语言JSON对象是以列表形式存储的, 因此需要使用列表的方法�
 unlist(json_shen[[1]][[2]][i])
 ```
 
+#### 4. 保存JSON数据
+
+将数据保存成JSON格式, 可以使用 `write.json` 函数, 但是输出格式不够友好, 一般建议使用如下方式
+
+```R
+#转换为JSON数据
+t_1 = toJSON(tt)
+# 使用cat函数以文本格式输出
+cat(t_1, file = (con <- file(
+    'json.txt', "w", 
+    encoding = "UTF-8")))
+close(con)
+
+```
+
