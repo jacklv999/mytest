@@ -16,7 +16,7 @@ with open('D:\\PythonCode\\Pages\\mytest\\mytest\\读书笔记\\1.txt', "r+") as
 
 t_n = time.localtime(time.time())
 time_now_1 = str('0'+str(t_n[1])) if t_n[1]<10 else str(t_n[1])
-time_now_2 = str('0'+str(t_n[2])) if t_n[1]<10 else str(t_n[2])
+time_now_2 = str('0'+str(t_n[2])) if t_n[2]<10 else str(t_n[2])
 time_now = time_now_1+time_now_2
 
 tmp_str_3 = tmp_str_1.difference(tmp_str_2)
