@@ -200,17 +200,9 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\变分推断简述.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\变分推断简述.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\基于 flow 的生成模型.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\基于 flow 的生成模型.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\DSSD论文简析.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\DSSD论文简析.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Finetuning.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Finetuning.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\README.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\SSD论文.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\SSD论文.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\YOLOV3.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\YOLOV3.md
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Yolo笔记.html
-D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Yolo笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\01基础及AlexNet.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\01基础及AlexNet.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV-Baseline\02VGG论文.html
@@ -253,6 +245,15 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\Techniques for GANs
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\Techniques for GANs.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\从PM到GAN——LSTM之父的怨念.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\GAN\从PM到GAN——LSTM之父的怨念.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\DSSD论文简析.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\DSSD论文简析.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\README.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\SSD论文.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\SSD论文.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\YOLOV3.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\YOLOV3.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\Yolo笔记.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\Yolo笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\Activation Functions.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\Activation Functions.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\general\L-2 Regularization.html

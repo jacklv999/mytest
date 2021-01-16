@@ -2,15 +2,7 @@
 
 ## [2. GAN](./GAN/)
 
-
-
-[05 YOLO](./Yolo笔记.html) 
-
-[06 YOLO v3](./YOLOV3.html) 
-
-[07 SSD](./SSD论文.html) 
-
-[08 DSSD](./DSSD论文简析.html) 
+## [3. 目标检测](./目标检测/) 
 
 ## Code笔记
 
