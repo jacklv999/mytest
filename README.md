@@ -3,10 +3,8 @@
 
 
 
-- [ ] 0116[YOLOV3](./读书笔记/ML&DL/CVPaper/目标检测/YOLOV3.html)
-- [ ] 0116[Yolo笔记](./读书笔记/ML&DL/CVPaper/目标检测/Yolo笔记.html)
-- [ ] 0116[DSSD论文简析](./读书笔记/ML&DL/CVPaper/目标检测/DSSD论文简析.html)
-- [ ] 0116[SSD论文](./读书笔记/ML&DL/CVPaper/目标检测/SSD论文.html)
+
+
 - [ ] 0110[StyleGAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/StyleGAN论文笔记.html)
 - [ ] 0103[BigGAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/BigGAN论文笔记.html)
 - [ ] 0103[StackGAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/StackGAN论文笔记.html)
