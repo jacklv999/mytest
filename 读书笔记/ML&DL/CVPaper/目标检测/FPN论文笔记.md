@@ -10,9 +10,9 @@
 
 ##### featurized image pyramids
 
-FP is scale-invariant, object’s scale change is offset by shifting its level in  pyrmd
+FP is scale-invariant, object’s scale chng is offset by shifting its level in  pyrmd
 
-it enables models to detect objects across scales by scann positions/pyramid level
+it enables models to detect objects acrs scales by scann positions/pyramid level
 
 Advantage of feature each level of img: producing multi-scale feature reprst
 

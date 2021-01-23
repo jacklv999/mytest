@@ -250,6 +250,7 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\DSSD论文简析.m
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\FPN论文笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\FPN论文笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\README.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\Retinanet论文笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\SSD论文.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\SSD论文.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\目标检测\YOLOV3.html
