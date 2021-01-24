@@ -7,7 +7,7 @@
 
 ### 2. Introduction
 
-Identifying class imbalance in train as resn hold one-stage and new loss func for it.
+Class imbalance in train imped one-stage
 
 It’s addressed in R-CNN-like by a two-stage cascade and sampling heuristics
 
@@ -23,7 +23,7 @@ It can down-wght the contrib. of easy smpl  and focus model on hard examples
 
 ##### Classic Object Detectors
 
-Sliding-window paradigm, classfer is appld on a dense img grid, has a long history
+Sliding-window paradigm, classifr appl on dense img grid, has a long history
 
 - LeCun et al. who applied conv to handwritten digit recognition. 
 
@@ -51,7 +51,7 @@ Detectors evaluate $10^4-10^5$ candt loc per img but only a few loc contain obj
 
 Robust loss func by reducng contrib of outlier: down-weight loss of hard smpl
 
-Our loss addrss  class imbalance by dwn-wght easy sample so their contrib is small even in large num.
+We solve it by dwn-wght easy sample, reduce its contrib even in large num.
 
 ### 4. Focal Loss
 
