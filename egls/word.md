@@ -2,6 +2,13 @@
 
 '-------------------------------------------------------'
 
+## 01.24
+
+- 万分之一
+    - one ten-thousandth
+    - one in ten thousand
+    - one out of ten thousand
+
 ## 01.22
 
 - 领域: 
