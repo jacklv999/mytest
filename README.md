@@ -3,21 +3,37 @@
 
 
 
+<<<<<<< HEAD
 - [ ] 0905[bootstrap4教程](https://www.runoob.com/bootstrap4/bootstrap4-tutorial.html) 
 - [ ] 0904[jQuery教程](https://www.runoob.com/jquery/jquery-tutorial.html) 
 - [ ] 0903[最强大的 CSS 布局 — Grid 布局](https://juejin.im/post/6854573220306255880) 
 - [ ] 0707[摄影中冷暖色调](./读书笔记/摄影/摄影中冷暖色调.html)
+=======
+- [ ] 0124[Retinanet论文笔记](./读书笔记/ML&DL/CVPaper/目标检测/Retinanet论文笔记.html)
+- [ ] 0122[FPN论文笔记](./读书笔记/ML&DL/CVPaper/目标检测/FPN论文笔记.html) 
+- [ ] 0110[StyleGAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/StyleGAN论文笔记.html)
+- [ ] 0103[BigGAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/BigGAN论文笔记.html)
+- [ ] 0103[StackGAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/StackGAN论文笔记.html)
+- [ ] 0102[PGGAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/PGGAN论文笔记.html)
+- [ ] 0101[CycleGAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/CycleGAN论文笔记.html)
+- [ ] 1228[pix2pix论文笔记](./读书笔记/ML&DL/CVPaper/GAN/pix2pix论文笔记.html)
+- [ ] 1227[Techniques for GANs](./读书笔记/ML&DL/CVPaper/GAN/Techniques for GANs.html)
+- [ ] 1227[DCGAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/DCGAN论文笔记.html) 
+- [ ] 1220[SENet论文笔记](./读书笔记/ML&DL/CVPaper/CV-Baseline/SENet论文笔记.html)
+- [ ] 1219[DenseNet论文笔记](./读书笔记/ML&DL/CVPaper/CV-Baseline/DenseNet论文笔记.html)
+- [ ] 1219[ResNeXt笔记](./读书笔记/ML&DL/CVPaper/CV-Baseline/ResNeXt笔记.html)
+- [ ] 1218[轻量化网络笔记](./读书笔记/ML&DL/轻量化网络/轻量化网络笔记.html) 
+- [ ] 1206[Bayesian 统计简述](./读书笔记/数理分析/Bayesian 统计简述.html) 
+>>>>>>> a79b2d6305e4d00dda0b03e397ff64811b02ecf7
 - [ ] 0617[如何了解一个行业](./读书笔记/IDEA整理/如何了解一个行业.html)
 - [ ] 06.11[习惯养成和神经系统](./读书笔记/IDEA整理/习惯养成和神经系统.html) 
 - [ ] 06.11[熵增定律](./读书笔记/IDEA整理/熵增定律.html) 
 - [ ] 06.10[信息熵理论](./读书笔记/IDEA整理/信息熵理论.html) 
 - [ ] 06.01[Transformer笔记](./读书笔记/ML&DL/NLP/Transformer笔记.html) 
-- [ ] 05.27[CSS 3笔记](./读书笔记/CS/前端相关/CSS 3笔记.html) 
-- [ ] 05.26[CSS 基础](./读书笔记/CS/前端相关/CSS基础.html) 
 - [ ] 05.25[JavaScript基础](./读书笔记/CS/前端相关/JavaScript基础.html) 
-- [ ] 05.24[使用 TypeScript 来写 Vue[转]](./读书笔记/CS/前端相关/使用 TypeScript 来写 Vue.html) 
-- [ ] 05.24[阅读的核心](./读书笔记/IDEA整理/阅读的核心.html) 
 - [ ] 05.24[About GNN 基础](./读书笔记/ML&DL/About graph neural network.html) 
-- [ ] 11.15[空间计量的深入讨论](./读书笔记/计量经济学/空间计量/空间计量经济学的深入讨论.html) 
-- [ ] 10.30[西方国际关系理论](./读书笔记/政治学与领导/当代西方国际关系理论/当代西方国际关系理论.html) 
-- [ ] 10.21[变分推断简述](./读书笔记/ML&DL/变分推断简述.html)  
+
+------
+
+# [ERROR RECORD](./读书笔记/ERROR_RECORD/) 
+

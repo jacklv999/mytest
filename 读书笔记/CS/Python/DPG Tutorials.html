@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://hoffstadt.github.io/DearPyGui/tutorial.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="generator" content="pdoc 0.8.4">
+    <title>DPG Tutorials</title>
+    <meta name="description" content="">
+    <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin="">
+    <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin="">
+    <link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="">
+    <style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.h2[id^="header-"]{margin-top:2em}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}dt:target .name{background:var(--highlight-color)}.name >.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+    <style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+    <script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+    <style>
+        .inline-code {font-family: 'Monaco', 'Menlo', courier, monospace; font-size:1em; color:#fff; background:#303030; padding:0.2em}
+        article a {font-weight: bold;}
+        h1 {font-weight:370}
+        h2 {color: #058; font-weight:370}
+    </style>
+    <link href="./DPG Tutorials_files/code_style.css" rel="stylesheet" type="text/css">
+    <script src="./DPG Tutorials_files/rainbow-custom.min.js.下载"></script>
+</head>
+
+<body>
+<header>
+    <h1><a href="https://hoffstadt.github.io/DearPyGui/index.html">Dear PyGui</a></h1>
+</header>
+<hr>
+<main id="content">
+    <article><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#contents"></a>
+        <h2>Dear PyGui Tutorials</h2>
+        <hr>
+        <ul>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#overview">Overview</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#developer_tools">Developer Tools</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#logging">Built-in Logging</a></li>
+            <!--  TODO: go into depth on each developer tool -->
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#widgets_containers_windows">Creating Widgets and Containers</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#primary_window">Primary Window</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#using_widgets">Using Widgets</a></li>
+            <!--  TODO: maybe add a section on sizers and layouts here -->
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#callbacks">Widget and Window Callbacks</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#runtime">Run-time Adding &amp; Deleting Widgets</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#data_storage">Value &amp; Data Storage</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#menu_bar">Menu Bars</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#file_directory_save">File, Directory, &amp; Save Dialogs</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#plotting">Plotting</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#drawing">Drawing</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#clock">Delta Time and Internal Clock</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#sprites">Sprites</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#tables">Tables</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#input_polling">Input Polling</a></li>
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#multithreading">Multithreading &amp; Asynchronous Functions</a></li>
+            <!--  TODO: maybe add a section on manual control of the render loop with setup & render & cleanup  -->
+            <!--  TODO: maybe add a section on sprite maps  -->
+            <li><a href="https://hoffstadt.github.io/DearPyGui/tutorial.html#themes_and_styles">Themes and Styles</a></li>
+        </ul>
+    </article>
+
+    <article><a name="overview"></a>
+        <h2>Overview</h2>
+        <hr>
+        <p>
+            This tutorial is intended to demonstrate how to use some features of Dear PyGui ("DPG").
+            It is also recommended to refer to the <a href="https://hoffstadt.github.io/DearPyGui/api_docs.html">API Reference</a> for the information on a command specifics.
+        </p>
+        <p>
+            Dear PyGui consists of a viewport, windows, and widgets. The viewport is the main window of your program and is created
+            by calling the function <i>start_dearpygui</i>
+            <br><br>
+            In the next example please look at the about window and verify that you have the latest Dear PyGUI package installed.
+            <br><br>
+            Here is an example of the viewport and a window showing documentation using the built-in documentation function:
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="function call">set_main_window_size</span>(<span class="constant numeric">800</span>, <span class="constant numeric">800</span>)
+<span class="function call">show_about</span>()
+<span class="function call">show_documentation</span>()
+
+<span class="comment"># when running this code please look at the about window and it will report which version of Dear PyGUI is running</span>
+<span class="function call">start_dearpygui</span>()</code> <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            DPG is currently made up of two modules <i>dearpygui.core</i> and <i>dearpygui.simple</i>.
+            <br><br>
+            <i>dearpygui.core</i> contains the core functionality of Dear PyGui. Everything else is built on top of core.
+            <br><br>
+            <i>dearpygui.simple</i> contains simple wrappers and other utilities created from <i>core</i> to provide a more pleasant interface to DPG. As your code
+            complexity grows its recommended to start using the <i>simple</i> module when applicable.
+            <br><br>
+            Throughout the tutorial we will use the recommended procedures for accomplishing various tasks. This will include a mix of <i>core</i> and <i>simple</i>
+            functions.
+            <br><br>
+            It is also worth mentioning that we will be using <i>from module import *</i> which is against best practices however will be less distracting while learning DPG.
+        </p>
+    </article>
+
+    <article><a name="developer_tools"></a>
+        <h2>Developer Tools</h2>
+        <hr>
+        <p>
+            Dear PyGui contains several useful developer tools which we will utilize throughout the tutorials.
+            <br><br>
+        </p><pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="function call">show_documentation</span>()
+<span class="function call">show_debug</span>()
+<span class="function call">show_about</span>()
+<span class="function call">show_metrics</span>()
+<span class="function call">show_logger</span>()
+
+<span class="function call">start_dearpygui</span>()</code> <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p></p>
+    </article>
+
+    <article><a name="logging"></a>
+        <h2>Built-in Logging</h2>
+        <hr>
+        <p>
+            One of the many powerful built in developer tools is the <b>Logger</b>. This can be accessed through the command
+            <i>show_logger</i>. The logger has 6 log levels:
+        </p><ol>
+            <li>Trace</li>
+            <li>Debug</li>
+            <li>Info</li>
+            <li>Warning</li>
+            <li>Error</li>
+            <li>Off</li>
+        </ol>
+        See example below:
+        <p></p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="function call">show_logger</span>()
+<span class="function call">set_log_level</span>(mvTRACE)
+<span class="function call">log</span>(<span class="string">"trace message"</span>)
+<span class="function call">log_debug</span>(<span class="string">"debug message"</span>)
+<span class="function call">log_info</span>(<span class="string">"info message"</span>)
+<span class="function call">log_warning</span>(<span class="string">"warning message"</span>)
+<span class="function call">log_error</span>(<span class="string">"error message"</span>)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+
+    <article><a name="widgets_containers_windows"></a>
+        <h2>Creating Widgets and Containers</h2>
+        <hr>
+        <p>
+            DPG items can be broken down into :
+            </p><ul>
+                <li> regular items (i.e. inputs, buttons)</li>
+                <li> container items (ex. window, popup, tooltip, child)</li>
+                <li> layout items (i.e. group, next_column)</li>
+            </ul>
+        Items are added with their respective <i>add_***</i> commands.
+            <br><br>
+            Every item must have a unique name. By default the name will become the label (if applicable).
+            In the event that you would like to change the widget's label you may
+            <ul>
+                <li>Place a "##" trailing the name (ex. "displayed_name##unique_part") anything after the "##" will be hidden from the displayed name.</li>
+                <li>Use the label keyword which will display the label instead of the name for the item.</li>
+            </ul>
+            Some item names are auto generated for items without name arguments in the function. (i.e. same_line).
+            However these have an optional name keyword which can be filled out if you need to reference the item at a later time.
+
+        <p></p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_button</span>(<span class="string">"Apply"</span>)
+    <span class="function call">add_same_line</span>(spacing<span class="keyword operator">=</span><span class="constant numeric">10</span>)
+    <span class="function call">add_button</span>(<span class="string">"Apply##1"</span>)
+    <span class="function call">add_same_line</span>(spacing<span class="keyword operator">=</span><span class="constant numeric">10</span>, name<span class="keyword operator">=</span><span class="string">"sameline1"</span>)
+    <span class="function call">add_button</span>(<span class="string">"Apply2"</span>, label<span class="keyword operator">=</span><span class="string">"Apply"</span>)
+    <span class="function call">add_spacing</span>(count<span class="keyword operator">=</span><span class="constant numeric">5</span>, name<span class="keyword operator">=</span><span class="string">"spacing1"</span>)
+    <span class="function call">add_button</span>(<span class="string">"Apply##3"</span>)
+
+<span class="function call">start_dearpygui</span>()</code> <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            Container items are used to hold other items and are implemented by either
+            </p><ul>
+                <li>Starting the container with its <i>add_***</i> function, then completing the container the <i>end</i> function.</li>
+                <li>Using <i>dearpygui.simple</i> and and the corresponding containers context manager (recommended method).</li>
+            </ul>
+            When container items are "added", they are pushed onto the parent stack. Any item added after will belong to the parent on the top of the stack.
+            When a container item is "ended" they are popped off the parent stack.
+        <p></p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="function call">add_window</span>(<span class="string">"Tutorial"</span>)
+<span class="function call">add_text</span>(<span class="string">"This is some text on window 2"</span>)
+<span class="function call">end</span>()
+
+<span class="function call">start_dearpygui</span>()</code> <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            <i>dearpygui.simple</i>'s context managers automate calling the <i>end</i> function and allows for code folding and shows a hierarchy in the code itself.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_text</span>(<span class="string">"This is some text on window 2"</span>)
+
+<span class="function call">start_dearpygui</span>()</code> <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            By default items are created in the order they are submitted.
+            <br><br>
+            However, items can be added out of order by specifying a <i>parent</i> container. Using the <i>parent</i> keyword will insert
+            the widget at the end of the parent's child list. If you would like to insert it somewhere else, use <i>before</i> in combination
+            with <i>parent</i> keyword to place the item before another item in the child list.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_text</span>(<span class="string">"First created widget"</span>)
+    <span class="function call">add_text</span>(<span class="string">"This is some text on window 2"</span>, parent<span class="keyword operator">=</span><span class="string">"window 2"</span>)  <span class="comment"># we can even specify the parent before it was created</span>
+    <span class="function call">add_text</span>(<span class="string">"This is some text on child 1"</span>, parent<span class="keyword operator">=</span><span class="string">"child 1"</span>)
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"window 1"</span>):
+    <span class="keyword">with</span> <span class="function call">child</span>(<span class="string">"child 1"</span>):
+        <span class="function call">add_checkbox</span>(<span class="string">"Checkbox"</span>)                              <span class="comment"># this is a input item added inside of the child</span>
+
+<span class="function call">add_checkbox</span>(<span class="string">"Last created widget"</span>, parent<span class="keyword operator">=</span><span class="string">"MainWindow"</span>, before<span class="keyword operator">=</span><span class="string">"First created widget"</span>)
+<span class="function call">add_checkbox</span>(<span class="string">"Last created widget 2"</span>, parent<span class="keyword operator">=</span><span class="string">"child 1"</span>, before<span class="keyword operator">=</span><span class="string">"Checkbox"</span>)
+
+<span class="comment"># empty window</span>
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"window 3"</span>): <span class="comment"># simple</span>
+    <span class="keyword">pass</span>
+
+<span class="function call">start_dearpygui</span>()
+</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+
+    <article><a name="primary_window"></a>
+        <h2>Primary Window</h2>
+        <hr>
+        <p>
+            A window can be set as the primary window by using the <i>primary_window</i> keyword of <i>start_dearpygui</i>
+            or using the <i>set_primary_window</i> command.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_checkbox</span>(<span class="string">"Radio Button"</span>, default_value<span class="keyword operator">=</span><span class="constant language">False</span>)
+    <span class="support function python">print</span>(<span class="string">"First value of the Radio Button is: "</span>, <span class="function call">get_value</span>(<span class="string">"Radio Button"</span>))
+    <span class="function call">set_value</span>(<span class="string">"Radio Button"</span>, <span class="constant language">True</span>)
+    <span class="support function python">print</span>(<span class="string">"Value after setting the Radio Button is: "</span>, <span class="function call">get_value</span>(<span class="string">"Radio Button"</span>))
+
+<span class="function call">start_dearpygui</span>(primary_window<span class="keyword operator">=</span><span class="string">"Tutorial"</span>)</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+
+    </article>
+
+    <article><a name="using_widgets"></a>
+        <h2>Using Widgets</h2>
+        <hr>
+        <p>
+            Every input widget has a value which can be set using the <i>default_value</i> keyword when being created or
+            at runtime by the command <i>set_value</i>.
+            <br><br>
+            To access the value of a widget we can use the command <i>get_value</i>.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_checkbox</span>(<span class="string">"Radio Button"</span>, default_value<span class="keyword operator">=</span><span class="constant language">False</span>)
+    <span class="support function python">print</span>(<span class="string">"First value of the Radio Button is: "</span>, <span class="function call">get_value</span>(<span class="string">"Radio Button"</span>))
+    <span class="function call">set_value</span>(<span class="string">"Radio Button"</span>, <span class="constant language">True</span>)
+    <span class="support function python">print</span>(<span class="string">"Value after setting the Radio Button is: "</span>, <span class="function call">get_value</span>(<span class="string">"Radio Button"</span>))
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+
+    </article>
+
+    <article><a name="callbacks"></a>
+        <h2>Widget and Window Callbacks</h2>
+        <hr>
+        <p>
+            Each input widget has a callback which is ran when the widget is interacted with.
+            <br><br>
+            Callbacks are used to give functionality to widgets.
+            Callbacks can either be assigned to the widget upon creation or after creation using <i>set_item_callback</i> as shown in the code below.
+            <br><br>
+            <b>Every callback applied to an item in Dear PyGui must take in a <i>sender</i> and <i>data</i> argument.</b>
+            <br><br>
+            The <i>sender</i> argument is used by Dear PyGui to inform the callback which widget triggered the callback by sending the name.
+            <br><br>
+            The <i>data</i> argument is used by various standard callbacks to send additional data by specifying the callback <i>callback_data</i>.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">button_callback</span>(sender, data):
+    <span class="function call">log_debug</span>(f"sender <span class="keyword">is</span>: {sender}")
+    <span class="function call">log_debug</span>(f"data <span class="keyword">is</span>: {data}")
+
+<span class="function call">show_logger</span>()  <span class="comment"># we're going to use the logger here to show the result</span>
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_input_text</span>(<span class="string">"Input Text"</span>, default_value<span class="keyword operator">=</span><span class="string">"Hello World!"</span>)
+    <span class="function call">add_button</span>(<span class="string">"Apply"</span>, callback<span class="keyword operator">=</span>button_callback, callback_data<span class="keyword operator">=</span><span class="function call">get_value</span>(<span class="string">"Input Text"</span>))
+    <span class="function call">add_button</span>(<span class="string">"Apply##2"</span>, tip<span class="keyword operator">=</span><span class="string">"callback was set after item was created"</span>)
+    <span class="function call">set_item_callback</span>(<span class="string">"Apply##2"</span>, callback<span class="keyword operator">=</span>button_callback, callback_data<span class="keyword operator">=</span><span class="function call">get_value</span>(<span class="string">"Input Text"</span>))
+
+<span class="function call">start_dearpygui</span>()</code> <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            We can use the callback to update the value of a Python variable each time the widget is interacted with.
+            This is shown in the example below:
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">update_var</span>(sender, data):
+    my_var <span class="keyword operator">=</span> <span class="function call">get_value</span>(<span class="string">"Input Checkbox"</span>)
+    <span class="function call">log_debug</span>(my_var)
+
+<span class="function call">show_logger</span>() <span class="comment"># were going to use the logger here to show the result</span>
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_checkbox</span>(<span class="string">"Input Checkbox"</span>, callback<span class="keyword operator">=</span>update_var)
+
+<span class="function call">start_dearpygui</span>()</code> <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            and again but using a more clever approach by utilizing <i>sender</i>
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">update_var</span>(sender, data):
+    my_var <span class="keyword operator">=</span> <span class="function call">get_value</span>(sender)
+    <span class="function call">log_debug</span>(my_var)
+
+
+<span class="function call">show_logger</span>() <span class="comment"># were going to use the logger here to show the result</span>
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_checkbox</span>(<span class="string">"Input Checkbox"</span>, callback<span class="keyword operator">=</span>update_var)
+    <span class="function call">add_input_text</span>(<span class="string">"Input Text"</span>, callback<span class="keyword operator">=</span>update_var)
+    <span class="function call">add_input_int</span>(<span class="string">"Input Int"</span>, callback<span class="keyword operator">=</span>update_var)
+
+<span class="function call">start_dearpygui</span>()</code> <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            Window type widgets have special callbacks that are triggered on events such as window resizing and window closing.
+            The window specific callbacks can be applied to any window type widget.
+            <i>on_close</i> will run the callback assigned to the keyword on window close and
+            <i>set_resize_callback</i>
+            will run on every resize of the container and can be set to any specific window by using the handler keyword, the default is the "MainWindow"
+            <br><br>
+        If you would like a callback to be ran every frame, you can use
+        <i>set_render_callback</i>
+            
+        </p><pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+
+<span class="storage function">def</span> <span class="entity name function">close_me</span>(sender, data):
+    <span class="function call">log_debug</span>(f"{sender} window has been closed")
+
+
+<span class="storage function">def</span> <span class="entity name function">render_me</span>(sender, data):
+    <span class="function call">log_debug</span>(f"window {sender} has ran a render callback")
+
+
+<span class="storage function">def</span> <span class="entity name function">resize_me</span>(sender, data):
+    <span class="function call">log_debug</span>(f"window {sender} has ran a resize callback")
+
+
+<span class="function call">show_logger</span>()                                      <span class="comment"># were going to use the logger to display callback replies</span>
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tester"</span>, on_close<span class="keyword operator">=</span>close_me):
+    <span class="function call">add_text</span>(<span class="string">'resize this window resize callback will occur'</span>)
+    <span class="function call">add_text</span>(<span class="string">'close this window using the "x" button and a close callback will occur'</span>)
+
+<span class="function call">set_render_callback</span>(render_me)
+<span class="function call">set_resize_callback</span>(resize_me, handler<span class="keyword operator">=</span><span class="string">"Tester"</span>)
+
+<span class="function call">start_dearpygui</span>()</code> <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+
+    <article><a name="runtime"></a>
+        <h2>Run-time Adding &amp; Deleting Widgets</h2>
+        <hr>
+        <p>
+            With Dear PyGui you can dynamically add and delete any items at runtime. This can be done by using a callback
+            to run the desired item's <i>add_***</i> command and specifying the parent the item will belong to. By default the widget will be added to the
+            MainWindow if there is no parent specified.
+            <br>
+            By using the keyword <i>before</i> when adding a item you can control which item in the parent the new item will come before.
+            Default will place the new widget at the end.
+            <br><br>
+            In this example we used the "debug" developer tool to view the current state of the widgets.
+            Go to the "App Item Layout" tab on the debug widget and this tab displays the state and properties of the App.
+            clicking on the "MainWindow" tree item we can see the widgets currently displayed on the MainWindow.
+            Try clicking the "Add/Delete" buttons on the main window and see the tree state change.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">add_buttons</span>(sender, data):
+    <span class="function call">add_button</span>(<span class="string">"New Button"</span>)
+    <span class="function call">add_button</span>(<span class="string">"New Button 2"</span>, parent<span class="keyword operator">=</span><span class="string">"Secondary Window"</span>)
+
+<span class="storage function">def</span> <span class="entity name function">delete_buttons</span>(sender, data):
+    <span class="function call">delete_item</span>(<span class="string">"New Button"</span>)
+    <span class="function call">delete_item</span>(<span class="string">"New Button 2"</span>)
+
+<span class="function call">show_debug</span>()
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_button</span>(<span class="string">"Add Buttons"</span>, callback<span class="keyword operator">=</span>add_buttons)
+    <span class="function call">add_button</span>(<span class="string">"Delete Buttons"</span>, callback<span class="keyword operator">=</span>delete_buttons)
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Secondary Window"</span>):
+    <span class="keyword">pass</span>
+
+<span class="function call">start_dearpygui</span>()</code> <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            When deleting a container the container and its children are deleted by default, unless the keyword <i>children_only</i> is set to <b>True</b>.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">add_widgets</span>(sender, data):
+
+    <span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Secondary Window"</span>): <span class="comment"># simple</span>
+        <span class="function call">add_button</span>(<span class="string">"New Button 2"</span>)
+        <span class="function call">add_button</span>(<span class="string">"New Button"</span>)
+        <span class="function call">add_button</span>(<span class="string">"New Button 3"</span>, parent<span class="keyword operator">=</span><span class="string">"Secondary Window"</span>)
+
+<span class="storage function">def</span> <span class="entity name function">delete_widgets</span>(sender, data):
+    <span class="function call">delete_item</span>(<span class="string">"Secondary Window"</span>)
+    <span class="function call">delete_item</span>(<span class="string">"New Button"</span>)
+
+<span class="storage function">def</span> <span class="entity name function">delete_children</span>(sender, data):
+    <span class="function call">delete_item</span>(<span class="string">"Secondary Window"</span>, children_only<span class="keyword operator">=</span><span class="constant language">True</span>)
+
+<span class="function call">show_debug</span>()
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_button</span>(<span class="string">"Add Window and Items"</span>, callback<span class="keyword operator">=</span>add_widgets)
+    <span class="function call">add_button</span>(<span class="string">"Delete Window and Children"</span>, callback<span class="keyword operator">=</span>delete_widgets)
+    <span class="function call">add_button</span>(<span class="string">"Delete Window's Children"</span>, callback<span class="keyword operator">=</span>delete_children)
+
+<span class="function call">start_dearpygui</span>()</code> <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+
+    <article><a name="data_storage"></a>
+        <h2>Value &amp; Data Storage</h2>
+        <hr>
+        <p>
+            When a new widget is added, a value is added to the value storage system. The identifier to this value is the name of the widget by default.
+            You can override the identifier by using the source keyword. One of the benefits of doing this is to have multiple widgets control the same value.
+            <br><br>
+            Values are retrieved from the value system using <i>get_value</i>.
+            <br><br>
+            Values can be changed manually using <i>set_value</i>.
+            <br><br>
+            For widgets of different value types to use the same value in the storage system the larger value must be created first.
+            <br><br>
+            For example, when a input_float3 is created the value type stored is a <b>[float, float, float]</b>. A later created input_float2 could
+            use the same source as the input_float3.
+            <br><br>
+            However, if the input_float2 was created first and then tried to share its' source with an input_float3 it would not work.
+            <br><br>
+            In order for the input_float3 and input_float2 to share the same source we can create the input_float3 needs to be created first.
+            This is accomplished with <i>add_value()</i>.
+
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">print_me</span>(sender, data):
+    <span class="function call">log_debug</span>(f"checkbox values: {<span class="function call">get_value</span>(<span class="string">'value_1'</span>)}")
+    <span class="function call">log_debug</span>(f"text values: {<span class="function call">get_value</span>(<span class="string">'value 2'</span>)}")
+    <span class="function call">log_debug</span>(f"color values: {<span class="function call">get_value</span>(<span class="string">'color4'</span>)}")
+
+
+<span class="storage function">def</span> <span class="entity name function">reset</span>(sender, data):
+    <span class="function call">set_value</span>(<span class="string">"value_1"</span>, <span class="constant language">False</span>)
+    <span class="function call">set_value</span>(<span class="string">"value 2"</span>, <span class="string">"Hello World!"</span>)
+
+
+<span class="function call">show_logger</span>()
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_checkbox</span>(<span class="string">"Radio Button1"</span>, source<span class="keyword operator">=</span><span class="string">"value_1"</span>)
+    <span class="function call">add_checkbox</span>(<span class="string">"Radio Button2"</span>, source<span class="keyword operator">=</span><span class="string">"value_1"</span>)
+    <span class="function call">add_input_text</span>(<span class="string">"Text Input 1"</span>, source<span class="keyword operator">=</span><span class="string">"value 2"</span>)
+    <span class="function call">add_input_text</span>(<span class="string">"Text Input 2"</span>, source<span class="keyword operator">=</span><span class="string">"value 2"</span>, password<span class="keyword operator">=</span><span class="constant language">True</span>, tip<span class="keyword operator">=</span><span class="string">"this input text has password applied"</span>)
+    <span class="function call">add_button</span>(<span class="string">"Print source values"</span>, callback<span class="keyword operator">=</span>print_me)
+    <span class="function call">add_button</span>(<span class="string">"Reset source values"</span>, callback<span class="keyword operator">=</span>reset)
+
+    <span class="comment"># special case when linking a smaller input type widget to a larger one create the large value first</span>
+    <span class="function call">add_value</span>(<span class="string">"color4"</span>, (<span class="constant numeric">0.0</span>, <span class="constant numeric">0.0</span>, <span class="constant numeric">0.0</span>, <span class="constant numeric">0.0</span>))
+    <span class="function call">add_color_edit3</span>(<span class="string">"color edit 3"</span>, source<span class="keyword operator">=</span><span class="string">"color4"</span>)
+    <span class="function call">add_color_edit4</span>(<span class="string">"color edit 4"</span>, source<span class="keyword operator">=</span><span class="string">"color4"</span>)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            DPG provides general data for data storage also. With <i>add_data</i> we can
+            pass in any Python item to be stored as a data item and accessed later with <i>get_data("name")</i>
+            <br><br>
+            <em><b>Remember you can store any Python object in data storage even custom data types.</b></em>
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">store_data</span>(sender, data):
+    custom_data <span class="keyword operator">=</span> {
+        <span class="string">"Radio Button"</span>: <span class="function call">get_value</span>(<span class="string">"Radio Button"</span>),
+        <span class="string">"Checkbox"</span>: <span class="function call">get_value</span>(<span class="string">"Checkbox"</span>),
+        <span class="string">"Text Input"</span>: <span class="function call">get_value</span>(<span class="string">"Text Input"</span>),
+    }
+    <span class="function call">add_data</span>(<span class="string">"stored_data"</span>, custom_data)
+
+<span class="storage function">def</span> <span class="entity name function">print_data</span>(sender, data):
+    <span class="function call">log_debug</span>(<span class="function call">get_data</span>(<span class="string">"stored_data"</span>))
+
+<span class="function call">show_logger</span>()
+<span class="function call">show_debug</span>()
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_radio_button</span>(<span class="string">"Radio Button"</span>, items<span class="keyword operator">=</span>[<span class="string">"item1"</span>, <span class="string">"item2"</span>])
+    <span class="function call">add_checkbox</span>(<span class="string">"Checkbox"</span>)
+    <span class="function call">add_input_text</span>(<span class="string">"Text Input"</span>)
+    <span class="function call">add_button</span>(<span class="string">"Store Data"</span>, callback<span class="keyword operator">=</span>store_data)
+    <span class="function call">add_button</span>(<span class="string">"Print Data"</span>, callback<span class="keyword operator">=</span>print_data)
+
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+
+    <article><a name="menu_bar"></a>
+        <h2>Menu Bar</h2>
+        <hr>
+        <p>
+            A very important widget for GUI functionality is a Menu Bar. Menu bars are always displayed on the top of a window and have 3 main parts:
+            </p><ol>
+                <li>The Menu Bar - The main menu ribbon</li>
+                <li>Menus - Drop down menus "sub-menus"</li>
+                <li>Menu Items - Items that can run callbacks (basically selectables)</li>
+            </ol>
+            Items are added to the Menu Bar from right to left. Items are added to the menus from top to bottom.
+            <br><br>
+            Menus can be nested as much as necessary.
+            <br><br>
+            Any widget can be added to a menu.
+        <p></p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+
+<span class="storage function">def</span> <span class="entity name function">print_me</span>(sender, data):
+    <span class="function call">log_debug</span>(f"Menu Item: {sender}")
+
+
+<span class="function call">show_logger</span>()
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+
+    <span class="keyword">with</span> <span class="function call">menu_bar</span>(<span class="string">"Main Menu Bar"</span>):
+
+        <span class="keyword">with</span> <span class="function call">menu</span>(<span class="string">"File"</span>):
+
+            <span class="function call">add_menu_item</span>(<span class="string">"Save"</span>, callback<span class="keyword operator">=</span>print_me)
+            <span class="function call">add_menu_item</span>(<span class="string">"Save As"</span>, callback<span class="keyword operator">=</span>print_me)
+
+            <span class="keyword">with</span> <span class="function call">menu</span>(<span class="string">"Settings"</span>):
+
+                <span class="function call">add_menu_item</span>(<span class="string">"Setting 1"</span>, callback<span class="keyword operator">=</span>print_me)
+                <span class="function call">add_menu_item</span>(<span class="string">"Setting 2"</span>, callback<span class="keyword operator">=</span>print_me)
+
+        <span class="function call">add_menu_item</span>(<span class="string">"Help"</span>, callback<span class="keyword operator">=</span>print_me)
+
+        <span class="keyword">with</span> <span class="function call">menu</span>(<span class="string">"Widget Items"</span>):
+
+            <span class="function call">add_checkbox</span>(<span class="string">"Pick Me"</span>, callback<span class="keyword operator">=</span>print_me)
+            <span class="function call">add_button</span>(<span class="string">"Press Me"</span>, callback<span class="keyword operator">=</span>print_me)
+            <span class="function call">add_color_picker4</span>(<span class="string">"Color Me"</span>, callback<span class="keyword operator">=</span>print_me)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+
+    <article><a name="file_directory_save"></a>
+        <h2>File and Directory Selector Dialogs</h2>
+        <hr>
+        <p>
+            Directory dialogs are used by calling <i>select_directory_dialog</i> which
+            must be given a return callback. The return callback's data argument will be filled out with the directory path &amp; folder path as a list of strings.
+            <br><br>
+            Typically directory dialog are called by another widget such as a button so this is how it will be done in the example.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">directory_picker</span>(sender, data):
+    <span class="function call">select_directory_dialog</span>(callback<span class="keyword operator">=</span>apply_selected_directory)
+
+<span class="storage function">def</span> <span class="entity name function">apply_selected_directory</span>(sender, data):
+    <span class="function call">log_debug</span>(data)  <span class="comment"># so we can see what is inside of data</span>
+    directory <span class="keyword operator">=</span> data[<span class="constant numeric">0</span>]
+    folder <span class="keyword operator">=</span> data[<span class="constant numeric">1</span>]
+    <span class="function call">set_value</span>(<span class="string">"directory"</span>, directory)
+    <span class="function call">set_value</span>(<span class="string">"folder"</span>, folder)
+    <span class="function call">set_value</span>(<span class="string">"folder_path"</span>, f"{directory}\\{folder}")
+
+<span class="function call">show_logger</span>()
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_button</span>(<span class="string">"Directory Selector"</span>, callback<span class="keyword operator">=</span>directory_picker)
+    <span class="function call">add_text</span>(<span class="string">"Directory Path: "</span>)
+    <span class="function call">add_same_line</span>()
+    <span class="function call">add_label_text</span>(<span class="string">"##dir"</span>, source<span class="keyword operator">=</span><span class="string">"directory"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">255</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>])
+    <span class="function call">add_text</span>(<span class="string">"Folder: "</span>)
+    <span class="function call">add_same_line</span>()
+    <span class="function call">add_label_text</span>(<span class="string">"##folder"</span>, source<span class="keyword operator">=</span><span class="string">"folder"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">255</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>])
+    <span class="function call">add_text</span>(<span class="string">"Folder Path: "</span>)
+    <span class="function call">add_same_line</span>()
+    <span class="function call">add_label_text</span>(<span class="string">"##folderpath"</span>, source<span class="keyword operator">=</span><span class="string">"folder_path"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">255</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>])
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            File dialogs are used by calling <i>open_file_dialog</i> which
+            must be given a return callback. The return callback's data argument will be filled out with the directory path &amp; file path as a list of strings.
+            Extensions are an optional keyword to the file dialog that will give selections to filter the displayed files in the dialog based on their extensions.
+            <br><br>
+            Typically file dialog are called by another widget such as a button so this is how it will be done in the example.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">file_picker</span>(sender, data):
+    <span class="function call">open_file_dialog</span>(callback<span class="keyword operator">=</span>apply_selected_file, extensions<span class="keyword operator">=</span><span class="string">".*,.py"</span>)
+
+
+<span class="storage function">def</span> <span class="entity name function">apply_selected_file</span>(sender, data):
+    <span class="function call">log_debug</span>(data)  <span class="comment"># so we can see what is inside of data</span>
+    directory <span class="keyword operator">=</span> data[<span class="constant numeric">0</span>]
+    file <span class="keyword operator">=</span> data[<span class="constant numeric">1</span>]
+    <span class="function call">set_value</span>(<span class="string">"directory"</span>, directory)
+    <span class="function call">set_value</span>(<span class="string">"file"</span>, file)
+    <span class="function call">set_value</span>(<span class="string">"file_path"</span>, f"{directory}\\{file}")
+
+<span class="function call">show_logger</span>()
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_button</span>(<span class="string">"Directory Selector"</span>, callback<span class="keyword operator">=</span>file_picker)
+    <span class="function call">add_text</span>(<span class="string">"Directory Path: "</span>)
+    <span class="function call">add_same_line</span>()
+    <span class="function call">add_label_text</span>(<span class="string">"##filedir"</span>, source<span class="keyword operator">=</span><span class="string">"directory"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">255</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>])
+    <span class="function call">add_text</span>(<span class="string">"File: "</span>)
+    <span class="function call">add_same_line</span>()
+    <span class="function call">add_label_text</span>(<span class="string">"##file"</span>, source<span class="keyword operator">=</span><span class="string">"file"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">255</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>])
+    <span class="function call">add_text</span>(<span class="string">"File Path: "</span>)
+    <span class="function call">add_same_line</span>()
+    <span class="function call">add_label_text</span>(<span class="string">"##filepath"</span>, source<span class="keyword operator">=</span><span class="string">"file_path"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">255</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>])
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+    <article><a name="plotting"></a>
+        <h2>Plotting</h2>
+        <hr>
+        <p>
+            Dear PyGui has simple plots and plots both of which have the ability to be dynamic.
+            <br><br>
+            Simple plots take in a list and plot y-axis data against the number of items in the list. These can be
+            line graphs or histograms and are demonstrated below.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_simple_plot</span>(<span class="string">"Simpleplot1"</span>, value<span class="keyword operator">=</span>[<span class="constant numeric">0.3</span>, <span class="constant numeric">0.9</span>, <span class="constant numeric">0.5</span>, <span class="constant numeric">0.3</span>], height<span class="keyword operator">=</span><span class="constant numeric">300</span>)
+    <span class="function call">add_simple_plot</span>(<span class="string">"Simpleplot2"</span>, value<span class="keyword operator">=</span>[<span class="constant numeric">0.3</span>, <span class="constant numeric">0.9</span>, <span class="constant numeric">2.5</span>, <span class="constant numeric">8.9</span>], overlay<span class="keyword operator">=</span><span class="string">"Overlaying"</span>, height<span class="keyword operator">=</span><span class="constant numeric">180</span>, histogram<span class="keyword operator">=</span><span class="constant language">True</span>)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p> Plots have much more functionality that simple plots. Plots use both the x and y coordinates. Plots must be created using
+            <i>add_plot</i> command and then the data can bee added as either a
+            line series or a scatter series.
+            Features of plots are:
+            </p><ul>
+            <li>Click &amp; Drag: to pan the plot</li>
+            <li>Click &amp; Drag on Axis: to pan the plot in one direction</li>
+            <li>Double Click: scales plot to data</li>
+            <li>Right Click &amp; Drag: to zoom to an area</li>
+            <li>Double Right Click: opens settings</li>
+            <li>Shift + Right Click &amp; Drag: to zoom to an area that fills a current axis</li>
+            <li>Scroll Mouse Wheel: zooms</li>
+            <li>Scroll Mouse Wheel on Axis: zooms only that axis</li>
+            <li>Toggle data sets on the legend to hide them</li>
+            </ul>
+            <br><br>
+            Additionally a text point can be used to place floating text on the plot.
+        <p></p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> math <span class="keyword">import</span> cos, sin
+
+<span class="storage function">def</span> <span class="entity name function">plot_callback</span>(sender, data):
+    <span class="function call">clear_plot</span>(<span class="string">"Plot"</span>)
+
+    data1x <span class="keyword operator">=</span> []
+    data1y <span class="keyword operator">=</span> []
+    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="support function python">range</span>(<span class="constant numeric">0</span>, <span class="constant numeric">100</span>):
+        data1x.<span class="function call">append</span>(<span class="constant numeric">3.14</span> <span class="keyword operator">*</span> i / <span class="constant numeric">180</span>)
+        data1y.<span class="function call">append</span>(<span class="function call">cos</span>(<span class="constant numeric">3</span> <span class="keyword operator">*</span> <span class="constant numeric">3.14</span> <span class="keyword operator">*</span> i / <span class="constant numeric">180</span>))
+
+    data2x <span class="keyword operator">=</span> []
+    data2y <span class="keyword operator">=</span> []
+    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="support function python">range</span>(<span class="constant numeric">0</span>, <span class="constant numeric">100</span>):
+        data2x.<span class="function call">append</span>(<span class="constant numeric">3.14</span> <span class="keyword operator">*</span> i / <span class="constant numeric">180</span>)
+        data2y.<span class="function call">append</span>(<span class="function call">sin</span>(<span class="constant numeric">2</span> <span class="keyword operator">*</span> <span class="constant numeric">3.14</span> <span class="keyword operator">*</span> i / <span class="constant numeric">180</span>))
+
+    <span class="function call">add_line_series</span>(<span class="string">"Plot"</span>, <span class="string">"Cos"</span>, data1x, data1y, weight<span class="keyword operator">=</span><span class="constant numeric">2</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">255</span>, <span class="constant numeric">100</span>])
+    <span class="function call">add_shade_series</span>(<span class="string">"Plot"</span>, <span class="string">"Cos"</span>, data1x, data1y, weight<span class="keyword operator">=</span><span class="constant numeric">2</span>, fill<span class="keyword operator">=</span>[<span class="constant numeric">255</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">100</span>])
+    <span class="function call">add_scatter_series</span>(<span class="string">"Plot"</span>, <span class="string">"Sin"</span>, data2x, data2y, outline<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">255</span>, <span class="constant numeric">0</span>, <span class="constant numeric">100</span>])
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_button</span>(<span class="string">"Plot data"</span>, callback<span class="keyword operator">=</span>plot_callback)
+    <span class="function call">add_plot</span>(<span class="string">"Plot"</span>, height<span class="keyword operator">=</span><span class="keyword operator">-</span><span class="constant numeric">1</span>)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            Simple plots can be made dynamic by changing the value of the plot call with
+            <i>set_value</i>. This is shown below.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> math <span class="keyword">import</span> sin
+
+<span class="storage function">def</span> <span class="entity name function">on_render</span>(sender, data):
+    frame_count <span class="keyword operator">=</span> <span class="function call">get_data</span>(<span class="string">"frame_count"</span>)
+    frame_count <span class="keyword operator">+</span><span class="keyword operator">=</span> <span class="constant numeric">1</span>
+    <span class="function call">add_data</span>(<span class="string">"frame_count"</span>, frame_count)
+    plot_data <span class="keyword operator">=</span> <span class="function call">get_value</span>(<span class="string">"plot_data"</span>)
+    <span class="keyword">if</span> <span class="support function python">len</span>(plot_data) <span class="keyword operator">&gt;</span> <span class="constant numeric">100</span>:
+        plot_data.<span class="function call">pop</span>(<span class="constant numeric">0</span>)
+    plot_data.<span class="function call">append</span>(<span class="function call">sin</span>(frame_count/<span class="constant numeric">30</span>))
+    <span class="function call">set_value</span>(<span class="string">"plot_data"</span>, plot_data)
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_simple_plot</span>(<span class="string">"Simple Plot"</span>, source<span class="keyword operator">=</span><span class="string">"plot_data"</span>, minscale<span class="keyword operator">=</span><span class="keyword operator">-</span><span class="constant numeric">1.0</span>, maxscale<span class="keyword operator">=</span><span class="constant numeric">1.0</span>, height<span class="keyword operator">=</span><span class="constant numeric">300</span>)
+    <span class="function call">add_data</span>(<span class="string">"frame_count"</span>, <span class="constant numeric">0</span>)
+    <span class="function call">set_render_callback</span>(on_render)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            Plots also can be dynamic. Dynamic function can be applied as easy as clearing
+            the plot and adding new data using a callback such as render or item's callback.
+            <i>set_value</i>. This is shown below.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> math <span class="keyword">import</span> cos
+
+<span class="storage function">def</span> <span class="entity name function">plot_callback</span>(sender, data):
+    <span class="comment"># keeping track of frames</span>
+    frame_count <span class="keyword operator">=</span> <span class="function call">get_data</span>(<span class="string">"frame_count"</span>)
+    frame_count <span class="keyword operator">+</span><span class="keyword operator">=</span> <span class="constant numeric">1</span>
+    <span class="function call">add_data</span>(<span class="string">"frame_count"</span>, frame_count)
+
+    <span class="comment"># updating plot data</span>
+    plot_datax <span class="keyword operator">=</span> <span class="function call">get_data</span>(<span class="string">"plot_datax"</span>)
+    plot_datay <span class="keyword operator">=</span> <span class="function call">get_data</span>(<span class="string">"plot_datay"</span>)
+    <span class="keyword">if</span> <span class="support function python">len</span>(plot_datax) <span class="keyword operator">&gt;</span> <span class="constant numeric">2000</span>:
+        frame_count <span class="keyword operator">=</span> <span class="constant numeric">0</span>
+        plot_datax.<span class="function call">clear</span>()
+        plot_datay.<span class="function call">clear</span>()
+    plot_datax.<span class="function call">append</span>(<span class="constant numeric">3.14</span> <span class="keyword operator">*</span> frame_count / <span class="constant numeric">180</span>)
+    plot_datay.<span class="function call">append</span>(<span class="function call">cos</span>(<span class="constant numeric">3</span> <span class="keyword operator">*</span> <span class="constant numeric">3.14</span> <span class="keyword operator">*</span> frame_count / <span class="constant numeric">180</span>))
+    <span class="function call">add_data</span>(<span class="string">"plot_datax"</span>, plot_datax)
+    <span class="function call">add_data</span>(<span class="string">"plot_datay"</span>, plot_datay)
+
+    <span class="comment"># plotting new data</span>
+    <span class="function call">clear_plot</span>(<span class="string">"Plot"</span>)
+    <span class="function call">add_line_series</span>(<span class="string">"Plot"</span>, <span class="string">"Cos"</span>, plot_datax, plot_datay, weight<span class="keyword operator">=</span><span class="constant numeric">2</span>)
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_plot</span>(<span class="string">"Plot"</span>, height<span class="keyword operator">=</span><span class="keyword operator">-</span><span class="constant numeric">1</span>)
+    <span class="function call">add_data</span>(<span class="string">"plot_datax"</span>, [])
+    <span class="function call">add_data</span>(<span class="string">"plot_datay"</span>, [])
+    <span class="function call">add_data</span>(<span class="string">"frame_count"</span>, <span class="constant numeric">0</span>)
+    <span class="function call">set_render_callback</span>(plot_callback)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+    <article><a name="drawing"></a>
+        <h2>Drawing/Canvas</h2>
+        <hr>
+        <p>
+            Dear PyGui has a low level drawing API that is well suited for primitive drawing, custom widgets or even dynamic drawings.
+            <br><br>
+            The drawing is started by calling <i>add_drawing</i> then items can be added
+            by calling their respective draw commands.
+            The origin for the canvas is in the top left and the y axis points down.
+        </p>
+            <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_drawing</span>(<span class="string">"Drawing_1"</span>, width<span class="keyword operator">=</span><span class="constant numeric">300</span>, height<span class="keyword operator">=</span><span class="constant numeric">300</span>)
+
+<span class="function call">draw_line</span>(<span class="string">"Drawing_1"</span>, [<span class="constant numeric">10</span>, <span class="constant numeric">10</span>], [<span class="constant numeric">100</span>, <span class="constant numeric">100</span>], [<span class="constant numeric">255</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">255</span>], <span class="constant numeric">1</span>)
+<span class="function call">draw_text</span>(<span class="string">"Drawing_1"</span>, [<span class="constant numeric">0</span>, <span class="constant numeric">0</span>], <span class="string">"Origin"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">250</span>, <span class="constant numeric">250</span>, <span class="constant numeric">250</span>, <span class="constant numeric">255</span>], size<span class="keyword operator">=</span><span class="constant numeric">15</span>)
+<span class="function call">draw_arrow</span>(<span class="string">"Drawing_1"</span>, [<span class="constant numeric">50</span>, <span class="constant numeric">70</span>], [<span class="constant numeric">100</span>, <span class="constant numeric">65</span>], [<span class="constant numeric">0</span>, <span class="constant numeric">200</span>, <span class="constant numeric">255</span>], <span class="constant numeric">1</span>, <span class="constant numeric">10</span>)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            Drawings can display images of types PNG, JPEG, or BMP.
+            Images are drawn using <i>draw_image</i>
+            <br><br>
+            Using the keywords "pmin" and "pmax" we can define the upper left and lower right area of the rectangle that
+            the image will be draw onto the canvas. The image will scale to fit the specified area.
+            <br><br>
+            With keywords "uv_min" and "uv_max" we can define a scalar number of what area on the image should be
+            drawn to the canvas. The default of uv_min = [0,0] and uv_max = [1,1] will display the entire image
+            while uv_min = [0,0] uv_max = [0.5,0.5] will only show the first quarter of the drawing.
+            <br><br>
+            To be able to demonstrate these features you must update the directory to that of an image on your computer, 
+            such as <a href="https://raw.githubusercontent.com/Pcothren/DearPyGui-Examples/main/SpriteMapExample.png">SpriteMapExample.png</a>.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="comment"># please update the image directory argument with a path to an image on your computer for this example</span>
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_drawing</span>(<span class="string">"Drawing_1"</span>, width<span class="keyword operator">=</span><span class="constant numeric">700</span>, height<span class="keyword operator">=</span><span class="constant numeric">700</span>)
+
+<span class="function call">draw_image</span>(<span class="string">"Drawing_1"</span>, <span class="string">'SpriteMapExample.png'</span>, [<span class="constant numeric">0</span>, <span class="constant numeric">700</span>], pmax<span class="keyword operator">=</span>[<span class="constant numeric">200</span>, <span class="constant numeric">500</span>], uv_min<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">0</span>], uv_max<span class="keyword operator">=</span>[<span class="constant numeric">1</span>, <span class="constant numeric">1</span>], tag<span class="keyword operator">=</span><span class="string">"image"</span>)
+<span class="function call">draw_image</span>(<span class="string">"Drawing_1"</span>, <span class="string">'SpriteMapExample.png'</span>, [<span class="constant numeric">0</span>, <span class="constant numeric">600</span>], pmax<span class="keyword operator">=</span>[<span class="constant numeric">200</span>, <span class="constant numeric">300</span>], uv_min<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">0</span>], uv_max<span class="keyword operator">=</span>[<span class="constant numeric">1</span>, <span class="constant numeric">1</span>])
+<span class="function call">draw_image</span>(<span class="string">"Drawing_1"</span>, <span class="string">'SpriteMapExample.png'</span>, [<span class="constant numeric">0</span>, <span class="constant numeric">500</span>], pmax<span class="keyword operator">=</span>[<span class="constant numeric">200</span>, <span class="constant numeric">100</span>], uv_min<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">0</span>], uv_max<span class="keyword operator">=</span>[<span class="constant numeric">1</span>, <span class="constant numeric">1</span>])
+<span class="function call">draw_image</span>(<span class="string">"Drawing_1"</span>, <span class="string">'SpriteMapExample.png'</span>, [<span class="constant numeric">400</span>, <span class="constant numeric">600</span>], pmax<span class="keyword operator">=</span>[<span class="constant numeric">600</span>, <span class="constant numeric">400</span>], uv_min<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">0</span>], uv_max<span class="keyword operator">=</span>[<span class="constant numeric">0.5</span>, <span class="constant numeric">0.5</span>])
+<span class="function call">draw_image</span>(<span class="string">"Drawing_1"</span>, <span class="string">'SpriteMapExample.png'</span>, [<span class="constant numeric">400</span>, <span class="constant numeric">400</span>], pmax<span class="keyword operator">=</span>[<span class="constant numeric">700</span>, <span class="constant numeric">50</span>], uv_min<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">0</span>], uv_max<span class="keyword operator">=</span>[<span class="constant numeric">3.5</span>, <span class="constant numeric">2.5</span>])
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+
+        <p>
+            Although drawings can be made dynamic by clearing and redrawing the entire thing a more efficient method is offered.
+            <br><br>
+            To make a drawing dynamic we should use the tag keyword to tag the items we would like to redraw. Then simply call a draw command
+            using the same tag. This will delete only that one item and redraw it with the new command.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">on_render</span>(sender, data):
+    <span class="function call">clear_drawing</span>(<span class="string">"Drawing_1"</span>)
+    counter <span class="keyword operator">=</span> <span class="function call">get_data</span>(<span class="string">"counter"</span>)
+    counter <span class="keyword operator">+</span><span class="keyword operator">=</span> <span class="constant numeric">1</span>
+    modifier <span class="keyword operator">=</span> <span class="function call">get_data</span>(<span class="string">"modifier"</span>)
+    <span class="keyword">if</span> counter <span class="keyword operator">&lt;</span> <span class="constant numeric">300</span>:
+        modifier <span class="keyword operator">+</span><span class="keyword operator">=</span> <span class="constant numeric">1</span>
+    <span class="keyword">elif</span> counter <span class="keyword operator">&lt;</span> <span class="constant numeric">600</span>:
+        modifier <span class="keyword operator">-</span><span class="keyword operator">=</span> <span class="constant numeric">1</span>
+    <span class="keyword">else</span>:
+        counter <span class="keyword operator">=</span> <span class="constant numeric">0</span>
+        modifier <span class="keyword operator">=</span> <span class="constant numeric">2</span>
+
+    xpos <span class="keyword operator">=</span> <span class="constant numeric">15</span> <span class="keyword operator">+</span> modifier<span class="keyword operator">*</span><span class="constant numeric">1.25</span>
+    ypos <span class="keyword operator">=</span> <span class="constant numeric">15</span> <span class="keyword operator">+</span> modifier<span class="keyword operator">*</span><span class="constant numeric">1.25</span>
+    color1 <span class="keyword operator">=</span> <span class="constant numeric">255</span> <span class="keyword operator">-</span> modifier<span class="keyword operator">*</span>.<span class="constant numeric">8</span>
+    color3 <span class="keyword operator">=</span> <span class="constant numeric">255</span> <span class="keyword operator">-</span> modifier<span class="keyword operator">*</span>.<span class="constant numeric">3</span>
+    color2 <span class="keyword operator">=</span> <span class="constant numeric">255</span> <span class="keyword operator">-</span> modifier<span class="keyword operator">*</span>.<span class="constant numeric">8</span>
+    radius <span class="keyword operator">=</span> <span class="constant numeric">15</span> <span class="keyword operator">+</span> modifier/<span class="constant numeric">2</span>
+    segments <span class="keyword operator">=</span> <span class="support function python">round</span>(<span class="constant numeric">35</span><span class="keyword operator">-</span>modifier/<span class="constant numeric">10</span>)
+    <span class="function call">draw_circle</span>(<span class="string">"Drawing_1"</span>, [xpos, ypos], radius, [color1, color3, color2, <span class="constant numeric">255</span>], segments<span class="keyword operator">=</span>segments, tag<span class="keyword operator">=</span><span class="string">"circle##dynamic"</span>)
+    <span class="function call">add_data</span>(<span class="string">"counter"</span>, counter)
+    <span class="function call">add_data</span>(<span class="string">"modifier"</span>, modifier)
+
+<span class="function call">add_data</span>(<span class="string">"counter"</span>, <span class="constant numeric">0</span>)
+<span class="function call">add_data</span>(<span class="string">"modifier"</span>, <span class="constant numeric">2</span>)
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_drawing</span>(<span class="string">"Drawing_1"</span>, width<span class="keyword operator">=</span><span class="constant numeric">700</span>, height<span class="keyword operator">=</span><span class="constant numeric">700</span>)
+
+<span class="function call">set_render_callback</span>(on_render)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+    <article><a name="clock"></a>
+        <h2>Delta Time and Internal Clock</h2>
+        <hr>
+        <p>
+            Dear PyGui has a built in clock for checking total run time <i>get_total_time</i>
+            which returns total run time in seconds
+            <br><br>
+            Also using the command <i>get_delta_time()</i>
+            we can check the time in between rendering frames in seconds.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">on_render</span>(sender, data):
+    delta_time <span class="keyword operator">=</span> <span class="support function python">str</span>(<span class="support function python">round</span>(<span class="function call">get_delta_time</span>(), <span class="constant numeric">4</span>))
+    total_time <span class="keyword operator">=</span> <span class="support function python">str</span>(<span class="support function python">round</span>(<span class="function call">get_total_time</span>(), <span class="constant numeric">4</span>))
+    <span class="function call">set_value</span>(<span class="string">"delta_time"</span>, delta_time)
+    <span class="function call">set_value</span>(<span class="string">"total_time"</span>, total_time)
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_text</span>(<span class="string">"Total Time: "</span>)
+    <span class="function call">add_same_line</span>()
+    <span class="function call">add_label_text</span>(<span class="string">"##total_time_text"</span>, source<span class="keyword operator">=</span><span class="string">"total_time"</span>)
+    <span class="function call">add_text</span>(<span class="string">"Delta Time: "</span>)
+    <span class="function call">add_same_line</span>()
+    <span class="function call">add_label_text</span>(<span class="string">"##delta_time_text"</span>, source<span class="keyword operator">=</span><span class="string">"delta_time"</span>)
+
+<span class="function call">set_render_callback</span>(callback<span class="keyword operator">=</span>on_render)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+    <article><a name="sprites"></a>
+        <h2>Sprites</h2>
+        <hr>
+        <p>
+            Using the drawing with tags, <i>get_delta_time</i> and a callback ran on rendering
+            we can create a sprite character. For this example we need to download the
+            <a href="https://raw.githubusercontent.com/Pcothren/DearPyGui-Examples/main/SpriteMapExample.png">SpriteMapExample.png</a>
+            from the examples folder on GitHub and place it next to the Python file in your working directory.
+            <br><br>
+            The drawing is started by calling <i>add_drawing</i> then items can be added
+            by calling their respective draw commands.
+            The origin for the canvas is in the bottom left.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">on_render</span>(sender, data):
+    delta_draw_time <span class="keyword operator">=</span> <span class="function call">get_data</span>(<span class="string">"delta_draw_time"</span>)
+    draw_speed <span class="keyword operator">=</span> <span class="function call">get_value</span>(<span class="string">"Draw Pause"</span>)
+
+    <span class="keyword">if</span> delta_draw_time <span class="keyword operator">&gt;</span> draw_speed:
+        <span class="function call">clear_drawing</span>(<span class="string">"Drawing_1"</span>)
+        <span class="keyword">if</span> <span class="function call">get_value</span>(<span class="string">"Fly Mode"</span>) <span class="keyword operator">=</span><span class="keyword operator">=</span> <span class="constant numeric">0</span>:
+            <span class="keyword">if</span> <span class="function call">get_data</span>(<span class="string">"sprite1"</span>):
+                <span class="function call">draw_image</span>(<span class="string">"Drawing_1"</span>, <span class="string">'SpriteMapExample.png'</span>, top_left, pmax<span class="keyword operator">=</span>bottom_right, uv_min<span class="keyword operator">=</span>[.<span class="constant numeric">7690</span>, <span class="constant numeric">0</span>],
+                           uv_max<span class="keyword operator">=</span>[.<span class="constant numeric">8074</span>, .<span class="constant numeric">10</span>], tag<span class="keyword operator">=</span><span class="string">"sprite"</span>)
+                <span class="function call">add_data</span>(<span class="string">"sprite1"</span>, <span class="constant language">False</span>)
+            <span class="keyword">else</span>:
+                <span class="function call">draw_image</span>(<span class="string">"Drawing_1"</span>, <span class="string">'SpriteMapExample.png'</span>, top_left, pmax<span class="keyword operator">=</span>bottom_right, uv_min<span class="keyword operator">=</span>[.<span class="constant numeric">8074</span>, <span class="constant numeric">0</span>],
+                           uv_max<span class="keyword operator">=</span>[.<span class="constant numeric">8461</span>, .<span class="constant numeric">10</span>], tag<span class="keyword operator">=</span><span class="string">"sprite"</span>)
+                <span class="function call">add_data</span>(<span class="string">"sprite1"</span>, <span class="constant language">True</span>)
+        <span class="keyword">else</span>:
+            <span class="keyword">if</span> <span class="function call">get_data</span>(<span class="string">"sprite1"</span>):
+                <span class="function call">draw_image</span>(<span class="string">"Drawing_1"</span>, <span class="string">'SpriteMapExample.png'</span>, top_left, pmax<span class="keyword operator">=</span>bottom_right, uv_min<span class="keyword operator">=</span>[.<span class="constant numeric">8464</span>, <span class="constant numeric">0</span>],
+                           uv_max<span class="keyword operator">=</span>[.<span class="constant numeric">8848</span>, .<span class="constant numeric">10</span>], tag<span class="keyword operator">=</span><span class="string">"sprite"</span>)
+                <span class="function call">add_data</span>(<span class="string">"sprite1"</span>, <span class="constant language">False</span>)
+            <span class="keyword">else</span>:
+                <span class="function call">draw_image</span>(<span class="string">"Drawing_1"</span>, <span class="string">'SpriteMapExample.png'</span>, top_left, pmax<span class="keyword operator">=</span>bottom_right, uv_min<span class="keyword operator">=</span>[.<span class="constant numeric">8851</span>, <span class="constant numeric">0</span>],
+                           uv_max<span class="keyword operator">=</span>[.<span class="constant numeric">9235</span>, .<span class="constant numeric">10</span>], tag<span class="keyword operator">=</span><span class="string">"sprite"</span>)
+                <span class="function call">add_data</span>(<span class="string">"sprite1"</span>, <span class="constant language">True</span>)
+        <span class="function call">add_data</span>(<span class="string">"delta_draw_time"</span>, <span class="constant numeric">0</span>)
+    <span class="keyword">else</span>:
+        <span class="function call">add_data</span>(<span class="string">"delta_draw_time"</span>, delta_draw_time <span class="keyword operator">+</span> <span class="function call">get_delta_time</span>())
+
+<span class="function call">set_main_window_size</span>(<span class="constant numeric">650</span>, <span class="constant numeric">800</span>)
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_drawing</span>(<span class="string">"Drawing_1"</span>, width<span class="keyword operator">=</span><span class="constant numeric">500</span>, height<span class="keyword operator">=</span><span class="constant numeric">500</span>)
+    top_left <span class="keyword operator">=</span> [<span class="constant numeric">250</span>, <span class="constant numeric">250</span>]
+    bottom_right <span class="keyword operator">=</span> [<span class="constant numeric">300</span>, <span class="constant numeric">300</span>]
+    <span class="function call">draw_image</span>(<span class="string">"Drawing_1"</span>, <span class="string">'SpriteMapExample.png'</span>, top_left, pmax<span class="keyword operator">=</span>bottom_right, uv_min<span class="keyword operator">=</span>[.<span class="constant numeric">7687</span>, <span class="constant numeric">0</span>], uv_max<span class="keyword operator">=</span>[<span class="constant numeric">1</span>, .<span class="constant numeric">10</span>], tag<span class="keyword operator">=</span><span class="string">"sprite"</span>)
+    <span class="function call">add_text</span>(<span class="string">"Fly Mode:"</span>)
+    <span class="function call">add_radio_button</span>(<span class="string">"Fly Mode"</span>, items<span class="keyword operator">=</span>[<span class="string">"Disable"</span>, <span class="string">"Enable"</span>], default_value<span class="keyword operator">=</span><span class="constant numeric">0</span>)
+    <span class="function call">add_slider_float</span>(<span class="string">"Draw Pause"</span>, default_value<span class="keyword operator">=</span><span class="constant numeric">0.1</span>, min_value<span class="keyword operator">=</span><span class="constant numeric">0.0</span>, max_value<span class="keyword operator">=</span><span class="constant numeric">0.5</span>, tip<span class="keyword operator">=</span><span class="string">"slows down draws by waiting until the elapsed time"</span>, format<span class="keyword operator">=</span><span class="string">"%.4f"</span>)
+    <span class="function call">set_render_callback</span>(on_render)
+    <span class="function call">add_data</span>(<span class="string">"delta_draw_time"</span>, <span class="constant numeric">0.0</span>)
+    <span class="function call">add_data</span>(<span class="string">"sprite1"</span>, <span class="constant language">True</span>)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+    <article><a name="tables"></a>
+        <h2>Tables</h2>
+        <hr>
+        <p>
+            Dear PyGui has a simple table API that is well suited for static and dynamic tables.
+            <br><br>
+            The table widget is started by calling <i>add_table()</i>.
+            <br><br>
+            To edit the table widget we can use the methods <i>add_row()</i>
+            <i>add_column()</i> which will append the row/column to the
+            last slot in the table.
+            <br><br>
+            Alternatively, we can insert rows/columns using
+            <i>insert_row</i>
+            <i>insert_column</i>.
+            Columns and Rows are inserted according to their index argument. If the specified index already exists the exiting columns/rows
+            will be bumped and the new row/column will be inserted at the specified index.
+            <br><br>
+            Also an added or inserted row/column will by default fill unspecified cells with empty cells.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_table</span>(<span class="string">"Table Example"</span>, [<span class="string">"Header 0"</span>, <span class="string">"Header 1"</span>])
+    <span class="function call">add_row</span>(<span class="string">"Table Example"</span>, [<span class="string">"row 0"</span>, <span class="string">"text"</span>])
+    <span class="function call">add_row</span>(<span class="string">"Table Example"</span>, [<span class="string">"row 2"</span>, <span class="string">"text"</span>])
+    <span class="function call">add_column</span>(<span class="string">"Table Example"</span>, <span class="string">"Header 3"</span>, [<span class="string">"data"</span>,<span class="string">"data"</span>])
+    <span class="function call">insert_row</span>(<span class="string">"Table Example"</span>, <span class="constant numeric">1</span>, [<span class="string">"row 1"</span>, <span class="string">"inserted row"</span>, <span class="string">"inserted row"</span>])
+    <span class="function call">insert_column</span>(<span class="string">"Table Example"</span>, <span class="constant numeric">2</span>, <span class="string">"Header 2"</span>, [<span class="string">"inserted with column"</span>, <span class="string">"inserted column"</span>, <span class="string">"inserted column"</span>])
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            Additionally, headers and cells can be renamed and their values be changed.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">modify_tables</span>(sender, data):
+    <span class="function call">log_debug</span>(f"Table Called: {sender}")
+    coord_list <span class="keyword operator">=</span> <span class="function call">get_table_selections</span>(<span class="string">"Table Example"</span>)
+    <span class="function call">log_debug</span>(f"Selected Cells (coordinates): {coord_list}")
+    <span class="keyword">for</span> coordinates <span class="keyword">in</span> coord_list:
+        <span class="function call">set_table_item</span>(<span class="string">"Table Example"</span>, coordinates[<span class="constant numeric">0</span>], coordinates[<span class="constant numeric">1</span>], <span class="string">"New Value"</span>)
+    <span class="function call">set_headers</span>(<span class="string">"Table Example"</span>, [<span class="string">"New Header 0"</span>, <span class="string">"New Header 1"</span>, <span class="string">"New Header 2"</span>])
+
+
+<span class="function call">show_logger</span>()
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_spacing</span>(count<span class="keyword operator">=</span><span class="constant numeric">5</span>)
+    <span class="function call">add_button</span>(<span class="string">"Modify Selected Table Values"</span>, callback<span class="keyword operator">=</span>modify_tables)
+    <span class="function call">add_spacing</span>(count<span class="keyword operator">=</span><span class="constant numeric">5</span>)
+    <span class="function call">add_table</span>(<span class="string">"Table Example"</span>, [<span class="string">"Header 0"</span>, <span class="string">"Header 1"</span>])
+    <span class="function call">add_row</span>(<span class="string">"Table Example"</span>, [<span class="string">"awesome row"</span>, <span class="string">"text"</span>])
+    <span class="function call">add_row</span>(<span class="string">"Table Example"</span>, [<span class="string">"super unique"</span>, <span class="string">"unique text"</span>])
+    <span class="function call">add_column</span>(<span class="string">"Table Example"</span>, <span class="string">"Header 2"</span>, [<span class="string">"text from column"</span>, <span class="string">"text from column"</span>])
+    <span class="function call">add_row</span>(<span class="string">"Table Example"</span>, [<span class="string">"boring row"</span>])
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            Tables cells are selectable. This means that we can apply a callback to the table and retrieve which cell was selected through the sender
+            and even get the text inside the cell.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">table_printer</span>(sender, data):
+    <span class="function call">log_debug</span>(f"Table Called: {sender}")
+    coord_list <span class="keyword operator">=</span> <span class="function call">get_table_selections</span>(<span class="string">"Table Example"</span>)
+    <span class="function call">log_debug</span>(f"Selected Cells (coordinates): {coord_list}")
+    names <span class="keyword operator">=</span> []
+    <span class="keyword">for</span> coordinates <span class="keyword">in</span> coord_list:
+        names.<span class="function call">append</span>(<span class="function call">get_table_item</span>(<span class="string">"Table Example"</span>, coordinates[<span class="constant numeric">0</span>], coordinates[<span class="constant numeric">1</span>]))
+    <span class="function call">log_debug</span>(names)
+
+
+<span class="function call">show_logger</span>()
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_table</span>(<span class="string">"Table Example"</span>, [<span class="string">"Header 0"</span>, <span class="string">"Header 1"</span>], callback<span class="keyword operator">=</span>table_printer)
+    <span class="function call">add_row</span>(<span class="string">"Table Example"</span>, [<span class="string">"awesome row"</span>, <span class="string">"text"</span>])
+    <span class="function call">add_row</span>(<span class="string">"Table Example"</span>, [<span class="string">"super unique"</span>, <span class="string">"unique text"</span>])
+    <span class="function call">add_column</span>(<span class="string">"Table Example"</span>, <span class="string">"Header 3"</span>, [<span class="string">"text from column"</span>, <span class="string">"text from column"</span>])
+    <span class="function call">add_row</span>(<span class="string">"Table Example"</span>, [<span class="string">"boring row"</span>])
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+    <article><a name="input_polling"></a>
+        <h2>Input Polling</h2>
+        <hr>
+        <p>
+            Input Polling in Dear PyGui is done by calling the desired poll command within a function.
+            The function must be set to a windows render callback for polling to occur when that window is active.
+            Because the render callbacks are ran every frame Dear PyGui can poll between frames if a specified input is performed.
+            <br><br>
+            A list of all the polling is as follows:
+            </p><ul>
+            <li>get_mouse_drag_delta()</li>
+            <li>get_mouse_pos()</li>
+            <li>is_key_down()</li>
+            <li>is_key_pressed()</li>
+            <li>is_key_released()</li>
+            <li>is_mouse_button_clicked()</li>
+            <li>is_mouse_button_double_clicked()</li>
+            <li>is_mouse_button_down()</li>
+            <li>is_mouse_button_dragging()</li>
+            <li>is_mouse_button_released()</li>
+            <li>set_key_down_callback()</li>
+            <li>set_key_press_callback()</li>
+            <li>set_key_release_callback()</li>
+            <li>set_mouse_click_callback()</li>
+            <li>set_mouse_double_click_callback()</li>
+            <li>set_mouse_down_callback()</li>
+            <li>set_mouse_drag_callback()</li>
+            <li>set_mouse_wheel_callback()</li>
+            <li>set_render_callback()</li>
+            <li>set_resize_callback()</li>
+            </ul>
+        For information about a specific command see the <a href="https://hoffstadt.github.io/DearPyGui/api_docs.html">API Reference</a>.
+        <br><br>
+        It is possible to combine as many polls as necessary to achieve desired functionality.
+        <p></p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">main_callback</span>(sender, data):
+    <span class="function call">set_value</span>(<span class="string">"Mouse Position"</span>, <span class="support function python">str</span>(<span class="function call">get_mouse_pos</span>()))
+    <span class="function call">set_value</span>(<span class="string">"A key Down"</span>, <span class="function call">is_key_down</span>(mvKey_A))
+    <span class="function call">set_value</span>(<span class="string">"A key Pressed"</span>, <span class="function call">is_key_pressed</span>(mvKey_A))
+    <span class="function call">set_value</span>(<span class="string">"A key Released"</span>, <span class="function call">is_key_released</span>(mvKey_A))
+    <span class="function call">set_value</span>(<span class="string">"Left Mouse Dragging"</span>, <span class="function call">is_mouse_button_dragging</span>(mvMouseButton_Left, <span class="constant numeric">10</span>))
+    <span class="function call">set_value</span>(<span class="string">"Left Mouse Clicked"</span>, <span class="function call">is_mouse_button_clicked</span>(mvMouseButton_Left))
+    <span class="function call">set_value</span>(<span class="string">"Left Mouse Double Clicked"</span>, <span class="function call">is_mouse_button_double_clicked</span>(mvMouseButton_Left))
+    <span class="function call">set_value</span>(<span class="string">"Shift + Left Mouse Clicked"</span>, <span class="function call">is_key_down</span>(mvKey_Shift) <span class="keyword">and</span> <span class="function call">is_mouse_button_clicked</span>(mvMouseButton_Left))
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_label_text</span>(<span class="string">"A key Down"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">200</span>, <span class="constant numeric">255</span>])
+    <span class="function call">add_label_text</span>(<span class="string">"A key Pressed"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">200</span>, <span class="constant numeric">255</span>])
+    <span class="function call">add_label_text</span>(<span class="string">"A key Released"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">200</span>, <span class="constant numeric">255</span>])
+    <span class="function call">add_spacing</span>()
+    <span class="function call">add_label_text</span>(<span class="string">"Mouse Position"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">200</span>, <span class="constant numeric">255</span>])
+    <span class="function call">add_label_text</span>(<span class="string">"Left Mouse Clicked"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">200</span>, <span class="constant numeric">255</span>])
+    <span class="function call">add_label_text</span>(<span class="string">"Left Mouse Dragging"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">200</span>, <span class="constant numeric">255</span>])
+    <span class="function call">add_label_text</span>(<span class="string">"Left Mouse Double Clicked"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">200</span>, <span class="constant numeric">255</span>])
+    <span class="function call">add_label_text</span>(<span class="string">"Shift + Left Mouse Clicked"</span>, color<span class="keyword operator">=</span>[<span class="constant numeric">0</span>, <span class="constant numeric">200</span>, <span class="constant numeric">255</span>])
+
+<span class="function call">set_render_callback</span>(main_callback)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+    <article><a name="multithreading"></a>
+        <h2>Multithreading &amp; Asynchronous Functions</h2>
+        <hr>
+        <p>
+            For calculations and callbacks that require extended time it can be useful to implement asynchronous functions or functions ran on separate threads.
+            To do this simply call <i>run_async_function</i>.
+            <br><br>
+            It is important to note that functions ran with the async command can only call certain <i>Dear PyGui</i> commands (get_value, set_value, add_data, get_data).
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> time <span class="keyword">import</span> sleep
+
+<span class="storage function">def</span> <span class="entity name function">long_async_callback</span>(data, sender):
+    <span class="function call">run_async_function</span>(long_callback, <span class="constant language">None</span>)
+
+<span class="storage function">def</span> <span class="entity name function">long_callback</span>(sender, data):
+    <span class="function call">sleep</span>(<span class="constant numeric">3</span>)
+
+<span class="function call">show_logger</span>()
+<span class="function call">show_metrics</span>()
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_button</span>(<span class="string">"long function"</span>, callback<span class="keyword operator">=</span>long_callback, tip<span class="keyword operator">=</span><span class="string">"This will cause a 3 second freeze"</span>)
+    <span class="function call">add_button</span>(<span class="string">"long Asynchronous Function"</span>, callback<span class="keyword operator">=</span>long_async_callback, tip<span class="keyword operator">=</span><span class="string">"This will not freeze"</span>)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            Asynchronous functions cannot access <i>add_data</i>
+            or <i>get_data</i>. So when it is necessary to pass data to the asynchronous
+            function you must use the data and return handler keyworded arguments.
+            Any Python object can be made accessible the the async function by being sent into the function through the "data" keyword.
+            Additionally, any returned data from the Async function will be accessible through the "data" input of the specified return callback.
+        </p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> time <span class="keyword">import</span> sleep
+
+<span class="storage function">def</span> <span class="entity name function">long_async_preparer</span>(data, sender):
+    floaty <span class="keyword operator">=</span> <span class="function call">get_value</span>(<span class="string">"Async Input Data"</span>)
+    <span class="function call">run_async_function</span>(long_callback, floaty, return_handler<span class="keyword operator">=</span>long_async_return)
+
+<span class="storage function">def</span> <span class="entity name function">long_callback</span>(sender, data):
+    <span class="function call">sleep</span>(<span class="constant numeric">3</span>)
+    <span class="keyword">return</span> data <span class="keyword operator">*</span> <span class="constant numeric">2</span>
+
+<span class="storage function">def</span> <span class="entity name function">long_async_return</span>(sender, data):
+    <span class="function call">log_debug</span>(data)
+
+<span class="storage function">def</span> <span class="entity name function">long_callback2</span>(sender, data):
+    <span class="function call">sleep</span>(<span class="constant numeric">3</span>)
+    <span class="function call">log_debug</span>(data <span class="keyword operator">*</span> <span class="constant numeric">2</span>)
+
+<span class="function call">show_logger</span>()
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_text</span>(<span class="string">"Input a number and see the logger window for the output of the long callback that would normally freeze the GUI"</span>)
+    <span class="function call">add_input_float</span>(<span class="string">"Async Input Data"</span>, default_value<span class="keyword operator">=</span><span class="constant numeric">1.0</span>)
+    <span class="function call">add_button</span>(<span class="string">"long Function"</span>, callback<span class="keyword operator">=</span>long_callback2, callback_data<span class="keyword operator">=</span><span class="function call">get_value</span>(<span class="string">"Async Input Data"</span>), tip<span class="keyword operator">=</span><span class="string">"This is the long callback that will freeze the GUI"</span>)
+    <span class="function call">add_button</span>(<span class="string">"long Asynchronous Function"</span>, callback<span class="keyword operator">=</span>long_async_preparer, tip<span class="keyword operator">=</span><span class="string">"This will not freeze the GUI"</span>)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+        <p>
+            When the asynchronous function method is called a thread pool is created. The aspects of the thread pool that
+            can be configured are the number of threads and the timeout time.
+            <br><br>
+            using <i>set_thread_count</i> we can set the number of threads in the thread pool.
+            Also we can use <i>set_threadpool_high_performance</i> to tell the thread pool to
+            max out the number of threads per the users computer. Be aware that this will run the CPU at 100% when calling async functions.
+            <br><br>
+            Setting the timeout time for the thread pool can be done using <i>set_threadpool_timeout</i>.
+            This will destroy the thread pool and free the resources after the set amount of time.
+        </p>
+    </article>
+    <article><a name="themes_and_styles"></a>
+        <h2>Themes and Styles</h2>
+        <hr>
+        <p>
+            For a much more complete example please see the <i>show_demo</i>
+            <br><br>
+            Themes and widget styling can be applied to a single widget or the app as a whole.
+            Some examples of attributes of the style that can be set are:
+            </p><ul>
+            <li>font size</li>
+            <li>app color scheme</li>
+            <li>corner roundness</li>
+            </ul>
+            Please see the example below:
+        <p></p>
+        <pre data-trimmed="true" class="rainbow-show"><code data-language="python" class="rainbow rainbow-show"><span class="keyword">from</span> dearpygui.core <span class="keyword">import</span> <span class="keyword operator">*</span>
+<span class="keyword">from</span> dearpygui.simple <span class="keyword">import</span> <span class="keyword operator">*</span>
+
+<span class="storage function">def</span> <span class="entity name function">apply_text_multiplier</span>(sender, data):
+    font_multiplier <span class="keyword operator">=</span> <span class="function call">get_value</span>(<span class="string">"Font Size Multiplier"</span>)
+    <span class="function call">set_global_font_scale</span>(font_multiplier)
+
+<span class="storage function">def</span> <span class="entity name function">apply_theme</span>(sender, data):
+    theme <span class="keyword operator">=</span> <span class="function call">get_value</span>(<span class="string">"Themes"</span>)
+    <span class="function call">set_theme</span>(theme)
+
+themes <span class="keyword operator">=</span> [<span class="string">"Dark"</span>, <span class="string">"Light"</span>, <span class="string">"Classic"</span>, <span class="string">"Dark 2"</span>, <span class="string">"Grey"</span>, <span class="string">"Dark Grey"</span>, <span class="string">"Cherry"</span>, <span class="string">"Purple"</span>, <span class="string">"Gold"</span>, <span class="string">"Red"</span>]
+
+<span class="keyword">with</span> <span class="function call">window</span>(<span class="string">"Tutorial"</span>):
+    <span class="function call">add_combo</span>(<span class="string">"Themes"</span>, items<span class="keyword operator">=</span>themes, default_value<span class="keyword operator">=</span><span class="string">"Dark"</span>, callback<span class="keyword operator">=</span>apply_theme)
+
+    <span class="function call">add_slider_float</span>(<span class="string">"Font Size Multiplier"</span>, default_value<span class="keyword operator">=</span><span class="constant numeric">1.0</span>, min_value<span class="keyword operator">=</span><span class="constant numeric">0.0</span>, max_value<span class="keyword operator">=</span><span class="constant numeric">2.0</span>,
+                     callback<span class="keyword operator">=</span>apply_text_multiplier)
+
+<span class="function call">start_dearpygui</span>()</code><div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></pre>
+    </article>
+</main>
+
+</body></html>

@@ -2,6 +2,24 @@
 
 '-------------------------------------------------------'
 
+## 01.24
+
+- 万分之一
+    - one ten-thousandth
+    - one in ten thousand
+    - one out of ten thousand
+
+## 01.22
+
+- 领域: 
+    - **Domain**: The domain is vast.
+    - **filed**: the field of science
+- 尝试: 
+    - **try**: It was a good try
+    - **trial**: in clinical trials
+    - **attempt**: make an attempt 
+- 用户交互: **User** **Interaction**
+
 ## 07.08
 
 - help yourself    请随意
@@ -21,16 +39,11 @@
 
     - 对...看法一致
 
-
-
 ## 12.25
 
 - #### culinary----------[ˈkʌlɪnəri]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=culinary&type=2"></audio>
-- #### isolate---------[ˈaɪsəleɪt]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=isolate&type=2"></audio>
 ## 12.13
 
 #### i am here by sentence you to death
@@ -41,7 +54,7 @@ a position attracting much attention and publicity
 
 ## 12.10
 
-#### Let me propose a toast to Mr.Smith
+#### Let me propose a toast to Mr.S
 
 - #### toxic---------------[ˈtɑːksɪk]
 
@@ -51,18 +64,9 @@ a position attracting much attention and publicity
 <audio controls src="http://dict.youdao.com/dictvoice?audio=silver&type=2"></audio>
 ## 11.29
 
-- #### ambassador-[æmˈbæsədər]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=ambassador&type=2"></audio>
-- #### trajectory-----[trəˈdʒektəri]
-
 - #### ominous------------[ˈɑːmɪnəs]
 
-- #### pharmaceutical
 
-    #### ----------------[ˌfɑːrməˈsuːtɪkl]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=pharmaceutical&type=2"></audio>
 ## 11.26
 
 - #### Volume------------[ˈvɑːljuːm]
@@ -77,12 +81,6 @@ a position attracting much attention and publicity
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=say&type=2"></audio>
 <audio controls src="http://dict.youdao.com/dictvoice?audio=said&type=2"></audio>
-- #### rampant--------[ˈræmpənt]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=rampant&type=2"></audio>
-- #### plagiarism---[ˈplājəˌrizəm]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=plagiarism&type=2"></audio>
 ## 10.22
 
 - #### 准确地说
@@ -95,9 +93,7 @@ a position attracting much attention and publicity
 
 - ##### Studying for a master's degree
 
-- #### tsunami---------[tsuːˈnɑːmi]
 
-<audio controls src="http://dict.youdao.com/dictvoice?audio=tsunami&type=2"></audio>
 ## 09.26
 
 - ##### there are ups and downs in life

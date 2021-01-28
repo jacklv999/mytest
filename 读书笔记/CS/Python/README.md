@@ -7,6 +7,13 @@
 - [Numba库使用简介](./Numba库使用简介.html) 
 - [Python监听模拟鼠标键盘](./Python监听模拟鼠标键盘.html) 
 - [Python的FFI编程](./Python的FFI编程.html) 
+- [Python虚拟环境及打包](./Python虚拟环境及打包.html) 
+
+## GUI Programming
+
+- [Dear Python GUI Tutorial](./DPG Tutorials.html)  
+- [DearPyGUI Tutorial Note](./DearPyGUI Tutorial Note.html) 
+- [DPG使用细节笔记](./DPG使用细节笔记.html) 
 
 
 
@@ -24,7 +31,7 @@
 
 
 
-## Python可视化
+## Python数据可视化
 
 - [1. Matplotlib 基础](./Python-数据可视化Mvan/Matplotlib-基础.html) 
 - 2.图像

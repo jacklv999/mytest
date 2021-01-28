@@ -3,7 +3,7 @@
 - [计量经济学基础](./计量经济学笔记.html) 
 - [计量经济学各类模型补充](./logit模型.html)  
 - [Heckman model and IV](./Heckman_models_and_IV.html) 
-- [The ESR Model](./The ESR Model.html) 
+- [The ESR Model](./The ESR model.html) 
 - [因子分析在量表设计中的应用](./因子分析在量表设计中的应用.html) 
 - [What is GMM](./What is GMM.html) 
 
@@ -15,7 +15,7 @@
 
 - 1.空间计量经济学入门---在R中的应用
     - [空间计量经济学基础](./空间计量/空间计量经济学笔记.html) 
-    - [空间计量基础模型](./空间计量/空间计量模型使用.html) 
+    - [空间计量基础模型](./空间计量/空间模型使用.html)  
     - [空间计量的深入讨论](./空间计量/空间计量经济学的深入讨论.html) 
     - [大数据下的替代模型](./空间计量/大数据下的替代模型.html) 
 - 2.空间计量经济学导论
