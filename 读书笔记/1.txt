@@ -1,7 +1,6 @@
 .\读书笔记\1.txt
 .\读书笔记\README - 副本.md
 .\读书笔记\README.md
-.\读书笔记\CS\asdjaskhd.html
 .\读书笔记\CS\cs\Chrome快捷键.html
 .\读书笔记\CS\cs\Chrome快捷键.md
 .\读书笔记\CS\cs\CMD脚本.html
@@ -157,6 +156,7 @@
 .\读书笔记\CS\前端相关\README.md
 .\读书笔记\CS\前端相关\使用 TypeScript 来写 Vue.html
 .\读书笔记\CS\前端相关\使用 TypeScript 来写 Vue[转].md
+.\读书笔记\ERROR_RECORD\asdjaskhd.html
 .\读书笔记\ERROR_RECORD\README.md
 .\读书笔记\IDEA整理\README.md
 .\读书笔记\IDEA整理\不如意事常八九.html
