@@ -3,8 +3,6 @@
 
 
 
-- [ ] 0128[asdjaskhd](./读书笔记//读书笔记/CS/asdjaskhd.html)
-
 
 - [ ] 0124[Retinanet论文笔记](./读书笔记/ML&DL/CVPaper/目标检测/Retinanet论文笔记.html)
 - [ ] 0122[FPN论文笔记](./读书笔记/ML&DL/CVPaper/目标检测/FPN论文笔记.html) 
