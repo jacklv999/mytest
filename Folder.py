@@ -3,11 +3,11 @@ import time
 
 tmp_str_1 = set()
 tmp_str_2 = set()
-for root,dirs,files in os.walk("D:\PythonCode\Pages\mytest\mytest\读书笔记"):
+for root,dirs,files in os.walk("F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记"):
         for file in files:
             tmp_str_1.add(str(os.path.join(root,file))+'\n')
             
-with open('D:\\PythonCode\\Pages\\mytest\\mytest\\读书笔记\\1.txt', "r+") as f:
+with open('F:\\MyInterest\\MyDir\\Pages\\mytest\\mytest\\读书笔记\\1.txt', "r+") as f:
     line = f.readline()
     while line:
         tmp_str_2.add(line)
