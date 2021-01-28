@@ -44,7 +44,7 @@ with open('F:\\MyInterest\\MyDir\\Pages\\mytest\\mytest\\读书笔记\\1.txt', "
         f.seek(0)
         f.truncate()   #清空文件
 
-for root,dirs,files in os.walk(".\\读书笔记"):
+for root,dirs,files in os.walk("F:\\MyInterest\\MyDir\\Pages\\mytest\\mytest\\读书笔记"):
     with open('F:\\MyInterest\\MyDir\\Pages\\mytest\\mytest\\读书笔记\\1.txt','a') as f:
         for file in files:
             f.write(str(os.path.join(root,file))+'\n')
