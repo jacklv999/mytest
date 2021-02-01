@@ -177,6 +177,8 @@ F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\如何了解一个行业.html
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\如何了解一个行业.md
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\学读书.html
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\我所依赖的思维方式.html
+F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\易方达张坤访谈.html
+F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\易方达张坤访谈.md
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\沉默的世界.html
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\沉默的世界.md
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\熵增定律.html
