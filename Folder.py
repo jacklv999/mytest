@@ -22,7 +22,7 @@ time_now = time_now_1+time_now_2
 tmp_str_3 = tmp_str_1.difference(tmp_str_2)
 for i in tmp_str_3:
     if str(i)[-5:-1]=='html':
-        tmp_1 = str(str(i)[43:]).replace('\\','/')     # modify needed, replace the number to 39
+        tmp_1 = str(str(i)[45:]).replace('\\','/')     # modify needed, replace the number to 39
         tmp_2 = '](./读书笔记/'+tmp_1[:-1]+')'
         tmp_1 = tmp_1[:-6]
         tmp_3 = tmp_1.split('/')

@@ -1,7 +1,6 @@
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\1.txt
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\README - 副本.md
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\README.md
-F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\whsgafhj.html
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\cs\Chrome快捷键.html
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\cs\Chrome快捷键.md
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\cs\CMD脚本.html
@@ -158,6 +157,7 @@ F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\前端相关\README.md
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\前端相关\使用 TypeScript 来写 Vue.html
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\CS\前端相关\使用 TypeScript 来写 Vue[转].md
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\ERROR_RECORD\README.md
+F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\ERROR_RECORD\whsgafhj.html
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\README.md
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\不如意事常八九.html
 F:\MyInterest\MyDir\Pages\mytest\mytest\读书笔记\IDEA整理\习惯.html
