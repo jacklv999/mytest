@@ -3,7 +3,8 @@
 
 
 
-- [ ] 0201[易方达张坤访谈](./读书笔记//读书笔记/IDEA整理/易方达张坤访谈.html)
+- [ ] 0202[whsgafhj](./读书笔记/记/CS/whsgafhj.html)
+- [ ] 0201[易方达张坤访谈](./读书笔记/IDEA整理/易方达张坤访谈.html) 
 - [ ] 0124[Retinanet论文笔记](./读书笔记/ML&DL/CVPaper/目标检测/Retinanet论文笔记.html)
 - [ ] 0122[FPN论文笔记](./读书笔记/ML&DL/CVPaper/目标检测/FPN论文笔记.html) 
 - [ ] 0110[StyleGAN论文笔记](./读书笔记/ML&DL/CVPaper/GAN/StyleGAN论文笔记.html)
