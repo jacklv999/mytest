@@ -2,6 +2,20 @@
 
 '-------------------------------------------------------'
 
+## 0204
+
+- 多余的
+  - redundant：冗余的, 多余的
+  - unnecessary: 不必要的
+  - Extra: 额外的
+  - spare: 多余的, 剩余的
+- 分为两派
+  - they are divided on this issue
+- 推迟
+  - postpone
+- 降低最低工资
+  - Lowering the minimum wage
+
 ## 01.24
 
 - 万分之一
