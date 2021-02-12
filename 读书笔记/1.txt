@@ -158,8 +158,17 @@ F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\CS\«∞∂Àœ‡πÿ\ π”√ TypeScript ¿¥–
 F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\CS\«∞∂Àœ‡πÿ\ π”√ TypeScript ¿¥–¥ Vue[◊™].md
 F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\1.html
 F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\2.html
-F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\default.css
+F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\package.json
 F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\README.md
+F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\webpack.config.js
+F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\webpack.dev.config.js
+F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\src\constants.js
+F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\src\gitment.js
+F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\src\icons.js
+F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\src\test.js
+F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\src\utils.js
+F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\src\theme\default.js
+F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\ERROR_RECORD\style\default.css
 F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\IDEA’˚¿Ì\README.md
 F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\IDEA’˚¿Ì\≤ª»Á“‚ ¬≥£∞Àæ≈.html
 F:\MyInterest\MyDir\Pages\mytest\mytest\∂¡ È± º«\IDEA’˚¿Ì\œ∞πﬂ.html
