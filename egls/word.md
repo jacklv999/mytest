@@ -2,6 +2,15 @@
 
 '-------------------------------------------------------'
 
+## 0214
+
+- 动量: momentum
+- 化石燃料: fossil fuel
+- 散热: heat-sink
+- 散热器: 
+  - Cooler
+  - cooling fan
+
 ## 0212
 
 - 才过了一半
@@ -45,15 +54,6 @@
     - **attempt**: make an attempt 
 - 用户交互: **User** **Interaction**
 
-## 07.08
-
-- help yourself    请随意
-
-## 06.10
-
-- sth is shown bellow
-- sth is as follows
-
 ## 01.03
 
 - #### get sb up to speed on sth
@@ -64,26 +64,10 @@
 
     - 对...看法一致
 
-## 12.25
-
-- #### culinary----------[ˈkʌlɪnəri]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=culinary&type=2"></audio>
-## 12.13
-
-#### i am here by sentence you to death
-
-#### high profile
-
-a position attracting much attention and publicity
-
 ## 12.10
 
 #### Let me propose a toast to Mr.S
 
-- #### toxic---------------[ˈtɑːksɪk]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=silver&type=2"></audio>
 - #### silver----------------[ˈsɪlvər]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=silver&type=2"></audio>
@@ -97,15 +81,6 @@ a position attracting much attention and publicity
 - #### Volume------------[ˈvɑːljuːm]
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=Volume&type=2"></audio>
-- #### gigaton-------------['gɪgə,tən]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=gigaton&type=2"></audio>
-## 11.22
-
-- #### say---[seɪ]   said----[sed]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=say&type=2"></audio>
-<audio controls src="http://dict.youdao.com/dictvoice?audio=said&type=2"></audio>
 ## 10.22
 
 - #### 准确地说
@@ -116,7 +91,6 @@ a position attracting much attention and publicity
 
 - ##### No less than anyone 不比任何人少
 
-- ##### Studying for a master's degree
 
 
 ## 09.26
