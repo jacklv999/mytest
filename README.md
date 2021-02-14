@@ -1,4 +1,4 @@
-# [英语单词](./egls/word.html) &emsp;  [读书笔记](./%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/) 
+# [英语单词](./egls/1/) &emsp;  [读书笔记](./%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/) 
 
 
 
