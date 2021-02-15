@@ -1,6 +1,18 @@
 ## 英语单词
 
-'-------------------------------------------------------'
+
+
+## 0215
+
+- 夸张点说
+  - dramatically speaking
+  - To exaggerate a bit
+  - just one more extravagance
+  - it's not an overstatement to say
+- 一点也不夸张
+  - quite literally
+  -  it is an understatement
+- quite:  (adv) 很；相当；完全
 
 ## 0214
 
