@@ -20,6 +20,4 @@
 
 ------
 
-# [ERROR RECORD](./读书笔记/ERROR_RECORD/1.html) 
-
 # [IMPORTANT](https://www.zhihu.com/collection/70812410) 
