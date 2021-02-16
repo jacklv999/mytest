@@ -54,7 +54,8 @@ var gitalk = new Gitalk({
   repo: 'mytest',
   owner: 'jacklv999',
   admin: ['jacklv999'],
-  id: location.pathname,      // 请确保你的 location 连接小于 50 个字符，否则，插件会生成失败
+  id: location.pathname,      
+  proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token',
   distractionFreeMode: false  // 专注模式
 })
 
