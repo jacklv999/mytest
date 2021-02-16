@@ -1,4 +1,49 @@
 评论区
+  <!-- Vssue 的样式文件 -->
+  <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
+  <div id="vssue"></div>
+  <!-- Vue 运行时版 (runtime only)  -->
+  <script src="https://unpkg.com/vue/dist/vue.runtime.min.js"></script>
+  <!-- Vssue Github 版  -->
+  <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
+
+  <script>
+    new Vue({
+      el: '#vssue',
+      render: h => h('Vssue', {
+        props: {
+          title: 'Vssue Dev',
+          options: {
+            owner: 'jacklv999',
+            repo: 'mytest',
+            clientId: '48e84b9a99600f312c9d',
+            clientSecret: '65ff86c98e357b75719a063ead7884a5e7ac4f19', /
+          },
+        }
+      })
+    })
+  </script>
+
+1111111111111111
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+1
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <div id="gitalk-container"></div>
