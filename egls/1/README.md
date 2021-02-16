@@ -2,6 +2,24 @@
 
 
 
+## 0216
+
+- 资本增值: capital appreciation
+- 运输
+  - Transportation
+  - carriage
+- 垄断: monopoly & monopolize
+- 降低: 
+  - reduce
+  - lower (v)
+- 减少: 
+  - cut down
+  - decrease
+- 大量的
+  - a good deal of 
+  - a mass of 
+  - plentiful
+
 ## 0215
 
 - 夸张点说
