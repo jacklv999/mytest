@@ -1,6 +1,11 @@
 ## 英语单词
 
+## 0217
 
+- 条件
+  - prerequisites
+  - condition
+  - requirement
 
 ## 0216
 
