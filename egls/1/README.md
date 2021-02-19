@@ -6,6 +6,16 @@
   - He withdrew $20
 - 借了20块钱
   - He borrowed $20
+- 简单说
+  - put simply
+  - in a nutshell
+  - in short
+- 排除
+  - exclude
+  - shut sb out
+- 反例
+  - counterexample
+  - negative example
 
 ## 0218
 
