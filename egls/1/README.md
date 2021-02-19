@@ -1,5 +1,12 @@
 ## 英语单词
 
+## 0219
+
+- 取了20块钱
+  - He withdrew $20
+- 借了20块钱
+  - He borrowed $20
+
 ## 0218
 
 - 再就业: Re-employment
