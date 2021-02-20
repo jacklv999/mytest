@@ -1,6 +1,62 @@
 ## 英语单词
 
-'-------------------------------------------------------'
+## 0219
+
+- 取了20块钱
+  - He withdrew $20
+- 借了20块钱
+  - He borrowed $20
+- 简单说
+  - put simply
+  - in a nutshell
+  - in short
+- 排除
+  - exclude
+  - shut sb out
+- 反例
+  - counterexample
+  - negative example
+
+## 0218
+
+- 再就业: Re-employment
+
+## 0217
+
+- 条件
+  - prerequisites
+  - condition
+  - requirement
+
+## 0216
+
+- 资本增值: capital appreciation
+- 运输
+  - Transportation
+  - carriage
+- 垄断: monopoly & monopolize
+- 降低: 
+  - reduce
+  - lower (v)
+- 减少: 
+  - cut down
+  - decrease
+- 大量的
+  - a good deal of 
+  - a mass of 
+  - plentiful
+
+## 0215
+
+- 夸张点说
+  - dramatically speaking
+  - To exaggerate a bit
+  - just one more extravagance
+  - it's not an overstatement to say
+- 一点也不夸张
+  - quite literally
+  -  it is an understatement
+- quite:  (adv) 很；相当；完全
 
 ## 0214
 

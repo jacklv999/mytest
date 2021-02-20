@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+var gitalk = new Gitalk({
+  clientID: '56455265c2b3a590589e',
+  clientSecret: 'a969c7072df4d44713bee59b74daa5b235973e1a',
+  repo: 'mytest',
+  owner: 'jacklv999',
+  admin: ['jacklv999'],
+  id: location.pathname,      
+  proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token',
+  distractionFreeMode: false  // 专注模式
+})
+
+gitalk.render('gitalk-container')
+
+
+</script>
