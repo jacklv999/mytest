@@ -1,5 +1,11 @@
 ## 英语单词
 
+##### \*\*\*\*\*\*\*\*\*\*对每个词或短语组句\*\*\*\*\*\*\*
+
+## 0221
+
+- 大宗商品市场: commodities markets
+
 ## 0219
 
 - 取了20块钱
@@ -128,19 +134,8 @@
 
 #### Let me propose a toast to Mr.S
 
-- #### silver----------------[ˈsɪlvər]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=silver&type=2"></audio>
-## 11.29
-
 - #### ominous------------[ˈɑːmɪnəs]
 
-
-## 11.26
-
-- #### Volume------------[ˈvɑːljuːm]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=Volume&type=2"></audio>
 ## 10.22
 
 - #### 准确地说
@@ -150,8 +145,6 @@
     - To be precise / more specific
 
 - ##### No less than anyone 不比任何人少
-
-
 
 ## 09.26
 
@@ -180,7 +173,3 @@
 
 <audio controls src="http://dict.youdao.com/dictvoice?audio=clandestine&type=2"></audio>
 clandestine work: 秘密工作
-
-- #### espionage--['ɛspɪənɑʒ]
-
-<audio controls src="http://dict.youdao.com/dictvoice?audio=espionage&type=2"></audio>
