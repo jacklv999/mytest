@@ -5,6 +5,7 @@
 ## 0222
 
 - 中期: medium-term
+- 大会/惯例/协定: convention
 
 ## 0221
 
