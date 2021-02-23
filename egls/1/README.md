@@ -2,6 +2,20 @@
 
 ##### \*\*\*\*\*\*\*\*\*\*对每个词或短语组句\*\*\*\*\*\*\*
 
+## 0223
+
+- 成熟市场: 
+    - mature market
+    - developed market
+    - perfect market
+- 新兴市场: emerging market
+- 不成熟市场: imperfect market
+- 价值低估: undervaluation
+- 超额汇报: excess return
+- 有效市场: efficient market
+- 多模态: multi-modal
+- 无谓损失: 
+
 ## 0222
 
 - 中期: medium-term
