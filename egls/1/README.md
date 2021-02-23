@@ -14,7 +14,7 @@
 - 超额汇报: excess return
 - 有效市场: efficient market
 - 多模态: multi-modal
-- 无谓损失: 
+- 无谓损失: deadweight loss
 
 ## 0222
 
