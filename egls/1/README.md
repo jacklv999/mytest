@@ -2,6 +2,21 @@
 
 ##### \*\*\*\*\*\*\*\*\*\*对每个词或短语组句\*\*\*\*\*\*\*
 
+## 0224
+
+- **popularize** : 普及, 通俗化, 使...受欢迎
+- **popularization**: 大众化, 通俗化
+- 相互影响:
+    - interplay
+    - interact
+- 匿名的: anonymous 
+    - an: without
+    - onyma: no-men-, ergo name
+- 有很大可能:
+    - chances are high that
+    - there is a great possibility that
+    - it is very likely that
+
 ## 0223
 
 - 成熟市场: 
@@ -15,7 +30,9 @@
 - 有效市场: efficient market
 - 多模态: multi-modal
 - 无谓损失: deadweight loss
+- 蚊子: **mosquito**
 
+<audio controls src="http://dict.youdao.com/dictvoice?audio=mosquito&type=2"></audio>
 ## 0222
 
 - 中期: medium-term
