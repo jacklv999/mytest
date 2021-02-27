@@ -2,10 +2,22 @@
 
 ##### \*\*\*\*\*\*\*\*\*\*对每个词或短语组句\*\*\*\*\*\*\*
 
+## 0227
+
+- 缺点
+    - defect
+    - disadvantage
+    - weakness
+    - shortcoming
+
 ## 0226
 
 - Then/Therefore等词用在句号后
 - liberate/free:解放
+- 各种各样的: all kinds of (~~any~~ )
+- 等等
+    - and so on
+    - and the like
 ## 0225
 
 - 原材料: raw materials
