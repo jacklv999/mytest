@@ -537,6 +537,8 @@ D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÕşÖÎÑ§ÓëÁìµ¼\ÕşÖÎÑ§Í¨Ê¶\¡¶ÕşÖÎÑ§Í¨Ê¶¡
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÕşÖÎÑ§ÓëÁìµ¼\ÕşÖÎÑ§Í¨Ê¶\¡¶ÕşÖÎÑ§Í¨Ê¶¡·¶ÁÊé±Ê¼ÇÕûÀí.html
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\Bayesian Í³¼Æ¼òÊö.html
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\Bayesian Í³¼Æ¼òÊö.md
+D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\MCMC³éÑù·½·¨.html
+D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\MCMC³éÑù·½·¨.md
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\README.md
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\Ê¹ÓÃËæ»úÖØ¸´ÅÀÉ½Ëã·¨ºÍÄ£ÄâÍË»ğËã·¨µÄ¹ı³ÌÓÅ»¯.html
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\Ê¹ÓÃËæ»úÖØ¸´ÅÀÉ½Ëã·¨ºÍÄ£ÄâÍË»ğËã·¨µÄ¹ı³ÌÓÅ»¯.md
@@ -544,6 +546,10 @@ D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\»ùÓÚÓĞÏŞÑù±¾µÄ¼ÙÉè¼ìÑé·½·¨·Ö
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\»ùÓÚÏàËÆÔËËã¡¢¾ÛÀàÔËËãºÍSVMµÄÊı¾İÌØÕ÷·ÖÀàËã·¨.html
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\»ùÓÚ±´Ò¶Ë¹·½·¨µÄÍ³¼Æ»Ø¹éĞÔ»úÆ÷Ñ§Ï°Óë·ÖÎö.html
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\ÉúÈÕã£ÂÛÓë¹şÏ£Ëã·¨·¶Î§¸ÅÂÊÅö×²ÏÂÏŞµÄÌÖÂÛÓëÀûÓÃ.html
+D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\Í¨Ë×µÄMCMC½â¶ÁÉÏ.html
+D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\Í¨Ë×µÄMCMC½â¶ÁÉÏ.md
+D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\Í¨Ë×µÄMCMC½â¶ÁÏÂ.html
+D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\Í¨Ë×µÄMCMC½â¶ÁÏÂ.md
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\Ö÷¶¯Í¶×Ê\APTÄ£ĞÍ.html
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\ÊıÀí·ÖÎö\Ö÷¶¯Í¶×Ê\´ÓCAPMÄ£ĞÍµ½¶àÒò×ÓÄ£ĞÍ£º¦ÂµÄ¸æ±ğ.html
 D:\PythonCode\Pages\mytest\mytest\¶ÁÊé±Ê¼Ç\·¨ÂÉ\¡¶·¨ÀíÑ§¡·¡ª¡ªµ¤ÄáË¹¡¤ÀÍ°£µÂ.html

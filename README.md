@@ -3,6 +3,9 @@
 
 
 
+- [ ] 0302[通俗的MCMC解读下](./读书笔记/数理分析/通俗的MCMC解读下.html)
+- [ ] 0302[通俗的MCMC解读上](./读书笔记/数理分析/通俗的MCMC解读上.html)
+- [ ] 0302[MCMC抽样方法](./读书笔记/数理分析/MCMC抽样方法.html)
 - [ ] 0201[易方达张坤访谈](./读书笔记/IDEA整理/易方达张坤访谈.html) 
 - [ ] 0124[Retinanet论文笔记](./读书笔记/ML&DL/CVPaper/目标检测/Retinanet论文笔记.html)
 - [ ] 0122[FPN论文笔记](./读书笔记/ML&DL/CVPaper/目标检测/FPN论文笔记.html) 
