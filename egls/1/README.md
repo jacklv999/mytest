@@ -30,6 +30,7 @@
 - 等等
     - and so on
     - and the like
+
 ## 0225
 
 - 原材料: raw materials
@@ -37,6 +38,7 @@
 - 存在于:
     - lie in
     - exist in
+
 ## 0224
 
 - **popularize** : 普及, 通俗化, 使...受欢迎
@@ -51,6 +53,7 @@
     - chances are high that
     - there is a great possibility that
     - it is very likely that
+
 ## 0223
 
 - 成熟市场: 
@@ -71,9 +74,11 @@
 
 - 中期: medium-term
 - 大会/惯例/协定: convention
+
 ## 0221
 
 - 大宗商品市场: commodities markets
+
 ## 0219
 
 - 取了20块钱
@@ -90,15 +95,18 @@
 - 反例
   - counterexample
   - negative example
+
 ## 0218
 
 - 再就业: Re-employment
+
 ## 0217
 
 - 条件
   - prerequisites
   - condition
   - requirement
+
 ## 0216
 
 - 资本增值: capital appreciation
@@ -116,6 +124,7 @@
   - a good deal of 
   - a mass of 
   - plentiful
+
 ## 0215
 
 - 夸张点说
@@ -127,6 +136,7 @@
   - quite literally
   -  it is an understatement
 - quite:  (adv) 很；相当；完全
+
 ## 0214
 
 - 动量: momentum
@@ -139,15 +149,18 @@
   - I am supposed to do sth
 - 我不应该做sth
   - I am not supposed to do sth
+
 ## 0212
 
 - 才过了一半
   - It's only half over
   - It's only a third of the way over
+
 ## 0206
 
 - 假阳性
   - false positive
+
 ## 0204
 
 - 多余的
@@ -161,12 +174,14 @@
   - postpone
 - 降低最低工资
   - Lowering the minimum wage
+
 ## 01.24
 
 - 万分之一
     - one ten-thousandth
     - one in ten thousand
     - one out of ten thousand
+
 ## 01.22
 
 - 领域: 
@@ -177,6 +192,7 @@
     - **trial**: in clinical trials
     - **attempt**: make an attempt 
 - 用户交互: **User** **Interaction**
+
 ## 01.03
 
 - #### get sb up to speed on sth
@@ -186,11 +202,13 @@
 - #### see eye to eye on
 
     - 对...看法一致
+
 ## 12.10
 
 #### Let me propose a toast to Mr.S
 
 - #### ominous------------[ˈɑːmɪnəs]
+
 ## 10.22
 
 - #### 准确地说
@@ -200,6 +218,7 @@
     - To be precise / more specific
 
 - ##### No less than anyone 不比任何人少
+
 ## 09.26
 
 - ##### there are ups and downs in life
