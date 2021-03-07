@@ -2,6 +2,14 @@
 
 ##### \*\*\*\*\*\*\*\*\*\*对每个词或短语组句\*\*\*\*\*\*\*
 
+## 0307
+
+- 购买力: purchasing power
+- 铸币税: seigniorage revenues
+    - from Old French *seignorage*, 
+    - which from *seignor*
+        - "lord of a manor," from Latin *seniorem* ( *senior*) "older" 
+
 ## 0304
 
 - 承认
