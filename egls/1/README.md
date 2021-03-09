@@ -2,6 +2,10 @@
 
 ##### \*\*\*\*\*\*\*\*\*\*对每个词或短语组句\*\*\*\*\*\*\*
 
+## 0309
+
+- have a stronger negotiation position
+
 ## 0308
 
 - either way, it means sth
