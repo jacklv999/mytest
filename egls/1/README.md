@@ -2,6 +2,13 @@
 
 ##### \*\*\*\*\*\*\*\*\*\*对每个词或短语组句\*\*\*\*\*\*\*
 
+## 0310
+
+- 价值观: value
+- 消耗: consumption
+- it’s like the midnight almost.
+- more than a million acres were lost in this past week alone
+
 ## 0309
 
 - have a stronger negotiation position
