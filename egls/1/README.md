@@ -2,6 +2,21 @@
 
 ##### \*\*\*\*\*\*\*\*\*\*对每个词或短语组句\*\*\*\*\*\*\*
 
+
+
+## 0315
+
+- 传染病
+    - contagion
+    - infectious disease
+- 传染病防治
+    - epidemic prevention
+    - infectious disease control
+- 传染源
+    - infectious source
+    - contagium
+- 易感人群：susceptible population
+
 ## 0311
 
 - 财富不均: wealth disparity
