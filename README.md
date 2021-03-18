@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0318[中国石油消费结构](./读书笔记/读书笔记-整理/中国石油消费结构.html)
 - [ ] 0318[About nonlinear panel model](./读书笔记/计量经济学/About nonlinear panel model.html)
 - [ ] 0302[通俗的MCMC解读下](./读书笔记/数理分析/通俗的MCMC解读下.html)
 - [ ] 0302[通俗的MCMC解读上](./读书笔记/数理分析/通俗的MCMC解读上.html)
