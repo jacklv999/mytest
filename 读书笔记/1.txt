@@ -620,6 +620,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\社会学\社会学-吉登斯社会学\四--社会学
 D:\PythonCode\Pages\mytest\mytest\读书笔记\社会学\社会学的邀请\README.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\社会学\社会学的邀请\社会学的希望.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\社会学\社会学的邀请\社会学的邀请.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\About nonlinear panel model.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\About nonlinear panel model.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\Heckman_models_and_IV.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\Heckman_models_and_IV.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\logit模型.html
