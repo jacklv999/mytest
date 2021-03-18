@@ -4,6 +4,15 @@
 
 
 
+## 0318
+
+- 动乱
+    - turmoil: 
+        - **financial turmoil** 金融风暴；金融危机；
+    - upheaval
+- 制造动乱: create turmoil
+- 大量自然资源: abundant natural resources
+
 ## 0316
 
 - 调(diao)配: 
