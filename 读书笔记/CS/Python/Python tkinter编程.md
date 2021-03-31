@@ -7,8 +7,10 @@
 变量输入通过txtvariable绑定, 然后可以在全局使用 `Entry.get()` 获取并使用
 
 ```python
-E1 = tk.Entry(top,
-              textvariable=KyWds)
+E1 = tk.Entry(
+    top,
+    textvariable=KyWds
+)
 Button1 = tk.Button(
     top,
     text='''Enter''', 
@@ -35,8 +37,10 @@ def dg_fls(files):
     
 list = []
 tk = tkinter.Tk()
-windnd.hook_dropfiles(tk,
-                     func=dg_fls)
+windnd.hook_dropfiles(
+    tk,
+    func=dg_fls
+)
 tk.mainloop()
 ```
 
@@ -54,24 +58,29 @@ def dragged_files(files):
 ## 新建窗口获取和储存文件名
 def create():
     tp = Toplevel()
-    e1 = tk.Label(tp,
-         text='''Drag TXT''')
+    e1 = tk.Label(
+        tp,
+        text='''Drag TXT'''
+    )
     e1.place(relx=0.017,
              rely=0.284,
              height=313,
              width=567)
     windnd.hook_dropfiles(
-        tp,func=dragged_files)
+        tp,
+        func=dragged_files
+    )
 
 ## 创建其他窗口部件
 class Toplevel1:
-    def __init__(self, top=None):
-        self.Button1 = tk.Button(
+    def __init__(self, 
+                 top=None):
+        self.Btn = tk.Button(
             top, 
             text='''select''',
             command=create
         )
-        self.Button1.place(
+        self.Btn.place(
             relx=0.017,
             rely=0.284,
             height=58, 
@@ -83,12 +92,13 @@ class Toplevel1:
 
 ```python
 class Toplevel1:
-    def __init__(self, top=None):
-        self.Button1 = tk.Button(
+    def __init__(self, 
+                 top=None):
+        self.Btn = tk.Button(
             top, 
             text='''select'''
         )
-        self.Button1.place(
+        self.Btn.place(
             relx=0.017,
             rely=0.284,
             height=58, 
@@ -97,7 +107,7 @@ class Toplevel1:
         
         self.Label2 = tk.Label(
             top,
-            text='''Drag File'''
+            text='''DrgFl'''
         )
         self.Label2.place(
             relx=0.017,
@@ -107,7 +117,8 @@ class Toplevel1:
         )
         windnd.hook_dropfiles(
             self.Label2,
-            func=dg_fls)
+            func=dg_fls
+        )
 ```
 
 ##### 3. 创建新窗口
@@ -159,7 +170,8 @@ def get_flnm():
     list.append(filename)
 
 class Toplevel1:
-    def __init__(self, top=None):
+    def __init__(self,
+                 top=None):
         self.Btn = tk.Button(
             top,
             command = get_flnm
@@ -216,14 +228,14 @@ def dragged_files(files):
     txt.set(" ".join(list))
     
 class Toplevel1:
-    def __init__(self, top=None):
-        top.title("Get Sentence")
-        self.Label1 = tk.Label(
+    def __init__(self,
+                 top=None):
+        self.Lab = tk.Label(
             top,
             textvariable=txt
         )
         windnd.hook_dropfiles(
-            self.Label1,func=d_f
+            self.Lab,func=d_f
         )
 ```
 
