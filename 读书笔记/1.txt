@@ -72,6 +72,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Scrapy-Selector.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Scrapy-Selector.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\利用拖拽工具生成PythonGUI.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\利用拖拽工具生成PythonGUI.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\无头浏览器爬虫.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\无头浏览器爬虫.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\DPG Tutorials_files\code_style.css
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\DPG Tutorials_files\rainbow-custom.min.js.下载
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\Python\Python-数据可视化Mvan\Animation-动画.html

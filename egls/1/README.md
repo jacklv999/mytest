@@ -2,6 +2,13 @@
 
 ##### \*\*\*\*\*\*\*\*\*\*对每个词或短语组句\*\*\*\*\*\*\*
 
+## 0331
+
+- 不可或缺的
+    - indispensable
+    - absolutely essential
+    - fundamental
+
 ## 0330
 
 - thereafter: 其后, 从那之后
