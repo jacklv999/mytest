@@ -8,6 +8,7 @@
 - [Python监听模拟鼠标键盘](./Python监听模拟鼠标键盘.html) 
 - [Python的FFI编程](./Python的FFI编程.html) 
 - [Python虚拟环境及打包](./Python虚拟环境及打包.html) 
+- [Python EXE解包及pyc反编译](./反编译Pyinstaller打包文件.html) 
 
 ## GUI Programming
 
