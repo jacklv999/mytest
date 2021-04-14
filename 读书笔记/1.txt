@@ -143,6 +143,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\R语言学习笔记\Using R to simulate 
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\R语言学习笔记\Using R to simulate the minimum of human.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\前端相关\ADblocker规则简单整理.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\前端相关\ADblocker规则简单整理.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\前端相关\Canvas绘画笔记.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\前端相关\Canvas绘画笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\前端相关\CSS 3笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\前端相关\CSS 3笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\CS\前端相关\CSS 布局.html

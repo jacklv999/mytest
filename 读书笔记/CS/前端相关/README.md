@@ -8,6 +8,7 @@
 
 - [JavaScript基础](./JavaScript基础.html) 
 - [jQuery教程](https://www.runoob.com/jquery/jquery-tutorial.html) 
+- [Canvas绘画笔记](./Canvas绘画笔记.html) 
 
 ## HTML笔记
 
