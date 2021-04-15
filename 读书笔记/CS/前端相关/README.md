@@ -8,6 +8,7 @@
 
 - [JavaScript基础](./JavaScript基础.html) 
 - [jQuery教程](https://www.runoob.com/jquery/jquery-tutorial.html) 
+- [JS知网实践](./JS知网实践.html) 
 
 ## HTML笔记
 
