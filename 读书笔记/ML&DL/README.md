@@ -23,4 +23,5 @@
 - [变分推断简述](./变分推断简述.html) 
 - [变分自编码器VAE](./VAE.html) 
 - [About GNN 基础](./About graph neural network.html) 
+- [MLP-Mixer笔记](./MLP-Mixer笔记.html) 
 

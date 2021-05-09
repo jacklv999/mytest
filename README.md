@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0509[MLP-Mixer笔记](./读书笔记/ML&DL/MLP-Mixer笔记.html)
 - [ ] 0416[JS知网实践](./读书笔记/CS/前端相关/JS知网实践.html)
 - [ ] 0414[Canvas绘画笔记](./读书笔记/CS/前端相关/Canvas绘画笔记.html)
 - [ ] 0411[反编译Pyinstaller打包文件](./读书笔记/CS/Python/反编译Pyinstaller打包文件.html)

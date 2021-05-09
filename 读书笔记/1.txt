@@ -212,6 +212,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\IDEA整理\阅读的核心.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\56421.jpg
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\About graph neural network.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\About graph neural network.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\MLP-Mixer笔记.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\MLP-Mixer笔记.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\README.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\VAE.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\VAE.md
