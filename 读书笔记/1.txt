@@ -641,6 +641,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\About nonlinear panel mode
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\About nonlinear panel model.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\Heckman_models_and_IV.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\Heckman_models_and_IV.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\IV 估计框架下模型设定检验问题的讨论.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\IV 估计框架下模型设定检验问题的讨论.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\logit模型.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\logit模型.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\README.md
@@ -650,6 +652,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\What is GMM.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\What is GMM.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\因子分析在量表设计中的应用(转).md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\因子分析在量表设计中的应用.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\稳健标准误.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\稳健标准误.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\计量经济学笔记-精简版.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\计量经济学笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\计量经济学笔记.md

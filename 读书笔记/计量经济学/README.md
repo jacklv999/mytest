@@ -6,6 +6,8 @@
 - [The ESR Model](./The ESR model.html) 
 - [因子分析在量表设计中的应用](./因子分析在量表设计中的应用.html) 
 - [What is GMM](./What is GMM.html) 
+- [IV 估计框架下模型设定检验问题的讨论](./IV 估计框架下模型设定检验问题的讨论.html) 
+- [稳健标准误](./稳健标准误.html) 
 
 
 
