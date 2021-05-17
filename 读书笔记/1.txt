@@ -657,6 +657,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\稳健标准误.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\计量经济学笔记-精简版.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\计量经济学笔记.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\计量经济学笔记.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\面板数据分析.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\面板数据分析.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\空间计量\大数据下的替代模型.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\空间计量\大数据下的替代模型.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\计量经济学\空间计量\空间回归代码.html
