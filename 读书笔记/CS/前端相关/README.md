@@ -9,6 +9,7 @@
 - [JavaScript基础](./JavaScript基础.html) 
 - [jQuery教程](https://www.runoob.com/jquery/jquery-tutorial.html) 
 - [JS知网实践](./JS知网实践.html) 
+- [禁止Chrome的弹窗自动登录](./禁止Chrome登录.html) 
 
 ## HTML笔记
 
