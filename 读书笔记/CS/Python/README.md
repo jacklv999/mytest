@@ -9,6 +9,7 @@
 - [Python的FFI编程](./Python的FFI编程.html) 
 - [Python虚拟环境及打包](./Python虚拟环境及打包.html) 
 - [Python EXE解包及pyc反编译](./反编译Pyinstaller打包文件.html) 
+- [Python EXE拖拽运行](./Python EXE拖拽运行.html) 
 
 ## GUI Programming
 
