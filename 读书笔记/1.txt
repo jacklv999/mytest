@@ -32,6 +32,8 @@
 .\读书笔记\CS\cs\简书MarkDown语法.md
 .\读书笔记\CS\cs\编译器原理简记.html
 .\读书笔记\CS\cs\编译器原理简记.md
+.\读书笔记\CS\cs\Office相关\PowerApp笔记.html
+.\读书笔记\CS\cs\Office相关\PowerApp笔记.md
 .\读书笔记\CS\cs\Office相关\PPT技巧.html
 .\读书笔记\CS\cs\Office相关\PPT技巧.md
 .\读书笔记\CS\cs\Office相关\Word-Tips.html
@@ -45,6 +47,7 @@
 .\读书笔记\CS\Python\DPG使用细节笔记.md
 .\读书笔记\CS\Python\Numba库使用简介.html
 .\读书笔记\CS\Python\Numba库使用简介.md
+.\读书笔记\CS\Python\Python EXE拖拽运行.html
 .\读书笔记\CS\Python\Python EXE拖拽运行.md
 .\读书笔记\CS\Python\Python tkinter编程.html
 .\读书笔记\CS\Python\Python tkinter编程.md
@@ -142,6 +145,8 @@
 .\读书笔记\CS\R语言学习笔记\the document of tcltk in R.md
 .\读书笔记\CS\R语言学习笔记\Using R to simulate the minimum of human.html
 .\读书笔记\CS\R语言学习笔记\Using R to simulate the minimum of human.md
+.\读书笔记\CS\R语言学习笔记\高清R绘图.html
+.\读书笔记\CS\R语言学习笔记\高清R绘图.md
 .\读书笔记\CS\前端相关\ADblocker规则简单整理.html
 .\读书笔记\CS\前端相关\ADblocker规则简单整理.md
 .\读书笔记\CS\前端相关\Canvas绘画笔记.html
