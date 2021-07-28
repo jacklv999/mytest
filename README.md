@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0728[Open API Note](./读书笔记/CS/cs/Open API Note.html)
 - [ ] 0727[高清R绘图](./读书笔记/CS/R语言学习笔记/高清R绘图.html)
 - [ ] 0727[PowerApp笔记](./读书笔记/CS/cs/Office相关/PowerApp笔记.html)
 - [ ] 0727[Python EXE拖拽运行](./读书笔记/CS/Python/Python EXE拖拽运行.html)

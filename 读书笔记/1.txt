@@ -15,6 +15,8 @@
 .\读书笔记\CS\cs\Markdown插入图片.md
 .\读书笔记\CS\cs\markdown数学公式.html
 .\读书笔记\CS\cs\markdown数学公式.md
+.\读书笔记\CS\cs\Open API Note.html
+.\读书笔记\CS\cs\Open API Note.md
 .\读书笔记\CS\cs\README.md
 .\读书笔记\CS\cs\Rust简明教程.html
 .\读书笔记\CS\cs\Rust简明教程.md
