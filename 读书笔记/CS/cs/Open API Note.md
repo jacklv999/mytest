@@ -74,3 +74,31 @@ paths:
   - `type` : 表示参数的类型, 包括 `string`, `int` 等
   - `format`: 表示参数的格式, 包括 `string`, `int64` 等
   - `response`: 表示回应
+
+##### Another Simple Example
+
+```yaml
+swagger: '2.0'
+info: {version: 1.0.0, title: FAW API}
+host: 192.168.1.2:9000
+basePath: /
+paths:
+  /{URL}:
+    get:
+      summary: test
+      description: test
+      operationId: test
+      produces: [application/xml, application/json]
+      parameters:
+      - {name: URL, in: path, description: base 64 encoded URL, required: true, type: string,
+        format: string}
+      responses:
+        '200':
+          description: successful operation
+          schema: {type: string}
+        '400': {description: Invalid URL}
+        '404': {description: not found}
+securityDefinitions: {}
+schemes: [http]
+```
+
