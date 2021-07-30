@@ -19,6 +19,10 @@
 - [利用拖拽工具生成PythonGUI](./利用拖拽工具生成PythonGUI.html) 
 - [Python tkinter编程](./Python tkinter编程.html) 
 
+## Flask后端
+
+- [Flask简单示例](./Flask简单示例.html) 
+
 
 
 ## Python数据分析
