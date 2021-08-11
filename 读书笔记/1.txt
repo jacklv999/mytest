@@ -175,6 +175,12 @@
 .\读书笔记\CS\前端相关\Javascript Coding.md
 .\读书笔记\CS\前端相关\JavaScript基础.html
 .\读书笔记\CS\前端相关\JavaScript基础.md
+.\读书笔记\CS\前端相关\JS AJAX Note.html
+.\读书笔记\CS\前端相关\JS AJAX Note.md
+.\读书笔记\CS\前端相关\JS Slider插件.html
+.\读书笔记\CS\前端相关\JS Slider插件.md
+.\读书笔记\CS\前端相关\JS下拉选择框.html
+.\读书笔记\CS\前端相关\JS下拉选择框.md
 .\读书笔记\CS\前端相关\JS知网实践.html
 .\读书笔记\CS\前端相关\JS知网实践.md
 .\读书笔记\CS\前端相关\README.md

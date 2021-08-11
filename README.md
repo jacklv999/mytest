@@ -3,6 +3,9 @@
 
 
 
+- [ ] 0811[JS AJAX Note](./读书笔记/CS/前端相关/JS AJAX Note.html)
+- [ ] 0811[JS Slider插件](./读书笔记/CS/前端相关/JS Slider插件.html)
+- [ ] 0811[JS下拉选择框](./读书笔记/CS/前端相关/JS下拉选择框.html)
 - [ ] 0730[Flask简单示例](./读书笔记/CS/Python/Flask简单示例.html)
 - [ ] 0728[Open API Note](./读书笔记/CS/cs/Open API Note.html)
 - [ ] 0727[高清R绘图](./读书笔记/CS/R语言学习笔记/高清R绘图.html)
