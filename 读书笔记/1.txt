@@ -47,6 +47,8 @@
 .\读书笔记\CS\Python\DPG Tutorials.html
 .\读书笔记\CS\Python\DPG使用细节笔记.html
 .\读书笔记\CS\Python\DPG使用细节笔记.md
+.\读书笔记\CS\Python\Flask 异步任务.html
+.\读书笔记\CS\Python\Flask 异步任务.md
 .\读书笔记\CS\Python\Flask简单示例.html
 .\读书笔记\CS\Python\Flask简单示例.md
 .\读书笔记\CS\Python\Numba库使用简介.html

@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0811[Flask 异步任务](./读书笔记/CS/Python/Flask 异步任务.html)
 - [ ] 0811[JS AJAX Note](./读书笔记/CS/前端相关/JS AJAX Note.html)
 - [ ] 0811[JS Slider插件](./读书笔记/CS/前端相关/JS Slider插件.html)
 - [ ] 0811[JS下拉选择框](./读书笔记/CS/前端相关/JS下拉选择框.html)

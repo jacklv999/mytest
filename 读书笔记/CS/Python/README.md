@@ -22,6 +22,7 @@
 ## Flask后端
 
 - [Flask简单示例](./Flask简单示例.html) 
+- [Flask 异步任务](./Flask 异步任务.html) 
 
 
 
