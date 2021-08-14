@@ -3,6 +3,9 @@
 
 
 
+- [ ] 0814[Python 执行字符串](./读书笔记/CS/Python/Python 执行字符串.html)
+- [ ] 0814[Download File in HTML](./读书笔记/CS/前端相关/Download File in HTML.html)
+- [ ] 0814[HTML Form表单](./读书笔记/CS/前端相关/HTML Form表单.html)
 - [ ] 0811[Flask 异步任务](./读书笔记/CS/Python/Flask 异步任务.html)
 - [ ] 0811[JS AJAX Note](./读书笔记/CS/前端相关/JS AJAX Note.html)
 - [ ] 0811[JS Slider插件](./读书笔记/CS/前端相关/JS Slider插件.html)

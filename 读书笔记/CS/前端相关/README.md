@@ -21,6 +21,8 @@
 - [HTML DOM 元素处理](./HTML DOM 元素处理.html) 
 - [HTML 视频](./Html5记录.html) 
 - [html与CSS笔记](./HTML与CSS笔记.html)   
+- [Download File in HTML](./Download File in HTML.html) 
+- [HTML Form表单](./HTML Form表单.html) 
 
 ## CSS 笔记
 
