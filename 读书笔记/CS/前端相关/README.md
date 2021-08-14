@@ -13,6 +13,7 @@
 - [JS下拉选择框](./JS下拉选择框.html) 
 - [JS Slider插件](./JS Slider插件.html) 
 - [JS AJAX Note](./JS AJAX Note.html) 
+- [Javascript Base64](./Javascript Base64.html) 
 
 ## HTML笔记
 
