@@ -69,14 +69,24 @@ if __name__ == '__main__':
 </form>
 ```
 
-#### 3. 关于 Input 标签的类型
+#### 3. 用 Form 发送文件
+
+发送文件需要增加属性 `enctype="multipart/form-data"` 
+
+```html
+<form method="post" action="" enctype="multipart/form-data">
+　　<td><input type="file" name="bigfile"></td>
+</form>
+```
+
+#### 4. 关于 Input 标签的类型
 
 HTML input 标签的类型非常多, 常见的包括以下几种:
 
 - 输入类: radio, checkbox, text, number, date, color, time
 - 功能类: reset, summit
 
-#### 4. 关于页面跳转
+#### 5. 关于页面跳转
 
 使用 form 提交请求后, 页面会自动跳转, 若无需跳转, 我们可以选择
 
@@ -108,7 +118,7 @@ HTML input 标签的类型非常多, 常见的包括以下几种:
 </div>
 ```
 
-#### 5. 关于配合 jQuery 使用
+#### 6. 关于配合 jQuery 使用
 
 有时, 更复杂的请求需要使用 jQuery 完成, 所以 form 表单也需要配合 jQuery, 对常见的请求如下所示
 
