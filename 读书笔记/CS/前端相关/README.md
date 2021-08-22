@@ -14,6 +14,8 @@
 - [JS Slider插件](./JS Slider插件.html) 
 - [JS AJAX Note](./JS AJAX Note.html) 
 - [Javascript Base64](./Javascript Base64.html) 
+- [jQuery 点击放大](./jQuery 点击放大.html) 
+- [树状下拉选择](./树状下拉选择.html) 
 
 ## HTML笔记
 
