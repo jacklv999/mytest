@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta charset="utf-8">
+	<title>Flask Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui-slider-pips.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ddslick.min.js" ></script>
+    <script src="https://apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui-slider-pips.js"></script> 
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>    
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body style="background: #f9f7f6;">
+    <!--title Part--> 
+    <div class="container-fluid">
+        <div style="margin:5% 0% 0% 10%;" class="col-sm-9"><h1>INSTINC</h1></div>
+    </div>
+
+    <!--Parameter input Part  class="col-md-offset-2"--> 
+    <div  class="main" style="margin-top: 10%;"> 
+
+        <!--QAQC Part--> 
+        <div id="QAQC"  class="col-sm-12">
+        <div class="col-sm-12">
+        <h3 style="text-align: left;">QAQC Part</h3>
+            <div class="col-sm-4">
+            <h4 style="text-align: left;">Location Col&ensp;&nbsp;&emsp;</h4>
+            <div id="Loc_Col"></div>
+        </div>
+        
+         
+        <div class="col-sm-4" >
+            <h4 style="text-align: left;">Rep Col&emsp;&emsp;&emsp;&emsp;</h4>
+            <div class="col-sm-4" id="Rep_Col"></div>
+        </div> 
+        <div class="col-sm-4">
+            <h4 style="text-align: left;">Treatment Col&emsp;</h4>
+            <div class="col-sm-3" id="Trt_Col"></div>
+        </div> 
+        <div class="col-sm-4">
+            <h4 style="text-align: left;">Rating Col&emsp;&emsp;&ensp;&nbsp;</h4>
+            <div id="Rt_Col"></div>
+        </div> 
+        <div class="col-sm-4">
+            <h4 style="text-align: left;">Obs. Names Col</h4>
+            <div id="Obs_Nm_Col"></div>
+        </div> 
+        <div class="col-sm-4">
+            <h4 style="text-align: left;">Obs. Name&emsp;&emsp;&ensp;</h4>
+            <div id="Obs_Nm"></div>
+        </div> 
+        <span>&emsp;</span> 
+        <span class="col-sm-12">&emsp;</span>
+        <div>
+            <h4 style="text-align: left;" id="Threshold-label" class="col-sm-8" >Threshold Std.Dev. </h4>
+        </div>
+        <div class="col-sm-12">
+            <div style="margin-left: 10px;" id="slider_1"></div>            
+        </div>
+        </div>
+        </div>
+
+        <!--Data Choose Part  -->          
+        <div id="Data_Choose" class="container-fluid">
+        <span>&emsp;</span> 
+        <div class="col-sm-12">
+        <h3 style="text-align: left;" >Data Choose Part</h3>
+        <span>&emsp;</span> 
+        <h4 style="text-align: left;" class="col-sm-12" >Choose the Column of Days After Application</h4>
+        
+        <div class="col-sm-12">
+            <div id="Days_After_App"></div>
+        </div> 
+    </div>
+        <span>&emsp;</span> 
+        <span class="col-sm-12">&emsp;</span>
+        <div class="col-sm-12">
+            <div  class="col-sm-6">
+                <h4 style="text-align: left;margin: 30px 0px 20px 0px;" id="Low_Time1" >Lowest Time1 Threshold</h4>
+                <div style="margin-left: 10px;" id="slider_2"></div> 
+            </div>
+            <div  class="col-sm-6">
+                <h4 style="text-align: left;margin: 30px 0px 20px 0px;" id="High_Time1" >Highest Time1 Threshold</h4>
+                <div style="margin-left: 10px;" id="slider_3"></div> 
+            </div>
+        </div>
+
+        <div class="col-sm-12"> 
+            <div  class="col-sm-6">
+                <h4 style="text-align: left;margin: 30px 0px 20px 0px;" id="High_Time2" >Highest Time2 Threshold</h4>
+                <div style="margin-left: 10px;" id="slider_4"></div> 
+                
+            </div>
+            <div  class="col-sm-6">
+                <h4 style="text-align: left;margin: 30px 0px 20px 0px;" id="High_Time3" >Highest Time3 Threshold</h4>
+                <div style="margin-left: 10px;" id="slider_5"></div> 
+            </div>
+
+        </div>
+        
+
+        </div>
+
+
+        <!--Send Parameter Part-->
+        <div class="col-sm-12"  >
+        <div id="send_parameter" style="margin: 80px 0 20px 20px;">
+            <button type="button" 
+            style="height: 60px; left: 50%;transform: translate(-50%,0%);"
+            class="btn btn-primary col-sm-8" id="Btn_1" 
+            data-complete-text="Finished">Run Model</button>
+        </div>
+        </div>
+    </div>
+
+<!--slider value always hide-->
+<div style="display: none;">
+<div id="slider_1_value"></div>
+<div id="slider_2_value"></div>
+<div id="slider_3_value"></div>
+<div id="slider_4_value"></div>
+<div id="slider_5_value"></div>
+</div>
+</body>
+    <!--for select bar-->
+    <script>
+        function dataJson(data) {
+            var INSTINC_var_lst = data
+        }
+    </script>
+    <script type="text/javascript" src="./tmp_data/data_file.json?cb=dataJson"></script>
+    <script>
+     function load_col_name(){
+        $('#Loc_Col').ddslick({
+        data: INSTINC_var_lst, width:180,
+        selectText: "Select Location Col",
+    });
+    
+        $('#Rep_Col').ddslick({
+        data: INSTINC_var_lst,width:180,
+        selectText: "Select Rep Col",
+    });
+    
+        $('#Trt_Col').ddslick({
+        data: INSTINC_var_lst,width:180,
+        selectText: "Select Treatment Col",
+    });
+    
+        $('#Rt_Col').ddslick({
+        data: INSTINC_var_lst,width:180,
+        selectText: "Select Rating Col",
+    });
+    
+        $('#Obs_Nm_Col').ddslick({
+        data: INSTINC_var_lst,width:180,
+        selectText: "Select Obs. Names Col",
+    });
+    
+        $('#Obs_Nm').ddslick({
+        data: INSTINC_var_lst,width:180,
+        selectText: "Select Obs. Names",
+    });
+    
+        $('#Days_After_App').ddslick({
+        data: INSTINC_var_lst,width:350,
+        selectText: "Select the column of Days After Application",
+    });
+    }
+    load_col_name()
+    </script>
+    
+    <!-- Scroll Bar -->
+    <script>
+        $( "#slider_1" ).slider({
+            min: 0, max: 6,
+            slide: function( event, ui ) {$("#slider_1_value").text(ui.value);}
+        }).slider("pips", {rest: "label"});
+    
+        $( "#slider_2" ).slider({
+            min: 20, max: 80,
+            slide: function( event, ui ) {$("#slider_2_value").text(ui.value);}
+        }).slider("pips").slider("float");
+        
+        $( "#slider_3" ).slider({
+            min: 20, max: 80,
+            slide: function( event, ui ) {$("#slider_3_value").text(ui.value);}
+        }).slider("pips").slider("float");
+        $( "#slider_4" ).slider({
+            min: 20, max: 80,
+            slide: function( event, ui ) {$("#slider_4_value").text(ui.value);}
+        }).slider("pips").slider("float");
+        $( "#slider_5" ).slider({
+            min: 20, max: 80,
+            slide: function( event, ui ) {$("#slider_5_value").text(ui.value);}
+        }).slider("pips").slider("float");
+    </script>
+    
+    <style>
+        .main{
+            text-align: center;
+        /*    background-color: #fff; */
+            position: absolute;
+            width: 70%;
+            height: 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            z-index:4050;
+        }
+    </style>
+
+        <!--AJAX Operation-->
+        <script>
+            var get_url = "http://10.138.173.182:9000/?";
+            $("#Btn_1").click(function(){
+                var parameters = [];
+                parameters.push({"Loc_Col":$('#Loc_Col').data('ddslick').selectedData.text});
+                parameters.push({"Rep_Col":$('#Rep_Col').data('ddslick').selectedData.text});
+                parameters.push({"Trt_Col":$('#Trt_Col').data('ddslick').selectedData.text});
+                parameters.push({"Rt_Col":$('#Rt_Col').data('ddslick').selectedData.text});
+                parameters.push({"Obs_Nm_Col":$('#Obs_Nm_Col').data('ddslick').selectedData.text});
+                parameters.push({"Obs_Nm":$('#Obs_Nm').data('ddslick').selectedData.text});
+                parameters.push({"Threshold Std.Dev.":$("#slider_1_value").text()});
+                parameters.push({"Days_After_App":$('#Days_After_App').data('ddslick').selectedData.text});
+                parameters.push({"LowestTime1":$("#slider_2_value").text()});
+                parameters.push({"HighestTime1":$("#slider_3_value").text()});
+                parameters.push({"HighestTime2":$("#slider_4_value").text()});
+                parameters.push({"HighestTime3":$("#slider_5_value").text()});
+                //parameters = JSON.stringify(parameters)
+                for (var idx=0; idx<parameters.length;idx++){
+                    for (var key in parameters[idx]){
+                        get_url = get_url + key + "=" + parameters[idx][key]+"&";
+                    }
+                }
+        
+                //$.get(get_url,function(data, status){
+                  //  $("#Btn_1").text(data);
+                //});
+                console.log(get_url);
+            })
+        </script>
+    
+
+</html>
+
+

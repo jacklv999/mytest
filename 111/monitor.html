@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/datatables.min.css"/>
+    <script type="text/javascript" src="./js/datatables.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/select.dataTables.min.css"/>
+    <script type="text/javascript" src="./js/dataTables.select.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background: #f9f7f6;">
+    <span>&emsp13;</span>
+    <h2 style="margin-left: 40px;"> Task Healthness Monitor</h2>
+    <span>&emsp13;</span>
+
+    <div class="container-fluid">
+        <div class="col-sm-10" style="margin-left: 8%;">        
+            <table id="healthness_table" class="display" width="100%"></table>
+        </div>
+        <div class="col-sm-10" style="margin: 5% 0% 0% 8%;">
+            <button style="height: 60px;" class="btn btn-primary btn-lg col-sm-4" id="DownloadData"> Download Data </button>
+            <button style="height: 60px;float:right" class="btn btn-primary btn-lg col-sm-4" id="DownloadRawResult">Download Raw Result</button>
+        </div>
+        <div class="col-sm-12" style="margin: 5% 0% 0% 8%;">
+            <button style="height: 80px;float:center" class="btn btn-outline-primary btn-lg col-sm-10" id="DisplayParameter">Display Parameter</button>
+        </div>
+    </div>
+
+
+
+    <!-- import data script I-->
+    <script>
+        function dataJson(data) {
+            var task_status = data
+        }
+    </script>
+    <!-- import data script II-->
+    <script type="text/javascript" src="./tmp_data/task_status.json?cb=dataJson"></script>
+
+    <!-- init table-->
+    <script>
+    $(document).ready(function() {
+        $('#healthness_table').DataTable( {
+            data: task_status,
+            select: true,
+            columns: [
+                { title: "Task" },
+                { title: "Owner" },
+                { title: "Model" },
+                { title: "Status" },
+            ]
+        });
+    });
+    $('#healthness_table').on( 'deselect.dt', function (e,dt,type,index) {
+        $("#DownloadData").text("Download Data");
+        $("#DownloadRawResult").text("Download RAW Result");
+    });
+    $('#healthness_table').on( 'select.dt', function (e,dt,type,index) {
+        $("#DownloadData").text("Download This Data");
+        $("#DownloadRawResult").text("Download This RAW Result");
+        $("#DisplayParameter").text(task_status[index][6]);
+        var data_download_url = task_status[index][4];
+        var raw_result_download_url = task_status[index][5];
+        $("#DownloadData").val(data_download_url);
+        $("#DownloadRawResult").val(raw_result_download_url)
+    });
+    $("#DownloadData").click(function(dwnld_url){ 
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET',  $("#DownloadData").val(), true);
+        xhr.responseType = "blob"; 
+        xhr.onload = function () {
+            if (this.status === 200) {
+                var blob = this.response;
+                var a = document.createElement('a');
+                a.download = 'download data';
+                a.href=window.URL.createObjectURL(blob);
+                a.click();
+            }
+        };
+        xhr.send();
+    });
+    $("#DownloadRawResult").click(function(dwnld_url){ 
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET',  $("#DownloadRawResult").val(), true);
+        xhr.responseType = "blob"; 
+        xhr.onload = function () {
+            if (this.status === 200) {
+                var blob = this.response;
+                var a = document.createElement('a');
+                a.download = 'download raw result';
+                a.href=window.URL.createObjectURL(blob);
+                a.click();
+            }
+        };
+        xhr.send();
+    });
+
+    </script>
+</body>
+</html>

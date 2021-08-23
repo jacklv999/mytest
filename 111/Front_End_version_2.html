@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Front End Demo</title>
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/zoomify.min.css">
+    <script src="js/zoomify.min.js"></script>
+    <script src="js/jquery.ddslick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" href="css/jquery-labelauty.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="css/lby-main.css" type="text/css" media="screen" charset="utf-8" />
+    <script type="text/javascript" src="js/jquery-labelauty.js"></script>
+</head>
+<body >   
+    
+<div  class="container-fluid" style="background-image: url('img/10.jpg');background-size:100% 100%;">
+    
+    <div style="margin: 5% 0% 10% 15%;">
+    <div class="row" style="height: 14.2857%;">         
+        <div class="col-xs-1" style="width: 28.5714%;">
+            <div class="box"></div>
+        </div>
+        <div class="col-xs-1" style="width: 14.2857%;">
+                <img style="max-width: 200%;max-height: 200%; " src="img/1.jpg" class="img-circle Anm">
+        </div>
+    </div>
+    
+    <div class="row" style="height: 14.2857%; width: 100%">         
+            <div class="box"></div>
+    </div>
+ 
+    <div class="row" style="height: 14.2857%;">         
+ 
+        <div class="col-xs-1" style="width: 14.2857%;">
+            <img style="max-width: 200%;max-height: 200%; " src="img/2.jpg" class="img-circle Anm">
+        </div>
+        <div class="col-xs-1" style="width: 42.8571%;">
+            <div class="box"></div>
+        </div>
+        <div class="col-xs-1" style="width: 14.2857%;">
+            <img style="max-width: 200%;max-height: 200%; " src="img/3.jpg" class="img-circle Anm">
+        </div>
+    </div>
+
+    <div class="row" style="height: 14.2857%; width: 100%">         
+            <div class="box"></div>
+    </div>
+
+    <div class="row" style="height: 14.2857%;">         
+        <div class="col-xs-1" style="width: 14.2857%;">
+            <div class="box"></div>
+        </div>
+        <div class="col-xs-1" style="width: 14.2857%;">
+            <img style="max-width: 200%;max-height: 200%; " src="img/4.jpg" class="img-circle Anm">
+        </div>
+        <div class="col-xs-1" style="width: 17%;">
+            <div class="box"></div>
+        </div>
+        <div class="col-xs-1" style="width: 14.2857%;">
+            <img style="max-width: 200%;max-height: 200%; " src="img/5.jpg" class="img-circle Anm">
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+
+<!--Model engine part-->
+<div id = "Basic">
+    <div class="main">
+        <div id="demoBasic"></div>
+    </div>
+    <div id = "Basic_1" class="main_2">
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose A</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose B</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose C</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose D</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose E</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose F</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose G</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose H</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose I</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose J</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose K</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose L</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose M</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose N</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 270px;margin: 5px;">Choose O</button>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $(".to-labelauty").labelauty({ minimum_width: "155px" });
+        $(".to-labelauty-icon").labelauty({ label: false });
+    });
+</script>
+
+</body>
+<!--drop down-->
+<script type="text/javascript">
+    var ddData = [
+    {
+        text: "GCN",
+        value: 1,
+        selected: false,
+    },
+    {
+        text: "EMEA",
+        value: 2,
+        selected: false,
+    },
+    {
+        text: "APAC",
+        value: 3,
+        selected: false,
+    },
+    {
+        text: "LATAM",
+        value: 4,
+        selected: false,
+    }
+];
+    $('#demoBasic').ddslick({
+    data: ddData,
+    width: 300,
+    selectText: "Select your Region",
+    onSelected: function (data) {
+       idx = $("#demoBasic").data('ddslick').selectedIndex;
+    }
+})
+
+// zoom for pic
+$("#Basic").hide();
+    $('img').zoomify();
+    $('img').click(function(){
+            $("#Basic").fadeToggle(200);
+    })
+</script>
+
+<style>
+
+/*style for align items*/
+.main{
+	text-align: center;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%,-50%);
+    z-index:4050;
+}
+.main_2{
+	text-align: center;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+    z-index:4000;
+    width: 300px; 
+    height: 250px;
+    overflow: auto;
+}
+
+
+/* style for element */
+.box {
+        width: 100%;
+        height: 90px; 
+        background-color: #ffffff;
+        overflow: hidden;
+        opacity:0;
+    }
+   .container-fluid {
+       height: 100%;
+       padding-left: 0px;
+       padding-right: 0px;
+      /* overflow: hidden; */
+    }
+    body{
+      margin: 0px;
+      padding: 0px;
+      height:100%;
+      overflow: hidden; 
+    }
+    html{
+      height:100%;
+    }
+
+
+    /*hover for img*/
+    .Anm{
+        padding: 0px;
+        transition: all .3s;
+    }
+    .Anm:hover{
+        transform: scale(1.5);
+        cursor:pointer;
+    }
+</style>
+
+</html >
