@@ -65,3 +65,58 @@ var ddData = [
 
 - 自适应宽度
 - 动态加载选项
+- 方便获取数据
+
+#### 1. 引入JS文件
+
+具体可以GitHub上下载
+
+```JavaScript
+<script src="js/jquery-1.11.0.min.js"></script>	
+<link rel="stylesheet" href="css/tinyselect.css">
+<script src="js/tinyselect.js"></script>
+```
+
+#### 2. 初始化 DOM 
+
+```html
+<select id="select3" style="width: 100%;"></select>
+<select id="select5"></select>
+```
+
+#### 3. 初始下拉框
+
+```JavaScript
+$("#select3").tinyselect({ 
+	showSearch:false,
+	txtLoading:"Loading",
+	txtAjaxFailure:"Network Failure",
+	dataUrl: "http://xn--p3t50i.top/mytest/111/file.json" , 
+	dataParser: DataParser 
+});
+// Parser code
+function DataParser(data, selected) {
+	retval = [];
+	data.forEach(function(v){ retval.push(v); });
+	return retval;
+}
+```
+
+#### 4. 获取选择项
+
+```JavaScript
+$("#select5").val()
+```
+
+#### 5. JSON数据示例
+
+```JavaScript
+[
+	{ "val": 1 , "text": "语文" },
+	{ "val": 2 , "text": "数学" },
+	{ "val": 3 , "text": "微积分" },
+	{ "val": 4 , "text": "汉字的传统文化解读" },
+	{ "val": 5 , "text": "音乐美学" }
+]
+```
+
