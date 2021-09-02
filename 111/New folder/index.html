@@ -4,6 +4,7 @@
   <script src="./js/jquery.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <link href="./css/bootstrap.min.css"  rel="stylesheet" type="text/css" >
+
 </head>
 <body style="height: 100%;">
   <!--Start Anm-->
@@ -342,48 +343,40 @@
     </script>
   </div>
 
-
-<script>
-//  $("#start_page_anm").hide();
-  $("#nav_bar").hide();
-  $("#main_page").hide();
-  $("#footer_bar").hide();
-  setTimeout('$("#start_page_anm").slideUp("slow")',3200);
-  setTimeout('$("#nav_bar").show()',3250);
-  setTimeout('$("#footer_bar").show()',3250);
-  setTimeout('$("#main_page").show()',3600);
-  $("#Moniter_link").click(function(){
-            $("#StartPage").hide()
-            $("#Moniter_iframe").attr("src","./monitor.html")
-            $("#Moniter_iframe").attr("height","90%")
-            $("#Moniter_iframe").attr("width","100%")
-            $("#Moniter_iframe").attr("style","margin-top:5%")
-            $("#main_page").hide();
-        })
-  $("#Main_Page_link").click(function(){
-            $("#Moniter_iframe").hide();
-            $("#main_page").show();
-        })
-</script>
-
 <!--tooltip-->
-<script type="text/javascript" src="js/jTippy.min.js"></script>
-<link rel="stylesheet" href="css/jTippy.min.css">
+  <!--tooltip-->
+  <script type="text/javascript" src="js/jTippy.min.js"></script>
+  <link rel="stylesheet" href="css/jTippy.min.css">
 <script>
-        $('#Field_Trail_tooltip').jTippy({//Healthness Moniter
+        $('#Field_Trail_tooltip').jTippy({
             title:'Field Trail',
+            position: "left",
+            theme: 'green',
+            size: 'medium'
         }).on('jt-show', function(e, tooltip){}).on('jt-hide', function(){});
-        $('#Demonstrate_Result_tooltip').jTippy({//Healthness Moniter
+        $('#Demonstrate_Result_tooltip').jTippy({
             title:'Demonstrate Result',
+            position: "right",
+            theme: 'green',
+            size: 'medium'
         }).on('jt-show', function(e, tooltip){}).on('jt-hide', function(){});
-        $('#Decision_Science_tooltip').jTippy({//Healthness Moniter
+        $('#Decision_Science_tooltip').jTippy({
             title:'Decision Science',
+            position: "left",
+            theme: 'green',
+            size: 'medium'
         }).on('jt-show', function(e, tooltip){}).on('jt-hide', function(){});
-        $('#Model_Engine_tooltip').jTippy({//Healthness Moniter
+        $('#Model_Engine_tooltip').jTippy({
+            position: "top",
+            theme: 'green',
+            size: 'medium',
             title:'Model Engine',
         }).on('jt-show', function(e, tooltip){}).on('jt-hide', function(){});
-        $('#Data_Worker_tooltip').jTippy({//Healthness Moniter
+        $('#Data_Worker_tooltip').jTippy({
             title:'Data Worker',
+            position: "right",
+            theme: 'green',
+            size: 'medium'
         }).on('jt-show', function(e, tooltip){}).on('jt-hide', function(){});
         
 
@@ -391,6 +384,31 @@
 
 
 </script>
+
+<!-- main animation script-->
+<script>
+  //  $("#start_page_anm").hide();
+    $("#nav_bar").hide();
+    $("#main_page").hide();
+    $("#footer_bar").hide();
+    setTimeout('$("#start_page_anm").slideUp("slow")',3200);
+    setTimeout('$("#nav_bar").show()',3250);
+    setTimeout('$("#footer_bar").show()',3250);
+    setTimeout('$("#main_page").show()',3600);
+    $("#Moniter_link").click(function(){
+              $("#StartPage").hide()
+              $("#Moniter_iframe").attr("src","./monitor.html")
+              $("#Moniter_iframe").attr("height","90%")
+              $("#Moniter_iframe").attr("width","100%")
+              $("#Moniter_iframe").attr("style","margin-top:5%")
+              $("#main_page").hide();
+          })
+    $("#Main_Page_link").click(function(){
+              $("#Moniter_iframe").hide();
+              $("#main_page").show();
+          })
+  </script>
+  
 </body>
 </html>
 
