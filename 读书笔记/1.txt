@@ -26,6 +26,8 @@
 .\读书笔记\CS\cs\Windows脚本.md
 .\读书笔记\CS\cs\数据库基础.html
 .\读书笔记\CS\cs\数据库基础.md
+.\读书笔记\CS\cs\文件头.html
+.\读书笔记\CS\cs\文件头.md
 .\读书笔记\CS\cs\正则表达式.html
 .\读书笔记\CS\cs\正则表达式.md
 .\读书笔记\CS\cs\正则表达式再整理.html
