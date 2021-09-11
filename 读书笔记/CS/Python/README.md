@@ -24,6 +24,7 @@
 
 - [Flask简单示例](./Flask简单示例.html) 
 - [Flask 异步任务](./Flask 异步任务.html) 
+- [Flask on Tencent Cloud](./Flask on Tencent Cloud.html) 
 
 
 
