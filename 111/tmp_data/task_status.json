@@ -1,6 +1,0 @@
-var task_status = [
-    [ "GNAGP-INSTINC-2021082001","GNAGP", "INSTINC","Preparing", "", "","model_name_1 --arg1 --arg2"],
-    [ "NADFP-SCOUT-2021081001","NADFP", "SCOUT","In Progress", "", "","model_name_SC --arg1 --arg2"],
-    [ "GNAFP-SCOUT-2021091001", "GNAFP", "SCOUT","Data Download Sucess", "https://img0.baidu.com/it/u=1041843695,2602902676&fm=26&fmt=auto&gp=0.jpg", "","model_name_SC --arg1 --arg2"],
-    [ "GNSFP-FAW-2021071001", "GNSFP", "FAW","Sucess", "https://img2.baidu.com/it/u=1070003001,653753576&fm=26&fmt=auto&gp=0.jpg", "https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg","model_name_FW --arg1 --arg2"]
-]

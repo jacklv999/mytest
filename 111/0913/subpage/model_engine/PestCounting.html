@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pest_Counting_API</title>
+    <script src="../js/jquery.min.js"></script>
+    <link href="../css/bootstrap.min.css"  rel="stylesheet" type="text/css" > 
+    <script src="../js/bootstrap.min.js"></script> 
+</head>
+<body><!--  style="background: #f9f7f6;"    -->
+<div class="main">
+    <h3 style="text-align: left;" >Pest Counting API </h3>
+    <label  class="hidden col-sm-12" style="height: 1px;"></label>
+    <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#Tomatoes" data-toggle="tab">Tomatoes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Citrus" data-toggle="tab">Citrus</a>
+            </li>
+    </ul>
+    <span  class="hidden col-sm-12" style="height: 1px;"></span>
+    <div class="tab-content">
+        <div class="tab-pane active" id="Tomatoes">
+            <form id="form_tomatoes"  class="form-inline " role="form">
+                <div class="row form-group  col-sm-12">
+                    <div class="form-group col-sm-12">
+                        <label class="control-label col-sm-4">Using Local Picture</label>
+                        <label  class="hidden col-sm-4"></label>
+                        <label id="counting_res_tomato" class="control-label col-sm-4">Num: </label>
+                    </div>
+                </div>
+                <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                <div class="row form-group col-sm-12">
+                    <div class="form-group col-sm-6">
+                        <input name="tomato_pic" type="file" class="col-sm-12">
+                        <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                        <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                        <div class="row form-group col-sm-12 ">
+                            <label class="control-label col-sm-12">Using Demo Picture</label>
+                            <select id="tomato_demo_pic_index" style="margin-left: 5%;" class="form-control col-sm-11" name="type">
+                                <option value=0>&emsp;</option>
+                                <option value=1>pic 1</option>
+                                <option value=2>pic 2</option>
+                                <option value=3>pic 3</option>
+                                <option value=4>pic 4</option>
+                                <option value=5>pic 5</option>
+                                <option value=6>pic 6</option>
+                            </select>
+                        </div>
+                        <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                        <img id="tomato_demo_pic" height="200" width="200" src="./data/0.png" class="col-sm-12">
+                        <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                        <div class="form-group col-sm-12">
+                            <button type="reset" class="btn btn-primary col-sm-4">reset</button>
+                            <label  class="hidden col-sm-4"></label>
+                            <button id="get_tomato_counting_res" type="button" class="btn btn-primary col-sm-4">submit</button>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <img id="tomato_res_pic" height="400" width="200" src="./data/tomato_res.png" class="col-sm-12">
+                    </div>
+                </div>
+            </form>    
+        </div>
+        <div class="tab-pane fade" id="Citrus">
+            <form id="form_citrus"  class="form-inline " role="form">
+                <div class="row form-group  col-sm-12">
+                    <div class="form-group col-sm-12">
+                        <label class="control-label col-sm-4">Using Local Picture</label>
+                        <label  class="hidden col-sm-4"></label>
+                        <label id="counting_res_citrus" class="control-label col-sm-4">Num: </label>
+                    </div>
+                </div>
+                <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                <div class="row form-group col-sm-12">
+                    <div class="form-group col-sm-6">
+                        <input name="citrus_pic" type="file" class="col-sm-12">
+                        <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                        <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                        <div class="row form-group col-sm-12 ">
+                            <label class="control-label col-sm-12">Using Demo Picture</label>
+                            <select id="citrus_demo_pic_index" style="margin-left: 5%;" class="form-control col-sm-11" name="type">
+                                <option value=0>&emsp;</option>
+                                <option value=1>pic 1</option>
+                                <option value=2>pic 2</option>
+                                <option value=3>pic 3</option>
+                                <option value=4>pic 4</option>
+                                <option value=5>pic 5</option>
+                                <option value=6>pic 6</option>
+                                <option value=7>pic 7</option>
+                            </select>
+                        </div>
+                        <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                        <img id="citrus_demo_pic" height="200" width="200" src="./data/0.png" class="col-sm-12">
+                        <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                        <div class="form-group col-sm-12">
+                            <button type="reset" class="btn btn-primary col-sm-4">reset</button>
+                            <label  class="hidden col-sm-4"></label>
+                            <button id="get_citrus_counting_res" type="button" class="btn btn-primary col-sm-4">submit</button>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <img id="citrus_res_pic" height="400" width="200" src="./data/citrus_res.png" class="col-sm-12">
+                    </div>
+                </div>
+            </form>  
+        </div>
+    </div>        
+</div>
+
+
+
+    <style>
+        .main{
+            text-align: center;
+            background-color: #fff;
+            position: absolute;
+            width: 650px;
+            height: 600px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            z-index:1;
+        }
+        .form-inline label {
+            justify-content: left;
+        }
+    </style>
+
+
+    <script>
+        pestcounting_api_base_url = "http://192.168.1.4:900/pestcounting_api/"
+        $("#get_tomato_counting_res").click(function(){
+            select_index = $("#tomato_demo_pic_index").val();
+            src_lst = ["0.png","1.jpg","2.jpg","3.png",
+                        "4.jpg","5.jpg","6.jpg"];
+            if ($("#tomato_demo_pic_index").val() != "0"){
+                tomato_url = pestcounting_api_base_url + "whitefly/" + src_lst[select_index];
+                $("#tomato_res_pic").attr("src","./data/res/res_"+src_lst[select_index]);
+                $.get(tomato_url,function(data, status){
+                    $("#counting_res_tomato").text("Num: " + data);
+                })
+            } else {
+                alert("coming soon")
+            }
+        })
+
+        $("#get_citrus_counting_res").click(function(){
+            if ($("#citrus_demo_pic_index").val() != "0"){
+                select_index = $("#citrus_demo_pic_index").val();
+                src_lst = ["0.png","11.jpg","12.jpg","13.jpg","14.jpg",
+                            "15.jpg", "16.jpg", "17.jpg"];
+                citrus_url = pestcounting_api_base_url + "thrips/" +src_lst[select_index];
+                $("#citrus_res_pic").attr("src","./data/res/res_"+src_lst[select_index])
+                $.get(citrus_url,function(data, status){
+                    $("#counting_res_citrus").text("Num: " + data);
+                })
+            } else {
+                alert("coming soon")
+            }
+        })
+
+        // code for demo pic select
+        $("#tomato_demo_pic_index").change(function(){
+            select_index = $("#tomato_demo_pic_index").val();
+            src_lst = ["./data/0.png","./data/1.jpg","./data/2.jpg","./data/3.png",
+            "./data/4.jpg","./data/5.jpg","./data/6.jpg"];
+            $("#tomato_demo_pic").attr("src",src_lst[select_index])
+        })
+        $("#citrus_demo_pic_index").change(function(){
+            select_index = $("#citrus_demo_pic_index").val();
+            src_lst = ["./data/0.png","./data/11.jpg","./data/12.jpg",
+                "./data/13.jpg","./data/14.jpg","./data/15.jpg","./data/16.jpg",
+                "./data/17.jpg"];
+            $("#citrus_demo_pic").attr("src",src_lst[select_index])
+        })
+    </script>
+</body>
+</html>

@@ -26,6 +26,7 @@
 - [html与CSS笔记](./HTML与CSS笔记.html)   
 - [Download File in HTML](./Download File in HTML.html) 
 - [HTML Form表单](./HTML Form表单.html) 
+- [HTML表格插件](./HTML表格插件.html) 
 
 ## CSS 笔记
 
