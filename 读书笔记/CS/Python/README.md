@@ -12,6 +12,7 @@
 - [Python EXE拖拽运行](./Python EXE拖拽运行.html) 
 - [Python 执行字符串](./Python 执行字符串.html) 
 - [Python调用命令行](./Python调用命令行.html) 
+- [Python字符串切片](./Python字符串切片.html) 
 
 ## GUI Programming
 
@@ -26,6 +27,7 @@
 - [Flask简单示例](./Flask简单示例.html) 
 - [Flask 异步任务](./Flask 异步任务.html) 
 - [Flask on Tencent Cloud](./Flask on Tencent Cloud.html) 
+- [Flask JSON传输图片](./Flask JSON传输图片.html) 
 
 
 

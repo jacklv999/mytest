@@ -49,6 +49,8 @@
 .\读书笔记\CS\Python\DPG Tutorials.html
 .\读书笔记\CS\Python\DPG使用细节笔记.html
 .\读书笔记\CS\Python\DPG使用细节笔记.md
+.\读书笔记\CS\Python\Flask JSON传输图片.html
+.\读书笔记\CS\Python\Flask JSON传输图片.md
 .\读书笔记\CS\Python\Flask on Tencent Cloud.html
 .\读书笔记\CS\Python\Flask on Tencent Cloud.md
 .\读书笔记\CS\Python\Flask 异步任务.html
@@ -65,6 +67,8 @@
 .\读书笔记\CS\Python\Python 执行字符串.md
 .\读书笔记\CS\Python\Python多进程.html
 .\读书笔记\CS\Python\Python多进程.md
+.\读书笔记\CS\Python\Python字符串切片.html
+.\读书笔记\CS\Python\Python字符串切片.md
 .\读书笔记\CS\Python\Python实现虚拟机.html
 .\读书笔记\CS\Python\Python实现虚拟机.md
 .\读书笔记\CS\Python\Python数据类型转换.html
