@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0914[Python调用命令行](./读书笔记/CS/Python/Python调用命令行.html)
 - [ ] 0913[HTML表格插件](./读书笔记/CS/前端相关/HTML表格插件.html)
 - [ ] 0911[Flask on Tencent Cloud](./读书笔记/CS/Python/Flask on Tencent Cloud.html)
 - [ ] 0909[文件头](./读书笔记/CS/cs/文件头.html)

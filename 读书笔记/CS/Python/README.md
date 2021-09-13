@@ -11,6 +11,7 @@
 - [Python EXE解包及pyc反编译](./反编译Pyinstaller打包文件.html) 
 - [Python EXE拖拽运行](./Python EXE拖拽运行.html) 
 - [Python 执行字符串](./Python 执行字符串.html) 
+- [Python调用命令行](./Python调用命令行.html) 
 
 ## GUI Programming
 

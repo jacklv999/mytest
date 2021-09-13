@@ -77,6 +77,8 @@
 .\读书笔记\CS\Python\Python监听模拟鼠标键盘.md
 .\读书笔记\CS\Python\Python虚拟环境及打包.html
 .\读书笔记\CS\Python\Python虚拟环境及打包.md
+.\读书笔记\CS\Python\Python调用命令行.html
+.\读书笔记\CS\Python\Python调用命令行.md
 .\读书笔记\CS\Python\Pytorch与Nppd笔记.html
 .\读书笔记\CS\Python\Pytorch与Nppd笔记.md
 .\读书笔记\CS\Python\Pytorch与Py模块化笔记.html
