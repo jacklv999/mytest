@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_API</title>
+    <script src="../js/jquery.min.js"></script>
+    <link href="../css/bootstrap.min.css"  rel="stylesheet" type="text/css" > 
+    <script src="../js/bootstrap.min.js"></script> 
+</head>
+<body><!--  style="background: #f9f7f6;"    -->
+    <div class="main">
+        <h3 style="text-align: left;" >FAW Prediction</h3>
+        <HR align=center  SIZE=1>
+        <form id="form_manual"  class="form-inline " role="form">
+            <div class="row form-group  col-sm-12">
+                <div class="form-group col-sm-6">
+                    <label class="control-label col-sm-12">Select Your Country</label>
+                    <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                    <select id="Country" class="form-control col-sm-12" name="type">
+                        <option value="0">&emsp;</option>
+                        <option value="1">India</option>
+                    </select>
+                    <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                    <label class="control-label col-sm-12">Select date</label>
+                    <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                    <input id="forcast_time" type="date" class="form-control col-sm-12">
+                    <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                    <button type="reset" class="btn btn-primary col-sm-4">reset</button>
+                    <label  class="hidden col-sm-4"></label>
+                    <button id="get_FAW_prediction" type="button" class="btn btn-primary col-sm-4 pull-right">submit</button>
+                </div>
+                <div class="form-group col-sm-6">
+                    <img id="prediction_result" class="col-sm-12" height="350" width="300"  src="data/0.png">
+                </div>
+            </div>
+        </form>    
+    </div>
+
+    
+
+    <style>
+        .main{
+            text-align: center;
+            background-color: #fff;
+            position: absolute;
+            width: 650px;
+            height: 400px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            z-index:1;
+        }
+        .form-inline label {
+            justify-content: left;
+        }
+    </style>
+    <script>
+     //   location_api_base_url = "http://192.168.1.4:900/location_api/"
+        $("#get_FAW_prediction").click(function(){
+            if ($("#Country").val() == 1){
+                src = "./data/Picture1.png"
+            } else {
+                src="./data/0.png"
+            }
+            $("#prediction_result").attr("src",src)
+        })
+    </script>
+</body>
+</html>
+
+
+
+
