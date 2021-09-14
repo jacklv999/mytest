@@ -77,6 +77,43 @@ def hello_world():
   base64.b64decode(input_parameter).decode()
   ```
 
+#### 5. 传递文件
+
+服务器端接受文件代码
+
+```python
+@app.route('/', methods=['POST'])
+def up_load_big_file():
+    img = request.files.get('file')
+    img.save("./file.jpg")
+    return "ok",200
+```
+
+前端传输文件代码
+
+```JavaScript
+var tomato_url = "/upload/";
+var formData = new FormData();
+formData.append(
+    "pic",
+    $("#pic")[0].files[0]
+);
+$.ajax({
+  url:tomato_url, 
+  type:'post',
+  data: formData,
+  contentType: false,
+  processData: false,
+  success:function(data){
+      alert("ok")
+  }
+})
+```
+
+
+
+
+
 #### 附录
 
 用 Flask host 识农的FAW API.
