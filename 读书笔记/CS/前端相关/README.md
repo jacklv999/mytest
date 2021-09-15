@@ -27,6 +27,7 @@
 - [Download File in HTML](./Download File in HTML.html) 
 - [HTML Form表单](./HTML Form表单.html) 
 - [HTML表格插件](./HTML表格插件.html) 
+- [HTML杂项](./HTML杂项.html) 
 
 ## CSS 笔记
 

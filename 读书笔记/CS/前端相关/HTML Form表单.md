@@ -133,3 +133,37 @@ HTML input 标签的类型非常多, 常见的包括以下几种:
 - 修改标签属性:
 
   `$("#lbl").attr("type","text")` 
+
+#### 7. HTML表单值提取
+
+获取html表单值常见的有两种方法:
+
+- 第一种:
+
+  ```html
+  <form id="form1">
+      <input type="radio" name="a" value="b">
+  </form>
+  <script>
+  $("#form1").serialize()
+  //out: a=b
+  $("#form1").serializeArray()
+  //[{name:a,value:b}]
+  </script>
+  ```
+
+- 第二种
+
+  ```html
+  <form id="form1">
+  <input type="radio" 
+         name="a" 
+         value="b">
+  </form>
+  <script>
+  $("#form1").serializeArray()
+  //[{name:a,value:b}]
+  </script>
+  ```
+
+  
