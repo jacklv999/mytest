@@ -15,7 +15,8 @@
 - [JS AJAX Note](./JS AJAX Note.html) 
 - [Javascript Base64](./Javascript Base64.html) 
 - [jQuery 点击放大](./jQuery 点击放大.html) 
-- [树状下拉选择](./树状下拉选择.html) 
+- [树状下拉选择](./树状下拉选择.html)  
+- [闭包与立即执行函数](./闭包与立即执行函数.html) 
 
 ## HTML笔记
 
