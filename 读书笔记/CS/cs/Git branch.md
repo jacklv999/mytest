@@ -45,3 +45,9 @@ git remote add test git@adress.git
 git push origin test
 ```
 
+ 从远程分支拉取更新如下:
+
+```bash
+git pull origin test
+```
+
