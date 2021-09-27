@@ -7,6 +7,8 @@
 .\读书笔记\CS\cs\CMD脚本.md
 .\读书笔记\CS\cs\Code Rules.html
 .\读书笔记\CS\cs\Code Rules.md
+.\读书笔记\CS\cs\Git branch.html
+.\读书笔记\CS\cs\Git branch.md
 .\读书笔记\CS\cs\Github命令.html
 .\读书笔记\CS\cs\Github命令.md
 .\读书笔记\CS\cs\Go语言教程.html
