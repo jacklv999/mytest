@@ -4,7 +4,6 @@
   - [正则表达式基础](./正则表达式.html) 
   - [正则表达式再整理](./正则表达式再整理.html) 
 - [Chrome快捷键](./Chrome快捷键.html) 
-- [rust简明教程](./Rust简明教程.html) 
 - [VM based on Register](./vm_register.html) 
 - [编译原理简记](./编译器原理简记.html) 
 - [Golang教程](./Go语言教程.html) 

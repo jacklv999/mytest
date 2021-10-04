@@ -15,6 +15,7 @@
 - [Computer Science基础知识 ](./CS/cs/) 
 - [前端相关](./CS/前端相关/) 
 - [Python](./CS/Python/) 
+- [Rust相关](./CS/Rust/)
 - [R语言学习笔记](./CS/R语言学习笔记/) 
 
 ## ML/DL 相关

@@ -13,6 +13,7 @@
 - [Python 执行字符串](./Python 执行字符串.html) 
 - [Python调用命令行](./Python调用命令行.html) 
 - [Python字符串切片](./Python字符串切片.html) 
+- [Send mail by Python](./Send mail by Python.html) 
 
 ## GUI Programming
 
