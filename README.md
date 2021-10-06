@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1006[Flask Task Monitor](./读书笔记/CS/Python/Flask Task Monitor.html)
 - [ ] 1004[Rust简明教程](./读书笔记/CS/Rust/Rust简明教程.html)
 - [ ] 1004[Send mail by Python](./读书笔记/CS/Python/Send mail by Python.html)
 - [ ] 1004[Less教程](./读书笔记/CS/前端相关/Less教程.html)

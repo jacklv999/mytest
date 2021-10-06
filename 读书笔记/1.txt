@@ -55,6 +55,8 @@
 .\读书笔记\CS\Python\Flask JSON传输图片.md
 .\读书笔记\CS\Python\Flask on Tencent Cloud.html
 .\读书笔记\CS\Python\Flask on Tencent Cloud.md
+.\读书笔记\CS\Python\Flask Task Monitor.html
+.\读书笔记\CS\Python\Flask Task Monitor.md
 .\读书笔记\CS\Python\Flask 异步任务.html
 .\读书笔记\CS\Python\Flask 异步任务.md
 .\读书笔记\CS\Python\Flask简单示例.html
