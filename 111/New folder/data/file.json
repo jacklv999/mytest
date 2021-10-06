@@ -1,0 +1,10 @@
+var slct_json =[
+	{ "val": 1 , "text": "APAC" },
+	{ "val": 2 , "text": "NA" },
+	{ "val": 3 , "text": "EMEA" },
+	{ "val": 4 , "text": "LATAM" },
+	{ "val": 1 , "text": "INSTINC" },
+	{ "val": 2 , "text": "Disease Prediction" },
+	{ "val": 3 , "text": "Presxription Model" },
+	{ "val": 4 , "text": "Product Plaxement" }
+]

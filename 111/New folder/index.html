@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <link href="./css/bootstrap.min.css"  rel="stylesheet" type="text/css" >
+
+</head>
+<body style="height: 100%;">
+  <!--Start Anm-->
+  <div id="start_page_anm" class="wrapper_out">
+    <div class="wrapper">
+      <div class="container">
+        <div class="name">
+          <span>A</span>
+          <span>l</span>
+          <span>l</span>
+          <span></span>
+          <span>&nbsp;</span>
+          <span>i</span>
+          <span>n</span>
+          <span>&nbsp;</span>
+          <span>O</span>
+          <span>n</span>
+          <span>e</span>
+        </div>
+        <div class="line"></div>
+        <div class="sub">
+          <p>Data, Value and Model......</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<header>
+  <nav id="nav_bar" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">All in One</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a id="Main_Page_link" class="nav-link" >Main Page<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a id="Moniter_link" class="nav-link" target="Moniter_iframe">Task Monitor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Documentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Demo</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+</header>
+
+
+
+<!-- Main Page Part-->
+<div id="main_page" class="main">
+  <div class="row">
+    <div class="col-sm-4">
+      <img id="Field_Trail_tooltip" style="max-width: 90%;max-height: 90%; " src="./img/1.png"/>
+    </div>
+    <div class="col-sm-4">
+      <img style="max-width: 120%;max-height: 120%; " src="./img/00.png"/>
+    </div>
+    <div class="col-sm-4 pull-right">
+      <img id="Data_Worker_tooltip" style="max-width: 90%;max-height: 90%; " src="./img/2.png"/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <img style="max-width: 120%;max-height: 120%; " src="./img/00.png"/>
+    </div>
+    <div class="col-sm-4">
+
+      <img id="Model_Engine_tooltip" style="max-width: 100%;max-height: 100%;" data-toggle="modal" data-target="#Model_Engine_modal" src="./img/3.png"/>
+    </div>
+    <div class="col-sm-4">
+      <img style="max-width: 120%;max-height: 120%; " src="./img/00.png"/>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <img id="Decision_Science_tooltip" style="max-width: 100%;max-height: 100%; " src="./img/4.png"/>
+    </div>    <div class="col-sm-4">
+      <img style="max-width: 120%;max-height: 120%; " src="./img/00.png"/>
+    </div>    <div class="col-sm-4">
+      <img id="Demonstrate_Result_tooltip" style="max-width: 100%;max-height: 100%; " src="./img/5.png"/>
+    </div>
+  </div>
+</div>
+
+<!-- Task Monitor-->
+<iframe id="Moniter_iframe"  frameborder="0" name="go_Monitor" height="0" width="0"></iframe>
+
+
+<!-- footer part-->
+<footer id="footer_bar" class="footer">
+  <div class="container" >
+      <span class="text-muted">Powered by APAC FT CoE &emsp;&emsp;&emsp;&emsp;Xiongya.li@bayer.com&emsp;Chun.lyu@bayer.com</span>
+  </div>
+</footer>
+
+<!-- for start anm part-->
+<style>
+@keyframes onLoad {
+  from {
+    background: #FFF;
+  }
+  to {
+    background: #22292B;
+  }
+}
+
+
+.wrapper_out{
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  background: #FFF;
+  animation: onLoad 0.3s ease 0s forwards;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper .container {
+  height: 64px;
+  position: relative;
+}
+
+.wrapper .container .name {
+  margin-bottom: 10px;
+  position: relative;
+  height: 64px;
+  overflow: hidden;
+}
+
+@keyframes loadName {
+  from {
+    transform: translateY(64px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.wrapper .container .name span {
+  display: inline-block;
+  font-size: 4em;
+  color: #FFF;
+  transform: translateY(64px);
+}
+
+.wrapper .container .name span:nth-child(1) {
+  animation: loadName 0.3s ease 0.5s forwards;
+}
+
+.wrapper .container .name span:nth-child(2) {
+  animation: loadName 0.3s ease 0.6s forwards;
+}
+
+.wrapper .container .name span:nth-child(3) {
+  animation: loadName 0.3s ease 0.7s forwards;
+}
+
+.wrapper .container .name span:nth-child(4) {
+  animation: loadName 0.3s ease 0.8s forwards;
+}
+
+.wrapper .container .name span:nth-child(6) {
+  animation: loadName 0.3s ease 0.9s forwards;
+}
+
+.wrapper .container .name span:nth-child(7) {
+  animation: loadName 0.3s ease 1.0s forwards;
+}
+
+.wrapper .container .name span:nth-child(8) {
+  animation: loadName 0.3s ease 1.1s forwards;
+}
+
+.wrapper .container .name span:nth-child(9) {
+  animation: loadName 0.3s ease 1.2s forwards;
+}
+
+.wrapper .container .name span:nth-child(10) {
+  animation: loadName 0.3s ease 1.3s forwards;
+}
+
+.wrapper .container .name span:nth-child(11) {
+  animation: loadName 0.3s ease 1.4s forwards;
+}
+
+
+@keyframes loadLine {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.wrapper .container .line {
+  height: 4px;
+  background: linear-gradient(to right, #ff0066 0%, #ff00cc 100%);
+  width: 0%;
+  border-radius: 50px;
+  animation: loadLine 0.5s ease 1.5s forwards;
+}
+
+@keyframes fadeSubIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wrapper .container .sub {
+  margin-top: 15px;
+}
+
+.wrapper .container .sub p {
+  opacity: 0;
+  color: #FFF;
+  letter-spacing: 4px;
+  animation: fadeSubIn 1s ease 2s forwards;
+}
+
+</style>
+
+
+<!-- for main page part-->
+<style>
+  .main{
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index:1;
+  }
+</style>
+
+<!--for footer part-->
+<style>
+  .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.text-muted {
+    color: #6c757d!important;
+}
+
+</style>
+
+
+
+
+<!-- Modal part   -->
+<div class="modal fade " id="Model_Engine_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Title</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<di class="row">
+          <div class="col-sm-6">
+            <h5>Region</h5>
+            <select id="select4">
+              <option value="-1"></option>
+              <option value="1">APAC</option>
+              <option value="2">NA</option>
+              <option value="3">EMEA</option>
+              <option value="4">LATAM</option>
+            </select>
+          </div>
+          <div class="col-sm-6">
+            <h5>Model</h5>
+            <select id="select5">
+              <option value="-1"></option>
+              <option value="1">INSTINC</option>
+              <option value="2">Disease Prediction</option>
+              <option value="3">Product Placement</option>
+              <option value="4">...</option>
+            </select>
+          </div>
+        </di>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Summit</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div>
+</div>
+<!-- for modal select part-->
+<div id="for_select_menu">
+  <link rel="stylesheet" href="css/tinyselect.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/tinyselect.js"></script>
+  <script>
+    /* This parser let's the component to handle selection */
+
+    $("#select4").tinyselect({ 
+      showSearch:false
+    });
+  
+    $("#select5").tinyselect({ 
+      showSearch:false
+    });
+  
+    </script>
+  </div>
+
+<!--tooltip-->
+  <!--tooltip-->
+  <script type="text/javascript" src="js/jTippy.min.js"></script>
+  <link rel="stylesheet" href="css/jTippy.min.css">
+<script>
+        $('#Field_Trail_tooltip').jTippy({
+            title:'Field Trail',
+            position: "left",
+            theme: 'green',
+            size: 'medium'
+        }).on('jt-show', function(e, tooltip){}).on('jt-hide', function(){});
+        $('#Demonstrate_Result_tooltip').jTippy({
+            title:'Demonstrate Result',
+            position: "right",
+            theme: 'green',
+            size: 'medium'
+        }).on('jt-show', function(e, tooltip){}).on('jt-hide', function(){});
+        $('#Decision_Science_tooltip').jTippy({
+            title:'Decision Science',
+            position: "left",
+            theme: 'green',
+            size: 'medium'
+        }).on('jt-show', function(e, tooltip){}).on('jt-hide', function(){});
+        $('#Model_Engine_tooltip').jTippy({
+            position: "top",
+            theme: 'green',
+            size: 'medium',
+            title:'Model Engine',
+        }).on('jt-show', function(e, tooltip){}).on('jt-hide', function(){});
+        $('#Data_Worker_tooltip').jTippy({
+            title:'Data Worker',
+            position: "right",
+            theme: 'green',
+            size: 'medium'
+        }).on('jt-show', function(e, tooltip){}).on('jt-hide', function(){});
+        
+
+
+
+
+</script>
+
+<!-- main animation script-->
+<script>
+  //  $("#start_page_anm").hide();
+    $("#nav_bar").hide();
+    $("#main_page").hide();
+    $("#footer_bar").hide();
+    setTimeout('$("#start_page_anm").slideUp("slow")',3200);
+    setTimeout('$("#nav_bar").show()',3250);
+    setTimeout('$("#footer_bar").show()',3250);
+    setTimeout('$("#main_page").show()',3600);
+    $("#Moniter_link").click(function(){
+              $("#StartPage").hide()
+              $("#Moniter_iframe").attr("src","./monitor.html")
+              $("#Moniter_iframe").attr("height","90%")
+              $("#Moniter_iframe").attr("width","100%")
+              $("#Moniter_iframe").attr("style","margin-top:5%")
+              $("#main_page").hide();
+          })
+    $("#Main_Page_link").click(function(){
+              $("#Moniter_iframe").hide();
+              $("#main_page").show();
+          })
+  </script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

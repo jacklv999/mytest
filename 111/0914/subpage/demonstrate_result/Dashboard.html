@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.3/jquery.csv.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.ddslick.min.js" ></script>
+</head>
+<body style="background: #f9f7f6; height: 100%;" >
+
+    <div class="main">
+        <h1 style="text-align: left;">Dashboard</h1>
+
+        <!--bar chart part-->
+        <div  id="bar_container" style="height: 400px" class="chart"></div>
+        <div id = "btn_group" class="btn_group">
+                <div class="row col-sm-12">
+                    <button id="Load_Data" class="btn btn-primary col-sm-2">Load_Data </button>
+                    <button id="change_Y_axis" class="btn btn-primary col-sm-2">Change Y Axis </button>
+                    <button id="bar_to_line" class="btn btn-primary col-sm-2">Line </button>
+                    <button id="smooth_bar_to_line" class="btn btn-primary col-sm-2">Smooth Line</button>
+                    <button id="bar_to_scatter" class="btn btn-primary col-sm-2">Scatter</button>
+                    <button id="bar_to_pie" class = "btn btn-primary col-sm-2"> Pie</button>
+                </div>
+                <div class="row col-sm-12" style="margin-top: 1%;">
+                    <button id="add_new_bar" class = "btn btn-primary col-sm-3">Add New Bar</button>
+                    <button id="add_new_line" class = "btn btn-primary col-sm-3">Add New Line</button>
+                    <button id="add_new_scatter" class = "btn btn-primary col-sm-3">Add New Scatter</button>
+                    <button id="add_new_pie" class = "btn btn-primary col-sm-3">Add New Pie</button>
+                </div>
+        </div>
+    </div>
+
+<script>
+    $("#add_new_bar").click(function(){
+        Current_Options = myChart.getOption()
+        Current_Options.series.push({type:"bar"})
+        myChart.setOption(Current_Options)
+    })
+    $("#add_new_line").click(function(){
+        Current_Options = myChart.getOption()
+        Current_Options.series.push({type:"line"})
+        myChart.setOption(Current_Options)
+    })
+    $("#add_new_pie").click(function(){
+        Current_Options = myChart.getOption()
+        Current_Options.series.push({type:"pie"})
+        myChart.setOption(Current_Options)
+    })
+    $("#add_new_scatter").click(function(){
+        Current_Options = myChart.getOption()
+        Current_Options.series.push({type:"scatter"})
+        myChart.setOption(Current_Options)
+    })
+</script>
+
+
+
+
+
+</body>
+<!--script for bar chart-->
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById("bar_container"));
+    var data;
+
+    $.get("https://xn--p3t50i.top/mytest/Book1.csv").done(function (data) {
+        data = $.csv.toArrays(data)
+        $("#Data").val(data)
+        $("#DataName").val(data[0])
+        myChart.setOption({
+            legend: {},
+            tooltip: {},
+            dataset: [{source: data},],
+            xAxis: {type: 'category'},
+            yAxis: {},
+            series: [{type: 'bar'},]
+        });
+    });
+
+function CLC(){
+    var ddData = []
+    var tmp_Data = $("#DataName").val()
+
+    for (var i in tmp_Data){
+        json_tmp = {text: tmp_Data[i],value:i};
+        ddData.push(json_tmp)
+    }
+    $('#change_X_axis').ddslick({
+        data: ddData,
+        width: 200,
+        selectText: "Choose X Axis",
+        onSelected: function (data) {
+            var SelectedIndex = $('#change_X_axis').data('ddslick').selectedIndex
+            myChart.setOption({
+                series: [{
+                    encode:{x:SelectedIndex}
+                }
+            ]
+            });
+        }
+    });
+    $('#change_Y_axis').ddslick({
+        data: ddData,
+        width: 200,
+        selectText: "Choose Y Axis",
+        onSelected: function (data) {
+            var SelectedIndex = $('#change_Y_axis').data('ddslick').selectedIndex
+            myChart.setOption({
+                series: [{
+                    encode:{y:SelectedIndex}
+                }
+            ]
+            });
+        }
+    });
+}
+$("#Load_Data").click(function(){
+    CLC()
+})
+
+$("#bar_to_line").click(function(){
+            myChart.setOption({
+                series: [{
+                    type: 'line',
+                }
+            ]
+            });
+        })
+
+$("#smooth_bar_to_line").click(function(){
+            myChart.setOption({
+                series: [{
+                    smooth: true,
+                }
+            ]
+            });
+        })
+
+$("#bar_to_scatter").click(function(){
+            myChart.setOption({
+                series: [{
+                    type: 'scatter',
+                }
+            ]
+            });
+        })
+
+$("#bar_to_pie").click(function(){
+        myChart.setOption({
+            series: [{
+                type: 'pie',
+            }
+        ]
+        });
+    })
+
+</script>
+
+
+
+<div style="display: none;" class="chart">
+    <img src="https://img0.baidu.com/it/u=2755257033,3892461476&fm=253">
+    <div class="contentPart">
+        <p>This is your Content Place.</p>
+    </div>
+</div>
+    <!-- style for hover chart -->
+    <style>
+        .hover_chart {
+            height: 400px;
+            width: 50%;
+            display: inline-block;
+            position: relative;
+        }
+        
+        .hover_chart .chart {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            transition: all 0.4s;
+            -webkit-transition: all 0.4s;
+            -o-transition: all 0.4s;
+            transition: all 0.4s;
+            position: relative;
+            z-index: 100;
+            bottom: 0;
+            left: 0;
+        }
+        .hover_chart:hover .chart {
+            bottom: 90px;
+        }
+        .hover_chart .contentPart {
+            position: absolute;
+            left: 0px;
+            width: 100%;
+            height: 28%;
+            bottom: 0px;
+            background-color: #8fa0aa;
+            opacity: 1;
+            -webkit-transition: all 0.4s;
+            -o-transition: all 0.4s;
+            transition: all 0.4s;
+        }
+    </style>
+
+    <style>
+        /*width: 650px;height: 400px;*/
+        .main{
+            text-align: center;
+            background-color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            z-index:1;
+        }
+    </style>
+
+
+</html>

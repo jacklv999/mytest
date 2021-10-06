@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_API</title>
+    <script src="../js/jquery.min.js"></script>
+    <link href="../css/bootstrap.min.css"  rel="stylesheet" type="text/css" > 
+    <script src="../js/bootstrap.min.js"></script> 
+</head>
+<body><!--  style="background: #f9f7f6;"    -->
+    <div class="main">
+        <h3 style="text-align: left;" >Weather_API </h3>
+        <label  class="hidden col-sm-12" style="height: 1px;"></label>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#Manual" data-toggle="tab">Manual Input</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#InputByFile" data-toggle="tab">Input By File</a>
+            </li>
+        </ul>
+        <span  class="hidden col-sm-12" style="height: 1px;"></span>
+        <div class="tab-content">
+            <div class="tab-pane active" id="Manual">
+                <form id="form_manual"  class="form-inline " role="form">
+                    <div class="row form-group  col-sm-12">
+                      <label class="control-label col-sm-2">Lon&emsp;</label>
+                      <input type="number" min="70" max="130" step="0.00001" name="Lon" class="form-control col-sm-4" placeholder="Longitude: 73 - 136">
+                      <label class="control-label col-sm-2 ">Lat&emsp;</label>
+                      <input type="number" min="18" max="54" step="0.00001" name="Lat" class="form-control col-sm-4" placeholder="Latitude: 18 - 54">
+                    </div>
+                    <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                    <div class="row form-group col-sm-12 ">
+                        <label class="control-label col-sm-2">Type&emsp;</label>
+                        <select id="type" class="form-control col-sm-10" name="type">
+                            <option value="0">&emsp;</option>
+                            <option value="current">Current</option>
+                            <option value="historical">Historical</option>
+                            <option value="hourly">Hourly Prediction</option>
+                            <option value="daily">Daily Prediction</option>
+                        </select>
+                    </div>
+                    <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                    <div class="row form-group col-sm-12">
+                        <label class="control-label col-sm-2">Start time</label>
+                        <input type="date" class="form-control col-sm-4" name="start_time" placeholder="start time">
+                        <label class="control-label col-sm-2">End time</label>
+                        <input type="date" class="form-control col-sm-4" name="end_time" placeholder="end time">
+                    </div>
+                    <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                    <div class="form-group col-sm-12">
+                        <button type="reset" class="btn btn-primary col-sm-4">reset</button>
+                        <label  class="hidden col-sm-4"></label>
+                        <button id="get_weather" type="button" class="btn btn-primary col-sm-4 pull-right">submit</button>
+                    </div>
+                    <label  class="hidden col-sm-12" style="height: 10px;"></label>
+                    <textarea id="test" class="form-control col-sm-11" style="margin-left: 4%;height: 100px;"  readonly></textarea> 
+                </form>
+                
+            </div>
+            <div class="tab-pane fade" id="InputByFile">
+                <p>Coming Soon</p>
+            </div>
+        </div>        
+    </div>
+
+
+
+    <style>
+        .main{
+            text-align: center;
+            background-color: #fff;
+            position: absolute;
+            width: 650px;
+            height: 400px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            z-index:1;
+        }
+        .form-inline label {
+            justify-content: left;
+        }
+    </style>
+    <script>
+        weather_api_base_url = "http://101.35.140.136:9000/weather_api/?"
+        
+     //   weather_api_base_url = "http://192.168.1.4:900/weather_api/?"
+        $("#get_weather").click(function(){
+            send_para = $("#form_manual").serialize();
+            weather_api_url = weather_api_base_url+send_para;
+            $.get(weather_api_url,function(data, status){
+                $("#test").text(data)
+            });
+
+
+        })
+    </script>
+</body>
+</html>

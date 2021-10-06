@@ -9,6 +9,11 @@
 - [Python的FFI编程](./Python的FFI编程.html) 
 - [Python虚拟环境及打包](./Python虚拟环境及打包.html) 
 - [Python EXE解包及pyc反编译](./反编译Pyinstaller打包文件.html) 
+- [Python EXE拖拽运行](./Python EXE拖拽运行.html) 
+- [Python 执行字符串](./Python 执行字符串.html) 
+- [Python调用命令行](./Python调用命令行.html) 
+- [Python字符串切片](./Python字符串切片.html) 
+- [Send mail by Python](./Send mail by Python.html) 
 
 ## GUI Programming
 
@@ -17,6 +22,13 @@
 - [DPG使用细节笔记](./DPG使用细节笔记.html) 
 - [利用拖拽工具生成PythonGUI](./利用拖拽工具生成PythonGUI.html) 
 - [Python tkinter编程](./Python tkinter编程.html) 
+
+## Flask后端
+
+- [Flask简单示例](./Flask简单示例.html) 
+- [Flask 异步任务](./Flask 异步任务.html) 
+- [Flask on Tencent Cloud](./Flask on Tencent Cloud.html) 
+- [Flask JSON传输图片](./Flask JSON传输图片.html) 
 
 
 
