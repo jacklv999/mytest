@@ -223,6 +223,8 @@ D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\变分推断简述.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\变分推断简述.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\基于 flow 的生成模型.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\基于 flow 的生成模型.md
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV形态学操作.html
+D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\CV形态学操作.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Finetuning.html
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\Finetuning.md
 D:\PythonCode\Pages\mytest\mytest\读书笔记\ML&DL\CVPaper\README.md
