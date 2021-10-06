@@ -284,6 +284,8 @@
 .\读书笔记\ML&DL\变分推断简述.md
 .\读书笔记\ML&DL\基于 flow 的生成模型.html
 .\读书笔记\ML&DL\基于 flow 的生成模型.md
+.\读书笔记\ML&DL\CVPaper\CV形态学操作.html
+.\读书笔记\ML&DL\CVPaper\CV形态学操作.md
 .\读书笔记\ML&DL\CVPaper\Finetuning.html
 .\读书笔记\ML&DL\CVPaper\Finetuning.md
 .\读书笔记\ML&DL\CVPaper\README.md

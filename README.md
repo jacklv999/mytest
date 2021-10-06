@@ -3,7 +3,10 @@
 
 
 
+
 - [ ] 1006[Flask Task Monitor](./读书笔记/CS/Python/Flask Task Monitor.html)
+- [ ] 1006[CV形态学操作](./读书笔记/ML&DL/CVPaper/CV形态学操作.html)
+
 - [ ] 1004[Rust简明教程](./读书笔记/CS/Rust/Rust简明教程.html)
 - [ ] 1004[Send mail by Python](./读书笔记/CS/Python/Send mail by Python.html)
 - [ ] 1004[Less教程](./读书笔记/CS/前端相关/Less教程.html)
@@ -32,6 +35,7 @@
 - [ ] 0727[高清R绘图](./读书笔记/CS/R语言学习笔记/高清R绘图.html)
 - [ ] 0727[PowerApp笔记](./读书笔记/CS/cs/Office相关/PowerApp笔记.html)
 - [ ] 0727[Python EXE拖拽运行](./读书笔记/CS/Python/Python EXE拖拽运行.html)
+>>>>>>> 8b6f3ca1f9581b6756230c88c81e094b52eff33d
 - [ ] 0531[禁止Chrome登录](./读书笔记/CS/前端相关/禁止Chrome登录.html)
 - [ ] 0517[面板数据分析](./读书笔记/计量经济学/面板数据分析.html)
 - [ ] 0512[IV 估计框架下模型设定检验问题的讨论](./读书笔记/计量经济学/IV 估计框架下模型设定检验问题的讨论.html)
