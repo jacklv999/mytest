@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1007[Git Config](./读书笔记/CS/cs/Git Config.html)
 - [ ] 1006[CV形态学操作](./读书笔记/ML&DL/CVPaper/CV形态学操作.html)
 <<<<<<< HEAD
 - [ ] 1006[CV形态学操作](./读书笔记/ML&DL/CVPaper/CV形态学操作.html)
