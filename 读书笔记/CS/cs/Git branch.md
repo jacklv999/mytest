@@ -6,10 +6,25 @@
 
 当安装新的git时, 我们首先需要初始化git, 首先假设我们已经创建文件夹, 并且在 shell 里切换到了该文件夹. 
 
+**创建SSH Key**
+
+通常情况下, 不同的repo需要不同的 `ssh key`, 所以, 当我们新建 repo 的时候, 也需要创建新的 `ssh key`.
+
 ```bash
 # gen ssh key and add it to GitHub
 ssh-keygen -t rsa -C "mail@mail.com"
 
+# ssh agent, needed when 'Could not open a connection
+#  to your authentication agent.'
+eval `ssh-agent -s`
+
+# add it to bash
+ssh-add ~/.ssh/id_rsa
+```
+
+**初始化repo**
+
+```bash
 # configure git accunt
 git config user.name "your name"
 git config user.email "mail@mail.com"
