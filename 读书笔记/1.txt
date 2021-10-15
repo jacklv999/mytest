@@ -238,7 +238,8 @@
 .\读书笔记\CS\前端相关\闭包与立即执行函数.md
 .\读书笔记\IDEA整理\36个问题.html
 .\读书笔记\IDEA整理\36个问题.md
-.\读书笔记\IDEA整理\Note on 华侨城 Annual Report.md
+.\读书笔记\IDEA整理\Business Model Analysis (华侨城).html
+.\读书笔记\IDEA整理\Business Model Analysis (华侨城).md
 .\读书笔记\IDEA整理\README.md
 .\读书笔记\IDEA整理\不如意事常八九.html
 .\读书笔记\IDEA整理\习惯.html
