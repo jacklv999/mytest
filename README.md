@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1015[Note for Data Analyst Interview](./读书笔记/Business Related/Note for Data Analyst Interview.html)
 - [ ] 1015[Business Model Analysis (华侨城)](./读书笔记/IDEA整理/Business Model Analysis (华侨城).html)
 - [ ] 1014[RF and Ensemble](./读书笔记/ML&DL/MLArticles/RF and Ensemble.html)
 - [ ] 1012[Hash Table](./读书笔记/CS/cs/Hash Table.html)

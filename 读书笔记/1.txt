@@ -1,6 +1,9 @@
 .\读书笔记\1.txt
 .\读书笔记\README - 副本.md
 .\读书笔记\README.md
+.\读书笔记\Business Related\Note for Data Analyst Interview.html
+.\读书笔记\Business Related\Note for Data Analyst Interview.md
+.\读书笔记\Business Related\README.md
 .\读书笔记\CS\cs\Chrome快捷键.html
 .\读书笔记\CS\cs\Chrome快捷键.md
 .\读书笔记\CS\cs\CMD脚本.html
