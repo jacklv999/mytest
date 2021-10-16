@@ -66,3 +66,37 @@ we should understand data operating, and know all the indicators of DA.
 - Income indicators
 
     - total income, payed user amount, ARPU(average revenge per user)
+
+**Data buried point**
+
+there are three steps for choosing buried points:
+
+- Analysis product’s function and business procedure:
+    - Find out the target;
+    - find out the key indicators;
+    - Find out all influence factors;
+    - Planing the upstream and downstream end point, and make sure the reusablity of end point;
+- Planing the data analysis framework by:
+    - Key performance indicators route
+    - product convert route
+- Documentation for front end and backend developers
+
+**A/B Test**
+
+the standard procedure of A/B test is as follows:
+
+- Decide the experiment point;
+- Choosing key indicators;
+- Decide the user amount of experiment;
+- A/B test gray roll out: make sure there no unacceptable results;
+- A/B test full roll out;
+- Analysis Result: usually, we would use more one week data
+
+Possible question and solution:
+
+- Why no revenue while A/B test is significant?
+    - Outside environment analysis: does there are important thing happens?
+        User Analysis: may be user changed, and others
+- How would you do if all indicators are insignificant?
+    - More detailed analysis, such as daily; 
+    - analysis about change point, it can also give us some result on what the user really want
