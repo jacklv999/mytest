@@ -121,7 +121,7 @@ JOIN table2
 ON table1.column_name=table2.column_name;
 ```
 
-**11. 聚合SELECT: UNION**
+**11. 聚合SELECT: UNION**, used to combine `select` result, and the return of different select clause must have same column name and data type;
 
 ```sql
 SELECT column_name(s) FROM table1

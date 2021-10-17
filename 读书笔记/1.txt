@@ -31,6 +31,8 @@
 .\读书笔记\CS\cs\Open API Note.html
 .\读书笔记\CS\cs\Open API Note.md
 .\读书笔记\CS\cs\README.md
+.\读书笔记\CS\cs\SQL Evolution.html
+.\读书笔记\CS\cs\SQL Evolution.md
 .\读书笔记\CS\cs\SQL教程.html
 .\读书笔记\CS\cs\SQL教程.md
 .\读书笔记\CS\cs\vm_register.html
