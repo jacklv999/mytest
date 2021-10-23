@@ -36,7 +36,12 @@
 - [ ] 0811[JS AJAX Note](./读书笔记/CS/前端相关/JS AJAX Note.html)
 - [ ] 0811[JS Slider插件](./读书笔记/CS/前端相关/JS Slider插件.html)
 - [ ] 0811[JS下拉选择框](./读书笔记/CS/前端相关/JS下拉选择框.html)
+<<<<<<< HEAD
 - [ ] 0730[Flask简单示例](./读书笔记/CS/Python/Flask简单示例.html) 
 
+=======
+- [ ] 111
+------
+>>>>>>> 38199d05c8fb2a2f53b2f31ad3021e379a659e83
 
 # [IMPORTANT](https://www.zhihu.com/collection/70812410) 
