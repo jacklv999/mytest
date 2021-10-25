@@ -4,6 +4,7 @@
 .\读书笔记\Business Related\100道经典行测图形推理题.doc
 .\读书笔记\Business Related\Data Scientist JD Summary.html
 .\读书笔记\Business Related\Data Scientist JD Summary.md
+.\读书笔记\Business Related\Eight Q of P&G.html
 .\读书笔记\Business Related\Eight Q of P&G.md
 .\读书笔记\Business Related\FA JD Collection.txt
 .\读书笔记\Business Related\Group Interview Note.html
@@ -16,6 +17,8 @@
 .\读书笔记\Business Related\README.md
 .\读书笔记\Business Related\行测题解题思路.html
 .\读书笔记\Business Related\行测题解题思路.md
+.\读书笔记\CS\cs\Big Data Review.html
+.\读书笔记\CS\cs\Big Data Review.md
 .\读书笔记\CS\cs\Chrome快捷键.html
 .\读书笔记\CS\cs\Chrome快捷键.md
 .\读书笔记\CS\cs\CMD脚本.html

@@ -1,5 +1,7 @@
 ## Eight Q of P&G
 
+Refer to:  https://www.zhihu.com/question/19889186
+
 #### 1. Have you ever set a high target? if yes, how did you achieve it?
 
 - **prologue**: Using the experience of getting through National Judicial Examination as an example;
@@ -41,23 +43,41 @@
     - Third, I introduce to him the current NLP progress and show him how can NLP help us in policy measurement, besides,  the needed skills.
 - **Result**: we using the NLP way, it much better effects than traditional solution, and this paper has been praised by our supervisor and other prof.
 
+#### 5. Give an example of how you worked effectively with people to accomplish an important result.
 
-
-
-
-
-
-https://www.zhihu.com/question/19889186
-
-
-
-
-
-- College micro film: took the initiative + get others to complete + leading role
+- **Prologue**: College micro film:
 - **Situation**: When I was in college, I love photography and some of friend are crazy fan of comic, and then we made a more crazy plan: to shoot our own film
-- **Task**: Filing a movie is not a easy job, actors, photographer, scriptwriter, light engineer, we need the cooperation of dozen of people. And I was the director, and in response to unite all person together.
+- **Task**: Filing a movie is not a easy job, actors, photographer, scriptwriter, light engineer, we need the cooperation of dozen of people.
 - **Action**: In order to do this, 
-    - I first recruit a team: scriptwriter, photographer, actors and so on. Not only from my friends, but also the whole college who were interested in movie;
-    - And then, I trying to divide the whole objective into four small task: actors training and scriptwriting, equipments preparation, movie shooting, post-production;
-    - In every stage, I find the best man and unite all people together to 
-- **Result**: 
+    - We first recruit a team: scriptwriter, photographer, actors and so on. I love photogragh, so I take the job of photograph, and I find another people for related job, My friends were take the job of scriptwriter.
+    - Besides,we have a schoolwide actors recuite. We latter have interview, and select the best people for our movie;
+    -  And we have pursdue our familiar coffee store’s boss to support our movie shoot for money;
+    - And then, We trying to divide the whole objective into small task: actors training and scriptwriting, equipments preparation, movie shooting, post-production. Because of our perfect cooperation, all jobs done well.
+- **Result**: This movie were finally get it done. We then post it on Bilibili, and we have Home Page recommendation in that day.
+
+#### 6. Describe a creative/innovative idea that you produced which led to a significant contribution to the success of an activity or project.
+
+#### 7. Provide an example of how you assessed a situation and achieved good results by focusing on the most important priorities.
+
+
+
+
+
+#### 8. Provide an example of how you acquired technical skills and converted them to practical application. 
+
+- **Prologue**: Using the experience of study JavaScript to build data platform as an example
+- **Situation**: When I was in bayer internship. My manager want to unite all data analysis procedure into a single platform. He once did similar work in NA and now he want to repeat it in APAC. It’s a very interesting job for me, so I take this job.
+- **Task**: Building a platform need not only data analysis skills, but also front-end and back-end skills. I know Python back-end, so the difficult part for me is the front end. I need to study this rare unfamiliar part;
+- **Action**: 
+    - I first do a search to choose my tech stack, after some research, I choose a most used one: jQuery + Bootstrap;
+    - Then I learn the basic knowledge about this two framework, just know what it can do and not dig into;
+    - After that, I dig into the project, figure out the develop stage of this project, and what I need to learn;
+    - I study the correspond part, and then use it in the actually work. In the whole process, I stick the rules that `learning by doing`.
+- **Result**: In the two month, I wrote the MVP of this platform, and this work get praise from high level leader of bayer APAC.
+
+
+
+
+
+
+

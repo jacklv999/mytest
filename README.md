@@ -3,6 +3,8 @@
 
 
 
+- [ ] 1025[Big Data Review](./读书笔记/CS/cs/Big Data Review.html)
+- [ ] 1025[Eight Q of P&G](./读书笔记/Business Related/Eight Q of P&G.html)
 - [ ] 1025[Interview Note](./读书笔记/Business Related/Interview Note.html)
 - [ ] 1025[Group Interview Note](./读书笔记/Business Related/Group Interview Note.html)
 - [ ] 1025[行测题解题思路](./读书笔记/Business Related/行测题解题思路.html)
