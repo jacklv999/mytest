@@ -1,64 +1,57 @@
 ## Note for Tencent Financial
 
-#### 1. Group Interview
+JD: https://join.qq.com/post_detail.html?pid=1&id=222&tid=5
+
+### 1. Group Interview
 
 Product related
 
 群面主要还是偏向于产品题目，鹅厂重产品，群面基本上都是和产品相关的；
 
-#### 2. 1 v 1 Interview
+### 2. 1 v 1 Interview
 
-英文自我介绍
+##### **Self Introduction**
 
-- What is the most successful project that you ever made?
-    - 
-- What is the most failed project you ever made? What is it influence on you?
-- 
+- “教育背景+实习经历+岗位理解+匹配岗位的三个素质”
+- 我叫吕纯, 来自华中农业大学, 专业是产业经济学. 了解财务知识, CPA过了两门; 熟悉Python和R的数据分析, 在拜耳有数据分析的实习;
+- 在拜耳的实习期间, 我主要负责包帮市场部门和试验部门进行数据分析和可视化, 以用于宣传和报告等; 以及数据分析平台的搭建, 让用户可以仅靠点一次或多次鼠标就能获得指定数据和数据分析结果
+- 腾讯财经分析类负责金融市场分析和财务数据分析, 我觉得我的CPA和数据分析技能在
 
+##### **What is the most successful project that you ever made?**
 
+- data analysis platform
 
-1、自我介绍：缩减了一波，从原来的4分钟减到2分钟
+##### **What is the most failed project you ever made? What is it influence on you?**
 
-“教育背景+实习经历+岗位理解+匹配岗位的三个素质”
+- one of my project: peer effects and innovation diffusion
+- I try every solution to solve this problem. 
+- I know pretty much about MCMC algorithm in this process
 
+##### What do you think about financial analysis?
 
+- according to my understand of JD, this job are mean to use financial knowledge and data analysis skills to
+    - understand macro economic status and meso industrial status;
+    - analysis in-house financial data to finally optimizating resource usage;
+    - monitoring abnormal indicators to prevent risk
 
-4、举一个你觉得成功的项目
+##### Career plan
 
-反思：一定要结合投递的岗位！！！我就是踩坑了，我说了自己全职的一个项目操作，开始进入连环发问就知道自己似乎要翻车了。。。
+- In the current situation, I am familiar with data analysis, but it’s just a tool. I know the basic knowledge about account, but it is not enough;
+- I choosing this job because I was noticed that Tencent were look for person who know financial and have data analysis skills
+-  In the next 3-5 years, I want to be a financial expert and to know a specific area
 
+##### What kind of person do you dislike in the work?
 
+- Do not keep his word
+    - business is build upon trust. If we can not trust others, the work would be super hard.
 
-2. 对xxx岗位有什么看法
+##### Name a example for you creativity?
 
-4. 未来的职业规划是什么样的
-5. 为什么选择xxx岗位
+- Using NLP to evaluate policy
 
-1.在实习过程中最大的收获
+##### What do you learn from your intern experience ? What’s your biggest challenge in intern ?
 
-2.实习过程中面临的最大挑战
-
-1.为什么选择腾讯？
-2.追星吗？
-3.工作中不喜欢什么样的人 性格方面？
-4.具体某段实习中做的最好、最有成就感的事情是什么，连续追问事情从头到尾的过程，非常细节的考核。
-
-性格方面，最喜欢什么样的领导品质，最受不了怎样得性格。做过实习最深刻的一个。对薪资的要求等
-
-实习经历：学到了什么，工作中遇到什么困难
-
-遇到比较懒散拖沓的团队怎么办
-
-说一个能体现你创新能力的例子
-
-你的优缺点是什么
-
-你的积极性和主动性怎么样
-
-#### case面
-
-【case面】淘汰率50％左右（不过据说去年鹅财经线260:1,对比[群面]()9进1.2左右，概率也算ok）。具体问题不能透漏，不过会给48h做ppt，  
-
-产品的一个问题，腾讯的文档功能可以有什么改进，至少三个功能，然后根据我们提出分问题，说是否可以大众化，然后有没有补充
-
-case是腾讯现在研发一款语音助手，我们需要根据这款产品设定目标用户和三项核心需求。
+- What do I learned? there are two part:
+    - First, the data analysis skills, including repeat measure data analysis, standard data analysis procedure, data analysis pipeline and so on;
+    - Second, how to manage our work? how to spilt the job into small milestone, and how to deliver
+- The biggest challenge is Indian English

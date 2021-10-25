@@ -13,6 +13,7 @@
 .\读书笔记\Business Related\Interview Note.md
 .\读书笔记\Business Related\Note for Data Analyst Interview.html
 .\读书笔记\Business Related\Note for Data Analyst Interview.md
+.\读书笔记\Business Related\Note for Tencent Financial.html
 .\读书笔记\Business Related\Note for Tencent Financial.md
 .\读书笔记\Business Related\README.md
 .\读书笔记\Business Related\行测题解题思路.html

@@ -7,4 +7,5 @@
 - [行测题解题思路](./行测题解题思路.html) 
 - [Eight Q of P&G](./Eight Q of P&G.html) 
 - [The Journey Of React](./Front-end/React学习之道.html) 
+- [Note for Tencent Financial](./Note for Tencent Financial.html) 
 
