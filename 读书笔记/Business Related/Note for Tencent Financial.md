@@ -1,19 +1,5 @@
 ## Note for Tencent Financial
 
-#### 0. 线上笔试
-
-“腾讯的笔试一共1.5h，分为两大部分，第一部分40题单选*2.5分（60min），包括行测和专业知识。
-
-第二部分是3选2的简答题，每道题10分（30min）。
-
-具体而言：第一部分 1. 行测模块 包括图形推理、逻辑推理、数列规律和语言理解。图形推理和数列规律占比较大。2. 专业知识模块 全英，考察会计专业知识，涉及CPA，CMA，ACCA等（据说）。个人感觉考题设置得十分customized， 都是和腾讯的业务特点相关的。
-
-另外，不仅涉及CAS，还有IFRS和US GAAP。考察概率较高的可概括为如下几项：研发费用、合并报表、稀释每股收益、递延所得税、现金流量表等。
-
-第二部分 全英，可以用 4.5的三道题分别是Fintech公司的预算、三大报表述评、研发费用的处理 4.6的三道题分别是外币折算（local currency, reporting currency, functional currency的选择），境外投资的估值模型，商誉无形资产的管理
-
-
-
 #### 1. Group Interview
 
 Product related
@@ -25,6 +11,7 @@ Product related
 英文自我介绍
 
 - What is the most successful project that you ever made?
+    - 
 - What is the most failed project you ever made? What is it influence on you?
 - 
 
