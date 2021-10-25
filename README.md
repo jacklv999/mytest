@@ -3,6 +3,9 @@
 
 
 
+- [ ] 1025[Interview Note](./读书笔记/Business Related/Interview Note.html)
+- [ ] 1025[Group Interview Note](./读书笔记/Business Related/Group Interview Note.html)
+- [ ] 1025[行测题解题思路](./读书笔记/Business Related/行测题解题思路.html)
 - [ ] 1017[SQL Evolution](./读书笔记/CS/cs/SQL Evolution.html)
 - [ ] 1016[Data Scientist JD Summary](./读书笔记/Business Related/Data Scientist JD Summary.html)
 - [ ] 1015[Note for Data Analyst Interview](./读书笔记/Business Related/Note for Data Analyst Interview.html)
