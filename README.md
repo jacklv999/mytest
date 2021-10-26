@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1026[JD Summary](./读书笔记/Business Related/JD Summary.html)
 - [ ] 1025[Note for Tencent Financial](./读书笔记/Business Related/Note for Tencent Financial.html)
 - [ ] 1025[React学习之道](./读书笔记/Business Related/Front-end/React学习之道.html)
 - [ ] 1025[Big Data Review](./读书笔记/CS/cs/Big Data Review.html)
