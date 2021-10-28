@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1028[Leetcode SQL Note (01 - 10)](./读书笔记/CS/cs/Leetcode SQL Note (01 - 10).html)
 - [ ] 1026[JD Summary](./读书笔记/Business Related/JD Summary.html)
 - [ ] 1025[Note for Tencent Financial](./读书笔记/Business Related/Note for Tencent Financial.html)
 - [ ] 1025[React学习之道](./读书笔记/Business Related/Front-end/React学习之道.html)

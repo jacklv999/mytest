@@ -13,9 +13,13 @@
 - [文件头](./文件头.html) 
 - [Git Branch](./Git branch.html) 
 - [Git Config](./Git Config.html) 
+- [Hash Table](./Hash Table.html) 
+
+## SQL Related
+
 - [SQL教程](./SQL教程.html) 
 - [SQL Evolution](./SQL Evolution.html) 
-- [Hash Table](./Hash Table.html) 
+- [Leetcode SQL practice: I](./Leetcode SQL Note (01 - 10).html) 
 
 ## Markdown
 
