@@ -141,27 +141,187 @@ from (
 **Question**:
 
 ```mysql
+Traffic: 
++---------+----------+---------------+
+| user_id | activity | activity_date |
++---------+----------+---------------+
+| 1       | login    | 2019-05-01    |
+| 4       | login    | 2019-06-21    |
+| 4       | groups   | 2019-06-21    |
+| 5       | login    | 2019-03-01    |
+| 5       | login    | 2019-06-21    |
+Result: 
++------------+-------------+
+| login_date | user_count  |
++------------+-------------+
+| 2019-05-01 | 1           |
+| 2019-06-21 | 1           |
 ```
 
 **Solution**:
 
 ```mysql
+with min_day as (
+select user_id,
+       min(activity_date) as first_day
+from traffic
+where activity = "login"
+group by user_id
+having datediff(date("2019-06-30"), first_day) <= 90
+)
+
+select distinct first_day as login_date,
+       count(*) over(partition by first_day) as user_count
+from min_day
 ```
 
-- About `where` and `having` clause:
-  - 
+#### 5. People read articles more than two
 
-
+**Question**:
 
 ```mysql
-+---------+----------+---------------+
-| user_id | activity | activity_date |
-+---------+----------+---------------+
-| 1       | login    | 2019-05-01    |
-| 2       | login    | 2019-06-21    |
-| 4       | login    | 2019-06-21    |
-| 5       | login    | 2019-03-01    |
-| 5       | login    | 2019-06-21    |
-+---------+----------+---------------+
+Views table:
+| article_id | author_id | viewer_id | view_date  |
++------------+-----------+-----------+------------+
+| 1          | 3         | 5         | 2019-08-01 |
+| 1          | 3         | 6         | 2019-08-02 |
+| 2          | 7         | 7         | 2019-08-01 |
+| 2          | 7         | 6         | 2019-08-02 |
+Result table:
+| id   |
++------+
+| 6    |
+```
+
+**Solution**:
+
+- In the complex ordering, we could group by multiple field;
+
+```mysql
+select distinct viewer_id as id
+from views
+group by viewer_id,view_date
+having count(distinct article_id) > 1
+order by viewer_id
+```
+
+#### 6. Retention calculation
+
+**Question**:
+
+for a giving login data, return retention ratio of every day;
+
+**Solution**:
+
+- Using `group by` and `min` to find the first day of every user;
+
+- Using `row_number` to find the second day of every user;
+- Using `datediff` to filter user who logined in second day;
+- Using `if` clause to create dummy variable of retented user;
+- Deleting duplicated user id and login date, and join table;
+- Using `ifnull` to handle zero problem;
+
+```mysql
+with tmp_1 as (
+    select *,
+           row_number() over(partition by player_id order by event_date) as rank_num
+    from activity
+),
+tmp_2 as (
+    select *
+    from tmp_1
+    where rank_num = 2
+    group by player_id
+),
+tmp_3 as (
+    select player_id,
+       min(event_date) as first_day
+from activity
+group by player_id
+),
+tmp_4 as (
+    select tmp_3.player_id,
+       first_day,
+       tmp_2.event_date as day_2
+from tmp_3
+left join tmp_2
+on tmp_3.player_id = tmp_2.player_id
+),
+tmp_5 as (
+    select player_id, first_day,
+       if(datediff(day_2, first_day) = 1,1,0) as login_second
+from tmp_4
+)
+
+select distinct first_day as install_dt,
+       count(*) as installs,
+       round(ifnull(sum(login_second)/count(*),0),2 ) as Day1_retention
+from tmp_5
+group by first_day
+```
+
+#### 7. Pivot table
+
+**Question**:
+
+```mysql
+# Input
+| name   | continent |
+|--------|-----------|
+| Jack   | America   |
+| Pascal | Europe    |
+| Xi     | Asia      |
+| Jane   | America   |
+
+# output
+| America | Asia | Europe |
+|---------|------|--------|
+| Jack    | Xi   | Pascal |
+| Jane    |      |        |
+```
+
+**Solution**:
+
+- Using `with as` clause to  filter every continent’s students;
+- Using `row_number` to create `key` for every sub-table
+- Joining sub-table by `key` create in last clause
+
+```mysql
+with 
+America_students as (
+    select *,
+           row_number() over() as rk
+    from student
+    where continent = "America"
+    order by name
+),
+Asia_students as (
+    select *,
+           row_number() over() as rk
+    from student
+    where continent = "Asia"
+    order by name
+),
+Europe_students as (
+    select *,
+           row_number() over() as rk
+    from student
+    where continent = "Europe"
+    order by name
+),
+res_table_1 as (
+    select America_students.rk, America_students.name as America,
+       Asia_students.name as Asia
+from America_students
+left join Asia_students
+on America_students.rk = Asia_students.rk
+)
+
+select America,
+       Asia,
+       Europe_students.name as Europe
+from res_table_1
+left join Europe_students
+on Europe_students.rk = res_table_1.rk
 ```
 

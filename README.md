@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1030[Leetcode SQL Note (31 - 40)](./读书笔记/CS/cs/Leetcode SQL Note (31 - 40).html)
 - [ ] 1029[Leetcode SQL Note (21-30)](./读书笔记/CS/cs/Leetcode SQL Note (21-30).html)
 - [ ] 1029[Leetcode SQL Note (11 - 20)](./读书笔记/CS/cs/Leetcode SQL Note (11 - 20).html)
 - [ ] 1028[Leetcode SQL Note (01 - 10)](./读书笔记/CS/cs/Leetcode SQL Note (01 - 10).html)
