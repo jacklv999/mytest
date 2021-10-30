@@ -76,20 +76,92 @@ where activity_date
 
 - About `active_date`: far more effective than hard code date
 
+    - return the day diff of first minus second
+
     ```mysql
     select *
     from Activity
     where datediff('2019-07-27',activity_date) <30 
     ```
 
-- SQL  alias: Using `with as`:
+- SQL  alias: Using `with as` to define clause slices, 
+
+    - `with as` clause must close to the clause use it;
+    - multiple `as` are allowed;
+    - Last `with as` can be used by latter `with as ` clause;
 
     ```mysql
-    with tmp as (
-        select user_id
-        from activity
-    )
+    with tmp_1 as (select A from tmp_0),
+    	 tmp_2 as (select B from tmp_1)
     ```
 
-    
+#### 3. Spam remove ratio
+
+**Question**:
+
+```mysql
+Actions table:
+| user_id | post_id | action_date | action | extra  |
++---------+---------+-------------+--------+--------+
+| 2       | 2       | 2019-07-04  | report | spam   |
+| 3       | 4       | 2019-07-04  | report | spam   |
+| 4       | 3       | 2019-07-02  | report | spam   |
+| 5       | 2       | 2019-07-03  | report | racism |
+Removals table:          
+| post_id | remove_date |   # Result table:
++---------+-------------+   # | average_daily_percent |
+| 2       | 2019-07-20  |   # +-----------------------+
+| 3       | 2019-07-18  |   # | 75.00                 |
+```
+
+**Solution**:
+
+```mysql
+select round(
+            avg(avg_day)*100,
+       2) as average_daily_percent
+from (
+    select action_date,
+           count(r.post_id)/count(new_1.post_id) 
+           as avg_day
+    from(
+        select distinct post_id,
+               action_date
+        from actions
+        where extra = 'spam'
+    )new_1
+    left join removals r 
+    on new_1.post_id = r.post_id
+    group by action_date
+)new_2
+```
+
+#### 4. Daily new user summary
+
+**Question**:
+
+```mysql
+```
+
+**Solution**:
+
+```mysql
+```
+
+- About `where` and `having` clause:
+  - 
+
+
+
+```mysql
++---------+----------+---------------+
+| user_id | activity | activity_date |
++---------+----------+---------------+
+| 1       | login    | 2019-05-01    |
+| 2       | login    | 2019-06-21    |
+| 4       | login    | 2019-06-21    |
+| 5       | login    | 2019-03-01    |
+| 5       | login    | 2019-06-21    |
++---------+----------+---------------+
+```
 
