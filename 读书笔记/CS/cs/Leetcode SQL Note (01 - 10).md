@@ -39,7 +39,7 @@ group by player_id
            ) as n
     from Activity
     ```
-    
+  
 - **NOTE**: It can only be used in `select` clause;
   
 
@@ -190,7 +190,7 @@ where salary_rank in (
 
     - Filtering data
 
-        - `Where`: Must used before `group by` clause;
+        - `Where`: Must used before `group by` clause, return records for `group by` clause;
 
             ```mysql
             select id,
@@ -200,14 +200,14 @@ where salary_rank in (
             group by id
             ```
 
-        - `Having`:
+        - `Having`: filtering `group` that satisfied `having` requirement;
 
             ```mysql
             select id,
                    score
             from Tab_Name
             group by id
-            having score > 80
+            having max(score) > 80
             ```
 
     - Aggregate function
