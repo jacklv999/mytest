@@ -1,4 +1,4 @@
-## Leetcode SQL Note (01 - 10)
+## SQL Note (01 - 10)
 
 #### 1. Find first login time
 
