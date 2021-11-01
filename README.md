@@ -3,15 +3,14 @@
 
 
 
-- [ ] 1101[React学习之道](./读书笔记/CS/前端相关/Front-end/React学习之道.html)
+- [ ] 1101[The Journey of React](./读书笔记/CS/前端相关/Front-end/React学习之道.html) 
 - [ ] 1101[Leetcode SQL Note (41 - 50)](./读书笔记/CS/cs/Leetcode SQL Note (41 - 50).html)
 - [ ] 1030[Leetcode SQL Note (31 - 40)](./读书笔记/CS/cs/Leetcode SQL Note (31 - 40).html)
-- [ ] 1029[Leetcode SQL Note (21-30)](./读书笔记/CS/cs/Leetcode SQL Note (21-30).html)
+- [ ] 1029[Leetcode SQL Note (21 - 30)](./读书笔记/CS/cs/Leetcode SQL Note (21-30).html)
 - [ ] 1029[Leetcode SQL Note (11 - 20)](./读书笔记/CS/cs/Leetcode SQL Note (11 - 20).html)
 - [ ] 1028[Leetcode SQL Note (01 - 10)](./读书笔记/CS/cs/Leetcode SQL Note (01 - 10).html)
 - [ ] 1026[JD Summary](./读书笔记/Business Related/JD Summary.html)
 - [ ] 1025[Note for Tencent Financial](./读书笔记/Business Related/Note for Tencent Financial.html)
-- [ ] 1025[React学习之道](./读书笔记/Business Related/Front-end/React学习之道.html)
 - [ ] 1025[Big Data Review](./读书笔记/CS/cs/Big Data Review.html)
 - [ ] 1025[Eight Q of P&G](./读书笔记/Business Related/Eight Q of P&G.html)
 - [ ] 1025[Interview Note](./读书笔记/Business Related/Interview Note.html)
