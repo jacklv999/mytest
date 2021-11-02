@@ -16,22 +16,36 @@
 
 **Self introduction**:
 
-- I am a student of HZAU major in industrial economics, familiar with Python, R and data analysis. 
-- During school, I have two data analysis experience with R, the main purpose is using R to clean and analysis data to find out how people influence by others people. During this process, some of algorithm I used were wrote into a R package, I learn pretty much about R data analysis skills;
-- I also have data analysis intern in bayer. I was  participated in data analysis platform building. Using Python and Javascript to build a platform that could make people analysis and visualization data by clicks; besides, I was also response for market/field trailing data analysis and visualization;  
-- I like this job is because 
-- I am suitable for this job because I am familiar with data analysis pipeline, I was research personal behavior in the master, and I have experience in data platform building.
+- Standard One
+  - I am a student of HZAU major in industrial economics, familiar with Python, R and data analysis. 
+  - During school, I have two data analysis experience with R, the main purpose is using R to clean and analysis data to find out how people influence by others people. During this process, some of algorithm I used were wrote into a R package, I learn pretty much about R data analysis skills;
+  - I also have data analysis intern in bayer. I was  participated in data analysis platform building. Using Python and Javascript to build a platform that could make people analysis and visualization data by clicks; besides, I was also response for market/field trailing data analysis and visualization;  
+  - I am apply for this job is because the digitization and 
+  - I am suitable for this job because I am familiar with data analysis pipeline, I was research personal behavior in the master, and I have experience in data platform building.
+- Short One:
+  - Hello, everyone, I am lvchun from HZAU, I am familiar with account and law, and I had passed law certification exam and CPA. Besides, I am familiar with data analysis and I had internship in Bayer.
 
 **为什么选择蒙牛，对蒙牛有什么了解**:
 
 **群面是无领导小组讨论，我们当时的题目是初创公司有五个合伙人，他们应该如何划分职权**:
 
-**遇到的最大的困难是什么，最后如何解决的？**
+**遇到的最大的困难是什么，最后如何解决的**:
 
-**为什么来蒙牛？**
+**为什么来蒙牛**:
 
-**你近几年的职业规划是什么？**
+**你近几年的职业规划是什么**:
 
-**介绍一次成功的团队合作经历；**
+**介绍一次成功的团队合作经历**:
 
-**介绍一下你在实习或社团活动中最有成就感的一件事**
+**介绍一下你在实习或社团活动中最有成就感的一件事**:
+
+
+
+
+
+
+
+
+
+
+
