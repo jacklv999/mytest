@@ -4,6 +4,7 @@
 .\读书笔记\Business Related\100道经典行测图形推理题.doc
 .\读书笔记\Business Related\Data Scientist JD Summary.html
 .\读书笔记\Business Related\Data Scientist JD Summary.md
+.\读书笔记\Business Related\Digitization Manager Trainee.md
 .\读书笔记\Business Related\Eight Q of P&G.html
 .\读书笔记\Business Related\Eight Q of P&G.md
 .\读书笔记\Business Related\FA JD Collection.txt

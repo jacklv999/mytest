@@ -26,7 +26,7 @@
 - Example: limit to 90s
   - Data Analysis
     - I am a student of HZAU major in industrial economics, familiar with Python, R and data analysis. 
-    - I have two data analysis experience in school with R, the main purpose is using R to clean and analysis data to find out how people influence by others people, And some of algorithm I used were wrote into a R package, I learn pretty much about R data analysis skills in this process;
+    - During school, I have two data analysis experience with R, the main purpose is using R to clean and analysis data to find out how people influence by others people, And some of algorithm I used were wrote into a R package, I learn pretty much about R data analysis skills in this process;
     - I also have data analysis intern in bayer. I was response for market/field trailing data analysis and visualization; besides, I was also participated in data analysis platform building. Using Python and Javascript to build a platform that could make people analysis and visualization data by clicks
     - I am suitable for this job because I am familiar with data analysis, I was research personal behavior in the master, and I have experience in data platform building.
   - Market & Industrial Analysis
