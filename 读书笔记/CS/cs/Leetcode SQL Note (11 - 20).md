@@ -1,6 +1,8 @@
 ## Leetcode SQL Note (11 - 20)
 
-#### 1. Salary of last three month
+#### 1. Salary of last three month accumulate salary
+
+- Using window function
 
 ```mysql
 select id, 
@@ -29,6 +31,8 @@ order by id asc,month desc
     - `rows 2 preceding` 
 
 #### 2. count students num
+
+- `jion` table to compute different `dept`‘s student num;
 
 ```mysql
 select distinct dept_name,
@@ -83,6 +87,8 @@ where max_money > 1 and max_city = 1
 ```
 
 #### 5. Sorting on order number
+
+- Using `order` and `aggregate function` ;
 
 ```mysql
 select  customer_number
@@ -183,6 +189,8 @@ order by a.seat_id
         ```
 
 #### 8. Tree Node
+
+- Classifying tree node type;
 
 ```mysql
 select id,

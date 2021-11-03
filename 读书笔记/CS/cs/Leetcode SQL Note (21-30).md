@@ -73,6 +73,9 @@ where followee in (
 
 #### 3. Comparison department salary 
 
+- Using window function to compute `dept mean` and `com mean`;
+- Using `case when` to get new column name;
+
 ```mysql
 select distinct pay_month,
        department_id,
@@ -214,6 +217,3 @@ FROM(
 ) a 
 GROUP BY first_day
 ```
-
-#### 7. Students reports
-

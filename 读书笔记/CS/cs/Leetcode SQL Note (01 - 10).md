@@ -89,6 +89,8 @@ where r_n = 1
 
 #### 3. Aggregated played games
 
+- Using default window function range to compute accumulative sum;
+
 ```mysql
 select player_id,
        event_date, 
@@ -163,7 +165,8 @@ and datediff(all_record.event_date, second_day.min_date) = 1
 
 #### 5. Middle Salary 
 
-- Using `row_rank` and `round` function to compute middle salary
+- Using `row_rank` and `round` function to compute middle salary;
+- Using `where in` to handling even and odd rank number;
 
 ```mysql
 select id, Company, Salary
@@ -301,8 +304,8 @@ and
    rank_2 >= ceiling(total_num/2)
 ```
 
-- Using two column to compute median index
-    - using ascending and descending
+- **Using two column to compute median index**
+    - **using ascending and descending**
 
 #### 8. Get most popular candidate
 
@@ -340,6 +343,8 @@ where id = (
     - Then, compute aggregated value and sorting
 
 #### 9. Get bonus
+
+- Select employee has bonus < 1000;
 
 ```mysql
 select name,
