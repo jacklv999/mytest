@@ -31,20 +31,20 @@
 - **Action**: we do this task by several steps:
     - **Divide this big problem into some small question**: the first step is to do survey and demand analysis. It is very hard to deliver the product satisfy those three target in one step. And we also do not need to achieve those three target simultaneously. So, we first analysis those requirement and make a version plan. The 0.1 version is a convenient one, the 0.5 version is a convenient and easy one, the 1.0 version is our target;
     - **Search and Comparing related tools**: There are many candidate solution for us to this target: Echart, Highchart, GoogleChart, D3 and so on. We need to choose one and using it as our foundation. After reading their document, writing small demos and watching their show case, I did some comparison of those product. And we finally choose Echart as our answer.
-    - **Learning and Line by Line Coding**: After I choose the Echart, I start my development. Reading its document, startint from its case code, study high level API, then writing the code, unit test, document line by line.
+    - **Learning and Line by Line Coding**: After I choose the Echart, I start my development. Reading its document, starting from its case code, study high level API, then writing the code, unit test, document line by line.
 - **Result**: After two weeks of hard coding, In the time I leave, I deliver the 0.5 version, ergo visualization data by click and build simple visual templete by several clicks. The user can build their own data visualization template by several clicks and after that, every time when they want to see this data or chart again, They just need one or two clicks. And I had learned pretty much about JavaScript and Echart in this process.
 
 **What your career plan?** 
 
-- From now on, I am the theory knowledge about data analysis and basic knowledge about data platform building. 
-- In the next three to five years, I want to know the whole process of enterprise digitization and the actual front line business. I hope I can become the digitization expert, deliver fully digitization value alone, take a major role in a business line of MN. 
+- The digitization will be the core competence advantage of future companies. How to digitize current working pipeline and using digitization to empower business are important. 
+- In the current situation, I know the theory knowledge about data analysis and basic knowledge about data system building, including data collection, data storage, data analysis and data visualization. 
+- In the next three to five years, I want to master the whole process of enterprise digitization system and having the profound knowledge about actual front line business. Besides, enrich my data analysis skills in the further steps. I hope I can become the digitization leader, lead a team to build and deliver fully digitization value, take a major role in a business line of MN. 
 
 **Introducing a successful team work** 
 
-- 
-
-**Introducing your most pride experience** 
-
+- Using my experience 
 - 
 
 **Why MN ?** 
+
+- 

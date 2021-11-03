@@ -2,6 +2,8 @@
 .\读书笔记\README - 副本.md
 .\读书笔记\README.md
 .\读书笔记\Business Related\100道经典行测图形推理题.doc
+.\读书笔记\Business Related\Data Compliance.html
+.\读书笔记\Business Related\Data Compliance.md
 .\读书笔记\Business Related\Data Scientist JD Summary.html
 .\读书笔记\Business Related\Data Scientist JD Summary.md
 .\读书笔记\Business Related\Digitization Manager Trainee.html
