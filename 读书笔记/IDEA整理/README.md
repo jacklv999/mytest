@@ -12,17 +12,11 @@
 - [习惯养成和神经系统](./习惯养成和神经系统.html) 
 - [36个问题](./36个问题.html) 
 - [英国政府改革历程](./撒切尔和梅杰政府时期的英国文官制度改革.html) 
-- [Business Model Analysis (华侨城)](./Business Model Analysis (华侨城).html) 
 - [Rethink the Importance of Advices](./Rethink the Importance of Advices.html) 
-
-
-
-## 工作相关
-
-- [如何了解一个行业 ? ](./如何了解一个行业.html) 
 
 
 
 ## 投资
 
 - [易方达张坤访谈](./易方达张坤访谈.html) 
+- [如何了解一个行业 ? ](./如何了解一个行业.html) 
