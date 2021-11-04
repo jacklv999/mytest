@@ -281,6 +281,7 @@
 .\读书笔记\IDEA整理\Business Model Analysis (华侨城).html
 .\读书笔记\IDEA整理\Business Model Analysis (华侨城).md
 .\读书笔记\IDEA整理\README.md
+.\读书笔记\IDEA整理\Rethink the Importance of Advices.html
 .\读书笔记\IDEA整理\Rethink the Importance of Advices.md
 .\读书笔记\IDEA整理\不如意事常八九.html
 .\读书笔记\IDEA整理\习惯.html

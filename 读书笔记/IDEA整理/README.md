@@ -13,6 +13,7 @@
 - [36个问题](./36个问题.html) 
 - [英国政府改革历程](./撒切尔和梅杰政府时期的英国文官制度改革.html) 
 - [Business Model Analysis (华侨城)](./Business Model Analysis (华侨城).html) 
+- [Rethink the Importance of Advices](./Rethink the Importance of Advices.html) 
 
 
 

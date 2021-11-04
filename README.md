@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1104[Rethink the Importance of Advices](./读书笔记/IDEA整理/Rethink the Importance of Advices.html)
 - [ ] 1103[Data Compliance](./读书笔记/Business Related/Data Compliance.html)
 - [ ] 1103[Digitization Manager Trainee](./读书笔记/Business Related/Digitization Manager Trainee.html)
 - [ ] 1101[The Journey of React](./读书笔记/CS/前端相关/Front-end/React学习之道.html) 
