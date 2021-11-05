@@ -3,7 +3,7 @@
 
 
 
-- [ ] 1104[Business Model Analysis (华侨城)](./读书笔记/Business Related/Business Model Analysis (华侨城).html)
+- [ ] 1104
 - [ ] 1104[Rethink the Importance of Advices](./读书笔记/IDEA整理/Rethink the Importance of Advices.html)
 - [ ] 1103[Data Compliance](./读书笔记/Business Related/Data Compliance.html)
 - [ ] 1103[Digitization Manager Trainee](./读书笔记/Business Related/Digitization Manager Trainee.html)
