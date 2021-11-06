@@ -321,21 +321,10 @@
 .\读书笔记\IDEA整理\阅读的核心.html
 .\读书笔记\IDEA整理\阅读的核心.md
 .\读书笔记\ML&DL\56421.jpg
-.\读书笔记\ML&DL\About graph neural network.html
-.\读书笔记\ML&DL\About graph neural network.md
 .\读书笔记\ML&DL\Hseg.ipynb
-.\读书笔记\ML&DL\MLP-Mixer笔记.html
-.\读书笔记\ML&DL\MLP-Mixer笔记.md
 .\读书笔记\ML&DL\MNIST CNN.ipynb
 .\读书笔记\ML&DL\MNIST UNet.ipynb
 .\读书笔记\ML&DL\README.md
-.\读书笔记\ML&DL\RF and Ensemble.md
-.\读书笔记\ML&DL\VAE.html
-.\读书笔记\ML&DL\VAE.md
-.\读书笔记\ML&DL\变分推断简述.html
-.\读书笔记\ML&DL\变分推断简述.md
-.\读书笔记\ML&DL\基于 flow 的生成模型.html
-.\读书笔记\ML&DL\基于 flow 的生成模型.md
 .\读书笔记\ML&DL\CVPaper\CV形态学操作.html
 .\读书笔记\ML&DL\CVPaper\CV形态学操作.md
 .\读书笔记\ML&DL\CVPaper\Finetuning.html
@@ -500,9 +489,19 @@
 .\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-9---Tips-for-Training-DNN.html
 .\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\目录.html
 .\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\目录.md
+.\读书笔记\ML&DL\MLArticles\About graph neural network.html
+.\读书笔记\ML&DL\MLArticles\About graph neural network.md
+.\读书笔记\ML&DL\MLArticles\MLP-Mixer笔记.html
+.\读书笔记\ML&DL\MLArticles\MLP-Mixer笔记.md
 .\读书笔记\ML&DL\MLArticles\README.md
 .\读书笔记\ML&DL\MLArticles\RF and Ensemble.html
 .\读书笔记\ML&DL\MLArticles\RF and Ensemble.md
+.\读书笔记\ML&DL\MLArticles\VAE.html
+.\读书笔记\ML&DL\MLArticles\VAE.md
+.\读书笔记\ML&DL\MLArticles\变分推断简述.html
+.\读书笔记\ML&DL\MLArticles\变分推断简述.md
+.\读书笔记\ML&DL\MLArticles\基于 flow 的生成模型.html
+.\读书笔记\ML&DL\MLArticles\基于 flow 的生成模型.md
 .\读书笔记\ML&DL\NLP\README.md
 .\读书笔记\ML&DL\NLP\seq2seq解析.html
 .\读书笔记\ML&DL\NLP\seq2seq解析.md

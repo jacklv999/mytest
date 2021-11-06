@@ -3,7 +3,13 @@
 
 
 
-- [ ] 1104
+- [ ] 1106[MLP-Mixer笔记](./读书笔记/ML&DL/MLArticles/MLP-Mixer笔记.html)
+- [ ] 1106[基于 flow 的生成模型](./读书笔记/ML&DL/MLArticles/基于 flow 的生成模型.html)
+- [ ] 1106[About graph neural network](./读书笔记/ML&DL/MLArticles/About graph neural network.html)
+- [ ] 1106[变分推断简述](./读书笔记/ML&DL/MLArticles/变分推断简述.html)
+- [ ] 1106[VAE](./读书笔记/ML&DL/MLArticles/VAE.html)
+
+
 - [ ] 1104[Rethink the Importance of Advices](./读书笔记/IDEA整理/Rethink the Importance of Advices.html)
 - [ ] 1103[Data Compliance](./读书笔记/Business Related/Data Compliance.html)
 - [ ] 1103[Digitization Manager Trainee](./读书笔记/Business Related/Digitization Manager Trainee.html)
