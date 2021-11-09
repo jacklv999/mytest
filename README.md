@@ -3,6 +3,10 @@
 
 
 
+- [ ] 1109[Mastering Reading Skills](./读书笔记/IDEA整理/Mastering Reading Skills.html)
+- [ ] 1109[Learning to speak](./读书笔记/语言篇/Learning to speak.html)
+- [ ] 1109[AboutPresentation](./读书笔记/语言篇/AboutPresentation.html)
+- [ ] 1109[How to do things](./读书笔记/IDEA整理/How to do things.html)
 
 
 - [ ] 1104[Rethink the Importance of Advices](./读书笔记/IDEA整理/Rethink the Importance of Advices.html)

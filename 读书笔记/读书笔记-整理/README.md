@@ -1,8 +1,6 @@
 # 读书笔记-整理 
 
 ### 1. 读书随记
-[About Presentation](./AboutPresentation.html) 
-
 [关于“所写即所得“](./读书随记-·-所写即所得-.html) 
 
 [《高难度谈话》读书后记](./《高难度谈话》读书后记.html) 
