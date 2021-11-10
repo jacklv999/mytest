@@ -49,6 +49,8 @@ Now, we know our target, but how can we do it?
 - By repeating story, article, or our daily life;
     - Or impromptu speech by specific topic
         - Topic candidate: Shanbay daily news;
+- **Note**: not only repeat to yourself, but also to others
+    - it makes your know the think path of different people
 
 #### 3. Being Funny
 
@@ -78,8 +80,17 @@ In a simply math function:
 - Turning Point - Down: Although the man do its best and reach its target, but there is still a narrow missing. And the scientists give this results before;
 - Turning Point - UP: the last hope, they did not count the spaceship, using this one, they reach their target and it succeed.
 
-**How to train it**: **Repeat** 
+**How to train it**: 
+
+**Repeat** 
 
 Trying to repeat your daily life, article, stories as more as you can!
 
 The practice makes perfect !
+
+**Impromptu Speech**
+
+Giving speech by random words, such as vegetable, ruler, car, stock and so on. 
+
+It makes you to understand the relationship between things and to train your imagination!
+

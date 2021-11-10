@@ -72,34 +72,4 @@ HR面试一般会在最后问你一些要求，试探你的薪资预期，这些
 
 
 
-https://www.nowcoder.com/intelligentTest
-
-http://www.100mian.com/mianshi/shujufenxishi/5002.html
-
-http://www.100mian.com/mianshi/shujufenxishi/5006.html
-
-https://blog.csdn.net/u013382288/article/details/80452569
-
-
-
-https://blog.csdn.net/u013382288/article/details/80390316
-
-https://blog.csdn.net/u013382288/article/details/81148373
-
-https://blog.csdn.net/u013382288/article/details/80390304
-
-https://blog.csdn.net/u013382288/article/details/80431824
-
-https://blog.csdn.net/u013382288/article/details/80450360
-
-https://blog.csdn.net/u013382288/article/details/80390324
-
-https://blog.csdn.net/u013382288/article/details/80470316
-
-https://blog.csdn.net/u013382288/article/details/80417681
-
-https://www.nowcoder.com/discuss/100521?type=2
-
-https://zhuanlan.zhihu.com/p/269114587
-
-https://jishuin.proginn.com/p/763bfbd2f8f2
+https://www.nowcoder.com/intelligentTest 

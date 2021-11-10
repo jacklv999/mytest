@@ -1,178 +1,71 @@
 ## Representation Framework
 
-- Surprising audience
+#### 1. Three step framework
+
+Telling your story in three step:
+
+- Surprising audience:
+  - Arousing audiences’ curiosity in the first time
 - Giving a joke
+  - Making it funny during story
+    - one or two joke
 - Giving a lesson
+  - Giving some useful or value enlightenments
 
+**Example One**:
 
+**Example Two**:
 
-练习一件事情讲10次，跟你的老板，同事，技术，顾客，经销商，朋友解释这件事情。
-这样让你练习理解不同人的思维方式。
+#### 2. Special Atmosphere
 
+Using the reversal plot:
 
+- Giving a ridiculous situation, such as two man on the bed;
+- Then making the atmosphere becomes tense;
+- After that, exhibiting background and making it reasonable, show off newness;
 
+**Example One**:
 
+**Example Two**:
 
-还可以练习用几个随机词组造句，讲出几个不同版本的效果。比如：芝麻，直尺，卡车，股票，微积分。
-这样练习理解不同事物之间的联系，还可以练习想象力。
+#### 3. Reverse Perspective
 
+Using a different perspective to make the story funny, novel and immersive;
 
+**Example One**:
 
+- A story  of monster who has been beaten by automan;
 
+**Example Two**:
 
+#### 4. Symbolization
 
+Do not write your story directly, using the stereotype character to construct your story;
 
+**Example One**:
 
+- the frog and its tail;
 
-1.画面生成法。
- 　　把一个脑海中的画面想象成一个故事的截图，可以是战争，也可以是动作，甚至只是肖像，想象成故事的一部分，然后根据线索把整个故事描述出来，等到故事的高潮，自然地把画面描述出来。
+**Example Two**:
 
-2.冲击高潮法。
-　　设计一个主视角，再设计一个反面角色，但是做出了保护周围人的行为，结果使自己暴露（良知冲击）。
-　　被追杀，但是艰难解决了战斗（习惯冲击）。
-　　被高手追杀，主视角的人物救了反面角色（人格冲击）。
+### Note for Telling A Story
 
-3.特殊氛围法。
-　　先构造一个荒谬事件，例如两个男的在浴室内个。
-　　然后酿造紧张的氛围，塑造人物背景，使事件发生合理，触发新鲜感。
+- Conflicts and surprises
+  - Placing it on the beginning
+  - the key to attract people’s attention;
 
-4.反向视角法。
-　　比如写超级英雄打怪兽，从怪兽的视角去写，形成荒诞效果和代入感。
-
-5.象征法。
-　　不要直接去写故事，而是用各种生物甚至外星人，利用他们的特点，代替你生活中或者虚构中发生故事的主角。
-
-6.悬念法。
-　　塑造一个有怪癖的主角，塑造一个怪异的事件，把事件说圆了形成剧情，把怪癖说圆了形成性格。
-
-
-
-
-
-
-
-
-
-
-
-
-
-到一个有影响力的好故事要有这些特质：
-
-> ***简单\***
-> ***出人意料***
-> ***具体***
-> ***可信\***
-> ***情绪化。。。***
-
-
-
-
-
-
-
-
-
-具体, 而不是抽象
-
-**要具体到别人熟悉的事物，而不是自己熟悉的事物。**
-
-换句话说就是：别让用户思考。
-
-
-
-
-
-
-
-1、先学习讲属于自己的故事，比如你一生中经历过的事情；
-
-2、再去听别人的故事，包括新闻，然后复述；
-
-3、了解故事清晰的基本结构；
-
-4、学会讲细节，让他人听到您的故事，如身临其境，这个除了技巧，还需要肢体和声音的配合。
-
-
-
-
-
-
-
-把对发展、高潮、结局无关紧要的形容词和补充内容删掉。简短有力的故事耐人寻味。
-
-
-
-
-
-1.提起好奇心开场。通过问“你知道吗？”之类的问题，引起别人的好奇心，比如令人震惊的统计结论，比如最近流行的文章，最近的研究，最近的大牛又搞什么事了等等。
-
-
-
-
-
-***一，讲故事前先想三个问题\***
-
-1，为什么: 有筑略地使用故事，让故事服务于你表述的价值观。选择某个故事是为了提出某个观点或唤起某种行动。
-
-2，如何做: 了解好故事应具备的结构，以及拥有讲好故事的信心和能力。
-
-3，是什么: 在正式的场合、正确的时间讲正确的故事，达到你想要的效果和目的。
-
-
-
-
-
-
-
-### ***二，好故事包含的三要素\***
-
-1、情节: 包括问题，选择和结果具体展开可遵循:
-
-**平静生活——意外挫折——跌入谷底——贵人相助——进入巅峰——新的挫折——解决问题——回归平静。**
-
-2、主要人物: 是故事中与观众建立情感联结的人。
-
-3、经验或教训: 引发听众的感情共鸣或切身体会，使其发自内心的受到鼓舞，响应号召，采取行动。
-
-
-
-
-
-
-
-
-
-<b>1, 从微观层面开始讲你的故事。</b>
-
-尽量避免宏大叙事，因为它不太容易把故事说圆说满
-
-刘和平就处理得很好。在《大明王朝1566》中，他只截取了时代的一个断面——明世宗晚年国家发生了财政危机。在此背景下，各方人物你方唱罢我登场。
-
-一开场，周云逸被活生生打死的一幕，比在片头加一百个“嘉靖XX年间，宦官当道，民不聊生”这样的旁白更有说服力得多。
-
-《大明劫》也是个中典范。“劫”的引线李自成甚至都没有正面出场。编剧只说了两个人的故事，医人者吴又可，医国者孙传庭，就已经足够引起强烈的戏剧冲突了。
-
-
-
-
-
-
-
-上面的各位大神的回答都好专业，我想简单些从可操作的角度来谈三点我的想法~
-
-\1. 具象化你的语言
-尽量减少用抽象的形容词，例如“美好的”，“漂亮的” 或者类别型的名词 ，例如“狗”、“猪”。
-
-
-
-\2. 精简你的故事
-*Tony Schwartz 在 The Responsive Chord 一书中认为，当代的信息传播最重要的发展是人们不再青睐于书面信息的传播，而更在乎电子的、音频的或是视频的传播。*在这个信息爆炸的时代，马克思资本论一般巨著往往会输给网络小说和快餐文学，因为在当代值钱的不再是信息，而是人们的注意力。一分钟的标准语速是180字，大多数人对于杂乱的信息只能集中五分钟的注意力，所以讲故事的时候请尽量讲1000字以内的故事。
-
-
-
-\3. 只说自己的故事
-李敖先生在听了两遍胡适先生的讲座之后，有一个非常精辟的总结，说是 “大师之言，不能不听，不可再听。” 因为每个人把一辈子的经历浓缩成两个小时的讲座总是精彩的，可是其实大多数人一辈子也就只能讲那么一个两个小时的故事。李敖先生的这个总结不仅可以指导我们如何选择演讲，同时也告诉了我们大师之言“好听”的原因——讲自己的故事。
+- Being simple and small
+  - Patience is scare, you will lose people’s attention very quickly, ending your story before that.
+    - Deleting unimportant description;
+  - Focusing on small story and Do not touch the big concept;
+    - It is more easy to be attractive, rather than logic uncompleted;
+- Being accurate rather than abstract
+  - Abstract concepts are bad idea, accurate and specific concepts give people immersed feelings;
+  - Explanation is the worst solution, insteaded by simple and imaginal sentence;
+    - the sentence familiar by audience rather than yourself;
+  - Do not let people to think, ask them to imagine and feel;
+- Paying attention to low point, V-story is more powerful;
+  - the low point makes the story;
 
 
 
@@ -184,9 +77,7 @@
 
 《故事思维》里告诉我们，每个人都应该学会去讲六个故事。
 
-如果你把这六个故事始终放在心里，信手捏来，那么无论在商业谈判时，在演讲时，在沟通中，在任何与人打交道的过程中，你都会更有优势。
-
-就好像我们当年考英语的时候，写作和口语都会准备大量的素材。你最喜欢的人，印象最深的地方，对你影响最大的一件事儿等等。在考试前都在脑中打好草稿，准备充分。这样才能在需要讲述的时候表现得游刃有余，才能在需要例子的时候不抓瞎。
+如果你把这六个故事始终放在心里，信手捏来，那么无论在商业谈判时，在演讲时，在沟通中，在任何与人打交道的过程中，你都会更有优势。这样才能在需要讲述的时候表现得游刃有余，才能在需要例子的时候不抓瞎。
 
 从现在开始，思考准备六个故事吧。
 
@@ -243,66 +134,3 @@
 第六个是关于，“我知道你在想什么”的故事
 
 这类故事最大的用途是可以打消别人的担忧。你可以用暗喻的方式说出来，如果听者刚好被你说中心事，那效果必然翻倍。
-
-
-
-
-
-
-
-
-
-**一个起承转合的故事，一定是最低的那个点成就了这个故事。**一个**V字型**的故事是最有力量的。
-
-
-
-
-
-
-
-
-
-蟹妖！
-说起来我自己不算会讲故事的人，不过有一些小的经验可以拿来说说。
-1、开篇介绍切莫冗长；故事之前通常有背景叙述，但是提纲挈领就行了，切莫说的太多。
-2、中间叙述理清人物关系，不要让听者纠结于搞不清故事中的人物。
-3、故事叙述的详略有致，不要一股脑的流水账式，要分清主次。
-4、表情动作要配合，只是干讲很容易让大家听烦，必要时加上配合情景的表情或是帮助理解的肢体动作总能锦上添花。
-
-
-
-
-
-
-
-
-
-
-
-## 1.不要用模糊的概念。
-
-- 比如不要说可能是假，可能是以可能是在去年等等这种模糊的概念，可以用这样说，1978年的6月份。说完之后大家马上开始脑子里面构成画面。
-
-## 2.讲故事不要用解释性的语言。
-
-1. 不要说因为天气很热，所以我穿的很少，倒不如说那天天气太热了，我只穿了一个裤衩。
-2. 也不要说因为台子有8米高，所以站在上面我发抖，还不如说我站在8米高的台子上，双腿发抖。
-
-## 3.学会制造冲突。
-
-- 没有冲突的故事情节，大家很难引人入胜
-
-## 4.故事当中学会讲一些数字，增强自己表达的说服力
-
-- 举个例子，不要说自己很喜欢运动，你可以这样讲，我们每天给自己设置4万步数目标，每周至少有一次长跑。
-
-
-
-
-
-
-
-
-
-
-
