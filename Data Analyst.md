@@ -2,23 +2,22 @@
 
 #### 1. Probability theory
 
-
+- Newcoder test
+    - Ten every day
 
 #### 2. ML theory
 
-
-
-
+- Newcoder test
+    - ten every day
 
 #### 3. SQL 
 
-
+- Leetcode
+    - one every day
 
 #### 4. basic Algorithm
 
 do not need to worry about
-
-
 
 #### 5. Business question
 
@@ -72,4 +71,16 @@ HR面试一般会在最后问你一些要求，试探你的薪资预期，这些
 
 
 
-https://www.nowcoder.com/intelligentTest 
+https://tianchi.aliyun.com/competition/gameList/algorithmList
+
+https://www.nowcoder.com/intelligentTest
+
+- question type
+    - sql + 数据库
+    - 数理统计 + 概率统计 + 机器学习 + 深度学习
+
+
+https://zhuanlan.zhihu.com/p/269114587
+
+
+http://www.100mian.com/mianshi/shujufenxishi/5006.html
