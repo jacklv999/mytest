@@ -282,6 +282,7 @@
 .\读书笔记\IDEA整理\36个问题.md
 .\读书笔记\IDEA整理\How to do things.html
 .\读书笔记\IDEA整理\How to do things.md
+.\读书笔记\IDEA整理\Learning to shut up.md
 .\读书笔记\IDEA整理\Mastering Reading Skills.html
 .\读书笔记\IDEA整理\Mastering Reading Skills.md
 .\读书笔记\IDEA整理\README.md
