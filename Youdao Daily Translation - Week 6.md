@@ -1,5 +1,19 @@
 ## Youdao Daily Translation
 
+#### 1111
+
+**Translation**:
+
+- 往事已成定局，但未来需要我我们去书写。
+- The past has been settled down, but the future is wroted by us;
+- The past is written, but the future is left for us to write.
+
+**Repeat**:
+
+- 吃饭路上想
+
+
+
 #### 1110
 
 **Translation**: 
