@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1112[Note for DA question](./读书笔记/Business Related/Note for DA question.html)
 - [ ] 1110[Representation Framework](./读书笔记/语言篇/Representation Framework.html)
 - [ ] 1109[Mastering Reading Skills](./读书笔记/IDEA整理/Mastering Reading Skills.html)
 - [ ] 1109[Learning to speak](./读书笔记/语言篇/Learning to speak.html)
@@ -61,3 +62,9 @@
 
 
 # [IMPORTANT](https://www.zhihu.com/collection/70812410) 
+
+- I want to get things done for once and for ever
+  - repeat things every day until you mastering it
+- I am tired when lots time passed by;
+  - Making things end as a product
+    - then, your work can be witnessed by others.

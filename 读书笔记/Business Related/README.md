@@ -12,3 +12,8 @@
 - [Digitization Manager Trainee](./Digitization Manager Trainee.html) 
 - [Data Compliance](./Data Compliance.html) 
 
+
+
+## Data Analyst Exam
+
+- [Note for Data Analyst Question](./Note for DA question.html) 

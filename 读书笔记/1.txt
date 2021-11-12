@@ -19,6 +19,8 @@
 .\读书笔记\Business Related\Interview Note.md
 .\读书笔记\Business Related\JD Summary.html
 .\读书笔记\Business Related\JD Summary.md
+.\读书笔记\Business Related\Note for DA question.html
+.\读书笔记\Business Related\Note for DA question.md
 .\读书笔记\Business Related\Note for Data Analyst Interview.html
 .\读书笔记\Business Related\Note for Data Analyst Interview.md
 .\读书笔记\Business Related\Note for Tencent Financial.html
