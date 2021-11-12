@@ -284,7 +284,6 @@
 .\读书笔记\IDEA整理\36个问题.md
 .\读书笔记\IDEA整理\How to do things.html
 .\读书笔记\IDEA整理\How to do things.md
-.\读书笔记\IDEA整理\Learning to shut up.md
 .\读书笔记\IDEA整理\Mastering Reading Skills.html
 .\读书笔记\IDEA整理\Mastering Reading Skills.md
 .\读书笔记\IDEA整理\README.md
@@ -801,6 +800,8 @@
 .\读书笔记\语言篇\AAC目录.md
 .\读书笔记\语言篇\AboutPresentation.html
 .\读书笔记\语言篇\AboutPresentation.md
+.\读书笔记\语言篇\Learning to shut up.html
+.\读书笔记\语言篇\Learning to shut up.md
 .\读书笔记\语言篇\Learning to speak.html
 .\读书笔记\语言篇\Learning to speak.md
 .\读书笔记\语言篇\Pyramid-完整版.md

@@ -5,6 +5,7 @@
 -  [逃不掉争论](./语言篇（三）：逃不掉争论.html) 
 -  [举个栗子](./语言篇（四）：举个栗子.html) 
 -  [我们爱演讲](./语言篇（五）：我们爱演讲.html) 
+-  [Learning to shut up](./Learning to shut up.html) 
 
 
 
