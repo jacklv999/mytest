@@ -2,6 +2,18 @@
 
 ##### \*\*\*\*\*\*\*\*\*\*对每个词或短语组句\*\*\*\*\*\*\*
 
+## 1113
+
+**Translation**:
+
+- 让我们并肩作战
+- Let’s fight together;
+- We’re gonna do this together !
+
+**Repeat**:
+
+- 中午
+
 ## 1112
 
 **Translation**:

@@ -4,6 +4,14 @@
 .\读书笔记\Business Related\100道经典行测图形推理题.doc
 .\读书笔记\Business Related\Business Model Analysis (华侨城).html
 .\读书笔记\Business Related\Business Model Analysis (华侨城).md
+.\读书笔记\Business Related\Data Analyst Database.html
+.\读书笔记\Business Related\Data Analyst Database.md
+.\读书笔记\Business Related\Data Analyst Machine Learning.html
+.\读书笔记\Business Related\Data Analyst Machine Learning.md
+.\读书笔记\Business Related\Data Analyst Probability Theory.html
+.\读书笔记\Business Related\Data Analyst Probability Theory.md
+.\读书笔记\Business Related\Data Analyst SQL.html
+.\读书笔记\Business Related\Data Analyst SQL.md
 .\读书笔记\Business Related\Data Compliance.html
 .\读书笔记\Business Related\Data Compliance.md
 .\读书笔记\Business Related\Data Scientist JD Summary.html
@@ -19,8 +27,6 @@
 .\读书笔记\Business Related\Interview Note.md
 .\读书笔记\Business Related\JD Summary.html
 .\读书笔记\Business Related\JD Summary.md
-.\读书笔记\Business Related\Note for DA question.html
-.\读书笔记\Business Related\Note for DA question.md
 .\读书笔记\Business Related\Note for Data Analyst Interview.html
 .\读书笔记\Business Related\Note for Data Analyst Interview.md
 .\读书笔记\Business Related\Note for Tencent Financial.html

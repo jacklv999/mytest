@@ -22,6 +22,12 @@
 
   When people talk to others, they have their purpose. Chipping in is not welcome unless they just talk for fun or you can help !
 
+##### Are you ready to answer ?
+
+- Shut up if you are not !
+
+  People ask you for a good answer, if you return a bad answer, they will consider you as the person who can only provide bad answer. Then they will lower your opinion in the future!
+
 ##### Are this conversation bad for anyone ?
 
 - Shut up if it is !

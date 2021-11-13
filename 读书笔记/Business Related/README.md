@@ -16,4 +16,7 @@
 
 ## Data Analyst Exam
 
-- [Note for Data Analyst Question](./Note for DA question.html) 
+- [SQL](./Data Analyst SQL.html) 
+- [Database](./Data Analyst Database.html) 
+- [Probability Theory](./Data Analyst Probability Theory.html) 
+- [Machine Learning](./Data Analyst Machine Learning.html) 

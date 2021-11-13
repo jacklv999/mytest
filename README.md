@@ -3,6 +3,10 @@
 
 
 
+- [ ] 1113[Data Analyst Machine Learning](./读书笔记/Business Related/Data Analyst Machine Learning.html)
+- [ ] 1113[Data Analyst SQL](./读书笔记/Business Related/Data Analyst SQL.html)
+- [ ] 1113[Data Analyst Database](./读书笔记/Business Related/Data Analyst Database.html)
+- [ ] 1113[Data Analyst Probability Theory](./读书笔记/Business Related/Data Analyst Probability Theory.html)
 - [ ] 1112[Learning to shut up](./读书笔记/语言篇/Learning to shut up.html)
 - [ ] 1112[Note for DA question](./读书笔记/Business Related/Note for DA question.html)
 - [ ] 1110[Representation Framework](./读书笔记/语言篇/Representation Framework.html)
