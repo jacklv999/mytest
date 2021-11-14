@@ -71,13 +71,11 @@ HR面试一般会在最后问你一些要求，试探你的薪资预期，这些
 
 
 
-https://tianchi.aliyun.com/competition/gameList/algorithmList
-
 https://www.nowcoder.com/intelligentTest
 
 - question type
-    - sql + 数据库
-    - 数理统计 + 概率统计 + 机器学习 + 深度学习
+    - sql + 数据库 + 数理统计 + 概率统计 + 机器学习
+    - 图形逻辑 + 数字逻辑 + 语言逻辑
 
 
 https://zhuanlan.zhihu.com/p/269114587
