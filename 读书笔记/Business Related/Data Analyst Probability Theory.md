@@ -32,5 +32,14 @@
 - ARMA model:
 - GARCH model: 是ARCH模型的拓展， GARCH对误差的 方差进行了进一步的建模，特别适用于波动性的分析和 预测
 
+#### Confidential Zone
 
-
+for a giving event, we were observed N times in M observation, then we have probability:
+$$
+P = \frac{N}{M}
+$$
+then, the confidential zone equals:
+$$
+P \pm Z_{95\%}\times \sigma\\
+\sigma = \sqrt{\frac{P(1-P)}{N}}
+$$
