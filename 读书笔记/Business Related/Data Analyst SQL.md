@@ -85,6 +85,8 @@ DROP TRIGGER
 ```sql
 # grant user privilege
 GRANT
+# grant all database
+GRANT select on BookStore.* to UserA
 
 # deny user privilege
 DENY

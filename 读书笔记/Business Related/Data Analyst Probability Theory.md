@@ -43,3 +43,4 @@ $$
 P \pm Z_{95\%}\times \sigma\\
 \sigma = \sqrt{\frac{P(1-P)}{N}}
 $$
+
