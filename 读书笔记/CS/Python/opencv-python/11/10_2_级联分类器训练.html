@@ -1,0 +1,694 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix { height: auto; margin-top: 16px; margin-bottom: 16px; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+
+
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; outline: 0px; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: auto hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 10px; z-index: 3; overflow-y: hidden; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; overflow-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; inset: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+span.cm-underlined { text-decoration: underline; }
+span.cm-strikethrough { text-decoration: line-through; }
+.cm-tw-syntaxerror { color: rgb(255, 255, 255); background-color: rgb(153, 0, 0); }
+.cm-tw-deleted { text-decoration: line-through; }
+.cm-tw-header5 { font-weight: 700; }
+.cm-tw-listitem:first-child { padding-left: 10px; }
+.cm-tw-box { border-style: solid; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-color: inherit; border-top-width: 0px !important; }
+.cm-tw-underline { text-decoration: underline; }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+ :root {--mermaid-font-zoom:1.5em ;} 
+</style><title>10_2_级联分类器训练</title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='级联分类器'><span>级联分类器  </span></h1><p><span>作者|OpenCV-Python Tutorials </span>
+<span>编译|Vincent </span>
+<span>来源|OpenCV-Python Tutorials </span></p><h3 id='简介'><span>简介</span></h3><p><span>使用弱分类器的增强级联包括两个主要阶段：训练阶段和检测阶段。</span><strong><span>对象检测教程</span></strong><span>中介绍了使用基于HAAR或LBP模型的检测阶段。本文档概述了训练自己的弱分类器的级联所需的功能。当前指南将逐步完成所有不同阶段：收集训练数据，准备训练数据并执行实际模型训练。</span></p><p><span>为了支持本教程，将使用几个官方的OpenCV应用程序：opencv_createsamples，opencv_annotation，opencv_traincascade和opencv_visualisation。</span></p><p><strong><span>重要的事项</span></strong></p><ul><li><span>如果您遇到任何提及旧的opencv_haartraining工具（</span><em><span>不推荐使用，仍在使用OpenCV1.x界面</span></em><span>）的教程，请忽略该教程并坚持使用opencv_traincascade工具。此工具是较新的版本，根据OpenCV 2.x和OpenCV 3.x API用C ++编写。opencv_traincascade支持类似HAAR的小波特征[227]和LBP（局部二进制模式）[127]特征。与HAAR特征相比，LBP特征产生整数精度，产生浮点精度，因此LBP的训练和检测速度都比HAAR特征快几倍。关于LBP和HAAR的检测质量，主要取决于所使用的训练数据和选择的训练参数。可以训练基于LBP的分类器，该分类器将在训练时间的一定百分比内提供与基于HAAR的分类器几乎相同的质量。</span></li><li><span>来自OpenCV 2.x和OpenCV 3.x（</span><strong><span>cv::CascadeClassifier</span></strong><span>）的较新的层叠分类器检测接口支持使用新旧模型格式。如果由于某种原因而使用旧界面，则opencv_traincascade甚至可以旧格式保存（导出）经过训练的级联。然后至少可以在最稳定的界面中训练模型。</span></li><li><strong><span>opencv_traincascade</span></strong><span>应用程序可以使用TBB进行多线程处理。</span>
+<span>要在多核模式下使用它，必须在启用TBB支持的情况下构建OpenCV。</span></li></ul><h3 id='准备训练数据'><span>准备训练数据</span></h3><p><span>为了训练弱分类器的增强级联，我们需要一组正样本（包含您要检测的实际对象）和一组负样本（包含您不想检测的所有内容）。负样本集必须手动准备，而阳性样本集是使用opencv_createsamples应用程序创建的。</span></p><p><strong><span>负样本</span></strong>
+<span>负样本取自任意图像，不包含要检测的对象。这些生成样本的负片图像应列在一个特殊的负片图像文件中，该文件每行包含一个图像路径（可以是绝对路径，也可以是相对路径）。注意，负样本和样本图像也称为背景样本或背景图像，在本文档中可以互换使用。</span></p><p><span>所描述的图像可能具有不同的尺寸。但是，每个图像都应等于或大于所需的训练窗口大小（与模型尺寸相对应，多数情况下是对象的平均大小），因为这些图像用于将给定的负像子采样为几个图像 具有此训练窗口大小的样本。</span></p><p><span>负样本描述文件的示例：目录结构：</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang=""><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 9.33333px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">/img</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  img1.jpg</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  img2.jpg</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">bg.txt</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 91px;"></div><div class="CodeMirror-gutters" style="display: none; height: 91px;"></div></div></div></pre><p><span>文件 bg.txt</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang=""><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 9.33333px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">img/img1.jpg</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">img/img2.jpg </span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 45px;"></div><div class="CodeMirror-gutters" style="display: none; height: 45px;"></div></div></div></pre><p><span>您的一组负窗口样本将用于模型训练，在这种情况下，当尝试查找您感兴趣的对象时，可以增强不需要查找的内容。</span></p><h3 id='正样本'><span>正样本</span></h3><p><span>正样本由opencv_createsamples应用程序创建。提升过程使用它们来定义在尝试找到感兴趣的对象时模型应实际寻找的内容。该应用程序支持两种生成正样本数据集的方式。</span></p><ol start='' ><li><span>您可以从单个正对象图像生成一堆正值。</span></li><li><span>您可以自己提供所有肯定的内容，仅使用该工具将其切出，调整大小并以opencv所需的二进制格式放置。</span>
+<span>尽管第一种方法对固定对象（例如非常刚性的徽标）效果不错，但对于刚性较差的对象，它往往很快就会失效。在这种情况下，我们建议使用第二种方法。网络上的许多教程甚至都指出，通过使用opencv_createsamples应用程序，可以生成100个真实对象图像，而不是1000个人工生成的正值。但是，如果您决定采用第一种方法，请记住以下几点：</span></li></ol><ul><li><span>请注意，在将其提供给上述应用程序之前，您需要多个正样本，因为它仅适用于透视变换。</span></li><li><span>如果您想要一个健壮的模型，请获取涵盖对象类中可能出现的各种变化的样本。例如，对于面孔，您应考虑不同的种族和年龄段，情绪以及胡须风格。当使用第二种方法时，这也适用。</span></li></ul><p><span>第一种方法采用带有公司徽标的单个对象图像，并通过随机旋转对象，更改图像强度以及将图像放置在任意背景上，从给定的对象图像中创建大量正样本。随机性的数量和范围可以通过opencv_createsamples应用程序的命令行参数来控制。</span></p><p><span>命令行参数： </span></p><ul><li><code>-vec &lt;vec_file_name&gt;</code><span>：包含用于训练的正样本的输出文件的名称。</span></li><li><code>-img &lt;image_file_name&gt;</code><span>：源对象图像（例如，公司徽标）。</span></li><li><code>-bg &lt;background_file_name&gt;</code><span>：背景描述文件； 包含图像列表，这些图像用作对象的随机变形版本的背景。</span></li><li><code>-num &lt;number_of_samples&gt;</code><span>：要生成的正​​样本数。</span></li><li><code>-bgcolor &lt;background_color&gt;</code><span>：背景色（当前假定为灰度图像）； 背景色表示透明色。由于可能存在压缩伪影，因此可以通过-bgthresh指定颜色容忍度。bgcolor-bgthresh和bgcolor + bgthresh范围内的所有像素均被解释为透明的。</span></li><li><code>-bgthresh &lt;background_color_threshold&gt;</code><span> </span></li><li><code>-inv</code><span>：如果指定，颜色将被反转。</span></li><li><code>randinv</code><span>：如果指定，颜色将随机反转。</span></li><li><code>-maxidev &lt;max_intensity_deviation&gt;</code><span>：前景样本中像素的最大强度偏差。</span></li><li><code>-maxxangle &lt;max_x_rotation_angle&gt;</code><span>：朝向x轴的最大旋转角度，必须以弧度为单位。</span></li><li><code>-maxyangle &lt;max_y_rotation_angle&gt;</code><span>：朝向y轴的最大旋转角度，必须以弧度为单位。</span></li><li><code>-maxzangle &lt;max_z_rotation_angle&gt;</code><span>：朝向z轴的最大旋转角度，必须以弧度为单位。</span></li><li><code>-show</code><span>：有用的调试选项。</span>
+<span>如果指定，将显示每个样本。</span>
+<span>按Esc将继续示例创建过程，而不会显示每个示例。</span></li><li><code>-w &lt;sample_width&gt;</code><span>：输出样本的宽度（以像素为单位）。</span></li><li><code>-h &lt;sample_height&gt;</code><span>：输出样本的高度（以像素为单位）。</span></li></ul><p><span>当以此方式运行opencv_createsamples时，将使用以下过程创建示例对象实例：给定的源图像围绕所有三个轴随机旋转。</span>
+<span>所选角度受</span><code>-maxxangle</code><span>，</span><code>-maxyangle</code><span>和</span><code>-maxzangle</code><span>限制。</span>
+<span>然后，像素在[bg_color-bg_color_threshold; bg_color + bg_c​​olor_threshold]范围内被设置为透明。白噪声被添加到前景的强度。如果指定了-inv键，则前景像素强度将反转。如果指定了</span><code>-randinv</code><span>键，则算法将随机选择是否应对该样本应用反演。最后，将获得的图像从背景描述文件放置到任意背景上，将其大小调整为由</span><code>-w</code><span>和</span><code>-h</code><span>指定的所需大小，并存储到由</span><code>-vec</code><span>命令行选项指定的vec文件中。</span></p><p><span>也可以从以前标记的图像的集合中获取正样本，这是构建鲁棒对象模型时的理想方式。该集合由类似于背景描述文件的文本文件描述。该文件的每一行都对应一个图像。该行的第一个元素是文件名，后跟对象注释的数量，后跟描述包围矩形（x，y，宽度，高度）的对象坐标的数字。</span></p><p><span>一个描述文件的示例：</span></p><p><span>目录结构：</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang=""><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 9.33333px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">/img</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  img1.jpg</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  img2.jpg info.dat</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 68px;"></div><div class="CodeMirror-gutters" style="display: none; height: 68px;"></div></div></div></pre><p><span>文件 info.dat</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang=""><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 9.33333px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">img/img1.jpg  1  140 100 45 45</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">img/img2.jpg  2  100 200 50 50 &nbsp; 50 30 25 25 </span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 45px;"></div><div class="CodeMirror-gutters" style="display: none; height: 45px;"></div></div></div></pre><p><span>图像img1.jpg包含具有以下边界矩形坐标的单个对象实例：(140,100,45，45)。图像img2.jpg包含两个对象实例。</span></p><p><span>为了从此类集合创建正样本，应指定</span><code>-info</code><span>参数而不是</span><code>-img</code><span>： </span></p><ul><li><code>-info &lt;collection_file_name&gt;</code><span>：标记图像集合的描述文件。</span></li></ul><p><span>请注意，在这种情况下，</span><code>-bg,-bgcolor,-bgthreshold,-inv,-randinv,-maxxangle,-maxyangle</code><span>和</span><code>-maxzangle</code><span>等参数将被简单地忽略并且不再使用。在这种情况下，样本创建的方案如下。通过从原始图像中切出提供的边界框，从给定图像中获取对象实例。然后将它们调整为目标样本大小（由-w和-h定义），并存储在由</span><code>-vec</code><span>参数定义的输出vec文件中。没有应用任何失真，因此仅有的影响参数是</span><code>-w</code><span>，</span><code>-h</code><span>，</span><code>-show</code><span>和</span><code>-num</code><span>。</span></p><p><span>也可以使用opencv_annotation工具完成手动创建</span><code>-info</code><span>文件的过程。这是一个开放源代码工具，用于在任何给定图像中直观地选择对象实例的关注区域。以下小节将详细讨论如何使用此应用程序。</span></p><p><strong><span>额外事项</span></strong></p><ul><li><span>opencv_createsamples实用程序可用于检查存储在任何给定正样本文件中的样本。为此，仅应指定</span><code>-vec</code><span>，</span><code>-w</code><span>和</span><code>-h</code><span>参数。</span></li><li><span>此处提供了vec文件的示例</span><code>opencv/data/vec_files/trainingfaces_24-24.vec</code><span>。它可以用于训练具有以下窗口大小的面部检测器：</span><code>-w 24 -h 24</code><span>。</span></li></ul><p><strong><span>使用OpenCV中的集成标注工具</span></strong>
+<span>从OpenCV 3.x开始，社区一直在提供和维护开源注释工具，该工具用于生成</span><code>-info</code><span>文件。如果构建了OpenCV应用程序，则可以通过命令opencv_annotation访问该工具。</span></p><p><span>使用该工具非常简单。该工具接受几个必需参数和一些可选参数：</span></p><ul><li><code>--annotations</code><span>（</span><strong><span>必需</span></strong><span>）：注释txt文件的路径，您要在其中存储注释，然后将其传递给</span><code>-info</code><span>参数[example-/data/annotations.txt] - </span><code>--images</code><strong><span>（必需）</span></strong><span>：包含带有对象的图像的文件夹的路径[示例-/data/testimages/] </span></li><li><code>--maxWindowHeight</code><span>（</span><em><span>可选</span></em><span>）：如果输入图像的高度大于此处的给定分辨率，则调整图像的大小以用于 使用</span><code>--resizeFactor</code><span>可以简化注释。</span></li><li><code>--resizeFactor</code><span>（</span><em><span>可选</span></em><span>）：使用</span><code>--maxWindowHeight</code><span>参数时用于调整输入图像大小的因子。</span></li></ul><p><span>请注意，可选参数只能一起使用。可以使用的命令示例如下所示</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang=""><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 9.3335px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">opencv_annotation --annotations=/path/to/annotations/file.txt --images=/path/to/image/folder/ </span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 68px;"></div><div class="CodeMirror-gutters" style="display: none; height: 68px;"></div></div></div></pre><p><span>此命令将启动一个窗口，其中包含第一张图像和您的鼠标光标，这些窗口将用于注释。有关如何使用注释工具的视频，请参见此处。基本上，有几个按键可以触发一个动作。鼠标左键用于选择对象的第一个角，然后继续绘制直到您满意为止，并在单击鼠标第二次单击时停止。每次选择后，您有以下选择：</span></p><ul><li><span>按</span><code>c</code><span>：确认注释，​​将注释变为绿色并确认已存储。</span></li><li><span>按</span><code>d</code><span>：从注释列表中删除最后一个注释（易于删除错误的注释）</span></li><li><span>按</span><code>n</code><span>：继续进行操作下一张图片</span></li><li><span>按</span><code>ESC</code><span>键：这将退出注释软件</span></li></ul><p><span>最后，您将获得一个可用的注释文件，该文件可以传递给opencv_createsamples的</span><code>-info</code><span>参数。</span></p><h3 id='级联训练'><span>级联训练</span></h3><p><span>下一步是根据预先准备的正负数据集对弱分类器的增强级联进行实际训练。</span></p><p><span>按用途分组的opencv_traincascade应用程序的命令行参数： </span></p><ul><li><p><span>常用参数</span></p><ul><li><code>-data &lt;cascade_dir_name&gt;</code><span>：应将经过训练的分类器存储在何处。此文件夹应事先手动创建。</span></li><li><code>-vec &lt;vec_file_name&gt;</code><span>：带有正样本的vec文件（由opencv_createsamples实用程序创建）。</span></li><li><code>-bg &lt;background_file_name&gt;</code><span>：背景描述文件。这是包含阴性样本图像的文件。</span></li><li><code>-numPos &lt;number_of_positive_samples&gt;</code><span>：在每个分类器阶段的训练中使用的阳性样本数。</span></li><li><code>-numNeg &lt;number_of_negative_samples&gt;</code><span>：在每个分类器阶段的训练中使用的负样本数。</span></li><li><code>-numStages &lt;number_of_stages&gt;</code><span>：要训练的级联级数。</span></li><li><code>-precalcValBufSize &lt;precalculated_vals_buffer_size_in_Mb&gt;</code><span>：用于预先计算的特征值的缓冲区大小（以Mb为单位）。分配的内存越多，训练过程就越快，但是请记住，</span><code>-precalcValBufSize</code><span>和</span><code>-precalcIdxBufSize</code><span>的总和不应超过可用的系统内存。</span></li><li><code>-precalcIdxBufSize &lt;precalculated_idxs_buffer_size_in_Mb&gt;</code><span>：用于预先计算的特征索引的缓冲区大小（以Mb为单位）。分配的内存越多，训练过程就越快，但是请记住，</span><code>-precalcValBufSize</code><span>和</span><code>-precalcIdxBufSize</code><span>的总和不应超过可用的系统内存。</span></li><li><code>-baseFormatSave</code><span>：对于类似Haar的功能，此参数是实际的。如果指定，级联将以旧格式保存。仅出于向后兼容的原因，并且允许用户停留在旧的不赞成使用的界面上，至少可以使用较新的界面训练模型，才可以使用此功能。</span></li><li><code>-numThreads</code><span> &lt;最大线程数&gt;：训练期间要使用的最大线程数。请注意，实际使用的线程数可能会更少，具体取决于您的计算机和编译选项。默认情况下，如果您使用TBB支持构建了OpenCV，则会选择最大可用线程，这是此优化所必需的。</span></li><li><code>-acceptanceRatioBreakValue &lt;break_value&gt;</code><span>：此参数用于确定模型应保持学习的精确度以及何时停止。良好的指导原则是进行不超过10e-5的训练，以确保模型不会对您的训练数据过度训练。默认情况下，此值设置为-1以禁用此功能。</span></li></ul></li><li><p><strong><span>级联参数</span></strong><span>：</span></p><ul><li><code>-stageType &lt;BOOST(default)&gt;</code><span>：阶段的类型。目前仅支持提升分类器作为阶段类型。</span></li><li><code>-featureType &lt;{{HAAR(default),LBP}&gt;&gt;</code><span>：功能类型：HAAR-类似Haar的功能，LBP-本地二进制模式。</span></li><li><code>-w &lt;sampleWidth&gt;</code><span>：训练样本的宽度（以像素为单位）。必须具有与训练样本创建期间使用的值完全相同的值（opencv_createsamples实用程序）。</span></li><li><code>-h &lt;sampleHeight&gt;</code><span>：训练样本的高度（以像素为单位）。必须具有与训练样本创建期间使用的值完全相同的值（opencv_createsamples实用程序）。</span></li></ul></li><li><p><span>提升分类器参数：</span></p><ul><li><code>-bt &lt;{DAB，RAB，LB，GAB(default)}&gt;</code><span>：增强分类器的类型：DAB-离散AdaBoost，RAB-真实AdaBoost，LB-LogitBoost，GAB-温和AdaBoost。</span></li><li><code>-minHitRate &lt;min_hit_rate&gt;</code><span>：分类器每个阶段的最低期望命中率。总命中率可以估计为（min_hit_rate ^ number_of_stages），[228]§4.1。</span></li><li><code>-maxFalseAlarmRate &lt;max_false_alarm_rate&gt;</code><span>：分类器每个阶段的最大期望误报率。总体误报率可以估计为（max_false_alarm_rate ^ number_of_stages），[228]§4.1。</span></li><li><span>`-weightTrimRate &lt;weight_trim_rate&gt;·：指定是否应使用修剪及其权重。不错的选择是0.95。</span></li><li><code>-maxDepth &lt;max_weak_tree&gt;</code><span>：弱树的最大深度。一个不错的选择是1，这是树桩的情况。</span></li><li><code>-maxWeakCount &lt;max_weak_tree_count&gt;</code><span>：每个级联阶段的弱树的最大计数。提升分类器（阶段）将具有如此多的弱树（&lt;= maxWeakCount），以实现给定的-maxFalseAlarmRate。</span></li></ul></li><li><p><span>类似Haar的特征参数：</span></p><ul><li><code>-mode &lt;BASIC(default)|CORE| ALL&gt;</code><span>：选择训练中使用的Haar功能集的类型。 BASIC仅使用直立功能，而ALL使用整套直立和45度旋转功能集。有关更多详细信息，请参见[129]。</span></li></ul></li><li><p><span>本地二进制模式参数：本地二进制模式没有参数。</span></p></li></ul><p><span>opencv_traincascade应用程序完成工作后，经过训练的级联将保存在</span><code>-data</code><span>文件夹中的</span><code>cascade.xml</code><span>文件中。此文件夹中的其他文件是为中断培训而创建的，因此您可以在训练完成后将其删除。</span></p><p><span>训练完成后，您可以测试级联分类器！</span></p><h3 id='可视化级联分类器'><span>可视化级联分类器</span></h3><p><span>有时，可视化经过训练的级联可能很有用，以查看其选择的功能以及其阶段的复杂程度。为此，OpenCV提供了一个opencv_visualisation应用程序。该应用程序具有以下命令：</span></p><ul><li><code>--image</code><span>(</span><strong><span>必需</span></strong><span>)：对象模型参考图像的路径。</span>
+<span>这应该是标注，标注</span><code>[-w，-h]</code><span>传递给opencv_createsamples和opencv_traincascade应用程序。</span></li><li><code>--model</code><span>（</span><strong><span>必需</span></strong><span>）：训练模型的路径，该路径应该在opencv_traincascade应用程序的-data参数提供的文件夹中。</span></li><li><code>--data</code><span>（</span><em><span>可选</span></em><span>）：如果提供了一个数据文件夹，必须事先手动创建它，那么将存储舞台输出和功能的视频。</span>
+<span>下面是一个示例命令：</span>
+<code>opencv_visualisation --image=/ data/object.png --model=/data/model.xml --data =/data/result/</code></li></ul><p><span>当前可视化工具的某些限制</span></p><ul><li><span>仅处理级联分类器模型， 使用opencv_traincascade工具进行培训，其中包含树桩作为决策树[默认设置]。</span></li><li><span>提供的图像必须是带有原始模型尺寸的样本窗口，并传递给--image参数。</span></li></ul><p><span>HAAR / LBP人脸模型的示例在安吉丽娜·朱莉（Angelina Jolie）的给定窗口上运行，该窗口具有与级联分类器文件相同的预处理–&gt; 24x24像素图像，灰度转换和直方图均衡：每个阶段都会制作一个视频，每个特征都可视化：</span></p><p><em><span>每个阶段都会制作一个视频，以显示每个功能：</span></em></p><p><img src="http://qiniu.aihubs.net/visualisation_video.png" referrerpolicy="no-referrer"></p><p><span>每个阶段都作为图像存储，以供将来对功能进行验证：</span></p><p><img src="http://qiniu.aihubs.net/visualisation_single_stage.png" referrerpolicy="no-referrer"></p><p><span>这项工作是由StevenPuttemans为OpenCV 3 Blueprints创建的，但是Packt Publishing同意将其集成到OpenCV中。</span></p></div></div>
+</body>
+</html>
