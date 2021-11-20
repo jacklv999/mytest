@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1120[Pandas Package Review](./读书笔记/CS/Python/Pandas Package Review.html)
 - [ ] 1113[Data Analyst Machine Learning](./读书笔记/Business Related/Data Analyst Machine Learning.html)
 - [ ] 1113[Data Analyst SQL](./读书笔记/Business Related/Data Analyst SQL.html)
 - [ ] 1113[Data Analyst Database](./读书笔记/Business Related/Data Analyst Database.html)

@@ -117,8 +117,11 @@
 .\读书笔记\CS\Python\Flask简单示例.md
 .\读书笔记\CS\Python\Numba库使用简介.html
 .\读书笔记\CS\Python\Numba库使用简介.md
+.\读书笔记\CS\Python\Pandas Package Review.html
+.\读书笔记\CS\Python\Pandas Package Review.md
 .\读书笔记\CS\Python\Python EXE拖拽运行.html
 .\读书笔记\CS\Python\Python EXE拖拽运行.md
+.\读书笔记\CS\Python\Python Note.md
 .\读书笔记\CS\Python\Python tkinter编程.html
 .\读书笔记\CS\Python\Python tkinter编程.md
 .\读书笔记\CS\Python\Python 执行字符串.html
