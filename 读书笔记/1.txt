@@ -492,6 +492,8 @@
 .\读书笔记\ML&DL\general\README.md
 .\读书笔记\ML&DL\general\Regularization.html
 .\读书笔记\ML&DL\general\Regularization.md
+.\读书笔记\ML&DL\general\Word Embeding Review.html
+.\读书笔记\ML&DL\general\Word Embeding Review.md
 .\读书笔记\ML&DL\general\权重初始化方法.html
 .\读书笔记\ML&DL\general\权重初始化方法.md
 .\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.html

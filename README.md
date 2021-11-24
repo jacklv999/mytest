@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1124[Word Embeding Review](./读书笔记/ML&DL/general/Word Embeding Review.html)
 - [ ] 1
 - [ ] 1120[OpenCV Package Review](./读书笔记/CS/Python/opencv-python/OpenCV Package Review.html) 
 - [ ] 1120[Pandas Package Review](./读书笔记/CS/Python/Pandas Package Review.html)

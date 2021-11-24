@@ -15,3 +15,7 @@
 #### initialization
 
 - [权重初始化方法](./权重初始化方法.html)  
+
+#### Word Embedding
+
+- [Word Embeding Review](./Word Embeding Review.html) 
