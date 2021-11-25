@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1125[Financial Analysis](./读书笔记/Business Related/Financial Analysis.html)
 - [ ] 1125[Frequently Used Classifier](./读书笔记/ML&DL/MLArticles/Frequently Used Classifier.html)
 - [ ] 1124[Word Embeding Review](./读书笔记/ML&DL/general/Word Embeding Review.html)
 - [ ] 1

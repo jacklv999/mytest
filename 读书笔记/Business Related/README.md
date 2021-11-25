@@ -20,3 +20,9 @@
 - [Database](./Data Analyst Database.html) 
 - [Probability Theory](./Data Analyst Probability Theory.html) 
 - [Machine Learning](./Data Analyst Machine Learning.html) 
+
+
+
+## Financial Analysis
+
+- [Three Sheets Analysis](./Financial Analysis.html) 

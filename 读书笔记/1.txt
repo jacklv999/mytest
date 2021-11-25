@@ -21,6 +21,8 @@
 .\读书笔记\Business Related\Eight Q of P&G.html
 .\读书笔记\Business Related\Eight Q of P&G.md
 .\读书笔记\Business Related\FA JD Collection.txt
+.\读书笔记\Business Related\Financial Analysis.html
+.\读书笔记\Business Related\Financial Analysis.md
 .\读书笔记\Business Related\Group Interview Note.html
 .\读书笔记\Business Related\Group Interview Note.md
 .\读书笔记\Business Related\Interview Note.html
