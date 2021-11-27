@@ -153,6 +153,8 @@
 .\读书笔记\CS\Python\README.md
 .\读书笔记\CS\Python\requests笔记.html
 .\读书笔记\CS\Python\requests笔记.md
+.\读书笔记\CS\Python\Scrapy Note.html
+.\读书笔记\CS\Python\Scrapy Note.md
 .\读书笔记\CS\Python\Scrapy-Selector.html
 .\读书笔记\CS\Python\Scrapy-Selector.md
 .\读书笔记\CS\Python\Send mail by Python.html
