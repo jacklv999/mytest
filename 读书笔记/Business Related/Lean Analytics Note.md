@@ -59,7 +59,7 @@ Categorizing data indicators:
 
     Avoiding correlation, and trying to find the causal relation between indicators.
 
-
+**Market Segmentation** 
 
 
 
