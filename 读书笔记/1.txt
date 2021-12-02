@@ -1,5 +1,4 @@
 .\读书笔记\1.txt
-.\读书笔记\README - 副本.md
 .\读书笔记\README.md
 .\读书笔记\Business Related\100道经典行测图形推理题.doc
 .\读书笔记\Business Related\Business Model Analysis (华侨城).html
