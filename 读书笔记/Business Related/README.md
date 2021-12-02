@@ -1,7 +1,7 @@
 ## Business Related
 
 - [Note for Data Analyst Interview](./Note for Data Analyst Interview.html) 
-- [Data Scientist JD Summary](./Data Scientist JD Summary.html) 
+- [Data Analyst Career Path](./Data Analyst Career Path.html) 
 - [Group Interview Note](./Group Interview Note.html) 
 - [Business Model Analysis (华侨城)](./Business Model Analysis (华侨城).html) 
 - [Frequent Asked Question in Interview](./Interview Note.html) 

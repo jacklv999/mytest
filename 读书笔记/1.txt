@@ -4,6 +4,8 @@
 .\读书笔记\Business Related\100道经典行测图形推理题.doc
 .\读书笔记\Business Related\Business Model Analysis (华侨城).html
 .\读书笔记\Business Related\Business Model Analysis (华侨城).md
+.\读书笔记\Business Related\Data Analyst Career Path.html
+.\读书笔记\Business Related\Data Analyst Career Path.md
 .\读书笔记\Business Related\Data Analyst Database.html
 .\读书笔记\Business Related\Data Analyst Database.md
 .\读书笔记\Business Related\Data Analyst Machine Learning.html
@@ -14,8 +16,6 @@
 .\读书笔记\Business Related\Data Analyst SQL.md
 .\读书笔记\Business Related\Data Compliance.html
 .\读书笔记\Business Related\Data Compliance.md
-.\读书笔记\Business Related\Data Scientist JD Summary.html
-.\读书笔记\Business Related\Data Scientist JD Summary.md
 .\读书笔记\Business Related\Digitization Manager Trainee.html
 .\读书笔记\Business Related\Digitization Manager Trainee.md
 .\读书笔记\Business Related\Eight Q of P&G.html
@@ -29,6 +29,7 @@
 .\读书笔记\Business Related\Interview Note.md
 .\读书笔记\Business Related\JD Summary.html
 .\读书笔记\Business Related\JD Summary.md
+.\读书笔记\Business Related\Lean Analytics Note.md
 .\读书笔记\Business Related\Leetcode Algorithm Note.md
 .\读书笔记\Business Related\Note for Data Analyst Interview.html
 .\读书笔记\Business Related\Note for Data Analyst Interview.md

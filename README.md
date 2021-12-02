@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1202[Data Analyst Career Path](./读书笔记/Business Related/Data Analyst Career Path.html)
 - [ ] 1127[Scrapy Note](./读书笔记/CS/Python/Scrapy Note.html)
 - [ ] 1125[Financial Analysis](./读书笔记/Business Related/Financial Analysis.html)
 - [ ] 1125[Frequently Used Classifier](./读书笔记/ML&DL/MLArticles/Frequently Used Classifier.html)
@@ -34,8 +35,7 @@
 - [ ] 1025[Interview Note](./读书笔记/Business Related/Interview Note.html)
 - [ ] 1025[Group Interview Note](./读书笔记/Business Related/Group Interview Note.html)
 - [ ] 1025[行测题解题思路](./读书笔记/Business Related/行测题解题思路.html)
-- [ ] 1017[SQL Evolution](./读书笔记/CS/cs/SQL Evolution.html)
-- [ ] 1016[Data Scientist JD Summary](./读书笔记/Business Related/Data Scientist JD Summary.html)
+- [ ] 1017[SQL Evolution](./读书笔记/CS/cs/SQL Evolution.html) 
 - [ ] 1015[Note for Data Analyst Interview](./读书笔记/Business Related/Note for Data Analyst Interview.html)
 - [ ] 1015[Business Model Analysis (华侨城)](./读书笔记/IDEA整理/Business Model Analysis (华侨城).html)
 - [ ] 1014[RF and Ensemble](./读书笔记/ML&DL/MLArticles/RF and Ensemble.html)
