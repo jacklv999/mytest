@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1205[数据运营](./读书笔记/Business Related/数据运营.html)
 - [ ] 1202[Data Analyst Career Path](./读书笔记/Business Related/Data Analyst Career Path.html)
 - [ ] 1127[Scrapy Note](./读书笔记/CS/Python/Scrapy Note.html)
 - [ ] 1125[Financial Analysis](./读书笔记/Business Related/Financial Analysis.html)

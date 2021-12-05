@@ -20,6 +20,7 @@
 - [Database](./Data Analyst Database.html) 
 - [Probability Theory](./Data Analyst Probability Theory.html) 
 - [Machine Learning](./Data Analyst Machine Learning.html) 
+- [数据运营](./数据运营.html) 
 
 
 

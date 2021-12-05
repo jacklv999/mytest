@@ -35,6 +35,8 @@
 .\读书笔记\Business Related\Note for Tencent Financial.html
 .\读书笔记\Business Related\Note for Tencent Financial.md
 .\读书笔记\Business Related\README.md
+.\读书笔记\Business Related\数据运营.html
+.\读书笔记\Business Related\数据运营.md
 .\读书笔记\Business Related\精益数据分析.pdf
 .\读书笔记\Business Related\行测题解题思路.html
 .\读书笔记\Business Related\行测题解题思路.md
