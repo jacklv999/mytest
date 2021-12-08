@@ -39,8 +39,6 @@
 .\读书笔记\Business Related\精益数据分析.pdf
 .\读书笔记\Business Related\行测题解题思路.html
 .\读书笔记\Business Related\行测题解题思路.md
-.\读书笔记\Business Related\Business Sense\Lean Analytics and Enterprise Culture.html
-.\读书笔记\Business Related\Business Sense\Lean Analytics and Enterprise Culture.md
 .\读书笔记\Business Related\Business Sense\Lean Start-up and Basic Analytics.html
 .\读书笔记\Business Related\Business Sense\Lean Start-up and Basic Analytics.md
 .\读书笔记\Business Related\Business Sense\Normal Data Range.html
