@@ -27,3 +27,9 @@
 ## Financial Analysis
 
 - [Three Sheets Analysis](./Financial Analysis.html) 
+
+
+
+## Business Sense
+
+- [Lean Analytics](./Business Sense/) 

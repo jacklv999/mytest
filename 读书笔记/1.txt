@@ -28,7 +28,6 @@
 .\读书笔记\Business Related\Interview Note.md
 .\读书笔记\Business Related\JD Summary.html
 .\读书笔记\Business Related\JD Summary.md
-.\读书笔记\Business Related\Lean Analytics Note.md
 .\读书笔记\Business Related\Leetcode Algorithm Note.md
 .\读书笔记\Business Related\Note for Data Analyst Interview.html
 .\读书笔记\Business Related\Note for Data Analyst Interview.md
@@ -40,6 +39,12 @@
 .\读书笔记\Business Related\精益数据分析.pdf
 .\读书笔记\Business Related\行测题解题思路.html
 .\读书笔记\Business Related\行测题解题思路.md
+.\读书笔记\Business Related\Business Sense\Lean Analytics and Enterprise Culture.md
+.\读书笔记\Business Related\Business Sense\Lean Start-up and Basic Analytics.html
+.\读书笔记\Business Related\Business Sense\Lean Start-up and Basic Analytics.md
+.\读书笔记\Business Related\Business Sense\Normal Data Range.md
+.\读书笔记\Business Related\Business Sense\README.md
+.\读书笔记\Business Related\Business Sense\Using Lean Analytics.md
 .\读书笔记\CS\cs\Big Data Review.html
 .\读书笔记\CS\cs\Big Data Review.md
 .\读书笔记\CS\cs\Chrome快捷键.html

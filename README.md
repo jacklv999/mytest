@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1208[Lean Start-up and Basic Analytics](./读书笔记/Business Related/Business Sense/Lean Start-up and Basic Analytics.html)
 - [ ] 1205[数据运营](./读书笔记/Business Related/数据运营.html)
 - [ ] 1202[Data Analyst Career Path](./读书笔记/Business Related/Data Analyst Career Path.html)
 - [ ] 1127[Scrapy Note](./读书笔记/CS/Python/Scrapy Note.html)
