@@ -194,9 +194,12 @@ The UGC community gains its user by making people visit it regularly. So, retent
 
 UGC communities are really on users’ content. So, how to motivate user to generate content is important. There are some solution including:
 
-- 
+- Invitation
+- Self production
 
 ##### Generated content value
+
+When we measure the value of user generated value, 
 
 ##### Viral rate and refferal
 
