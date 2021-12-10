@@ -41,4 +41,3 @@ Generative Model (生成式模型)
     - !!!!!
 
 ##### SVM classification function
-
