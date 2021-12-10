@@ -17,8 +17,6 @@
 .\读书笔记\Business Related\Data Compliance.md
 .\读书笔记\Business Related\Digitization Manager Trainee.html
 .\读书笔记\Business Related\Digitization Manager Trainee.md
-.\读书笔记\Business Related\Eight Q of P&G.html
-.\读书笔记\Business Related\Eight Q of P&G.md
 .\读书笔记\Business Related\FA JD Collection.txt
 .\读书笔记\Business Related\Financial Analysis.html
 .\读书笔记\Business Related\Financial Analysis.md
@@ -29,8 +27,6 @@
 .\读书笔记\Business Related\JD Summary.html
 .\读书笔记\Business Related\JD Summary.md
 .\读书笔记\Business Related\Leetcode Algorithm Note.md
-.\读书笔记\Business Related\Note for Data Analyst Interview.html
-.\读书笔记\Business Related\Note for Data Analyst Interview.md
 .\读书笔记\Business Related\Note for Tencent Financial.html
 .\读书笔记\Business Related\Note for Tencent Financial.md
 .\读书笔记\Business Related\README.md
