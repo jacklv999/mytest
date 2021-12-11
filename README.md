@@ -4,7 +4,6 @@
 
 
 - [ ] 1211[Market Analysis Note](./读书笔记/Business Related/Market Analysis Note.html)
-
 - [ ] 1208[Normal Data Range](./读书笔记/Business Related/Business Sense/Normal Data Range.html)
 - [ ] 1208[Using Lean Analytics](./读书笔记/Business Related/Business Sense/Using Lean Analytics.html)
 - [ ] 1208[Lean Start-up and Basic Analytics](./读书笔记/Business Related/Business Sense/Lean Start-up and Basic Analytics.html)
