@@ -27,6 +27,8 @@
 .\读书笔记\Business Related\JD Summary.html
 .\读书笔记\Business Related\JD Summary.md
 .\读书笔记\Business Related\Leetcode Algorithm Note.md
+.\读书笔记\Business Related\Market Analysis Note.html
+.\读书笔记\Business Related\Market Analysis Note.md
 .\读书笔记\Business Related\Note for Tencent Financial.html
 .\读书笔记\Business Related\Note for Tencent Financial.md
 .\读书笔记\Business Related\README.md

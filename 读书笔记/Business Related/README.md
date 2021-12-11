@@ -1,11 +1,16 @@
 ## Business Related
 
-- [Data Analyst Career Path](./Data Analyst Career Path.html) 
-- [Group Interview Note](./Group Interview Note.html) 
-- [Business Model Analysis (华侨城)](./Business Model Analysis (华侨城).html) 
-- [Frequent Asked Question in Interview (include P&G 8 Q)](./Interview Note.html) 
+## General Interview
+
 - [行测题解题思路](./行测题解题思路.html) 
-- [Note for Tencent Financial](./Note for Tencent Financial.html) 
+- [Group Interview Note](./Group Interview Note.html) 
+- [Frequent Asked Question in Interview (include P&G 8 Q)](./Interview Note.html) 
+
+
+
+## Data Analysis
+
+- [Data Analyst Career Path](./Data Analyst Career Path.html) 
 - [JD  Summary](./JD Summary.html) 
 - [Digitization Manager Trainee](./Digitization Manager Trainee.html) 
 - [Data Compliance](./Data Compliance.html) 
@@ -25,9 +30,12 @@
 ## Financial Analysis
 
 - [Three Sheets Analysis](./Financial Analysis.html) 
+- [Business Model Analysis (华侨城)](./Business Model Analysis (华侨城).html) 
+- [Note for Tencent Financial](./Note for Tencent Financial.html) 
 
 
 
-## Business Sense
+## Business Data Analysis
 
 - [Lean Analytics](./Business Sense/) 
+- [Market Analysis Note](./Market Analysis Note.html) 
