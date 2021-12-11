@@ -40,4 +40,9 @@ Generative Model (生成式模型)
 
     - !!!!!
 
-##### SVM classification function
+- 过拟合和欠拟合为什么会发生？处理方式
+- PCA、K-means、DT、RF、LR、朴素贝叶斯、SVM、KNN、boosting、Bagging
+  - 原理、应用场景、优缺点
+  - 评估模型的指标
+    - 查准率，查全率，f-score，ROC曲线、AUC
+- 特征选择、特征创造、相关性分析这种是怎么做的？

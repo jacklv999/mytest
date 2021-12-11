@@ -1,6 +1,8 @@
 .\读书笔记\1.txt
 .\读书笔记\README.md
 .\读书笔记\Business Related\100道经典行测图形推理题.doc
+.\读书笔记\Business Related\AB Test.html
+.\读书笔记\Business Related\AB Test.md
 .\读书笔记\Business Related\Business Model Analysis (华侨城).html
 .\读书笔记\Business Related\Business Model Analysis (华侨城).md
 .\读书笔记\Business Related\Data Analyst Career Path.html

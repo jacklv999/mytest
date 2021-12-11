@@ -14,6 +14,7 @@
 - [JD  Summary](./JD Summary.html) 
 - [Digitization Manager Trainee](./Digitization Manager Trainee.html) 
 - [Data Compliance](./Data Compliance.html) 
+- [AB Test](./AB Test.html) 
 
 
 
