@@ -5,6 +5,8 @@
 .\读书笔记\Business Related\AB Test.md
 .\读书笔记\Business Related\Business Model Analysis (华侨城).html
 .\读书笔记\Business Related\Business Model Analysis (华侨城).md
+.\读书笔记\Business Related\Data Analysis Reports writing.html
+.\读书笔记\Business Related\Data Analysis Reports writing.md
 .\读书笔记\Business Related\Data Analyst Career Path.html
 .\读书笔记\Business Related\Data Analyst Career Path.md
 .\读书笔记\Business Related\Data Analyst Database.html
