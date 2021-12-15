@@ -41,3 +41,4 @@
 
 - [Lean Analytics](./Business Sense/) 
 - [Market Analysis Note](./Market Analysis Note.html) 
+- [Person Profile Analysis](./Person Profile Analysis.html) 

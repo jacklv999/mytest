@@ -3,6 +3,7 @@
 
 
 
+- [ ] 1215[Person Profile Analysis](./读书笔记/Business Related/Person Profile Analysis.html)
 - [ ] 1213[Data Analysis Reports writing](./读书笔记/Business Related/Data Analysis Reports writing.html)
 - [ ] 1211[AB Test](./读书笔记/Business Related/AB Test.html)
 - [ ] 1211[Market Analysis Note](./读书笔记/Business Related/Market Analysis Note.html)
