@@ -44,7 +44,6 @@
     - knowledge about this position, 
     - personal capacity(abilities, career path);
   - Example
-
 - why do you believe that you are capable for this job?
   - Core: personal abilities, position need
   - Steps:
@@ -75,6 +74,13 @@
     - selfwareness
     - why fit this job
     - latter 3-5 year
+- Why would you choose DA as your job?
+  - self interest
+    - self capabilities
+  - 1v1 with many other people
+    - in the all job: 
+      - it's important
+      - it’s what I want
 - Question to interviewer
   - daily schedule;
   - after JD, expectation to candidate;
