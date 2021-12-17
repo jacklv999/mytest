@@ -79,13 +79,12 @@
 
 #### 6. 构建标签
 
-用户画像标签
+用户画像标签区分不同层次, 在构建时我们根据业务, 标签系统的目的, SOP(standard operation procedure)按不同层次从底层标签逐步向高层标签构建,
 
-- 用户行为标签: 权重标签 = 时间衰减 X 地点权重 X 行为权重
-- 客户分群标签
-  - 普通分群: 按用户属性和行为进行分群
-  - 预测分群: 按用户以往行为和属性, 用ML预测某些行为的概率
-- 基本属性标签: 直接获取或通过行为数据分析得到
+- 首先, Data Clean: 缺失值判别, 聚类填充, 格式转化, 异常值处理等
+- 其次, Statistical Label: 基于清洗过的数据, 使用统计方法得出性别, 频率等标签;
+- 再次, Modeling Label: 基于ML方法计算忠诚度, 用户价值, 兴趣等标签;
+- 最后, Weights: 权重标签 = 时间衰减 X 地点权重 X 行为权重, 详见下.
 
 #### 7. 别忘了权重
 
@@ -123,10 +122,11 @@
 ##### 1. Recommendation System
 
 - Building User Profile
-    - Statistical Labels
+    - Statistical Labels: gender, age, loc...
     - Modeling Labels
-    - Prediction Labels
-- Building Item Profile
+        - User interests: Current likes/Long-term likes/Do not likes
+        - Interest weights
+- Building Item Profile: Not now;
 
 ##### 2. Precision Marketing: GMV
 
@@ -137,5 +137,9 @@ $DAU = Customer\times AU\times PerActive$.
 Precision marketing means increasing revenue in a more efficiency way. So, we are going to figure out 
 
 - Building User Profile
-    - Customer Labels: High/Low Value; Loyalty/Common User; New/Old User; High/Low frequency;
-    - Transaction Related Label
+    - Statistical Labels: Gender, Age, Frequency, User Life Cycle;
+    - Modeling Labels: 
+        - High/Low Value: Likes buying items which price higher than $P_{avg} + \sigma_{p}$;
+        - Loyalty/Common User: Frequency more than $Trans_{avg}+\sigma_{trans}$;
+    - Strategy Labels:
+        - It depends on business purpose;
