@@ -7,4 +7,5 @@
 - [About GNN 基础](./About graph neural network.html) 
 - [MLP-Mixer笔记](./MLP-Mixer笔记.html) 
 - [Frequently Used Classifier](./Frequently Used Classifier.html) 
+- [Frequently Used Clustering Algorithm](./Clustering Algorithm.html) 
 
