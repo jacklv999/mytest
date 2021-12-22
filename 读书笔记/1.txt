@@ -507,6 +507,8 @@
 .\读书笔记\ML&DL\general\Activation Functions.md
 .\读书笔记\ML&DL\general\L-2 Regularization.html
 .\读书笔记\ML&DL\general\L-2 Regularization.md
+.\读书笔记\ML&DL\general\Note on BERT Embedding.html
+.\读书笔记\ML&DL\general\Note on BERT Embedding.md
 .\读书笔记\ML&DL\general\README.md
 .\读书笔记\ML&DL\general\Regularization.html
 .\读书笔记\ML&DL\general\Regularization.md

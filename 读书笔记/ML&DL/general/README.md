@@ -19,3 +19,4 @@
 #### Word Embedding
 
 - [Word Embeding Review](./Word Embeding Review.html) 
+- [Note on BERT Embedding](./Note on BERT Embedding.html) 
