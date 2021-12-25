@@ -29,6 +29,10 @@ using kernel function to process data, then do regression.
 
 - Feature engineering for low dimension data in order to classify it;
 
+**Pros and Cons** 
+
+- 
+
 #### 2. SVM
 
 Kernel function related:
