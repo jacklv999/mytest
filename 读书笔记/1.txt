@@ -51,11 +51,11 @@
 .\读书笔记\Business Related\Business Sense\README.md
 .\读书笔记\Business Related\Business Sense\Using Lean Analytics.html
 .\读书笔记\Business Related\Business Sense\Using Lean Analytics.md
+.\读书笔记\CS\Big Data\Big Data Review.html
+.\读书笔记\CS\Big Data\Big Data Review.md
 .\读书笔记\CS\Big Data\README.md
 .\读书笔记\CS\Big Data\Spark in Python.html
 .\读书笔记\CS\Big Data\Spark in Python.ipynb
-.\读书笔记\CS\cs\Big Data Review.html
-.\读书笔记\CS\cs\Big Data Review.md
 .\读书笔记\CS\cs\Chrome快捷键.html
 .\读书笔记\CS\cs\Chrome快捷键.md
 .\读书笔记\CS\cs\CMD脚本.html
@@ -82,6 +82,8 @@
 .\读书笔记\CS\cs\Leetcode SQL Note (31 - 40).md
 .\读书笔记\CS\cs\Leetcode SQL Note (41 - 50).html
 .\读书笔记\CS\cs\Leetcode SQL Note (41 - 50).md
+.\读书笔记\CS\cs\linux 基础命令.html
+.\读书笔记\CS\cs\linux 基础命令.md
 .\读书笔记\CS\cs\Markdown 流程图.html
 .\读书笔记\CS\cs\Markdown 流程图.md
 .\读书笔记\CS\cs\Markdown插入图片.html
@@ -519,6 +521,8 @@
 .\读书笔记\ML&DL\general\Word Embeding Review.md
 .\读书笔记\ML&DL\general\权重初始化方法.html
 .\读书笔记\ML&DL\general\权重初始化方法.md
+.\读书笔记\ML&DL\general\神经网络中的奥卡姆剃刀.html
+.\读书笔记\ML&DL\general\神经网络中的奥卡姆剃刀.md
 .\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.html
 .\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.md
 .\读书笔记\ML&DL\ML&DL-MLDS\BiGAN及InfoGAN.html

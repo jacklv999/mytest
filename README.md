@@ -3,6 +3,9 @@
 
 
 
+- [ ] 0102[Big Data Review](./读书笔记/CS/Big Data/Big Data Review.html)
+- [ ] 0102[linux 基础命令](./读书笔记/CS/cs/linux 基础命令.html)
+- [ ] 0102[神经网络中的奥卡姆剃刀](./读书笔记/ML&DL/general/神经网络中的奥卡姆剃刀.html)
 - [ ] 0102[Spark in Python](./读书笔记/CS/Big Data/Spark in Python.html)
 - [ ] 1222[Note on BERT Embedding](./读书笔记/ML&DL/general/Note on BERT Embedding.html)
 - [ ] 1219[Clustering Algorithm](./读书笔记/ML&DL/MLArticles/Clustering Algorithm.html)
