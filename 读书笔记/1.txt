@@ -51,6 +51,9 @@
 .\读书笔记\Business Related\Business Sense\README.md
 .\读书笔记\Business Related\Business Sense\Using Lean Analytics.html
 .\读书笔记\Business Related\Business Sense\Using Lean Analytics.md
+.\读书笔记\CS\Big Data\README.md
+.\读书笔记\CS\Big Data\Spark in Python.html
+.\读书笔记\CS\Big Data\Spark in Python.ipynb
 .\读书笔记\CS\cs\Big Data Review.html
 .\读书笔记\CS\cs\Big Data Review.md
 .\读书笔记\CS\cs\Chrome快捷键.html
