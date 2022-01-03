@@ -509,6 +509,8 @@
 .\读书笔记\ML&DL\CVPaper\目标检测\Yolo笔记.html
 .\读书笔记\ML&DL\CVPaper\目标检测\Yolo笔记.md
 .\读书笔记\ML&DL\DLArticles\README.md
+.\读书笔记\ML&DL\DLArticles\Transformer综述.html
+.\读书笔记\ML&DL\DLArticles\Transformer综述.md
 .\读书笔记\ML&DL\DLArticles\因果推断的推荐算法初探.html
 .\读书笔记\ML&DL\DLArticles\因果推断的推荐算法初探.md
 .\读书笔记\ML&DL\DLArticles\神经网络中的奥卡姆剃刀.html
