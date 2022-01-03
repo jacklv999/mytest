@@ -508,6 +508,11 @@
 .\读书笔记\ML&DL\CVPaper\目标检测\YOLOV3.md
 .\读书笔记\ML&DL\CVPaper\目标检测\Yolo笔记.html
 .\读书笔记\ML&DL\CVPaper\目标检测\Yolo笔记.md
+.\读书笔记\ML&DL\DLArticles\README.md
+.\读书笔记\ML&DL\DLArticles\因果推断的推荐算法初探.html
+.\读书笔记\ML&DL\DLArticles\因果推断的推荐算法初探.md
+.\读书笔记\ML&DL\DLArticles\神经网络中的奥卡姆剃刀.html
+.\读书笔记\ML&DL\DLArticles\神经网络中的奥卡姆剃刀.md
 .\读书笔记\ML&DL\general\Activation Functions.html
 .\读书笔记\ML&DL\general\Activation Functions.md
 .\读书笔记\ML&DL\general\L-2 Regularization.html
@@ -521,8 +526,6 @@
 .\读书笔记\ML&DL\general\Word Embeding Review.md
 .\读书笔记\ML&DL\general\权重初始化方法.html
 .\读书笔记\ML&DL\general\权重初始化方法.md
-.\读书笔记\ML&DL\general\神经网络中的奥卡姆剃刀.html
-.\读书笔记\ML&DL\general\神经网络中的奥卡姆剃刀.md
 .\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.html
 .\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.md
 .\读书笔记\ML&DL\ML&DL-MLDS\BiGAN及InfoGAN.html

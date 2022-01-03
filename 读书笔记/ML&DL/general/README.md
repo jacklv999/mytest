@@ -21,6 +21,3 @@
 - [Word Embeding Review](./Word Embeding Review.html) 
 - [Note on BERT Embedding](./Note on BERT Embedding.html) 
 
-#### 神经网络可解释性
-
-- [神经网络中的奥卡姆剃刀](./神经网络中的奥卡姆剃刀.html) 
