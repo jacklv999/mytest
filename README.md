@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0112[神经网络中的白化](./读书笔记/ML&DL/DLArticles/神经网络中的白化.html)
 - [ ] 0104[实体关系抽取的现状和未来](./读书笔记/ML&DL/DLArticles/实体关系抽取的现状和未来.html)
 - [ ] 0104[Structural re-parameterization](./读书笔记/ML&DL/DLArticles/Structural re-parameterization.html)
 - [ ] 0103[Transformer综述](./读书笔记/ML&DL/DLArticles/Transformer综述.html)

@@ -519,6 +519,8 @@
 .\读书笔记\ML&DL\DLArticles\实体关系抽取的现状和未来.md
 .\读书笔记\ML&DL\DLArticles\神经网络中的奥卡姆剃刀.html
 .\读书笔记\ML&DL\DLArticles\神经网络中的奥卡姆剃刀.md
+.\读书笔记\ML&DL\DLArticles\神经网络中的白化.html
+.\读书笔记\ML&DL\DLArticles\神经网络中的白化.md
 .\读书笔记\ML&DL\general\Activation Functions.html
 .\读书笔记\ML&DL\general\Activation Functions.md
 .\读书笔记\ML&DL\general\L-2 Regularization.html

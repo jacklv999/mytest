@@ -13,3 +13,4 @@
 - [视觉Transformer综述](./Transformer综述.html) 
 - [实体关系抽取的现状和未来](./实体关系抽取的现状和未来.html) 
 - [Structural re-parameterization](./Structural re-parameterization.html) 
+- [神经网络中的白化](./神经网络中的白化.html) 
