@@ -180,6 +180,8 @@
 .\读书笔记\CS\Python\Send mail by Python.md
 .\读书笔记\CS\Python\Tkinter与多线程.html
 .\读书笔记\CS\Python\Tkinter与多线程.md
+.\读书笔记\CS\Python\vaex tutorial.html
+.\读书笔记\CS\Python\vaex tutorial.ipynb
 .\读书笔记\CS\Python\利用拖拽工具生成PythonGUI.html
 .\读书笔记\CS\Python\利用拖拽工具生成PythonGUI.md
 .\读书笔记\CS\Python\反编译Pyinstaller打包文件.html
