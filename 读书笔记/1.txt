@@ -521,6 +521,10 @@
 .\读书笔记\ML&DL\DLArticles\因果推断的推荐算法初探.md
 .\读书笔记\ML&DL\DLArticles\实体关系抽取的现状和未来.html
 .\读书笔记\ML&DL\DLArticles\实体关系抽取的现状和未来.md
+.\读书笔记\ML&DL\DLArticles\小样本学习.html
+.\读书笔记\ML&DL\DLArticles\小样本学习.md
+.\读书笔记\ML&DL\DLArticles\深度学习攻防.html
+.\读书笔记\ML&DL\DLArticles\深度学习攻防.md
 .\读书笔记\ML&DL\DLArticles\神经网络中的奥卡姆剃刀.html
 .\读书笔记\ML&DL\DLArticles\神经网络中的奥卡姆剃刀.md
 .\读书笔记\ML&DL\DLArticles\神经网络中的白化.html

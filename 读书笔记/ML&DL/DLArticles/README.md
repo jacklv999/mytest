@@ -15,3 +15,5 @@
 - [实体关系抽取的现状和未来](./实体关系抽取的现状和未来.html) 
 - [Structural re-parameterization](./Structural re-parameterization.html) 
 - [神经网络中的白化](./神经网络中的白化.html) 
+- [深度学习攻防](./深度学习攻防.html) 
+- [小样本学习](./小样本学习.html) 

@@ -3,6 +3,8 @@
 
 
 
+- [ ] 0121[小样本学习](./读书笔记/ML&DL/DLArticles/小样本学习.html)
+- [ ] 0121[深度学习攻防](./读书笔记/ML&DL/DLArticles/深度学习攻防.html)
 - [ ] 0121[原始数据中的反绎知识归纳](./读书笔记/ML&DL/DLArticles/原始数据中的反绎知识归纳.html)
 - [ ] 0120[vaex tutorial](./读书笔记/CS/Python/vaex tutorial.html)
 - [ ] 0112[神经网络中的白化](./读书笔记/ML&DL/DLArticles/神经网络中的白化.html)
