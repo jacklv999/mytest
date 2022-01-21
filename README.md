@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0121[原始数据中的反绎知识归纳](./读书笔记/ML&DL/DLArticles/原始数据中的反绎知识归纳.html)
 - [ ] 0120[vaex tutorial](./读书笔记/CS/Python/vaex tutorial.html)
 - [ ] 0112[神经网络中的白化](./读书笔记/ML&DL/DLArticles/神经网络中的白化.html)
 - [ ] 0104[实体关系抽取的现状和未来](./读书笔记/ML&DL/DLArticles/实体关系抽取的现状和未来.html)

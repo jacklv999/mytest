@@ -515,6 +515,8 @@
 .\读书笔记\ML&DL\DLArticles\Structural re-parameterization.md
 .\读书笔记\ML&DL\DLArticles\Transformer综述.html
 .\读书笔记\ML&DL\DLArticles\Transformer综述.md
+.\读书笔记\ML&DL\DLArticles\原始数据中的反绎知识归纳.html
+.\读书笔记\ML&DL\DLArticles\原始数据中的反绎知识归纳.md
 .\读书笔记\ML&DL\DLArticles\因果推断的推荐算法初探.html
 .\读书笔记\ML&DL\DLArticles\因果推断的推荐算法初探.md
 .\读书笔记\ML&DL\DLArticles\实体关系抽取的现状和未来.html
