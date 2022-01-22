@@ -38,6 +38,8 @@
 .\读书笔记\Business Related\Person Profile Analysis.html
 .\读书笔记\Business Related\Person Profile Analysis.md
 .\读书笔记\Business Related\README.md
+.\读书笔记\Business Related\指标体系.html
+.\读书笔记\Business Related\指标体系.md
 .\读书笔记\Business Related\数据运营.html
 .\读书笔记\Business Related\数据运营.md
 .\读书笔记\Business Related\行测数字题.html

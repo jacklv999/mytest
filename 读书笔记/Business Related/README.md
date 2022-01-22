@@ -15,8 +15,6 @@
 - [JD  Summary](./JD Summary.html) 
 - [Digitization Manager Trainee](./Digitization Manager Trainee.html) 
 - [Data Compliance](./Data Compliance.html) 
-- [AB Test](./AB Test.html) 
-- [Data Analysis Reports Writing](./Data Analysis Reports writing.html) 
 
 
 
@@ -27,6 +25,10 @@
 - [Probability Theory](./Data Analyst Probability Theory.html) 
 - [Machine Learning](./Data Analyst Machine Learning.html) 
 - [数据运营](./数据运营.html) 
+  - [如何搭建指标体系](./指标体系.html) 
+  - [Data Analysis Reports Writing](./Data Analysis Reports writing.html) 
+
+- [AB Test](./AB Test.html) 
 
 
 

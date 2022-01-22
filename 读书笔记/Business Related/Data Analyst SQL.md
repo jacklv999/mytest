@@ -103,3 +103,15 @@ REVOKE
   - instead by join
 - Do not use pattern-like, is null, in or any other complicated operation in `where` clause;
   - it will result in full table search;
+
+#### 其它问题
+
+- 基本的select from where group by having，左右外内连接，union和union all，去重，if then else，case when end 还要熟练掌握各种聚合函数，如sum,max,count 
+
+- 开窗函数 
+- 字符串处理函数 
+- 索引 
+- SQL常见优化手段
+  - 为使查询更有效率，应该大表在前还是小表在前，为什么要这么做；
+- 应用题
+  - 估算明日DAU，查询各科成绩大于平均成绩的学生名单
