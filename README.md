@@ -5,13 +5,7 @@
 
 - [ ] 0122[指标体系](./读书笔记/Business Related/指标体系.html)
 - [ ] 0121[小样本学习](./读书笔记/ML&DL/DLArticles/小样本学习.html)
-- [ ] 0121[深度学习攻防](./读书笔记/ML&DL/DLArticles/深度学习攻防.html)
 - [ ] 0121[原始数据中的反绎知识归纳](./读书笔记/ML&DL/DLArticles/原始数据中的反绎知识归纳.html)
-- [ ] 0120[vaex tutorial](./读书笔记/CS/Python/vaex tutorial.html)
-- [ ] 0112[神经网络中的白化](./读书笔记/ML&DL/DLArticles/神经网络中的白化.html)
-- [ ] 0103[Transformer综述](./读书笔记/ML&DL/DLArticles/Transformer综述.html)
-- [ ] 0103[因果推断的推荐算法初探](./读书笔记/ML&DL/DLArticles/因果推断的推荐算法初探.html) 
-- [ ] 0102[神经网络中的奥卡姆剃刀](./读书笔记/ML&DL/DLArticles/神经网络中的奥卡姆剃刀.html) 
 - [ ] 0102[Spark in Python](./读书笔记/CS/Big Data/Spark in Python.html)
 - [ ] 1222[Note on BERT Embedding](./读书笔记/ML&DL/general/Note on BERT Embedding.html)
 - [ ] 1219[Clustering Algorithm](./读书笔记/ML&DL/MLArticles/Clustering Algorithm.html)
@@ -47,15 +41,8 @@
 - [ ] 1017[SQL Evolution](./读书笔记/CS/cs/SQL Evolution.html) 
 - [ ] 1014[RF and Ensemble](./读书笔记/ML&DL/MLArticles/RF and Ensemble.html)
 - [ ] 1010[SQL教程](./读书笔记/CS/cs/SQL教程.html)
-- [ ] 1007[Git Config](./读书笔记/CS/cs/Git Config.html)
 - [ ] 1004[Less教程](./读书笔记/CS/前端相关/Less教程.html)
-- [ ] 0927[Git branch](./读书笔记/CS/cs/Git branch.html) 
-- [ ] 0926[Code Rules](./读书笔记/CS/cs/Code Rules.html)
 - [ ] 0923[闭包与立即执行函数](./读书笔记/CS/前端相关/闭包与立即执行函数.html)
-- [ ] 0914[Python字符串切片](./读书笔记/CS/Python/Python字符串切片.html)
-- [ ] 0814[HTML Form表单](./读书笔记/CS/前端相关/HTML Form表单.html)
-- [ ] 0811[Flask 异步任务](./读书笔记/CS/Python/Flask 异步任务.html)
-- [ ] 0811[JS AJAX Note](./读书笔记/CS/前端相关/JS AJAX Note.html)
 
 
 
