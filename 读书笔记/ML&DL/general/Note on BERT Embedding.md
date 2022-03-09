@@ -25,6 +25,12 @@
   - 但也不会比word embedding更好;
 - 使用XLNet效果很好(自编码和自回归模型之间的差别)
 - use + 1-arccos(cossim);
+  - use: 
+    - computing every word embedding and then sum
+    - with supervised data training
+
+  - 1-arccos(cossim): 转换为弧度, BERT向量为圆锥空间
+
 
 ##### **从向量空间入手**: 
 
