@@ -143,6 +143,8 @@
 .\读书笔记\CS\Python\Numba库使用简介.md
 .\读书笔记\CS\Python\Pandas Package Review.html
 .\读书笔记\CS\Python\Pandas Package Review.md
+.\读书笔记\CS\Python\Playwright Guide.html
+.\读书笔记\CS\Python\Playwright Guide.md
 .\读书笔记\CS\Python\Python EXE拖拽运行.html
 .\读书笔记\CS\Python\Python EXE拖拽运行.md
 .\读书笔记\CS\Python\Python Note.md
