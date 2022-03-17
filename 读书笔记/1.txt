@@ -953,6 +953,8 @@
 .\读书笔记\语言篇\AAC目录.md
 .\读书笔记\语言篇\AboutPresentation.html
 .\读书笔记\语言篇\AboutPresentation.md
+.\读书笔记\语言篇\Being Humble.html
+.\读书笔记\语言篇\Being Humble.md
 .\读书笔记\语言篇\Learning to shut up.html
 .\读书笔记\语言篇\Learning to shut up.md
 .\读书笔记\语言篇\Learning to speak.html

@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0317[Being Humble](./读书笔记/语言篇/Being Humble.html)
 - [ ] 0317[傻逼的故事](./读书笔记/IDEA整理/傻逼的故事.html)
 - [ ] 0313[Playwright Guide](./读书笔记/CS/Python/Playwright Guide.html)
 - [ ] 0122[指标体系](./读书笔记/Business Related/指标体系.html) 

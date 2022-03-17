@@ -1,4 +1,4 @@
-#语言篇
+# 语言篇
 
 -  [来，回答一个问题](./语言篇（一）：来，回答一个问题.html) 
 -  [我需要它](./语言篇（二）：我需要它.html) 
@@ -6,6 +6,7 @@
 -  [举个栗子](./语言篇（四）：举个栗子.html) 
 -  [我们爱演讲](./语言篇（五）：我们爱演讲.html) 
 -  [Learning to shut up](./Learning to shut up.html) 
+-  [Being Humble and responsible](./Being Humble.html) 
 
 
 
