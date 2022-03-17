@@ -30,3 +30,11 @@
 - [阅读的核心](./阅读的核心.html) 
 - [学读书](./学读书.html) 
 - [Mastering Reading Skills](./Mastering Reading Skills.html) 
+
+
+
+
+
+## sabi
+
+- [傻逼的故事](./傻逼的故事.html) 

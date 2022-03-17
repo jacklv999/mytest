@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0317[傻逼的故事](./读书笔记/IDEA整理/傻逼的故事.html)
 - [ ] 0313[Playwright Guide](./读书笔记/CS/Python/Playwright Guide.html)
 - [ ] 0122[指标体系](./读书笔记/Business Related/指标体系.html) 
 - [ ] 0102[Spark in Python](./读书笔记/CS/Big Data/Spark in Python.html)
