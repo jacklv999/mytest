@@ -971,6 +971,8 @@
 .\读书笔记\语言篇\The-American-Accent-Course：The-Rhythm-and-Intonation-.html
 .\读书笔记\语言篇\The-American-Accent-Course：Vowel-.html
 .\读书笔记\语言篇\介词表现的三类关系：时间、空间、交际.html
+.\读书笔记\语言篇\工作汇报.html
+.\读书笔记\语言篇\工作汇报.md
 .\读书笔记\语言篇\英语语篇随笔.html
 .\读书笔记\语言篇\语言篇（一）：来，回答一个问题.html
 .\读书笔记\语言篇\语言篇（三）：逃不掉争论.html
