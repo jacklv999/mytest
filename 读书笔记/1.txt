@@ -787,9 +787,9 @@
 .\读书笔记\摄影\摄影——后期\磨皮方法.html
 .\读书笔记\摄影\摄影——后期\磨皮方法.md
 .\读书笔记\政治学与领导\README.md
+.\读书笔记\政治学与领导\乌合之众.html
 .\读书笔记\政治学与领导\从《李光耀论中国与世界》看人才战略.html
-.\读书笔记\政治学与领导\来说《乌合之众》.html
-.\读书笔记\政治学与领导\看历史，叹托孤多无幸.html
+.\读书笔记\政治学与领导\看历史叹托孤多无幸.html
 .\读书笔记\政治学与领导\利维坦\1.png
 .\读书笔记\政治学与领导\利维坦\2.png
 .\读书笔记\政治学与领导\利维坦\3.png
@@ -1100,10 +1100,10 @@
 .\读书笔记\语言篇\README.md
 .\读书笔记\语言篇\American-Accent-Course\AAC目录.html
 .\读书笔记\语言篇\American-Accent-Course\README.md
-.\读书笔记\语言篇\American-Accent-Course\The-American-Accent-Course：-How-American-Really-Talk-.html
-.\读书笔记\语言篇\American-Accent-Course\The-American-Accent-Course：Consonsant-.html
-.\读书笔记\语言篇\American-Accent-Course\The-American-Accent-Course：The-Rhythm-and-Intonation-.html
-.\读书笔记\语言篇\American-Accent-Course\The-American-Accent-Course：Vowel-.html
+.\读书笔记\语言篇\American-Accent-Course\The-American-Accent-Course-Consonsant-.html
+.\读书笔记\语言篇\American-Accent-Course\The-American-Accent-Course-How-American-Really-Talk-.html
+.\读书笔记\语言篇\American-Accent-Course\The-American-Accent-Course-The-Rhythm-and-Intonation-.html
+.\读书笔记\语言篇\American-Accent-Course\The-American-Accent-Course-Vowel-.html
 .\读书笔记\语言篇\沟通交流\AboutPresentation.html
 .\读书笔记\语言篇\沟通交流\AboutPresentation.md
 .\读书笔记\语言篇\沟通交流\Being Humble.html
@@ -1122,6 +1122,20 @@
 .\读书笔记\语言篇\沟通交流\语言篇我需要它.html
 .\读书笔记\语言篇\沟通交流\语言篇来回答一个问题.html
 .\读书笔记\语言篇\沟通交流\语言篇逃不掉争论.html
+.\读书笔记\语言篇\英语学习\1.jpeg
+.\读书笔记\语言篇\英语学习\10.png
+.\读书笔记\语言篇\英语学习\11.png
+.\读书笔记\语言篇\英语学习\12.png
+.\读书笔记\语言篇\英语学习\13.png
+.\读书笔记\语言篇\英语学习\14.png
+.\读书笔记\语言篇\英语学习\2.jpeg
+.\读书笔记\语言篇\英语学习\3.jpeg
+.\读书笔记\语言篇\英语学习\4.jpeg
+.\读书笔记\语言篇\英语学习\5.png
+.\读书笔记\语言篇\英语学习\6.png
+.\读书笔记\语言篇\英语学习\7.png
+.\读书笔记\语言篇\英语学习\8.png
+.\读书笔记\语言篇\英语学习\9.png
 .\读书笔记\语言篇\英语学习\README.md
 .\读书笔记\语言篇\英语学习\介词表现的三类关系时间空间交际.html
 .\读书笔记\语言篇\英语学习\英语语篇随笔.html

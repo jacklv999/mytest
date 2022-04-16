@@ -3,6 +3,12 @@
 
 
 
+- [ ] 0416[看历史叹托孤多无幸](./读书笔记/政治学与领导/看历史叹托孤多无幸.html)
+- [ ] 0416[The-American-Accent-Course-Consonsant-](./读书笔记/语言篇/American-Accent-Course/The-American-Accent-Course-Consonsant-.html)
+- [ ] 0416[The-American-Accent-Course-The-Rhythm-and-Intonation-](./读书笔记/语言篇/American-Accent-Course/The-American-Accent-Course-The-Rhythm-and-Intonation-.html)
+- [ ] 0416[乌合之众](./读书笔记/政治学与领导/乌合之众.html)
+- [ ] 0416[The-American-Accent-Course-How-American-Really-Talk-](./读书笔记/语言篇/American-Accent-Course/The-American-Accent-Course-How-American-Really-Talk-.html)
+- [ ] 0416[The-American-Accent-Course-Vowel-](./读书笔记/语言篇/American-Accent-Course/The-American-Accent-Course-Vowel-.html)
 - [ ] 0416[语言篇来回答一个问题](./读书笔记/语言篇/沟通交流/语言篇来回答一个问题.html)
 - [ ] 0416[AboutPresentation](./读书笔记/语言篇/沟通交流/AboutPresentation.html)
 - [ ] 0416[Being Humble](./读书笔记/语言篇/沟通交流/Being Humble.html)
