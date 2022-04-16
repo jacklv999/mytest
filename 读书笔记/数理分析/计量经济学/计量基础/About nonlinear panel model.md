@@ -19,4 +19,7 @@ FE估计在linear model中通过demean transformation（或者first differencing
 
 1. Chamberlain的方法，即假设![[公式]](https://www.zhihu.com/equation?tex=%5Calpha_i%3D%5Cbar%7Bx_i%7D%5Cdelta%2Bv_i)，这样模型就回到随机效应的probit logit了
 2. conditional logit
-3. maximum score estimator：![[公式]](https://www.zhihu.com/equation?tex=%5Cmax_%7B%5Cbeta_1%3D1%7D%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%28d_%7Bi2%7D-d_%7Bi1%7D%29K%28x_%7Bi2%7D%27%5Cbeta-x_%7Bi1%7D%27%5Cbeta%29)
+3. maximum score estimator：![[公式]](https://www.zhihu.com/equation?tex=%5Cmax_%7B%5Cbeta_1%3D1%7D%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%28d_%7Bi2%7D-d_%7Bi1%7D%29K%28x_%7Bi2%7D%27%5Cbeta-x_%7Bi1%7D%27%5Cbeta%29) 
+
+
+

@@ -55,273 +55,273 @@
 .\读书笔记\Business Related\Business Sense\README.md
 .\读书笔记\Business Related\Business Sense\Using Lean Analytics.html
 .\读书笔记\Business Related\Business Sense\Using Lean Analytics.md
-.\读书笔记\CS\README.md
-.\读书笔记\CS\Big Data\Big Data Review.html
-.\读书笔记\CS\Big Data\Big Data Review.md
-.\读书笔记\CS\Big Data\README.md
-.\读书笔记\CS\Big Data\Spark in Python.html
-.\读书笔记\CS\Big Data\Spark in Python.ipynb
-.\读书笔记\CS\cs\Chrome快捷键.html
-.\读书笔记\CS\cs\Chrome快捷键.md
-.\读书笔记\CS\cs\CMD脚本.html
-.\读书笔记\CS\cs\CMD脚本.md
-.\读书笔记\CS\cs\Code Rules.html
-.\读书笔记\CS\cs\Code Rules.md
-.\读书笔记\CS\cs\Git branch.html
-.\读书笔记\CS\cs\Git branch.md
-.\读书笔记\CS\cs\Git Config.html
-.\读书笔记\CS\cs\Git Config.md
-.\读书笔记\CS\cs\Github命令.html
-.\读书笔记\CS\cs\Github命令.md
-.\读书笔记\CS\cs\Go语言教程.html
-.\读书笔记\CS\cs\Go语言教程.md
-.\读书笔记\CS\cs\Hash Table.html
-.\读书笔记\CS\cs\Hash Table.ipynb
-.\读书笔记\CS\cs\Leetcode SQL Note (01 - 10).html
-.\读书笔记\CS\cs\Leetcode SQL Note (01 - 10).md
-.\读书笔记\CS\cs\Leetcode SQL Note (11 - 20).html
-.\读书笔记\CS\cs\Leetcode SQL Note (11 - 20).md
-.\读书笔记\CS\cs\Leetcode SQL Note (21-30).html
-.\读书笔记\CS\cs\Leetcode SQL Note (21-30).md
-.\读书笔记\CS\cs\Leetcode SQL Note (31 - 40).html
-.\读书笔记\CS\cs\Leetcode SQL Note (31 - 40).md
-.\读书笔记\CS\cs\Leetcode SQL Note (41 - 50).html
-.\读书笔记\CS\cs\Leetcode SQL Note (41 - 50).md
-.\读书笔记\CS\cs\linux 基础命令.html
-.\读书笔记\CS\cs\linux 基础命令.md
-.\读书笔记\CS\cs\Markdown 流程图.html
-.\读书笔记\CS\cs\Markdown 流程图.md
-.\读书笔记\CS\cs\Markdown插入图片.html
-.\读书笔记\CS\cs\Markdown插入图片.md
-.\读书笔记\CS\cs\markdown数学公式.html
-.\读书笔记\CS\cs\markdown数学公式.md
-.\读书笔记\CS\cs\Open API Note.html
-.\读书笔记\CS\cs\Open API Note.md
-.\读书笔记\CS\cs\README.md
-.\读书笔记\CS\cs\SQL Evolution.html
-.\读书笔记\CS\cs\SQL Evolution.md
-.\读书笔记\CS\cs\SQL教程.html
-.\读书笔记\CS\cs\SQL教程.md
-.\读书笔记\CS\cs\vm_register.html
-.\读书笔记\CS\cs\vm_register.md
-.\读书笔记\CS\cs\Windows脚本.html
-.\读书笔记\CS\cs\Windows脚本.md
-.\读书笔记\CS\cs\数据库基础.html
-.\读书笔记\CS\cs\数据库基础.md
-.\读书笔记\CS\cs\文件头.html
-.\读书笔记\CS\cs\文件头.md
-.\读书笔记\CS\cs\正则表达式.html
-.\读书笔记\CS\cs\正则表达式.md
-.\读书笔记\CS\cs\正则表达式再整理.html
-.\读书笔记\CS\cs\正则表达式再整理.md
-.\读书笔记\CS\cs\简书MarkDown语法.html
-.\读书笔记\CS\cs\简书MarkDown语法.md
-.\读书笔记\CS\cs\编译器原理简记.html
-.\读书笔记\CS\cs\编译器原理简记.md
-.\读书笔记\CS\cs\Office相关\PowerApp笔记.html
-.\读书笔记\CS\cs\Office相关\PowerApp笔记.md
-.\读书笔记\CS\cs\Office相关\PPT技巧.html
-.\读书笔记\CS\cs\Office相关\PPT技巧.md
-.\读书笔记\CS\cs\Office相关\Word-Tips.html
-.\读书笔记\CS\cs\Office相关\Word-Tips.md
-.\读书笔记\CS\Python\BeautifulSoup基础.html
-.\读书笔记\CS\Python\BeautifulSoup基础.md
-.\读书笔记\CS\Python\DearPyGUI Tutorial Note.html
-.\读书笔记\CS\Python\DearPyGUI Tutorial Note.md
-.\读书笔记\CS\Python\DPG Tutorials.html
-.\读书笔记\CS\Python\DPG使用细节笔记.html
-.\读书笔记\CS\Python\DPG使用细节笔记.md
-.\读书笔记\CS\Python\Flask JSON传输图片.html
-.\读书笔记\CS\Python\Flask JSON传输图片.md
-.\读书笔记\CS\Python\Flask on Tencent Cloud.html
-.\读书笔记\CS\Python\Flask on Tencent Cloud.md
-.\读书笔记\CS\Python\Flask Task Monitor.html
-.\读书笔记\CS\Python\Flask Task Monitor.md
-.\读书笔记\CS\Python\Flask 异步任务.html
-.\读书笔记\CS\Python\Flask 异步任务.md
-.\读书笔记\CS\Python\Flask简单示例.html
-.\读书笔记\CS\Python\Flask简单示例.md
-.\读书笔记\CS\Python\Numba库使用简介.html
-.\读书笔记\CS\Python\Numba库使用简介.md
-.\读书笔记\CS\Python\Pandas Package Review.html
-.\读书笔记\CS\Python\Pandas Package Review.md
-.\读书笔记\CS\Python\Playwright Guide.html
-.\读书笔记\CS\Python\Playwright Guide.md
-.\读书笔记\CS\Python\Python EXE拖拽运行.html
-.\读书笔记\CS\Python\Python EXE拖拽运行.md
-.\读书笔记\CS\Python\Python Note.md
-.\读书笔记\CS\Python\Python tkinter编程.html
-.\读书笔记\CS\Python\Python tkinter编程.md
-.\读书笔记\CS\Python\Python 执行字符串.html
-.\读书笔记\CS\Python\Python 执行字符串.md
-.\读书笔记\CS\Python\Python多进程.html
-.\读书笔记\CS\Python\Python多进程.md
-.\读书笔记\CS\Python\Python字符串切片.html
-.\读书笔记\CS\Python\Python字符串切片.md
-.\读书笔记\CS\Python\Python实现虚拟机.html
-.\读书笔记\CS\Python\Python实现虚拟机.md
-.\读书笔记\CS\Python\Python数据类型转换.html
-.\读书笔记\CS\Python\Python核心笔记 _简版.md
-.\读书笔记\CS\Python\Python核心笔记.html
-.\读书笔记\CS\Python\Python核心笔记.md
-.\读书笔记\CS\Python\Python的FFI编程.html
-.\读书笔记\CS\Python\Python的FFI编程.md
-.\读书笔记\CS\Python\Python监听模拟鼠标键盘.html
-.\读书笔记\CS\Python\Python监听模拟鼠标键盘.md
-.\读书笔记\CS\Python\Python虚拟环境及打包.html
-.\读书笔记\CS\Python\Python虚拟环境及打包.md
-.\读书笔记\CS\Python\Python调用命令行.html
-.\读书笔记\CS\Python\Python调用命令行.md
-.\读书笔记\CS\Python\Pytorch与Nppd笔记.html
-.\读书笔记\CS\Python\Pytorch与Nppd笔记.md
-.\读书笔记\CS\Python\Pytorch与Py模块化笔记.html
-.\读书笔记\CS\Python\Pytorch与Py模块化笔记.md
-.\读书笔记\CS\Python\README.md
-.\读书笔记\CS\Python\requests笔记.html
-.\读书笔记\CS\Python\requests笔记.md
-.\读书笔记\CS\Python\Scrapy Note.html
-.\读书笔记\CS\Python\Scrapy Note.md
-.\读书笔记\CS\Python\Scrapy-Selector.html
-.\读书笔记\CS\Python\Scrapy-Selector.md
-.\读书笔记\CS\Python\Send mail by Python.html
-.\读书笔记\CS\Python\Send mail by Python.md
-.\读书笔记\CS\Python\Tkinter与多线程.html
-.\读书笔记\CS\Python\Tkinter与多线程.md
-.\读书笔记\CS\Python\vaex tutorial.html
-.\读书笔记\CS\Python\vaex tutorial.ipynb
-.\读书笔记\CS\Python\利用拖拽工具生成PythonGUI.html
-.\读书笔记\CS\Python\利用拖拽工具生成PythonGUI.md
-.\读书笔记\CS\Python\反编译Pyinstaller打包文件.html
-.\读书笔记\CS\Python\反编译Pyinstaller打包文件.md
-.\读书笔记\CS\Python\无头浏览器爬虫.html
-.\读书笔记\CS\Python\无头浏览器爬虫.md
-.\读书笔记\CS\Python\DPG Tutorials_files\code_style.css
-.\读书笔记\CS\Python\DPG Tutorials_files\rainbow-custom.min.js.下载
-.\读书笔记\CS\Python\Python-数据可视化Mvan\Animation-动画.html
-.\读书笔记\CS\Python\Python-数据可视化Mvan\Animation-动画.md
-.\读书笔记\CS\Python\Python-数据可视化Mvan\figure-图像.html
-.\读书笔记\CS\Python\Python-数据可视化Mvan\figure-图像.md
-.\读书笔记\CS\Python\Python-数据可视化Mvan\Matplotlib-基础.html
-.\读书笔记\CS\Python\Python-数据可视化Mvan\Matplotlib-基础.md
-.\读书笔记\CS\Python\Python-数据可视化Mvan\坐标轴设置.html
-.\读书笔记\CS\Python\Python-数据可视化Mvan\坐标轴设置.md
-.\读书笔记\CS\Python\Python-数据可视化Mvan\复杂信息显示Image-图片和3D-数据.html
-.\读书笔记\CS\Python\Python-数据可视化Mvan\复杂信息显示：Image-图片和3D-数据.md
-.\读书笔记\CS\Python\Python-数据可视化Mvan\多子图显示：Subplot.md
-.\读书笔记\CS\Python\Python-数据可视化Mvan\数据图基础设置LegendAnnotation-and-tick.html
-.\读书笔记\CS\Python\Python-数据可视化Mvan\数据图基础设置：Legend,-Annotation-and-tick.md
-.\读书笔记\CS\Python\Python-数据可视化Mvan\目录.md
-.\读书笔记\CS\Python\Python-数据可视化Mvan\简单信息显示Scatter-散点图Bar-柱状图和-Contours-等高线图.html
-.\读书笔记\CS\Python\Python-数据可视化Mvan\简单信息显示：Scatter-散点图、Bar-柱状图和-Contours-等高线图.md
-.\读书笔记\CS\Rust\README.md
-.\读书笔记\CS\Rust\Rust Ownership.md
-.\读书笔记\CS\Rust\Rust简明教程.html
-.\读书笔记\CS\Rust\Rust简明教程.md
-.\读书笔记\CS\R语言学习笔记\ggplot绘图.html
-.\读书笔记\CS\R语言学习笔记\ggplot绘图.md
-.\读书笔记\CS\R语言学习笔记\Plot A Cartogram.html
-.\读书笔记\CS\R语言学习笔记\Plot A Cartogram.md
-.\读书笔记\CS\R语言学习笔记\README.md
-.\读书笔记\CS\R语言学习笔记\REmap Note.html
-.\读书笔记\CS\R语言学习笔记\REmap Note.md
-.\读书笔记\CS\R语言学习笔记\Rust FFI in R.html
-.\读书笔记\CS\R语言学习笔记\Rust FFI in R.md
-.\读书笔记\CS\R语言学习笔记\R语言与其它编程语言的协作.html
-.\读书笔记\CS\R语言学习笔记\R语言与其它编程语言的协作.md
-.\读书笔记\CS\R语言学习笔记\R语言动态图绘制.html
-.\读书笔记\CS\R语言学习笔记\R语言动态图绘制.md
-.\读书笔记\CS\R语言学习笔记\R语言可视化.html
-.\读书笔记\CS\R语言学习笔记\R语言可视化.md
-.\读书笔记\CS\R语言学习笔记\R语言基础语法.html
-.\读书笔记\CS\R语言学习笔记\R语言基础语法.md
-.\读书笔记\CS\R语言学习笔记\R语言多进程.html
-.\读书笔记\CS\R语言学习笔记\R语言多进程.md
-.\读书笔记\CS\R语言学习笔记\R语言强制数据类型转换.html
-.\读书笔记\CS\R语言学习笔记\R语言强制数据类型转换.md
-.\读书笔记\CS\R语言学习笔记\R语言数据接口.html
-.\读书笔记\CS\R语言学习笔记\R语言数据接口.md
-.\读书笔记\CS\R语言学习笔记\R语言数据类型.md
-.\读书笔记\CS\R语言学习笔记\R语言爬虫.html
-.\读书笔记\CS\R语言学习笔记\R语言爬虫.md
-.\读书笔记\CS\R语言学习笔记\R语言特征值相关性分析.html
-.\读书笔记\CS\R语言学习笔记\R语言特征值相关性分析.md
-.\读书笔记\CS\R语言学习笔记\R语言画流向图.html
-.\读书笔记\CS\R语言学习笔记\R语言画流向图.md
-.\读书笔记\CS\R语言学习笔记\R语言知识点.html
-.\读书笔记\CS\R语言学习笔记\R语言知识点.md
-.\读书笔记\CS\R语言学习笔记\R语言笔记.md
-.\读书笔记\CS\R语言学习笔记\R语言计量笔记.html
-.\读书笔记\CS\R语言学习笔记\R语言计量笔记.md
-.\读书笔记\CS\R语言学习笔记\R语言计量笔记二.html
-.\读书笔记\CS\R语言学习笔记\R语言计量笔记二.md
-.\读书笔记\CS\R语言学习笔记\R语言进阶语法.html
-.\读书笔记\CS\R语言学习笔记\R语言进阶语法.md
-.\读书笔记\CS\R语言学习笔记\R语言面向对象编程.html
-.\读书笔记\CS\R语言学习笔记\R语言面向对象编程.md
-.\读书笔记\CS\R语言学习笔记\the document of tcltk in R.html
-.\读书笔记\CS\R语言学习笔记\the document of tcltk in R.md
-.\读书笔记\CS\R语言学习笔记\Using R to simulate the minimum of human.html
-.\读书笔记\CS\R语言学习笔记\Using R to simulate the minimum of human.md
-.\读书笔记\CS\R语言学习笔记\高清R绘图.html
-.\读书笔记\CS\R语言学习笔记\高清R绘图.md
-.\读书笔记\CS\前端相关\ADblocker规则简单整理.html
-.\读书笔记\CS\前端相关\ADblocker规则简单整理.md
-.\读书笔记\CS\前端相关\Canvas绘画笔记.html
-.\读书笔记\CS\前端相关\Canvas绘画笔记.md
-.\读书笔记\CS\前端相关\CSS 3笔记.html
-.\读书笔记\CS\前端相关\CSS 3笔记.md
-.\读书笔记\CS\前端相关\CSS 布局.html
-.\读书笔记\CS\前端相关\CSS 布局.md
-.\读书笔记\CS\前端相关\CSS基础.html
-.\读书笔记\CS\前端相关\CSS基础.md
-.\读书笔记\CS\前端相关\Download File in HTML.html
-.\读书笔记\CS\前端相关\Download File in HTML.md
-.\读书笔记\CS\前端相关\HTML DOM 元素处理.html
-.\读书笔记\CS\前端相关\HTML DOM 元素处理.md
-.\读书笔记\CS\前端相关\HTML DOM事件.html
-.\读书笔记\CS\前端相关\HTML DOM事件.md
-.\读书笔记\CS\前端相关\HTML Form表单.html
-.\读书笔记\CS\前端相关\HTML Form表单.md
-.\读书笔记\CS\前端相关\Html5记录.html
-.\读书笔记\CS\前端相关\Html5记录.md
-.\读书笔记\CS\前端相关\HTML与CSS笔记.html
-.\读书笔记\CS\前端相关\HTML与CSS笔记.md
-.\读书笔记\CS\前端相关\HTML基本语法.html
-.\读书笔记\CS\前端相关\HTML基本语法.md
-.\读书笔记\CS\前端相关\HTML杂项.html
-.\读书笔记\CS\前端相关\HTML杂项.md
-.\读书笔记\CS\前端相关\HTML表格插件.html
-.\读书笔记\CS\前端相关\HTML表格插件.md
-.\读书笔记\CS\前端相关\Javascript Base64.html
-.\读书笔记\CS\前端相关\Javascript Base64.md
-.\读书笔记\CS\前端相关\Javascript Coding.html
-.\读书笔记\CS\前端相关\Javascript Coding.md
-.\读书笔记\CS\前端相关\JavaScript基础.html
-.\读书笔记\CS\前端相关\JavaScript基础.md
-.\读书笔记\CS\前端相关\jQuery 点击放大.html
-.\读书笔记\CS\前端相关\jQuery 点击放大.md
-.\读书笔记\CS\前端相关\JS AJAX Note.html
-.\读书笔记\CS\前端相关\JS AJAX Note.md
-.\读书笔记\CS\前端相关\JS Slider插件.html
-.\读书笔记\CS\前端相关\JS Slider插件.md
-.\读书笔记\CS\前端相关\JS下拉选择框.html
-.\读书笔记\CS\前端相关\JS下拉选择框.md
-.\读书笔记\CS\前端相关\JS知网实践.html
-.\读书笔记\CS\前端相关\JS知网实践.md
-.\读书笔记\CS\前端相关\Less教程.html
-.\读书笔记\CS\前端相关\Less教程.md
-.\读书笔记\CS\前端相关\README.md
-.\读书笔记\CS\前端相关\使用 TypeScript 来写 Vue.html
-.\读书笔记\CS\前端相关\使用 TypeScript 来写 Vue[转].md
-.\读书笔记\CS\前端相关\树状下拉选择.html
-.\读书笔记\CS\前端相关\树状下拉选择.md
-.\读书笔记\CS\前端相关\禁止Chrome登录.html
-.\读书笔记\CS\前端相关\禁止Chrome登录.md
-.\读书笔记\CS\前端相关\闭包与立即执行函数.html
-.\读书笔记\CS\前端相关\闭包与立即执行函数.md
-.\读书笔记\CS\前端相关\Front-end\React学习之道.html
-.\读书笔记\CS\前端相关\Front-end\React学习之道.pdf
-.\读书笔记\CS\前端相关\Front-end\前端面试手册.pdf
+.\读书笔记\CS相关\README.md
+.\读书笔记\CS相关\Big Data\Big Data Review.html
+.\读书笔记\CS相关\Big Data\Big Data Review.md
+.\读书笔记\CS相关\Big Data\README.md
+.\读书笔记\CS相关\Big Data\Spark in Python.html
+.\读书笔记\CS相关\Big Data\Spark in Python.ipynb
+.\读书笔记\CS相关\cs\Chrome快捷键.html
+.\读书笔记\CS相关\cs\Chrome快捷键.md
+.\读书笔记\CS相关\cs\CMD脚本.html
+.\读书笔记\CS相关\cs\CMD脚本.md
+.\读书笔记\CS相关\cs\Code Rules.html
+.\读书笔记\CS相关\cs\Code Rules.md
+.\读书笔记\CS相关\cs\Git branch.html
+.\读书笔记\CS相关\cs\Git branch.md
+.\读书笔记\CS相关\cs\Git Config.html
+.\读书笔记\CS相关\cs\Git Config.md
+.\读书笔记\CS相关\cs\Github命令.html
+.\读书笔记\CS相关\cs\Github命令.md
+.\读书笔记\CS相关\cs\Go语言教程.html
+.\读书笔记\CS相关\cs\Go语言教程.md
+.\读书笔记\CS相关\cs\Hash Table.html
+.\读书笔记\CS相关\cs\Hash Table.ipynb
+.\读书笔记\CS相关\cs\Leetcode SQL Note (01 - 10).html
+.\读书笔记\CS相关\cs\Leetcode SQL Note (01 - 10).md
+.\读书笔记\CS相关\cs\Leetcode SQL Note (11 - 20).html
+.\读书笔记\CS相关\cs\Leetcode SQL Note (11 - 20).md
+.\读书笔记\CS相关\cs\Leetcode SQL Note (21-30).html
+.\读书笔记\CS相关\cs\Leetcode SQL Note (21-30).md
+.\读书笔记\CS相关\cs\Leetcode SQL Note (31 - 40).html
+.\读书笔记\CS相关\cs\Leetcode SQL Note (31 - 40).md
+.\读书笔记\CS相关\cs\Leetcode SQL Note (41 - 50).html
+.\读书笔记\CS相关\cs\Leetcode SQL Note (41 - 50).md
+.\读书笔记\CS相关\cs\linux 基础命令.html
+.\读书笔记\CS相关\cs\linux 基础命令.md
+.\读书笔记\CS相关\cs\Markdown 流程图.html
+.\读书笔记\CS相关\cs\Markdown 流程图.md
+.\读书笔记\CS相关\cs\Markdown插入图片.html
+.\读书笔记\CS相关\cs\Markdown插入图片.md
+.\读书笔记\CS相关\cs\markdown数学公式.html
+.\读书笔记\CS相关\cs\markdown数学公式.md
+.\读书笔记\CS相关\cs\Open API Note.html
+.\读书笔记\CS相关\cs\Open API Note.md
+.\读书笔记\CS相关\cs\README.md
+.\读书笔记\CS相关\cs\SQL Evolution.html
+.\读书笔记\CS相关\cs\SQL Evolution.md
+.\读书笔记\CS相关\cs\SQL教程.html
+.\读书笔记\CS相关\cs\SQL教程.md
+.\读书笔记\CS相关\cs\vm_register.html
+.\读书笔记\CS相关\cs\vm_register.md
+.\读书笔记\CS相关\cs\Windows脚本.html
+.\读书笔记\CS相关\cs\Windows脚本.md
+.\读书笔记\CS相关\cs\数据库基础.html
+.\读书笔记\CS相关\cs\数据库基础.md
+.\读书笔记\CS相关\cs\文件头.html
+.\读书笔记\CS相关\cs\文件头.md
+.\读书笔记\CS相关\cs\正则表达式.html
+.\读书笔记\CS相关\cs\正则表达式.md
+.\读书笔记\CS相关\cs\正则表达式再整理.html
+.\读书笔记\CS相关\cs\正则表达式再整理.md
+.\读书笔记\CS相关\cs\简书MarkDown语法.html
+.\读书笔记\CS相关\cs\简书MarkDown语法.md
+.\读书笔记\CS相关\cs\编译器原理简记.html
+.\读书笔记\CS相关\cs\编译器原理简记.md
+.\读书笔记\CS相关\cs\Office相关\PowerApp笔记.html
+.\读书笔记\CS相关\cs\Office相关\PowerApp笔记.md
+.\读书笔记\CS相关\cs\Office相关\PPT技巧.html
+.\读书笔记\CS相关\cs\Office相关\PPT技巧.md
+.\读书笔记\CS相关\cs\Office相关\Word-Tips.html
+.\读书笔记\CS相关\cs\Office相关\Word-Tips.md
+.\读书笔记\CS相关\Python\BeautifulSoup基础.html
+.\读书笔记\CS相关\Python\BeautifulSoup基础.md
+.\读书笔记\CS相关\Python\DearPyGUI Tutorial Note.html
+.\读书笔记\CS相关\Python\DearPyGUI Tutorial Note.md
+.\读书笔记\CS相关\Python\DPG Tutorials.html
+.\读书笔记\CS相关\Python\DPG使用细节笔记.html
+.\读书笔记\CS相关\Python\DPG使用细节笔记.md
+.\读书笔记\CS相关\Python\Flask JSON传输图片.html
+.\读书笔记\CS相关\Python\Flask JSON传输图片.md
+.\读书笔记\CS相关\Python\Flask on Tencent Cloud.html
+.\读书笔记\CS相关\Python\Flask on Tencent Cloud.md
+.\读书笔记\CS相关\Python\Flask Task Monitor.html
+.\读书笔记\CS相关\Python\Flask Task Monitor.md
+.\读书笔记\CS相关\Python\Flask 异步任务.html
+.\读书笔记\CS相关\Python\Flask 异步任务.md
+.\读书笔记\CS相关\Python\Flask简单示例.html
+.\读书笔记\CS相关\Python\Flask简单示例.md
+.\读书笔记\CS相关\Python\Numba库使用简介.html
+.\读书笔记\CS相关\Python\Numba库使用简介.md
+.\读书笔记\CS相关\Python\Pandas Package Review.html
+.\读书笔记\CS相关\Python\Pandas Package Review.md
+.\读书笔记\CS相关\Python\Playwright Guide.html
+.\读书笔记\CS相关\Python\Playwright Guide.md
+.\读书笔记\CS相关\Python\Python EXE拖拽运行.html
+.\读书笔记\CS相关\Python\Python EXE拖拽运行.md
+.\读书笔记\CS相关\Python\Python Note.md
+.\读书笔记\CS相关\Python\Python tkinter编程.html
+.\读书笔记\CS相关\Python\Python tkinter编程.md
+.\读书笔记\CS相关\Python\Python 执行字符串.html
+.\读书笔记\CS相关\Python\Python 执行字符串.md
+.\读书笔记\CS相关\Python\Python多进程.html
+.\读书笔记\CS相关\Python\Python多进程.md
+.\读书笔记\CS相关\Python\Python字符串切片.html
+.\读书笔记\CS相关\Python\Python字符串切片.md
+.\读书笔记\CS相关\Python\Python实现虚拟机.html
+.\读书笔记\CS相关\Python\Python实现虚拟机.md
+.\读书笔记\CS相关\Python\Python数据类型转换.html
+.\读书笔记\CS相关\Python\Python核心笔记 _简版.md
+.\读书笔记\CS相关\Python\Python核心笔记.html
+.\读书笔记\CS相关\Python\Python核心笔记.md
+.\读书笔记\CS相关\Python\Python的FFI编程.html
+.\读书笔记\CS相关\Python\Python的FFI编程.md
+.\读书笔记\CS相关\Python\Python监听模拟鼠标键盘.html
+.\读书笔记\CS相关\Python\Python监听模拟鼠标键盘.md
+.\读书笔记\CS相关\Python\Python虚拟环境及打包.html
+.\读书笔记\CS相关\Python\Python虚拟环境及打包.md
+.\读书笔记\CS相关\Python\Python调用命令行.html
+.\读书笔记\CS相关\Python\Python调用命令行.md
+.\读书笔记\CS相关\Python\Pytorch与Nppd笔记.html
+.\读书笔记\CS相关\Python\Pytorch与Nppd笔记.md
+.\读书笔记\CS相关\Python\Pytorch与Py模块化笔记.html
+.\读书笔记\CS相关\Python\Pytorch与Py模块化笔记.md
+.\读书笔记\CS相关\Python\README.md
+.\读书笔记\CS相关\Python\requests笔记.html
+.\读书笔记\CS相关\Python\requests笔记.md
+.\读书笔记\CS相关\Python\Scrapy Note.html
+.\读书笔记\CS相关\Python\Scrapy Note.md
+.\读书笔记\CS相关\Python\Scrapy-Selector.html
+.\读书笔记\CS相关\Python\Scrapy-Selector.md
+.\读书笔记\CS相关\Python\Send mail by Python.html
+.\读书笔记\CS相关\Python\Send mail by Python.md
+.\读书笔记\CS相关\Python\Tkinter与多线程.html
+.\读书笔记\CS相关\Python\Tkinter与多线程.md
+.\读书笔记\CS相关\Python\vaex tutorial.html
+.\读书笔记\CS相关\Python\vaex tutorial.ipynb
+.\读书笔记\CS相关\Python\利用拖拽工具生成PythonGUI.html
+.\读书笔记\CS相关\Python\利用拖拽工具生成PythonGUI.md
+.\读书笔记\CS相关\Python\反编译Pyinstaller打包文件.html
+.\读书笔记\CS相关\Python\反编译Pyinstaller打包文件.md
+.\读书笔记\CS相关\Python\无头浏览器爬虫.html
+.\读书笔记\CS相关\Python\无头浏览器爬虫.md
+.\读书笔记\CS相关\Python\DPG Tutorials_files\code_style.css
+.\读书笔记\CS相关\Python\DPG Tutorials_files\rainbow-custom.min.js.下载
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\Animation-动画.html
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\Animation-动画.md
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\figure-图像.html
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\figure-图像.md
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\Matplotlib-基础.html
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\Matplotlib-基础.md
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\坐标轴设置.html
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\坐标轴设置.md
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\复杂信息显示Image-图片和3D-数据.html
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\复杂信息显示：Image-图片和3D-数据.md
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\多子图显示：Subplot.md
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\数据图基础设置LegendAnnotation-and-tick.html
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\数据图基础设置：Legend,-Annotation-and-tick.md
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\目录.md
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\简单信息显示Scatter-散点图Bar-柱状图和-Contours-等高线图.html
+.\读书笔记\CS相关\Python\Python-数据可视化Mvan\简单信息显示：Scatter-散点图、Bar-柱状图和-Contours-等高线图.md
+.\读书笔记\CS相关\Rust\README.md
+.\读书笔记\CS相关\Rust\Rust Ownership.md
+.\读书笔记\CS相关\Rust\Rust简明教程.html
+.\读书笔记\CS相关\Rust\Rust简明教程.md
+.\读书笔记\CS相关\R语言学习笔记\ggplot绘图.html
+.\读书笔记\CS相关\R语言学习笔记\ggplot绘图.md
+.\读书笔记\CS相关\R语言学习笔记\Plot A Cartogram.html
+.\读书笔记\CS相关\R语言学习笔记\Plot A Cartogram.md
+.\读书笔记\CS相关\R语言学习笔记\README.md
+.\读书笔记\CS相关\R语言学习笔记\REmap Note.html
+.\读书笔记\CS相关\R语言学习笔记\REmap Note.md
+.\读书笔记\CS相关\R语言学习笔记\Rust FFI in R.html
+.\读书笔记\CS相关\R语言学习笔记\Rust FFI in R.md
+.\读书笔记\CS相关\R语言学习笔记\R语言与其它编程语言的协作.html
+.\读书笔记\CS相关\R语言学习笔记\R语言与其它编程语言的协作.md
+.\读书笔记\CS相关\R语言学习笔记\R语言动态图绘制.html
+.\读书笔记\CS相关\R语言学习笔记\R语言动态图绘制.md
+.\读书笔记\CS相关\R语言学习笔记\R语言可视化.html
+.\读书笔记\CS相关\R语言学习笔记\R语言可视化.md
+.\读书笔记\CS相关\R语言学习笔记\R语言基础语法.html
+.\读书笔记\CS相关\R语言学习笔记\R语言基础语法.md
+.\读书笔记\CS相关\R语言学习笔记\R语言多进程.html
+.\读书笔记\CS相关\R语言学习笔记\R语言多进程.md
+.\读书笔记\CS相关\R语言学习笔记\R语言强制数据类型转换.html
+.\读书笔记\CS相关\R语言学习笔记\R语言强制数据类型转换.md
+.\读书笔记\CS相关\R语言学习笔记\R语言数据接口.html
+.\读书笔记\CS相关\R语言学习笔记\R语言数据接口.md
+.\读书笔记\CS相关\R语言学习笔记\R语言数据类型.md
+.\读书笔记\CS相关\R语言学习笔记\R语言爬虫.html
+.\读书笔记\CS相关\R语言学习笔记\R语言爬虫.md
+.\读书笔记\CS相关\R语言学习笔记\R语言特征值相关性分析.html
+.\读书笔记\CS相关\R语言学习笔记\R语言特征值相关性分析.md
+.\读书笔记\CS相关\R语言学习笔记\R语言画流向图.html
+.\读书笔记\CS相关\R语言学习笔记\R语言画流向图.md
+.\读书笔记\CS相关\R语言学习笔记\R语言知识点.html
+.\读书笔记\CS相关\R语言学习笔记\R语言知识点.md
+.\读书笔记\CS相关\R语言学习笔记\R语言笔记.md
+.\读书笔记\CS相关\R语言学习笔记\R语言计量笔记.html
+.\读书笔记\CS相关\R语言学习笔记\R语言计量笔记.md
+.\读书笔记\CS相关\R语言学习笔记\R语言计量笔记二.html
+.\读书笔记\CS相关\R语言学习笔记\R语言计量笔记二.md
+.\读书笔记\CS相关\R语言学习笔记\R语言进阶语法.html
+.\读书笔记\CS相关\R语言学习笔记\R语言进阶语法.md
+.\读书笔记\CS相关\R语言学习笔记\R语言面向对象编程.html
+.\读书笔记\CS相关\R语言学习笔记\R语言面向对象编程.md
+.\读书笔记\CS相关\R语言学习笔记\the document of tcltk in R.html
+.\读书笔记\CS相关\R语言学习笔记\the document of tcltk in R.md
+.\读书笔记\CS相关\R语言学习笔记\Using R to simulate the minimum of human.html
+.\读书笔记\CS相关\R语言学习笔记\Using R to simulate the minimum of human.md
+.\读书笔记\CS相关\R语言学习笔记\高清R绘图.html
+.\读书笔记\CS相关\R语言学习笔记\高清R绘图.md
+.\读书笔记\CS相关\前端相关\ADblocker规则简单整理.html
+.\读书笔记\CS相关\前端相关\ADblocker规则简单整理.md
+.\读书笔记\CS相关\前端相关\Canvas绘画笔记.html
+.\读书笔记\CS相关\前端相关\Canvas绘画笔记.md
+.\读书笔记\CS相关\前端相关\CSS 3笔记.html
+.\读书笔记\CS相关\前端相关\CSS 3笔记.md
+.\读书笔记\CS相关\前端相关\CSS 布局.html
+.\读书笔记\CS相关\前端相关\CSS 布局.md
+.\读书笔记\CS相关\前端相关\CSS基础.html
+.\读书笔记\CS相关\前端相关\CSS基础.md
+.\读书笔记\CS相关\前端相关\Download File in HTML.html
+.\读书笔记\CS相关\前端相关\Download File in HTML.md
+.\读书笔记\CS相关\前端相关\HTML DOM 元素处理.html
+.\读书笔记\CS相关\前端相关\HTML DOM 元素处理.md
+.\读书笔记\CS相关\前端相关\HTML DOM事件.html
+.\读书笔记\CS相关\前端相关\HTML DOM事件.md
+.\读书笔记\CS相关\前端相关\HTML Form表单.html
+.\读书笔记\CS相关\前端相关\HTML Form表单.md
+.\读书笔记\CS相关\前端相关\Html5记录.html
+.\读书笔记\CS相关\前端相关\Html5记录.md
+.\读书笔记\CS相关\前端相关\HTML与CSS笔记.html
+.\读书笔记\CS相关\前端相关\HTML与CSS笔记.md
+.\读书笔记\CS相关\前端相关\HTML基本语法.html
+.\读书笔记\CS相关\前端相关\HTML基本语法.md
+.\读书笔记\CS相关\前端相关\HTML杂项.html
+.\读书笔记\CS相关\前端相关\HTML杂项.md
+.\读书笔记\CS相关\前端相关\HTML表格插件.html
+.\读书笔记\CS相关\前端相关\HTML表格插件.md
+.\读书笔记\CS相关\前端相关\Javascript Base64.html
+.\读书笔记\CS相关\前端相关\Javascript Base64.md
+.\读书笔记\CS相关\前端相关\Javascript Coding.html
+.\读书笔记\CS相关\前端相关\Javascript Coding.md
+.\读书笔记\CS相关\前端相关\JavaScript基础.html
+.\读书笔记\CS相关\前端相关\JavaScript基础.md
+.\读书笔记\CS相关\前端相关\jQuery 点击放大.html
+.\读书笔记\CS相关\前端相关\jQuery 点击放大.md
+.\读书笔记\CS相关\前端相关\JS AJAX Note.html
+.\读书笔记\CS相关\前端相关\JS AJAX Note.md
+.\读书笔记\CS相关\前端相关\JS Slider插件.html
+.\读书笔记\CS相关\前端相关\JS Slider插件.md
+.\读书笔记\CS相关\前端相关\JS下拉选择框.html
+.\读书笔记\CS相关\前端相关\JS下拉选择框.md
+.\读书笔记\CS相关\前端相关\JS知网实践.html
+.\读书笔记\CS相关\前端相关\JS知网实践.md
+.\读书笔记\CS相关\前端相关\Less教程.html
+.\读书笔记\CS相关\前端相关\Less教程.md
+.\读书笔记\CS相关\前端相关\README.md
+.\读书笔记\CS相关\前端相关\使用 TypeScript 来写 Vue.html
+.\读书笔记\CS相关\前端相关\使用 TypeScript 来写 Vue[转].md
+.\读书笔记\CS相关\前端相关\树状下拉选择.html
+.\读书笔记\CS相关\前端相关\树状下拉选择.md
+.\读书笔记\CS相关\前端相关\禁止Chrome登录.html
+.\读书笔记\CS相关\前端相关\禁止Chrome登录.md
+.\读书笔记\CS相关\前端相关\闭包与立即执行函数.html
+.\读书笔记\CS相关\前端相关\闭包与立即执行函数.md
+.\读书笔记\CS相关\前端相关\Front-end\React学习之道.html
+.\读书笔记\CS相关\前端相关\Front-end\React学习之道.pdf
+.\读书笔记\CS相关\前端相关\Front-end\前端面试手册.pdf
 .\读书笔记\IDEA整理\1.png
 .\读书笔记\IDEA整理\2.png
 .\读书笔记\IDEA整理\36个问题.html
@@ -650,12 +650,16 @@
 .\读书笔记\ML&DL\ML-Related\README.md
 .\读书笔记\ML&DL\ML-Related\RF and Ensemble.html
 .\读书笔记\ML&DL\ML-Related\RF and Ensemble.md
+.\读书笔记\ML&DL\ML-Related\shuju1.png
 .\读书笔记\ML&DL\ML-Related\VAE.html
 .\读书笔记\ML&DL\ML-Related\VAE.md
+.\读书笔记\ML&DL\ML-Related\使用随机重复爬山算法和模拟退火算法的过程优化.html
+.\读书笔记\ML&DL\ML-Related\使用随机重复爬山算法和模拟退火算法的过程优化.md
 .\读书笔记\ML&DL\ML-Related\变分推断简述.html
 .\读书笔记\ML&DL\ML-Related\变分推断简述.md
 .\读书笔记\ML&DL\ML-Related\基于 flow 的生成模型.html
 .\读书笔记\ML&DL\ML-Related\基于 flow 的生成模型.md
+.\读书笔记\ML&DL\ML-Related\基于相似运算、聚类运算和SVM的数据特征分类算法.html
 .\读书笔记\ML&DL\NLP-Related\Note on BERT Embedding.html
 .\读书笔记\ML&DL\NLP-Related\Note on BERT Embedding.md
 .\读书笔记\ML&DL\NLP-Related\README.md
@@ -890,44 +894,19 @@
 .\读书笔记\政治学与领导\政治学通识\《政治学通识》笔记·关于自由主义、保守主义与经验主义.html
 .\读书笔记\政治学与领导\政治学通识\《政治学通识》笔记·对民主的一点思考.html
 .\读书笔记\政治学与领导\政治学通识\《政治学通识》读书笔记整理.html
-.\读书笔记\数理分析\Bayesian 统计简述.html
-.\读书笔记\数理分析\Bayesian 统计简述.md
-.\读书笔记\数理分析\MCMC抽样方法.html
-.\读书笔记\数理分析\MCMC抽样方法.md
 .\读书笔记\数理分析\README.md
-.\读书笔记\数理分析\shuju1.png
-.\读书笔记\数理分析\使用随机重复爬山算法和模拟退火算法的过程优化.html
-.\读书笔记\数理分析\使用随机重复爬山算法和模拟退火算法的过程优化.md
-.\读书笔记\数理分析\基于有限样本的假设检验方法分析.html
-.\读书笔记\数理分析\基于相似运算、聚类运算和SVM的数据特征分类算法.html
-.\读书笔记\数理分析\基于贝叶斯方法的统计回归性机器学习与分析.html
 .\读书笔记\数理分析\生日悖论与哈希算法范围概率碰撞下限的讨论与利用.html
-.\读书笔记\数理分析\通俗的MCMC解读上.html
-.\读书笔记\数理分析\通俗的MCMC解读上.md
-.\读书笔记\数理分析\通俗的MCMC解读下.html
-.\读书笔记\数理分析\通俗的MCMC解读下.md
-.\读书笔记\数理分析\计量经济学\About nonlinear panel model.html
-.\读书笔记\数理分析\计量经济学\About nonlinear panel model.md
-.\读书笔记\数理分析\计量经济学\Heckman_models_and_IV.html
-.\读书笔记\数理分析\计量经济学\Heckman_models_and_IV.md
-.\读书笔记\数理分析\计量经济学\IV 估计框架下模型设定检验问题的讨论.html
-.\读书笔记\数理分析\计量经济学\IV 估计框架下模型设定检验问题的讨论.md
-.\读书笔记\数理分析\计量经济学\logit模型.html
-.\读书笔记\数理分析\计量经济学\logit模型.md
 .\读书笔记\数理分析\计量经济学\README.md
-.\读书笔记\数理分析\计量经济学\The ESR model.html
-.\读书笔记\数理分析\计量经济学\The ESR model.md
-.\读书笔记\数理分析\计量经济学\What is GMM.html
-.\读书笔记\数理分析\计量经济学\What is GMM.md
-.\读书笔记\数理分析\计量经济学\因子分析在量表设计中的应用(转).md
-.\读书笔记\数理分析\计量经济学\因子分析在量表设计中的应用.html
-.\读书笔记\数理分析\计量经济学\稳健标准误.html
-.\读书笔记\数理分析\计量经济学\稳健标准误.md
-.\读书笔记\数理分析\计量经济学\计量经济学笔记-精简版.md
-.\读书笔记\数理分析\计量经济学\计量经济学笔记.html
-.\读书笔记\数理分析\计量经济学\计量经济学笔记.md
-.\读书笔记\数理分析\计量经济学\面板数据分析.html
-.\读书笔记\数理分析\计量经济学\面板数据分析.md
+.\读书笔记\数理分析\计量经济学\Bayes计量\Bayesian 统计简述.html
+.\读书笔记\数理分析\计量经济学\Bayes计量\Bayesian 统计简述.md
+.\读书笔记\数理分析\计量经济学\Bayes计量\MCMC抽样方法.html
+.\读书笔记\数理分析\计量经济学\Bayes计量\MCMC抽样方法.md
+.\读书笔记\数理分析\计量经济学\Bayes计量\README.md
+.\读书笔记\数理分析\计量经济学\Bayes计量\通俗的MCMC解读上.html
+.\读书笔记\数理分析\计量经济学\Bayes计量\通俗的MCMC解读上.md
+.\读书笔记\数理分析\计量经济学\Bayes计量\通俗的MCMC解读下.html
+.\读书笔记\数理分析\计量经济学\Bayes计量\通俗的MCMC解读下.md
+.\读书笔记\数理分析\计量经济学\空间计量\README.md
 .\读书笔记\数理分析\计量经济学\空间计量\大数据下的替代模型.html
 .\读书笔记\数理分析\计量经济学\空间计量\大数据下的替代模型.md
 .\读书笔记\数理分析\计量经济学\空间计量\空间回归代码.html
@@ -940,6 +919,29 @@
 .\读书笔记\数理分析\计量经济学\空间计量\空间计量经济学的深入讨论.md
 .\读书笔记\数理分析\计量经济学\空间计量\空间计量经济学笔记.html
 .\读书笔记\数理分析\计量经济学\空间计量\空间计量经济学笔记.md
+.\读书笔记\数理分析\计量经济学\计量基础\About nonlinear panel model.html
+.\读书笔记\数理分析\计量经济学\计量基础\About nonlinear panel model.md
+.\读书笔记\数理分析\计量经济学\计量基础\Heckman_models_and_IV.html
+.\读书笔记\数理分析\计量经济学\计量基础\Heckman_models_and_IV.md
+.\读书笔记\数理分析\计量经济学\计量基础\IV 估计框架下模型设定检验问题的讨论.html
+.\读书笔记\数理分析\计量经济学\计量基础\IV 估计框架下模型设定检验问题的讨论.md
+.\读书笔记\数理分析\计量经济学\计量基础\logit模型.html
+.\读书笔记\数理分析\计量经济学\计量基础\logit模型.md
+.\读书笔记\数理分析\计量经济学\计量基础\README.md
+.\读书笔记\数理分析\计量经济学\计量基础\The ESR model.html
+.\读书笔记\数理分析\计量经济学\计量基础\The ESR model.md
+.\读书笔记\数理分析\计量经济学\计量基础\What is GMM.html
+.\读书笔记\数理分析\计量经济学\计量基础\What is GMM.md
+.\读书笔记\数理分析\计量经济学\计量基础\因子分析在量表设计中的应用(转).md
+.\读书笔记\数理分析\计量经济学\计量基础\因子分析在量表设计中的应用.html
+.\读书笔记\数理分析\计量经济学\计量基础\基于有限样本的假设检验方法分析.html
+.\读书笔记\数理分析\计量经济学\计量基础\稳健标准误.html
+.\读书笔记\数理分析\计量经济学\计量基础\稳健标准误.md
+.\读书笔记\数理分析\计量经济学\计量基础\计量经济学笔记-精简版.md
+.\读书笔记\数理分析\计量经济学\计量基础\计量经济学笔记.html
+.\读书笔记\数理分析\计量经济学\计量基础\计量经济学笔记.md
+.\读书笔记\数理分析\计量经济学\计量基础\面板数据分析.html
+.\读书笔记\数理分析\计量经济学\计量基础\面板数据分析.md
 .\读书笔记\法律\1.png
 .\读书笔记\法律\README.md
 .\读书笔记\法律\法理学.html

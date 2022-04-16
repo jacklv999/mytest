@@ -6,7 +6,7 @@
 
 ## [语言篇](./语言篇/) 
 
-## [Computer Science](./CS/) 
+## [Computer Science](./CS相关/) 
 
 ## [ML/DL 相关](./ML&DL/) 
 

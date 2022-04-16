@@ -1,5 +1,11 @@
 # IDEA整理
 
+## sabi
+
+- [傻逼的故事](./傻逼的故事.html) 
+
+## IDEA
+
 - [远见的力量](./远见的力量.html) 
 - [不如意事常八九](./不如意事常八九.html) 
 - [沉默的世界](./沉默的世界.html) 
@@ -14,7 +20,3 @@
 - [从现在开始](./从现在开始.html) 
 - [Rethink the Importance of Advices](./Rethink the Importance of Advices.html) 
 - [How to do things](./How to do things.html) 
-
-## sabi
-
-- [傻逼的故事](./傻逼的故事.html) 
