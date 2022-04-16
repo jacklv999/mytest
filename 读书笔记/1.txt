@@ -55,6 +55,7 @@
 .\读书笔记\Business Related\Business Sense\README.md
 .\读书笔记\Business Related\Business Sense\Using Lean Analytics.html
 .\读书笔记\Business Related\Business Sense\Using Lean Analytics.md
+.\读书笔记\CS\README.md
 .\读书笔记\CS\Big Data\Big Data Review.html
 .\读书笔记\CS\Big Data\Big Data Review.md
 .\读书笔记\CS\Big Data\README.md
@@ -679,11 +680,12 @@
 .\读书笔记\zhihu\收藏夹\programe&computer.html
 .\读书笔记\zhihu\收藏夹\programe&computer.md
 .\读书笔记\zhihu\收藏夹\README.md
-.\读书笔记\伦理学\伦理学导论 _简版.html
-.\读书笔记\伦理学\伦理学导论 _简版.md
+.\读书笔记\伦理学\README.md
 .\读书笔记\伦理学\伦理学导论(程炼）.pdf
 .\读书笔记\伦理学\伦理学导论.html
 .\读书笔记\伦理学\伦理学导论.md
+.\读书笔记\伦理学\伦理学导论_简版.html
+.\读书笔记\伦理学\伦理学导论_简版.md
 .\读书笔记\心理学\README.md
 .\读书笔记\心理学\心理学-普通心理学\README.md
 .\读书笔记\心理学\心理学-普通心理学\什么是心理学.html
