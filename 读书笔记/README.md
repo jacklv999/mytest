@@ -8,7 +8,6 @@
 
 - [Pyramid](./语言篇/Pyramid.html) 
 - [语言篇](./语言篇/) 
-- [American Accent Course](./语言篇/AAC目录.html) 
 
 ## Computer Science
 
