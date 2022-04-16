@@ -16,4 +16,8 @@
 
     - [Word Embeding Review](./Word Embeding Review.html) 
     - [Note on BERT Embedding](./Note on BERT Embedding.html) 
+    
+- [Adapter架构](./Adapter架构.html) 
+
+- [Prompt learning](./Prompt learning.html) 
 
