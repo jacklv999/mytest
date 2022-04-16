@@ -197,90 +197,6 @@
 .\读书笔记\CS\Python\无头浏览器爬虫.md
 .\读书笔记\CS\Python\DPG Tutorials_files\code_style.css
 .\读书笔记\CS\Python\DPG Tutorials_files\rainbow-custom.min.js.下载
-.\读书笔记\CS\Python\opencv-python\OpenCV Package Review.html
-.\读书笔记\CS\Python\opencv-python\OpenCV Package Review.md
-.\读书笔记\CS\Python\opencv-python\.idea\misc.xml
-.\读书笔记\CS\Python\opencv-python\.idea\modules.xml
-.\读书笔记\CS\Python\opencv-python\.idea\OpenCVTutorials.iml
-.\读书笔记\CS\Python\opencv-python\.idea\workspace.xml
-.\读书笔记\CS\Python\opencv-python\.idea\inspectionProfiles\profiles_settings.xml
-.\读书笔记\CS\Python\opencv-python\11\10_1_级联分类器.html
-.\读书笔记\CS\Python\opencv-python\11\10_1_级联分类器.md
-.\读书笔记\CS\Python\opencv-python\11\10_2_级联分类器训练.html
-.\读书笔记\CS\Python\opencv-python\11\10_2_级联分类器训练.md
-.\读书笔记\CS\Python\opencv-python\5\4_10_1_直方图-1：查找，绘制，分析.html
-.\读书笔记\CS\Python\opencv-python\5\4_10_1_直方图-1：查找，绘制，分析.md
-.\读书笔记\CS\Python\opencv-python\5\4_10_2_直方图-2：直方图均衡.html
-.\读书笔记\CS\Python\opencv-python\5\4_10_2_直方图-2：直方图均衡.md
-.\读书笔记\CS\Python\opencv-python\5\4_11_傅里叶变换.html
-.\读书笔记\CS\Python\opencv-python\5\4_11_傅里叶变换.md
-.\读书笔记\CS\Python\opencv-python\5\4_12_模板匹配.html
-.\读书笔记\CS\Python\opencv-python\5\4_12_模板匹配.md
-.\读书笔记\CS\Python\opencv-python\5\4_13_霍夫线变换.html
-.\读书笔记\CS\Python\opencv-python\5\4_13_霍夫线变换.md
-.\读书笔记\CS\Python\opencv-python\5\4_14_霍夫圈变换.html
-.\读书笔记\CS\Python\opencv-python\5\4_14_霍夫圈变换.md
-.\读书笔记\CS\Python\opencv-python\5\4_15_图像分割与分水岭算法.html
-.\读书笔记\CS\Python\opencv-python\5\4_15_图像分割与分水岭算法.md
-.\读书笔记\CS\Python\opencv-python\5\4_16_交互式前景提取使用GrabCut算法.html
-.\读书笔记\CS\Python\opencv-python\5\4_16_交互式前景提取使用GrabCut算法.md
-.\读书笔记\CS\Python\opencv-python\5\4_1_改变颜色空间.html
-.\读书笔记\CS\Python\opencv-python\5\4_1_改变颜色空间.md
-.\读书笔记\CS\Python\opencv-python\5\4_2_图像几何变换.html
-.\读书笔记\CS\Python\opencv-python\5\4_2_图像几何变换.md
-.\读书笔记\CS\Python\opencv-python\5\4_3_图像阈值.html
-.\读书笔记\CS\Python\opencv-python\5\4_3_图像阈值.md
-.\读书笔记\CS\Python\opencv-python\5\4_4_图像平滑.html
-.\读书笔记\CS\Python\opencv-python\5\4_4_图像平滑.md
-.\读书笔记\CS\Python\opencv-python\5\4_5_形态转换.html
-.\读书笔记\CS\Python\opencv-python\5\4_5_形态转换.md
-.\读书笔记\CS\Python\opencv-python\5\4_6_图像梯度.html
-.\读书笔记\CS\Python\opencv-python\5\4_6_图像梯度.md
-.\读书笔记\CS\Python\opencv-python\5\4_7_Canny边缘检测.html
-.\读书笔记\CS\Python\opencv-python\5\4_7_Canny边缘检测.md
-.\读书笔记\CS\Python\opencv-python\5\4_9_1_OpenCV中的轮廓.html
-.\读书笔记\CS\Python\opencv-python\5\4_9_1_OpenCV中的轮廓.md
-.\读书笔记\CS\Python\opencv-python\5\4_9_2_轮廓特征.html
-.\读书笔记\CS\Python\opencv-python\5\4_9_2_轮廓特征.md
-.\读书笔记\CS\Python\opencv-python\5\4_9_3_轮廓属性.html
-.\读书笔记\CS\Python\opencv-python\5\4_9_3_轮廓属性.md
-.\读书笔记\CS\Python\opencv-python\5\4_9_4_轮廓：更多属性.html
-.\读书笔记\CS\Python\opencv-python\5\4_9_4_轮廓：更多属性.md
-.\读书笔记\CS\Python\opencv-python\5\4_9_5_轮廓分层.html
-.\读书笔记\CS\Python\opencv-python\5\4_9_5_轮廓分层.md
-.\读书笔记\CS\Python\opencv-python\6\5_10_特征匹配+单应性查找对象.html
-.\读书笔记\CS\Python\opencv-python\6\5_10_特征匹配+单应性查找对象.md
-.\读书笔记\CS\Python\opencv-python\6\5_1_理解特征.html
-.\读书笔记\CS\Python\opencv-python\6\5_1_理解特征.md
-.\读书笔记\CS\Python\opencv-python\6\5_2_哈里斯角检测.html
-.\读书笔记\CS\Python\opencv-python\6\5_2_哈里斯角检测.md
-.\读书笔记\CS\Python\opencv-python\6\5_3_Shi-Tomasi拐角探测器和良好的跟踪功能.html
-.\读书笔记\CS\Python\opencv-python\6\5_3_Shi-Tomasi拐角探测器和良好的跟踪功能.md
-.\读书笔记\CS\Python\opencv-python\6\5_4_SIFT（尺度不变特征变换）简介.html
-.\读书笔记\CS\Python\opencv-python\6\5_4_SIFT（尺度不变特征变换）简介.md
-.\读书笔记\CS\Python\opencv-python\6\5_5_SURF简介（加速的强大功能）.html
-.\读书笔记\CS\Python\opencv-python\6\5_5_SURF简介（加速的强大功能）.md
-.\读书笔记\CS\Python\opencv-python\6\5_6_用于角点检测的FAST算法.html
-.\读书笔记\CS\Python\opencv-python\6\5_6_用于角点检测的FAST算法.md
-.\读书笔记\CS\Python\opencv-python\6\5_7_BRIEF（二进制的鲁棒独立基本特征）.html
-.\读书笔记\CS\Python\opencv-python\6\5_7_BRIEF（二进制的鲁棒独立基本特征）.md
-.\读书笔记\CS\Python\opencv-python\6\5_8_ORB（定向快速和旋转简要）.html
-.\读书笔记\CS\Python\opencv-python\6\5_8_ORB（定向快速和旋转简要）.md
-.\读书笔记\CS\Python\opencv-python\6\5_9_特征匹配.html
-.\读书笔记\CS\Python\opencv-python\6\5_9_特征匹配.md
-.\读书笔记\CS\Python\opencv-python\9\8_1_理解KNN.html
-.\读书笔记\CS\Python\opencv-python\9\8_1_理解KNN.md
-.\读书笔记\CS\Python\opencv-python\9\8_2_使用OCR手写数据集运行KNN.html
-.\读书笔记\CS\Python\opencv-python\9\8_2_使用OCR手写数据集运行KNN.md
-.\读书笔记\CS\Python\opencv-python\9\8_3_理解SVM.html
-.\读书笔记\CS\Python\opencv-python\9\8_3_理解SVM.md
-.\读书笔记\CS\Python\opencv-python\9\8_4_使用OCR手写数据集运行SVM.html
-.\读书笔记\CS\Python\opencv-python\9\8_4_使用OCR手写数据集运行SVM.md
-.\读书笔记\CS\Python\opencv-python\9\8_5_理解K均值聚类.html
-.\读书笔记\CS\Python\opencv-python\9\8_5_理解K均值聚类.md
-.\读书笔记\CS\Python\opencv-python\9\8_6_OpenCV中的K均值.html
-.\读书笔记\CS\Python\opencv-python\9\8_6_OpenCV中的K均值.md
-.\读书笔记\CS\Python\opencv-python\stylesheets\extra.css
 .\读书笔记\CS\Python\Python-数据可视化Mvan\Animation-动画.html
 .\读书笔记\CS\Python\Python-数据可视化Mvan\Animation-动画.md
 .\读书笔记\CS\Python\Python-数据可视化Mvan\figure-图像.html
@@ -406,15 +322,12 @@
 .\读书笔记\CS\前端相关\Front-end\React学习之道.html
 .\读书笔记\CS\前端相关\Front-end\React学习之道.pdf
 .\读书笔记\CS\前端相关\Front-end\前端面试手册.pdf
-.\读书笔记\IDEA整理\1.jpg
 .\读书笔记\IDEA整理\1.png
 .\读书笔记\IDEA整理\2.png
 .\读书笔记\IDEA整理\36个问题.html
 .\读书笔记\IDEA整理\36个问题.md
 .\读书笔记\IDEA整理\How to do things.html
 .\读书笔记\IDEA整理\How to do things.md
-.\读书笔记\IDEA整理\Mastering Reading Skills.html
-.\读书笔记\IDEA整理\Mastering Reading Skills.md
 .\读书笔记\IDEA整理\README.md
 .\读书笔记\IDEA整理\Rethink the Importance of Advices.html
 .\读书笔记\IDEA整理\Rethink the Importance of Advices.md
@@ -425,7 +338,6 @@
 .\读书笔记\IDEA整理\人为什么要有兴趣爱好？.md
 .\读书笔记\IDEA整理\人，可信吗？.html
 .\读书笔记\IDEA整理\从现在开始.html
-.\读书笔记\IDEA整理\从社会语言学看上堆下切.html
 .\读书笔记\IDEA整理\信息熵理论.html
 .\读书笔记\IDEA整理\信息熵理论.md
 .\读书笔记\IDEA整理\傻逼的故事.html
@@ -435,13 +347,9 @@
 .\读书笔记\IDEA整理\反脆弱性.md
 .\读书笔记\IDEA整理\发音过程及Tips整理.html
 .\读书笔记\IDEA整理\哈佛大学公正课-笔记.html
-.\读书笔记\IDEA整理\如何了解一个行业.html
-.\读书笔记\IDEA整理\如何了解一个行业.md
 .\读书笔记\IDEA整理\我所依赖的思维方式.html
 .\读书笔记\IDEA整理\撒切尔和梅杰政府时期的英国文官制度改革.html
 .\读书笔记\IDEA整理\撒切尔和梅杰政府时期的英国文官制度改革.md
-.\读书笔记\IDEA整理\易方达张坤访谈.html
-.\读书笔记\IDEA整理\易方达张坤访谈.md
 .\读书笔记\IDEA整理\沉默的世界.html
 .\读书笔记\IDEA整理\沉默的世界.md
 .\读书笔记\IDEA整理\熵增定律.html
@@ -453,233 +361,331 @@
 .\读书笔记\IDEA整理\谈谈经济学的理性人决策.html
 .\读书笔记\IDEA整理\远见的力量.html
 .\读书笔记\IDEA整理\逻辑中的逻辑（再稿）.html
-.\读书笔记\IDEA整理\阅读的核心.html
-.\读书笔记\IDEA整理\阅读的核心.md
 .\读书笔记\ML&DL\56421.jpg
 .\读书笔记\ML&DL\Hseg.ipynb
 .\读书笔记\ML&DL\MNIST CNN.ipynb
 .\读书笔记\ML&DL\MNIST UNet.ipynb
 .\读书笔记\ML&DL\README.md
-.\读书笔记\ML&DL\CVPaper\CV形态学操作.html
-.\读书笔记\ML&DL\CVPaper\CV形态学操作.md
-.\读书笔记\ML&DL\CVPaper\Finetuning.html
-.\读书笔记\ML&DL\CVPaper\Finetuning.md
-.\读书笔记\ML&DL\CVPaper\README.md
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\01基础及AlexNet.html
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\01基础及AlexNet.md
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\02VGG论文.html
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\02VGG论文.md
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\DenseNet论文笔记.html
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\DenseNet论文笔记.md
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\GoogleNet.html
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\GoogleNet.md
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\NIN论文笔记.html
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\NIN论文笔记.md
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\README.md
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNet笔记.html
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNet笔记.md
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNeXt笔记.html
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\ResNeXt笔记.md
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\SENet论文笔记.html
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\SENet论文笔记.md
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Code.html
-.\读书笔记\ML&DL\CVPaper\CV-Baseline\1. AlexNet\AlexNet Note.ipynb
-.\读书笔记\ML&DL\CVPaper\GAN\BigGAN论文笔记.html
-.\读书笔记\ML&DL\CVPaper\GAN\BigGAN论文笔记.md
-.\读书笔记\ML&DL\CVPaper\GAN\CGAN论文笔记.html
-.\读书笔记\ML&DL\CVPaper\GAN\CGAN论文笔记.md
-.\读书笔记\ML&DL\CVPaper\GAN\CycleGAN论文笔记.html
-.\读书笔记\ML&DL\CVPaper\GAN\CycleGAN论文笔记.md
-.\读书笔记\ML&DL\CVPaper\GAN\DCGAN论文笔记.html
-.\读书笔记\ML&DL\CVPaper\GAN\DCGAN论文笔记.md
-.\读书笔记\ML&DL\CVPaper\GAN\GAN论文笔记.html
-.\读书笔记\ML&DL\CVPaper\GAN\GAN论文笔记.md
-.\读书笔记\ML&DL\CVPaper\GAN\PGGAN论文笔记.html
-.\读书笔记\ML&DL\CVPaper\GAN\PGGAN论文笔记.md
-.\读书笔记\ML&DL\CVPaper\GAN\pix2pix论文笔记.html
-.\读书笔记\ML&DL\CVPaper\GAN\pix2pix论文笔记.md
-.\读书笔记\ML&DL\CVPaper\GAN\README.md
-.\读书笔记\ML&DL\CVPaper\GAN\StackGAN论文笔记.html
-.\读书笔记\ML&DL\CVPaper\GAN\StackGAN论文笔记.md
-.\读书笔记\ML&DL\CVPaper\GAN\StyleGAN论文笔记.html
-.\读书笔记\ML&DL\CVPaper\GAN\StyleGAN论文笔记.md
-.\读书笔记\ML&DL\CVPaper\GAN\Techniques for GANs.html
-.\读书笔记\ML&DL\CVPaper\GAN\Techniques for GANs.md
-.\读书笔记\ML&DL\CVPaper\GAN\从PM到GAN——LSTM之父的怨念.html
-.\读书笔记\ML&DL\CVPaper\GAN\从PM到GAN——LSTM之父的怨念.md
-.\读书笔记\ML&DL\CVPaper\目标检测\DSSD论文简析.html
-.\读书笔记\ML&DL\CVPaper\目标检测\DSSD论文简析.md
-.\读书笔记\ML&DL\CVPaper\目标检测\Faster RCNN论文笔记.md
-.\读书笔记\ML&DL\CVPaper\目标检测\FPN论文笔记.html
-.\读书笔记\ML&DL\CVPaper\目标检测\FPN论文笔记.md
-.\读书笔记\ML&DL\CVPaper\目标检测\README.md
-.\读书笔记\ML&DL\CVPaper\目标检测\Retinanet论文笔记.html
-.\读书笔记\ML&DL\CVPaper\目标检测\Retinanet论文笔记.md
-.\读书笔记\ML&DL\CVPaper\目标检测\SSD论文.html
-.\读书笔记\ML&DL\CVPaper\目标检测\SSD论文.md
-.\读书笔记\ML&DL\CVPaper\目标检测\YOLOV3.html
-.\读书笔记\ML&DL\CVPaper\目标检测\YOLOV3.md
-.\读书笔记\ML&DL\CVPaper\目标检测\Yolo笔记.html
-.\读书笔记\ML&DL\CVPaper\目标检测\Yolo笔记.md
-.\读书笔记\ML&DL\DLArticles\README.md
-.\读书笔记\ML&DL\DLArticles\Structural re-parameterization.html
-.\读书笔记\ML&DL\DLArticles\Structural re-parameterization.md
-.\读书笔记\ML&DL\DLArticles\Transformer综述.html
-.\读书笔记\ML&DL\DLArticles\Transformer综述.md
-.\读书笔记\ML&DL\DLArticles\原始数据中的反绎知识归纳.html
-.\读书笔记\ML&DL\DLArticles\原始数据中的反绎知识归纳.md
-.\读书笔记\ML&DL\DLArticles\因果推断的推荐算法初探.html
-.\读书笔记\ML&DL\DLArticles\因果推断的推荐算法初探.md
-.\读书笔记\ML&DL\DLArticles\实体关系抽取的现状和未来.html
-.\读书笔记\ML&DL\DLArticles\实体关系抽取的现状和未来.md
-.\读书笔记\ML&DL\DLArticles\小样本学习.html
-.\读书笔记\ML&DL\DLArticles\小样本学习.md
-.\读书笔记\ML&DL\DLArticles\深度学习攻防.html
-.\读书笔记\ML&DL\DLArticles\深度学习攻防.md
-.\读书笔记\ML&DL\DLArticles\神经网络中的奥卡姆剃刀.html
-.\读书笔记\ML&DL\DLArticles\神经网络中的奥卡姆剃刀.md
-.\读书笔记\ML&DL\DLArticles\神经网络中的白化.html
-.\读书笔记\ML&DL\DLArticles\神经网络中的白化.md
+.\读书笔记\ML&DL\CV-Related\README.md
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\01基础及AlexNet.html
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\01基础及AlexNet.md
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\02VGG论文.html
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\02VGG论文.md
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\DenseNet论文笔记.html
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\DenseNet论文笔记.md
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\GoogleNet.html
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\GoogleNet.md
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\NIN论文笔记.html
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\NIN论文笔记.md
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\README.md
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\ResNet笔记.html
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\ResNet笔记.md
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\ResNeXt笔记.html
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\ResNeXt笔记.md
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\SENet论文笔记.html
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\SENet论文笔记.md
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\1. AlexNet\AlexNet Code.html
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\1. AlexNet\AlexNet Note.ipynb
+.\读书笔记\ML&DL\CV-Related\GAN\BigGAN论文笔记.html
+.\读书笔记\ML&DL\CV-Related\GAN\BigGAN论文笔记.md
+.\读书笔记\ML&DL\CV-Related\GAN\CGAN论文笔记.html
+.\读书笔记\ML&DL\CV-Related\GAN\CGAN论文笔记.md
+.\读书笔记\ML&DL\CV-Related\GAN\CycleGAN论文笔记.html
+.\读书笔记\ML&DL\CV-Related\GAN\CycleGAN论文笔记.md
+.\读书笔记\ML&DL\CV-Related\GAN\DCGAN论文笔记.html
+.\读书笔记\ML&DL\CV-Related\GAN\DCGAN论文笔记.md
+.\读书笔记\ML&DL\CV-Related\GAN\GAN论文笔记.html
+.\读书笔记\ML&DL\CV-Related\GAN\GAN论文笔记.md
+.\读书笔记\ML&DL\CV-Related\GAN\PGGAN论文笔记.html
+.\读书笔记\ML&DL\CV-Related\GAN\PGGAN论文笔记.md
+.\读书笔记\ML&DL\CV-Related\GAN\pix2pix论文笔记.html
+.\读书笔记\ML&DL\CV-Related\GAN\pix2pix论文笔记.md
+.\读书笔记\ML&DL\CV-Related\GAN\README.md
+.\读书笔记\ML&DL\CV-Related\GAN\StackGAN论文笔记.html
+.\读书笔记\ML&DL\CV-Related\GAN\StackGAN论文笔记.md
+.\读书笔记\ML&DL\CV-Related\GAN\StyleGAN论文笔记.html
+.\读书笔记\ML&DL\CV-Related\GAN\StyleGAN论文笔记.md
+.\读书笔记\ML&DL\CV-Related\GAN\Techniques for GANs.html
+.\读书笔记\ML&DL\CV-Related\GAN\Techniques for GANs.md
+.\读书笔记\ML&DL\CV-Related\GAN\从PM到GAN——LSTM之父的怨念.html
+.\读书笔记\ML&DL\CV-Related\GAN\从PM到GAN——LSTM之父的怨念.md
+.\读书笔记\ML&DL\CV-Related\opencv\CV形态学操作.html
+.\读书笔记\ML&DL\CV-Related\opencv\CV形态学操作.md
+.\读书笔记\ML&DL\CV-Related\opencv\OpenCV Package Review.html
+.\读书笔记\ML&DL\CV-Related\opencv\OpenCV Package Review.md
+.\读书笔记\ML&DL\CV-Related\opencv\README.md
+.\读书笔记\ML&DL\CV-Related\opencv\.idea\misc.xml
+.\读书笔记\ML&DL\CV-Related\opencv\.idea\modules.xml
+.\读书笔记\ML&DL\CV-Related\opencv\.idea\OpenCVTutorials.iml
+.\读书笔记\ML&DL\CV-Related\opencv\.idea\workspace.xml
+.\读书笔记\ML&DL\CV-Related\opencv\.idea\inspectionProfiles\profiles_settings.xml
+.\读书笔记\ML&DL\CV-Related\opencv\11\10_1_级联分类器.html
+.\读书笔记\ML&DL\CV-Related\opencv\11\10_1_级联分类器.md
+.\读书笔记\ML&DL\CV-Related\opencv\11\10_2_级联分类器训练.html
+.\读书笔记\ML&DL\CV-Related\opencv\11\10_2_级联分类器训练.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_10_1_直方图-1：查找，绘制，分析.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_10_1_直方图-1：查找，绘制，分析.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_10_2_直方图-2：直方图均衡.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_10_2_直方图-2：直方图均衡.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_11_傅里叶变换.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_11_傅里叶变换.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_12_模板匹配.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_12_模板匹配.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_13_霍夫线变换.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_13_霍夫线变换.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_14_霍夫圈变换.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_14_霍夫圈变换.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_15_图像分割与分水岭算法.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_15_图像分割与分水岭算法.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_16_交互式前景提取使用GrabCut算法.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_16_交互式前景提取使用GrabCut算法.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_1_改变颜色空间.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_1_改变颜色空间.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_2_图像几何变换.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_2_图像几何变换.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_3_图像阈值.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_3_图像阈值.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_4_图像平滑.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_4_图像平滑.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_5_形态转换.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_5_形态转换.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_6_图像梯度.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_6_图像梯度.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_7_Canny边缘检测.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_7_Canny边缘检测.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_9_1_OpenCV中的轮廓.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_9_1_OpenCV中的轮廓.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_9_2_轮廓特征.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_9_2_轮廓特征.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_9_3_轮廓属性.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_9_3_轮廓属性.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_9_4_轮廓：更多属性.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_9_4_轮廓：更多属性.md
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_9_5_轮廓分层.html
+.\读书笔记\ML&DL\CV-Related\opencv\5\4_9_5_轮廓分层.md
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_10_特征匹配+单应性查找对象.html
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_10_特征匹配+单应性查找对象.md
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_1_理解特征.html
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_1_理解特征.md
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_2_哈里斯角检测.html
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_2_哈里斯角检测.md
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_3_Shi-Tomasi拐角探测器和良好的跟踪功能.html
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_3_Shi-Tomasi拐角探测器和良好的跟踪功能.md
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_4_SIFT（尺度不变特征变换）简介.html
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_4_SIFT（尺度不变特征变换）简介.md
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_5_SURF简介（加速的强大功能）.html
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_5_SURF简介（加速的强大功能）.md
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_6_用于角点检测的FAST算法.html
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_6_用于角点检测的FAST算法.md
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_7_BRIEF（二进制的鲁棒独立基本特征）.html
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_7_BRIEF（二进制的鲁棒独立基本特征）.md
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_8_ORB（定向快速和旋转简要）.html
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_8_ORB（定向快速和旋转简要）.md
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_9_特征匹配.html
+.\读书笔记\ML&DL\CV-Related\opencv\6\5_9_特征匹配.md
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_1_理解KNN.html
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_1_理解KNN.md
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_2_使用OCR手写数据集运行KNN.html
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_2_使用OCR手写数据集运行KNN.md
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_3_理解SVM.html
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_3_理解SVM.md
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_4_使用OCR手写数据集运行SVM.html
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_4_使用OCR手写数据集运行SVM.md
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_5_理解K均值聚类.html
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_5_理解K均值聚类.md
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_6_OpenCV中的K均值.html
+.\读书笔记\ML&DL\CV-Related\opencv\9\8_6_OpenCV中的K均值.md
+.\读书笔记\ML&DL\CV-Related\opencv\stylesheets\extra.css
+.\读书笔记\ML&DL\CV-Related\目标检测\DSSD论文简析.html
+.\读书笔记\ML&DL\CV-Related\目标检测\DSSD论文简析.md
+.\读书笔记\ML&DL\CV-Related\目标检测\Faster RCNN论文笔记.md
+.\读书笔记\ML&DL\CV-Related\目标检测\FPN论文笔记.html
+.\读书笔记\ML&DL\CV-Related\目标检测\FPN论文笔记.md
+.\读书笔记\ML&DL\CV-Related\目标检测\README.md
+.\读书笔记\ML&DL\CV-Related\目标检测\Retinanet论文笔记.html
+.\读书笔记\ML&DL\CV-Related\目标检测\Retinanet论文笔记.md
+.\读书笔记\ML&DL\CV-Related\目标检测\SSD论文.html
+.\读书笔记\ML&DL\CV-Related\目标检测\SSD论文.md
+.\读书笔记\ML&DL\CV-Related\目标检测\YOLOV3.html
+.\读书笔记\ML&DL\CV-Related\目标检测\YOLOV3.md
+.\读书笔记\ML&DL\CV-Related\目标检测\Yolo笔记.html
+.\读书笔记\ML&DL\CV-Related\目标检测\Yolo笔记.md
+.\读书笔记\ML&DL\DL and ML 课程\README.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\Attention-and-point-network.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\Attention-and-point-network.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\BiGAN及InfoGAN.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\BiGAN及InfoGAN.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\Evalution-of-GAN-model.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\Evalution-of-GAN-model.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\GAN.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\GAN.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\GANGAN的改进及其他种类GAN.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\GANGAN的改进及其他种类GAN.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\Inverse-RL.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\Inverse-RL.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\MLDS简介.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\MLDS简介.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\README.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\RL-for-LM-SeqGAN-and-MaliGAN.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\RL-for-LM-SeqGAN-and-MaliGAN.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\RNN基本架构及变体.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\RNN基本架构及变体.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\SELU-BN-HighWayNN.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\SELU-BN-HighWayNN.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\强化学习.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\强化学习.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\特殊架构神经网络.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\特殊架构神经网络.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\自然语言模型.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\自然语言模型.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\AutoEncoder-自编码.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\AutoEncoder-自编码.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Batch-Normalization-批标准化.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Batch-Normalization-批标准化.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Classification分类.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Classification分类.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\CNN-卷积神经网络.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\CNN-卷积神经网络.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Conditional-GAN.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Conditional-GAN.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\DQN-强化学习.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\DQN-强化学习.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\GAN-生成对抗网络.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\GAN-生成对抗网络.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\GPU-加速.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\GPU-加速.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Optimizer-优化器.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Optimizer-优化器.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Pytorch基础.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Pytorch基础.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Regression回归.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Regression回归.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\RNN-循环神经网络-分类.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\RNN-循环神经网络-分类.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\RNN-循环神经网络-回归.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\RNN-循环神经网络-回归.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Variable变量.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\Variable变量.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\为什么-Pytorch-是动态-Dynamic.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\为什么-Pytorch-是动态-Dynamic.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\保存和提取神经网络.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\保存和提取神经网络.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\快速搭建神经网络.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\快速搭建神经网络.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\批数据训练.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\批数据训练.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\激励函数.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\激励函数.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\目录.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\目录.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\过拟合-Dropout.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-Pytorch教程Mvan\过拟合-Dropout.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\0 Introduction of Machine Learning.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\1 Regression.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\10 - CNN.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\11 - Why Deep.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\12 - Semi-supervised.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\13 - Unsupervised - PCA.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\14 - Unsupervised - Word Embedding.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\15 - Unsupervised - Neighbor Embedding.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\16 - Unsupervised - Auto-encoder.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\17 - Unsupervised - DGM.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\18 - Transfer Learning.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\19 - Structured Learning.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\2 Where does the error come from.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\20 - Recurrent Neural Network.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\22 - Ensemble.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\23 - Deep Reinforcement Learning.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\3 Gradient Descent.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\4 - Classification.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\5 - Logistic Regression.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\6 - Brief Introduction of Deep Learning.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\7 - Backpropagation.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\8 - “Hello world” of deep learning.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\9 - Tips for Training DNN.md
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-0---Introduction-of-Machine-Learning.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-1---Regression.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-10---Convolutional-Neural-Network.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-11---Why-Deep.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-12---Semi-supervised.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-13---Unsupervised-Learning---PCA.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-14---Unsupervised-Learning---Word-Embedding.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-15---Unsupervised-Learning---Neighbor-Embedding.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-16---Unsupervised-Learning---Auto-encoder.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-17---Unsupervised-Learning---Deep-Generative-Model.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-18---Transfer-Learning.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-19---Structured-Learning.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-2---Where-does-the-error-come-from.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-20---Recurrent-Neural-Network.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-22---Ensemble.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-23---Deep-Reinforcement-Learning.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-3---Gradient-Descent.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-4---Classification.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-5---Logistic-Regression.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-6---Brief-Introduction-of-Deep-Learning.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-7---Backpropagation.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-8---“Hello-world”-of-deep-learning.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-9---Tips-for-Training-DNN.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\目录.html
+.\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\目录.md
 .\读书笔记\ML&DL\general\Activation Functions.html
 .\读书笔记\ML&DL\general\Activation Functions.md
+.\读书笔记\ML&DL\general\Finetuning.html
+.\读书笔记\ML&DL\general\Finetuning.md
 .\读书笔记\ML&DL\general\L-2 Regularization.html
 .\读书笔记\ML&DL\general\L-2 Regularization.md
-.\读书笔记\ML&DL\general\Note on BERT Embedding.html
-.\读书笔记\ML&DL\general\Note on BERT Embedding.md
 .\读书笔记\ML&DL\general\README.md
 .\读书笔记\ML&DL\general\Regularization.html
 .\读书笔记\ML&DL\general\Regularization.md
-.\读书笔记\ML&DL\general\Word Embeding Review.html
-.\读书笔记\ML&DL\general\Word Embeding Review.md
 .\读书笔记\ML&DL\general\权重初始化方法.html
 .\读书笔记\ML&DL\general\权重初始化方法.md
-.\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.html
-.\读书笔记\ML&DL\ML&DL-MLDS\Attention-and-point-network.md
-.\读书笔记\ML&DL\ML&DL-MLDS\BiGAN及InfoGAN.html
-.\读书笔记\ML&DL\ML&DL-MLDS\BiGAN及InfoGAN.md
-.\读书笔记\ML&DL\ML&DL-MLDS\Evalution-of-GAN-model.html
-.\读书笔记\ML&DL\ML&DL-MLDS\Evalution-of-GAN-model.md
-.\读书笔记\ML&DL\ML&DL-MLDS\GAN.html
-.\读书笔记\ML&DL\ML&DL-MLDS\GAN.md
-.\读书笔记\ML&DL\ML&DL-MLDS\GAN的改进及其他种类GAN.html
-.\读书笔记\ML&DL\ML&DL-MLDS\GAN的改进及其他种类GAN.md
-.\读书笔记\ML&DL\ML&DL-MLDS\Inverse-RL.html
-.\读书笔记\ML&DL\ML&DL-MLDS\Inverse-RL.md
-.\读书笔记\ML&DL\ML&DL-MLDS\MLDS简介.html
-.\读书笔记\ML&DL\ML&DL-MLDS\MLDS简介.md
-.\读书笔记\ML&DL\ML&DL-MLDS\README.md
-.\读书笔记\ML&DL\ML&DL-MLDS\RL-for-LM-SeqGAN-and-MaliGAN.html
-.\读书笔记\ML&DL\ML&DL-MLDS\RL-for-LM-SeqGAN-and-MaliGAN.md
-.\读书笔记\ML&DL\ML&DL-MLDS\RNN基本架构及变体.html
-.\读书笔记\ML&DL\ML&DL-MLDS\RNN基本架构及变体.md
-.\读书笔记\ML&DL\ML&DL-MLDS\SELU-BN-HighWayNN.html
-.\读书笔记\ML&DL\ML&DL-MLDS\SELU-BN-HighWayNN.md
-.\读书笔记\ML&DL\ML&DL-MLDS\强化学习.html
-.\读书笔记\ML&DL\ML&DL-MLDS\强化学习.md
-.\读书笔记\ML&DL\ML&DL-MLDS\特殊架构神经网络.html
-.\读书笔记\ML&DL\ML&DL-MLDS\特殊架构神经网络.md
-.\读书笔记\ML&DL\ML&DL-MLDS\自然语言模型.html
-.\读书笔记\ML&DL\ML&DL-MLDS\自然语言模型.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\AutoEncoder-自编码.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\AutoEncoder-自编码.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Batch-Normalization-批标准化.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Batch-Normalization-批标准化.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Classification分类.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Classification分类.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\CNN-卷积神经网络.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\CNN-卷积神经网络.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Conditional-GAN.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Conditional-GAN.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\DQN-强化学习.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\DQN-强化学习.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\GAN-生成对抗网络.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\GAN-生成对抗网络.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\GPU-加速.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\GPU-加速.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Optimizer-优化器.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Optimizer-优化器.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Pytorch基础.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Pytorch基础.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Regression回归.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Regression回归.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\RNN-循环神经网络-分类.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\RNN-循环神经网络-分类.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\RNN-循环神经网络-回归.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\RNN-循环神经网络-回归.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Variable变量.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\Variable变量.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\为什么-Pytorch-是动态-Dynamic.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\为什么-Pytorch-是动态-Dynamic.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\保存和提取神经网络.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\保存和提取神经网络.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\快速搭建神经网络.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\快速搭建神经网络.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\批数据训练.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\批数据训练.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\激励函数.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\激励函数.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\目录.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\目录.md
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\过拟合-Dropout.html
-.\读书笔记\ML&DL\ML&DL-Pytorch教程Mvan\过拟合-Dropout.md
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-0---Introduction-of-Machine-Learning.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-1---Regression.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-10---Convolutional-Neural-Network.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-11---Why-Deep.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-12---Semi-supervised.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-13---Unsupervised-Learning---PCA.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-14---Unsupervised-Learning---Word-Embedding.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-15---Unsupervised-Learning---Neighbor-Embedding.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-16---Unsupervised-Learning---Auto-encoder.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-17---Unsupervised-Learning---Deep-Generative-Model.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-18---Transfer-Learning.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-19---Structured-Learning.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-2---Where-does-the-error-come-from.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-20---Recurrent-Neural-Network.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-22---Ensemble.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-23---Deep-Reinforcement-Learning.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-3---Gradient-Descent.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-4---Classification.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-5---Logistic-Regression.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-6---Brief-Introduction-of-Deep-Learning.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-7---Backpropagation.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-8---“Hello-world”-of-deep-learning.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\Lecture-9---Tips-for-Training-DNN.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\目录.html
-.\读书笔记\ML&DL\ML&DL-机器学习-李宏毅\目录.md
-.\读书笔记\ML&DL\MLArticles\About graph neural network.html
-.\读书笔记\ML&DL\MLArticles\About graph neural network.md
-.\读书笔记\ML&DL\MLArticles\Clustering Algorithm.html
-.\读书笔记\ML&DL\MLArticles\Clustering Algorithm.md
-.\读书笔记\ML&DL\MLArticles\Frequently Used Classifier.html
-.\读书笔记\ML&DL\MLArticles\Frequently Used Classifier.md
-.\读书笔记\ML&DL\MLArticles\MLP-Mixer笔记.html
-.\读书笔记\ML&DL\MLArticles\MLP-Mixer笔记.md
-.\读书笔记\ML&DL\MLArticles\README.md
-.\读书笔记\ML&DL\MLArticles\RF and Ensemble.html
-.\读书笔记\ML&DL\MLArticles\RF and Ensemble.md
-.\读书笔记\ML&DL\MLArticles\VAE.html
-.\读书笔记\ML&DL\MLArticles\VAE.md
-.\读书笔记\ML&DL\MLArticles\变分推断简述.html
-.\读书笔记\ML&DL\MLArticles\变分推断简述.md
-.\读书笔记\ML&DL\MLArticles\基于 flow 的生成模型.html
-.\读书笔记\ML&DL\MLArticles\基于 flow 的生成模型.md
-.\读书笔记\ML&DL\NLP\README.md
-.\读书笔记\ML&DL\NLP\seq2seq解析.html
-.\读书笔记\ML&DL\NLP\seq2seq解析.md
-.\读书笔记\ML&DL\NLP\Transformer笔记.html
-.\读书笔记\ML&DL\NLP\Transformer笔记.md
-.\读书笔记\ML&DL\轻量化网络\README.md
-.\读书笔记\ML&DL\轻量化网络\轻量化网络笔记.html
-.\读书笔记\ML&DL\轻量化网络\轻量化网络笔记.md
-.\读书笔记\zhihu\README.md
-.\读书笔记\zhihu\何为八股文.html
-.\读书笔记\zhihu\何为八股文.md
-.\读书笔记\zhihu\收藏夹\languagelearning&write.html
-.\读书笔记\zhihu\收藏夹\languagelearning&write.md
-.\读书笔记\zhihu\收藏夹\programe&computer.html
-.\读书笔记\zhihu\收藏夹\programe&computer.md
-.\读书笔记\zhihu\收藏夹\README.md
+.\读书笔记\ML&DL\general\轻量化网络笔记.html
+.\读书笔记\ML&DL\general\轻量化网络笔记.md
+.\读书笔记\ML&DL\ML-Related\Clustering Algorithm.html
+.\读书笔记\ML&DL\ML-Related\Clustering Algorithm.md
+.\读书笔记\ML&DL\ML-Related\Frequently Used Classifier.html
+.\读书笔记\ML&DL\ML-Related\Frequently Used Classifier.md
+.\读书笔记\ML&DL\ML-Related\MLP-Mixer笔记.html
+.\读书笔记\ML&DL\ML-Related\MLP-Mixer笔记.md
+.\读书笔记\ML&DL\ML-Related\README.md
+.\读书笔记\ML&DL\ML-Related\RF and Ensemble.html
+.\读书笔记\ML&DL\ML-Related\RF and Ensemble.md
+.\读书笔记\ML&DL\ML-Related\VAE.html
+.\读书笔记\ML&DL\ML-Related\VAE.md
+.\读书笔记\ML&DL\ML-Related\变分推断简述.html
+.\读书笔记\ML&DL\ML-Related\变分推断简述.md
+.\读书笔记\ML&DL\ML-Related\基于 flow 的生成模型.html
+.\读书笔记\ML&DL\ML-Related\基于 flow 的生成模型.md
+.\读书笔记\ML&DL\NLP-Related\Note on BERT Embedding.html
+.\读书笔记\ML&DL\NLP-Related\Note on BERT Embedding.md
+.\读书笔记\ML&DL\NLP-Related\README.md
+.\读书笔记\ML&DL\NLP-Related\seq2seq解析.html
+.\读书笔记\ML&DL\NLP-Related\seq2seq解析.md
+.\读书笔记\ML&DL\NLP-Related\Transformer笔记.html
+.\读书笔记\ML&DL\NLP-Related\Transformer笔记.md
+.\读书笔记\ML&DL\NLP-Related\Transformer综述.html
+.\读书笔记\ML&DL\NLP-Related\Transformer综述.md
+.\读书笔记\ML&DL\NLP-Related\Word Embeding Review.html
+.\读书笔记\ML&DL\NLP-Related\Word Embeding Review.md
+.\读书笔记\ML&DL\Other DL\About graph neural network.html
+.\读书笔记\ML&DL\Other DL\About graph neural network.md
+.\读书笔记\ML&DL\Other DL\README.md
+.\读书笔记\ML&DL\Other DL\Structural re-parameterization.html
+.\读书笔记\ML&DL\Other DL\Structural re-parameterization.md
+.\读书笔记\ML&DL\Other DL\原始数据中的反绎知识归纳.html
+.\读书笔记\ML&DL\Other DL\原始数据中的反绎知识归纳.md
+.\读书笔记\ML&DL\Other DL\因果推断的推荐算法初探.html
+.\读书笔记\ML&DL\Other DL\因果推断的推荐算法初探.md
+.\读书笔记\ML&DL\Other DL\实体关系抽取的现状和未来.html
+.\读书笔记\ML&DL\Other DL\实体关系抽取的现状和未来.md
+.\读书笔记\ML&DL\Other DL\小样本学习.html
+.\读书笔记\ML&DL\Other DL\小样本学习.md
+.\读书笔记\ML&DL\Other DL\深度学习攻防.html
+.\读书笔记\ML&DL\Other DL\深度学习攻防.md
+.\读书笔记\ML&DL\Other DL\神经网络中的奥卡姆剃刀.html
+.\读书笔记\ML&DL\Other DL\神经网络中的奥卡姆剃刀.md
+.\读书笔记\ML&DL\Other DL\神经网络中的白化.html
+.\读书笔记\ML&DL\Other DL\神经网络中的白化.md
 .\读书笔记\伦理学\README.md
 .\读书笔记\伦理学\伦理学导论(程炼）.pdf
 .\读书笔记\伦理学\伦理学导论.html
@@ -767,6 +773,26 @@
 .\读书笔记\心理学\爱情心理学\藏不住的爱.md
 .\读书笔记\心理学\爱情心理学\这是个看脸的世界吗.html
 .\读书笔记\心理学\爱情心理学\这是个看脸的世界吗.md
+.\读书笔记\投资相关\README.md
+.\读书笔记\投资相关\如何了解一个行业.html
+.\读书笔记\投资相关\如何了解一个行业.md
+.\读书笔记\投资相关\易方达张坤访谈.html
+.\读书笔记\投资相关\易方达张坤访谈.md
+.\读书笔记\投资相关\主动投资\APT模型.html
+.\读书笔记\投资相关\主动投资\README.md
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别.html
+.\读书笔记\投资相关\主动投资\从CAPM模型到多因子模型β的告别.html
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-0271fb1e7b0777bf.png
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-0abf80bd6284db00.png
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-172b45274d1f194d.png
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-3512131986b056a6.png
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-4bdb3839255d5abd.png
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-4f7192d67ca2a21e.png
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-5b243f9724c130a2.png
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-63f2c2d9c4a5b61b.png
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-70f9f7856d7a771a.jpg
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-90912e4d167f7430.jpg
+.\读书笔记\投资相关\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-cf79de50678646f1.png
 .\读书笔记\摄影\README.md
 .\读书笔记\摄影\其他讨论\README.md
 .\读书笔记\摄影\其他讨论\摄影中冷暖色调.html
@@ -880,20 +906,40 @@
 .\读书笔记\数理分析\通俗的MCMC解读上.md
 .\读书笔记\数理分析\通俗的MCMC解读下.html
 .\读书笔记\数理分析\通俗的MCMC解读下.md
-.\读书笔记\数理分析\主动投资\APT模型.html
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别.html
-.\读书笔记\数理分析\主动投资\从CAPM模型到多因子模型：β的告别.html
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-0271fb1e7b0777bf.png
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-0abf80bd6284db00.png
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-172b45274d1f194d.png
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-3512131986b056a6.png
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-4bdb3839255d5abd.png
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-4f7192d67ca2a21e.png
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-5b243f9724c130a2.png
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-63f2c2d9c4a5b61b.png
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-70f9f7856d7a771a.jpg
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-90912e4d167f7430.jpg
-.\读书笔记\数理分析\主动投资\《主动投资》之从CAPM模型到多因子模型β的告别_files\3065026-cf79de50678646f1.png
+.\读书笔记\数理分析\计量经济学\About nonlinear panel model.html
+.\读书笔记\数理分析\计量经济学\About nonlinear panel model.md
+.\读书笔记\数理分析\计量经济学\Heckman_models_and_IV.html
+.\读书笔记\数理分析\计量经济学\Heckman_models_and_IV.md
+.\读书笔记\数理分析\计量经济学\IV 估计框架下模型设定检验问题的讨论.html
+.\读书笔记\数理分析\计量经济学\IV 估计框架下模型设定检验问题的讨论.md
+.\读书笔记\数理分析\计量经济学\logit模型.html
+.\读书笔记\数理分析\计量经济学\logit模型.md
+.\读书笔记\数理分析\计量经济学\README.md
+.\读书笔记\数理分析\计量经济学\The ESR model.html
+.\读书笔记\数理分析\计量经济学\The ESR model.md
+.\读书笔记\数理分析\计量经济学\What is GMM.html
+.\读书笔记\数理分析\计量经济学\What is GMM.md
+.\读书笔记\数理分析\计量经济学\因子分析在量表设计中的应用(转).md
+.\读书笔记\数理分析\计量经济学\因子分析在量表设计中的应用.html
+.\读书笔记\数理分析\计量经济学\稳健标准误.html
+.\读书笔记\数理分析\计量经济学\稳健标准误.md
+.\读书笔记\数理分析\计量经济学\计量经济学笔记-精简版.md
+.\读书笔记\数理分析\计量经济学\计量经济学笔记.html
+.\读书笔记\数理分析\计量经济学\计量经济学笔记.md
+.\读书笔记\数理分析\计量经济学\面板数据分析.html
+.\读书笔记\数理分析\计量经济学\面板数据分析.md
+.\读书笔记\数理分析\计量经济学\空间计量\大数据下的替代模型.html
+.\读书笔记\数理分析\计量经济学\空间计量\大数据下的替代模型.md
+.\读书笔记\数理分析\计量经济学\空间计量\空间回归代码.html
+.\读书笔记\数理分析\计量经济学\空间计量\空间回归代码.md
+.\读书笔记\数理分析\计量经济学\空间计量\空间模型使用.html
+.\读书笔记\数理分析\计量经济学\空间计量\空间模型使用.md
+.\读书笔记\数理分析\计量经济学\空间计量\空间计量模型的动因及解释.html
+.\读书笔记\数理分析\计量经济学\空间计量\空间计量模型的动因及解释.md
+.\读书笔记\数理分析\计量经济学\空间计量\空间计量经济学的深入讨论.html
+.\读书笔记\数理分析\计量经济学\空间计量\空间计量经济学的深入讨论.md
+.\读书笔记\数理分析\计量经济学\空间计量\空间计量经济学笔记.html
+.\读书笔记\数理分析\计量经济学\空间计量\空间计量经济学笔记.md
 .\读书笔记\法律\1.png
 .\读书笔记\法律\README.md
 .\读书笔记\法律\法理学.html
@@ -1092,40 +1138,6 @@
 .\读书笔记\社会学\社会学的邀请\README.md
 .\读书笔记\社会学\社会学的邀请\社会学的希望.html
 .\读书笔记\社会学\社会学的邀请\社会学的邀请.html
-.\读书笔记\计量经济学\About nonlinear panel model.html
-.\读书笔记\计量经济学\About nonlinear panel model.md
-.\读书笔记\计量经济学\Heckman_models_and_IV.html
-.\读书笔记\计量经济学\Heckman_models_and_IV.md
-.\读书笔记\计量经济学\IV 估计框架下模型设定检验问题的讨论.html
-.\读书笔记\计量经济学\IV 估计框架下模型设定检验问题的讨论.md
-.\读书笔记\计量经济学\logit模型.html
-.\读书笔记\计量经济学\logit模型.md
-.\读书笔记\计量经济学\README.md
-.\读书笔记\计量经济学\The ESR model.html
-.\读书笔记\计量经济学\The ESR model.md
-.\读书笔记\计量经济学\What is GMM.html
-.\读书笔记\计量经济学\What is GMM.md
-.\读书笔记\计量经济学\因子分析在量表设计中的应用(转).md
-.\读书笔记\计量经济学\因子分析在量表设计中的应用.html
-.\读书笔记\计量经济学\稳健标准误.html
-.\读书笔记\计量经济学\稳健标准误.md
-.\读书笔记\计量经济学\计量经济学笔记-精简版.md
-.\读书笔记\计量经济学\计量经济学笔记.html
-.\读书笔记\计量经济学\计量经济学笔记.md
-.\读书笔记\计量经济学\面板数据分析.html
-.\读书笔记\计量经济学\面板数据分析.md
-.\读书笔记\计量经济学\空间计量\大数据下的替代模型.html
-.\读书笔记\计量经济学\空间计量\大数据下的替代模型.md
-.\读书笔记\计量经济学\空间计量\空间回归代码.html
-.\读书笔记\计量经济学\空间计量\空间回归代码.md
-.\读书笔记\计量经济学\空间计量\空间模型使用.html
-.\读书笔记\计量经济学\空间计量\空间模型使用.md
-.\读书笔记\计量经济学\空间计量\空间计量模型的动因及解释.html
-.\读书笔记\计量经济学\空间计量\空间计量模型的动因及解释.md
-.\读书笔记\计量经济学\空间计量\空间计量经济学的深入讨论.html
-.\读书笔记\计量经济学\空间计量\空间计量经济学的深入讨论.md
-.\读书笔记\计量经济学\空间计量\空间计量经济学笔记.html
-.\读书笔记\计量经济学\空间计量\空间计量经济学笔记.md
 .\读书笔记\语言篇\Pyramid-完整版.md
 .\读书笔记\语言篇\Pyramid.html
 .\读书笔记\语言篇\Pyramid.md
@@ -1147,6 +1159,8 @@
 .\读书笔记\语言篇\沟通交流\README.md
 .\读书笔记\语言篇\沟通交流\Representation Framework.html
 .\读书笔记\语言篇\沟通交流\Representation Framework.md
+.\读书笔记\语言篇\沟通交流\shehuiyuyan1.jpg
+.\读书笔记\语言篇\沟通交流\从社会语言学看上堆下切.html
 .\读书笔记\语言篇\沟通交流\工作汇报.html
 .\读书笔记\语言篇\沟通交流\工作汇报.md
 .\读书笔记\语言篇\沟通交流\语言篇举个栗子.html
@@ -1174,6 +1188,8 @@
 .\读书笔记\语言篇\英语学习\谈空间介词的学习.html
 .\读书笔记\读书笔记\1.png
 .\读书笔记\读书笔记\About Reading Plan.md
+.\读书笔记\读书笔记\Mastering Reading Skills.html
+.\读书笔记\读书笔记\Mastering Reading Skills.md
 .\读书笔记\读书笔记\README.md
 .\读书笔记\读书笔记\xuedushu2.jpg
 .\读书笔记\读书笔记\xuedushu3.jpg
@@ -1194,6 +1210,8 @@
 .\读书笔记\读书笔记\读书随记-·-所写即所得-.html
 .\读书笔记\读书笔记\辩证唯物主义下的认识.html
 .\读书笔记\读书笔记\遥远的救世主读书笔记.html
+.\读书笔记\读书笔记\阅读的核心.html
+.\读书笔记\读书笔记\阅读的核心.md
 .\读书笔记\读书笔记\傅雷家书\README.md
 .\读书笔记\读书笔记\傅雷家书\《傅雷家书》读书随记-·-关于半路选择-.html
 .\读书笔记\读书笔记\傅雷家书\《傅雷家书》读书随记-·-别人的意见-.html

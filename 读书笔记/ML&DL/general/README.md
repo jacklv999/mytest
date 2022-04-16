@@ -1,4 +1,4 @@
-## General Methods in ML
+## General Methods in DL
 
 #### Activation Functions
 
@@ -16,8 +16,13 @@
 
 - [权重初始化方法](./权重初始化方法.html)  
 
-#### Word Embedding
+#### 轻量化网络
 
-- [Word Embeding Review](./Word Embeding Review.html) 
-- [Note on BERT Embedding](./Note on BERT Embedding.html) 
+- [轻量化网络: Dynamic Network](./轻量化网络笔记.html) 
+
+#### Fine-tuning
+
+- [微调Fine-tuning](./Finetuning.html) 
+
+
 

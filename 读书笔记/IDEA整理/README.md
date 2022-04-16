@@ -12,28 +12,8 @@
 - [36个问题](./36个问题.html) 
 - [英国政府改革历程](./撒切尔和梅杰政府时期的英国文官制度改革.html) 
 - [从现在开始](./从现在开始.html) 
-- [从社会语言学看上堆下切](./从社会语言学看上堆下切.html) 
 - [Rethink the Importance of Advices](./Rethink the Importance of Advices.html) 
 - [How to do things](./How to do things.html) 
-
-
-
-## 投资
-
-- [易方达张坤访谈](./易方达张坤访谈.html) 
-- [如何了解一个行业 ? ](./如何了解一个行业.html) 
-
-
-
-## Reading
-
-- [阅读的核心](./阅读的核心.html) 
-- [学读书](./学读书.html) 
-- [Mastering Reading Skills](./Mastering Reading Skills.html) 
-
-
-
-
 
 ## sabi
 
