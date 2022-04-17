@@ -3,6 +3,9 @@
 
 
 
+- [ ] 0417[特征工程](./读书笔记/ML&DL/ML-Related/特征工程.html)
+- [ ] 0417[知识蒸馏](./读书笔记/ML&DL/Other DL/知识蒸馏.html)
+- [ ] 0417[About Normalization](./读书笔记/ML&DL/general/About Normalization.html)
 - [ ] 0416[Adapter架构](./读书笔记/ML&DL/NLP-Related/Adapter架构.html)
 - [ ] 0416[Prompt learning](./读书笔记/ML&DL/NLP-Related/Prompt learning.html) 
 - [ ] 0415[工作汇报](./读书笔记/语言篇/工作汇报.html)

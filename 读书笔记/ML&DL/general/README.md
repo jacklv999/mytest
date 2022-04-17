@@ -24,5 +24,7 @@
 
 - [微调Fine-tuning](./Finetuning.html) 
 
+#### Normalization
 
+- [About Normalization](./About Normalization.html) 
 

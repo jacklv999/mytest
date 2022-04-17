@@ -7,6 +7,7 @@
 - [MLP-Mixer笔记](./MLP-Mixer笔记.html) 
 - [Frequently Used Classifier](./Frequently Used Classifier.html) 
 - [Frequently Used Clustering Algorithm](./Clustering Algorithm.html) 
-- [使用随机重复爬山算法和模拟退火算法的过程优化](./使用随机重复爬山算法和模拟退火算法的过程优化.html) 
-- [基于相似运算、聚类运算和SVM的数据特征分类算法](./基于相似运算、聚类运算和SVM的数据特征分类算法.html) 
+- [随机重复爬山和模拟退火算法](./使用随机重复爬山算法和模拟退火算法的过程优化.html) 
+- [分类算法: 相似运算、聚类运算和SVM](./基于相似运算、聚类运算和SVM的数据特征分类算法.html) 
+- [特征工程](./特征工程.html) 
 

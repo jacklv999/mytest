@@ -628,6 +628,8 @@
 .\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-9---Tips-for-Training-DNN.html
 .\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\目录.html
 .\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\目录.md
+.\读书笔记\ML&DL\general\About Normalization.html
+.\读书笔记\ML&DL\general\About Normalization.md
 .\读书笔记\ML&DL\general\Activation Functions.html
 .\读书笔记\ML&DL\general\Activation Functions.md
 .\读书笔记\ML&DL\general\Finetuning.html
@@ -660,6 +662,8 @@
 .\读书笔记\ML&DL\ML-Related\基于 flow 的生成模型.html
 .\读书笔记\ML&DL\ML-Related\基于 flow 的生成模型.md
 .\读书笔记\ML&DL\ML-Related\基于相似运算、聚类运算和SVM的数据特征分类算法.html
+.\读书笔记\ML&DL\ML-Related\特征工程.html
+.\读书笔记\ML&DL\ML-Related\特征工程.md
 .\读书笔记\ML&DL\NLP-Related\Adapter架构.html
 .\读书笔记\ML&DL\NLP-Related\Adapter架构.md
 .\读书笔记\ML&DL\NLP-Related\Note on BERT Embedding.html
@@ -690,6 +694,8 @@
 .\读书笔记\ML&DL\Other DL\小样本学习.md
 .\读书笔记\ML&DL\Other DL\深度学习攻防.html
 .\读书笔记\ML&DL\Other DL\深度学习攻防.md
+.\读书笔记\ML&DL\Other DL\知识蒸馏.html
+.\读书笔记\ML&DL\Other DL\知识蒸馏.md
 .\读书笔记\ML&DL\Other DL\神经网络中的奥卡姆剃刀.html
 .\读书笔记\ML&DL\Other DL\神经网络中的奥卡姆剃刀.md
 .\读书笔记\ML&DL\Other DL\神经网络中的白化.html
