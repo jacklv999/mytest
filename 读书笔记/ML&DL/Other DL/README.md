@@ -19,3 +19,4 @@
 - [小样本学习](./小样本学习.html) 
 - [About GNN 基础](./About graph neural network.html) 
 - [知识蒸馏](./知识蒸馏.html) 
+- [模型压缩](./模型压缩.html) 
