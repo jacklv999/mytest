@@ -11,3 +11,4 @@
 - [面板数据分析](./面板数据分析.html) 
 - [非线性面板](./About nonlinear panel model.html) 
 - [基于有限样本的假设检验方法分析](./基于有限样本的假设检验方法分析.html) 
+- [Reduce and Structure Form](./Reduce and Structure Form.html) 

@@ -16,7 +16,6 @@
 - [熵增定律](./熵增定律.html) 
 - [习惯养成和神经系统](./习惯养成和神经系统.html) 
 - [36个问题](./36个问题.html) 
-- [英国政府改革历程](./撒切尔和梅杰政府时期的英国文官制度改革.html) 
 - [从现在开始](./从现在开始.html) 
 - [Rethink the Importance of Advices](./Rethink the Importance of Advices.html) 
 - [How to do things](./How to do things.html) 
