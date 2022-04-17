@@ -1,48 +1,13 @@
 ## Computer Science相关
 
-- 正则表达式
-  - [正则表达式基础](./正则表达式.html) 
-  - [正则表达式再整理](./正则表达式再整理.html) 
-- [Chrome快捷键](./Chrome快捷键.html) 
-- [VM based on Register](./vm_register.html) 
-- [编译原理简记](./编译器原理简记.html) 
-- [Golang教程](./Go语言教程.html) 
-- [Git常用命令](./Github命令.html) 
-- [数据库基础](./数据库基础.html) 
-- [Open API Note](./Open API Note.html) 
-- [文件头](./文件头.html) 
-- [Git Branch](./Git branch.html) 
-- [Git Config](./Git Config.html) 
-- [Hash Table](./Hash Table.html) 
+- ### [CS基础](./CS基础/) 
 
-## SQL Related
+- ### [Linux](./Linux/)
 
-- [SQL教程](./SQL教程.html) 
-- [SQL Evolution](./SQL Evolution.html) 
-- [Leetcode SQL Practice: I](./Leetcode SQL Note (01 - 10).html) 
-- [Leetcode SQL Practice: II](./Leetcode SQL Note (11 - 20).html) 
-- [Leetcode SQL Practice: III](./Leetcode SQL Note (21-30).html) 
-- [Leetcode SQL Practice: IV](./Leetcode SQL Note (31 - 40).html) 
-- [Leetcode SQL Practice: V](./Leetcode SQL Note (41 - 50).html) 
+- ### [Windows](./Win/)
 
-## Markdown
+- ### [SQL相关](./SQL相关/) 
 
-- [markdown数学公式](./markdown数学公式.html) 
-- [markdown插入图片](./Markdown插入图片.html) 
-- [Markdown 流程图](./Markdown 流程图.html) 
-- [简书markdown语法](./简书MarkDown语法.html) 
+- ### [Office相关](./Office相关/)
 
-## Windows脚本
-
-- [Windows脚本](./Windows脚本.html)  
-- [CMD脚本补充](./CMD脚本.html)  
-
-## Office相关
-
-- [Word-tips](./Office相关/Word-Tips.html) 
-- [PPT技巧](./Office相关/PPT技巧.html) 
-- [PowerApp笔记](./PowerApp笔记.html) 
-
-## Linux Related
-
-- [Linux 基础命令](./linux 基础命令.html) 
+- ### [Markdown](/Markdown/) 

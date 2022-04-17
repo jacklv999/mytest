@@ -20,3 +20,4 @@
 - [Rethink the Importance of Advices](./Rethink the Importance of Advices.html) 
 - [How to do things](./How to do things.html) 
 - [蝴蝶效应产生独特个性](./蝴蝶效应产生独特个性.html) 
+- [Reshape the way you work](./Reshape the way you work.html)
