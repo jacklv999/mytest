@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>记忆宫殿</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
+html { font-size: 16px; }
+body { font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6; }
+#write { max-width: 860px; margin: 0px auto; padding: 30px 30px 100px; }
+#write > ul:first-child, #write > ol:first-child { margin-top: 30px; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1rem; margin-bottom: 1rem; font-weight: bold; line-height: 1.4; cursor: text; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 tt, h1 code { font-size: inherit; }
+h2 tt, h2 code { font-size: inherit; }
+h3 tt, h3 code { font-size: inherit; }
+h4 tt, h4 code { font-size: inherit; }
+h5 tt, h5 code { font-size: inherit; }
+h6 tt, h6 code { font-size: inherit; }
+h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
+li > ol, li > ul { margin: 0px; }
+hr { height: 2px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; overflow: hidden; box-sizing: content-box; }
+li p.first { display: inline-block; }
+ul, ol { padding-left: 30px; }
+ul:first-child, ol:first-child { margin-top: 0px; }
+ul:last-child, ol:last-child { margin-bottom: 0px; }
+blockquote { border-left: 4px solid rgb(223, 226, 229); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; word-break: initial; }
+table tr { border-top: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; }
+table tr:nth-child(2n), thead { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(223, 226, 229); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr th:first-child, table tr td:first-child { margin-top: 0px; }
+table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
+.CodeMirror-lines { padding-left: 4px; }
+.code-tooltip { box-shadow: rgba(0, 28, 36, 0.3) 0px 1px 1px 0px; border-top: 1px solid rgb(238, 242, 242); }
+.md-fences, code, tt { border: 1px solid rgb(231, 234, 237); background-color: rgb(248, 248, 248); border-radius: 3px; padding: 2px 4px 0px; font-size: 0.9em; }
+code { background-color: rgb(243, 244, 244); padding: 0px 2px; }
+.md-fences { margin-bottom: 15px; margin-top: 15px; padding-top: 8px; padding-bottom: 6px; }
+.md-task-list-item > input { margin-left: -1.3em; }
+@media print {
+  html { font-size: 13px; }
+  table, pre { break-inside: avoid; }
+  pre { overflow-wrap: break-word; }
+}
+.md-fences { background-color: rgb(248, 248, 248); }
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+.md-mathjax-midline { background: rgb(250, 250, 250); }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h5.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+.md-image > .md-meta { border-radius: 3px; padding: 2px 0px 0px 4px; font-size: 0.9em; color: inherit; }
+.md-tag { color: rgb(167, 167, 167); opacity: 1; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+.sidebar-tabs { border-bottom: none; }
+#typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
+#typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
+.on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
+header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Arial, sans-serif; }
+.file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
+.mac-seamless-mode #typora-sidebar { background-color: var(--side-bar-bg-color); }
+.md-lang { color: rgb(180, 101, 77); }
+.html-for-mac .context-menu { --item-hover-bg-color: #E6F0FE; }
+#md-notification .btn { border: 0px; }
+.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
+
+
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h2><a name="%E8%AE%B0%E5%BF%86%E5%AE%AB%E6%AE%BF" class="md-header-anchor"></a><span>记忆宫殿</span></h2><p><span>记忆宫殿法是基于人们擅长记忆那些熟悉的地方。“记忆宫殿”是一个比喻，它是任何一处你熟悉的并能够轻易地把它视觉化的地方。它可以是家里，或是每天上班的路线。那个熟悉的地方将会成为你储存和回忆所有信息的向导。</span></p><p><span>让我们来揭开它的运作原理。</span></p><p><span>学习使用记忆宫殿的5个步骤</span></p><p><span>1.选择你的宫殿</span></p><p><span>首先，你要选一个你非常熟悉的地方。这个方法的有效性便取决于你能否毫不费力地在脑海中重现并走入这个空间。你需要做到能随时随地随心所欲地“进入”这个地方。</span></p><p><span>例如，一个好的选择——你的家。记住，你对这个地方的视觉化越是真实细致，那么你的记忆效力越高。</span></p><p><span>并且，尝试在宫殿内确定一条具体的线路，而不是单纯地想象一个静态的画面。因此，与其简单地描画你的家，不如想象出一条详细的行走路线。这能使记忆宫殿更加有效，因为你需要按着特定的顺序来回忆一些物件，这将在接下来谈到。</span></p><p><span>这里附加一些有助于记忆宫殿路线选择的建议：</span></p><p><span>· 城市里熟悉的街道。那可能是你开车上班经过的道路，或是一连串你熟悉的街道。</span></p><p><span>· 现在或以前的学校。你可以想象从教室到图书馆的路线（或者从街道的另一边走到酒吧，如果这条路线印在你脑海中。）</span></p><p><span>· 办公的地方。想象从你工作的隔间走到咖啡机，或走到上司的办公室（这应该不难选）。</span></p><p><span>· 自然环境。想象你走在社区或是附近公园慢跑的小径上。</span></p><p><span>2.列出特征物件</span></p><p><span>现在你需要把注意力集放到所选地方的具体物件上。例如，假设你选的是你的家，那么前门可能是你首先注意的事物。</span></p><p><span>那么接着，你穿过那扇门后，想象你走在记忆宫殿里，第一间房间里有什么？有条理地观察这个房间（你可以定下一个程序，如，总是先从左向右等）。下一个吸引你注意的是什么？或许是客厅中央的桌子，又或许是墙上的一幅画。当你“走”过时，不断地标记下那些物件。它们每个都将会是你稍后储存信息的“记忆插口”。</span></p><p><span>3.把宫殿牢记于心</span></p><p><span>要让记忆宫殿运转起来，最重要的是百分之百地把这个地方和路线刻进大脑中，用尽一切必要的办法把它记住。如果你是个视觉化的人，那么这个对于你来说并不困难。如果不是，这些小技巧能帮助你：</span></p><p><span>· 实地去走走这些线路，大声地重复你所见到的每样特征物件。</span></p><p><span>· 把你所选的物件写到一张纸上，在脑海中再现它们，并而大声重复。</span></p><p><span>· 总是以相同的视角去看这些物件。</span></p><p><span>· 记住视觉化只是一种技巧，如果你仍然觉得做起来有困难的话，你或许需要先建立起你的视觉思维。</span></p><p><span>· 当你相信自己能够做到时，再重复一遍，把记忆宫殿的路线熟记于心是非常关键的。</span></p><p><span>一旦你确信这些线路已经烙在脑海里，你就准备好了。现在你有一座能够不断重复运用的记忆宫殿了。</span></p><p><span>4.联想</span></p><p><span>如今，你已经是宫殿的主人，是时候让它发挥作用。就如大多数记忆增强体系，记忆宫殿也需要运用视觉联想。方法很简单：你用一幅熟悉的图像，称作“记忆挂钩”，然后联系你想要记忆的东西。对于我们，“记忆挂钩”便是我们记忆宫殿的特征物件。</span></p><p><span>《说大脑的语言有助记忆力提高》一文中，所谈的“记忆挂钩”法正是我们这里谈及的概念，所以如果你还没读过，我强烈建议你读一下。</span></p><p><span>文章里描述视觉联想的“正确方法”是：</span></p><p><span>“联想要疯狂些，荒谬些，甚至有些冒犯也可以，总之要与众不同，独一无二，要荒唐却又形象生动的。毕竟，它们是你要记住的东西，不是吗？想象一些独特的，生活中不可能发生的场面。唯一的规则就是：无趣即错误。”</span></p><p><span>我们可以用记忆宫殿记住海量信息，但先让我们从基本开始：以“家”作为记忆宫殿去记住一份购物清单。假设清单上第一样是培根：</span></p><p><span>从脑海中进入你的记忆宫殿，第一个出现在你眼前的是前门。那么，现在用一种与众不同的方式把培根和前门视觉化地联系起来。设想一块块巨大的炸培根条从门底下溢出来，就像那种B级丧尸电影一样，想要捉住你的腿。感受一下那些“培根触手”捕获你大腿的触感，再想象一下那些邪恶的培根散发出的味道。这样是否很难忘？</span></p><p><span>现在打开门，按照你设定的路线继续往前走，看到下一个标记的物品，然后与</span><a href='https://www.zhihu.com/search?q=购物单&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A58178010}'><span>购物单</span></a><span>里下一个物件联系起来。假设第二样东西是鸡蛋，而你看到的第二个物件是一张岳母的照片，接下来你已经知道该怎么做了……步骤都是一样的，然后在大脑中把这些场景都联系起来，直到记住所有东西。</span></p><p><span>5.回访你的宫殿</span></p><p><span>到此，你已经能够记忆信息了。如果你还是掌握得不熟悉，那么你需要做一些小的演练，在脑海里把过程重复一遍。</span></p><p><span>如果你都从同一个起点开始，而且每次都按照同样的路线，当你“看见”那些标记的物件时，你所记忆的事物都会一一重现。从头到尾把这条路线走一次，期间要注意那些特征物件，并在脑海把那些场景回放一遍。当你完成一次“巡视”，便再从终点往回走到起点处。</span></p><p><span>最后，一切的关键在于发展你的视觉思维。过程中，你越是轻松，那么你越能轻易地记住东西而且记忆越有效。</span></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><span>1.我的4000法语单词全部挂钩在一次南京旅游上，所有途中遇到的人与事全部脑补为法语；</span></p><p><span>2.工程施工、机电设备安装的内容全部映射到小区第三期的工程上；</span></p><p><span>3.电气工程的某四五本书基本上是每一页都在我脑海里按图像存着；</span></p><p><span>学的太杂了，其他的就不说了。</span></p><p><span>我个人觉得，记忆宫殿最重要的是图像、情感和动态。</span></p><p><span>一开始，很多记忆的内容我全部直接在脑子里构建各种滑稽的图像，和上面答案里那个TED里说的一个路子，后来发现，这种没有逻辑的记忆很容易混乱，而且实际应用时会想不起来（脑子里要多一道转码步骤啊）。</span></p><p><span>后来我就把内容挂到实际的东西上，效果就好很多，而且一个大类的知识是连贯的，且不用转码，例如上2，我就溜进小区的</span><a href='https://www.zhihu.com/search?q=三期工程&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A27298086}'><span>三期工程</span></a><span>看了二十分钟，以后看到建设工程管理、法规、招投标一类的内容，在我脑子里就全部就变成小区三期工程的工程管理、小区三期工程违法违约、作为小区三期工程的承包商该怎样怎样。把自己当作一个角色扔进你构建的这个世界，该愤怒时愤怒，该无奈时无奈，该喜悦时就想象自己欢乐的像个小鸡崽子一样跳起来！这样看了的书记忆效果会很好，因为大脑觉得这是你的真实经历......这点和</span><a href='https://www.zhihu.com/search?q=读心神探&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A27298086}'><span>读心神探</span></a><span>里那个挂了的男的用恐怖的图画来刺激自己基本是一个思路。</span></p><p><span>在我的记忆宫殿里，南京的玄武湖（记法语单词）就是我小区池塘的延伸；</span></p><p><span>小区进门口会堆着十来本书（电气工程；小区出门是沃尔玛（用来记购物清单的）；</span></p><p><span>沃尔玛边上有几间小房子，里面有插线板、充电器、缀满珠宝的华服、背着火箭助推器的愤怒的小鸟等等（用来记23种设计模式）；</span></p><p><span>小房子下面纵横着四五条地铁线（每条地铁线对应一家信号设备商的解决方案）.....</span></p><p><span>有了新内容，成系统的就分配一个实景空间挂内容，然后像</span><a href='https://www.zhihu.com/search?q=骇客帝国&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A27298086}'><span>骇客帝国</span></a><span>一样在已有的记忆宫殿上开一扇门，打通它们；新内容是原有系统里的，就可以在池塘边堆个箭塔，箭塔旁边竖个</span><a href='https://www.zhihu.com/search?q=牛头人&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A27298086}'><span>牛头人</span></a><span>酋长什么的.....</span></p><p><span>更重要的是，复习！</span></p><p><span>每天回家走到小区门口时，我总会在脑袋里把记忆宫殿粗略的走一遍......我其实是一个天资极低的普通人，唯有勤能补拙。</span></p><p><span>望回答对题主有用。</span></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><strong><span>0：读者须知</span></strong></p><p>&nbsp;</p><p><span>此系列为“如何理解记忆一本书”</span></p><p><strong><span>方法</span></strong><span>分为以下几个</span><strong><span>步骤</span></strong><span>：</span></p><p>&nbsp;</p><p><strong><span>①打造自己的宫殿</span></strong></p><p><strong><span>②每本书都有自己的宫殿</span></strong></p><p><strong><span>②如何筛选关键词/句/段，并定桩</span></strong></p><p><strong><span>③如何在宫殿内联系各部分关键词</span></strong></p><p><strong><span>④如何高效复习</span></strong></p><p>&nbsp;</p><p><strong><span>今天所讲的是第一部分：如何打造自己的宫殿。所以并不能把所有细节一次性讲清，请谅解。</span></strong></p><p>&nbsp;</p><p>&nbsp;</p><p><span>②“</span><strong><span>理解</span></strong><span>”与“</span><strong><span>记忆</span></strong><span>”在这种方法中是相辅相成的，所谓“照相机记忆”不在讨论之列，作者也不会。</span></p><p><span>③重点是记忆“</span><strong><span>一本书</span></strong><span>”，而非单纯记忆零碎知识点。（单纯记忆零散知识点的方法——如果你一本书的记忆方法都掌握了，零散知识其实信手拈来）</span></p><p><span>④</span><strong><span>完整方法各方杂糅，系作者原创，不一定适用于每个人，</span></strong><span>且与“正统”</span><a href='https://www.zhihu.com/search?q=记忆法&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A132050242}'><span>记忆法</span></a><span>有所区别。希望大家可以在此基础上寻找真正适合自己的方法，并且最重要的是：</span><strong><span>多练习，多练习，多练习。</span></strong></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><span>虽说这么神秘，</span><strong><span>其实原理与练习方法却极其简单。</span></strong><span>有同学跟我抱怨说，她们的想象力似乎并不适合练这种方法。但是实际上，</span><strong><span>如果是抱着临时佛脚的心态，想着练上一分钟就可以做到过目不忘，这简直是痴人说梦。</span></strong></p><p>&nbsp;</p><p><span>不得不承认，这种练习方法在</span><strong><span>初期</span></strong><span>时不仅仅会大大</span><strong><span>降低你的记忆速度</span></strong><span>，而且有的同学会因此</span><strong><span>产生自卑的想法：</span></strong><span>或许是我自己太笨了/太没有想象力了/没有掌握对的技巧...才会记忆如此之慢。其实原因很简单，无论是宫殿的建造与熟悉，还是关键词的想象与定桩，都需要你</span><strong><span>适应另一种记忆方法——图像式记忆</span></strong><span>，而适应与方法的固定都需要时间。</span></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><strong><span>②步骤（初级版）：</span></strong></p><p>&nbsp;</p><p><strong><span>①选择宫殿：</span></strong></p><p><span>在记忆中找到一个自己</span><strong><span>非常熟悉的场所。</span></strong><span>这个场所的关键形象一定是比较</span><strong><span>固定不变</span></strong><span>的——自己的家，操场，学校，办公室，电影院，公园等等。</span></p><p>&nbsp;</p><p><span>最好可以再回到这个场所去，按照</span><strong><span>一定顺序关注或者回忆</span></strong><span>这个场所的每个</span><strong><span>细节特征</span></strong><span>，甚至可以</span><strong><span>拍照</span></strong><span>下来，进行反复回忆。</span></p><p>&nbsp;</p><p><span>将这个场所标为你的</span><strong><span>一号宫殿</span></strong><span>。</span></p><p>&nbsp;</p><p><span>例如：</span></p><p><span>我非常熟悉的地方是图书馆，如果是我第一次根据图书馆进行宫殿建造的话。</span></p><p><span>我会密切关注着个图书馆内部所有比较有特征的地方——大门是什么颜色的，是什么感觉，触感，味道，打开时的声响；</span></p><p>&nbsp;</p><p><span>大门旁边有个雨伞架，这个伞架有几层，颜色，触感，伞架的边边角角的特点，甚至还可以回想你的雨伞被别人锁了的经历；图书馆桌椅通常是怎么摆放的？有几个？颜色、触感、谁经常坐哪个位子，谁用什么书占了位置还不来的（占位狗站住！）？等等。总之，越立体，能调动你的感官/回忆越多越好。</span></p><p>&nbsp;</p><p><strong><span>②列出特征物：</span></strong></p><p>&nbsp;</p><p><span>将你认为比较</span><strong><span>鲜明有价值</span></strong><span>的细节</span><strong><span>“按照空间顺序”</span></strong><span>进行标号。并且进行</span><strong><span>拍照</span></strong><span>或者</span><strong><span>简单绘画</span></strong><span>进行保存。</span></p><p>&nbsp;</p><p><span>虽说人的图像记忆功能很强大，但是如果你希望自己后期对自己的宫殿可以进行</span><strong><span>充分应用</span></strong><span>（标一百以上的号）的话，还是</span><strong><span>建议进行记录的。</span></strong></p><p>&nbsp;</p><p><strong><span>不然随着标示物越来越多，你会混的一塌糊涂。</span></strong></p><p>&nbsp;</p><p><span>什么是“鲜明有价值”呢？就是你再回想这个宫殿的时候不会把这个标志物和其他的标志物搞混——</span><strong><span>这个标志物一定是长这个样子，有这个触感，有这味道，会发出这样的声响，就在这个位置！</span></strong></p><p>&nbsp;</p><p><span>例如：</span></p><p><span>我将大门标为一号，雨伞架正好在大门的右侧，标为二号。</span></p><p>&nbsp;</p><p><span>进门之后往右手边走有图书休息区，那里有三个桌子，如果这三个桌子长的一模一样，你分别将它们标上三四五号，相信我，你后期一定会搞混的。</span></p><p>&nbsp;</p><p><span>想要区分很简单——你可以将这三个桌子上分别放上不同的标示物，或者对桌子的摆放进行调整后，再进行区分。</span></p><p>&nbsp;</p><p><span>你可以在一个桌子上放尖叫鸭，一个桌子上放一本厚厚的课本，一个桌子上来盆花，拍照或草绘进行三四五标号......我相信如果你进行了记录，记忆宫殿会更加有顺序，后期加进来特征物时也会更加游刃有余，不会搞混特征物的顺序的。初期练习，可以不要贪多，设定10-30个</span><a href='https://www.zhihu.com/search?q=标志物&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A132050242}'><span>标志物</span></a><span>进行反复，完全的观察（多感官观察和感触），后期可以加到你需要的数量，100+也是很常见的。</span></p><p>&nbsp;</p><p><strong><span>③绝对记住自己的宫殿：</span></strong></p><p>&nbsp;</p><p><strong><span>时不时回到自己选择的宫殿，再一次按照自己标好的顺序“故地重游”，加深印象。</span></strong></p><p>&nbsp;</p><p><span>或者对照自己当时</span><strong><span>拍照或手绘</span></strong><span>进行的标记，</span><strong><span>反复记忆。直到你闭上眼睛，好像就可以完全置身于你的宫殿之中。</span></strong></p><p>&nbsp;</p><p><span>要知道，你的宫殿不仅仅有静态图像，它也是有声音，味道，会动的，这也不是一个孤立的地点，这个地点周围也是有环境的，有感情的。（想象一个“</span><strong><span>活的”地点</span></strong><span>，我认为是有必要的，虽然在很多记忆书中并没有强调这一点）</span></p><p>&nbsp;</p><p><span>例如：我来到设定为“记忆宫殿一·”的图书馆。我以前很喜欢在下雨天来图书馆，因为下雨天在宿舍容易抑郁（感情）。</span></p><p>&nbsp;</p><p><span>来图书馆的小路上有丁香花，可惜凋谢的早，不过有时候停下来闻闻，一天心情都挺好的（味道）。</span></p><p>&nbsp;</p><p><span>图书馆前面有一片水池，有个人经常在水池那边玩电动小水艇，浪花能溅老高（回忆）。</span></p><p>&nbsp;</p><p><span>图书馆周围经常有两只鹤型白鸟到处“游荡”，可惜到现在也不知道它的名字。（回忆）</span></p><p>&nbsp;</p><p><span>上了二十层楼梯到图书馆门口，图书馆新装了感应门，之前一号标记的普通玻璃门需要修正一下。（对标志物的修正，也可以不修正，你觉得哪个给你印象深刻就用哪个）</span></p><p>&nbsp;</p><p><span>这个红外线感应门很有意思，你需要离它稍微远一点才可以感应的到，如果一个箭步冲过来，这门是绝不会感应开的。（特点）</span></p><p>&nbsp;</p><p><span>这门在开的时候声响还是很大的，有时候会觉得很尴尬，因为总感觉是在欢迎贵宾的感觉，然而我只是想蹭个空调。（声音，感情）</span></p><p>&nbsp;</p><p><span>旁边的二号标记物伞架也被人摆的乱七八糟，要不要也锁个伞恶作剧一下呢？还是不要了，冤冤相报何时了。（回忆，感情）</span></p><p>&nbsp;</p><p><span>伞架旁边的套伞袋也没人用——一撮撮整齐的丢在伞架旁边，怪孤单的（特点，感情）.....</span></p><p>&nbsp;</p><p><span>喵，再写就成小说了。其实这些想法都是一闪而过的，在这里主要想说明的是，在你重新回忆自己的宫殿的时候，请务必保证标志物的立体与鲜明感。这在之后的练习中十分有用，会大大增加你的记忆容量。</span></p><p>&nbsp;</p><p><span>当你可以完全回忆出你自己宫殿特征物细节的时候，这个宫殿就是你的了，这是之后我将要介绍的“记忆一本书”技巧的基础，请务必多加练习。</span></p><p>&nbsp;</p><p><strong><span>④记忆术尝鲜：记忆挂钩</span></strong></p><p>&nbsp;</p><p><span>其实本次文章的内容在</span><strong><span>③绝对记住自己的宫殿</span></strong><span>部分已经结束了。但是对于有些希望知道“记住这么个宫殿有什么用”的同学，宝宝就在这一小部分稍微提一下简单的用法，关于详细定桩与练习的方法，敬请期待之后的文章哟~</span></p><p>&nbsp;</p><p><span>以一份购物清单为例：勺子，花生，洗洁精，睡衣。</span></p><p>&nbsp;</p><p><span>如果希望按照顺序将他们记忆下来的话，其实有两种记忆方法，一种就是</span><strong><span>记忆宫殿</span></strong><span>，虽说有点大材小用，不过还是演示一下吧，关于联想，基于的原则就是</span><strong><span>越古怪，越血腥，越令人印象深刻就好</span></strong><span>（关于如何联想这一部分以后会单独说）：</span></p><p><span>勺子-以前看过一个短篇，我会联想成勺子杀手（相关联想）</span></p><p>&nbsp;</p><p><span>花生--一头用花生做的小脏辫（夸张联想）</span></p><p>&nbsp;</p><p><span>洗洁精--洗出的泡泡很多很大，而且还会爆炸，彭~！（夸张联想）</span></p><p>&nbsp;</p><p><span>睡衣--贞子的衣服（相关联想）</span></p><p>&nbsp;</p><p><span>然后</span><strong><span>把这些想象放到对应的标志物上就好啦~</span></strong></p><p>&nbsp;</p><p><span>一号标志物是大门：一个勺子杀人狂在用勺子不停的敲门，马上就要敲破了，门却不开。二号标志物是伞架：花生小脏辫非洲姑娘正在伞架旁恶作剧，准备把人家的伞锁了，满头花生发出叮铃铃的响声。三号标志物是放了尖叫鸭的桌子：尖叫鸭一边尖叫，一边吐泡泡，泡泡爆炸，产生了更多的尖叫鸭。四号标志物是放了厚书的桌子：打开这本书，贞子就像从书里爬了出来....</span></p><p>&nbsp;</p><p><span>当然对于这种清单式的记忆方法，其实我个人更推崇</span><strong><span>动作关联</span></strong><span>的方法来记忆——</span></p><p>&nbsp;</p><p><span>勺子杀人狂挥舞着勺子冲了进来。敲打一个满头花生的非洲人，勺子杀人狂敲一下，掉一个花生，花生击中的泡泡，泡泡一爆炸，把贞子炸飞了，贞子的睡衣被染成了红色。</span></p><p>&nbsp;</p><p><strong><span>中级版是可以将一个物品当做记忆宫殿。高级版是可以完全想象一个宫殿。</span></strong></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><span>链接：</span></p><p><a href='https://www.zhihu.com/question/27371173/answer/130991615'><span>如何成为记忆高手？ - 三道熊爪印的回答 - 知乎</span></a></p><p><span>来源：知乎</span></p><p><span>著作权归作者所有，转载请联系作者获得授权。</span></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><strong><span>一，特殊说明</span></strong></p><p><span>上次介绍了记忆宫殿的使用方法，不知道大家有没有练习呢？今天开始《如何记忆一本书》系列之step2:《每本书都有自己的宫殿》。</span></p><p>&nbsp;</p><p><span>重要的是，本文其实就是此系列的核心方法。往后的三篇文章则主要针对此方法的细节部分进行补充说明。所以，朋友们在看完这篇文章后，按理说就可以进行书本的结构记忆了。</span></p><p>&nbsp;</p><p><span>另外，本文中的方法系本人原创，所以会有不完善的地方。如果有更好记忆学习方法的朋友，我们后台来交流呀~</span></p><p>&nbsp;</p><p><span>最后，下一篇文章《如何筛选关键词/句/段，并定桩》将在12月9号发文。如果大家有什么问题，可以留言或者后台发我，下次文章统一解答咯。</span></p><p>&nbsp;</p><p><strong><span>二，介绍</span></strong></p><p><span>我在第一篇文章中已经简单说明了：在现今社会中，知识管理能力要比知识积累能力更为重要。</span></p><p><span>再加上现在的生活节奏如此之快，工作学习中对个人素质和知识面要求如此之高，如何快速掌握一本书，或者说一个领域的基本框架已经变成了一个热门问题。</span></p><p>&nbsp;</p><p><span>不得不说，对于一本书，一个领域来说，框架要比细节有更多延展的可能性和发展空间。以前一个“神仙爷爷”跟我说：“要看中国历史，就要先把中国历史大系表背下来。”其实这与我刚才所说的也是同一个道理。</span></p><p>&nbsp;</p><p><span>因为当一个人对一个领域的基本框架有所掌握的时候，往后再进行细节学习（例如三国时期）时，很容易就会在曾经背过的这张“大系表”上找到细节所在的位置（好像找到了大系表的朝代/在位执政者/年份），由此形成你“自己”的，关于“</span><a href='https://www.zhihu.com/search?q=专有学科&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A132050242}'><span>专有学科</span></a><span>”的知识管理。</span></p><p>&nbsp;</p><p><span>但是这并不意味着我们今天介绍的这种方法不涉及细节记忆。</span></p><p>&nbsp;</p><p><span>应该说，记忆法实际上都是大同小异的，每个人都可以根据自己所涉及的领域来调整之前的记忆方法，形成适用于自己高效的方法论。</span></p><p>&nbsp;</p><p><span>例如，学历史的朋友也许对细节记忆需求更高，学习物理的朋友对理论的推导与理解的要求则会更高些。他们在进行自己学科的学习时方法是有差异的。</span></p><p>&nbsp;</p><p><span>只不过，对于一个优秀的学习者来说，无论是什么学科，都应该形成自己的宏观知识构架，而不是简单的碎片拼接化的知识。</span></p><p>&nbsp;</p><p><span>这在我的文章“高效学习：如何高效进行碎片化学习”也强调过——不是说碎片化学习就是大恶魔，没有构架的碎片化才是。</span></p><p><span>对于要考试的小朋友，唉，悲催啊。明明很多东西网上都有，也不用理解，非要你们死记硬背下来，这不是浪费时间是什么？唉。不过此方法也可以帮助你快速掌握一门学科，应付考试。应该说，宝宝一开始研究这方法也是为了应付考试的。</span></p><p>&nbsp;</p><p><span>所以不要着急，且看下去，相信对你也会有所帮助的。</span></p><p>&nbsp;</p><p><strong><span>三，本片涉及的记忆法名词</span></strong></p><p><strong><span>①</span></strong><span> </span><strong><span>做桩子/定桩*</span></strong><span>*：**我们经常会听到“把这个名词做个桩”。做桩的意思其实就是图像化（或者符号化），也就是“把这个名词想象成一个固定的图像/符号”。</span></p><p><span>例如吗啡=红色的马（的图像）、吗啡衍生物就是红色的马上有附加物——海洛因是吗啡衍生物之一，所以想象成蓝眼红马（的图像）。</span></p><p><span>除此之外，知名度比较高的应该是“110数字桩”：16=石榴（的图像），23=和尚（的图像），这是用来快速记忆数字的桩子。有兴趣的朋友可以自行搜索《疯狂大脑》视频,主要看老师数字转换图像的思路。</span></p><p><span>在此基础上，还有1000数字桩等。更大数字桩的意义就在于：在一个模块中涉及的数字越多，记忆起来也就更快速。例如记忆8402，用110数字桩记忆则是：巴士（84）上有只鹅（02），用1000桩则可以记成“黑白版2048”。</span></p><p><strong><span>下面来稍微讲一下我定桩常用的方法吧：</span></strong></p><p><span>① </span><strong><span>特色部分</span></strong><span>：上例中——吗啡=红马，海洛因的海=蓝眼。</span></p><p><span>② </span><strong><span>谐音：</span></strong><span>这个我文字记忆用得比较少，数字记忆用的多。例如16=石榴。</span></p><p><span>③ </span><strong><span>符号：</span></strong><span>儿茶酚胺=</span></p><p><img src='https://pic1.zhimg.com/80/v2-89a0ad43313435f6b727b64d6c79740c_720w.jpg?source=1940ef5c' alt='img' referrerPolicy='no-referrer' /></p><p><span>（一个小孩坐在茶几上吃奶酪的形象，然后用几根线符号化了）</span></p><p>&nbsp;</p><p><span>④ </span><strong><span>夸张：</span></strong><a href='https://www.zhihu.com/search?q=高脂蛋白血症&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A132050242}'><span>高脂蛋白血症</span></a><span>=超大的温泉蛋</span></p><p><span>⑤ </span><strong><span>形象联想：</span></strong><a href='https://www.zhihu.com/search?q=聚合酶&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A132050242}'><span>聚合酶</span></a><span>=桑葚（因为上面的小球都聚在一起，又很像梅子）</span></p><p><span>⑥ </span><strong><span>应用联想：</span></strong><span>可以想这个名词或者概念在什么情况下可以用，在哪个情况下发生了什么，你会怎么做，那个使用的环境是怎么样的，你的心情是怎么样的等等。</span></p><p><span>在这样使用的时候你其实已经理解了，又有多种感官刺激，当然好记。</span></p><p><span>比如你想记重组DNA技术的基本步骤，就可以想象自己是一个基因片段，然后周围都是一群群DNA载体蠕动，然后你揪着一个载体的一个头，又粘又滑还有一股鱼腥味（总之能有多少感官都可以加上），另一个手拉住另一头形成个环。</span></p><p>&nbsp;</p><p><span>后来你感觉自己有种灵魂出窍的感觉，那是复制和分裂，你还可以看看那个分裂的重组体和你一模一样，甚至很好笑。</span></p><p>&nbsp;</p><p><strong><span>这个方法（应用联想）我比较建议大家使用，因为它更有助于大家理解如何应用“概念”与“名词”，而不是单纯地记忆。</span></strong></p><p>&nbsp;</p><p><strong><span>②</span></strong><span> </span><strong><span>关键词*</span></strong><span>*：**就是你选出来进行定桩的词语。你会选择哪些词作为关键词？这对于记忆来说是非常重要的东西。选择关键词有以下几个要领：</span></p><p>&nbsp;</p><p><span>① 要选专有名词作为关键词。</span></p><p><span>② 要选重复率高，或者名字长你记不住但又很重要的名词作为关键词。</span></p><p><span>③ 选择必要的形容词动词做桩，对于这类词语，建议使用符号桩。</span></p><p><span>③ 对于要考试的朋友，选考点当关键词。</span></p><p><span>④ 对于细节要求不严格的学科来说，选择自己的段落甚至文章总结作为关键词。</span></p><p><span>③ 故事记忆法：要记忆哪一部分，就把哪一部分的关键词提炼出来，定桩。将图像想象成一个故事情节。</span></p><p><img src='https://pic1.zhimg.com/v2-8da9c2297b0a4e4485b5ce719768364e_r.jpg?source=1940ef5c' alt='img' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p><strong><span>四，方法使用目的与效果</span></strong></p><p><strong><span>目的：</span></strong><span>以一本书的整体框架为根基，对整本书进行理解记忆。</span></p><p><strong><span>效果：</span></strong><span>在提到该学科的某个问题时，你可以迅速想到该问题所在小章节，大标题，以及与其他小标题之间的联系。从而开阔思路，对该问题形成更加全面客观的认识。</span></p><p>&nbsp;</p><p><strong><span>五，方法*</span></strong><span>*步骤**</span></p><p><span>① </span><strong><span>建造书籍宫殿</span></strong><span>：选择你想要记忆的图书，首先将</span><strong><span>书名本身</span></strong><span>变成一个</span><strong><span>丰富多彩</span></strong><span>的</span><strong><span>图像</span></strong><span>，画下来，根据目录大章节的数量</span><strong><span>标序</span></strong><span>（怎么标序看上一篇STEP1），作为书目本身的记忆宫殿，以后</span><strong><span>章节内容</span></strong><span>都是要放到这张图里的。</span></p><p>&nbsp;</p><p><span>② </span><strong><span>画知识树状图</span></strong><span>：通读全书，将</span><strong><span>目录—子目录—单元分节—小节标题—标题拓展</span></strong><span>画成</span><a href='https://www.zhihu.com/search?q=树状图&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A132050242}'><span>树状图</span></a><span>。</span></p><p>&nbsp;</p><p><span>③ </span><strong><span>定桩</span></strong><span>：把书中（尤其是</span><strong><span>各级目录中</span></strong><span>）的</span><strong><span>关键词</span></strong><span>（例如马克思主义）</span><strong><span>定好桩</span></strong><span>（对应一个确定的图像/符号）。对于没有目录的书......您老就费心用Xmind或者mindmanager软件自己编个树状图出来呗。</span></p><p>&nbsp;</p><p><span>④ </span><strong><span>开始嵌套：</span></strong><span>把</span><strong><span>子目录</span></strong><span>代表的图像填充到房间对应的目录图像中，注意用</span><strong><span>彩色笔</span></strong><span>在旁边标注</span><strong><span>此图像/符号对应的名词</span></strong><span>，不然画完了就不知道是什么咯。</span></p><p>&nbsp;</p><p><span>⑤ </span><strong><span>重复分级嵌套</span></strong><span>：按照同样的方法，将</span><strong><span>单元分节放到子目录</span></strong><span>中。</span><strong><span>小节标题放到单元分节</span></strong><span>中.......</span></p><p><span>⑥ </span><strong><span>细节模块化</span></strong><span>：各级标题记下来后，将需要记忆的细节进行模块化，嵌套在标题拓展中。</span></p><p>&nbsp;</p><p><span>⑦ </span><strong><span>回顾：</span></strong><span>闭上眼睛，将这本书整体进行回顾。就好像一级级放大记忆一样：从目录到子目录到单元分节......对应图像就好像是：这个角落有个穆斯林女子，她的手里有一个苹果，苹果中有一个虫子，这个虫子以前发生过怎么样的故事。</span></p><p>&nbsp;</p><p><span>⑧ </span><strong><span>总结</span></strong><span>：总的来说，这个记忆方法的关键点主要在于</span><strong><span>选择</span></strong><span>（将所需背的大段内容精简成几个关键词/选择词语）——</span><strong><span>定桩</span></strong><span>（什么名词对应什么图像/符号并用笔画下来）——</span><strong><span>放置</span></strong><span>（放置在你记忆宫殿的什么位置）——</span><strong><span>联系</span></strong><span>（这些名词图像之间是什么关系:分级嵌套与故事联系）——</span><strong><span>回顾</span></strong><span>（将这个房间以及所选位置上的细节都能够想起来）</span></p><p>&nbsp;</p><p><strong><span>七，完整举例</span></strong></p><p>&nbsp;</p><p><strong><span>我们就用西方哲学史来做一个简单的示范吧。</span></strong></p><p><span>① </span><strong><span>建造书籍宫殿</span></strong></p><p><strong><img src='https://pic2.zhimg.com/80/v2-ead262b9070c46c47c131df879bd571f_720w.jpg?source=1940ef5c' alt='img' referrerPolicy='no-referrer' /></strong></p><p>&nbsp;</p><p>&nbsp;</p><p><span>标了两个地方：一个是土字形的手杖</span></p><p><img src='https://pica.zhimg.com/80/v2-03297b553779744b472b3c6adc1e6814_720w.jpg?source=1940ef5c' alt='img' referrerPolicy='no-referrer' /></p><p><span>一个是他的手与手柄。</span></p><p>&nbsp;</p><p>&nbsp;</p><p><span>② </span><strong><span>画知识树状图</span></strong></p><p><strong><img src='https://pic3.zhimg.com/80/v2-545a089ccf7192782249165fa3d3fbd0_720w.jpg?source=1940ef5c' alt='img' referrerPolicy='no-referrer' /></strong></p><p>&nbsp;</p><p><span>《西方哲学史·第一卷》的目录是这个样子的。我们要根据这个目录画出我们自己的树状图。我就拿《第一篇前苏格拉底哲学家·第一章 希腊文明的兴起》做示范啦。</span></p><p><strong><span>《西哲》属于有大目录但却部分小标题的书，给大家瞄一眼。</span></strong></p><p><img src='https://pic3.zhimg.com/v2-15d153d9e05608f084f8765f0df2bb57_r.jpg?source=1940ef5c' alt='img' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p><strong><span>所以我们要做自己的树状图，把知识先整理一下，变成这个样子。</span></strong></p><p><img src='https://pic2.zhimg.com/v2-2236eb1564079665e5e5162f06a96a8b_r.jpg?source=1940ef5c' alt='img' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p><strong><span>当然，树状图是可以细化下去的，在这里就画这些吧。</span></strong></p><p><span>② </span><strong><span>定桩</span></strong><span>：</span><strong><span>先选择关键词，</span></strong><span>用的都是基本词语进行定桩，因为这些词在书中会</span><strong><span>重复</span></strong><span>很多次。所以，桩子会越定越少的、</span></p><p><img src='https://pic3.zhimg.com/v2-f80838c2a1ad33e0111f8ef4f20cf55e_r.jpg?source=1940ef5c' alt='img' referrerPolicy='no-referrer' /></p><p><img src='https://pica.zhimg.com/v2-5264aa4a8302960f6ba5c262769397a8_r.jpg?source=1940ef5c' alt='img' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p>&nbsp;</p><p><img src='https://pic1.zhimg.com/v2-fca28751ad3bbefd2da9b57fcf48b991_r.jpg?source=1940ef5c' alt='img' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p><span>喵，宝宝画画不好...回头一看...哭...果然嫁不出去了。</span></p><p>&nbsp;</p><p><strong><span>八，常见问题</span></strong></p><p><strong><span>①一般背一本书要多长时间？</span></strong></p><p><span>我现在完全用符号而不是图像了，所以就快一点。熟练后，《</span><a href='https://www.zhihu.com/search?q=西方哲学史&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A132050242}'><span>西方哲学史</span></a><span>》用一天画出图后便可记忆。不过还是需要复习的。</span></p><p><strong><span>②最多可以用到几层符号桩？</span></strong></p><p><span>有几个知识点做几个…有些符号可以画的大一点或者喵的黑一点强调，有包含关系的可以把被包含的点话小一点放进去，所以有几个就可以做几个符号嵌套了。</span></p><p><strong><span>③用记忆法背书是不是就不需要理解了？</span></strong></p><p><span>背诵要在理解的基础上，什么背不下来，就把什么挂上去，不要看都不看就把所有的关键词都挂上去。</span></p><p><strong><span>④用记忆法背书和普通背书的效果差异体现在什么地方？</span></strong></p><p><span>画图的优点在于一劳永逸。虽然前期画图比较画时间，但是复习时，一般人也许要看三遍，你只用看一遍就可以。原因就是，其实题目中字很多，但是画在一张图上就很少。减轻记忆负担。</span></p><p><strong><span>⑤熟练后是什么状态？</span></strong></p><p><span>目录用地点桩记下来了，大章节关键词用大图记下来了。知识点之间的联系方式就看想象力和你有多懒了(像我可以用多层嵌套的绝不多画另一个小知识点的图)。关键字桩子熟了，可以省去定桩的过程，直接画大图。</span></p></div>
+</body>
+</html>

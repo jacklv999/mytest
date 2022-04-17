@@ -19,3 +19,4 @@
 - [从现在开始](./从现在开始.html) 
 - [Rethink the Importance of Advices](./Rethink the Importance of Advices.html) 
 - [How to do things](./How to do things.html) 
+- [蝴蝶效应产生独特个性](./蝴蝶效应产生独特个性.html) 

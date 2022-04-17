@@ -13,3 +13,4 @@
 - [基于有限样本的假设检验方法分析](./基于有限样本的假设检验方法分析.html) 
 - [Reduce and Structure Form](./Reduce and Structure Form.html) 
 - [Bootstrap and Jackknife](./Bootstrap and Jackknife.html) 
+- [粒状工具变量GIV ](./粒状工具变量GIV.html) 

@@ -4,6 +4,4 @@
 
 ## [English Learning](./英语学习/) 
 
-## [American-Accent-Course](./American-Accent-Course/) 
-
 ## [Pyramid](./Pyramid.html) 
