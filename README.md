@@ -6,7 +6,6 @@
 - [ ] 0417[Bootstrap and Jackknife](./读书笔记/数理分析/计量经济学/计量基础/Bootstrap and Jackknife.html)
 - [ ] 0417[时间序列预测](./读书笔记/ML&DL/ML-Related/时间序列预测.html)
 - [ ] 0417[诗句收集](./读书笔记/读书笔记/诗句收集.html)
-- [ ] 0417[撒切尔和梅杰政府时期的英国文官制度改革](./读书笔记/政治学与领导/撒切尔和梅杰政府时期的英国文官制度改革.html)
 - [ ] 0417[商标中的TM与R](./读书笔记/法律/知识产权法/商标中的TM与R.html)
 - [ ] 0417[本福特定律](./读书笔记/数理分析/不便分类的NOTE/本福特定律.html)
 - [ ] 0417[Reduce and Structure Form](./读书笔记/数理分析/计量经济学/计量基础/Reduce and Structure Form.html)
