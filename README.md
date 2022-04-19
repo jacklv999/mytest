@@ -3,9 +3,6 @@
 
 
 
-- [ ] 0419[Deep Interest Network](./读书笔记/Business Related/推荐系统/Deep Interest Network.html)
-- [ ] 0419[FM推荐算法](./读书笔记/Business Related/推荐系统/FM推荐算法.html)
-- [ ] 0419[协同过滤](./读书笔记/Business Related/推荐系统/协同过滤.html)
 - [ ] 0419[Plan and Learning](./读书笔记/IDEA整理/Plan and Learning.html)
 - [ ] 0417[成就感与行为](./读书笔记/心理学/认知心理学/成就感与行为.html)
 - [ ] 0417[Reshape the way you work](./读书笔记/IDEA整理/Reshape the way you work.html)
