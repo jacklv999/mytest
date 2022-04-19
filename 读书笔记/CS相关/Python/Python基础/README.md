@@ -14,3 +14,4 @@
 - [Python调用命令行](./Python调用命令行.html) 
 - [Python字符串切片](./Python字符串切片.html) 
 - [Send mail by Python](./Send mail by Python.html) 
+- [Python GIL瓶颈测试与解决](./Python GIL.html) 
