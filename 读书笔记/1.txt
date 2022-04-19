@@ -87,9 +87,15 @@
 .\读书笔记\Business Related\市场与金融与商业分析\Note for Tencent Financial.html
 .\读书笔记\Business Related\市场与金融与商业分析\Note for Tencent Financial.md
 .\读书笔记\Business Related\市场与金融与商业分析\README.md
+.\读书笔记\Business Related\推荐系统\Deep Interest Network.html
+.\读书笔记\Business Related\推荐系统\Deep Interest Network.md
+.\读书笔记\Business Related\推荐系统\FM推荐算法.html
+.\读书笔记\Business Related\推荐系统\FM推荐算法.md
 .\读书笔记\Business Related\推荐系统\Person Profile Analysis.html
 .\读书笔记\Business Related\推荐系统\Person Profile Analysis.md
 .\读书笔记\Business Related\推荐系统\README.md
+.\读书笔记\Business Related\推荐系统\协同过滤.html
+.\读书笔记\Business Related\推荐系统\协同过滤.md
 .\读书笔记\Business Related\推荐系统\负样本优化.html
 .\读书笔记\Business Related\推荐系统\负样本优化.md
 .\读书笔记\Business Related\数据分析\README.md
