@@ -1,46 +1,13 @@
 ## Business Related
 
-## General Interview
+## [General Interview](./HR面试/) 
 
-- [行测题解题思路](./行测题解题思路.html) 
-- [Group Interview Note](./Group Interview Note.html) 
-- [Frequent Asked Question in Interview (P&G 8Q)](./Interview Note.html) 
-- [行测数字题](./行测数字题.html) 
+## [Data Analyst](./数据分析/)  
 
+## [金融/市场/商业分析师](./市场与金融与商业分析/) 
 
+## [前端工程师](./前端相关/) 
 
-## Data Analysis
+## [大数据工程师](./大数据/)
 
-- [Data Analyst Career Path](./Data Analyst Career Path.html) 
-- [JD  Summary](./JD Summary.html) 
-- [Digitization Manager Trainee](./Digitization Manager Trainee.html) 
-- [Data Compliance](./Data Compliance.html) 
-
-
-
-## [Data Analyst](./DA_markdownmap.html) 
-
-- [SQL](./Data Analyst SQL.html) 
-- [Database](./Data Analyst Database.html) 
-- [Probability Theory](./Data Analyst Probability Theory.html) 
-- [Machine Learning](./Data Analyst Machine Learning.html) 
-- [数据运营](./数据运营.html) 
-  - [如何搭建指标体系](./指标体系.html) 
-  - [Data Analysis Reports Writing](./Data Analysis Reports writing.html) 
-- [AB Test](./AB Test.html) 
-
-
-
-## Financial Analysis
-
-- [Three Sheets Analysis](./Financial Analysis.html) 
-- [Business Model Analysis (华侨城)](./Business Model Analysis (华侨城).html) 
-- [Note for Tencent Financial](./Note for Tencent Financial.html) 
-
-
-
-## Business Data Analysis
-
-- [Lean Analytics](./Business Sense/) 
-- [Market Analysis Note](./Market Analysis Note.html) 
-- [User Profile Analysis](./Person Profile Analysis.html) 
+## [推荐系统](./推荐系统/) 

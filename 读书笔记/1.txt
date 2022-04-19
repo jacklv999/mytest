@@ -1,60 +1,16 @@
 .\读书笔记\1.txt
 .\读书笔记\README.md
-.\读书笔记\Business Related\100道经典行测图形推理题.doc
-.\读书笔记\Business Related\AB Test.html
-.\读书笔记\Business Related\AB Test.md
-.\读书笔记\Business Related\Business Model Analysis (华侨城).html
-.\读书笔记\Business Related\Business Model Analysis (华侨城).md
-.\读书笔记\Business Related\DA 常见问题.md
-.\读书笔记\Business Related\Data Analysis Reports writing.html
-.\读书笔记\Business Related\Data Analysis Reports writing.md
-.\读书笔记\Business Related\Data Analyst Career Path.html
-.\读书笔记\Business Related\Data Analyst Career Path.md
-.\读书笔记\Business Related\Data Analyst Database.html
-.\读书笔记\Business Related\Data Analyst Database.md
-.\读书笔记\Business Related\Data Analyst Machine Learning.html
-.\读书笔记\Business Related\Data Analyst Machine Learning.md
-.\读书笔记\Business Related\Data Analyst Probability Theory.html
-.\读书笔记\Business Related\Data Analyst Probability Theory.md
-.\读书笔记\Business Related\Data Analyst SQL.html
-.\读书笔记\Business Related\Data Analyst SQL.md
-.\读书笔记\Business Related\Data Compliance.html
-.\读书笔记\Business Related\Data Compliance.md
-.\读书笔记\Business Related\DA_markdownmap.html
-.\读书笔记\Business Related\Digitization Manager Trainee.html
-.\读书笔记\Business Related\Digitization Manager Trainee.md
-.\读书笔记\Business Related\FA JD Collection.txt
-.\读书笔记\Business Related\Financial Analysis.html
-.\读书笔记\Business Related\Financial Analysis.md
-.\读书笔记\Business Related\Group Interview Note.html
-.\读书笔记\Business Related\Group Interview Note.md
-.\读书笔记\Business Related\Interview Note.html
-.\读书笔记\Business Related\Interview Note.md
-.\读书笔记\Business Related\JD Summary.html
-.\读书笔记\Business Related\JD Summary.md
-.\读书笔记\Business Related\Leetcode Algorithm Note.md
-.\读书笔记\Business Related\Market Analysis Note.html
-.\读书笔记\Business Related\Market Analysis Note.md
-.\读书笔记\Business Related\Note for Tencent Financial.html
-.\读书笔记\Business Related\Note for Tencent Financial.md
-.\读书笔记\Business Related\Person Profile Analysis.html
-.\读书笔记\Business Related\Person Profile Analysis.md
 .\读书笔记\Business Related\README.md
-.\读书笔记\Business Related\指标体系.html
-.\读书笔记\Business Related\指标体系.md
-.\读书笔记\Business Related\数据运营.html
-.\读书笔记\Business Related\数据运营.md
-.\读书笔记\Business Related\行测数字题.html
-.\读书笔记\Business Related\行测数字题.md
-.\读书笔记\Business Related\行测题解题思路.html
-.\读书笔记\Business Related\行测题解题思路.md
-.\读书笔记\Business Related\Business Sense\Lean Start-up and Basic Analytics.html
-.\读书笔记\Business Related\Business Sense\Lean Start-up and Basic Analytics.md
-.\读书笔记\Business Related\Business Sense\Normal Data Range.html
-.\读书笔记\Business Related\Business Sense\Normal Data Range.md
-.\读书笔记\Business Related\Business Sense\README.md
-.\读书笔记\Business Related\Business Sense\Using Lean Analytics.html
-.\读书笔记\Business Related\Business Sense\Using Lean Analytics.md
+.\读书笔记\Business Related\HR面试\100道经典行测图形推理题.doc
+.\读书笔记\Business Related\HR面试\Group Interview Note.html
+.\读书笔记\Business Related\HR面试\Group Interview Note.md
+.\读书笔记\Business Related\HR面试\Interview Note.html
+.\读书笔记\Business Related\HR面试\Interview Note.md
+.\读书笔记\Business Related\HR面试\README.md
+.\读书笔记\Business Related\HR面试\行测数字题.html
+.\读书笔记\Business Related\HR面试\行测数字题.md
+.\读书笔记\Business Related\HR面试\行测题解题思路.html
+.\读书笔记\Business Related\HR面试\行测题解题思路.md
 .\读书笔记\Business Related\前端相关\README.md
 .\读书笔记\Business Related\前端相关\CSS\CSS 3笔记.html
 .\读书笔记\Business Related\前端相关\CSS\CSS 3笔记.md
@@ -122,6 +78,55 @@
 .\读书笔记\Business Related\大数据\README.md
 .\读书笔记\Business Related\大数据\Spark in Python.html
 .\读书笔记\Business Related\大数据\Spark in Python.ipynb
+.\读书笔记\Business Related\市场与金融与商业分析\Business Model Analysis (华侨城).html
+.\读书笔记\Business Related\市场与金融与商业分析\Business Model Analysis (华侨城).md
+.\读书笔记\Business Related\市场与金融与商业分析\Financial Analysis.html
+.\读书笔记\Business Related\市场与金融与商业分析\Financial Analysis.md
+.\读书笔记\Business Related\市场与金融与商业分析\Market Analysis Note.html
+.\读书笔记\Business Related\市场与金融与商业分析\Market Analysis Note.md
+.\读书笔记\Business Related\市场与金融与商业分析\Note for Tencent Financial.html
+.\读书笔记\Business Related\市场与金融与商业分析\Note for Tencent Financial.md
+.\读书笔记\Business Related\市场与金融与商业分析\README.md
+.\读书笔记\Business Related\推荐系统\Person Profile Analysis.html
+.\读书笔记\Business Related\推荐系统\Person Profile Analysis.md
+.\读书笔记\Business Related\推荐系统\README.md
+.\读书笔记\Business Related\推荐系统\负样本优化.html
+.\读书笔记\Business Related\推荐系统\负样本优化.md
+.\读书笔记\Business Related\数据分析\README.md
+.\读书笔记\Business Related\数据分析\技能栈\AB Test.html
+.\读书笔记\Business Related\数据分析\技能栈\AB Test.md
+.\读书笔记\Business Related\数据分析\技能栈\DA 常见问题.html
+.\读书笔记\Business Related\数据分析\技能栈\DA 常见问题.md
+.\读书笔记\Business Related\数据分析\技能栈\Data Analysis Reports writing.html
+.\读书笔记\Business Related\数据分析\技能栈\Data Analysis Reports writing.md
+.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Database.html
+.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Database.md
+.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Machine Learning.html
+.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Machine Learning.md
+.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Probability Theory.html
+.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Probability Theory.md
+.\读书笔记\Business Related\数据分析\技能栈\Data Analyst SQL.html
+.\读书笔记\Business Related\数据分析\技能栈\Data Analyst SQL.md
+.\读书笔记\Business Related\数据分析\技能栈\README.md
+.\读书笔记\Business Related\数据分析\技能栈\指标体系.html
+.\读书笔记\Business Related\数据分析\技能栈\指标体系.md
+.\读书笔记\Business Related\数据分析\技能栈\数据运营.html
+.\读书笔记\Business Related\数据分析\技能栈\数据运营.md
+.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Lean Start-up and Basic Analytics.html
+.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Lean Start-up and Basic Analytics.md
+.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Normal Data Range.html
+.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Normal Data Range.md
+.\读书笔记\Business Related\数据分析\技能栈\Business Sense\README.md
+.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Using Lean Analytics.html
+.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Using Lean Analytics.md
+.\读书笔记\Business Related\数据分析\职业路径\Data Analyst Career Path.html
+.\读书笔记\Business Related\数据分析\职业路径\Data Analyst Career Path.md
+.\读书笔记\Business Related\数据分析\职业路径\Digitization Manager Trainee.html
+.\读书笔记\Business Related\数据分析\职业路径\Digitization Manager Trainee.md
+.\读书笔记\Business Related\数据分析\职业路径\FA JD Collection.txt
+.\读书笔记\Business Related\数据分析\职业路径\JD Summary.html
+.\读书笔记\Business Related\数据分析\职业路径\JD Summary.md
+.\读书笔记\Business Related\数据分析\职业路径\README.md
 .\读书笔记\CS相关\README.md
 .\读书笔记\CS相关\cs基础知识\README.md
 .\读书笔记\CS相关\cs基础知识\CS基础\Chrome快捷键.html
@@ -1023,9 +1028,7 @@
 .\读书笔记\数理分析\计量经济学\计量基础\计量经济学笔记.md
 .\读书笔记\数理分析\计量经济学\计量基础\面板数据分析.html
 .\读书笔记\数理分析\计量经济学\计量基础\面板数据分析.md
-.\读书笔记\法律\1.png
 .\读书笔记\法律\README.md
-.\读书笔记\法律\法理学.html
 .\读书笔记\法律\侵权责任法\1.jpg
 .\读书笔记\法律\侵权责任法\1.png
 .\读书笔记\法律\侵权责任法\10.png
@@ -1075,63 +1078,70 @@
 .\读书笔记\法律\关于法律的一些讨论\刑事诉讼案件中的取保候审适用及禁止条件.html
 .\读书笔记\法律\关于法律的一些讨论\犯罪构成原则简析.html
 .\读书笔记\法律\关于法律的一些讨论\知识产权与保护.html
+.\读书笔记\法律\数据安全法\Data Compliance.html
+.\读书笔记\法律\数据安全法\Data Compliance.md
+.\读书笔记\法律\数据安全法\README.md
+.\读书笔记\法律\法律基础\README.md
+.\读书笔记\法律\法律基础\法理学\1.png
+.\读书笔记\法律\法律基础\法理学\README.md
+.\读书笔记\法律\法律基础\法理学\法理学.html
+.\读书笔记\法律\法律基础\私法的基础\1.png
+.\读书笔记\法律\法律基础\私法的基础\10.png
+.\读书笔记\法律\法律基础\私法的基础\11.png
+.\读书笔记\法律\法律基础\私法的基础\12.png
+.\读书笔记\法律\法律基础\私法的基础\13.png
+.\读书笔记\法律\法律基础\私法的基础\14.png
+.\读书笔记\法律\法律基础\私法的基础\15.png
+.\读书笔记\法律\法律基础\私法的基础\2.png
+.\读书笔记\法律\法律基础\私法的基础\3.png
+.\读书笔记\法律\法律基础\私法的基础\4.png
+.\读书笔记\法律\法律基础\私法的基础\5.png
+.\读书笔记\法律\法律基础\私法的基础\6.png
+.\读书笔记\法律\法律基础\私法的基础\7.png
+.\读书笔记\法律\法律基础\私法的基础\8.png
+.\读书笔记\法律\法律基础\私法的基础\9.png
+.\读书笔记\法律\法律基础\私法的基础\README.md
+.\读书笔记\法律\法律基础\私法的基础\不当得利.html
+.\读书笔记\法律\法律基础\私法的基础\合同法.html
+.\读书笔记\法律\法律基础\私法的基础\法律制度间的差异.html
+.\读书笔记\法律\法律基础\私法的基础\私法的基础.html
+.\读书笔记\法律\法律基础\私法的基础\财产权.html
+.\读书笔记\法律\法律基础\立法原理\1.png
+.\读书笔记\法律\法律基础\立法原理\10.png
+.\读书笔记\法律\法律基础\立法原理\11.png
+.\读书笔记\法律\法律基础\立法原理\12.png
+.\读书笔记\法律\法律基础\立法原理\13.png
+.\读书笔记\法律\法律基础\立法原理\14.png
+.\读书笔记\法律\法律基础\立法原理\15.png
+.\读书笔记\法律\法律基础\立法原理\16.png
+.\读书笔记\法律\法律基础\立法原理\17.png
+.\读书笔记\法律\法律基础\立法原理\18.png
+.\读书笔记\法律\法律基础\立法原理\2.png
+.\读书笔记\法律\法律基础\立法原理\3.png
+.\读书笔记\法律\法律基础\立法原理\4.png
+.\读书笔记\法律\法律基础\立法原理\5.png
+.\读书笔记\法律\法律基础\立法原理\6.png
+.\读书笔记\法律\法律基础\立法原理\7.png
+.\读书笔记\法律\法律基础\立法原理\8.png
+.\读书笔记\法律\法律基础\立法原理\9.png
+.\读书笔记\法律\法律基础\立法原理\README.md
+.\读书笔记\法律\法律基础\立法原理\之作为平等的善的基础.html
+.\读书笔记\法律\法律基础\立法原理\之关于契约与证明的订立.html
+.\读书笔记\法律\法律基础\立法原理\之关于损害赔偿.html
+.\读书笔记\法律\法律基础\立法原理\之关于权力的限制.html
+.\读书笔记\法律\法律基础\立法原理\之关于特赦权的讨论.html
+.\读书笔记\法律\法律基础\立法原理\之关于罪与刑的讨论.html
+.\读书笔记\法律\法律基础\立法原理\之关于遗产税的讨论.html
+.\读书笔记\法律\法律基础\立法原理\之善与恶不同的分析.html
+.\读书笔记\法律\法律基础\立法原理\之失落文物追回.html
+.\读书笔记\法律\法律基础\立法原理\之如何减少犯罪.html
+.\读书笔记\法律\法律基础\立法原理\之道德与立法的界限.html
+.\读书笔记\法律\法律基础\立法原理\总结之刑法典.html
+.\读书笔记\法律\法律基础\立法原理\总结之功利主义.html
+.\读书笔记\法律\法律基础\立法原理\总结之民法典.html
 .\读书笔记\法律\知识产权法\README.md
 .\读书笔记\法律\知识产权法\商标中的TM与R.html
 .\读书笔记\法律\知识产权法\商标中的TM与R.md
-.\读书笔记\法律\私法的基础\1.png
-.\读书笔记\法律\私法的基础\10.png
-.\读书笔记\法律\私法的基础\11.png
-.\读书笔记\法律\私法的基础\12.png
-.\读书笔记\法律\私法的基础\13.png
-.\读书笔记\法律\私法的基础\14.png
-.\读书笔记\法律\私法的基础\15.png
-.\读书笔记\法律\私法的基础\2.png
-.\读书笔记\法律\私法的基础\3.png
-.\读书笔记\法律\私法的基础\4.png
-.\读书笔记\法律\私法的基础\5.png
-.\读书笔记\法律\私法的基础\6.png
-.\读书笔记\法律\私法的基础\7.png
-.\读书笔记\法律\私法的基础\8.png
-.\读书笔记\法律\私法的基础\9.png
-.\读书笔记\法律\私法的基础\README.md
-.\读书笔记\法律\私法的基础\不当得利.html
-.\读书笔记\法律\私法的基础\合同法.html
-.\读书笔记\法律\私法的基础\法律制度间的差异.html
-.\读书笔记\法律\私法的基础\私法的基础.html
-.\读书笔记\法律\私法的基础\财产权.html
-.\读书笔记\法律\立法原理\1.png
-.\读书笔记\法律\立法原理\10.png
-.\读书笔记\法律\立法原理\11.png
-.\读书笔记\法律\立法原理\12.png
-.\读书笔记\法律\立法原理\13.png
-.\读书笔记\法律\立法原理\14.png
-.\读书笔记\法律\立法原理\15.png
-.\读书笔记\法律\立法原理\16.png
-.\读书笔记\法律\立法原理\17.png
-.\读书笔记\法律\立法原理\18.png
-.\读书笔记\法律\立法原理\2.png
-.\读书笔记\法律\立法原理\3.png
-.\读书笔记\法律\立法原理\4.png
-.\读书笔记\法律\立法原理\5.png
-.\读书笔记\法律\立法原理\6.png
-.\读书笔记\法律\立法原理\7.png
-.\读书笔记\法律\立法原理\8.png
-.\读书笔记\法律\立法原理\9.png
-.\读书笔记\法律\立法原理\README.md
-.\读书笔记\法律\立法原理\之作为平等的善的基础.html
-.\读书笔记\法律\立法原理\之关于契约与证明的订立.html
-.\读书笔记\法律\立法原理\之关于损害赔偿.html
-.\读书笔记\法律\立法原理\之关于权力的限制.html
-.\读书笔记\法律\立法原理\之关于特赦权的讨论.html
-.\读书笔记\法律\立法原理\之关于罪与刑的讨论.html
-.\读书笔记\法律\立法原理\之关于遗产税的讨论.html
-.\读书笔记\法律\立法原理\之善与恶不同的分析.html
-.\读书笔记\法律\立法原理\之失落文物追回.html
-.\读书笔记\法律\立法原理\之如何减少犯罪.html
-.\读书笔记\法律\立法原理\之道德与立法的界限.html
-.\读书笔记\法律\立法原理\总结之刑法典.html
-.\读书笔记\法律\立法原理\总结之功利主义.html
-.\读书笔记\法律\立法原理\总结之民法典.html
 .\读书笔记\法律\行政法\1.png
 .\读书笔记\法律\行政法\10.jpg
 .\读书笔记\法律\行政法\10.png
