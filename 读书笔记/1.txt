@@ -81,6 +81,8 @@
 .\读书笔记\CS相关\cs\CS基础\README.md
 .\读书笔记\CS相关\cs\CS基础\vm_register.html
 .\读书笔记\CS相关\cs\CS基础\vm_register.md
+.\读书笔记\CS相关\cs\CS基础\数字盲水印.html
+.\读书笔记\CS相关\cs\CS基础\数字盲水印.md
 .\读书笔记\CS相关\cs\CS基础\数据库基础.html
 .\读书笔记\CS相关\cs\CS基础\数据库基础.md
 .\读书笔记\CS相关\cs\CS基础\文件头.html
