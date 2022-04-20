@@ -96,6 +96,12 @@
 .\读书笔记\Business Related\推荐系统\README.md
 .\读书笔记\Business Related\推荐系统\协同过滤.html
 .\读书笔记\Business Related\推荐系统\协同过滤.md
+.\读书笔记\Business Related\推荐系统\推荐系统Bias.html
+.\读书笔记\Business Related\推荐系统\推荐系统Bias.md
+.\读书笔记\Business Related\推荐系统\推荐系统冷启动.html
+.\读书笔记\Business Related\推荐系统\推荐系统冷启动.md
+.\读书笔记\Business Related\推荐系统\推荐系统职业思考.html
+.\读书笔记\Business Related\推荐系统\推荐系统职业思考.md
 .\读书笔记\Business Related\推荐系统\负样本优化.html
 .\读书笔记\Business Related\推荐系统\负样本优化.md
 .\读书笔记\Business Related\数据分析\README.md
