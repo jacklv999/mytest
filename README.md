@@ -3,6 +3,9 @@
 
 
 
+- [ ] 0420[行业专家访谈](./读书笔记/投资相关/投资基本面分析/行业专家访谈.html)
+- [ ] 0420[答应别人的事,一定要办到](./读书笔记/IDEA整理/答应别人的事,一定要办到.html)
+- [ ] 0420[潜意识主宰行动](./读书笔记/IDEA整理/潜意识主宰行动.html)
 - [ ] 0419[Plan and Learning](./读书笔记/IDEA整理/Plan and Learning.html)
 - [ ] 0417[成就感与行为](./读书笔记/心理学/认知心理学/成就感与行为.html)
 - [ ] 0417[Reshape the way you work](./读书笔记/IDEA整理/Reshape the way you work.html)

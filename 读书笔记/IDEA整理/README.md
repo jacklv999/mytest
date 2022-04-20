@@ -28,3 +28,5 @@
 - [阅读的核心：到底应该读什么？](./阅读的核心.html) 
 - [Mastering Reading Skills](./Mastering Reading Skills.html) 
 - [如何阅读一本书?](./学读书.html) 
+- [潜意识主宰行动](./潜意识主宰行动.html) 
+- [答应别人的事,一定要办到](./答应别人的事,一定要办到.html) 
