@@ -3,9 +3,6 @@
 
 
 
-- [ ] 0420[推荐系统职业思考](./读书笔记/Business Related/推荐系统/推荐系统职业思考.html)
-- [ ] 0420[推荐系统冷启动](./读书笔记/Business Related/推荐系统/推荐系统冷启动.html)
-- [ ] 0420[推荐系统Bias](./读书笔记/Business Related/推荐系统/推荐系统Bias.html)
 - [ ] 0419[Plan and Learning](./读书笔记/IDEA整理/Plan and Learning.html)
 - [ ] 0417[成就感与行为](./读书笔记/心理学/认知心理学/成就感与行为.html)
 - [ ] 0417[Reshape the way you work](./读书笔记/IDEA整理/Reshape the way you work.html)
