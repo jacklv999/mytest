@@ -2,7 +2,8 @@ Learn to plan and do things
 
 多问为什么, 多找依据!!
 
-
+- 大胆假设
+- 小心求证
 
 
 
