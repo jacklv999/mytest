@@ -49,4 +49,5 @@
 #### Other NOTE
 
 - [Hello-Girls](./Hello-Girls.html) 
+- [长期亲密关系中必须考虑的36个问题](./36个问题.html) 
 
