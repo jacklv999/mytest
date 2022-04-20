@@ -3,6 +3,15 @@
 
 
 
+- [ ] 0420[Word格式参考](./读书笔记/CS相关/Office相关/Word格式参考.html)
+- [ ] 0420[毛利率](./读书笔记/Business Related/市场与金融与商业分析/毛利率.html)
+- [ ] 0420[PowerApp笔记](./读书笔记/CS相关/Office相关/PowerApp笔记.html)
+- [ ] 0420[PPT制作中的小和大](./读书笔记/CS相关/Office相关/PPT制作中的小和大.html)
+- [ ] 0420[PPT技巧](./读书笔记/CS相关/Office相关/PPT技巧.html)
+- [ ] 0420[PPT字体渐变](./读书笔记/CS相关/Office相关/PPT字体渐变.html)
+- [ ] 0420[互联网转行VCPE](./读书笔记/Business Related/市场与金融与商业分析/互联网转行VCPE.html)
+- [ ] 0420[二手房市场](./读书笔记/投资相关/固定资产投资/二手房市场.html)
+- [ ] 0420[Word-Tips](./读书笔记/CS相关/Office相关/Word-Tips.html)
 - [ ] 0419[Plan and Learning](./读书笔记/IDEA整理/Plan and Learning.html)
 - [ ] 0417[成就感与行为](./读书笔记/心理学/认知心理学/成就感与行为.html)
 - [ ] 0417[Reshape the way you work](./读书笔记/IDEA整理/Reshape the way you work.html)

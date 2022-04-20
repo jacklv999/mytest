@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>PPT技巧</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+<title>Word格式参考</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
@@ -22,14 +22,15 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
   .CodeMirror-sizer { margin-left: 0px !important; }
   .CodeMirror-gutters { display: none !important; }
 }
-#write li > figure:first-child { margin-top: -20px; }
+#write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; }
-button, input, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+button, input, select, textarea { color: inherit; font: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
 h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
 p { orphans: 4; }
 h1 { font-size: 2rem; }
@@ -87,7 +88,6 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
   html.blink-to-pdf { font-size: 13px; }
   .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
   .typora-export #write::after { height: 0px; }
-  @page { margin: 20mm 0px; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
@@ -136,12 +136,12 @@ a.md-print-anchor { white-space: pre !important; border-width: initial !importan
 .MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
 .MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
 .MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
-.MathJax_SVG * { transition: none; }
-.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
-[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
 table tr th { border-bottom: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
@@ -194,7 +194,7 @@ code { background-color: rgb(243, 244, 244); padding: 0px 2px; }
 @media print {
   html { font-size: 13px; }
   table, pre { break-inside: avoid; }
-  pre { word-wrap: break-word; }
+  pre { overflow-wrap: break-word; }
 }
 .md-fences { background-color: rgb(248, 248, 248); }
 #write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
@@ -220,13 +220,9 @@ header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Aria
 .dropdown-menu .divider { border-color: rgb(229, 229, 229); }
 
 
-
-
-
-
 </style>
 </head>
 <body class='typora-export os-windows' >
-<div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>PPT技巧</h1><h4><a name='header-n4' class='md-header-anchor '></a>1.文本渐变</h4><ul><li>1.文本框渐变: 文本框 -&gt; 形状填充 -&gt; 渐变填充</li></ul><ul><li>2.文本渐变: 文本框 -&gt; 文本填充 -&gt;渐变填充</li></ul><p><img src='F:\MyInterest\MyDir\Pages\mytest\mytest\pic\11.png' alt='11' referrerPolicy='no-referrer' /></p><h4><a name='header-n26' class='md-header-anchor '></a>２.图片调整</h4><ul><li>1.图片模糊:  PPT支持图片锐化和柔化处理, 解决图片喧宾夺主问题</li><li>2.图片调色:  PPT支持对比度和亮度调整</li><li>2.色温遮罩:  PPT支持色温调整, 可用作色温遮罩</li></ul><p><img src='F:\MyInterest\MyDir\Pages\mytest\mytest\pic\12.png' alt='12' referrerPolicy='no-referrer' /></p><h4><a name='header-n43' class='md-header-anchor '></a>3.SmartArt使用</h4><p><img src='F:\MyInterest\MyDir\Pages\mytest\mytest\pic\13.png' alt='13' referrerPolicy='no-referrer' /></p><p>&nbsp;</p></div>
+<div  id='write'  class = 'is-node'><h2><a name="word%E6%A0%BC%E5%BC%8F%E5%8F%82%E8%80%83" class="md-header-anchor"></a><span>Word格式参考</span></h2><ul><li><span>中文字体用微软雅黑，英文用Arial；</span></li><li><span>字号分级，主标一级，副标二级，正文三级，建议不要分太多级，字号大小别差太多；</span></li><li><span>行距调为固定值18磅；</span></li><li><span>不要用斜体，也别乱加下划线删除线这些，不到万不得已不要去加粗，即使要用也要控制数量，我知道你们很想去强调，但强调太多就失去意义了；</span></li><li><span>字体颜色，别用红色，如果没有好的配色方案，就用黑色跟灰色的组合吧，标题黑，正文灰（RGB 128 128 128)，你会有收获的；</span></li><li><span>有编号的时候不要手打，用word的编号功能来弄，顺便选个好看点的图标；</span></li><li><span>一整块内容写完后，可以敲一个回车后再写另一段；</span></li><li><span>页边距调成窄，就是上下左右都是1.27cm的那个，获得更多空间的同时，看起来也舒服；</span></li><li><span>如果你想自己也看的舒服点的话，去设置那里把段落标记取消掉吧，对，就是那些密密麻麻的玩意儿；</span></li></ul></div>
 </body>
 </html>

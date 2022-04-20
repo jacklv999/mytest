@@ -87,6 +87,10 @@
 .\读书笔记\Business Related\市场与金融与商业分析\Note for Tencent Financial.html
 .\读书笔记\Business Related\市场与金融与商业分析\Note for Tencent Financial.md
 .\读书笔记\Business Related\市场与金融与商业分析\README.md
+.\读书笔记\Business Related\市场与金融与商业分析\互联网转行VCPE.html
+.\读书笔记\Business Related\市场与金融与商业分析\互联网转行VCPE.md
+.\读书笔记\Business Related\市场与金融与商业分析\毛利率.html
+.\读书笔记\Business Related\市场与金融与商业分析\毛利率.md
 .\读书笔记\Business Related\推荐系统\Deep Interest Network.html
 .\读书笔记\Business Related\推荐系统\Deep Interest Network.md
 .\读书笔记\Business Related\推荐系统\FM推荐算法.html
@@ -184,13 +188,6 @@
 .\读书笔记\CS相关\cs基础知识\Markdown\README.md
 .\读书笔记\CS相关\cs基础知识\Markdown\简书MarkDown语法.html
 .\读书笔记\CS相关\cs基础知识\Markdown\简书MarkDown语法.md
-.\读书笔记\CS相关\cs基础知识\Office相关\PowerApp笔记.html
-.\读书笔记\CS相关\cs基础知识\Office相关\PowerApp笔记.md
-.\读书笔记\CS相关\cs基础知识\Office相关\PPT技巧.html
-.\读书笔记\CS相关\cs基础知识\Office相关\PPT技巧.md
-.\读书笔记\CS相关\cs基础知识\Office相关\README.md
-.\读书笔记\CS相关\cs基础知识\Office相关\Word-Tips.html
-.\读书笔记\CS相关\cs基础知识\Office相关\Word-Tips.md
 .\读书笔记\CS相关\cs基础知识\SQL相关\Leetcode SQL Note (01 - 10).html
 .\读书笔记\CS相关\cs基础知识\SQL相关\Leetcode SQL Note (01 - 10).md
 .\读书笔记\CS相关\cs基础知识\SQL相关\Leetcode SQL Note (11 - 20).html
@@ -211,6 +208,19 @@
 .\读书笔记\CS相关\cs基础知识\Win\README.md
 .\读书笔记\CS相关\cs基础知识\Win\Windows脚本.html
 .\读书笔记\CS相关\cs基础知识\Win\Windows脚本.md
+.\读书笔记\CS相关\Office相关\PowerApp笔记.html
+.\读书笔记\CS相关\Office相关\PowerApp笔记.md
+.\读书笔记\CS相关\Office相关\PPT制作中的小和大.html
+.\读书笔记\CS相关\Office相关\PPT制作中的小和大.md
+.\读书笔记\CS相关\Office相关\PPT字体渐变.html
+.\读书笔记\CS相关\Office相关\PPT字体渐变.md
+.\读书笔记\CS相关\Office相关\PPT技巧.html
+.\读书笔记\CS相关\Office相关\PPT技巧.md
+.\读书笔记\CS相关\Office相关\README.md
+.\读书笔记\CS相关\Office相关\Word-Tips.html
+.\读书笔记\CS相关\Office相关\Word-Tips.md
+.\读书笔记\CS相关\Office相关\Word格式参考.html
+.\读书笔记\CS相关\Office相关\Word格式参考.md
 .\读书笔记\CS相关\Python\README.md
 .\读书笔记\CS相关\Python\Flask后端\Flask JSON传输图片.html
 .\读书笔记\CS相关\Python\Flask后端\Flask JSON传输图片.md
@@ -923,6 +933,8 @@
 .\读书笔记\心理学\认知心理学\科学学习\科学学习斯坦福黄金学习法则.html
 .\读书笔记\投资相关\README.md
 .\读书笔记\投资相关\固定资产投资\README.md
+.\读书笔记\投资相关\固定资产投资\二手房市场.html
+.\读书笔记\投资相关\固定资产投资\二手房市场.md
 .\读书笔记\投资相关\固定资产投资\房地产投资.html
 .\读书笔记\投资相关\固定资产投资\房地产投资.md
 .\读书笔记\投资相关\投资基本面分析\README.md
