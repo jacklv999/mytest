@@ -89,8 +89,14 @@
 .\读书笔记\Business Related\市场与金融与商业分析\README.md
 .\读书笔记\Business Related\市场与金融与商业分析\互联网转行VCPE.html
 .\读书笔记\Business Related\市场与金融与商业分析\互联网转行VCPE.md
+.\读书笔记\Business Related\市场与金融与商业分析\商业项目分析模型.html
+.\读书笔记\Business Related\市场与金融与商业分析\商业项目分析模型.md
 .\读书笔记\Business Related\市场与金融与商业分析\毛利率.html
 .\读书笔记\Business Related\市场与金融与商业分析\毛利率.md
+.\读书笔记\Business Related\市场与金融与商业分析\游戏产品分析.html
+.\读书笔记\Business Related\市场与金融与商业分析\游戏产品分析.md
+.\读书笔记\Business Related\市场与金融与商业分析\综艺节目产品分析.html
+.\读书笔记\Business Related\市场与金融与商业分析\综艺节目产品分析.md
 .\读书笔记\Business Related\推荐系统\Deep Interest Network.html
 .\读书笔记\Business Related\推荐系统\Deep Interest Network.md
 .\读书笔记\Business Related\推荐系统\FM推荐算法.html
@@ -394,6 +400,8 @@
 .\读书笔记\IDEA整理\xuedushu3.jpg
 .\读书笔记\IDEA整理\xuedushu3.png
 .\读书笔记\IDEA整理\不如意事常八九.html
+.\读书笔记\IDEA整理\专精与杂全的思考.html
+.\读书笔记\IDEA整理\专精与杂全的思考.md
 .\读书笔记\IDEA整理\人，可信吗？.html
 .\读书笔记\IDEA整理\从现在开始.html
 .\读书笔记\IDEA整理\信息熵理论.html
@@ -403,7 +411,11 @@
 .\读书笔记\IDEA整理\博弈论后记——与变量来一场博弈.html
 .\读书笔记\IDEA整理\反脆弱性.html
 .\读书笔记\IDEA整理\反脆弱性.md
+.\读书笔记\IDEA整理\如何废掉一个人.html
+.\读书笔记\IDEA整理\如何废掉一个人.md
 .\读书笔记\IDEA整理\学读书.html
+.\读书笔记\IDEA整理\定价与数字错觉.html
+.\读书笔记\IDEA整理\定价与数字错觉.md
 .\读书笔记\IDEA整理\我所依赖的思维方式.html
 .\读书笔记\IDEA整理\沉默的世界.html
 .\读书笔记\IDEA整理\沉默的世界.md
@@ -411,16 +423,24 @@
 .\读书笔记\IDEA整理\潜意识主宰行动.md
 .\读书笔记\IDEA整理\熵增定律.html
 .\读书笔记\IDEA整理\熵增定律.md
+.\读书笔记\IDEA整理\看到别人的优势.html
+.\读书笔记\IDEA整理\看到别人的优势.md
+.\读书笔记\IDEA整理\社会网络与信息.html
+.\读书笔记\IDEA整理\社会网络与信息.md
 .\读书笔记\IDEA整理\答应别人的事,一定要办到.html
 .\读书笔记\IDEA整理\答应别人的事,一定要办到.md
 .\读书笔记\IDEA整理\蝴蝶效应产生独特个性.html
 .\读书笔记\IDEA整理\蝴蝶效应产生独特个性.md
 .\读书笔记\IDEA整理\记录.html
 .\读书笔记\IDEA整理\论物质环境对个人分析理性的影响-.html
+.\读书笔记\IDEA整理\该怎么全力以赴.html
+.\读书笔记\IDEA整理\该怎么全力以赴.md
 .\读书笔记\IDEA整理\读书随记-·-所写即所得-.html
 .\读书笔记\IDEA整理\谈谈经济学的理性人决策.html
 .\读书笔记\IDEA整理\远见的力量.html
 .\读书笔记\IDEA整理\遥远的救世主读书笔记.html
+.\读书笔记\IDEA整理\重要的细节.html
+.\读书笔记\IDEA整理\重要的细节.md
 .\读书笔记\IDEA整理\阅读的核心.html
 .\读书笔记\IDEA整理\阅读的核心.md
 .\读书笔记\IDEA整理\傅雷家书\README.md
