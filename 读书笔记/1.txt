@@ -385,6 +385,8 @@
 .\读书笔记\CS相关\R语言学习笔记\R语言计量\R语言计量笔记二.md
 .\读书笔记\IDEA整理\1.png
 .\读书笔记\IDEA整理\2.png
+.\读书笔记\IDEA整理\How to be better.html
+.\读书笔记\IDEA整理\How to be better.md
 .\读书笔记\IDEA整理\How to do things.html
 .\读书笔记\IDEA整理\How to do things.md
 .\读书笔记\IDEA整理\Mastering Reading Skills.html
@@ -402,20 +404,36 @@
 .\读书笔记\IDEA整理\不如意事常八九.html
 .\读书笔记\IDEA整理\专精与杂全的思考.html
 .\读书笔记\IDEA整理\专精与杂全的思考.md
+.\读书笔记\IDEA整理\人生75年.html
+.\读书笔记\IDEA整理\人生75年.md
 .\读书笔记\IDEA整理\人，可信吗？.html
 .\读书笔记\IDEA整理\从现在开始.html
 .\读书笔记\IDEA整理\信息熵理论.html
 .\读书笔记\IDEA整理\信息熵理论.md
 .\读书笔记\IDEA整理\傻逼的故事.html
 .\读书笔记\IDEA整理\傻逼的故事.md
+.\读书笔记\IDEA整理\公主死去了屠龙的少年还在燃烧.html
+.\读书笔记\IDEA整理\公主死去了屠龙的少年还在燃烧.md
+.\读书笔记\IDEA整理\利用碎片化时间整理知识.html
+.\读书笔记\IDEA整理\利用碎片化时间整理知识.md
 .\读书笔记\IDEA整理\博弈论后记——与变量来一场博弈.html
 .\读书笔记\IDEA整理\反脆弱性.html
 .\读书笔记\IDEA整理\反脆弱性.md
+.\读书笔记\IDEA整理\太用力的人跑不远.html
+.\读书笔记\IDEA整理\太用力的人跑不远.md
 .\读书笔记\IDEA整理\如何废掉一个人.html
 .\读书笔记\IDEA整理\如何废掉一个人.md
+.\读书笔记\IDEA整理\如何认识自己.html
+.\读书笔记\IDEA整理\如何认识自己.md
+.\读书笔记\IDEA整理\如何识人.html
+.\读书笔记\IDEA整理\如何识人.md
+.\读书笔记\IDEA整理\学会认错.html
+.\读书笔记\IDEA整理\学会认错.md
 .\读书笔记\IDEA整理\学读书.html
 .\读书笔记\IDEA整理\定价与数字错觉.html
 .\读书笔记\IDEA整理\定价与数字错觉.md
+.\读书笔记\IDEA整理\思考未来.html
+.\读书笔记\IDEA整理\思考未来.md
 .\读书笔记\IDEA整理\我所依赖的思维方式.html
 .\读书笔记\IDEA整理\沉默的世界.html
 .\读书笔记\IDEA整理\沉默的世界.md
@@ -429,6 +447,8 @@
 .\读书笔记\IDEA整理\社会网络与信息.md
 .\读书笔记\IDEA整理\答应别人的事,一定要办到.html
 .\读书笔记\IDEA整理\答应别人的事,一定要办到.md
+.\读书笔记\IDEA整理\自我意识.html
+.\读书笔记\IDEA整理\自我意识.md
 .\读书笔记\IDEA整理\蝴蝶效应产生独特个性.html
 .\读书笔记\IDEA整理\蝴蝶效应产生独特个性.md
 .\读书笔记\IDEA整理\记录.html

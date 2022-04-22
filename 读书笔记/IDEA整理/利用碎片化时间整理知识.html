@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>利用碎片化时间整理知识</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
+html { font-size: 16px; }
+body { font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6; }
+#write { max-width: 860px; margin: 0px auto; padding: 30px 30px 100px; }
+#write > ul:first-child, #write > ol:first-child { margin-top: 30px; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1rem; margin-bottom: 1rem; font-weight: bold; line-height: 1.4; cursor: text; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 tt, h1 code { font-size: inherit; }
+h2 tt, h2 code { font-size: inherit; }
+h3 tt, h3 code { font-size: inherit; }
+h4 tt, h4 code { font-size: inherit; }
+h5 tt, h5 code { font-size: inherit; }
+h6 tt, h6 code { font-size: inherit; }
+h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
+li > ol, li > ul { margin: 0px; }
+hr { height: 2px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; overflow: hidden; box-sizing: content-box; }
+li p.first { display: inline-block; }
+ul, ol { padding-left: 30px; }
+ul:first-child, ol:first-child { margin-top: 0px; }
+ul:last-child, ol:last-child { margin-bottom: 0px; }
+blockquote { border-left: 4px solid rgb(223, 226, 229); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; word-break: initial; }
+table tr { border-top: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; }
+table tr:nth-child(2n), thead { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(223, 226, 229); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr th:first-child, table tr td:first-child { margin-top: 0px; }
+table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
+.CodeMirror-lines { padding-left: 4px; }
+.code-tooltip { box-shadow: rgba(0, 28, 36, 0.3) 0px 1px 1px 0px; border-top: 1px solid rgb(238, 242, 242); }
+.md-fences, code, tt { border: 1px solid rgb(231, 234, 237); background-color: rgb(248, 248, 248); border-radius: 3px; padding: 2px 4px 0px; font-size: 0.9em; }
+code { background-color: rgb(243, 244, 244); padding: 0px 2px; }
+.md-fences { margin-bottom: 15px; margin-top: 15px; padding-top: 8px; padding-bottom: 6px; }
+.md-task-list-item > input { margin-left: -1.3em; }
+@media print {
+  html { font-size: 13px; }
+  table, pre { break-inside: avoid; }
+  pre { overflow-wrap: break-word; }
+}
+.md-fences { background-color: rgb(248, 248, 248); }
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+.md-mathjax-midline { background: rgb(250, 250, 250); }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h5.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+.md-image > .md-meta { border-radius: 3px; padding: 2px 0px 0px 4px; font-size: 0.9em; color: inherit; }
+.md-tag { color: rgb(167, 167, 167); opacity: 1; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+.sidebar-tabs { border-bottom: none; }
+#typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
+#typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
+.on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
+header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Arial, sans-serif; }
+.file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
+.mac-seamless-mode #typora-sidebar { background-color: var(--side-bar-bg-color); }
+.md-lang { color: rgb(180, 101, 77); }
+.html-for-mac .context-menu { --item-hover-bg-color: #E6F0FE; }
+#md-notification .btn { border: 0px; }
+.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
+
+
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h2><a name="%E5%88%A9%E7%94%A8%E7%A2%8E%E7%89%87%E5%8C%96%E6%97%B6%E9%97%B4%E6%95%B4%E7%90%86%E7%9F%A5%E8%AF%86" class="md-header-anchor"></a><span>利用碎片化时间整理知识</span></h2><p><span>你通勤的时候，都是怎样利用时间的？</span></p><p><span>我刚毕业的时候，没多少余钱，不得已租了一个远离市区的房子。每天，赶50 分钟的地铁上班，晚上再赶 50 分钟的地铁下班。</span></p><p><span>这段时间当然不能浪费掉，于是就想着利用起来。</span></p><p><span>一开始，和大多数人一样，下了一堆电子书，每天废寝忘食在地铁上读书 —— 当时还没有罗辑思维，也没那么多听书、拆书的服务。</span></p><p><span>过了一段时间，我发现，这样做效率很低。</span></p><p><span>明明读过的书，只能记得一个大概，记不住内容，连写了什么都忘了。更有甚者，打开一本书，翻了几页，才发现自己几个月前已经看过 —— 但内容显然已经忘光了。</span></p><p><span>为什么会这样呢？</span></p><p><span>其实很简单。在很多时候，阅读，是吸收效率最低的一种学习方式。因为人的眼球扫视和认知速度，远远超过理解和记忆速度。</span></p><p><span>也就是说：我们读完一篇文章、一段章节，以为自己理解了，但实际上，只是「读完」了而已。我们的大脑根本没有做好接受它们的准备。</span></p><p><span>据研究，单纯进行文字阅读的吸收率，大致只有20% - 25%。</span></p><p><span>也就是说，你读完一本书，过了一个月，能记住里面四分之一的内容，其实已经算是不错了。</span></p><p><span>既然如此，为什么我一直呼吁大家读书呢？如何才能提高阅读的吸收率呢？</span></p><p><span>答案也很简单：</span><strong><span>加工。</span></strong></p><p><span>单靠阅读，是很难记住知识的；</span><strong><span>你必须在阅读的同时，让大脑参与进来，进行深度加工，才能提高对知识的吸收率。</span></strong></p><p>&nbsp;</p><p><span>什么是加工？简单来说，就是对所读到的信息，进行思考。</span></p><p><span>举个例子，当我问「你如何利用通勤时间」时，不急着往下看，而是抬起头，回忆自己通勤时的状态，想一想自己通常都在做什么 —— 这就是一种加工。</span></p><p><span>同样，当你看到「加工」时，先回忆一下，调取你的知识，来猜测这里「加工」的含义，这也是一种加工。</span></p><p><span>认知神经科学认为，我们对知识的储存，是</span><strong><span>以「点」和「线」的形式，储存在记忆之中的。</span></strong></p><p><span>当我们接受到任何一个外来的新信息时，进行回忆和沉思，</span><strong><span>从脑海中「提取」出相应的节点，将它们跟新信息联结到一起</span></strong><span> —— 这就是「加工」的整个过程。</span></p><p><span>我们思考得越多，「提取」出来的节点越多，建立的新联结越多，加工的深度也就越深，我们对于一个新知识，也就能记得越牢。</span></p><p><span>这就是学习最本质的过程。</span></p><p><span>当我们利用整段时间（1-2个小时）读一本书时，我们会在一个安静、舒适的环境下，摒除外界干扰，沉浸到书的信息里面。</span></p><p><span>我们会反复阅读晦涩的内容，会将不同章节、不同页码的知识点联系起来。读到有趣的地方，会掩卷沉思；模糊的地方，会回过头来重读；甚至，会猜测下文，联系起自己的经历。诸如此类。</span></p><p><span>这些，都在不知不觉地，强化我们的「加工」过程。</span></p><p><span>但是，碎片化时间，往往比较短（15-30分钟），也容易受到打扰，并不利于我们集中精力，进行沉浸阅读。</span></p><p><span>在这种情况下，我们的阅读效率，其实是较低的。大多数时候，我们只是匆匆一瞥，告诉自己「我获得了这些信息」，但并没有真的学会它们。</span></p><p><span>我们是在满足自己的信息焦虑，而不是真的在学习。</span></p><p><span>这会造成什么后果呢？</span></p><p><span>我们对所有的信息，都是惊鸿一瞥。心理上，我们认为已经「读过了」，不再愿意去看它们。但实际上，我们并没有真正获取里面的价值。</span></p><p><span>所以，我经常听到这样的话：这本书我读过了，感觉没什么价值，不推荐看。</span></p><p><span>其实，是真的没有价值吗？</span></p><p><span>很多时候，是你的阅读方式不对，没能激发出它真正的价值。</span></p><p>&nbsp;</p><p><span>明白了这一点之后，我采取的方式是什么呢？</span></p><p><span>我不再在通勤路上读书，而是相反，我尽量利用在办公室、家里的时间读书，并将「阅读」和「加工」分离，将「加工」，留到碎片化时间去做。</span></p><p><span>这就是很多人做时间管理所忽略的地方。</span></p><p><span>许多人会认为，时间管理，就是最大化利用每一段时间。于是，即使只有10分钟，他们也要把它利用起来。不能读书，就读文章；不能读文章，就听音频。总而言之，不能让自己觉得「这段时间被浪费了」。</span></p><p><span>所以这几年，这一类「帮你把碎片时间用起来」的知识服务，才如此盛行。</span></p><p><span>但实际上，最有效的碎片时间利用方式，不是阅读，而是思考。</span></p><p><span>举个例子。当我读一本书，读到一段关于舒缓压力的方式时，我可能会问自己：</span></p><ul><li><span>为什么这些方式有效？</span></li><li><span>这背后的原理是什么？</span></li><li><span>有没有哪些相关的知识可以联系起来？</span></li><li><span>我能够如何应用这些方法？</span></li><li><span>下一步要怎么做？</span></li><li><span>……</span></li></ul><p><span>诸如此类。</span></p><p><span>那么，我会把它们记下来，记在待办事项的 Focused 清单里面（参见：</span><a href='http://mp.weixin.qq.com/s?__biz=MzAxNTY0NjEzNg==&mid=2247484090&idx=1&sn=7d661712fcae64263b348e2235fb1b75&chksm=9b81ae6dacf6277b597e613154d0202c6eba9ed84263484ceef4a20f6ea3154825a0d3594b4f&scene=21#wechat_redirect'><span>高效管理时间的秘诀，就在于这三个清单</span></a><span>）。</span></p><p><span>然后，等到碎片时间，没有紧急的事情需要做时，我就打开这个清单，从最上面开始，找到需要思考的问题 —— 比如「为什么这些方式有效？」，一个个去攻克。</span></p><p><span>我会调动起自己的知识积累，去进行逻辑推理，思考彼此之间的联系、架构，尝试找出问题的答案。</span></p><p><span>与此同时，打开笔记软件。当我找到任何一个问题的答案时，或者产生任何有意思的灵感和想法，我就把它们记下来。</span></p><p><span>这种做法，不但可以提高加工深度，增加对知识的吸收率，而且，可以不断地丰富我的选题和素材库。</span></p><p><span>我写出来的文章，有相当一部分的素材，都来源于这种方式。</span></p><p>&nbsp;</p><p><span>那么，在碎片化思考的时候，有哪些方法，可以使用呢？</span></p><p><span>这里面非常重要的，是</span><strong><span>发散思维。</span></strong></p><p><span>人的大脑有两种模式，一种是专注模式，另一种是发散模式。当人处于专注模式时，主要活跃的脑区是前额叶皮质 —— 也就是负责逻辑思考和推理的地方。</span></p><p><span>这时，我们的注意力聚焦在问题上，试图对它进行理解、分析和推理。我们激活的神经元是集中的。</span></p><p><span>而当我们处于「发散模式」时，脑成像显示，没有哪一个脑区特别活跃，它「弥散」在我们整个大脑中。所以，它不利于对问题进行复杂的理解，但激活的神经元会更广泛、更多元。</span></p><p><span>也就是说，在发散模式下，我们能够联系的「节点」会更多。那么，针对新信息，能够进行重构和联结的机会，也会更多。</span></p><p><span>所以，最好的方式，是在阅读时，先利用「专注思维」，理解文章所表达的含义；接着，再调到「发散思维」，从文中的知识点出发，漫无边际地想象、漫游，让知识点尽可能多地跟脑海中的「节点」建立联系。</span></p><p><span>这里，前者可以在整段时间、系统阅读时做；后者，则不妨放到碎片时间来进行。</span></p><p><span>有一个方法，叫做 </span><strong><span>TEC 架构法</span></strong><span>，可以帮你训练这种模式。</span></p><p><span>假设你现在有 5 分钟的碎片时间，想弄清楚一个问题，你可以这么问自己：</span></p><ol><li><span>我要思考的焦点和任务是什么？（Target &amp; Task）</span></li><li><span>我能想到多少跟它们相关的信息、线索、可能性？（Expand &amp; Explore）</span></li><li><span>这些收获中有哪些是可以进一步利用的？（Contract &amp; Conclude）</span></li></ol><p><span>简而言之，TEC 的操作步骤就是：先澄清问题、确定自己要解决的核心问题；然后发散思维，让大脑放松，想象出尽可能多的可能性和线索，把它们逐一记下来；最后，再从这些记录之中，筛选出能用的，进行下一步的分析和推理。</span></p><p><span>一次 TEC 练习的标准时间是 5 分钟，亦即分别分配 1 分钟、3 分钟、1 分钟到三部分上。</span></p><p><span>当然，你可以根据自己的状态和习惯来调整。不宜太长，否则很容易感到疲倦。</span></p><p>&nbsp;</p><p><span>我们知道，人有这么一种特征：当你脑海里想着一种事物时，无论你遇到什么东西，碰到什么事件，你都很容易把它们，跟脑海中的事物联系起来。</span></p><p><span>有一句俗话形容这种现象，叫做：</span><strong><span>当你手上有锤子的时候，看什么都是钉子。</span></strong></p><p><span>既然如此，我们为什么不能利用起来呢？</span></p><p><span>通过 TEC 架构法，把需要解决的问题放在大脑里，过一遍，不但能理清思路、扩充节点，还能帮你</span><strong><span>保持对问题的敏感性。</span></strong></p><p><span>这样一来，你就会下意识地，将这个问题，跟见到的事物建立联结。</span></p><p><span>举个简单的例子。</span></p><p><span>倘若你是设计师，需要构思一个海报的排版，一时没有头绪。你日思夜想，走路时都在思考。这时，你看到的任何图案，包括店铺的招牌、商场里的海报，都会被你纳入意识中，代入设计需求里。</span></p><p><span>你会想：咦，这个排版能不能用？这个细节很有意思，能不能拿过来？这个字体不错，回去马上买……</span></p><p><span>所以，我跟专业人士打交道的时候，注意到，他们都有一个共同点：</span></p><p><span>无论聊到什么、看到什么，他们都会下意识地联想到自己的业务，思考「这个东西可以怎么用？」</span></p><p><span>原因很简单，无非是他们对自己的业务十分热忱，无时无刻不在脑子里构思而已。</span></p><p><span>像上次和几位朋友逛商场，看到一个体验活动，我们的第一反应是：</span></p><ul><li><span>这个活动的场地布置和宣传不行啊；</span></li><li><span>没有指引，没有维序，也没有客户服务，乙方太偷工减料了吧；</span></li><li><span>现场提交的信息如何保证有效性？这不是浪费钱嘛；</span></li><li><span>……</span></li></ul><p><span>在心理学上，这就叫做</span><strong><span>「敏感化技术」。</span></strong></p><p><span>很多人会有这种体验：被一个问题长久困扰，一直不得门径，突然间某一天灵光一闪，瞬间想通了之前的关隘，所有迷雾一扫而空。</span></p><p><span>这些时刻，背后往往都是「敏感化技术」在起作用。</span></p><p>&nbsp;</p><p><span>那么，如何调动自己的「发散思维」，将碎片时间利用起来呢？</span></p><p><span>最关键的，是要</span><strong><span>保持放松。</span></strong></p><p><span>可以试试，</span><strong><span>聚焦在自己的呼吸上</span></strong><span>，一起一落，减慢速度，使心情平静下来，将脑子里的杂念和思维清出大脑。</span></p><p><span>如果有条件的话，拿出纸笔，花上30秒，</span><strong><span>将脑海中的念头写下来</span></strong><span>，不需要成文，也不用管内容。写上三五行，会感觉很舒畅。</span></p><p><span>另一个有效的方法，是</span><strong><span>换个环境</span></strong><span>。</span></p><p><span>去一些新奇的、陌生的环境，走一条没走过的路，都可以刺激我们的大脑，让我们从「专注模式」切换到「发散模式」—— 因为在这种情况下，我们需要更多地去收集周围环境的信息，建立模型。</span></p><p><span>这可以帮助我们，将注意力从内部转移到外部。这样一来，在减轻压力的同时，也能有效地刺激和活化思维。</span></p><p><span>所以，当你觉得思维堵塞时，不妨出去走走，换个环境，让大脑放松，给思维减负。说不定，问题的答案，就会自然而然浮现出来。</span></p><p><span>当然，这样做也有一个缺点：从旁人的角度看，会觉得你经常在「发呆」。</span></p><p><span>不过，很多时候，适当的发呆是有益的：它可以梳理我们的思维和知识体系，让我们更好地前进。</span></p><p><span>而且，在这个信息爆炸的时代里，将注意力从信息上转移开来，能有一段闲暇时间去发呆，难道不是一件十分美好的享受么？</span></p></div>
+</body>
+</html>
