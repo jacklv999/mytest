@@ -116,41 +116,39 @@
 .\读书笔记\Business Related\推荐系统\推荐系统职业思考.md
 .\读书笔记\Business Related\推荐系统\负样本优化.html
 .\读书笔记\Business Related\推荐系统\负样本优化.md
+.\读书笔记\Business Related\数据分析\AB Test.html
+.\读书笔记\Business Related\数据分析\AB Test.md
+.\读书笔记\Business Related\数据分析\DA 常见问题.html
+.\读书笔记\Business Related\数据分析\DA 常见问题.md
+.\读书笔记\Business Related\数据分析\Data Analysis Reports writing.html
+.\读书笔记\Business Related\数据分析\Data Analysis Reports writing.md
+.\读书笔记\Business Related\数据分析\Data Analyst Database.html
+.\读书笔记\Business Related\数据分析\Data Analyst Database.md
+.\读书笔记\Business Related\数据分析\Data Analyst Machine Learning.html
+.\读书笔记\Business Related\数据分析\Data Analyst Machine Learning.md
+.\读书笔记\Business Related\数据分析\Data Analyst Probability Theory.html
+.\读书笔记\Business Related\数据分析\Data Analyst Probability Theory.md
+.\读书笔记\Business Related\数据分析\Data Analyst SQL.html
+.\读书笔记\Business Related\数据分析\Data Analyst SQL.md
 .\读书笔记\Business Related\数据分析\README.md
-.\读书笔记\Business Related\数据分析\技能栈\AB Test.html
-.\读书笔记\Business Related\数据分析\技能栈\AB Test.md
-.\读书笔记\Business Related\数据分析\技能栈\DA 常见问题.html
-.\读书笔记\Business Related\数据分析\技能栈\DA 常见问题.md
-.\读书笔记\Business Related\数据分析\技能栈\Data Analysis Reports writing.html
-.\读书笔记\Business Related\数据分析\技能栈\Data Analysis Reports writing.md
-.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Database.html
-.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Database.md
-.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Machine Learning.html
-.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Machine Learning.md
-.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Probability Theory.html
-.\读书笔记\Business Related\数据分析\技能栈\Data Analyst Probability Theory.md
-.\读书笔记\Business Related\数据分析\技能栈\Data Analyst SQL.html
-.\读书笔记\Business Related\数据分析\技能栈\Data Analyst SQL.md
-.\读书笔记\Business Related\数据分析\技能栈\README.md
-.\读书笔记\Business Related\数据分析\技能栈\指标体系.html
-.\读书笔记\Business Related\数据分析\技能栈\指标体系.md
-.\读书笔记\Business Related\数据分析\技能栈\数据运营.html
-.\读书笔记\Business Related\数据分析\技能栈\数据运营.md
-.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Lean Start-up and Basic Analytics.html
-.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Lean Start-up and Basic Analytics.md
-.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Normal Data Range.html
-.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Normal Data Range.md
-.\读书笔记\Business Related\数据分析\技能栈\Business Sense\README.md
-.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Using Lean Analytics.html
-.\读书笔记\Business Related\数据分析\技能栈\Business Sense\Using Lean Analytics.md
-.\读书笔记\Business Related\数据分析\职业路径\Data Analyst Career Path.html
-.\读书笔记\Business Related\数据分析\职业路径\Data Analyst Career Path.md
-.\读书笔记\Business Related\数据分析\职业路径\Digitization Manager Trainee.html
-.\读书笔记\Business Related\数据分析\职业路径\Digitization Manager Trainee.md
-.\读书笔记\Business Related\数据分析\职业路径\FA JD Collection.txt
-.\读书笔记\Business Related\数据分析\职业路径\JD Summary.html
-.\读书笔记\Business Related\数据分析\职业路径\JD Summary.md
-.\读书笔记\Business Related\数据分析\职业路径\README.md
+.\读书笔记\Business Related\数据分析\指标体系.html
+.\读书笔记\Business Related\数据分析\指标体系.md
+.\读书笔记\Business Related\数据分析\数据运营.html
+.\读书笔记\Business Related\数据分析\数据运营.md
+.\读书笔记\Business Related\数据分析\Business Sense\Lean Start-up and Basic Analytics.html
+.\读书笔记\Business Related\数据分析\Business Sense\Lean Start-up and Basic Analytics.md
+.\读书笔记\Business Related\数据分析\Business Sense\Normal Data Range.html
+.\读书笔记\Business Related\数据分析\Business Sense\Normal Data Range.md
+.\读书笔记\Business Related\数据分析\Business Sense\README.md
+.\读书笔记\Business Related\数据分析\Business Sense\Using Lean Analytics.html
+.\读书笔记\Business Related\数据分析\Business Sense\Using Lean Analytics.md
+.\读书笔记\Business Related\职业发展\Data Analyst Career Path.html
+.\读书笔记\Business Related\职业发展\Data Analyst Career Path.md
+.\读书笔记\Business Related\职业发展\Digitization Manager Trainee.html
+.\读书笔记\Business Related\职业发展\Digitization Manager Trainee.md
+.\读书笔记\Business Related\职业发展\FA JD Collection.txt
+.\读书笔记\Business Related\职业发展\JD Summary.html
+.\读书笔记\Business Related\职业发展\JD Summary.md
 .\读书笔记\Business Related\职业发展\README.md
 .\读书笔记\Business Related\职业发展\如何向上管理.html
 .\读书笔记\Business Related\职业发展\如何向上管理.md
