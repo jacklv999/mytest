@@ -89,6 +89,8 @@
 .\读书笔记\Business Related\市场与金融与商业分析\README.md
 .\读书笔记\Business Related\市场与金融与商业分析\互联网转行VCPE.html
 .\读书笔记\Business Related\市场与金融与商业分析\互联网转行VCPE.md
+.\读书笔记\Business Related\市场与金融与商业分析\产品经理职业发展.html
+.\读书笔记\Business Related\市场与金融与商业分析\产品经理职业发展.md
 .\读书笔记\Business Related\市场与金融与商业分析\商业项目分析模型.html
 .\读书笔记\Business Related\市场与金融与商业分析\商业项目分析模型.md
 .\读书笔记\Business Related\市场与金融与商业分析\毛利率.html
@@ -385,6 +387,8 @@
 .\读书笔记\CS相关\R语言学习笔记\R语言计量\R语言计量笔记二.md
 .\读书笔记\IDEA整理\1.png
 .\读书笔记\IDEA整理\2.png
+.\读书笔记\IDEA整理\Fail-safe机制.html
+.\读书笔记\IDEA整理\Fail-safe机制.md
 .\读书笔记\IDEA整理\How to be better.html
 .\读书笔记\IDEA整理\How to be better.md
 .\读书笔记\IDEA整理\How to do things.html
@@ -454,6 +458,12 @@
 .\读书笔记\IDEA整理\社会网络与信息.md
 .\读书笔记\IDEA整理\答应别人的事,一定要办到.html
 .\读书笔记\IDEA整理\答应别人的事,一定要办到.md
+.\读书笔记\IDEA整理\职业成长要求.html
+.\读书笔记\IDEA整理\职业成长要求.md
+.\读书笔记\IDEA整理\职业路径的思考.html
+.\读书笔记\IDEA整理\职业路径的思考.md
+.\读书笔记\IDEA整理\职场中如何请教.html
+.\读书笔记\IDEA整理\职场中如何请教.md
 .\读书笔记\IDEA整理\自我意识.html
 .\读书笔记\IDEA整理\自我意识.md
 .\读书笔记\IDEA整理\蝴蝶效应产生独特个性.html

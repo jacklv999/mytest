@@ -47,3 +47,6 @@
 - [How to be better?](./How to be better.html) 
 - [公主死去了屠龙的少年还在燃烧](./公主死去了屠龙的少年还在燃烧.html) 
 - [如何向上管理?](./如何向上管理.html) 
+- [职业成长要求](./职业成长要求.html) 
+- [职业路径的思考](./职业路径的思考.html) 
+- [Fail-safe机制](./Fail-safe机制.html) 
