@@ -151,6 +151,13 @@
 .\读书笔记\Business Related\数据分析\职业路径\JD Summary.html
 .\读书笔记\Business Related\数据分析\职业路径\JD Summary.md
 .\读书笔记\Business Related\数据分析\职业路径\README.md
+.\读书笔记\Business Related\职业发展\README.md
+.\读书笔记\Business Related\职业发展\如何向上管理.html
+.\读书笔记\Business Related\职业发展\如何向上管理.md
+.\读书笔记\Business Related\职业发展\职业成长要求.html
+.\读书笔记\Business Related\职业发展\职业成长要求.md
+.\读书笔记\Business Related\职业发展\职业路径的思考.html
+.\读书笔记\Business Related\职业发展\职业路径的思考.md
 .\读书笔记\CS相关\README.md
 .\读书笔记\CS相关\cs基础知识\README.md
 .\读书笔记\CS相关\cs基础知识\CS基础\Chrome快捷键.html
@@ -385,114 +392,98 @@
 .\读书笔记\CS相关\R语言学习笔记\R语言计量\R语言计量笔记.md
 .\读书笔记\CS相关\R语言学习笔记\R语言计量\R语言计量笔记二.html
 .\读书笔记\CS相关\R语言学习笔记\R语言计量\R语言计量笔记二.md
-.\读书笔记\IDEA整理\1.png
-.\读书笔记\IDEA整理\2.png
-.\读书笔记\IDEA整理\Fail-safe机制.html
-.\读书笔记\IDEA整理\Fail-safe机制.md
-.\读书笔记\IDEA整理\How to be better.html
-.\读书笔记\IDEA整理\How to be better.md
-.\读书笔记\IDEA整理\How to do things.html
-.\读书笔记\IDEA整理\How to do things.md
-.\读书笔记\IDEA整理\Mastering Reading Skills.html
-.\读书笔记\IDEA整理\Mastering Reading Skills.md
-.\读书笔记\IDEA整理\Plan and Learning.html
-.\读书笔记\IDEA整理\Plan and Learning.md
 .\读书笔记\IDEA整理\README.md
-.\读书笔记\IDEA整理\Reshape the way you work.html
-.\读书笔记\IDEA整理\Reshape the way you work.md
-.\读书笔记\IDEA整理\Rethink the Importance of Advices.html
-.\读书笔记\IDEA整理\Rethink the Importance of Advices.md
-.\读书笔记\IDEA整理\xuedushu2.jpg
-.\读书笔记\IDEA整理\xuedushu3.jpg
-.\读书笔记\IDEA整理\xuedushu3.png
-.\读书笔记\IDEA整理\《研究的逻辑》关于逻辑证伪主义的分析-.html
-.\读书笔记\IDEA整理\一般系统论对世界的认识.html
-.\读书笔记\IDEA整理\一起去认识世界吧-.html
-.\读书笔记\IDEA整理\不如意事常八九.html
-.\读书笔记\IDEA整理\专精与杂全的思考.html
-.\读书笔记\IDEA整理\专精与杂全的思考.md
-.\读书笔记\IDEA整理\人生75年.html
-.\读书笔记\IDEA整理\人生75年.md
-.\读书笔记\IDEA整理\人，可信吗？.html
-.\读书笔记\IDEA整理\从现在开始.html
-.\读书笔记\IDEA整理\信息熵理论.html
-.\读书笔记\IDEA整理\信息熵理论.md
-.\读书笔记\IDEA整理\傻逼的故事.html
-.\读书笔记\IDEA整理\傻逼的故事.md
-.\读书笔记\IDEA整理\公主死去了屠龙的少年还在燃烧.html
-.\读书笔记\IDEA整理\公主死去了屠龙的少年还在燃烧.md
-.\读书笔记\IDEA整理\利用碎片化时间整理知识.html
-.\读书笔记\IDEA整理\利用碎片化时间整理知识.md
-.\读书笔记\IDEA整理\博弈论后记——与变量来一场博弈.html
-.\读书笔记\IDEA整理\反脆弱性.html
-.\读书笔记\IDEA整理\反脆弱性.md
-.\读书笔记\IDEA整理\唯物主义在历史进程中的变化与影响.html
-.\读书笔记\IDEA整理\太用力的人跑不远.html
-.\读书笔记\IDEA整理\太用力的人跑不远.md
-.\读书笔记\IDEA整理\如何向上管理.html
-.\读书笔记\IDEA整理\如何向上管理.md
-.\读书笔记\IDEA整理\如何废掉一个人.html
-.\读书笔记\IDEA整理\如何废掉一个人.md
-.\读书笔记\IDEA整理\如何认识自己.html
-.\读书笔记\IDEA整理\如何认识自己.md
-.\读书笔记\IDEA整理\如何识人.html
-.\读书笔记\IDEA整理\如何识人.md
-.\读书笔记\IDEA整理\学会提问批判性思维指南读书后记-.html
-.\读书笔记\IDEA整理\学会认错.html
-.\读书笔记\IDEA整理\学会认错.md
-.\读书笔记\IDEA整理\学读书.html
-.\读书笔记\IDEA整理\定价与数字错觉.html
-.\读书笔记\IDEA整理\定价与数字错觉.md
-.\读书笔记\IDEA整理\思考未来.html
-.\读书笔记\IDEA整理\思考未来.md
-.\读书笔记\IDEA整理\我所依赖的思维方式.html
-.\读书笔记\IDEA整理\沉默的世界.html
-.\读书笔记\IDEA整理\沉默的世界.md
-.\读书笔记\IDEA整理\潜意识主宰行动.html
-.\读书笔记\IDEA整理\潜意识主宰行动.md
-.\读书笔记\IDEA整理\熵增定律.html
-.\读书笔记\IDEA整理\熵增定律.md
-.\读书笔记\IDEA整理\看到别人的优势.html
-.\读书笔记\IDEA整理\看到别人的优势.md
-.\读书笔记\IDEA整理\社会网络与信息.html
-.\读书笔记\IDEA整理\社会网络与信息.md
-.\读书笔记\IDEA整理\答应别人的事,一定要办到.html
-.\读书笔记\IDEA整理\答应别人的事,一定要办到.md
-.\读书笔记\IDEA整理\职业成长要求.html
-.\读书笔记\IDEA整理\职业成长要求.md
-.\读书笔记\IDEA整理\职业路径的思考.html
-.\读书笔记\IDEA整理\职业路径的思考.md
-.\读书笔记\IDEA整理\职场中如何请教.html
-.\读书笔记\IDEA整理\职场中如何请教.md
-.\读书笔记\IDEA整理\自我意识.html
-.\读书笔记\IDEA整理\自我意识.md
-.\读书笔记\IDEA整理\蝴蝶效应产生独特个性.html
-.\读书笔记\IDEA整理\蝴蝶效应产生独特个性.md
-.\读书笔记\IDEA整理\论物质环境对个人分析理性的影响-.html
-.\读书笔记\IDEA整理\该怎么全力以赴.html
-.\读书笔记\IDEA整理\该怎么全力以赴.md
-.\读书笔记\IDEA整理\读书随记-·-所写即所得-.html
-.\读书笔记\IDEA整理\谈谈经济学的理性人决策.html
-.\读书笔记\IDEA整理\辩证唯物主义下的认识.html
-.\读书笔记\IDEA整理\远见的力量.html
-.\读书笔记\IDEA整理\逻辑中的逻辑（再稿）.html
-.\读书笔记\IDEA整理\遥远的救世主读书笔记.html
-.\读书笔记\IDEA整理\重要的细节.html
-.\读书笔记\IDEA整理\重要的细节.md
-.\读书笔记\IDEA整理\阅读的核心.html
-.\读书笔记\IDEA整理\阅读的核心.md
-.\读书笔记\IDEA整理\傅雷家书\README.md
-.\读书笔记\IDEA整理\傅雷家书\《傅雷家书》读书随记-·-关于半路选择-.html
-.\读书笔记\IDEA整理\傅雷家书\《傅雷家书》读书随记-·-别人的意见-.html
-.\读书笔记\IDEA整理\傅雷家书\《傅雷家书》读书随记-·-朋友还是敌人.html
-.\读书笔记\IDEA整理\傅雷家书\《傅雷家书》读书随记-·-矛盾与进步-.html
-.\读书笔记\IDEA整理\傅雷家书\《傅雷家书》读书随记-·-闲论名利-.html
-.\读书笔记\IDEA整理\傅雷家书\《傅雷家书》读书随记-·-高智商-.html
-.\读书笔记\IDEA整理\傅雷家书\《傅雷家书》读书随记随摘.html
-.\读书笔记\IDEA整理\傅雷家书\盛名之下其实难副.html
+.\读书笔记\IDEA整理\如何做事\Fail-safe机制.html
+.\读书笔记\IDEA整理\如何做事\Fail-safe机制.md
+.\读书笔记\IDEA整理\如何做事\README.md
+.\读书笔记\IDEA整理\如何做事\从现在开始.html
+.\读书笔记\IDEA整理\如何做事\太用力的人跑不远.html
+.\读书笔记\IDEA整理\如何做事\太用力的人跑不远.md
+.\读书笔记\IDEA整理\如何做事\对拖延的反思.html
+.\读书笔记\IDEA整理\如何做事\对拖延的反思.md
+.\读书笔记\IDEA整理\如何做事\思考未来.html
+.\读书笔记\IDEA整理\如何做事\思考未来.md
+.\读书笔记\IDEA整理\如何做事\熵增定律.html
+.\读书笔记\IDEA整理\如何做事\熵增定律.md
+.\读书笔记\IDEA整理\如何做事\该怎么全力以赴.html
+.\读书笔记\IDEA整理\如何做事\该怎么全力以赴.md
+.\读书笔记\IDEA整理\如何学习\Mastering Reading Skills.html
+.\读书笔记\IDEA整理\如何学习\Mastering Reading Skills.md
+.\读书笔记\IDEA整理\如何学习\README.md
+.\读书笔记\IDEA整理\如何学习\xuedushu2.jpg
+.\读书笔记\IDEA整理\如何学习\xuedushu3.jpg
+.\读书笔记\IDEA整理\如何学习\xuedushu3.png
+.\读书笔记\IDEA整理\如何学习\利用碎片化时间整理知识.html
+.\读书笔记\IDEA整理\如何学习\利用碎片化时间整理知识.md
+.\读书笔记\IDEA整理\如何学习\如何请教.html
+.\读书笔记\IDEA整理\如何学习\如何请教.md
+.\读书笔记\IDEA整理\如何学习\学读书.html
+.\读书笔记\IDEA整理\如何学习\阅读的核心.html
+.\读书笔记\IDEA整理\如何学习\阅读的核心.md
+.\读书笔记\IDEA整理\心中有梦\README.md
+.\读书笔记\IDEA整理\心中有梦\公主死去了屠龙的少年还在燃烧.html
+.\读书笔记\IDEA整理\心中有梦\公主死去了屠龙的少年还在燃烧.md
+.\读书笔记\IDEA整理\心中有梦\答应别人的事,一定要办到.html
+.\读书笔记\IDEA整理\心中有梦\答应别人的事,一定要办到.md
+.\读书笔记\IDEA整理\认识世界\2.png
 .\读书笔记\IDEA整理\认识世界\README.md
+.\读书笔记\IDEA整理\认识世界\《研究的逻辑》关于逻辑证伪主义的分析-.html
+.\读书笔记\IDEA整理\认识世界\一般系统论对世界的认识.html
+.\读书笔记\IDEA整理\认识世界\一起去认识世界吧-.html
+.\读书笔记\IDEA整理\认识世界\不如意事常八九.html
+.\读书笔记\IDEA整理\认识世界\博弈论后记——与变量来一场博弈.html
+.\读书笔记\IDEA整理\认识世界\反脆弱性.html
+.\读书笔记\IDEA整理\认识世界\反脆弱性.md
+.\读书笔记\IDEA整理\认识世界\唯物主义在历史进程中的变化与影响.html
+.\读书笔记\IDEA整理\认识世界\学会提问批判性思维指南读书后记-.html
+.\读书笔记\IDEA整理\认识世界\我所依赖的思维方式.html
+.\读书笔记\IDEA整理\认识世界\沉默的世界.html
+.\读书笔记\IDEA整理\认识世界\沉默的世界.md
+.\读书笔记\IDEA整理\认识世界\蝴蝶效应产生独特个性.html
+.\读书笔记\IDEA整理\认识世界\蝴蝶效应产生独特个性.md
+.\读书笔记\IDEA整理\认识世界\辩证唯物主义下的认识.html
+.\读书笔记\IDEA整理\认识世界\逻辑中的逻辑（再稿）.html
+.\读书笔记\IDEA整理\认识世界\遥远的救世主读书笔记.html
 .\读书笔记\IDEA整理\认识他人\README.md
+.\读书笔记\IDEA整理\认识他人\人可信吗.html
+.\读书笔记\IDEA整理\认识他人\如何识人.html
+.\读书笔记\IDEA整理\认识他人\如何识人.md
+.\读书笔记\IDEA整理\认识他人\看到别人的优势.html
+.\读书笔记\IDEA整理\认识他人\看到别人的优势.md
+.\读书笔记\IDEA整理\认识他人\重要的细节.html
+.\读书笔记\IDEA整理\认识他人\重要的细节.md
+.\读书笔记\IDEA整理\认识自己\How to be better.html
+.\读书笔记\IDEA整理\认识自己\How to be better.md
+.\读书笔记\IDEA整理\认识自己\How to do things.html
+.\读书笔记\IDEA整理\认识自己\How to do things.md
+.\读书笔记\IDEA整理\认识自己\Plan and Learning.html
+.\读书笔记\IDEA整理\认识自己\Plan and Learning.md
 .\读书笔记\IDEA整理\认识自己\README.md
+.\读书笔记\IDEA整理\认识自己\Reshape the way you work.html
+.\读书笔记\IDEA整理\认识自己\Reshape the way you work.md
+.\读书笔记\IDEA整理\认识自己\Rethink the Importance of Advices.html
+.\读书笔记\IDEA整理\认识自己\Rethink the Importance of Advices.md
+.\读书笔记\IDEA整理\认识自己\《傅雷家书》读书随记-·-关于半路选择-.html
+.\读书笔记\IDEA整理\认识自己\《傅雷家书》读书随记-·-别人的意见-.html
+.\读书笔记\IDEA整理\认识自己\《傅雷家书》读书随记-·-朋友还是敌人.html
+.\读书笔记\IDEA整理\认识自己\《傅雷家书》读书随记-·-闲论名利-.html
+.\读书笔记\IDEA整理\认识自己\《傅雷家书》读书随记-·-高智商-.html
+.\读书笔记\IDEA整理\认识自己\专精与杂全的思考.html
+.\读书笔记\IDEA整理\认识自己\专精与杂全的思考.md
+.\读书笔记\IDEA整理\认识自己\如何废掉一个人.html
+.\读书笔记\IDEA整理\认识自己\如何废掉一个人.md
+.\读书笔记\IDEA整理\认识自己\如何认识自己.html
+.\读书笔记\IDEA整理\认识自己\如何认识自己.md
+.\读书笔记\IDEA整理\认识自己\学会认错.html
+.\读书笔记\IDEA整理\认识自己\学会认错.md
+.\读书笔记\IDEA整理\认识自己\潜意识主宰行动.html
+.\读书笔记\IDEA整理\认识自己\潜意识主宰行动.md
+.\读书笔记\IDEA整理\认识自己\盛名之下其实难副.html
+.\读书笔记\IDEA整理\认识自己\自我意识.html
+.\读书笔记\IDEA整理\认识自己\自我意识.md
+.\读书笔记\IDEA整理\认识自己\论物质环境对个人分析理性的影响-.html
+.\读书笔记\IDEA整理\认识自己\读书随记-·-所写即所得-.html
+.\读书笔记\IDEA整理\认识自己\谈谈经济学的理性人决策.html
 .\读书笔记\ML&DL\56421.jpg
 .\读书笔记\ML&DL\Hseg.ipynb
 .\读书笔记\ML&DL\MNIST CNN.ipynb
@@ -918,6 +909,10 @@
 .\读书笔记\心理学\爱情心理学\为什么异地恋容易分手.md
 .\读书笔记\心理学\爱情心理学\亲密与孤独.html
 .\读书笔记\心理学\爱情心理学\亲密与孤独.md
+.\读书笔记\心理学\爱情心理学\人生75年.html
+.\读书笔记\心理学\爱情心理学\人生75年.md
+.\读书笔记\心理学\爱情心理学\傻逼的故事.html
+.\读书笔记\心理学\爱情心理学\傻逼的故事.md
 .\读书笔记\心理学\爱情心理学\友谊和爱情.html
 .\读书笔记\心理学\爱情心理学\友谊和爱情.md
 .\读书笔记\心理学\爱情心理学\喜欢我们得不到的人.html
@@ -964,6 +959,8 @@
 .\读书笔记\心理学\认知心理学\习惯养成和神经系统.md
 .\读书笔记\心理学\认知心理学\再谈认知心理学-·-学习与记忆-.html
 .\读书笔记\心理学\认知心理学\再谈认知心理学-·-高效记忆的秘密.html
+.\读书笔记\心理学\认知心理学\定价与数字错觉.html
+.\读书笔记\心理学\认知心理学\定价与数字错觉.md
 .\读书笔记\心理学\认知心理学\成为专家.html
 .\读书笔记\心理学\认知心理学\成就感与行为.html
 .\读书笔记\心理学\认知心理学\成就感与行为.md
@@ -1082,6 +1079,8 @@
 .\读书笔记\政治学与领导\政治学通识\《政治学通识》读书笔记整理.html
 .\读书笔记\数理分析\README.md
 .\读书笔记\数理分析\不便分类的NOTE\README.md
+.\读书笔记\数理分析\不便分类的NOTE\信息熵理论.html
+.\读书笔记\数理分析\不便分类的NOTE\信息熵理论.md
 .\读书笔记\数理分析\不便分类的NOTE\本福特定律.html
 .\读书笔记\数理分析\不便分类的NOTE\本福特定律.md
 .\读书笔记\数理分析\不便分类的NOTE\生日悖论与哈希算法范围概率碰撞下限的讨论与利用.html
