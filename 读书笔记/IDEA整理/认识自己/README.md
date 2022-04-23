@@ -5,6 +5,7 @@
 - [How to do things](./How to do things.html) 
 - [Rethink the Importance of Advices](./Rethink the Importance of Advices.html) 
 - [How to be better?](./How to be better.html) 
+- [Being Humble and responsible](./Being Humble.html) 
 - [如何认识自己?](./如何认识自己.html) 
 - [潜意识与自我意识](./自我意识.html) 
 - [潜意识主宰行动](./潜意识主宰行动.html) 

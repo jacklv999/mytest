@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>Chrome快捷键</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+<title>如果人生不用考虑钱你会怎么活</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
@@ -22,14 +22,15 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
   .CodeMirror-sizer { margin-left: 0px !important; }
   .CodeMirror-gutters { display: none !important; }
 }
-#write li > figure:first-child { margin-top: -20px; }
+#write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; }
-button, input, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+button, input, select, textarea { color: inherit; font: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
 h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
 p { orphans: 4; }
 h1 { font-size: 2rem; }
@@ -87,7 +88,6 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
   html.blink-to-pdf { font-size: 13px; }
   .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
   .typora-export #write::after { height: 0px; }
-  @page { margin: 20mm 0px; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
@@ -136,12 +136,12 @@ a.md-print-anchor { white-space: pre !important; border-width: initial !importan
 .MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
 .MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
 .MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
-.MathJax_SVG * { transition: none; }
-.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
-[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
 table tr th { border-bottom: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
@@ -194,7 +194,7 @@ code { background-color: rgb(243, 244, 244); padding: 0px 2px; }
 @media print {
   html { font-size: 13px; }
   table, pre { break-inside: avoid; }
-  pre { word-wrap: break-word; }
+  pre { overflow-wrap: break-word; }
 }
 .md-fences { background-color: rgb(248, 248, 248); }
 #write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
@@ -220,13 +220,9 @@ header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Aria
 .dropdown-menu .divider { border-color: rgb(229, 229, 229); }
 
 
-
-
-
-
 </style>
 </head>
 <body class='typora-export os-windows' >
-<div  id='write'  class = 'is-node'><h3><a name='header-n0' class='md-header-anchor '></a>一 单键</h3><figure><table><thead><tr><th>快捷键</th><th>效果</th></tr></thead><tbody><tr><td>F5</td><td>重新载入当前网页</td></tr><tr><td>F12</td><td>打开开发者工具</td></tr><tr><td>F11</td><td>开启或关闭全屏模式</td></tr></tbody></table></figure><h3><a name='header-n15' class='md-header-anchor '></a>二  Ctrl+字母快捷键</h3><figure><table><thead><tr><th>快捷键</th><th>效果</th></tr></thead><tbody><tr><td>Ctrl+W</td><td>关闭当前标签页</td></tr><tr><td>Ctrl+N</td><td>打开新窗口</td></tr><tr><td>Ctrl+Shift+N</td><td>在隐身模式下打开新窗口</td></tr><tr><td>Ctrl+T</td><td>打开新标签页</td></tr><tr><td>Ctrl+Shift+T</td><td>重新打开上次关闭的标签页</td></tr><tr><td>Ctrl+D</td><td>将当前网页保存为书签</td></tr><tr><td>Ctrl+Shift+D</td><td>将所有打开的网页以书签的形式保存在新文件夹中</td></tr><tr><td>Ctrl+V</td><td>从剪贴板中粘贴内容</td></tr><tr><td>Ctrl+Shift+V</td><td>从剪贴板中粘贴内容(不带格式)</td></tr><tr><td>Ctrl+H</td><td>打开“历史记录”页面</td></tr><tr><td>Ctrl+J</td><td>打开“下载内容”页面</td></tr><tr><td>Ctrl+F</td><td>搜索</td></tr></tbody></table></figure><h3><a name='header-n56' class='md-header-anchor '></a>三 Ctrl+字母快捷键补充</h3><figure><table><thead><tr><th>快捷键</th><th>效果</th></tr></thead><tbody><tr><td>Ctrl+Shift+B</td><td>打开和关闭书签栏</td></tr><tr><td>Ctrl+0</td><td>将网页上的所有内容都恢复到正常大小</td></tr><tr><td>Ctrl+Tab</td><td>切换到下一个标签页</td></tr><tr><td>Ctrl+Shift+Tab</td><td>切换到上一个标签页</td></tr><tr><td>Ctrl 和 +</td><td>放大网页上的所有内容</td></tr><tr><td>Ctrl 和 -</td><td>缩小网页上的所有内容</td></tr></tbody></table></figure><h3><a name='header-n79' class='md-header-anchor '></a>四 Alt快捷键及其他</h3><figure><table><thead><tr><th>快捷键</th><th>效果</th></tr></thead><tbody><tr><td>ALT + ←</td><td>后退到历史记录中的上一页面</td></tr><tr><td>ALT + →</td><td>前进到历史记录中的下一页面</td></tr><tr><td>Shift+Esc</td><td>打开任务管理器</td></tr></tbody></table></figure></div>
+<div  id='write'  class = 'is-node'><h2><a name="%E5%A6%82%E6%9E%9C%E4%BA%BA%E7%94%9F%E4%B8%8D%E7%94%A8%E8%80%83%E8%99%91%E9%92%B1,-%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E6%B4%BB?" class="md-header-anchor"></a><span>如果人生不用考虑钱, 你会怎么活?</span></h2><p><span>【年轻的时候，带上心爱的人，去想去的地方】</span></p><ul><li><span>去一月的冰岛，偶遇会带来幸福的极光，游玩在杰古沙龙冰湖面看大自然亲手制作的不朽冰雕，然后在分布在山间的小房子徘徊，探寻神秘精灵的踪迹。</span></li></ul><p>&nbsp;</p><ul><li><span>烟花三月下扬州。在烟雾笼罩的江南，透过青墙黛瓦，看旧时风景里旧时的模样。租一只小船，在微风细雨里入眠，缓缓地融进碧于天的春水中去。</span></li></ul><p>&nbsp;</p><ul><li><span>四月里，去一趟</span><a href='https://www.zhihu.com/search?q=富士山&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A73305836}'><span>富士山</span></a><span>，看樱花缀满枝头、无比烂漫。配上雪白的富士山，内心一片安宁。颉上一朵，轻轻置于你的发间，你莞尔一笑，温馨如故。</span></li></ul><p>&nbsp;</p><ul><li><span>年中看一看圣托里尼，走在古老的浪琴海边，感受飘洒了千年的浪漫，在童话的世界里入梦。</span></li></ul><p>&nbsp;</p><ul><li><span>七月的普罗旺斯薰衣草迎风绽放，翠绿的山谷里香味混合着被晒焦的青草芬芳，在一片紫色的海洋里，留下一张洋溢着微笑的脸。</span></li></ul><p>&nbsp;</p><ul><li><span>九月的加拿大，看南北交界处色彩斑斓，如锦绣一般。红极而落的叶子平铺在地上，似一张经岁月浸染的地毯。是远方而来的尊贵客人，着盛装出场，行于其上。</span></li></ul><p>&nbsp;</p><ul><li><span>年末回到家乡，陪伴在家人身旁，如年幼时一样和姐姐们小打小闹，吃老爸烧的家常菜，睡一直以来睡的大床，盖老妈亲自铺好的棉被，一切依稀家的味道。</span></li></ul><p>&nbsp;</p><p><span>【年纪见长，待老之将至，读红尘万卷，不死不散】</span></p><p><span>去遍布全世界的大学里看看，在风格迥异的图书馆里停留，驻足良久</span></p><p><span>尔后闲来无事，三两老友话话家常。</span></p><p><span>躺在老式的竹椅上，聆听着大自然的歌唱，翻念念不忘的书，茶壶二三，摆在一旁的石凳上，时不时摇头晃脑，时不时低吟浅唱。</span></p><p><span>微风轻拂，发黄的叶子翩迁起舞，有些许的凉意。</span></p><p><span>黄昏时的天空好似披上了蝉翼般的金纱，孩童们在庭院里嬉戏，逝去的恍若都还在，多么惬意的时光。</span></p></div>
 </body>
 </html>

@@ -1,6 +1,140 @@
 .\读书笔记\1.txt
 .\读书笔记\README.md
 .\读书笔记\Business Related\README.md
+.\读书笔记\Business Related\Hard skills\README.md
+.\读书笔记\Business Related\Hard skills\前端相关\README.md
+.\读书笔记\Business Related\Hard skills\前端相关\CSS\CSS 3笔记.html
+.\读书笔记\Business Related\Hard skills\前端相关\CSS\CSS 3笔记.md
+.\读书笔记\Business Related\Hard skills\前端相关\CSS\CSS 布局.html
+.\读书笔记\Business Related\Hard skills\前端相关\CSS\CSS 布局.md
+.\读书笔记\Business Related\Hard skills\前端相关\CSS\CSS基础.html
+.\读书笔记\Business Related\Hard skills\前端相关\CSS\CSS基础.md
+.\读书笔记\Business Related\Hard skills\前端相关\CSS\Less教程.html
+.\读书笔记\Business Related\Hard skills\前端相关\CSS\Less教程.md
+.\读书笔记\Business Related\Hard skills\前端相关\CSS\README.md
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\Download File in HTML.html
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\Download File in HTML.md
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML DOM 元素处理.html
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML DOM 元素处理.md
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML DOM事件.html
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML DOM事件.md
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML Form表单.html
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML Form表单.md
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\Html5记录.html
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\Html5记录.md
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML与CSS笔记.html
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML与CSS笔记.md
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML基本语法.html
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML基本语法.md
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML杂项.html
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML杂项.md
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML表格插件.html
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML表格插件.md
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\README.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\Javascript Base64.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\Javascript Base64.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\Javascript Coding.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\Javascript Coding.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\JavaScript基础.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\JavaScript基础.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\jQuery 点击放大.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\jQuery 点击放大.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\JS AJAX Note.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\JS AJAX Note.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\JS Slider插件.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\JS Slider插件.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\JS下拉选择框.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\JS下拉选择框.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\JS知网实践.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\JS知网实践.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\README.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\使用 TypeScript 来写 Vue.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\使用 TypeScript 来写 Vue[转].md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\树状下拉选择.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\树状下拉选择.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\禁止Chrome登录.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\禁止Chrome登录.md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\闭包与立即执行函数.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\闭包与立即执行函数.md
+.\读书笔记\Business Related\Hard skills\前端相关\不便分类的NOTE\ADblocker规则简单整理.html
+.\读书笔记\Business Related\Hard skills\前端相关\不便分类的NOTE\ADblocker规则简单整理.md
+.\读书笔记\Business Related\Hard skills\前端相关\不便分类的NOTE\Canvas绘画笔记.html
+.\读书笔记\Business Related\Hard skills\前端相关\不便分类的NOTE\Canvas绘画笔记.md
+.\读书笔记\Business Related\Hard skills\前端相关\不便分类的NOTE\React学习之道.html
+.\读书笔记\Business Related\Hard skills\前端相关\不便分类的NOTE\React学习之道.pdf
+.\读书笔记\Business Related\Hard skills\前端相关\不便分类的NOTE\README.md
+.\读书笔记\Business Related\Hard skills\前端相关\不便分类的NOTE\前端面试手册.pdf
+.\读书笔记\Business Related\Hard skills\大数据\Big Data Review.html
+.\读书笔记\Business Related\Hard skills\大数据\Big Data Review.md
+.\读书笔记\Business Related\Hard skills\大数据\README.md
+.\读书笔记\Business Related\Hard skills\大数据\Spark in Python.html
+.\读书笔记\Business Related\Hard skills\大数据\Spark in Python.ipynb
+.\读书笔记\Business Related\Hard skills\大数据\分布式系统入门.html
+.\读书笔记\Business Related\Hard skills\大数据\分布式系统入门.md
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\Business Model Analysis (华侨城).html
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\Business Model Analysis (华侨城).md
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\Financial Analysis.html
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\Financial Analysis.md
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\Market Analysis Note.html
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\Market Analysis Note.md
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\Note for Tencent Financial.html
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\Note for Tencent Financial.md
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\README.md
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\互联网转行VCPE.html
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\互联网转行VCPE.md
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\商业项目分析模型.html
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\商业项目分析模型.md
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\毛利率.html
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\毛利率.md
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\游戏产品分析.html
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\游戏产品分析.md
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\综艺节目产品分析.html
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\综艺节目产品分析.md
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\行业分析与产品设计框架.html
+.\读书笔记\Business Related\Hard skills\市场与金融与商业分析\行业分析与产品设计框架.md
+.\读书笔记\Business Related\Hard skills\推荐系统\Deep Interest Network.html
+.\读书笔记\Business Related\Hard skills\推荐系统\Deep Interest Network.md
+.\读书笔记\Business Related\Hard skills\推荐系统\FM推荐算法.html
+.\读书笔记\Business Related\Hard skills\推荐系统\FM推荐算法.md
+.\读书笔记\Business Related\Hard skills\推荐系统\Person Profile Analysis.html
+.\读书笔记\Business Related\Hard skills\推荐系统\Person Profile Analysis.md
+.\读书笔记\Business Related\Hard skills\推荐系统\README.md
+.\读书笔记\Business Related\Hard skills\推荐系统\协同过滤.html
+.\读书笔记\Business Related\Hard skills\推荐系统\协同过滤.md
+.\读书笔记\Business Related\Hard skills\推荐系统\推荐系统Bias.html
+.\读书笔记\Business Related\Hard skills\推荐系统\推荐系统Bias.md
+.\读书笔记\Business Related\Hard skills\推荐系统\推荐系统冷启动.html
+.\读书笔记\Business Related\Hard skills\推荐系统\推荐系统冷启动.md
+.\读书笔记\Business Related\Hard skills\推荐系统\推荐系统职业思考.html
+.\读书笔记\Business Related\Hard skills\推荐系统\推荐系统职业思考.md
+.\读书笔记\Business Related\Hard skills\推荐系统\负样本优化.html
+.\读书笔记\Business Related\Hard skills\推荐系统\负样本优化.md
+.\读书笔记\Business Related\Hard skills\数据分析\AB Test.html
+.\读书笔记\Business Related\Hard skills\数据分析\AB Test.md
+.\读书笔记\Business Related\Hard skills\数据分析\DA 常见问题.html
+.\读书笔记\Business Related\Hard skills\数据分析\DA 常见问题.md
+.\读书笔记\Business Related\Hard skills\数据分析\Data Analysis Reports writing.html
+.\读书笔记\Business Related\Hard skills\数据分析\Data Analysis Reports writing.md
+.\读书笔记\Business Related\Hard skills\数据分析\Data Analyst Database.html
+.\读书笔记\Business Related\Hard skills\数据分析\Data Analyst Database.md
+.\读书笔记\Business Related\Hard skills\数据分析\Data Analyst Machine Learning.html
+.\读书笔记\Business Related\Hard skills\数据分析\Data Analyst Machine Learning.md
+.\读书笔记\Business Related\Hard skills\数据分析\Data Analyst Probability Theory.html
+.\读书笔记\Business Related\Hard skills\数据分析\Data Analyst Probability Theory.md
+.\读书笔记\Business Related\Hard skills\数据分析\Data Analyst SQL.html
+.\读书笔记\Business Related\Hard skills\数据分析\Data Analyst SQL.md
+.\读书笔记\Business Related\Hard skills\数据分析\README.md
+.\读书笔记\Business Related\Hard skills\数据分析\指标体系.html
+.\读书笔记\Business Related\Hard skills\数据分析\指标体系.md
+.\读书笔记\Business Related\Hard skills\数据分析\数据运营.html
+.\读书笔记\Business Related\Hard skills\数据分析\数据运营.md
+.\读书笔记\Business Related\Hard skills\数据分析\Business Sense\Lean Start-up and Basic Analytics.html
+.\读书笔记\Business Related\Hard skills\数据分析\Business Sense\Lean Start-up and Basic Analytics.md
+.\读书笔记\Business Related\Hard skills\数据分析\Business Sense\Normal Data Range.html
+.\读书笔记\Business Related\Hard skills\数据分析\Business Sense\Normal Data Range.md
+.\读书笔记\Business Related\Hard skills\数据分析\Business Sense\README.md
+.\读书笔记\Business Related\Hard skills\数据分析\Business Sense\Using Lean Analytics.html
+.\读书笔记\Business Related\Hard skills\数据分析\Business Sense\Using Lean Analytics.md
 .\读书笔记\Business Related\HR面试\100道经典行测图形推理题.doc
 .\读书笔记\Business Related\HR面试\Group Interview Note.html
 .\读书笔记\Business Related\HR面试\Group Interview Note.md
@@ -11,137 +145,30 @@
 .\读书笔记\Business Related\HR面试\行测数字题.md
 .\读书笔记\Business Related\HR面试\行测题解题思路.html
 .\读书笔记\Business Related\HR面试\行测题解题思路.md
-.\读书笔记\Business Related\前端相关\README.md
-.\读书笔记\Business Related\前端相关\CSS\CSS 3笔记.html
-.\读书笔记\Business Related\前端相关\CSS\CSS 3笔记.md
-.\读书笔记\Business Related\前端相关\CSS\CSS 布局.html
-.\读书笔记\Business Related\前端相关\CSS\CSS 布局.md
-.\读书笔记\Business Related\前端相关\CSS\CSS基础.html
-.\读书笔记\Business Related\前端相关\CSS\CSS基础.md
-.\读书笔记\Business Related\前端相关\CSS\Less教程.html
-.\读书笔记\Business Related\前端相关\CSS\Less教程.md
-.\读书笔记\Business Related\前端相关\CSS\README.md
-.\读书笔记\Business Related\前端相关\HTML\Download File in HTML.html
-.\读书笔记\Business Related\前端相关\HTML\Download File in HTML.md
-.\读书笔记\Business Related\前端相关\HTML\HTML DOM 元素处理.html
-.\读书笔记\Business Related\前端相关\HTML\HTML DOM 元素处理.md
-.\读书笔记\Business Related\前端相关\HTML\HTML DOM事件.html
-.\读书笔记\Business Related\前端相关\HTML\HTML DOM事件.md
-.\读书笔记\Business Related\前端相关\HTML\HTML Form表单.html
-.\读书笔记\Business Related\前端相关\HTML\HTML Form表单.md
-.\读书笔记\Business Related\前端相关\HTML\Html5记录.html
-.\读书笔记\Business Related\前端相关\HTML\Html5记录.md
-.\读书笔记\Business Related\前端相关\HTML\HTML与CSS笔记.html
-.\读书笔记\Business Related\前端相关\HTML\HTML与CSS笔记.md
-.\读书笔记\Business Related\前端相关\HTML\HTML基本语法.html
-.\读书笔记\Business Related\前端相关\HTML\HTML基本语法.md
-.\读书笔记\Business Related\前端相关\HTML\HTML杂项.html
-.\读书笔记\Business Related\前端相关\HTML\HTML杂项.md
-.\读书笔记\Business Related\前端相关\HTML\HTML表格插件.html
-.\读书笔记\Business Related\前端相关\HTML\HTML表格插件.md
-.\读书笔记\Business Related\前端相关\HTML\README.md
-.\读书笔记\Business Related\前端相关\JS and TS\Javascript Base64.html
-.\读书笔记\Business Related\前端相关\JS and TS\Javascript Base64.md
-.\读书笔记\Business Related\前端相关\JS and TS\Javascript Coding.html
-.\读书笔记\Business Related\前端相关\JS and TS\Javascript Coding.md
-.\读书笔记\Business Related\前端相关\JS and TS\JavaScript基础.html
-.\读书笔记\Business Related\前端相关\JS and TS\JavaScript基础.md
-.\读书笔记\Business Related\前端相关\JS and TS\jQuery 点击放大.html
-.\读书笔记\Business Related\前端相关\JS and TS\jQuery 点击放大.md
-.\读书笔记\Business Related\前端相关\JS and TS\JS AJAX Note.html
-.\读书笔记\Business Related\前端相关\JS and TS\JS AJAX Note.md
-.\读书笔记\Business Related\前端相关\JS and TS\JS Slider插件.html
-.\读书笔记\Business Related\前端相关\JS and TS\JS Slider插件.md
-.\读书笔记\Business Related\前端相关\JS and TS\JS下拉选择框.html
-.\读书笔记\Business Related\前端相关\JS and TS\JS下拉选择框.md
-.\读书笔记\Business Related\前端相关\JS and TS\JS知网实践.html
-.\读书笔记\Business Related\前端相关\JS and TS\JS知网实践.md
-.\读书笔记\Business Related\前端相关\JS and TS\README.md
-.\读书笔记\Business Related\前端相关\JS and TS\使用 TypeScript 来写 Vue.html
-.\读书笔记\Business Related\前端相关\JS and TS\使用 TypeScript 来写 Vue[转].md
-.\读书笔记\Business Related\前端相关\JS and TS\树状下拉选择.html
-.\读书笔记\Business Related\前端相关\JS and TS\树状下拉选择.md
-.\读书笔记\Business Related\前端相关\JS and TS\禁止Chrome登录.html
-.\读书笔记\Business Related\前端相关\JS and TS\禁止Chrome登录.md
-.\读书笔记\Business Related\前端相关\JS and TS\闭包与立即执行函数.html
-.\读书笔记\Business Related\前端相关\JS and TS\闭包与立即执行函数.md
-.\读书笔记\Business Related\前端相关\不便分类的NOTE\ADblocker规则简单整理.html
-.\读书笔记\Business Related\前端相关\不便分类的NOTE\ADblocker规则简单整理.md
-.\读书笔记\Business Related\前端相关\不便分类的NOTE\Canvas绘画笔记.html
-.\读书笔记\Business Related\前端相关\不便分类的NOTE\Canvas绘画笔记.md
-.\读书笔记\Business Related\前端相关\不便分类的NOTE\React学习之道.html
-.\读书笔记\Business Related\前端相关\不便分类的NOTE\React学习之道.pdf
-.\读书笔记\Business Related\前端相关\不便分类的NOTE\README.md
-.\读书笔记\Business Related\前端相关\不便分类的NOTE\前端面试手册.pdf
-.\读书笔记\Business Related\大数据\Big Data Review.html
-.\读书笔记\Business Related\大数据\Big Data Review.md
-.\读书笔记\Business Related\大数据\README.md
-.\读书笔记\Business Related\大数据\Spark in Python.html
-.\读书笔记\Business Related\大数据\Spark in Python.ipynb
-.\读书笔记\Business Related\市场与金融与商业分析\Business Model Analysis (华侨城).html
-.\读书笔记\Business Related\市场与金融与商业分析\Business Model Analysis (华侨城).md
-.\读书笔记\Business Related\市场与金融与商业分析\Financial Analysis.html
-.\读书笔记\Business Related\市场与金融与商业分析\Financial Analysis.md
-.\读书笔记\Business Related\市场与金融与商业分析\Market Analysis Note.html
-.\读书笔记\Business Related\市场与金融与商业分析\Market Analysis Note.md
-.\读书笔记\Business Related\市场与金融与商业分析\Note for Tencent Financial.html
-.\读书笔记\Business Related\市场与金融与商业分析\Note for Tencent Financial.md
-.\读书笔记\Business Related\市场与金融与商业分析\README.md
-.\读书笔记\Business Related\市场与金融与商业分析\互联网转行VCPE.html
-.\读书笔记\Business Related\市场与金融与商业分析\互联网转行VCPE.md
-.\读书笔记\Business Related\市场与金融与商业分析\商业项目分析模型.html
-.\读书笔记\Business Related\市场与金融与商业分析\商业项目分析模型.md
-.\读书笔记\Business Related\市场与金融与商业分析\毛利率.html
-.\读书笔记\Business Related\市场与金融与商业分析\毛利率.md
-.\读书笔记\Business Related\市场与金融与商业分析\游戏产品分析.html
-.\读书笔记\Business Related\市场与金融与商业分析\游戏产品分析.md
-.\读书笔记\Business Related\市场与金融与商业分析\综艺节目产品分析.html
-.\读书笔记\Business Related\市场与金融与商业分析\综艺节目产品分析.md
-.\读书笔记\Business Related\市场与金融与商业分析\行业分析与产品设计框架.html
-.\读书笔记\Business Related\市场与金融与商业分析\行业分析与产品设计框架.md
-.\读书笔记\Business Related\推荐系统\Deep Interest Network.html
-.\读书笔记\Business Related\推荐系统\Deep Interest Network.md
-.\读书笔记\Business Related\推荐系统\FM推荐算法.html
-.\读书笔记\Business Related\推荐系统\FM推荐算法.md
-.\读书笔记\Business Related\推荐系统\Person Profile Analysis.html
-.\读书笔记\Business Related\推荐系统\Person Profile Analysis.md
-.\读书笔记\Business Related\推荐系统\README.md
-.\读书笔记\Business Related\推荐系统\协同过滤.html
-.\读书笔记\Business Related\推荐系统\协同过滤.md
-.\读书笔记\Business Related\推荐系统\推荐系统Bias.html
-.\读书笔记\Business Related\推荐系统\推荐系统Bias.md
-.\读书笔记\Business Related\推荐系统\推荐系统冷启动.html
-.\读书笔记\Business Related\推荐系统\推荐系统冷启动.md
-.\读书笔记\Business Related\推荐系统\推荐系统职业思考.html
-.\读书笔记\Business Related\推荐系统\推荐系统职业思考.md
-.\读书笔记\Business Related\推荐系统\负样本优化.html
-.\读书笔记\Business Related\推荐系统\负样本优化.md
-.\读书笔记\Business Related\数据分析\AB Test.html
-.\读书笔记\Business Related\数据分析\AB Test.md
-.\读书笔记\Business Related\数据分析\DA 常见问题.html
-.\读书笔记\Business Related\数据分析\DA 常见问题.md
-.\读书笔记\Business Related\数据分析\Data Analysis Reports writing.html
-.\读书笔记\Business Related\数据分析\Data Analysis Reports writing.md
-.\读书笔记\Business Related\数据分析\Data Analyst Database.html
-.\读书笔记\Business Related\数据分析\Data Analyst Database.md
-.\读书笔记\Business Related\数据分析\Data Analyst Machine Learning.html
-.\读书笔记\Business Related\数据分析\Data Analyst Machine Learning.md
-.\读书笔记\Business Related\数据分析\Data Analyst Probability Theory.html
-.\读书笔记\Business Related\数据分析\Data Analyst Probability Theory.md
-.\读书笔记\Business Related\数据分析\Data Analyst SQL.html
-.\读书笔记\Business Related\数据分析\Data Analyst SQL.md
-.\读书笔记\Business Related\数据分析\README.md
-.\读书笔记\Business Related\数据分析\指标体系.html
-.\读书笔记\Business Related\数据分析\指标体系.md
-.\读书笔记\Business Related\数据分析\数据运营.html
-.\读书笔记\Business Related\数据分析\数据运营.md
-.\读书笔记\Business Related\数据分析\Business Sense\Lean Start-up and Basic Analytics.html
-.\读书笔记\Business Related\数据分析\Business Sense\Lean Start-up and Basic Analytics.md
-.\读书笔记\Business Related\数据分析\Business Sense\Normal Data Range.html
-.\读书笔记\Business Related\数据分析\Business Sense\Normal Data Range.md
-.\读书笔记\Business Related\数据分析\Business Sense\README.md
-.\读书笔记\Business Related\数据分析\Business Sense\Using Lean Analytics.html
-.\读书笔记\Business Related\数据分析\Business Sense\Using Lean Analytics.md
+.\读书笔记\Business Related\Soft skills\README.md
+.\读书笔记\Business Related\Soft skills\Pre相关\AboutPresentation.html
+.\读书笔记\Business Related\Soft skills\Pre相关\AboutPresentation.md
+.\读书笔记\Business Related\Soft skills\Pre相关\README.md
+.\读书笔记\Business Related\Soft skills\Pre相关\《乔布斯的魔力演讲》后记·做一次好的演讲-.html
+.\读书笔记\Business Related\Soft skills\商务写作\Pyramid-完整版.md
+.\读书笔记\Business Related\Soft skills\商务写作\Pyramid.html
+.\读书笔记\Business Related\Soft skills\商务写作\Pyramid.md
+.\读书笔记\Business Related\Soft skills\商务写作\README.md
+.\读书笔记\Business Related\Soft skills\汇报相关\如何向上管理.html
+.\读书笔记\Business Related\Soft skills\汇报相关\如何向上管理.md
+.\读书笔记\Business Related\Soft skills\汇报相关\工作汇报.html
+.\读书笔记\Business Related\Soft skills\汇报相关\工作汇报.md
+.\读书笔记\Business Related\Soft skills\沟通相关\1.png
+.\读书笔记\Business Related\Soft skills\沟通相关\Learning to speak.html
+.\读书笔记\Business Related\Soft skills\沟通相关\Learning to speak.md
+.\读书笔记\Business Related\Soft skills\沟通相关\README.md
+.\读书笔记\Business Related\Soft skills\沟通相关\Representation Framework.html
+.\读书笔记\Business Related\Soft skills\沟通相关\Representation Framework.md
+.\读书笔记\Business Related\Soft skills\沟通相关\《高难度谈话》读书后记.html
+.\读书笔记\Business Related\Soft skills\沟通相关\语言篇举个栗子.html
+.\读书笔记\Business Related\Soft skills\沟通相关\语言篇我需要它.html
+.\读书笔记\Business Related\Soft skills\沟通相关\语言篇来回答一个问题.html
+.\读书笔记\Business Related\Soft skills\沟通相关\语言篇逃不掉争论.html
 .\读书笔记\Business Related\职业发展\Data Analyst Career Path.html
 .\读书笔记\Business Related\职业发展\Data Analyst Career Path.md
 .\读书笔记\Business Related\职业发展\Digitization Manager Trainee.html
@@ -150,16 +177,12 @@
 .\读书笔记\Business Related\职业发展\JD Summary.html
 .\读书笔记\Business Related\职业发展\JD Summary.md
 .\读书笔记\Business Related\职业发展\README.md
-.\读书笔记\Business Related\职业发展\如何向上管理.html
-.\读书笔记\Business Related\职业发展\如何向上管理.md
 .\读书笔记\Business Related\职业发展\职业成长要求.html
 .\读书笔记\Business Related\职业发展\职业成长要求.md
 .\读书笔记\Business Related\职业发展\职业路径的思考.html
 .\读书笔记\Business Related\职业发展\职业路径的思考.md
 .\读书笔记\CS相关\README.md
 .\读书笔记\CS相关\cs基础知识\README.md
-.\读书笔记\CS相关\cs基础知识\CS基础\Chrome快捷键.html
-.\读书笔记\CS相关\cs基础知识\CS基础\Chrome快捷键.md
 .\读书笔记\CS相关\cs基础知识\CS基础\Code Rules.html
 .\读书笔记\CS相关\cs基础知识\CS基础\Code Rules.md
 .\读书笔记\CS相关\cs基础知识\CS基础\Git branch.html
@@ -393,6 +416,8 @@
 .\读书笔记\IDEA整理\README.md
 .\读书笔记\IDEA整理\如何做事\Fail-safe机制.html
 .\读书笔记\IDEA整理\如何做事\Fail-safe机制.md
+.\读书笔记\IDEA整理\如何做事\Learning to shut up.html
+.\读书笔记\IDEA整理\如何做事\Learning to shut up.md
 .\读书笔记\IDEA整理\如何做事\README.md
 .\读书笔记\IDEA整理\如何做事\从现在开始.html
 .\读书笔记\IDEA整理\如何做事\太用力的人跑不远.html
@@ -421,8 +446,10 @@
 .\读书笔记\IDEA整理\心中有梦\README.md
 .\读书笔记\IDEA整理\心中有梦\公主死去了屠龙的少年还在燃烧.html
 .\读书笔记\IDEA整理\心中有梦\公主死去了屠龙的少年还在燃烧.md
-.\读书笔记\IDEA整理\心中有梦\答应别人的事,一定要办到.html
-.\读书笔记\IDEA整理\心中有梦\答应别人的事,一定要办到.md
+.\读书笔记\IDEA整理\心中有梦\如果人生不用考虑钱你会怎么活.html
+.\读书笔记\IDEA整理\心中有梦\如果人生不用考虑钱你会怎么活.md
+.\读书笔记\IDEA整理\心中有梦\答应别人的事一定要办到.html
+.\读书笔记\IDEA整理\心中有梦\答应别人的事一定要办到.md
 .\读书笔记\IDEA整理\认识世界\2.png
 .\读书笔记\IDEA整理\认识世界\README.md
 .\读书笔记\IDEA整理\认识世界\《研究的逻辑》关于逻辑证伪主义的分析-.html
@@ -452,6 +479,8 @@
 .\读书笔记\IDEA整理\认识他人\看到别人的优势.md
 .\读书笔记\IDEA整理\认识他人\重要的细节.html
 .\读书笔记\IDEA整理\认识他人\重要的细节.md
+.\读书笔记\IDEA整理\认识自己\Being Humble.html
+.\读书笔记\IDEA整理\认识自己\Being Humble.md
 .\读书笔记\IDEA整理\认识自己\How to be better.html
 .\读书笔记\IDEA整理\认识自己\How to be better.md
 .\读书笔记\IDEA整理\认识自己\How to do things.html
@@ -905,12 +934,14 @@
 .\读书笔记\心理学\爱情心理学\Hello-Girls.html
 .\读书笔记\心理学\爱情心理学\hellogirl.png
 .\读书笔记\心理学\爱情心理学\README.md
+.\读书笔记\心理学\爱情心理学\shehuiyuyan1.jpg
 .\读书笔记\心理学\爱情心理学\为什么异地恋容易分手.html
 .\读书笔记\心理学\爱情心理学\为什么异地恋容易分手.md
 .\读书笔记\心理学\爱情心理学\亲密与孤独.html
 .\读书笔记\心理学\爱情心理学\亲密与孤独.md
 .\读书笔记\心理学\爱情心理学\人生75年.html
 .\读书笔记\心理学\爱情心理学\人生75年.md
+.\读书笔记\心理学\爱情心理学\从社会语言学看上堆下切.html
 .\读书笔记\心理学\爱情心理学\傻逼的故事.html
 .\读书笔记\心理学\爱情心理学\傻逼的故事.md
 .\读书笔记\心理学\爱情心理学\友谊和爱情.html
@@ -1392,8 +1423,14 @@
 .\读书笔记\艺术相关\摄影相关\摄影后期\色彩空间.md
 .\读书笔记\艺术相关\文学相关\README.md
 .\读书笔记\艺术相关\文学相关\《诗经》读书随摘整理-.html
+.\读书笔记\艺术相关\文学相关\写作中的潜文本.html
+.\读书笔记\艺术相关\文学相关\写作中的潜文本.md
+.\读书笔记\艺术相关\文学相关\如何写对话.html
+.\读书笔记\艺术相关\文学相关\如何写对话.md
 .\读书笔记\艺术相关\文学相关\诗句收集.html
 .\读书笔记\艺术相关\文学相关\诗句收集.md
+.\读书笔记\艺术相关\文学相关\黄自元间架结构九十二法.html
+.\读书笔记\艺术相关\文学相关\黄自元间架结构九十二法.md
 .\读书笔记\艺术相关\绘画相关\README.md
 .\读书笔记\艺术相关\绘画相关\绘画技术\README.md
 .\读书笔记\艺术相关\绘画相关\绘画技术\人体比例教程与绘画.html
@@ -1433,38 +1470,3 @@
 .\读书笔记\语言篇\英语学习\介词表现的三类关系时间空间交际.html
 .\读书笔记\语言篇\英语学习\英语语篇随笔.html
 .\读书笔记\语言篇\英语学习\谈空间介词的学习.html
-.\读书笔记\语言篇\表达相关\README.md
-.\读书笔记\语言篇\表达相关\daily表达\1.png
-.\读书笔记\语言篇\表达相关\daily表达\Being Humble.html
-.\读书笔记\语言篇\表达相关\daily表达\Being Humble.md
-.\读书笔记\语言篇\表达相关\daily表达\Learning to shut up.html
-.\读书笔记\语言篇\表达相关\daily表达\Learning to shut up.md
-.\读书笔记\语言篇\表达相关\daily表达\Learning to speak.html
-.\读书笔记\语言篇\表达相关\daily表达\Learning to speak.md
-.\读书笔记\语言篇\表达相关\daily表达\README.md
-.\读书笔记\语言篇\表达相关\daily表达\Representation Framework.html
-.\读书笔记\语言篇\表达相关\daily表达\Representation Framework.md
-.\读书笔记\语言篇\表达相关\daily表达\shehuiyuyan1.jpg
-.\读书笔记\语言篇\表达相关\daily表达\《高难度谈话》读书后记.html
-.\读书笔记\语言篇\表达相关\daily表达\从社会语言学看上堆下切.html
-.\读书笔记\语言篇\表达相关\daily表达\工作汇报.html
-.\读书笔记\语言篇\表达相关\daily表达\工作汇报.md
-.\读书笔记\语言篇\表达相关\daily表达\语言篇举个栗子.html
-.\读书笔记\语言篇\表达相关\daily表达\语言篇我们爱演讲.html
-.\读书笔记\语言篇\表达相关\daily表达\语言篇我需要它.html
-.\读书笔记\语言篇\表达相关\daily表达\语言篇来回答一个问题.html
-.\读书笔记\语言篇\表达相关\daily表达\语言篇逃不掉争论.html
-.\读书笔记\语言篇\表达相关\Pre相关\AboutPresentation.html
-.\读书笔记\语言篇\表达相关\Pre相关\AboutPresentation.md
-.\读书笔记\语言篇\表达相关\Pre相关\README.md
-.\读书笔记\语言篇\表达相关\Pre相关\《乔布斯的魔力演讲》后记·做一次好的演讲-.html
-.\读书笔记\语言篇\表达相关\写作相关\Pyramid-完整版.md
-.\读书笔记\语言篇\表达相关\写作相关\Pyramid.html
-.\读书笔记\语言篇\表达相关\写作相关\Pyramid.md
-.\读书笔记\语言篇\表达相关\写作相关\README.md
-.\读书笔记\语言篇\表达相关\写作相关\写作中的潜文本.html
-.\读书笔记\语言篇\表达相关\写作相关\写作中的潜文本.md
-.\读书笔记\语言篇\表达相关\写作相关\如何写对话.html
-.\读书笔记\语言篇\表达相关\写作相关\如何写对话.md
-.\读书笔记\语言篇\表达相关\写作相关\黄自元间架结构九十二法.html
-.\读书笔记\语言篇\表达相关\写作相关\黄自元间架结构九十二法.md
