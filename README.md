@@ -3,21 +3,6 @@
 
 
 
-- [ ] 0423[Lean Start-up and Basic Analytics](./读书笔记/Business Related/数据分析/Business Sense/Lean Start-up and Basic Analytics.html)
-- [ ] 0423[Data Analysis Reports writing](./读书笔记/Business Related/数据分析/Data Analysis Reports writing.html)
-- [ ] 0423[数据运营](./读书笔记/Business Related/数据分析/数据运营.html)
-- [ ] 0423[Using Lean Analytics](./读书笔记/Business Related/数据分析/Business Sense/Using Lean Analytics.html)
-- [ ] 0423[Digitization Manager Trainee](./读书笔记/Business Related/职业发展/Digitization Manager Trainee.html)
-- [ ] 0423[指标体系](./读书笔记/Business Related/数据分析/指标体系.html)
-- [ ] 0423[Data Analyst Machine Learning](./读书笔记/Business Related/数据分析/Data Analyst Machine Learning.html)
-- [ ] 0423[Data Analyst Database](./读书笔记/Business Related/数据分析/Data Analyst Database.html)
-- [ ] 0423[Data Analyst Probability Theory](./读书笔记/Business Related/数据分析/Data Analyst Probability Theory.html)
-- [ ] 0423[DA 常见问题](./读书笔记/Business Related/数据分析/DA 常见问题.html)
-- [ ] 0423[Data Analyst SQL](./读书笔记/Business Related/数据分析/Data Analyst SQL.html)
-- [ ] 0423[Data Analyst Career Path](./读书笔记/Business Related/职业发展/Data Analyst Career Path.html)
-- [ ] 0423[Normal Data Range](./读书笔记/Business Related/数据分析/Business Sense/Normal Data Range.html)
-- [ ] 0423[AB Test](./读书笔记/Business Related/数据分析/AB Test.html)
-- [ ] 0423[JD Summary](./读书笔记/Business Related/职业发展/JD Summary.html)
 - [ ] 0422[专精与杂全的思考](./读书笔记/IDEA整理/专精与杂全的思考.html) 
 - [ ] 0419[Plan and Learning](./读书笔记/IDEA整理/Plan and Learning.html)
 - [ ] 0417[成就感与行为](./读书笔记/心理学/认知心理学/成就感与行为.html)
