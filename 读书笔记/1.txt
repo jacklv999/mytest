@@ -154,6 +154,7 @@
 .\读书笔记\Business Related\Soft skills\商务写作\Pyramid.html
 .\读书笔记\Business Related\Soft skills\商务写作\Pyramid.md
 .\读书笔记\Business Related\Soft skills\商务写作\README.md
+.\读书笔记\Business Related\Soft skills\汇报相关\README.md
 .\读书笔记\Business Related\Soft skills\汇报相关\如何向上管理.html
 .\读书笔记\Business Related\Soft skills\汇报相关\如何向上管理.md
 .\读书笔记\Business Related\Soft skills\汇报相关\工作汇报.html
