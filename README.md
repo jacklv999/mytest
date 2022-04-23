@@ -27,29 +27,6 @@
 - [ ] 1208[Using Lean Analytics](./读书笔记/Business Related/Business Sense/Using Lean Analytics.html)
 - [ ] 1208[Lean Start-up and Basic Analytics](./读书笔记/Business Related/Business Sense/Lean Start-up and Basic Analytics.html)
 - [ ] 1205[数据运营](./读书笔记/Business Related/数据运营.html) 
-- [ ] 1127[Scrapy Note](./读书笔记/CS/Python/Scrapy Note.html)
-- [ ] 1125[Financial Analysis](./读书笔记/Business Related/Financial Analysis.html)
-- [ ] 1125[Frequently Used Classifier](./读书笔记/ML&DL/MLArticles/Frequently Used Classifier.html)
-- [ ] 1124[Word Embeding Review](./读书笔记/ML&DL/general/Word Embeding Review.html) 
-- [ ] 1120[Pandas Package Review](./读书笔记/CS/Python/Pandas Package Review.html)
-- [ ] 1113[Data Analyst Machine Learning](./读书笔记/Business Related/Data Analyst Machine Learning.html)
-- [ ] 1113[Data Analyst SQL](./读书笔记/Business Related/Data Analyst SQL.html)
-- [ ] 1113[Data Analyst Database](./读书笔记/Business Related/Data Analyst Database.html)
-- [ ] 1113[Data Analyst Probability Theory](./读书笔记/Business Related/Data Analyst Probability Theory.html)
-- [ ] 1112[Learning to shut up](./读书笔记/语言篇/Learning to shut up.html) 
-- [ ] 1110[Representation Framework](./读书笔记/语言篇/Representation Framework.html)
-- [ ] 1109[Mastering Reading Skills](./读书笔记/IDEA整理/Mastering Reading Skills.html)
-- [ ] 1109[Learning to speak](./读书笔记/语言篇/Learning to speak.html)
-- [ ] 1109[How to do things](./读书笔记/IDEA整理/How to do things.html)
-- [ ] 1104[Rethink the Importance of Advices](./读书笔记/IDEA整理/Rethink the Importance of Advices.html)
-- [ ] 1101[Leetcode SQL Note (41 - 50)](./读书笔记/CS/cs/Leetcode SQL Note (41 - 50).html)
-- [ ] 1030[Leetcode SQL Note (31 - 40)](./读书笔记/CS/cs/Leetcode SQL Note (31 - 40).html)
-- [ ] 1029[Leetcode SQL Note (21 - 30)](./读书笔记/CS/cs/Leetcode SQL Note (21-30).html)
-- [ ] 1029[Leetcode SQL Note (11 - 20)](./读书笔记/CS/cs/Leetcode SQL Note (11 - 20).html)
-- [ ] 1028[Leetcode SQL Note (01 - 10)](./读书笔记/CS/cs/Leetcode SQL Note (01 - 10).html)
-- [ ] 1017[SQL Evolution](./读书笔记/CS/cs/SQL Evolution.html) 
-- [ ] 1014[RF and Ensemble](./读书笔记/ML&DL/MLArticles/RF and Ensemble.html)
-- [ ] 1010[SQL教程](./读书笔记/CS/cs/SQL教程.html) 
 
 
 
@@ -57,7 +34,7 @@
 
 
 
-# [IMPORTANT](https://www.zhihu.com/collection/70812410) 
+# IMPORTANT
 
 - I want to get things done for once and for ever
   - repeat things every day until you mastering it
