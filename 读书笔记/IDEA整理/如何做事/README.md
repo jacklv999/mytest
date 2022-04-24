@@ -8,3 +8,4 @@
 - [熵增定律: 主动出击, 对抗熵增](./熵增定律.html) 
 - [为未来抉择: 3年以后, 有何不同?](./思考未来.html) 
 - [Learning to shut up and do sth useful](./Learning to shut up.html) 
+- [专精的目标与要求](./专精的目标与要求.html) 

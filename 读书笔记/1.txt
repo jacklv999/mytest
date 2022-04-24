@@ -184,6 +184,8 @@
 .\读书笔记\Business Related\职业发展\职业成长要求.md
 .\读书笔记\Business Related\职业发展\职业路径的思考.html
 .\读书笔记\Business Related\职业发展\职业路径的思考.md
+.\读书笔记\Business Related\职业发展\达芬奇的诅咒你有吗.html
+.\读书笔记\Business Related\职业发展\达芬奇的诅咒你有吗.md
 .\读书笔记\CS相关\README.md
 .\读书笔记\CS相关\cs基础知识\README.md
 .\读书笔记\CS相关\cs基础知识\CS基础\Code Rules.html
@@ -424,6 +426,8 @@
 .\读书笔记\IDEA整理\如何做事\Learning to shut up.html
 .\读书笔记\IDEA整理\如何做事\Learning to shut up.md
 .\读书笔记\IDEA整理\如何做事\README.md
+.\读书笔记\IDEA整理\如何做事\专精的目标与要求.html
+.\读书笔记\IDEA整理\如何做事\专精的目标与要求.md
 .\读书笔记\IDEA整理\如何做事\从现在开始.html
 .\读书笔记\IDEA整理\如何做事\太用力的人跑不远.html
 .\读书笔记\IDEA整理\如何做事\太用力的人跑不远.md
@@ -946,6 +950,8 @@
 .\读书笔记\心理学\爱情心理学\友谊和爱情.md
 .\读书笔记\心理学\爱情心理学\喜欢我们得不到的人.html
 .\读书笔记\心理学\爱情心理学\喜欢我们得不到的人.md
+.\读书笔记\心理学\爱情心理学\如何送女生礼物.html
+.\读书笔记\心理学\爱情心理学\如何送女生礼物.md
 .\读书笔记\心理学\爱情心理学\安全感.html
 .\读书笔记\心理学\爱情心理学\安全感.md
 .\读书笔记\心理学\爱情心理学\恋爱前功课.html
