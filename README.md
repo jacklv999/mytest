@@ -3,10 +3,6 @@
 
 
 
-- [ ] 0424[Git branch](./读书笔记/CS相关/Git相关/Git branch.html)
-- [ ] 0424[Github命令](./读书笔记/CS相关/Git相关/Github命令.html)
-- [ ] 0424[Go语言教程](./读书笔记/CS相关/Go语言相关/Go语言教程.html)
-- [ ] 0424[Git Config](./读书笔记/CS相关/Git相关/Git Config.html)
 - [ ] 0422[专精与杂全的思考](./读书笔记/IDEA整理/专精与杂全的思考.html) 
 - [ ] 0419[Plan and Learning](./读书笔记/IDEA整理/Plan and Learning.html)
 - [ ] 0417[成就感与行为](./读书笔记/心理学/认知心理学/成就感与行为.html)
