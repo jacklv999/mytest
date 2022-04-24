@@ -1,8 +1,8 @@
 ## Python GUI
 
-- ### [Dear Python GUI](./DPG/) 
+- ## [Dear Python GUI](./DPG/) 
 
-- ### [Tkinter](./tkinter) 
+- ## [Tkinter](./tkinter) 
 
-- ### [PyQt](./PyQt/) 
+- ## [PyQt](./PyQt/) 
 

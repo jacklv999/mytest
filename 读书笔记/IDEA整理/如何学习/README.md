@@ -5,4 +5,5 @@
 - [Mastering Reading Skills](./Mastering Reading Skills.html) 
 - [如何向他人请教?](./如何请教.html) 
 - [利用碎片化时间整理知识](./利用碎片化时间整理知识.html) 
+- [关于“所写即所得“](./读书随记-·-所写即所得-.html) 
 
