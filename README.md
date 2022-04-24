@@ -3,6 +3,10 @@
 
 
 
+- [ ] 0424[催眠术框架](./读书笔记/心理学/认知心理学/催眠术框架.html)
+- [ ] 0424[知识的诅咒](./读书笔记/Business Related/Soft skills/沟通相关/知识的诅咒.html)
+- [ ] 0424[清醒催眠暗示的力量](./读书笔记/心理学/认知心理学/清醒催眠暗示的力量.html)
+- [ ] 0424[疏离型依赖探析-(第五次修改)](./读书笔记/心理学/爱情心理学/疏离型依赖探析-(第五次修改).html)
 - [ ] 0419[Plan and Learning](./读书笔记/IDEA整理/Plan and Learning.html)
 - [ ] 0417[成就感与行为](./读书笔记/心理学/认知心理学/成就感与行为.html)
 - [ ] 0417[Reshape the way you work](./读书笔记/IDEA整理/Reshape the way you work.html)
