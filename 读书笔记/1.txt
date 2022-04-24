@@ -186,14 +186,6 @@
 .\读书笔记\CS相关\cs基础知识\README.md
 .\读书笔记\CS相关\cs基础知识\CS基础\Code Rules.html
 .\读书笔记\CS相关\cs基础知识\CS基础\Code Rules.md
-.\读书笔记\CS相关\cs基础知识\CS基础\Git branch.html
-.\读书笔记\CS相关\cs基础知识\CS基础\Git branch.md
-.\读书笔记\CS相关\cs基础知识\CS基础\Git Config.html
-.\读书笔记\CS相关\cs基础知识\CS基础\Git Config.md
-.\读书笔记\CS相关\cs基础知识\CS基础\Github命令.html
-.\读书笔记\CS相关\cs基础知识\CS基础\Github命令.md
-.\读书笔记\CS相关\cs基础知识\CS基础\Go语言教程.html
-.\读书笔记\CS相关\cs基础知识\CS基础\Go语言教程.md
 .\读书笔记\CS相关\cs基础知识\CS基础\Hash Table.html
 .\读书笔记\CS相关\cs基础知识\CS基础\Hash Table.ipynb
 .\读书笔记\CS相关\cs基础知识\CS基础\Open API Note.html
@@ -245,6 +237,16 @@
 .\读书笔记\CS相关\cs基础知识\Win\README.md
 .\读书笔记\CS相关\cs基础知识\Win\Windows脚本.html
 .\读书笔记\CS相关\cs基础知识\Win\Windows脚本.md
+.\读书笔记\CS相关\Git相关\Git branch.html
+.\读书笔记\CS相关\Git相关\Git branch.md
+.\读书笔记\CS相关\Git相关\Git Config.html
+.\读书笔记\CS相关\Git相关\Git Config.md
+.\读书笔记\CS相关\Git相关\Github命令.html
+.\读书笔记\CS相关\Git相关\Github命令.md
+.\读书笔记\CS相关\Git相关\README.md
+.\读书笔记\CS相关\Go语言相关\Go语言教程.html
+.\读书笔记\CS相关\Go语言相关\Go语言教程.md
+.\读书笔记\CS相关\Go语言相关\README.md
 .\读书笔记\CS相关\Office相关\PowerApp笔记.html
 .\读书笔记\CS相关\Office相关\PowerApp笔记.md
 .\读书笔记\CS相关\Office相关\PPT制作中的小和大.html
