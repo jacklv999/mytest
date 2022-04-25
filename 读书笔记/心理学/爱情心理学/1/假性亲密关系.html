@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>假性亲密关系</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
+html { font-size: 16px; }
+body { font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6; }
+#write { max-width: 860px; margin: 0px auto; padding: 30px 30px 100px; }
+#write > ul:first-child, #write > ol:first-child { margin-top: 30px; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1rem; margin-bottom: 1rem; font-weight: bold; line-height: 1.4; cursor: text; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 tt, h1 code { font-size: inherit; }
+h2 tt, h2 code { font-size: inherit; }
+h3 tt, h3 code { font-size: inherit; }
+h4 tt, h4 code { font-size: inherit; }
+h5 tt, h5 code { font-size: inherit; }
+h6 tt, h6 code { font-size: inherit; }
+h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
+li > ol, li > ul { margin: 0px; }
+hr { height: 2px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; overflow: hidden; box-sizing: content-box; }
+li p.first { display: inline-block; }
+ul, ol { padding-left: 30px; }
+ul:first-child, ol:first-child { margin-top: 0px; }
+ul:last-child, ol:last-child { margin-bottom: 0px; }
+blockquote { border-left: 4px solid rgb(223, 226, 229); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; word-break: initial; }
+table tr { border-top: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; }
+table tr:nth-child(2n), thead { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(223, 226, 229); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr th:first-child, table tr td:first-child { margin-top: 0px; }
+table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
+.CodeMirror-lines { padding-left: 4px; }
+.code-tooltip { box-shadow: rgba(0, 28, 36, 0.3) 0px 1px 1px 0px; border-top: 1px solid rgb(238, 242, 242); }
+.md-fences, code, tt { border: 1px solid rgb(231, 234, 237); background-color: rgb(248, 248, 248); border-radius: 3px; padding: 2px 4px 0px; font-size: 0.9em; }
+code { background-color: rgb(243, 244, 244); padding: 0px 2px; }
+.md-fences { margin-bottom: 15px; margin-top: 15px; padding-top: 8px; padding-bottom: 6px; }
+.md-task-list-item > input { margin-left: -1.3em; }
+@media print {
+  html { font-size: 13px; }
+  table, pre { break-inside: avoid; }
+  pre { overflow-wrap: break-word; }
+}
+.md-fences { background-color: rgb(248, 248, 248); }
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+.md-mathjax-midline { background: rgb(250, 250, 250); }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h5.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+.md-image > .md-meta { border-radius: 3px; padding: 2px 0px 0px 4px; font-size: 0.9em; color: inherit; }
+.md-tag { color: rgb(167, 167, 167); opacity: 1; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+.sidebar-tabs { border-bottom: none; }
+#typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
+#typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
+.on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
+header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Arial, sans-serif; }
+.file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
+.mac-seamless-mode #typora-sidebar { background-color: var(--side-bar-bg-color); }
+.md-lang { color: rgb(180, 101, 77); }
+.html-for-mac .context-menu { --item-hover-bg-color: #E6F0FE; }
+#md-notification .btn { border: 0px; }
+.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
+
+
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h2><a name="%E5%81%87%E6%80%A7%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB" class="md-header-anchor"></a><span>假性亲密关系</span></h2><p><strong><span>真正的亲密关系是你与另一个人之间深刻的、自由的、互相回应的联结。</span></strong><span>然而，并不是所有的情侣之间都真的有这样的感受和联结。如果我们仔细观察自己身边的人，也许就是你的父母，甚至就是你自己，一定有那些看似亲密，却总是好像“差点儿什么”的伴侣。</span></p><p>&nbsp;</p><p><span>在关系中逃避关系（hiding from relationship in relationship）就是Irrelationship，假性亲密关系。它其实不仅仅指恋爱关系，也可以发生在朋友、家人或工作伙伴之间。但今天，我们先来讨论亲密关系中的“假性”状态。</span></p><p>&nbsp;</p><p><span>下文还会谈到另外一种病态共生关系，我们翻译为依赖共生关系（Codependency）。</span></p><p>&nbsp;</p><p><strong><span>什么是假性亲密关系？（Irrelationship）</span></strong></p><p><span>假性亲密关系，并不是真正的亲密关系，而是指伴侣双方默认的一种状态：利用形式上的在一起，来回避真正的在一起。你们可能在外人看起来是亲密的；但实际上，这段关系避开了双方彼此的坦诚和接纳、避开了双方自愿地为这段感情和对方付出。它是双方不自觉地精心构建起来的“联结”，是伴侣双方的共谋。</span></p><p>&nbsp;</p><p><span>真正的亲密关系代表着相互关心，彼此共情及情感付出。但这些是需要承担情感投入的风险的，在乎一个人，我们就有可能因此受伤。假性亲密关系就是为应对这样的风险出现的：</span><strong><span>我们怀着对失控的恐惧，所以不敢投入，回避了彼此情感的付出。</span></strong></p><p>&nbsp;</p><p><span>因此，它是一种</span><strong><span>防御机制（defensive mechanism）</span></strong><span>，是两个人一起在防御那种“需要双方一起创造的真正亲密状态”。很多时候，我们害怕“真的在乎一个人”，或者“让别人对我们来说变得重要”，因为真正的爱和关心一个人是一件非常危险的事情，让我们有一种被伤害、被拒绝、被抛弃的脆弱感。这使我们恐惧和焦虑。</span></p><p>&nbsp;</p><p><span>而这样的一种防御机制则可以帮助我们抵抗这样的恐惧和焦虑。待在这样一段关系里，对我们来说是“安全”的，因为这段关系从表面上看非常稳定，有着精心构建的规则，不会出现不可预测的危机。我们在这段关系中将会得到的情绪反应都是在自己控制中的、可以完全预测的。假性亲密关系使我们从真正的亲密关系带来的复杂性中得以解脱。</span></p><p>&nbsp;</p><p><span>有心理学家认为，在假性亲密关系中，我们处于一种</span><strong><span>“情感禁闭”（Brainlock）</span></strong><span>的状态，即双方不自觉地达成了协议——共同保持情感上的麻木。这种禁闭的状态，看起来双方是在一起，但却拒绝进行深刻的情感联结，在实质上却是一种分离。</span></p><p>&nbsp;</p><p><strong><span>假性亲密与依赖共生（Codependency）</span></strong></p><p><span>在近年来对假性亲密关系的研究中，这个概念经常被与“Codependency”一起讨论，因为“Codependency”造成的病态相互依赖的关系，往往也是双方的共谋，和假性亲密关系一样，Codependency 的双方也往往都看似稳固，很难分开。（回复143给微信公号knowyourself2015提取“你有恋爱成瘾症么？”）</span></p><p>&nbsp;</p><p><span>Codependency这个词，在中文中曾经被翻译为拖累症，然而我们认为这种翻译并不完全准确。我们更愿意称呼它为“依赖共生关系”。</span></p><p>&nbsp;</p><p><span>Codependency最早出自和物质成瘾相关的语境，是指一种伴侣之间的关系。例如，一对伴侣中一方酒精成瘾，导致自身功能低下；而另一方则依赖于伴侣的这种功能低下，给出强制性的照顾（caretake），来满足自己的精神需要。</span></p><p>&nbsp;</p><p><span>因此我们可以这样说，Codependency的本质是一个人无法依赖自己内在的自我、或自身完全的意志来决定自己的行动。他们的行动和自我价值都依附于外界的东西，可能是人，可能是成瘾物质等。在一段狭义的Codependency的关系中，两个人都具有这样的特点，需要一方有生理或精神上的成瘾（嗜赌、性成瘾、物质成瘾等），造成这个人功能低下，极端对自己不负责任；而另一个人则高度依赖这个人的“社会生活功能低下”和“不负责任”，在过分地、强制地、照顾另一方中获得自己的价值感。这是一种病态的共生关系。</span></p><p>&nbsp;</p><p><span>在依赖共生关系中扮演“助人者”角色的一方，往往“依赖别人对自己的依赖”。他们把过多的注意力放在另一半身上，给予ta并不需要的过多的关怀，为此可以完全忽略自身的需要，同时又带有强迫性的控制欲，痴迷于控制对方的一切。</span></p><p>&nbsp;</p><p><span>一段Codependency的关系中，往往两个人都既是受害者，又是同谋：一方依赖对方，另一方则依赖“对方对自己的依赖”。在这段“共生”的关系中，两个人往往都会感到痛苦，也能够感受到他们在做有害的事情，助人者能感到自己真正的需求被忽视，还会给自己打上“弱者”、“受害者”的标签。但实际上这种关系也是他们自己所寻求的。</span></p><p>&nbsp;</p><p><span>Codependency关系中的人，其实也是秘密地达成了互惠的共谋，这一点，和假性亲密关系是有类似之处的。</span></p><p>&nbsp;</p><p><span>不过，假性亲密关系的双方并不觉得自己是受害者，事实上，他们是同盟者。他们携手建立起了降低焦虑的机制，避免和对方分享真实的感觉，尽管这种机制会使关系变得冷漠和令人窒息。</span></p><p>&nbsp;</p><p><span>他们觉得，这种联盟对双方都是有好处的，而避免使自己面对那些真实的失落感。他们不会轻易对自己的伴侣放手，不肯结束亲密关系，但这并不是因为情感上的亲密或者深刻的承诺，而是因为这种关系帮助他们防御了“真的在乎一个人”所可能导致的风险。</span></p><p>&nbsp;</p><p><span>而从两种关系的性质上看，Codependency是一种可以被识别和确认的、有害的个体病态心理（不管是成瘾者，还是助人者，双方都有病态心理），而假性亲密关系则只是关系的一种，虽然也必然有它的负面作用，却不一定是“病态”的。</span></p><p>&nbsp;</p><p><strong><span>什么导致了假性亲密关系？</span></strong></p><p><span>可能的原因很多。</span></p><p>&nbsp;</p><p><span>其中常见的一种是，我们都是从人生早期的关系中学习去“定义”什么是爱。有些孩子的父母，本身就是一种假性亲密关系，他们从不自主、自发的互相表达爱意，这样的孩子就更容易认为，亲密关系、婚姻、爱就是这样一种程序式的互动而已。在这种僵死的、</span><a href='https://www.zhihu.com/search?q=程序化&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A57803610}'><span>程序化</span></a><span>的、缺乏活力的家庭里长大的孩子，很容易会缺乏“激情（passion）”，无论是和性有关的激情还是其他方面的。毕竟“激情”它显而易见不是程序化的。而激情是好的亲密关系中所必需的。</span></p><p>&nbsp;</p><p><span>假性亲密关系看起来有很多种形式：</span></p><p><span>有时候可能一方的行为取决于另一方的需要（索取方为主导）；</span></p><p><span>有时候一方接受什么取决于另一方给予什么（付出方为主导）；</span></p><p><span>有时候一方负责表演而另一方负责赞赏（看起来的完美情侣）。</span></p><p>&nbsp;</p><p><span>但实际上，无论哪一种，</span><strong><span>关系中的双方都是平等地被束缚着</span></strong><span>，他们自愿被束缚去感受到“世界是安全的”，而狂野的激情在他们看来是最危险不过的事情——毕竟这是他们从小长大的过程中始终陌生，从未接触过的。</span></p><p>&nbsp;</p><p><strong><span>假性亲密关系的危害以及改变</span></strong></p><p><span>尽管这种关系在表面上是“安全”的，且会使人长期深陷其中、不易分离，但假性亲密关系如果不加修复，会带来很多问题。</span><strong><span>就像心脏过于有节律地跳动，反而是严重心脏病甚至死亡的前兆一样</span></strong><span>（健康心脏的跳动反而不是那么规则），过于冷静和规律的交往模式很有可能是一段不够健康的关系。</span></p><p><span>一方面，假性亲密关系中的人，可能从儿时起，就没有过真正双方彼此接纳和理解的深度联结，他们对自我的角色定位因而是非常片面和狭隘的，ta的思想和行为都有日常的规则可循。假性亲密关系压抑了人的情绪、也压抑了人的自我认识，从而就剥夺了这个人真正去和别人联结的可能。</span></p><p>&nbsp;</p><p><span>此外，假性亲密关系中的两个人，即便努力去“照顾对方”，也常常会觉得失望。双方都会觉得自己是唯一一直在付出的那个。这些人中的许多，从小就要去满足父母明确提出的各种需求，因此他们逐渐失去了看到“别人或自己真正需要什么”的能力。他们自以为是的付出是基于自身，而不是对方的。因此这种付出注定会让他们感到更加被隔离、被剥削、被低谷，感到愤怒。当我们在无意识中被消磨得精疲力尽，总会有其中一方或者双方觉得孤立无援，开始渴望真正的亲密，最终想要离开这段关系。</span></p><p>&nbsp;</p><p><span>在这时，我们中的一方可能就会突然有向外寻找新的对象的冲动。但即便发展了新的恋情，可能还是会对于接纳一个新的人、作为“真实的自己”被看待和被爱而感到害怕和焦虑。</span></p><p>&nbsp;</p><p><span>如果你习惯了假性亲密关系，你最应该做的也许是检视自己在每段关系中已经形成的角色及期望的固定模式。比如，你们总是无意识地、但却是不可避免地，按照设计好的固定脚本来扮演角色。我们已经知道，这并非正常的状态，而只是对焦虑的防御机制。但是要知道，焦虑是不会因为防御和逃避就自然消亡的。</span></p><p>&nbsp;</p><p><span>在意识到自己的假性亲密关系状态所带来的危害后，你可能会拥有“冒险”的动力。当你尝试着迈出第一步，比如试着对一份感情怀有并不总是拥有失败结局的期待，你就有可能想要发展真正的爱情。渐渐地，你可以试着与对方分享自己的感觉，让对方了解真实的你。</span></p><p>&nbsp;</p><p><span>这一定会让你害怕，你体内的预警机制会跳出来，告诉你让他人了解你是危险的，这会让你惊慌和脆弱；然而，处理焦虑的方法不是逃避，只能是经历它们。</span></p><p>&nbsp;</p><p><span>而如果你遇到的对象是长期习惯假性亲密模式的，你可能会感到无助，因为你会发现，这个人虽然口上说着爱你，并对你进行着例行的关心，但ta实际上对于了解你是一个什么样的人毫无兴趣，面前的这个人好像只是在进行着角色扮演。而你又会担心，说出真实的感受会对这段关系造成毁灭性的破坏。这时，你也许可以试着坦诚，只有你的坦诚，才可能影响你们互动的状态，从而影响他。抓住令你失落的感觉，让它引导你去寻找真正能带给你内心的满足感的东西。也许你们之间真正的联结可以逐渐建立起来。</span></p><p>&nbsp;</p><blockquote><p><span>“勇敢不是不恐惧，而是心怀恐惧，仍然向前。”</span></p></blockquote><p><span>这句话可能就是那些假性亲密关系者最好的解药了。</span></p></div>
+</body>
+</html>

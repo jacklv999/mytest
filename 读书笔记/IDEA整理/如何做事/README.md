@@ -9,3 +9,6 @@
 - [为未来抉择: 3年以后, 有何不同?](./思考未来.html) 
 - [Learning to shut up and do sth useful](./Learning to shut up.html) 
 - [专精的目标与要求](./专精的目标与要求.html) 
+- [专精与整合](./专精与整合.html) 
+- [治疗拖延症: 五分钟原则](./五分钟原则.html) 
+- [主动: 机会不会等你准备好](./主动做事.html) 

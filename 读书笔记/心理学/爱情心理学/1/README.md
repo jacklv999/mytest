@@ -62,4 +62,6 @@
 - [如何尊重女生?](./如何尊重女生.html) 
 - [how to maintain relationships?](./maintainrelationships.html) 
 - [女生的生理期与性激素](./女生的生理期.html) 
+- [图书馆30秒](./图书馆30秒.html) 
+- [假性亲密关系](./假性亲密关系.html) 
 

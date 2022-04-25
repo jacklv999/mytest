@@ -154,6 +154,8 @@
 .\读书笔记\Business Related\Soft skills\商务写作\Pyramid.html
 .\读书笔记\Business Related\Soft skills\商务写作\Pyramid.md
 .\读书笔记\Business Related\Soft skills\商务写作\README.md
+.\读书笔记\Business Related\Soft skills\商务写作\结构化思维训练.html
+.\读书笔记\Business Related\Soft skills\商务写作\结构化思维训练.md
 .\读书笔记\Business Related\Soft skills\汇报相关\README.md
 .\读书笔记\Business Related\Soft skills\汇报相关\如何向上管理.html
 .\读书笔记\Business Related\Soft skills\汇报相关\如何向上管理.md
@@ -162,6 +164,8 @@
 .\读书笔记\Business Related\Soft skills\沟通相关\1.png
 .\读书笔记\Business Related\Soft skills\沟通相关\Learning to speak.html
 .\读书笔记\Business Related\Soft skills\沟通相关\Learning to speak.md
+.\读书笔记\Business Related\Soft skills\沟通相关\Professional and Responsible.html
+.\读书笔记\Business Related\Soft skills\沟通相关\Professional and Responsible.md
 .\读书笔记\Business Related\Soft skills\沟通相关\README.md
 .\读书笔记\Business Related\Soft skills\沟通相关\Representation Framework.html
 .\读书笔记\Business Related\Soft skills\沟通相关\Representation Framework.md
@@ -180,6 +184,8 @@
 .\读书笔记\Business Related\职业发展\JD Summary.html
 .\读书笔记\Business Related\职业发展\JD Summary.md
 .\读书笔记\Business Related\职业发展\README.md
+.\读书笔记\Business Related\职业发展\职业成长技巧.html
+.\读书笔记\Business Related\职业发展\职业成长技巧.md
 .\读书笔记\Business Related\职业发展\职业成长要求.html
 .\读书笔记\Business Related\职业发展\职业成长要求.md
 .\读书笔记\Business Related\职业发展\职业路径的思考.html
@@ -426,8 +432,14 @@
 .\读书笔记\IDEA整理\如何做事\Learning to shut up.html
 .\读书笔记\IDEA整理\如何做事\Learning to shut up.md
 .\读书笔记\IDEA整理\如何做事\README.md
+.\读书笔记\IDEA整理\如何做事\专精与整合.html
+.\读书笔记\IDEA整理\如何做事\专精与整合.md
 .\读书笔记\IDEA整理\如何做事\专精的目标与要求.html
 .\读书笔记\IDEA整理\如何做事\专精的目标与要求.md
+.\读书笔记\IDEA整理\如何做事\主动做事.html
+.\读书笔记\IDEA整理\如何做事\主动做事.md
+.\读书笔记\IDEA整理\如何做事\五分钟原则.html
+.\读书笔记\IDEA整理\如何做事\五分钟原则.md
 .\读书笔记\IDEA整理\如何做事\从现在开始.html
 .\读书笔记\IDEA整理\如何做事\太用力的人跑不远.html
 .\读书笔记\IDEA整理\如何做事\太用力的人跑不远.md
@@ -449,6 +461,10 @@
 .\读书笔记\IDEA整理\如何学习\利用碎片化时间整理知识.md
 .\读书笔记\IDEA整理\如何学习\如何请教.html
 .\读书笔记\IDEA整理\如何学习\如何请教.md
+.\读书笔记\IDEA整理\如何学习\学习方式对比.html
+.\读书笔记\IDEA整理\如何学习\学习方式对比.md
+.\读书笔记\IDEA整理\如何学习\学习长期知识.html
+.\读书笔记\IDEA整理\如何学习\学习长期知识.md
 .\读书笔记\IDEA整理\如何学习\学读书.html
 .\读书笔记\IDEA整理\如何学习\读书随记-·-所写即所得-.html
 .\读书笔记\IDEA整理\如何学习\阅读的核心.html
@@ -484,6 +500,10 @@
 .\读书笔记\IDEA整理\认识他人\交流对象高与低.html
 .\读书笔记\IDEA整理\认识他人\交流对象高与低.md
 .\读书笔记\IDEA整理\认识他人\人可信吗.html
+.\读书笔记\IDEA整理\认识他人\人无疵不可与交.html
+.\读书笔记\IDEA整理\认识他人\人无疵不可与交.md
+.\读书笔记\IDEA整理\认识他人\好为人师警告.html
+.\读书笔记\IDEA整理\认识他人\好为人师警告.md
 .\读书笔记\IDEA整理\认识他人\如何识人.html
 .\读书笔记\IDEA整理\认识他人\如何识人.md
 .\读书笔记\IDEA整理\认识他人\看到别人的优势.html
@@ -513,6 +533,8 @@
 .\读书笔记\IDEA整理\认识自己\如何废掉一个人.md
 .\读书笔记\IDEA整理\认识自己\如何认识自己.html
 .\读书笔记\IDEA整理\认识自己\如何认识自己.md
+.\读书笔记\IDEA整理\认识自己\如果是你你会怎么做.html
+.\读书笔记\IDEA整理\认识自己\如果是你你会怎么做.md
 .\读书笔记\IDEA整理\认识自己\学会认错.html
 .\读书笔记\IDEA整理\认识自己\学会认错.md
 .\读书笔记\IDEA整理\认识自己\潜意识主宰行动.html
@@ -948,12 +970,16 @@
 .\读书笔记\心理学\爱情心理学\1\人生75年.html
 .\读书笔记\心理学\爱情心理学\1\人生75年.md
 .\读书笔记\心理学\爱情心理学\1\从社会语言学看上堆下切.html
+.\读书笔记\心理学\爱情心理学\1\假性亲密关系.html
+.\读书笔记\心理学\爱情心理学\1\假性亲密关系.md
 .\读书笔记\心理学\爱情心理学\1\傻逼的故事.html
 .\读书笔记\心理学\爱情心理学\1\傻逼的故事.md
 .\读书笔记\心理学\爱情心理学\1\友谊和爱情.html
 .\读书笔记\心理学\爱情心理学\1\友谊和爱情.md
 .\读书笔记\心理学\爱情心理学\1\喜欢我们得不到的人.html
 .\读书笔记\心理学\爱情心理学\1\喜欢我们得不到的人.md
+.\读书笔记\心理学\爱情心理学\1\图书馆30秒.html
+.\读书笔记\心理学\爱情心理学\1\图书馆30秒.md
 .\读书笔记\心理学\爱情心理学\1\女生的爱情.html
 .\读书笔记\心理学\爱情心理学\1\女生的爱情.md
 .\读书笔记\心理学\爱情心理学\1\女生的生理期.html
