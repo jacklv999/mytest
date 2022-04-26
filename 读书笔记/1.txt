@@ -518,6 +518,8 @@
 .\读书笔记\IDEA整理\认识自己\How to be better.md
 .\读书笔记\IDEA整理\认识自己\How to do things.html
 .\读书笔记\IDEA整理\认识自己\How to do things.md
+.\读书笔记\IDEA整理\认识自己\MBTI人格.html
+.\读书笔记\IDEA整理\认识自己\MBTI人格.md
 .\读书笔记\IDEA整理\认识自己\Plan and Learning.html
 .\读书笔记\IDEA整理\认识自己\Plan and Learning.md
 .\读书笔记\IDEA整理\认识自己\README.md

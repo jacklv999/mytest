@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0426[MBTI人格](./读书笔记/IDEA整理/认识自己/MBTI人格.html)
 - [ ] 0426[软件工程软件设计](./读书笔记/CS相关/cs基础知识/CS基础/软件工程软件设计.html)
 - [ ] 0424[专精的目标与要求](./读书笔记/IDEA整理/如何做事/专精的目标与要求.html)
 - [ ] 0419[Plan and Learning](./读书笔记/IDEA整理/Plan and Learning.html)
