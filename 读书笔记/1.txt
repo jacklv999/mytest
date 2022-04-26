@@ -215,6 +215,8 @@
 .\读书笔记\CS相关\cs基础知识\CS基础\正则表达式再整理.md
 .\读书笔记\CS相关\cs基础知识\CS基础\编译器原理简记.html
 .\读书笔记\CS相关\cs基础知识\CS基础\编译器原理简记.md
+.\读书笔记\CS相关\cs基础知识\CS基础\软件工程软件设计.html
+.\读书笔记\CS相关\cs基础知识\CS基础\软件工程软件设计.md
 .\读书笔记\CS相关\cs基础知识\Linux\linux 基础命令.html
 .\读书笔记\CS相关\cs基础知识\Linux\linux 基础命令.md
 .\读书笔记\CS相关\cs基础知识\Linux\README.md
