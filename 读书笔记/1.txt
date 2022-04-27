@@ -150,6 +150,8 @@
 .\读书笔记\Business Related\Soft skills\Pre相关\AboutPresentation.md
 .\读书笔记\Business Related\Soft skills\Pre相关\README.md
 .\读书笔记\Business Related\Soft skills\Pre相关\《乔布斯的魔力演讲》后记·做一次好的演讲-.html
+.\读书笔记\Business Related\Soft skills\Pre相关\项目立项.html
+.\读书笔记\Business Related\Soft skills\Pre相关\项目立项.md
 .\读书笔记\Business Related\Soft skills\商务写作\Pyramid-完整版.md
 .\读书笔记\Business Related\Soft skills\商务写作\Pyramid.html
 .\读书笔记\Business Related\Soft skills\商务写作\Pyramid.md
@@ -447,6 +449,8 @@
 .\读书笔记\IDEA整理\如何做事\太用力的人跑不远.md
 .\读书笔记\IDEA整理\如何做事\对拖延的反思.html
 .\读书笔记\IDEA整理\如何做事\对拖延的反思.md
+.\读书笔记\IDEA整理\如何做事\工作迭代的方法论.html
+.\读书笔记\IDEA整理\如何做事\工作迭代的方法论.md
 .\读书笔记\IDEA整理\如何做事\思考未来.html
 .\读书笔记\IDEA整理\如何做事\思考未来.md
 .\读书笔记\IDEA整理\如何做事\熵增定律.html
