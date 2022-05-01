@@ -22,21 +22,6 @@
 - [ ] 0417[知识蒸馏](./读书笔记/ML&DL/Other DL/知识蒸馏.html) 
 - [ ] 0416[Adapter架构](./读书笔记/ML&DL/NLP-Related/Adapter架构.html)
 - [ ] 0416[Prompt learning](./读书笔记/ML&DL/NLP-Related/Prompt learning.html) 
-- [ ] 0415[工作汇报](./读书笔记/语言篇/工作汇报.html)
-- [ ] 0318[DA_markdownmap](./读书笔记/Business Related/DA_markdownmap.html)
-- [ ] 0317[Being Humble](./读书笔记/语言篇/Being Humble.html)
-- [ ] 0317[傻逼的故事](./读书笔记/IDEA整理/傻逼的故事.html)
-- [ ] 0322[指标体系](./读书笔记/Business Related/指标体系.html) 
-- [ ] 0102[Spark in Python](./读书笔记/CS/Big Data/Spark in Python.html)
-- [ ] 1222[Note on BERT Embedding](./读书笔记/ML&DL/general/Note on BERT Embedding.html)
-- [ ] 1219[Clustering Algorithm](./读书笔记/ML&DL/MLArticles/Clustering Algorithm.html) 
-- [ ] 1215[Person Profile Analysis](./读书笔记/Business Related/Person Profile Analysis.html)
-- [ ] 1211[AB Test](./读书笔记/Business Related/AB Test.html)
-- [ ] 1211[Market Analysis Note](./读书笔记/Business Related/Market Analysis Note.html)
-- [ ] 1208[Normal Data Range](./读书笔记/Business Related/Business Sense/Normal Data Range.html)
-- [ ] 1208[Using Lean Analytics](./读书笔记/Business Related/Business Sense/Using Lean Analytics.html)
-- [ ] 1208[Lean Start-up and Basic Analytics](./读书笔记/Business Related/Business Sense/Lean Start-up and Basic Analytics.html)
-- [ ] 1205[数据运营](./读书笔记/Business Related/数据运营.html) 
 
 
 
