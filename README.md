@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0501[吸引也是主动](./读书笔记/心理学/爱情心理学/1/吸引也是主动.html)
 - [ ] 0501[尊重他人](./读书笔记/Business Related/Soft skills/沟通相关/尊重他人.html)
 - [ ] 0501[如何参考已有结果](./读书笔记/IDEA整理/如何做事/如何参考已有结果.html)
 - [ ] 0501[Think moreNO GRANT](./读书笔记/IDEA整理/如何学习/Think moreNO GRANT.html)
