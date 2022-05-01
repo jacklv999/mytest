@@ -8,4 +8,5 @@
 - [关于“所写即所得“](./读书随记-·-所写即所得-.html) 
 - [学习长期知识](./学习长期知识.html) 
 - [学习方式对比](./学习方式对比.html) 
+- [Think more: NO GRANT](./Think moreNO GRANT.html) 
 

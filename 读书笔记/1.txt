@@ -462,6 +462,8 @@
 .\读书笔记\IDEA整理\如何学习\Mastering Reading Skills.html
 .\读书笔记\IDEA整理\如何学习\Mastering Reading Skills.md
 .\读书笔记\IDEA整理\如何学习\README.md
+.\读书笔记\IDEA整理\如何学习\Think moreNO GRANT.html
+.\读书笔记\IDEA整理\如何学习\Think moreNO GRANT.md
 .\读书笔记\IDEA整理\如何学习\xuedushu2.jpg
 .\读书笔记\IDEA整理\如何学习\xuedushu3.jpg
 .\读书笔记\IDEA整理\如何学习\xuedushu3.png
