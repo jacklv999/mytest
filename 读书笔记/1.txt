@@ -172,6 +172,8 @@
 .\读书笔记\Business Related\Soft skills\沟通相关\Representation Framework.html
 .\读书笔记\Business Related\Soft skills\沟通相关\Representation Framework.md
 .\读书笔记\Business Related\Soft skills\沟通相关\《高难度谈话》读书后记.html
+.\读书笔记\Business Related\Soft skills\沟通相关\尊重他人.html
+.\读书笔记\Business Related\Soft skills\沟通相关\尊重他人.md
 .\读书笔记\Business Related\Soft skills\沟通相关\知识的诅咒.html
 .\读书笔记\Business Related\Soft skills\沟通相关\知识的诅咒.md
 .\读书笔记\Business Related\Soft skills\沟通相关\语言篇举个栗子.html
@@ -447,6 +449,8 @@
 .\读书笔记\IDEA整理\如何做事\从现在开始.html
 .\读书笔记\IDEA整理\如何做事\太用力的人跑不远.html
 .\读书笔记\IDEA整理\如何做事\太用力的人跑不远.md
+.\读书笔记\IDEA整理\如何做事\如何参考已有结果.html
+.\读书笔记\IDEA整理\如何做事\如何参考已有结果.md
 .\读书笔记\IDEA整理\如何做事\对拖延的反思.html
 .\读书笔记\IDEA整理\如何做事\对拖延的反思.md
 .\读书笔记\IDEA整理\如何做事\工作迭代的方法论.html

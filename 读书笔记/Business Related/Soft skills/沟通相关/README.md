@@ -9,4 +9,5 @@
 - [Representation: being interesting](./Representation Framework.html) 
 - [知识的诅咒: 沟通中没有BGM](./知识的诅咒.html) 
 - [Professional and Responsible](./Professional and Responsible.html) 
+- [尊重他人: 从做好自己开始](./尊重他人.html) 
 
