@@ -14,3 +14,4 @@
 - [Reduce and Structure Form](./Reduce and Structure Form.html) 
 - [Bootstrap and Jackknife](./Bootstrap and Jackknife.html) 
 - [粒状工具变量GIV ](./粒状工具变量GIV.html) 
+- [Incidental parameter problem](./Incidental parameter problem.html) 

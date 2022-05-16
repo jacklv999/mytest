@@ -3,6 +3,9 @@
 
 
 
+- [ ] 0516[多人关系](./读书笔记/IDEA整理/认识他人/多人关系.html)
+- [ ] 0516[Incidental parameter problem](./读书笔记/数理分析/计量经济学/计量基础/Incidental parameter problem.html)
+- [ ] 0516[可视化语言](./读书笔记/心理学/爱情心理学/1/可视化语言.html)
 - [ ] 0502[拟合大象](./读书笔记/数理分析/不便分类的NOTE/拟合大象.html)
 - [ ] 0501[吸引也是主动](./读书笔记/心理学/爱情心理学/1/吸引也是主动.html)
 - [ ] 0501[尊重他人](./读书笔记/Business Related/Soft skills/沟通相关/尊重他人.html)
