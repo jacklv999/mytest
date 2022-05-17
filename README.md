@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0517[该如何卷](./读书笔记/IDEA整理/如何做事/该如何卷.html)
 - [ ] 0516[多人关系](./读书笔记/IDEA整理/认识他人/多人关系.html)
 - [ ] 0516[Incidental parameter problem](./读书笔记/数理分析/计量经济学/计量基础/Incidental parameter problem.html)
 - [ ] 0516[可视化语言](./读书笔记/心理学/爱情心理学/1/可视化语言.html)

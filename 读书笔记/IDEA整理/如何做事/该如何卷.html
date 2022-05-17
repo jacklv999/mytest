@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>该如何卷</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
+html { font-size: 16px; }
+body { font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6; }
+#write { max-width: 860px; margin: 0px auto; padding: 30px 30px 100px; }
+#write > ul:first-child, #write > ol:first-child { margin-top: 30px; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1rem; margin-bottom: 1rem; font-weight: bold; line-height: 1.4; cursor: text; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 tt, h1 code { font-size: inherit; }
+h2 tt, h2 code { font-size: inherit; }
+h3 tt, h3 code { font-size: inherit; }
+h4 tt, h4 code { font-size: inherit; }
+h5 tt, h5 code { font-size: inherit; }
+h6 tt, h6 code { font-size: inherit; }
+h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
+li > ol, li > ul { margin: 0px; }
+hr { height: 2px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; overflow: hidden; box-sizing: content-box; }
+li p.first { display: inline-block; }
+ul, ol { padding-left: 30px; }
+ul:first-child, ol:first-child { margin-top: 0px; }
+ul:last-child, ol:last-child { margin-bottom: 0px; }
+blockquote { border-left: 4px solid rgb(223, 226, 229); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; word-break: initial; }
+table tr { border-top: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; }
+table tr:nth-child(2n), thead { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(223, 226, 229); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr th:first-child, table tr td:first-child { margin-top: 0px; }
+table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
+.CodeMirror-lines { padding-left: 4px; }
+.code-tooltip { box-shadow: rgba(0, 28, 36, 0.3) 0px 1px 1px 0px; border-top: 1px solid rgb(238, 242, 242); }
+.md-fences, code, tt { border: 1px solid rgb(231, 234, 237); background-color: rgb(248, 248, 248); border-radius: 3px; padding: 2px 4px 0px; font-size: 0.9em; }
+code { background-color: rgb(243, 244, 244); padding: 0px 2px; }
+.md-fences { margin-bottom: 15px; margin-top: 15px; padding-top: 8px; padding-bottom: 6px; }
+.md-task-list-item > input { margin-left: -1.3em; }
+@media print {
+  html { font-size: 13px; }
+  table, pre { break-inside: avoid; }
+  pre { overflow-wrap: break-word; }
+}
+.md-fences { background-color: rgb(248, 248, 248); }
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+.md-mathjax-midline { background: rgb(250, 250, 250); }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h5.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+.md-image > .md-meta { border-radius: 3px; padding: 2px 0px 0px 4px; font-size: 0.9em; color: inherit; }
+.md-tag { color: rgb(167, 167, 167); opacity: 1; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+.sidebar-tabs { border-bottom: none; }
+#typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
+#typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
+.on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
+header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Arial, sans-serif; }
+.file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
+.mac-seamless-mode #typora-sidebar { background-color: var(--side-bar-bg-color); }
+.md-lang { color: rgb(180, 101, 77); }
+.html-for-mac .context-menu { --item-hover-bg-color: #E6F0FE; }
+#md-notification .btn { border: 0px; }
+.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
+
+
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h2><a name="%E8%AF%A5%E5%A6%82%E4%BD%95%E5%8D%B7?" class="md-header-anchor"></a><span>该如何卷?</span></h2><h4><a name="1.-%E5%86%85%E5%8D%B7%E6%A1%88%E4%BE%8B%E4%B8%80" class="md-header-anchor"></a><span>1. 内卷案例一</span></h4><h5><a name="%E8%AF%BE%E5%A0%82%E4%B8%8A%E7%9A%84%E5%8F%8D%E9%A6%88%E9%9D%9E%E5%B8%B8%E5%85%85%E5%88%86" class="md-header-anchor"></a><span>课堂上的反馈非常充分</span></h5><p><span>前四年，我带的是JS基础。要在3节45分钟的课里，覆盖从JS基本语法到高级语言特性的所有知识点（包括介绍JS语言的二义性等附加知识）。</span></p><p><span>听起来很紧张是吧？</span></p><p><span>运算符、语句、基本类型、引用类型、作用域（链）、闭包、原型链、面向对象，外加2次课堂练习……</span></p><p><span>不是我要讲这么多，是因为我夹在了「HTML+CSS」和「DOM编程 + 服务端客户端通信」两门课中间。</span></p><p><span>我要承担的使命就是要让学生对ECMAScript（现在的课程里还包含了ES6/NodeJS）有一个全面的认识。</span></p><p><span>你会问我：你tmd能讲完么？</span></p><p><span>我还真讲完了！</span></p><p><strong><span>因为我使用了接近华少的超级语速！</span></strong></p><p><span>是的，接近华少！！！甚至偶尔超越华少！！！</span></p><p><span>（本答主一直有一个愿望：能上奇葩说）</span></p><p><span>但，即便这样，底下的同学还是能跟得上我的节奏。</span></p><p><span>我经常在扯完一通以后，问大家明白了没，从反馈的目光中能看出他们真心明白了。</span></p><p><span>如果（非常偶尔）他们眼光透露出疑问，我就再咆哮一遍，然后原地跳一下，然后问他们：</span></p><p><span>「同学们，明白了没？好，给你们三秒钟思考，3……2……1」</span></p><p><span>然后他们就明白了。</span></p><h5><a name="%E4%BD%9C%E4%B8%9A%E8%B4%A8%E9%87%8F%E9%AB%98" class="md-header-anchor"></a><span>作业质量高</span></h5><p><span>他们对待作业的态度非常认真。很少有同学放弃bonus部分的作业。</span></p><p><span>针对选择题，很多同学试用一整页或者多页PDF来对题目思路进行陈述。并且会给出在不同宿主环境和不同模式（strict mode）中的运行结果。</span></p><p><span>最关键的是，他们甚至还极其重视作业的排版……</span></p><p><span>遇到格式化输出的结果都会在文档中进行highlight。遇到回答中包含多个项目的练习题，也会给出清晰的表格来呈现运行结果。</span></p><p><span>特别是13年的一位陈姓同学，当时负责课程的刘教授把他的作业发给我时。</span></p><p><span>我是震惊的！</span></p><p><span>竟然有人如此认真地对待随堂作业！</span></p><p><span>作业是啥样我就不贴了，大家往好了想就是了。</span></p><p><span>你会有一种感觉，</span><strong><span>有一种可怕的感觉</span></strong><span>。</span></p><p><span>仅仅是一个可能占最后总分比重不过个位百分比的随堂作业，竟然有人能这么认真的对待。</span></p><p><span>那最后的大作业呢？会怎样？</span></p><p><span>果然……</span></p><h5><a name="%E4%B8%BA%E4%BA%86%E5%A4%A7%E4%BD%9C%E4%B8%9A%E7%9C%9F%E6%98%AF%E6%8B%BC" class="md-header-anchor"></a><span>为了大作业真是拼</span></h5><p><span>大公司经常会举行厂内编程马拉松。</span></p><p><span>相信很多coder们都参加过。</span></p><p><span>我也参加过，还有比如第三方机构组织的游戏编程大赛等等。一般来讲，两天时间，要做出一个成品。当然，大家都懂的。老实按照套路，0代码开始搞起的团队，几乎凤毛菱角的。</span></p><p><span>清华给学生的前端大作业时间是：</span><strong><span>三天</span></strong><span>。</span></p><p><span>跟刘教授交流的时候，她说，清华的学生大作业的时候往往连着一直通宵，不搞到满意誓不罢休！</span></p><p><span>一个组内（一般是2到3个同学），每个人都很拼。</span></p><p><strong><span>组和组之间，绝对不服对方！</span></strong></p><p><span>去年他们的大作业是前端游戏。</span></p><p><span>有一个组（演示者我记得是一个女孩儿和一个男孩儿），开发了一个质感超级棒的3d游戏。</span></p><p><span>好看！有挑战！也好玩！</span></p><p><span>女孩儿说她是现学美术设计（之前没有接触过），和同学边设计边开发（包括物理引擎、游戏引擎、代码+构建）。</span></p><p><span>的确牛逼！</span></p><p><span>还有的同学做第一人称的射击游戏，游戏里有各种恶趣味、追杀、导弹、机枪、魔鬼……答辩时花了一段时间来讲各种武器弹药的运行曲线，移动目标的定位以及碰撞检测。</span></p><p><span>两个哥们说得特别high……</span></p><h2><a name="%E6%80%BB%E7%BB%93" class="md-header-anchor"></a><span>总结</span></h2><p><span>我觉得智商碾压不碾压不好说，但是的确是一群非常聪明的人。</span></p><p><span>而最关键的是：</span></p><p><strong><span>这是一帮玩命证明自己的聪明人！</span></strong></p><p><span>这才是棒棒哒地方。</span></p><p><span>反正我当年是没这么「疯」过……</span></p><h4><a name="2.-%E5%86%85%E5%8D%B7%E6%A1%88%E4%BE%8B%E4%BA%8C" class="md-header-anchor"></a><span>2. 内卷案例二</span></h4><p><span>曾经是个很难相处的人，当时意识不到，或者说意识到了也无所谓，反正你们也没我牛。在高中虐了别人很久，然后90年代末从大西南的某县城顶着状元名号杀奔京城，才明白什么叫天道好还。</span></p><p><span>大清的碾压分两种，一种智商碾压，也就是说你正常人搞一个月，他搞一天还比你强的那种；一种是努力程度的碾压，你再怎样，每天也做不到有16-18个小时在学习吧，但人家能。</span></p><p><span>所以一路下来就是各种体无完肤，比如你怎么都觉得自己读三遍就能背一篇课文，高中毕业时候能背所有英语课本很厉害的吧，结果人家都是看一遍就背，而且能背牛津辞典的。又比如传说的吉米多维奇，大清里面遍地都是啃完此系列的，不管是不是数学专业。</span></p><p><span>所以，不管你是不是当初那个16岁的男孩，心里反差必然是大，大到每天闷闷不乐，想来想去找不到自己的优点，觉得自己是个一无所长的废物，加上别的一些事，终于顶不住走人了。</span></p><p><span>后来这段经历让自己明白，世上有一群人，他就是龙凤，你就是鳄鱼、老鹰，你想硬跟他们竞争，太难，还是回头到自己的小山头，跟别的鳄鱼和老鹰争食比较现实。从此之后尾巴基本都是夹起来的，对人也和善了很多，算是见过世面了。</span></p><p><span>所以很多时候见到一些觉得世界上不存在碾压的人，大T大P不过如此之类的，只能说，世面见少了，你的林子太小，里面没老虎。</span></p><h4><a name="3.-%E5%86%85%E5%8D%B7%E6%A1%88%E4%BE%8B%E4%B8%89" class="md-header-anchor"></a><span>3. 内卷案例三</span></h4><p><span>至于隔壁的北大…… 嗯，某学文科的女神师姐工作数年后亦欲申请，跟她交流简历和 Statement of Purpose，她看完之后两点评论：1. LaTeX 是好东西（我可没告诉她这是 LaTeX 排的版…… 不从事出版工作的文科生是那么容易接触到 LaTeX 的么？！），但是你没用好；2. 对称性在物理学中的作用太基本了，不要炫耀你那点儿可怜的知识。不过么，本渣滓从小在各种老师口中被她各种碾压到长大，早都习惯了。</span></p></div>
+</body>
+</html>
