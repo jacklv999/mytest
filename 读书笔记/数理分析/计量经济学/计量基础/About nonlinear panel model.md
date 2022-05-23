@@ -21,5 +21,13 @@ FE估计在linear model中通过demean transformation（或者first differencing
 2. conditional logit
 3. maximum score estimator：![[公式]](https://www.zhihu.com/equation?tex=%5Cmax_%7B%5Cbeta_1%3D1%7D%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%28d_%7Bi2%7D-d_%7Bi1%7D%29K%28x_%7Bi2%7D%27%5Cbeta-x_%7Bi1%7D%27%5Cbeta%29) 
 
+#### 3. logit与Probit的选择
 
+我觉得这和你的分析目的有关系。如果你只是为了研究一下 ![[公式]](https://www.zhihu.com/equation?tex=x) 变动对 ![[公式]](https://www.zhihu.com/equation?tex=y) 取值为 1 的概率的影响，这时候这两个模型得到的结果基本上是没有差别的。
+
+但当我们要研究的问题特别复杂的时候。比如，离散选择模型的等式右侧还包含一些内生的解释变量以及和某些变量的交叉项的时候，采用 Probit 模型，这样一来理论上做推导比较方便。
+
+另外，无论是在倾向得分匹配 (PSM) , 还是我们明天要讲到的 Heckman 模型的第一阶段，多数时候都用到了 Probit 模型。因为 Probit 模型背后依赖的基础是潜变量服从正态分布。有了正态分布这个强大的工具，后面的好多理论推导和分析相对来讲都比较方便。
+
+总结一下，平时你在文章里面如果只是做一个简单地研究, 考察二值变量受什么因素影响，那你既可以用 Logit 也可以用 Probit 模型。等到用那些比较复杂的方法时，一般 Stata 内嵌的都是 Probit 估计你所需要的概率值。
 
