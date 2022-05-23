@@ -150,8 +150,6 @@
 .\读书笔记\Business Related\Soft skills\Pre相关\AboutPresentation.md
 .\读书笔记\Business Related\Soft skills\Pre相关\README.md
 .\读书笔记\Business Related\Soft skills\Pre相关\《乔布斯的魔力演讲》后记·做一次好的演讲-.html
-.\读书笔记\Business Related\Soft skills\Pre相关\项目立项.html
-.\读书笔记\Business Related\Soft skills\Pre相关\项目立项.md
 .\读书笔记\Business Related\Soft skills\商务写作\Pyramid-完整版.md
 .\读书笔记\Business Related\Soft skills\商务写作\Pyramid.html
 .\读书笔记\Business Related\Soft skills\商务写作\Pyramid.md
@@ -182,6 +180,9 @@
 .\读书笔记\Business Related\Soft skills\沟通相关\语言篇我需要它.html
 .\读书笔记\Business Related\Soft skills\沟通相关\语言篇来回答一个问题.html
 .\读书笔记\Business Related\Soft skills\沟通相关\语言篇逃不掉争论.html
+.\读书笔记\Business Related\Soft skills\项目管理\README.md
+.\读书笔记\Business Related\Soft skills\项目管理\项目立项.html
+.\读书笔记\Business Related\Soft skills\项目管理\项目立项.md
 .\读书笔记\Business Related\职业发展\Data Analyst Career Path.html
 .\读书笔记\Business Related\职业发展\Data Analyst Career Path.md
 .\读书笔记\Business Related\职业发展\Digitization Manager Trainee.html
