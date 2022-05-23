@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0523[不能充分交流](./读书笔记/Business Related/Soft skills/沟通相关/不能充分交流.html)
 - [ ] 0523[商业模式竞争格局和技术壁垒](./读书笔记/投资相关/股票投资/商业模式竞争格局和技术壁垒.html)
 - [ ] 0523[Do not be a liar](./读书笔记/IDEA整理/如何做事/Do not be a liar.html)
 - [ ] 0520[做事](./读书笔记/IDEA整理/如何做事/做事.html)

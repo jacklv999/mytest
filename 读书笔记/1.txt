@@ -172,6 +172,8 @@
 .\读书笔记\Business Related\Soft skills\沟通相关\Representation Framework.html
 .\读书笔记\Business Related\Soft skills\沟通相关\Representation Framework.md
 .\读书笔记\Business Related\Soft skills\沟通相关\《高难度谈话》读书后记.html
+.\读书笔记\Business Related\Soft skills\沟通相关\不能充分交流.html
+.\读书笔记\Business Related\Soft skills\沟通相关\不能充分交流.md
 .\读书笔记\Business Related\Soft skills\沟通相关\尊重他人.html
 .\读书笔记\Business Related\Soft skills\沟通相关\尊重他人.md
 .\读书笔记\Business Related\Soft skills\沟通相关\知识的诅咒.html
