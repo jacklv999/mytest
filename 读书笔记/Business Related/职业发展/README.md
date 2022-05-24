@@ -7,4 +7,5 @@
 - [Digitization Manager Trainee](./Digitization Manager Trainee.html)  
 - [达芬奇诅咒: 专精与投入](./达芬奇的诅咒你有吗.html) 
 - [职业成长技巧](./职业成长技巧.html) 
+- [职业思考](./职业思考.html) 
 

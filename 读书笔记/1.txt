@@ -191,6 +191,8 @@
 .\读书笔记\Business Related\职业发展\JD Summary.html
 .\读书笔记\Business Related\职业发展\JD Summary.md
 .\读书笔记\Business Related\职业发展\README.md
+.\读书笔记\Business Related\职业发展\职业思考.html
+.\读书笔记\Business Related\职业发展\职业思考.md
 .\读书笔记\Business Related\职业发展\职业成长技巧.html
 .\读书笔记\Business Related\职业发展\职业成长技巧.md
 .\读书笔记\Business Related\职业发展\职业成长要求.html
@@ -454,6 +456,8 @@
 .\读书笔记\IDEA整理\如何做事\从现在开始.html
 .\读书笔记\IDEA整理\如何做事\做事.html
 .\读书笔记\IDEA整理\如何做事\做事.md
+.\读书笔记\IDEA整理\如何做事\做重要但不紧急的事.html
+.\读书笔记\IDEA整理\如何做事\做重要但不紧急的事.md
 .\读书笔记\IDEA整理\如何做事\切勿专注于一件事.html
 .\读书笔记\IDEA整理\如何做事\切勿专注于一件事.md
 .\读书笔记\IDEA整理\如何做事\太用力的人跑不远.html
@@ -524,6 +528,8 @@
 .\读书笔记\IDEA整理\认识世界\遥远的救世主读书笔记.html
 .\读书笔记\IDEA整理\认识他人\README.md
 .\读书笔记\IDEA整理\认识他人\《傅雷家书》读书随记-·-朋友还是敌人.html
+.\读书笔记\IDEA整理\认识他人\不要比他人好太多.html
+.\读书笔记\IDEA整理\认识他人\不要比他人好太多.md
 .\读书笔记\IDEA整理\认识他人\交流对象高与低.html
 .\读书笔记\IDEA整理\认识他人\交流对象高与低.md
 .\读书笔记\IDEA整理\认识他人\人可信吗.html
@@ -535,8 +541,14 @@
 .\读书笔记\IDEA整理\认识他人\好为人师警告.md
 .\读书笔记\IDEA整理\认识他人\如何识人.html
 .\读书笔记\IDEA整理\认识他人\如何识人.md
+.\读书笔记\IDEA整理\认识他人\强硬也是必需的.html
+.\读书笔记\IDEA整理\认识他人\强硬也是必需的.md
+.\读书笔记\IDEA整理\认识他人\用氛围沟通.html
+.\读书笔记\IDEA整理\认识他人\用氛围沟通.md
 .\读书笔记\IDEA整理\认识他人\看到别人的优势.html
 .\读书笔记\IDEA整理\认识他人\看到别人的优势.md
+.\读书笔记\IDEA整理\认识他人\通过求助建立关系.html
+.\读书笔记\IDEA整理\认识他人\通过求助建立关系.md
 .\读书笔记\IDEA整理\认识他人\重要的细节.html
 .\读书笔记\IDEA整理\认识他人\重要的细节.md
 .\读书笔记\IDEA整理\认识自己\Being Humble.html
