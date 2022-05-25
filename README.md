@@ -3,6 +3,19 @@
 
 
 
+- [ ] 0525[Plan and Learning](./读书笔记/IDEA整理/如何做事/Plan and Learning.html)
+- [ ] 0525[Learning to shut up](./读书笔记/IDEA整理/认识自己/Learning to shut up.html)
+- [ ] 0525[专精与整合](./读书笔记/IDEA整理/如何学习/专精与整合.html)
+- [ ] 0525[《傅雷家书》读书随记-·-高智商-](./读书笔记/IDEA整理/如何学习/《傅雷家书》读书随记-·-高智商-.html)
+- [ ] 0525[专精的目标与要求](./读书笔记/IDEA整理/如何学习/专精的目标与要求.html)
+- [ ] 0525[Reshape the way you work](./读书笔记/IDEA整理/如何做事/Reshape the way you work.html)
+- [ ] 0525[如果是你你会怎么做](./读书笔记/IDEA整理/如何学习/如果是你你会怎么做.html)
+- [ ] 0525[熵增定律](./读书笔记/IDEA整理/认识世界/熵增定律.html)
+- [ ] 0525[该如何卷](./读书笔记/IDEA整理/如何学习/该如何卷.html)
+- [ ] 0525[How to do things](./读书笔记/IDEA整理/如何做事/How to do things.html)
+- [ ] 0525[论物质环境对个人分析理性的影响-](./读书笔记/IDEA整理/认识世界/论物质环境对个人分析理性的影响-.html)
+- [ ] 0525[How to be better](./读书笔记/IDEA整理/如何做事/How to be better.html)
+- [ ] 0525[专精与杂全的思考](./读书笔记/IDEA整理/如何学习/专精与杂全的思考.html)
 - [ ] 0524[做时间的朋友](./读书笔记/IDEA整理/如何做事/做时间的朋友.html)
 - [ ] 0524[主动争取机会](./读书笔记/IDEA整理/如何做事/主动争取机会.html)
 - [ ] 0524[错位成就感](./读书笔记/IDEA整理/认识自己/错位成就感.html)
