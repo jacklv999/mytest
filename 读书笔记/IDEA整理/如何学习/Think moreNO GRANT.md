@@ -39,5 +39,9 @@ dont take anything as grant；
 
 面对任何信息，都要开始思考：
 
+- What is it?
+    - are you really got it ?
+
 - why this？
+    - why it make sense?
 - why not others？
