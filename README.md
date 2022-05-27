@@ -3,6 +3,18 @@
 
 
 
+- [ ] 0527[数据库基础](./读书笔记/CS相关/数据库相关/数据库基础.html)
+- [ ] 0527[SQL教程](./读书笔记/CS相关/数据库相关/SQL教程.html)
+- [ ] 0527[SQL Evolution](./读书笔记/CS相关/数据库相关/SQL Evolution.html)
+- [ ] 0527[Canvas绘画笔记](./读书笔记/Business Related/Hard skills/前端相关/CSS/Canvas绘画笔记.html)
+- [ ] 0527[ADblocker规则简单整理](./读书笔记/Business Related/Hard skills/前端相关/CSS/ADblocker规则简单整理.html)
+- [ ] 0527[Leetcode SQL Note (11 - 20)](./读书笔记/CS相关/数据库相关/Leetcode SQL Note (11 - 20).html)
+- [ ] 0527[记忆宫殿](./读书笔记/IDEA整理/如何学习/记忆宫殿.html)
+- [ ] 0527[Leetcode SQL Note (31 - 40)](./读书笔记/CS相关/数据库相关/Leetcode SQL Note (31 - 40).html)
+- [ ] 0527[Leetcode SQL Note (01 - 10)](./读书笔记/CS相关/数据库相关/Leetcode SQL Note (01 - 10).html)
+- [ ] 0527[Leetcode SQL Note (41 - 50)](./读书笔记/CS相关/数据库相关/Leetcode SQL Note (41 - 50).html)
+- [ ] 0527[Leetcode SQL Note (21-30)](./读书笔记/CS相关/数据库相关/Leetcode SQL Note (21-30).html)
+- [ ] 0527[React学习之道](./读书笔记/Business Related/Hard skills/前端相关/JS and TS/React学习之道.html)
 - [ ] 0524[做时间的朋友](./读书笔记/IDEA整理/如何做事/做时间的朋友.html)
 - [ ] 0524[主动争取机会](./读书笔记/IDEA整理/如何做事/主动争取机会.html)
 - [ ] 0524[错位成就感](./读书笔记/IDEA整理/认识自己/错位成就感.html)

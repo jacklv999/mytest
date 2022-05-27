@@ -4,8 +4,6 @@
 
 - ### [Linux](./Linux/)
 
-- ### [Windows](./Win/)
-
-- ### [SQL相关](./SQL相关/) 
+- ### [Windows](./Win/) 
 
 - ### [Markdown](./Markdown/) 

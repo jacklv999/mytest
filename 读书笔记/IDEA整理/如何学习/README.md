@@ -12,11 +12,11 @@
 - 学习心态: 
     - [Think more: NO GRANT](./Think moreNO GRANT.html) 
 - 学习方法
-    
+  
     - [学习方式对比](./学习方式对比.html) 
     - [Mastering Reading Skills](./Mastering Reading Skills.html) 
-    
     - [如何向他人请教?](./如何请教.html) 
+    - [记忆宫殿](./记忆宫殿.html) 
 
 #### 3. 学习后总结
 
