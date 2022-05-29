@@ -817,6 +817,8 @@
 .\读书笔记\ML&DL\5-GNN-Related\About graph neural network.md
 .\读书笔记\ML&DL\5-GNN-Related\README.md
 .\读书笔记\ML&DL\6-小样本学习\README.md
+.\读书笔记\ML&DL\6-小样本学习\基于局部表征的FSL.html
+.\读书笔记\ML&DL\6-小样本学习\基于局部表征的FSL.md
 .\读书笔记\ML&DL\6-小样本学习\小样本学习.html
 .\读书笔记\ML&DL\6-小样本学习\小样本学习.md
 .\读书笔记\ML&DL\7-模型压缩\README.md
@@ -824,6 +826,14 @@
 .\读书笔记\ML&DL\7-模型压缩\模型压缩.md
 .\读书笔记\ML&DL\7-模型压缩\知识蒸馏.html
 .\读书笔记\ML&DL\7-模型压缩\知识蒸馏.md
+.\读书笔记\ML&DL\8-符号与神经\README.md
+.\读书笔记\ML&DL\8-符号与神经\原始数据中的反绎知识归纳.html
+.\读书笔记\ML&DL\8-符号与神经\原始数据中的反绎知识归纳.md
+.\读书笔记\ML&DL\9-深度学习可解释性\README.md
+.\读书笔记\ML&DL\9-深度学习可解释性\深度学习攻防.html
+.\读书笔记\ML&DL\9-深度学习可解释性\深度学习攻防.md
+.\读书笔记\ML&DL\9-深度学习可解释性\神经网络中的奥卡姆剃刀.html
+.\读书笔记\ML&DL\9-深度学习可解释性\神经网络中的奥卡姆剃刀.md
 .\读书笔记\ML&DL\DL and ML 课程\README.md
 .\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\Attention-and-point-network.html
 .\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\Attention-and-point-network.md
@@ -942,13 +952,6 @@
 .\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\Lecture-9---Tips-for-Training-DNN.html
 .\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\目录.html
 .\读书笔记\ML&DL\DL and ML 课程\ML&DL-机器学习-李宏毅\目录.md
-.\读书笔记\ML&DL\符号与神经\README.md
-.\读书笔记\ML&DL\符号与神经\原始数据中的反绎知识归纳.html
-.\读书笔记\ML&DL\符号与神经\原始数据中的反绎知识归纳.md
-.\读书笔记\ML&DL\符号与神经\深度学习攻防.html
-.\读书笔记\ML&DL\符号与神经\深度学习攻防.md
-.\读书笔记\ML&DL\符号与神经\神经网络中的奥卡姆剃刀.html
-.\读书笔记\ML&DL\符号与神经\神经网络中的奥卡姆剃刀.md
 .\读书笔记\伦理学\README.md
 .\读书笔记\伦理学\伦理学导论(程炼）.pdf
 .\读书笔记\伦理学\伦理学导论.html

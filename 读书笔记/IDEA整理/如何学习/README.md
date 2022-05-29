@@ -9,14 +9,11 @@
 
 #### 2. 如何学习?
 
-- 学习心态: 
-    - [Think more: NO GRANT](./Think moreNO GRANT.html) 
-- 学习方法
-  
-    - [学习方式对比](./学习方式对比.html) 
-    - [Mastering Reading Skills](./Mastering Reading Skills.html) 
-    - [如何向他人请教?](./如何请教.html) 
-    - [记忆宫殿](./记忆宫殿.html) 
+- 以教促学: [学习方式对比](./学习方式对比.html) 
+- 刨根究底: [Think more: NO GRANT](./Think moreNO GRANT.html) 
+- 思维导图: [Mastering Reading Skills](./Mastering Reading Skills.html) 
+- [如何向他人请教?](./如何请教.html) 
+- [记忆宫殿](./记忆宫殿.html) 
 
 #### 3. 学习后总结
 
