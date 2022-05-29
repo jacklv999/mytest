@@ -8,18 +8,28 @@ FE估计在linear model中通过demean transformation（或者first differencing
 ##### 2.面板数据可以用非线性模型吗？
 
 比如最经常见到的binary choice模型，也就是probit，logit模型：
-![[公式]](https://www.zhihu.com/equation?tex=d_i%3D1%5C%7Bx_i%27%5Cbeta%2Bu_i%3E0%5C%7D)
+$$
+d_i= 1\{x_i^T\beta +u_i>0\}
 一般经典的教课书上都是讲的cross-sectional的应用，其实也是可以扩展到面板数据：
 ![[公式]](https://www.zhihu.com/equation?tex=d_%7Bit%7D%3D1%5C%7Bx_%7Bit%7D%27%5Cbeta%2B%5Calpha_i%2Bu_%7Bit%7D%3E0%5C%7D)
 ![[公式]](https://www.zhihu.com/equation?tex=%5Calpha_i)![[公式]](https://www.zhihu.com/equation?tex=x_%7Bit%7D)，
-
+$$
+一般经典的教课书上都是讲的cross-sectional的应用，其实也是可以扩展到面板数据：
+$$
+d_{it}=1\{x_{it}^T\beta+\alpha_i+u_{it}>0 \}
+$$
 但是这里有一个问题是，如果你还记得线性面板，一定还记得随机效应、固定效应。非线性面板也有这个问题。
-对于随机效应，一般来说仍然使用MLE就可以，只不过计算的时候麻烦一点，因为个体效应![[公式]](https://www.zhihu.com/equation?tex=%5Calpha_i)跟![[公式]](https://www.zhihu.com/equation?tex=x_%7Bit%7D)**独立**，所以没有太大的问题。
+对于随机效应，一般来说仍然使用MLE就可以，只不过计算的时候麻烦一点，因为个体效应$\alpha_i$跟$x_{it}$**独立**，所以没有太大的问题。
 有意思的是固定效应，这就困难多了，当然现在也有很多方法，比如：
 
-1. Chamberlain的方法，即假设![[公式]](https://www.zhihu.com/equation?tex=%5Calpha_i%3D%5Cbar%7Bx_i%7D%5Cdelta%2Bv_i)，这样模型就回到随机效应的probit logit了
+1. Chamberlain的方法，即假设$\alpha_i=\overline{x}_i\delta+u_i$，这样模型就回到随机效应的probit logit了
+
 2. conditional logit
-3. maximum score estimator：![[公式]](https://www.zhihu.com/equation?tex=%5Cmax_%7B%5Cbeta_1%3D1%7D%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%28d_%7Bi2%7D-d_%7Bi1%7D%29K%28x_%7Bi2%7D%27%5Cbeta-x_%7Bi1%7D%27%5Cbeta%29) 
+
+3. maximum score estimator：
+    $$
+    \max_{\beta_1=1} \frac{1}{N}\sum_{i=1}^N(d_{i2}-d_{i1})K(x_{i2}^T\beta -x_{i1}^T\beta)
+    $$
 
 #### 3. logit与Probit的选择
 
