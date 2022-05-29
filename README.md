@@ -3,6 +3,20 @@
 
 
 
+- [ ] 0529[原始数据中的反绎知识归纳](./读书笔记/ML&DL/符号与神经/原始数据中的反绎知识归纳.html)
+- [ ] 0529[神经网络中的奥卡姆剃刀](./读书笔记/ML&DL/符号与神经/神经网络中的奥卡姆剃刀.html)
+- [ ] 0529[投资策略分析](./读书笔记/投资相关/投资基本面分析/投资策略分析.html)
+- [ ] 0529[神经网络中的白化](./读书笔记/ML&DL/general/神经网络中的白化.html)
+- [ ] 0529[Transformer综述](./读书笔记/ML&DL/CV-Related/VIT/Transformer综述.html)
+- [ ] 0529[实体关系抽取的现状和未来](./读书笔记/ML&DL/NLP-Related/实体关系抽取的现状和未来.html)
+- [ ] 0529[模型压缩](./读书笔记/ML&DL/模型压缩/模型压缩.html)
+- [ ] 0529[知识蒸馏](./读书笔记/ML&DL/模型压缩/知识蒸馏.html)
+- [ ] 0529[医疗书籍](./读书笔记/健康相关/医疗相关/医疗书籍.html)
+- [ ] 0529[Structural re-parameterization](./读书笔记/ML&DL/CV-Related/CV-Baseline/Structural re-parameterization.html)
+- [ ] 0529[因果推断的推荐算法初探](./读书笔记/Business Related/Hard skills/推荐系统/因果推断的推荐算法初探.html)
+- [ ] 0529[深度学习攻防](./读书笔记/ML&DL/符号与神经/深度学习攻防.html)
+- [ ] 0529[小样本学习](./读书笔记/ML&DL/小样本学习/小样本学习.html)
+- [ ] 0529[About graph neural network](./读书笔记/ML&DL/GNN相关/About graph neural network.html)
 - [ ] 0527[数据库基础](./读书笔记/CS相关/数据库相关/数据库基础.html)
 - [ ] 0527[SQL教程](./读书笔记/CS相关/数据库相关/SQL教程.html)
 - [ ] 0527[SQL Evolution](./读书笔记/CS相关/数据库相关/SQL Evolution.html)

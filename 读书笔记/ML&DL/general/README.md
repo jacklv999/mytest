@@ -8,8 +8,6 @@
 #### Regularization
 
 - [Regularization摘要总结](./Regularization.html) 
-- [L-2 Regularization](./L-2 Regularization.html) 
-
 - [Regularization全面总结--pwc](https://paperswithcode.com/methods/category/regularization) 
 
 #### initialization
@@ -27,4 +25,8 @@
 #### Normalization
 
 - [About Normalization](./About Normalization.html) 
+
+
+
+- [神经网络中的白化](./神经网络中的白化.html) 
 

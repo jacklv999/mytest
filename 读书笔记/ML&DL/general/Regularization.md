@@ -1,6 +1,10 @@
 ## Regularization
 
-Regularization strategies are designed to reduce the test error of a machine learning algorithm, possibly at the expense of training error. Many different forms of regularization exist in the field of deep learning. Below you can find a constantly updating list of regularization strategies.
+Regularization strategies are designed to reduce the test error of a machine learning algorithm, possibly at the expense of training error. 
+
+在机器学习中，为了让模型不局限于训练集上，我们通常采用很多手段来降低测试集误差（test error），或者说泛化误差（generalization error），未见过的新样本，我们也希望模型能表现良好。这些手段和方法又往往是以训练误差（training error）升高为代价的。所有用来降低泛化误差的手段和方法统称为正则化（regularization）；单独一种手段，可以称之为一个 regularizer。
+
+**手段多样，是以提升 bias 为代价降低 variance。** 
 
 #### 1.Dropout
 
@@ -33,12 +37,23 @@ $$
 R_{1}\left(\psi\right) = \frac{\gamma}{2}E_{p_{D}\left(x\right)}\left[||\nabla{D_{\psi}\left(x\right)}||^{2}\right]
 $$
 
+#### 5. **Norm Penalty** 
 
-#### 5.L1 Regularization
+##### L1-norm: L1 Regularization
 
 **L1 Regularization** is a regularization technique applied to the weights of a neural network. We minimize a loss function compromising both the primary loss function and a penalty on the L1 Norm of the weights:
 $$
 L_{new}\left(w\right) = L_{original}\left(w\right) + \lambda{||w||}_{1}
 $$
 where $λ$ is a value determining the strength of the penalty. 
+
+##### L2-norm: L-2 Regularization
+
+ L2 regularization又叫做权重衰减（weight decay）. L2正则化就是在 loss 函数后面再加上一个正则化项： 
+$$
+C = C_0+\frac{\lambda}{2n}\sum_w w^2
+$$
+其中 $C_0$ 代表原始的代价函数，后面那一项就是L2正则化项，它是这样来的：所有参数 $w$ 的平方的和，除以训练集的样本大小 $n$。$\lambda$ 就是正则项系数，权衡正则项与 $C_0$ 项的比重。另外还有一个系数1/2，1/2经常会看到，主要是为了后面求导的结果方便，后面那一项求导会产生一个2，与1/2相乘刚好凑整为1。系数$\lambda$ 就是权重衰减系数。
+
+
 

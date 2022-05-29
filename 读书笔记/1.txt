@@ -99,6 +99,8 @@
 .\读书笔记\Business Related\Hard skills\推荐系统\README.md
 .\读书笔记\Business Related\Hard skills\推荐系统\协同过滤.html
 .\读书笔记\Business Related\Hard skills\推荐系统\协同过滤.md
+.\读书笔记\Business Related\Hard skills\推荐系统\因果推断的推荐算法初探.html
+.\读书笔记\Business Related\Hard skills\推荐系统\因果推断的推荐算法初探.md
 .\读书笔记\Business Related\Hard skills\推荐系统\推荐系统Bias.html
 .\读书笔记\Business Related\Hard skills\推荐系统\推荐系统Bias.md
 .\读书笔记\Business Related\Hard skills\推荐系统\推荐系统冷启动.html
@@ -623,6 +625,8 @@
 .\读书笔记\ML&DL\CV-Related\CV-Baseline\ResNeXt笔记.md
 .\读书笔记\ML&DL\CV-Related\CV-Baseline\SENet论文笔记.html
 .\读书笔记\ML&DL\CV-Related\CV-Baseline\SENet论文笔记.md
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\Structural re-parameterization.html
+.\读书笔记\ML&DL\CV-Related\CV-Baseline\Structural re-parameterization.md
 .\读书笔记\ML&DL\CV-Related\CV-Baseline\1. AlexNet\AlexNet Code.html
 .\读书笔记\ML&DL\CV-Related\CV-Baseline\1. AlexNet\AlexNet Note.ipynb
 .\读书笔记\ML&DL\CV-Related\GAN\BigGAN论文笔记.html
@@ -735,6 +739,9 @@
 .\读书笔记\ML&DL\CV-Related\opencv\9\8_6_OpenCV中的K均值.html
 .\读书笔记\ML&DL\CV-Related\opencv\9\8_6_OpenCV中的K均值.md
 .\读书笔记\ML&DL\CV-Related\opencv\stylesheets\extra.css
+.\读书笔记\ML&DL\CV-Related\VIT\README.md
+.\读书笔记\ML&DL\CV-Related\VIT\Transformer综述.html
+.\读书笔记\ML&DL\CV-Related\VIT\Transformer综述.md
 .\读书笔记\ML&DL\CV-Related\目标检测\DSSD论文简析.html
 .\读书笔记\ML&DL\CV-Related\目标检测\DSSD论文简析.md
 .\读书笔记\ML&DL\CV-Related\目标检测\Faster RCNN论文笔记.md
@@ -873,15 +880,18 @@
 .\读书笔记\ML&DL\general\Activation Functions.md
 .\读书笔记\ML&DL\general\Finetuning.html
 .\读书笔记\ML&DL\general\Finetuning.md
-.\读书笔记\ML&DL\general\L-2 Regularization.html
-.\读书笔记\ML&DL\general\L-2 Regularization.md
 .\读书笔记\ML&DL\general\README.md
 .\读书笔记\ML&DL\general\Regularization.html
 .\读书笔记\ML&DL\general\Regularization.md
 .\读书笔记\ML&DL\general\权重初始化方法.html
 .\读书笔记\ML&DL\general\权重初始化方法.md
+.\读书笔记\ML&DL\general\神经网络中的白化.html
+.\读书笔记\ML&DL\general\神经网络中的白化.md
 .\读书笔记\ML&DL\general\轻量化网络笔记.html
 .\读书笔记\ML&DL\general\轻量化网络笔记.md
+.\读书笔记\ML&DL\GNN相关\About graph neural network.html
+.\读书笔记\ML&DL\GNN相关\About graph neural network.md
+.\读书笔记\ML&DL\GNN相关\README.md
 .\读书笔记\ML&DL\ML-Related\Clustering Algorithm.html
 .\读书笔记\ML&DL\ML-Related\Clustering Algorithm.md
 .\读书笔记\ML&DL\ML-Related\Frequently Used Classifier.html
@@ -916,33 +926,25 @@
 .\读书笔记\ML&DL\NLP-Related\seq2seq解析.md
 .\读书笔记\ML&DL\NLP-Related\Transformer笔记.html
 .\读书笔记\ML&DL\NLP-Related\Transformer笔记.md
-.\读书笔记\ML&DL\NLP-Related\Transformer综述.html
-.\读书笔记\ML&DL\NLP-Related\Transformer综述.md
 .\读书笔记\ML&DL\NLP-Related\Word Embeding Review.html
 .\读书笔记\ML&DL\NLP-Related\Word Embeding Review.md
-.\读书笔记\ML&DL\Other DL\About graph neural network.html
-.\读书笔记\ML&DL\Other DL\About graph neural network.md
-.\读书笔记\ML&DL\Other DL\README.md
-.\读书笔记\ML&DL\Other DL\Structural re-parameterization.html
-.\读书笔记\ML&DL\Other DL\Structural re-parameterization.md
-.\读书笔记\ML&DL\Other DL\原始数据中的反绎知识归纳.html
-.\读书笔记\ML&DL\Other DL\原始数据中的反绎知识归纳.md
-.\读书笔记\ML&DL\Other DL\因果推断的推荐算法初探.html
-.\读书笔记\ML&DL\Other DL\因果推断的推荐算法初探.md
-.\读书笔记\ML&DL\Other DL\实体关系抽取的现状和未来.html
-.\读书笔记\ML&DL\Other DL\实体关系抽取的现状和未来.md
-.\读书笔记\ML&DL\Other DL\小样本学习.html
-.\读书笔记\ML&DL\Other DL\小样本学习.md
-.\读书笔记\ML&DL\Other DL\模型压缩.html
-.\读书笔记\ML&DL\Other DL\模型压缩.md
-.\读书笔记\ML&DL\Other DL\深度学习攻防.html
-.\读书笔记\ML&DL\Other DL\深度学习攻防.md
-.\读书笔记\ML&DL\Other DL\知识蒸馏.html
-.\读书笔记\ML&DL\Other DL\知识蒸馏.md
-.\读书笔记\ML&DL\Other DL\神经网络中的奥卡姆剃刀.html
-.\读书笔记\ML&DL\Other DL\神经网络中的奥卡姆剃刀.md
-.\读书笔记\ML&DL\Other DL\神经网络中的白化.html
-.\读书笔记\ML&DL\Other DL\神经网络中的白化.md
+.\读书笔记\ML&DL\NLP-Related\实体关系抽取的现状和未来.html
+.\读书笔记\ML&DL\NLP-Related\实体关系抽取的现状和未来.md
+.\读书笔记\ML&DL\小样本学习\README.md
+.\读书笔记\ML&DL\小样本学习\小样本学习.html
+.\读书笔记\ML&DL\小样本学习\小样本学习.md
+.\读书笔记\ML&DL\模型压缩\README.md
+.\读书笔记\ML&DL\模型压缩\模型压缩.html
+.\读书笔记\ML&DL\模型压缩\模型压缩.md
+.\读书笔记\ML&DL\模型压缩\知识蒸馏.html
+.\读书笔记\ML&DL\模型压缩\知识蒸馏.md
+.\读书笔记\ML&DL\符号与神经\README.md
+.\读书笔记\ML&DL\符号与神经\原始数据中的反绎知识归纳.html
+.\读书笔记\ML&DL\符号与神经\原始数据中的反绎知识归纳.md
+.\读书笔记\ML&DL\符号与神经\深度学习攻防.html
+.\读书笔记\ML&DL\符号与神经\深度学习攻防.md
+.\读书笔记\ML&DL\符号与神经\神经网络中的奥卡姆剃刀.html
+.\读书笔记\ML&DL\符号与神经\神经网络中的奥卡姆剃刀.md
 .\读书笔记\伦理学\README.md
 .\读书笔记\伦理学\伦理学导论(程炼）.pdf
 .\读书笔记\伦理学\伦理学导论.html
@@ -958,6 +960,8 @@
 .\读书笔记\健康相关\健身相关\有氧与无氧运动特点.html
 .\读书笔记\健康相关\健身相关\有氧与无氧运动特点.md
 .\读书笔记\健康相关\医疗相关\README.md
+.\读书笔记\健康相关\医疗相关\医疗书籍.html
+.\读书笔记\健康相关\医疗相关\医疗书籍.md
 .\读书笔记\健康相关\医疗相关\失温.html
 .\读书笔记\健康相关\医疗相关\失温.md
 .\读书笔记\健康相关\医疗相关\癌症早期筛查.html
@@ -1142,6 +1146,8 @@
 .\读书笔记\投资相关\投资基本面分析\中国石油消费结构.md
 .\读书笔记\投资相关\投资基本面分析\如何了解一个行业.html
 .\读书笔记\投资相关\投资基本面分析\如何了解一个行业.md
+.\读书笔记\投资相关\投资基本面分析\投资策略分析.html
+.\读书笔记\投资相关\投资基本面分析\投资策略分析.md
 .\读书笔记\投资相关\投资基本面分析\行业专家访谈.html
 .\读书笔记\投资相关\投资基本面分析\行业专家访谈.md
 .\读书笔记\投资相关\股票投资\1.png
