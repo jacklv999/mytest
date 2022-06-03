@@ -17,6 +17,7 @@
 - [人格测试: MBTI人格](./MBTI人格.html) 
 - 认识自己的能力
     - [认识运气](./认识运气.html) 
+- [细心与不耻下问](./细心与不耻下问.html) 
 
 
 #### 声名
@@ -28,6 +29,7 @@
 
 - [听取别人的意见: 防止自以为是](./《傅雷家书》读书随记-·-别人的意见-.html) 
 - [Rethink the Importance of Advices](./Rethink the Importance of Advices.html) 
+- [不要随口别人的反驳建议](./反驳建议.html) 
 
 #### 不思进取
 
