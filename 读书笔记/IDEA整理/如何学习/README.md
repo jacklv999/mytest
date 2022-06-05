@@ -9,9 +9,9 @@
 
 #### 2. 如何学习?
 
-- 以教促学: [学习方式对比](./学习方式对比.html) 
+- 以教促学+思维导图+定期审视
+    - [费曼学习法与学习方式对比](./学习方式对比.html) 
 - 刨根究底: [Think more: NO GRANT](./Think moreNO GRANT.html) 
-- 思维导图: [Mastering Reading Skills](./Mastering Reading Skills.html) 
 - [如何向他人请教?](./如何请教.html) 
 - [记忆宫殿](./记忆宫殿.html) 
 

@@ -497,8 +497,6 @@
 .\读书笔记\IDEA整理\如何做事\该如何卷.md
 .\读书笔记\IDEA整理\如何做事\该怎么全力以赴.html
 .\读书笔记\IDEA整理\如何做事\该怎么全力以赴.md
-.\读书笔记\IDEA整理\如何学习\Mastering Reading Skills.html
-.\读书笔记\IDEA整理\如何学习\Mastering Reading Skills.md
 .\读书笔记\IDEA整理\如何学习\README.md
 .\读书笔记\IDEA整理\如何学习\Think moreNO GRANT.html
 .\读书笔记\IDEA整理\如何学习\Think moreNO GRANT.md
