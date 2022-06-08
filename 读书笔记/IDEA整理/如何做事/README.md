@@ -35,10 +35,8 @@
     - [时间计划](./时间计划.html) 
 
 - ### 做事方法
-    - [做事的方法论](./做事.html) 
     - [How to do things: Framework](./How to do things.html) 
     - [How to do things: Tips](./How to be better.html) 
-    - [如何迭代工作的框架和方法论](./工作迭代的方法论.html) 
     - [做事: Fail-safe机制](./Fail-safe机制.html) 
     - [做事也要常交流](./做事也要常交流.html) 
     
@@ -49,5 +47,5 @@
 
 ## 如何总结?
 
-- [如果是你, 你会怎么做?](./如果是你你会怎么做.html) 
+- [如何认真地复盘?](./如何复盘.html) 
 - [清北怎么做: 卷!](./该如何卷.html) 
