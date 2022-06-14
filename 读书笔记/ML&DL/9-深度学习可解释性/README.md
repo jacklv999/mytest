@@ -2,3 +2,5 @@
 
 - [神经网络中的奥卡姆剃刀](./神经网络中的奥卡姆剃刀.html) 
 - [深度学习攻防](./深度学习攻防.html) 
+- [Lottery Ticket Hypothesis](./Lottery Ticket Hypothesis.html) 
+- [Data-centric AI](./Data-centric AI.html) 

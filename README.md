@@ -3,6 +3,10 @@
 
 
 
+- [ ] 0614[Lottery Ticket Hypothesis](./读书笔记/ML&DL/9-深度学习可解释性/Lottery Ticket Hypothesis.html)
+- [ ] 0614[CNN通道压缩](./读书笔记/ML&DL/7-模型压缩/CNN通道压缩.html)
+- [ ] 0614[Data-centric AI](./读书笔记/ML&DL/9-深度学习可解释性/Data-centric AI.html)
+- [ ] 0614[小样本与对比学习](./读书笔记/ML&DL/6-小样本学习/小样本与对比学习.html)
 - [ ] 0608[如何复盘](./读书笔记/IDEA整理/如何做事/如何复盘.html)
 - [ ] 0608[念念有回响](./读书笔记/IDEA整理/认识他人/念念有回响.html)
 - [ ] 0607[英文字幕遮挡](./读书笔记/语言篇/英语学习/英文字母遮挡.html) 

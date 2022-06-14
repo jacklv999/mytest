@@ -48,3 +48,33 @@ new_model = nn.Sequential(*list(model.children())[:-1])
 #或删除最后两层
 new_model = nn.Sequential(*list(model.children())[:-2])
 ```
+
+#### 4. 常见技巧
+
+##### 1. **使用Pretrain模型做约束**
+
+在Finetune阶段，如果我们可用于Finetune的目标任务数据量较少时，很有可能出现过拟合现象或灾难性遗忘问题。
+
+为了解决这种问题，学术界提出利用Pretrain模型作为约束，指导Finetune的过程，让Finetune得到的模型更加鲁棒。具体而言:
+
+> 通过添加Pretrain模型参数和Finetune模型参数之间的某种正则化损失，让Finetune后的模型参数和最开始的Pretrain模型参数更加相似。
+
+通过最终的实验发现，一个简单的L2正则效果最好，即对于Pretrain模型和Finetune模型的对应层的参数计算L2距离，作为Finetune过程中损失函数的一部分
+
+通过L2正则化的方法拉近Pretrain模型和Target模型参数也存在一定问题，如何设定正则化的强度直接决定了迁移效果。百度提出，通过约束网络的behavior，即feature map，而非模型参数，来实现约束目标。具体的，约束项可以表示为如下形式：
+$$
+\Omega'(w',w^*,x_i,y_i,z)=\sum_{j=1}^NW_j(z,w^*,x_i,y_i)\times\\||FM_j(z,w,x_i)-FM_j(z,w^*,x_i)||_2^2
+$$
+其中，$W_j$表示第$j$个卷积层的约束强度，$FM$表示第$i$个样本经过参数$w$提取的feaure map。$W_j$的计算方法为，使用Pretrain的模型Freeze住底层Feature Extractor参数，Finetune后面Discriminator参数，通过衡量去掉每个channel后效果的损失，得到这个channel的迁移强度。
+
+如果去掉Pretrain模型某个channel后效果下降特别明显，说明Pretrain得到的这个channel的信息对Target任务是很有效的，这个时候要增大这种channel参数的迁移强度。
+
+##### 2. **选择性地对Pretrain模型迁移**
+
+Pretrain模型中的参数不一定都是对下游任务有帮助的，因此一些研究提出，对Pretrain的模型进行有选择性的迁移，重点迁移那些对下游任务帮助大的信息。
+
+##### 3. **在Finetune阶段调整网络结构**
+
+在Finetune阶段动态剪枝的方法，实现Finetune阶段不仅能够调整模型参数，还能调整模型网络结构。该方法分为Target-aware Pruning和Importance-aware Finetuning两个阶段。在Target-aware Pruning阶段，对于网络中每一层的每一个filter，都对应一个可学习的权重，把Pretrain模型的参数Freeze住，使用Target任务的数据和优化目标进行训练，得到每组参数最终对应的权重.
+
+这个重要性权重会使用泰勒变换，融合全局各层的打分结果得到全局的打分，最后将打分较低的网络参数剪枝掉。

@@ -823,8 +823,12 @@
 .\读书笔记\ML&DL\6-小样本学习\README.md
 .\读书笔记\ML&DL\6-小样本学习\基于局部表征的FSL.html
 .\读书笔记\ML&DL\6-小样本学习\基于局部表征的FSL.md
+.\读书笔记\ML&DL\6-小样本学习\小样本与对比学习.html
+.\读书笔记\ML&DL\6-小样本学习\小样本与对比学习.md
 .\读书笔记\ML&DL\6-小样本学习\小样本学习.html
 .\读书笔记\ML&DL\6-小样本学习\小样本学习.md
+.\读书笔记\ML&DL\7-模型压缩\CNN通道压缩.html
+.\读书笔记\ML&DL\7-模型压缩\CNN通道压缩.md
 .\读书笔记\ML&DL\7-模型压缩\README.md
 .\读书笔记\ML&DL\7-模型压缩\模型压缩.html
 .\读书笔记\ML&DL\7-模型压缩\模型压缩.md
@@ -833,6 +837,10 @@
 .\读书笔记\ML&DL\8-符号与神经\README.md
 .\读书笔记\ML&DL\8-符号与神经\原始数据中的反绎知识归纳.html
 .\读书笔记\ML&DL\8-符号与神经\原始数据中的反绎知识归纳.md
+.\读书笔记\ML&DL\9-深度学习可解释性\Data-centric AI.html
+.\读书笔记\ML&DL\9-深度学习可解释性\Data-centric AI.md
+.\读书笔记\ML&DL\9-深度学习可解释性\Lottery Ticket Hypothesis.html
+.\读书笔记\ML&DL\9-深度学习可解释性\Lottery Ticket Hypothesis.md
 .\读书笔记\ML&DL\9-深度学习可解释性\README.md
 .\读书笔记\ML&DL\9-深度学习可解释性\深度学习攻防.html
 .\读书笔记\ML&DL\9-深度学习可解释性\深度学习攻防.md
