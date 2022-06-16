@@ -1,4 +1,6 @@
-# GAN
+# 图像生成
+
+## GAN
 
 - [01 GAN论文笔记](./GAN论文笔记.html) 
 - [02 CGAN论文笔记](./CGAN论文笔记.html) 
@@ -10,7 +12,15 @@
 - [08 StackGAN论文笔记](./StackGAN论文笔记.html) 
 - [09 BigGAN论文笔记](./BigGAN论文笔记.html) 
 - [10 StyleGAN论文笔记](./StyleGAN论文笔记.html) 
-
-## 补充资料
-
 - [从PM到GAN——LSTM之父的怨念](./从PM到GAN——LSTM之父的怨念.html)  
+- [Vector Quantization GAN](./VQ GAN.html) 
+
+## AR Model
+
+- [Vector Quantization VAE](./VQ VAE.html) 
+
+## Diffusion Model
+
+- [扩散模型](./扩散模型.html) 
+
+- [Vector Quantization diffusion model](./VQ diffusion model.html)  

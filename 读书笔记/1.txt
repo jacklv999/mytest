@@ -629,6 +629,8 @@
 .\读书笔记\ML&DL\1-ML-General\VAE.md
 .\读书笔记\ML&DL\1-ML-General\使用随机重复爬山算法和模拟退火算法的过程优化.html
 .\读书笔记\ML&DL\1-ML-General\使用随机重复爬山算法和模拟退火算法的过程优化.md
+.\读书笔记\ML&DL\1-ML-General\信号处理.html
+.\读书笔记\ML&DL\1-ML-General\信号处理.md
 .\读书笔记\ML&DL\1-ML-General\变分推断简述.html
 .\读书笔记\ML&DL\1-ML-General\变分推断简述.md
 .\读书笔记\ML&DL\1-ML-General\基于 flow 的生成模型.html
@@ -696,8 +698,16 @@
 .\读书笔记\ML&DL\3-CV-Related\GAN\StyleGAN论文笔记.md
 .\读书笔记\ML&DL\3-CV-Related\GAN\Techniques for GANs.html
 .\读书笔记\ML&DL\3-CV-Related\GAN\Techniques for GANs.md
+.\读书笔记\ML&DL\3-CV-Related\GAN\VQ diffusion model.html
+.\读书笔记\ML&DL\3-CV-Related\GAN\VQ diffusion model.md
+.\读书笔记\ML&DL\3-CV-Related\GAN\VQ GAN.html
+.\读书笔记\ML&DL\3-CV-Related\GAN\VQ GAN.md
+.\读书笔记\ML&DL\3-CV-Related\GAN\VQ VAE.html
+.\读书笔记\ML&DL\3-CV-Related\GAN\VQ VAE.md
 .\读书笔记\ML&DL\3-CV-Related\GAN\从PM到GAN——LSTM之父的怨念.html
 .\读书笔记\ML&DL\3-CV-Related\GAN\从PM到GAN——LSTM之父的怨念.md
+.\读书笔记\ML&DL\3-CV-Related\GAN\扩散模型.html
+.\读书笔记\ML&DL\3-CV-Related\GAN\扩散模型.md
 .\读书笔记\ML&DL\3-CV-Related\opencv\CV形态学操作.html
 .\读书笔记\ML&DL\3-CV-Related\opencv\CV形态学操作.md
 .\读书笔记\ML&DL\3-CV-Related\opencv\OpenCV Package Review.html
@@ -788,6 +798,8 @@
 .\读书笔记\ML&DL\3-CV-Related\VIT\README.md
 .\读书笔记\ML&DL\3-CV-Related\VIT\Transformer综述.html
 .\读书笔记\ML&DL\3-CV-Related\VIT\Transformer综述.md
+.\读书笔记\ML&DL\3-CV-Related\VIT\ViT机制探索.html
+.\读书笔记\ML&DL\3-CV-Related\VIT\ViT机制探索.md
 .\读书笔记\ML&DL\3-CV-Related\目标检测\DSSD论文简析.html
 .\读书笔记\ML&DL\3-CV-Related\目标检测\DSSD论文简析.md
 .\读书笔记\ML&DL\3-CV-Related\目标检测\Faster RCNN论文笔记.md
@@ -820,6 +832,8 @@
 .\读书笔记\ML&DL\5-GNN-Related\About graph neural network.html
 .\读书笔记\ML&DL\5-GNN-Related\About graph neural network.md
 .\读书笔记\ML&DL\5-GNN-Related\README.md
+.\读书笔记\ML&DL\5-GNN-Related\图神经网络的异常检测.html
+.\读书笔记\ML&DL\5-GNN-Related\图神经网络的异常检测.md
 .\读书笔记\ML&DL\6-小样本学习\README.md
 .\读书笔记\ML&DL\6-小样本学习\基于局部表征的FSL.html
 .\读书笔记\ML&DL\6-小样本学习\基于局部表征的FSL.md
@@ -834,6 +848,8 @@
 .\读书笔记\ML&DL\7-模型压缩\模型压缩.md
 .\读书笔记\ML&DL\7-模型压缩\知识蒸馏.html
 .\读书笔记\ML&DL\7-模型压缩\知识蒸馏.md
+.\读书笔记\ML&DL\7-模型压缩\知识蒸馏方法.html
+.\读书笔记\ML&DL\7-模型压缩\知识蒸馏方法.md
 .\读书笔记\ML&DL\8-符号与神经\README.md
 .\读书笔记\ML&DL\8-符号与神经\原始数据中的反绎知识归纳.html
 .\读书笔记\ML&DL\8-符号与神经\原始数据中的反绎知识归纳.md

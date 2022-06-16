@@ -3,6 +3,14 @@
 
 
 
+- [ ] 0616[知识蒸馏方法](./读书笔记/ML&DL/7-模型压缩/知识蒸馏方法.html)
+- [ ] 0616[扩散模型](./读书笔记/ML&DL/3-CV-Related/GAN/扩散模型.html)
+- [ ] 0616[信号处理](./读书笔记/ML&DL/1-ML-General/信号处理.html)
+- [ ] 0616[ViT机制探索](./读书笔记/ML&DL/3-CV-Related/VIT/ViT机制探索.html)
+- [ ] 0616[图神经网络的异常检测](./读书笔记/ML&DL/5-GNN-Related/图神经网络的异常检测.html)
+- [ ] 0616[VQ diffusion model](./读书笔记/ML&DL/3-CV-Related/GAN/VQ diffusion model.html)
+- [ ] 0616[VQ GAN](./读书笔记/ML&DL/3-CV-Related/GAN/VQ GAN.html)
+- [ ] 0616[VQ VAE](./读书笔记/ML&DL/3-CV-Related/GAN/VQ VAE.html)
 - [ ] 0614[Lottery Ticket Hypothesis](./读书笔记/ML&DL/9-深度学习可解释性/Lottery Ticket Hypothesis.html)
 - [ ] 0614[CNN通道压缩](./读书笔记/ML&DL/7-模型压缩/CNN通道压缩.html)
 - [ ] 0614[Data-centric AI](./读书笔记/ML&DL/9-深度学习可解释性/Data-centric AI.html)
