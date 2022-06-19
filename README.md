@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0619[谋定为先](./读书笔记/IDEA整理/如何做事/谋定为先.html)
 - [ ] 0616[主动 and take control](./读书笔记/IDEA整理/如何做事/主动 and take control.html)
 - [ ] 0616[知识蒸馏方法](./读书笔记/ML&DL/7-模型压缩/知识蒸馏方法.html)
 - [ ] 0616[扩散模型](./读书笔记/ML&DL/3-CV-Related/GAN/扩散模型.html)

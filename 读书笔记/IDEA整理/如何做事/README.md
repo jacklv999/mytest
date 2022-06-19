@@ -35,6 +35,10 @@
     - [时间计划](./时间计划.html) 
 
 - ### 做事方法
+    
+    - [谋定为先!!!](./谋定为先.html) 
+        - 谋定而后动
+        - 不动亦需谋定
     - [How to do things: Framework](./How to do things.html) 
     - [How to do things: Tips](./How to be better.html) 
     - [做事: Fail-safe机制](./Fail-safe机制.html) 
