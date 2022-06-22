@@ -3,6 +3,11 @@
 
 
 
+- [ ] 0622[K线有杀气NOTE](./读书笔记/投资相关/量化投资/K线有杀气NOTE.html)
+- [ ] 0622[对话摘要技术](./读书笔记/ML&DL/4-NLP-Related/对话摘要技术.html)
+- [ ] 0622[多任务并行](./读书笔记/IDEA整理/如何做事/多任务并行.html)
+- [ ] 0622[深度解析Batch Normalization](./读书笔记/ML&DL/2-DL-General/深度解析Batch Normalization.html)
+- [ ] 0622[何为构图](./读书笔记/艺术相关/摄影相关/摄影前期/何为构图.html)
 - [ ] 0619[谋定为先](./读书笔记/IDEA整理/如何做事/谋定为先.html)
 - [ ] 0616[主动 and take control](./读书笔记/IDEA整理/如何做事/主动 and take control.html)
 - [ ] 0616[知识蒸馏方法](./读书笔记/ML&DL/7-模型压缩/知识蒸馏方法.html)

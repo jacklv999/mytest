@@ -4,3 +4,4 @@
 - [量化公司架构](./量化公司架构.html) 
 - [基本的APT模型](./APT模型.html) 
 - [CAPM模型到多因子模型](./CAPM模型到多因子模型.html) 
+- [K线有杀气NOTE](./K线有杀气NOTE.html) 

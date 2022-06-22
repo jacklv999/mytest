@@ -473,6 +473,8 @@
 .\读书笔记\IDEA整理\如何做事\做重要但不紧急的事.md
 .\读书笔记\IDEA整理\如何做事\切勿专注于一件事.html
 .\读书笔记\IDEA整理\如何做事\切勿专注于一件事.md
+.\读书笔记\IDEA整理\如何做事\多任务并行.html
+.\读书笔记\IDEA整理\如何做事\多任务并行.md
 .\读书笔记\IDEA整理\如何做事\太用力的人跑不远.html
 .\读书笔记\IDEA整理\如何做事\太用力的人跑不远.md
 .\读书笔记\IDEA整理\如何做事\如何参考已有结果.html
@@ -655,6 +657,8 @@
 .\读书笔记\ML&DL\2-DL-General\Regularization.md
 .\读书笔记\ML&DL\2-DL-General\权重初始化方法.html
 .\读书笔记\ML&DL\2-DL-General\权重初始化方法.md
+.\读书笔记\ML&DL\2-DL-General\深度解析Batch Normalization.html
+.\读书笔记\ML&DL\2-DL-General\深度解析Batch Normalization.md
 .\读书笔记\ML&DL\2-DL-General\神经网络中的白化.html
 .\读书笔记\ML&DL\2-DL-General\神经网络中的白化.md
 .\读书笔记\ML&DL\2-DL-General\轻量化网络笔记.html
@@ -833,6 +837,8 @@
 .\读书笔记\ML&DL\4-NLP-Related\Word Embeding Review.md
 .\读书笔记\ML&DL\4-NLP-Related\实体关系抽取的现状和未来.html
 .\读书笔记\ML&DL\4-NLP-Related\实体关系抽取的现状和未来.md
+.\读书笔记\ML&DL\4-NLP-Related\对话摘要技术.html
+.\读书笔记\ML&DL\4-NLP-Related\对话摘要技术.md
 .\读书笔记\ML&DL\5-GNN-Related\About graph neural network.html
 .\读书笔记\ML&DL\5-GNN-Related\About graph neural network.md
 .\读书笔记\ML&DL\5-GNN-Related\README.md
@@ -1209,6 +1215,8 @@
 .\读书笔记\投资相关\量化投资\APT模型.html
 .\读书笔记\投资相关\量化投资\CAPM模型到多因子模型.html
 .\读书笔记\投资相关\量化投资\CAPM模型到多因子模型.md
+.\读书笔记\投资相关\量化投资\K线有杀气NOTE.html
+.\读书笔记\投资相关\量化投资\K线有杀气NOTE.md
 .\读书笔记\投资相关\量化投资\README.md
 .\读书笔记\投资相关\量化投资\对量化的反思.html
 .\读书笔记\投资相关\量化投资\对量化的反思.md
@@ -1548,6 +1556,8 @@
 .\读书笔记\艺术相关\摄影相关\摄影前期\README.md
 .\读书笔记\艺术相关\摄影相关\摄影前期\人像摄影构图.html
 .\读书笔记\艺术相关\摄影相关\摄影前期\人像摄影构图.md
+.\读书笔记\艺术相关\摄影相关\摄影前期\何为构图.html
+.\读书笔记\艺术相关\摄影相关\摄影前期\何为构图.md
 .\读书笔记\艺术相关\摄影相关\摄影前期\摄像头焦段对比.html
 .\读书笔记\艺术相关\摄影相关\摄影前期\摄像头焦段对比.md
 .\读书笔记\艺术相关\摄影相关\摄影前期\数码摄影手册\1.png

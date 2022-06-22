@@ -25,8 +25,6 @@
 #### Normalization
 
 - [About Normalization](./About Normalization.html) 
-
-
-
+- [深度解析Batch Normalization](./深度解析Batch Normalization.html) 
 - [神经网络中的白化](./神经网络中的白化.html) 
 
