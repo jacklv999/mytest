@@ -646,6 +646,8 @@
 .\读书笔记\ML&DL\1-ML-General\时间序列预测.md
 .\读书笔记\ML&DL\1-ML-General\特征工程.html
 .\读书笔记\ML&DL\1-ML-General\特征工程.md
+.\读书笔记\ML&DL\1-ML-General\识别数据分布与自适应.html
+.\读书笔记\ML&DL\1-ML-General\识别数据分布与自适应.md
 .\读书笔记\ML&DL\2-DL-General\About Normalization.html
 .\读书笔记\ML&DL\2-DL-General\About Normalization.md
 .\读书笔记\ML&DL\2-DL-General\Activation Functions.html
@@ -808,6 +810,8 @@
 .\读书笔记\ML&DL\3-CV-Related\VIT\Transformer综述.md
 .\读书笔记\ML&DL\3-CV-Related\VIT\ViT机制探索.html
 .\读书笔记\ML&DL\3-CV-Related\VIT\ViT机制探索.md
+.\读书笔记\ML&DL\3-CV-Related\VIT\ViT的泛化性能.html
+.\读书笔记\ML&DL\3-CV-Related\VIT\ViT的泛化性能.md
 .\读书笔记\ML&DL\3-CV-Related\目标检测\DSSD论文简析.html
 .\读书笔记\ML&DL\3-CV-Related\目标检测\DSSD论文简析.md
 .\读书笔记\ML&DL\3-CV-Related\目标检测\Faster RCNN论文笔记.md
