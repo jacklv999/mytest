@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0624[Data Lake](./读书笔记/Business Related/Hard skills/大数据/Data Lake.html)
 - [ ] 0624[ViT的泛化性能](./读书笔记/ML&DL/3-CV-Related/VIT/ViT的泛化性能.html)
 - [ ] 0624[识别数据分布与自适应](./读书笔记/ML&DL/1-ML-General/识别数据分布与自适应.html)
 - [ ] 0622[K线有杀气NOTE](./读书笔记/投资相关/量化投资/K线有杀气NOTE.html)

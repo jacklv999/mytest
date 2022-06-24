@@ -64,6 +64,8 @@
 .\读书笔记\Business Related\Hard skills\前端相关\JS and TS\闭包与立即执行函数.md
 .\读书笔记\Business Related\Hard skills\大数据\Big Data Review.html
 .\读书笔记\Business Related\Hard skills\大数据\Big Data Review.md
+.\读书笔记\Business Related\Hard skills\大数据\Data Lake.html
+.\读书笔记\Business Related\Hard skills\大数据\Data Lake.md
 .\读书笔记\Business Related\Hard skills\大数据\README.md
 .\读书笔记\Business Related\Hard skills\大数据\Spark in Python.html
 .\读书笔记\Business Related\Hard skills\大数据\Spark in Python.ipynb
