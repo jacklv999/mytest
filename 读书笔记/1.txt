@@ -880,6 +880,8 @@
 .\读书笔记\ML&DL\8-符号与神经\README.md
 .\读书笔记\ML&DL\8-符号与神经\原始数据中的反绎知识归纳.html
 .\读书笔记\ML&DL\8-符号与神经\原始数据中的反绎知识归纳.md
+.\读书笔记\ML&DL\9-深度学习可解释性\BNN与推荐系统.html
+.\读书笔记\ML&DL\9-深度学习可解释性\BNN与推荐系统.md
 .\读书笔记\ML&DL\9-深度学习可解释性\Data-centric AI.html
 .\读书笔记\ML&DL\9-深度学习可解释性\Data-centric AI.md
 .\读书笔记\ML&DL\9-深度学习可解释性\Lottery Ticket Hypothesis.html

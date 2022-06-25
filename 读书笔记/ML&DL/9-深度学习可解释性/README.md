@@ -5,3 +5,4 @@
 - [Lottery Ticket Hypothesis](./Lottery Ticket Hypothesis.html) 
 - [Data-centric AI](./Data-centric AI.html) 
 - [贝叶斯深度学习介绍](./贝叶斯深度学习介绍.html) 
+- [贝叶斯深度学习与推荐系统](./BNN与推荐系统.html) 
