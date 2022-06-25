@@ -56,6 +56,8 @@
 .\读书笔记\Business Related\Hard skills\前端相关\JS and TS\README.md
 .\读书笔记\Business Related\Hard skills\前端相关\JS and TS\使用 TypeScript 来写 Vue.html
 .\读书笔记\Business Related\Hard skills\前端相关\JS and TS\使用 TypeScript 来写 Vue[转].md
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\前端有什么轮子值得实现.html
+.\读书笔记\Business Related\Hard skills\前端相关\JS and TS\前端有什么轮子值得实现.md
 .\读书笔记\Business Related\Hard skills\前端相关\JS and TS\树状下拉选择.html
 .\读书笔记\Business Related\Hard skills\前端相关\JS and TS\树状下拉选择.md
 .\读书笔记\Business Related\Hard skills\前端相关\JS and TS\禁止Chrome登录.html
@@ -137,6 +139,13 @@
 .\读书笔记\Business Related\Hard skills\数据分析\Business Sense\README.md
 .\读书笔记\Business Related\Hard skills\数据分析\Business Sense\Using Lean Analytics.html
 .\读书笔记\Business Related\Hard skills\数据分析\Business Sense\Using Lean Analytics.md
+.\读书笔记\Business Related\Hard skills\软件工程\Code Rules.html
+.\读书笔记\Business Related\Hard skills\软件工程\Code Rules.md
+.\读书笔记\Business Related\Hard skills\软件工程\README.md
+.\读书笔记\Business Related\Hard skills\软件工程\如何设计系统.html
+.\读书笔记\Business Related\Hard skills\软件工程\如何设计系统.md
+.\读书笔记\Business Related\Hard skills\软件工程\软件工程软件设计.html
+.\读书笔记\Business Related\Hard skills\软件工程\软件工程软件设计.md
 .\读书笔记\Business Related\HR面试\100道经典行测图形推理题.doc
 .\读书笔记\Business Related\HR面试\Group Interview Note.html
 .\读书笔记\Business Related\HR面试\Group Interview Note.md
@@ -209,8 +218,6 @@
 .\读书笔记\Business Related\职业发展\达芬奇的诅咒你有吗.md
 .\读书笔记\CS相关\README.md
 .\读书笔记\CS相关\cs基础知识\README.md
-.\读书笔记\CS相关\cs基础知识\CS基础\Code Rules.html
-.\读书笔记\CS相关\cs基础知识\CS基础\Code Rules.md
 .\读书笔记\CS相关\cs基础知识\CS基础\Hash Table.html
 .\读书笔记\CS相关\cs基础知识\CS基础\Hash Table.ipynb
 .\读书笔记\CS相关\cs基础知识\CS基础\Open API Note.html
@@ -228,8 +235,6 @@
 .\读书笔记\CS相关\cs基础知识\CS基础\正则表达式再整理.md
 .\读书笔记\CS相关\cs基础知识\CS基础\编译器原理简记.html
 .\读书笔记\CS相关\cs基础知识\CS基础\编译器原理简记.md
-.\读书笔记\CS相关\cs基础知识\CS基础\软件工程软件设计.html
-.\读书笔记\CS相关\cs基础知识\CS基础\软件工程软件设计.md
 .\读书笔记\CS相关\cs基础知识\Linux\linux 基础命令.html
 .\读书笔记\CS相关\cs基础知识\Linux\linux 基础命令.md
 .\读书笔记\CS相关\cs基础知识\Linux\README.md
@@ -310,6 +315,8 @@
 .\读书笔记\CS相关\Python\Python基础\Python Note.md
 .\读书笔记\CS相关\Python\Python基础\Python 执行字符串.html
 .\读书笔记\CS相关\Python\Python基础\Python 执行字符串.md
+.\读书笔记\CS相关\Python\Python基础\Python刷题指南.html
+.\读书笔记\CS相关\Python\Python基础\Python刷题指南.md
 .\读书笔记\CS相关\Python\Python基础\Python多进程.html
 .\读书笔记\CS相关\Python\Python基础\Python多进程.md
 .\读书笔记\CS相关\Python\Python基础\Python字符串切片.html
@@ -335,6 +342,8 @@
 .\读书笔记\CS相关\Python\Python基础\Send mail by Python.md
 .\读书笔记\CS相关\Python\Python基础\反编译Pyinstaller打包文件.html
 .\读书笔记\CS相关\Python\Python基础\反编译Pyinstaller打包文件.md
+.\读书笔记\CS相关\Python\Python基础\文件名补0对齐.html
+.\读书笔记\CS相关\Python\Python基础\文件名补0对齐.md
 .\读书笔记\CS相关\Python\Python数据分析\Pandas Package Review.html
 .\读书笔记\CS相关\Python\Python数据分析\Pandas Package Review.md
 .\读书笔记\CS相关\Python\Python数据分析\Pytorch与Nppd笔记.html
@@ -568,6 +577,8 @@
 .\读书笔记\IDEA整理\认识他人\好为人师警告.md
 .\读书笔记\IDEA整理\认识他人\如何识人.html
 .\读书笔记\IDEA整理\认识他人\如何识人.md
+.\读书笔记\IDEA整理\认识他人\守正出奇.html
+.\读书笔记\IDEA整理\认识他人\守正出奇.md
 .\读书笔记\IDEA整理\认识他人\异性之间的纯友谊.html
 .\读书笔记\IDEA整理\认识他人\异性之间的纯友谊.md
 .\读书笔记\IDEA整理\认识他人\强硬也是必需的.html
@@ -878,6 +889,8 @@
 .\读书笔记\ML&DL\9-深度学习可解释性\深度学习攻防.md
 .\读书笔记\ML&DL\9-深度学习可解释性\神经网络中的奥卡姆剃刀.html
 .\读书笔记\ML&DL\9-深度学习可解释性\神经网络中的奥卡姆剃刀.md
+.\读书笔记\ML&DL\9-深度学习可解释性\贝叶斯深度学习介绍.html
+.\读书笔记\ML&DL\9-深度学习可解释性\贝叶斯深度学习介绍.md
 .\读书笔记\ML&DL\DL and ML 课程\README.md
 .\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\Attention-and-point-network.html
 .\读书笔记\ML&DL\DL and ML 课程\ML&DL-MLDS\Attention-and-point-network.md

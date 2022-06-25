@@ -3,6 +3,14 @@
 
 
 
+- [ ] 0625[Code Rules](./读书笔记/Business Related/Hard skills/软件工程/Code Rules.html)
+- [ ] 0625[前端有什么轮子值得实现](./读书笔记/Business Related/Hard skills/前端相关/JS and TS/前端有什么轮子值得实现.html)
+- [ ] 0625[如何设计系统](./读书笔记/Business Related/Hard skills/软件工程/如何设计系统.html)
+- [ ] 0625[Python刷题指南](./读书笔记/CS相关/Python/Python基础/Python刷题指南.html)
+- [ ] 0625[贝叶斯深度学习介绍](./读书笔记/ML&DL/9-深度学习可解释性/贝叶斯深度学习介绍.html)
+- [ ] 0625[守正出奇](./读书笔记/IDEA整理/认识他人/守正出奇.html)
+- [ ] 0625[文件名补0对齐](./读书笔记/CS相关/Python/Python基础/文件名补0对齐.html)
+- [ ] 0625[软件工程软件设计](./读书笔记/Business Related/Hard skills/软件工程/软件工程软件设计.html)
 - [ ] 0624[Data Lake](./读书笔记/Business Related/Hard skills/大数据/Data Lake.html)
 - [ ] 0624[ViT的泛化性能](./读书笔记/ML&DL/3-CV-Related/VIT/ViT的泛化性能.html)
 - [ ] 0624[识别数据分布与自适应](./读书笔记/ML&DL/1-ML-General/识别数据分布与自适应.html)

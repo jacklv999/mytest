@@ -4,3 +4,4 @@
 - [深度学习攻防](./深度学习攻防.html) 
 - [Lottery Ticket Hypothesis](./Lottery Ticket Hypothesis.html) 
 - [Data-centric AI](./Data-centric AI.html) 
+- [贝叶斯深度学习介绍](./贝叶斯深度学习介绍.html) 
