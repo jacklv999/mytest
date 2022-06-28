@@ -248,6 +248,8 @@
 .\读书笔记\CS相关\cs基础知识\Markdown\README.md
 .\读书笔记\CS相关\cs基础知识\Markdown\简书MarkDown语法.html
 .\读书笔记\CS相关\cs基础知识\Markdown\简书MarkDown语法.md
+.\读书笔记\CS相关\cs基础知识\Win\CMD环境变量.html
+.\读书笔记\CS相关\cs基础知识\Win\CMD环境变量.md
 .\读书笔记\CS相关\cs基础知识\Win\CMD脚本.html
 .\读书笔记\CS相关\cs基础知识\Win\CMD脚本.md
 .\读书笔记\CS相关\cs基础知识\Win\README.md
@@ -469,6 +471,8 @@
 .\读书笔记\IDEA整理\如何做事\README.md
 .\读书笔记\IDEA整理\如何做事\Reshape the way you work.html
 .\读书笔记\IDEA整理\如何做事\Reshape the way you work.md
+.\读书笔记\IDEA整理\如何做事\不可闭门造车.html
+.\读书笔记\IDEA整理\如何做事\不可闭门造车.md
 .\读书笔记\IDEA整理\如何做事\主动 and take control.html
 .\读书笔记\IDEA整理\如何做事\主动 and take control.md
 .\读书笔记\IDEA整理\如何做事\主动争取机会.html
@@ -609,6 +613,8 @@
 .\读书笔记\IDEA整理\认识自己\Rethink the Importance of Advices.md
 .\读书笔记\IDEA整理\认识自己\《傅雷家书》读书随记-·-别人的意见-.html
 .\读书笔记\IDEA整理\认识自己\《傅雷家书》读书随记-·-闲论名利-.html
+.\读书笔记\IDEA整理\认识自己\三思而后行.html
+.\读书笔记\IDEA整理\认识自己\三思而后行.md
 .\读书笔记\IDEA整理\认识自己\不要随便奖励自己.html
 .\读书笔记\IDEA整理\认识自己\不要随便奖励自己.md
 .\读书笔记\IDEA整理\认识自己\反驳建议.html

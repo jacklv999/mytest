@@ -3,6 +3,9 @@
 
 
 
+- [ ] 0628[三思而后行](./读书笔记/IDEA整理/认识自己/三思而后行.html)
+- [ ] 0628[不可闭门造车](./读书笔记/IDEA整理/如何做事/不可闭门造车.html)
+- [ ] 0628[CMD环境变量](./读书笔记/CS相关/cs基础知识/Win/CMD环境变量.html)
 - [ ] 0628[Python虚拟环境对比](./读书笔记/CS相关/Python/Python基础/Python虚拟环境对比.html)
 - [ ] 0625[BNN与推荐系统](./读书笔记/ML&DL/9-深度学习可解释性/BNN与推荐系统.html)
 - [ ] 0625[Code Rules](./读书笔记/Business Related/Hard skills/软件工程/Code Rules.html)

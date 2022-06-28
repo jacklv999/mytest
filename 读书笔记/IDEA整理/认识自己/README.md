@@ -6,6 +6,7 @@
 
 - [Being Humble and responsible](./Being Humble.html) 
 - [Learning to shut up and being useful](./Learning to shut up.html) 
+- [三思而后行](./三思而后行.html) 
 
 #### 认识自己
 

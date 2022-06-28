@@ -43,6 +43,7 @@
     - [How to do things: Tips](./How to be better.html) 
     - [做事: Fail-safe机制](./Fail-safe机制.html) 
     - [做事也要常交流](./做事也要常交流.html) 
+    - [不可闭门造车](./不可闭门造车.html) 
     - [主动 and take control](./主动 and take control.html) 
     - [多任务并行](./多任务并行.html) 
     
