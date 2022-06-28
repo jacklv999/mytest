@@ -118,3 +118,31 @@ BI工具就是一类典型的决策分析类产品，支持自助化数据看板
 
 **3.3 数据咨询专家**：这个面向企业咨询，要具备在实际领域推进数据知识落地的能力，这块也叫数据咨询。
 
+##### 数据科学家的要求
+
+- Experience on data visualization tools like matplotlib etc.
+- Expert in **Big Data and Hadoop** and its various tools.
+- Knowledge of Data mining for knowledge discovery and exploration.
+- Hands-on Experience on TensorFlow and Neural Networks.
+- Experience on Python programming and NoSql DB.
+- Should have experience on Data Lake.
+- Experience in data processing tools like a hive, pig, etc.
+- Hands-on Experience on Development tools like Syder, Jupiter, Anaconda.
+- Excellent understanding of OpenCV, TensorFlow, Keras, etc.
+- Excellent understanding of machine learning techniques and algorithms, such as k-NN, Naive Bayes, SVM, Decision Forests, etc.
+
+**The data analyst work include**
+
+- Collaborating with leaders and identify needs
+- Acquiring primary source of data
+- Clean and organize data
+- Analyze data sets
+- Provide data-driven solutions
+
+**Some of the task of data scientist include**
+
+- Gather, clean and process raw data
+- Develop tools and models to solve business problem
+- Provide suggestion to company owners
+- Writing programs to automate the process
+

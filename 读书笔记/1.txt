@@ -69,6 +69,7 @@
 .\读书笔记\Business Related\Hard skills\大数据\Data Lake.html
 .\读书笔记\Business Related\Hard skills\大数据\Data Lake.md
 .\读书笔记\Business Related\Hard skills\大数据\README.md
+.\读书笔记\Business Related\Hard skills\大数据\Spark BUGS.md
 .\读书笔记\Business Related\Hard skills\大数据\Spark in Python.html
 .\读书笔记\Business Related\Hard skills\大数据\Spark in Python.ipynb
 .\读书笔记\Business Related\Hard skills\大数据\分布式系统入门.html
@@ -333,6 +334,8 @@
 .\读书笔记\CS相关\Python\Python基础\Python监听模拟鼠标键盘.md
 .\读书笔记\CS相关\Python\Python基础\Python虚拟环境及打包.html
 .\读书笔记\CS相关\Python\Python基础\Python虚拟环境及打包.md
+.\读书笔记\CS相关\Python\Python基础\Python虚拟环境对比.html
+.\读书笔记\CS相关\Python\Python基础\Python虚拟环境对比.md
 .\读书笔记\CS相关\Python\Python基础\Python调用命令行.html
 .\读书笔记\CS相关\Python\Python基础\Python调用命令行.md
 .\读书笔记\CS相关\Python\Python基础\Pytorch与Py模块化笔记.html
