@@ -7,6 +7,5 @@
 - [编译原理简记](./编译器原理简记.html) 
 - [Open API Note](./Open API Note.html) 
 - [文件头](./文件头.html) 
-- [Hash Table](./Hash Table.html) 
 - [数字盲水印](./数字盲水印.html) 
 

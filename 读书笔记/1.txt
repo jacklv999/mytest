@@ -178,16 +178,12 @@
 .\读书笔记\Business Related\Soft skills\沟通相关\1.png
 .\读书笔记\Business Related\Soft skills\沟通相关\Learning to speak.html
 .\读书笔记\Business Related\Soft skills\沟通相关\Learning to speak.md
-.\读书笔记\Business Related\Soft skills\沟通相关\Professional and Responsible.html
-.\读书笔记\Business Related\Soft skills\沟通相关\Professional and Responsible.md
 .\读书笔记\Business Related\Soft skills\沟通相关\README.md
 .\读书笔记\Business Related\Soft skills\沟通相关\Representation Framework.html
 .\读书笔记\Business Related\Soft skills\沟通相关\Representation Framework.md
 .\读书笔记\Business Related\Soft skills\沟通相关\《高难度谈话》读书后记.html
 .\读书笔记\Business Related\Soft skills\沟通相关\不能充分交流.html
 .\读书笔记\Business Related\Soft skills\沟通相关\不能充分交流.md
-.\读书笔记\Business Related\Soft skills\沟通相关\尊重他人.html
-.\读书笔记\Business Related\Soft skills\沟通相关\尊重他人.md
 .\读书笔记\Business Related\Soft skills\沟通相关\知识的诅咒.html
 .\读书笔记\Business Related\Soft skills\沟通相关\知识的诅咒.md
 .\读书笔记\Business Related\Soft skills\沟通相关\语言篇举个栗子.html
@@ -219,8 +215,15 @@
 .\读书笔记\Business Related\职业发展\达芬奇的诅咒你有吗.md
 .\读书笔记\CS相关\README.md
 .\读书笔记\CS相关\cs基础知识\README.md
-.\读书笔记\CS相关\cs基础知识\CS基础\Hash Table.html
-.\读书笔记\CS相关\cs基础知识\CS基础\Hash Table.ipynb
+.\读书笔记\CS相关\cs基础知识\新手村任务.md
+.\读书笔记\CS相关\cs基础知识\1. 数据结构\Hash Table.html
+.\读书笔记\CS相关\cs基础知识\1. 数据结构\Hash Table.ipynb
+.\读书笔记\CS相关\cs基础知识\1. 数据结构\README.md
+.\读书笔记\CS相关\cs基础知识\1. 数据结构\二叉树.html
+.\读书笔记\CS相关\cs基础知识\1. 数据结构\二叉树.md
+.\读书笔记\CS相关\cs基础知识\2. 算法\README.md
+.\读书笔记\CS相关\cs基础知识\2. 算法\位运算.html
+.\读书笔记\CS相关\cs基础知识\2. 算法\位运算.md
 .\读书笔记\CS相关\cs基础知识\CS基础\Open API Note.html
 .\读书笔记\CS相关\cs基础知识\CS基础\Open API Note.md
 .\读书笔记\CS相关\cs基础知识\CS基础\README.md
@@ -569,6 +572,12 @@
 .\读书笔记\IDEA整理\认识世界\论物质环境对个人分析理性的影响-.html
 .\读书笔记\IDEA整理\认识世界\谈谈经济学的理性人决策.html
 .\读书笔记\IDEA整理\认识世界\遥远的救世主读书笔记.html
+.\读书笔记\IDEA整理\认识他人\Being Humble.html
+.\读书笔记\IDEA整理\认识他人\Being Humble.md
+.\读书笔记\IDEA整理\认识他人\Learning to shut up.html
+.\读书笔记\IDEA整理\认识他人\Learning to shut up.md
+.\读书笔记\IDEA整理\认识他人\Professional and Responsible.html
+.\读书笔记\IDEA整理\认识他人\Professional and Responsible.md
 .\读书笔记\IDEA整理\认识他人\README.md
 .\读书笔记\IDEA整理\认识他人\《傅雷家书》读书随记-·-朋友还是敌人.html
 .\读书笔记\IDEA整理\认识他人\不要比他人好太多.html
@@ -586,6 +595,8 @@
 .\读书笔记\IDEA整理\认识他人\如何识人.md
 .\读书笔记\IDEA整理\认识他人\守正出奇.html
 .\读书笔记\IDEA整理\认识他人\守正出奇.md
+.\读书笔记\IDEA整理\认识他人\尊重他人.html
+.\读书笔记\IDEA整理\认识他人\尊重他人.md
 .\读书笔记\IDEA整理\认识他人\异性之间的纯友谊.html
 .\读书笔记\IDEA整理\认识他人\异性之间的纯友谊.md
 .\读书笔记\IDEA整理\认识他人\强硬也是必需的.html
@@ -602,10 +613,6 @@
 .\读书笔记\IDEA整理\认识他人\通过求助建立关系.md
 .\读书笔记\IDEA整理\认识他人\重要的细节.html
 .\读书笔记\IDEA整理\认识他人\重要的细节.md
-.\读书笔记\IDEA整理\认识自己\Being Humble.html
-.\读书笔记\IDEA整理\认识自己\Being Humble.md
-.\读书笔记\IDEA整理\认识自己\Learning to shut up.html
-.\读书笔记\IDEA整理\认识自己\Learning to shut up.md
 .\读书笔记\IDEA整理\认识自己\MBTI人格.html
 .\读书笔记\IDEA整理\认识自己\MBTI人格.md
 .\读书笔记\IDEA整理\认识自己\README.md

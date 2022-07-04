@@ -3,6 +3,13 @@
 
 
 
+- [ ] 0704[Learning to shut up](./读书笔记/IDEA整理/认识他人/Learning to shut up.html)
+- [ ] 0704[Hash Table](./读书笔记/CS相关/cs基础知识/1. 数据结构/Hash Table.html)
+- [ ] 0704[Professional and Responsible](./读书笔记/IDEA整理/认识他人/Professional and Responsible.html)
+- [ ] 0704[Being Humble](./读书笔记/IDEA整理/认识他人/Being Humble.html)
+- [ ] 0704[二叉树](./读书笔记/CS相关/cs基础知识/1. 数据结构/二叉树.html)
+- [ ] 0704[尊重他人](./读书笔记/IDEA整理/认识他人/尊重他人.html)
+- [ ] 0704[位运算](./读书笔记/CS相关/cs基础知识/2. 算法/位运算.html)
 - [ ] 0628[三思而后行](./读书笔记/IDEA整理/认识自己/三思而后行.html)
 - [ ] 0628[不可闭门造车](./读书笔记/IDEA整理/如何做事/不可闭门造车.html)
 - [ ] 0628[CMD环境变量](./读书笔记/CS相关/cs基础知识/Win/CMD环境变量.html)

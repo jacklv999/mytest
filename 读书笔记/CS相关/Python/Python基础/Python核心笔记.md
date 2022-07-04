@@ -20,7 +20,7 @@
 
 
 
-## 02.数据类型关键字
+## 02.数据类型
 
 #### 1.引号		
 
@@ -551,21 +551,21 @@ try...except...finally..., 若代码可能出错则用try运行，出错时跳�
 
 - 1.导入数据库驱动:  import sqlite3
    	   	- 2.连接数据库: `con = sqlite3.connect('test.db')` 
-   	   	- 3.创建游标对象: `cursor = con.cursor()` 
+      	   	- 3.创建游标对象: `cursor = con.cursor()` 
    - 4.执行SQL语句
         	      	- 1.执行SQL命令: `cursor.execute('SQL命令')` 
-        	      	      	- 2.创建新表: `create table user(id varchar(20) primary key,name ...)` 
-        	      	      	- 3.插入记录: `insert into user (id, name) values (...)` 
-        	      	      	- 4.关闭Cursor并提交更改: `cursor.close() con.commit()  con.close()` 
+             	      	      	- 2.创建新表: `create table user(id varchar(20) primary key,name ...)` 
+             	      	      	- 3.插入记录: `insert into user (id, name) values (...)` 
+             	      	      	- 4.关闭Cursor并提交更改: `cursor.close() con.commit()  con.close()` 
    - 5.SQL补充
         	      	- 1.varchar(n) 表以可变长度储存,最长不超过20个字节
-        	      	      	- 2.primary key 表主键约束
+             	      	      	- 2.primary key 表主键约束
 
 #### 2.使用MySQL
 
 - 1.导入数据库驱动: import mysql.connector (注: 需要先安装)	
    	   	- 2.连接数据库: con=mysql.connector.connect(user='?',password='?',database='?')
-   	    - 3.创建游标对象: cursor = con.cursor()
+      	    - 3.创建游标对象: cursor = con.cursor()
 
 
 

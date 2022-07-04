@@ -4,8 +4,6 @@
 
 #### 做人
 
-- [Being Humble and responsible](./Being Humble.html) 
-- [Learning to shut up and being useful](./Learning to shut up.html) 
 - [三思而后行](./三思而后行.html) 
 
 #### 认识自己
@@ -35,6 +33,5 @@
 #### 不思进取
 
 - [如何废掉一个人?](./如何废掉一个人.html) 
-
 - [不要随便奖励自己](./不要随便奖励自己.html) 
 - [警惕错位成就感](./错位成就感.html) 
