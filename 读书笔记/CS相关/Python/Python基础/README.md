@@ -18,3 +18,4 @@
 - [Python刷题指南](./Python刷题指南.html) 
 - [文件名补0对齐](./文件名补0对齐.html) 
 - [Python虚拟环境对比](./Python虚拟环境对比.html) 
+- [Python API总结](./Python API.html) 

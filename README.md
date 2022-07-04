@@ -3,6 +3,8 @@
 
 
 
+- [ ] 0704[动态规划](./读书笔记/CS相关/cs基础知识/2. 算法/动态规划.html)
+- [ ] 0704[Python API](./读书笔记/CS相关/Python/Python基础/Python API.html)
 - [ ] 0704[Learning to shut up](./读书笔记/IDEA整理/认识他人/Learning to shut up.html)
 - [ ] 0704[Hash Table](./读书笔记/CS相关/cs基础知识/1. 数据结构/Hash Table.html)
 - [ ] 0704[Professional and Responsible](./读书笔记/IDEA整理/认识他人/Professional and Responsible.html)
