@@ -3,6 +3,8 @@
 
 
 
+- [ ] 0706[双指针](./读书笔记/CS相关/cs基础知识/2. 算法/双指针.html)
+- [ ] 0706[滑动窗口](./读书笔记/CS相关/cs基础知识/2. 算法/滑动窗口.html)
 - [ ] 0704[动态规划](./读书笔记/CS相关/cs基础知识/2. 算法/动态规划.html)
 - [ ] 0704[Python API](./读书笔记/CS相关/Python/Python基础/Python API.html)
 - [ ] 0704[Learning to shut up](./读书笔记/IDEA整理/认识他人/Learning to shut up.html)
