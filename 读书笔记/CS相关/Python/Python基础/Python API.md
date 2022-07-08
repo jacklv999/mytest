@@ -31,6 +31,25 @@ tuple是不可变的list；
 
 #### 3. list 相关API
 
+##### 3.0 创建list
+
+快速创建具有相同元素的列表
+
+```python
+[0] * 3
+[0 for i in range(3)]
+# [0, 0, 0]
+```
+
+使用循环创建列表
+
+```python
+[i for i in range(3)]
+# [0,1,2]
+[i+j for i in range(3) for j in range(2)]
+# [0,1,1,2,2,3]
+```
+
 ##### 3.1 切片index
 
 list切片时，包含left index，不包含right index；
@@ -65,6 +84,17 @@ list复制是复制引用，因此对复制后list的修改会传回原list；
 ```python
 a = [1,2]
 b = a.copy()
+```
+
+**注**：indexed list同样适用
+
+也需要使用显式复制才能获取值拷贝
+
+```python
+a = [[1,2]]
+b = a[1]
+b.append(0)
+# a = [[1,2,0]]
 ```
 
 ##### 3.4 列表倒序
@@ -127,8 +157,35 @@ a.intersection(b)
 ```python
 a = set([1,2])
 b = set([2,3])
-a.u(b)
+a.union(b)
 ```
 
+##### 4.4 修改
 
+```python
+a = set([1,2])
+# method 1
+# for int
+a.add(3)
+# method 2
+# for iterable obj
+a.update([3,4])
+```
+
+#### 5. 字符串
+
+常用方法：
+
+- count：`s.count(i)`, 计算出现次数
+- r/index：`s.index(i)`, 首/末次出现的index
+  - r/find：the same，但返回-1，而不是异常
+- 改变大小写：lower & upper
+- 对齐：ljust & rjust，左右对比（补空格）
+- 合并拆分：split & join
+- 判断元素
+  - islower & isupper
+  - isalnum & isalpha & isspace
+  - isdigit & isnumeric
+  - endswith & startswith
+  - lstrip & rstrip & strip：删除空白符
 
