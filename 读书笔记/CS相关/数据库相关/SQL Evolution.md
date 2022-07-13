@@ -124,3 +124,18 @@ IFNULL(
 )
 ```
 
+#### 7. 表内查询
+
+重复合并本表，实现表内查询并创建新列
+
+```SQL
+select e_1.employee_id,
+       e_1.manager_id as m_1,
+       e_2.manager_id as m_2
+from Employees e_1
+left join Employees e_2
+on e_1.manager_id = e_2.employee_id
+where e_1.employee_id <> 1
+```
+
+注：SQL表不相等的两种方式，`<>` and `!=`

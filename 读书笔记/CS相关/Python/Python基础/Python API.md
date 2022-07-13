@@ -50,7 +50,17 @@ tuple是不可变的list；
 # [0,1,1,2,2,3]
 ```
 
+创建字符串列表
+
+```python
+a = 'abc'
+list(a)
+#['a','b','c']
+```
+
 ##### 3.1 切片index
+
+##### 普通切片：
 
 list切片时，包含left index，不包含right index；
 
@@ -62,6 +72,14 @@ a[0:3]
 # [1,2,3]
 ```
 
+##### 拓展切片：
+
+```python
+list[start:stop:step]
+# 倒置list
+a[::-1]
+```
+
 ##### 3.2 default index
 
 ```python
@@ -71,7 +89,7 @@ a[m:]
 # before nth
 # from 0
 a[:n]
-#
+# 序列
 a == a[:m] + a[m:]
 ```
 
@@ -161,6 +179,8 @@ a.union(b)
 ```
 
 ##### 4.4 修改
+
+set是无序的，修改后增加的元素也会以无序的方式存储。
 
 ```python
 a = set([1,2])
