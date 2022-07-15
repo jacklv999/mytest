@@ -5,9 +5,15 @@
 ##### 使用sort方法
 
 ```python
+# int list
 a = [1,3,5,4]
 a.sort()#ascending
 a.sort(reverse=True)#descending
+
+# list list
+a = [[1,4][0,3]]
+a.sort()
+# [[0, 3], [1, 4]]
 ```
 
 ##### 使用sorted函数

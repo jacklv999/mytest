@@ -22,6 +22,24 @@
     FROM table_name;
     ```
 
+    **注意**：使用distinct clause时，选择的是结果中的唯一列。如果结果不是唯一列，则无法选择。
+
+    下列子句无法筛选唯一列：
+
+    ```sql
+    select distinct salary,
+           row_number() over(order by salary) as rx
+    from Employee
+    ```
+
+    下列子句可以筛选唯一列：
+
+    ```sql
+    select distinct salary,
+           dense_rank() over(order by salary) as rx
+    from Employee
+    ```
+
 - 选择前n项: 不是所有SQL都支持
 
     ```sql

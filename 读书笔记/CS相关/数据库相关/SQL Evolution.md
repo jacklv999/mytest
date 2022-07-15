@@ -138,4 +138,7 @@ on e_1.manager_id = e_2.employee_id
 where e_1.employee_id <> 1
 ```
 
-注：SQL表不相等的两种方式，`<>` and `!=`
+注：SQL表不相等的两种方式，`<>` and `!=` 
+
+
+
