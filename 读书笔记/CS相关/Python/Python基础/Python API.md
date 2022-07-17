@@ -11,9 +11,14 @@ a.sort()#ascending
 a.sort(reverse=True)#descending
 
 # list list
+# 默认情况下
+# 先按首元素排序
+# 再按次元素排序
 a = [[1,4][0,3]]
 a.sort()
 # [[0, 3], [1, 4]]
+# 优先按次元素排序
+# L.sort(key=lambda x:x[1])
 ```
 
 ##### 使用sorted函数
@@ -42,9 +47,14 @@ tuple是不可变的list；
 快速创建具有相同元素的列表
 
 ```python
+# for int
 [0] * 3
 [0 for i in range(3)]
 # [0, 0, 0]
+
+# for complex list
+[[1,2]] *3
+# [[1, 2], [1, 2], [1, 2]]
 ```
 
 使用循环创建列表
