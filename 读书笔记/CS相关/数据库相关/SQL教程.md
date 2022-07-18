@@ -147,3 +147,16 @@ UNION
 SELECT column_name(s) FROM table2;
 ```
 
+#### 12. ifnull函数
+
+不用选择表，可以直接使用!!!!
+
+**用于处理选择结果为空（即没有符合条件的item）的情况！！！** 
+
+```mysql
+select ifnull(
+	(select salary
+    from employee),
+    0
+) as all_salary
+```
