@@ -26,7 +26,20 @@
         - rank(): ranking rows, but joint rank would have blank after it;
         - dense_rank(): the same, but no blank rank;
 
-#### 2. Table Transposition
+#### 2. case when clause(条件)
+
+```sql
+select
+    id,
+    case when p_id is null then "Root"
+         when id not in (select p_id from tree) then "Leaf"
+         else "Inner"
+    end as Type
+from
+    tree
+```
+
+##### Table Transposition
 
 the transposition of table in sql is not as convenient as R/Python, we need a long formula to do it. Although Oracle has `pivot` and `unpivot` for transposition, but not all database providers follow it. 
 
