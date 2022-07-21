@@ -99,8 +99,6 @@
 .\读书笔记\Business Related\Hard skills\推荐系统\Deep Interest Network.md
 .\读书笔记\Business Related\Hard skills\推荐系统\FM推荐算法.html
 .\读书笔记\Business Related\Hard skills\推荐系统\FM推荐算法.md
-.\读书笔记\Business Related\Hard skills\推荐系统\Person Profile Analysis.html
-.\读书笔记\Business Related\Hard skills\推荐系统\Person Profile Analysis.md
 .\读书笔记\Business Related\Hard skills\推荐系统\README.md
 .\读书笔记\Business Related\Hard skills\推荐系统\协同过滤.html
 .\读书笔记\Business Related\Hard skills\推荐系统\协同过滤.md
@@ -128,6 +126,8 @@
 .\读书笔记\Business Related\Hard skills\数据分析\Data Analyst Probability Theory.md
 .\读书笔记\Business Related\Hard skills\数据分析\Data Analyst SQL.html
 .\读书笔记\Business Related\Hard skills\数据分析\Data Analyst SQL.md
+.\读书笔记\Business Related\Hard skills\数据分析\Person Profile Analysis.html
+.\读书笔记\Business Related\Hard skills\数据分析\Person Profile Analysis.md
 .\读书笔记\Business Related\Hard skills\数据分析\README.md
 .\读书笔记\Business Related\Hard skills\数据分析\指标体系.html
 .\读书笔记\Business Related\Hard skills\数据分析\指标体系.md
