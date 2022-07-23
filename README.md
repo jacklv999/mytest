@@ -3,6 +3,8 @@
 
 
 
+- [ ] 0723[SQL字符串](./读书笔记/CS相关/数据库相关/SQL字符串.html)
+- [ ] 0723[SQL日期函数](./读书笔记/CS相关/数据库相关/SQL日期函数.html)
 - [ ] 0721[Person Profile Analysis](./读书笔记/Business Related/Hard skills/数据分析/Person Profile Analysis.html)
 - [ ] 0717[字符串](./读书笔记/CS相关/cs基础知识/1. 数据结构/字符串.html)
 - [ ] 0715[二叉搜索树](./读书笔记/CS相关/cs基础知识/1. 数据结构/二叉搜索树.html)
