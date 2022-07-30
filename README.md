@@ -3,10 +3,10 @@
 
 
 
+- [ ] 0730[深度优先DFS](./读书笔记/CS相关/cs基础知识/2. 算法/深度优先DFS.html)
+- [ ] 0730[广度优先BFS](./读书笔记/CS相关/cs基础知识/2. 算法/广度优先BFS.html)
 - [ ] 0728[优先队列](./读书笔记/CS相关/cs基础知识/1. 数据结构/优先队列.html)
-- [ ] 0727[图](./读书笔记/CS相关/cs基础知识/1. 数据结构/图.html)
-- [ ] 0724[广度优先（BFS）](./读书笔记/CS相关/cs基础知识/2. 算法/广度优先（BFS）.html)
-- [ ] 0724[深度优先（DFS）](./读书笔记/CS相关/cs基础知识/2. 算法/深度优先（DFS）.html)
+- [ ] 0727[图](./读书笔记/CS相关/cs基础知识/1. 数据结构/图.html) 
 - [ ] 0723[SQL字符串](./读书笔记/CS相关/数据库相关/SQL字符串.html)
 - [ ] 0723[SQL日期函数](./读书笔记/CS相关/数据库相关/SQL日期函数.html)
 - [ ] 0721[Person Profile Analysis](./读书笔记/Business Related/Hard skills/数据分析/Person Profile Analysis.html)
