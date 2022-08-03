@@ -1,32 +1,6 @@
 ## SQL Evolution
 
-#### **1. Window Function**
-
-- Definition: Return same value for every row;
-
-- Usage: SQL_Func() OVER (partition by Col_Name(s) order by Col_Name(s))
-
-    - OVER: Key word for window function
-
-    - Partition by: the field used to group
-
-        ```sql
-        select *,avg(score) over (partition by class_name) as avg_math_score
-        from All_Score
-        ```
-
-    - Order by: 
-
-        ```sql
-        select *, rank() over(partition by class_name order by math_score desc) as rank_rank
-        from score
-        ```
-
-        - row_number(): give id number for every row;
-        - rank(): ranking rows, but joint rank would have blank after it;
-        - dense_rank(): the same, but no blank rank;
-
-#### 2. case when clause(条件)
+#### 1. case when clause(条件)
 
 ```sql
 select
@@ -78,7 +52,7 @@ Another solution is use `union` key words, here are example:
     ........
     ```
 
-#### 3. having、where
+#### 2. having、where
 
 this two key words are all used as filter to manipulate data, but the there are some nuances between them: 
 
@@ -107,7 +81,7 @@ GROUP BY name
 HAVING SUM(log_num) > 200;
 ```
 
-#### 4. Order by frequency
+#### 3. Order by frequency
 
 Return data by frequency of `field`:
 
@@ -117,16 +91,7 @@ from students
 group by score
 ```
 
-#### 5. Getting continuous count
-
-Using `row number` and `group` key words:
-
-```sql
-select max(index_num) 
-from login
-```
-
-#### 6. 表内查询
+#### 4. 表内查询
 
 重复合并本表，实现表内查询并创建新列
 

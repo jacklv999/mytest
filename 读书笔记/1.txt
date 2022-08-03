@@ -240,6 +240,8 @@
 .\读书笔记\CS相关\cs基础知识\2. 算法\README.md
 .\读书笔记\CS相关\cs基础知识\2. 算法\位运算.html
 .\读书笔记\CS相关\cs基础知识\2. 算法\位运算.md
+.\读书笔记\CS相关\cs基础知识\2. 算法\前缀和.html
+.\读书笔记\CS相关\cs基础知识\2. 算法\前缀和.md
 .\读书笔记\CS相关\cs基础知识\2. 算法\动态规划.html
 .\读书笔记\CS相关\cs基础知识\2. 算法\动态规划.md
 .\读书笔记\CS相关\cs基础知识\2. 算法\双指针.html
@@ -380,6 +382,9 @@
 .\读书笔记\CS相关\Python\Python数据分析\README.md
 .\读书笔记\CS相关\Python\Python数据分析\vaex tutorial.html
 .\读书笔记\CS相关\Python\Python数据分析\vaex tutorial.ipynb
+.\读书笔记\CS相关\Python\Python数据分析\数据加载与存储.html
+.\读书笔记\CS相关\Python\Python数据分析\数据加载与存储.ipynb
+.\读书笔记\CS相关\Python\Python数据分析\某招聘网站数据.csv
 .\读书笔记\CS相关\Python\Python数据可视化\README.md
 .\读书笔记\CS相关\Python\Python数据可视化\Python-数据可视化Mvan\Animation-动画.html
 .\读书笔记\CS相关\Python\Python数据可视化\Python-数据可视化Mvan\Animation-动画.md
@@ -489,6 +494,8 @@
 .\读书笔记\CS相关\数据库相关\SQL日期函数.md
 .\读书笔记\CS相关\数据库相关\数据库基础.html
 .\读书笔记\CS相关\数据库相关\数据库基础.md
+.\读书笔记\CS相关\数据库相关\窗口函数.html
+.\读书笔记\CS相关\数据库相关\窗口函数.md
 .\读书笔记\IDEA整理\README.md
 .\读书笔记\IDEA整理\如何做事\Do not be a liar.html
 .\读书笔记\IDEA整理\如何做事\Do not be a liar.md
