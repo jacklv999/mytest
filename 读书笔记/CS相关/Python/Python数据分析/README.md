@@ -6,5 +6,6 @@
 ## Pandas
 
 - [Pandas Package Review](./Pandas Package Review.html) 
-- [数据加载与存储](./数据加载与存储.html) 
+- [1、数据加载与存储](./数据加载与存储.html) 
+- [2、数据预览与预处理](./数据预览与预处理.html) 
 

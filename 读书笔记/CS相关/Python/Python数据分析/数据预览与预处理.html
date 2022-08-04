@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>数据加载与存储</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>数据预览与预处理</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14579,22 +14579,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="1---%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%AD%98%E5%82%A8">1 - &#25968;&#25454;&#21152;&#36733;&#19982;&#23384;&#20648;<a class="anchor-link" href="#1---%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%AD%98%E5%82%A8">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>是的，常常被忽略的「<font color=#E36C07>**数据加载与存储**</font>」也大有门道且值得作为本套习题的开门之章。</p>
-<p>在一次数据分析的过程中，你可能只会读取或存储一两次数据集。</p>
-<p><strong>但若能灵活掌握各项设置，在读取阶段就将数据筛选、匹配、格式指定等操作完成，有时会为我们节省大量时间。</strong></p>
-<p>在本节习题中，我将 pandas 数据分析中常见的数据读取与存储操作进行整理。</p>
-<p><font color=#E36C07>**既可以用于巩固、学习各种操作，也可以作为速查手册使用**</font>。</p>
+<h1 id="3---%E6%95%B0%E6%8D%AE%E9%A2%84%E8%A7%88%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86">3 - &#25968;&#25454;&#39044;&#35272;&#19982;&#39044;&#22788;&#29702;<a class="anchor-link" href="#3---%E6%95%B0%E6%8D%AE%E9%A2%84%E8%A7%88%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86">&#182;</a></h1><p><br></p>
+<p>在拿到数据第一步当然是对数据做一个大概的浏览，以及对缺失值重复值进行相关处理。</p>
+<p>本小节就将练习这部分的基本操作。</p>
+<p>注意1：为了尽可能多的介绍不同方法，因此本节部分操作不是必须的。</p>
+<p>注意2:当进入到 pandas 操作数据时，很多答案并非唯一也并非最优。</p>
 
 </div>
 </div>
@@ -14606,27 +14595,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="1-1-%E6%95%B0%E6%8D%AE%E8%AF%BB%E5%8F%96">1-1 &#25968;&#25454;&#35835;&#21462;<a class="anchor-link" href="#1-1-%E6%95%B0%E6%8D%AE%E8%AF%BB%E5%8F%96">&#182;</a></h2>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="1-%E8%AF%BB%E5%8F%96-Excel">1 &#35835;&#21462; Excel<a class="anchor-link" href="#1-%E8%AF%BB%E5%8F%96-Excel">&#182;</a></h3><p><br></p>
-<ul>
-<li><p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件</p>
-</li>
-<li><p>读取当前目录下 <code>TOP250.xlsx</code> 文件</p>
-</li>
-</ul>
-<p><strong>注意</strong>：使用 <code>pandas</code> 读取 <code>CSV</code> 与 读取 <code>xlsx</code> 格式的 <code>Excel</code> 文件方法大致相同</p>
-<p>因此接下来与 <code>Excel</code> 相关的操作均以 <code>CSV</code> 格式进行出题。</p>
-
+<h2 id="%E5%8A%A0%E8%BD%BD%E6%95%B0%E6%8D%AE">&#21152;&#36733;&#25968;&#25454;<a class="anchor-link" href="#%E5%8A%A0%E8%BD%BD%E6%95%B0%E6%8D%AE">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -14635,11 +14604,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;某招聘网站数据.csv&quot;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s2">&quot;TOP250.xlsx&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14654,29 +14623,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="2-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E4%BD%8D%E7%BD%AE">2 &#35835;&#21462; Excel &#65372;&#25351;&#23450;&#20301;&#32622;<a class="anchor-link" href="#2-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E4%BD%8D%E7%BD%AE">&#182;</a></h3><p>在大多数情况下，我们会将 <code>notebook</code> 和数据源文件放在同一个目录（文件夹下），这样直接使用<code>pd.read_xxx("文件名")</code>即可成功读取。</p>
-<p>但有时需要读取的文件和 <code>notebook</code> 不在同一个目录下，这时可以使用绝对路径或者相对本 <code>notebook</code> 的路径。</p>
-<p>现在请读取本套习题中第二章节下的数据，即 <code>2 - 个性化显示设置/data.csv</code></p>
-
+<h2 id="%E6%95%B0%E6%8D%AE%E6%9F%A5%E7%9C%8B">&#25968;&#25454;&#26597;&#30475;<a class="anchor-link" href="#%E6%95%B0%E6%8D%AE%E6%9F%A5%E7%9C%8B">&#182;</a></h2>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../02 - 个性化显示设置/data.csv&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -14684,139 +14634,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="3-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E8%A1%8C%EF%BC%88%E9%A1%BA%E5%BA%8F%EF%BC%89">3 &#35835;&#21462; Excel &#65372;&#25351;&#23450;&#34892;&#65288;&#39034;&#24207;&#65289;<a class="anchor-link" href="#3-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E8%A1%8C%EF%BC%88%E9%A1%BA%E5%BA%8F%EF%BC%89">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件的 <font color = '#5F5FFC'>前20行</font></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">nrows</span><span class="o">=</span><span class="mi">20</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="4-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E8%A1%8C%EF%BC%88%E8%B7%B3%E8%BF%87%EF%BC%89">4 &#35835;&#21462; Excel &#65372;&#25351;&#23450;&#34892;&#65288;&#36339;&#36807;&#65289;<a class="anchor-link" href="#4-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E8%A1%8C%EF%BC%88%E8%B7%B3%E8%BF%87%EF%BC%89">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件并<font color = '#5F5FFC'>跳过前20行</font></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">skiprows</span><span class="o">=</span> <span class="mi">20</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="5-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E8%A1%8C%EF%BC%88%E6%9D%A1%E4%BB%B6%EF%BC%89">5 &#35835;&#21462; Excel &#65372;&#25351;&#23450;&#34892;&#65288;&#26465;&#20214;&#65289;<a class="anchor-link" href="#5-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E8%A1%8C%EF%BC%88%E6%9D%A1%E4%BB%B6%EF%BC%89">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件中全部<font color = '#5F5FFC'>偶数行</font></p>
-<p>思考：如果是读取全部奇数行，或者更多满足指定条件的行呢？</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">skiprows</span> <span class="o">=</span> <span class="k">lambda</span><span class="p">:</span> <span class="ow">not</span> <span class="n">x</span><span class="o">%</span><span class="k">2</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="6-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E5%88%97%EF%BC%88%E5%88%97%E5%8F%B7%EF%BC%89">6 &#35835;&#21462; Excel &#65372;&#25351;&#23450;&#21015;&#65288;&#21015;&#21495;&#65289;<a class="anchor-link" href="#6-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E5%88%97%EF%BC%88%E5%88%97%E5%8F%B7%EF%BC%89">&#182;</a></h3><p><br></p>
-<p><strong>根据指定列号读取</strong></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件的第 <code>1、3、5</code> 列</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">usecols</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="7-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E5%88%97%EF%BC%88%E5%88%97%E5%90%8D%EF%BC%89">7 &#35835;&#21462; Excel &#65372;&#25351;&#23450;&#21015;&#65288;&#21015;&#21517;&#65289;<a class="anchor-link" href="#7-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E5%88%97%EF%BC%88%E5%88%97%E5%90%8D%EF%BC%89">&#182;</a></h3><p><br></p>
-<p><strong>根据指定列名读取</strong></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件的 <code>positionId、positionName、salary</code> 列</p>
+<h3 id="1---%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE%E7%BB%B4%E5%BA%A6">1 - &#26597;&#30475;&#25968;&#25454;&#32500;&#24230;<a class="anchor-link" href="#1---%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE%E7%BB%B4%E5%BA%A6">&#182;</a></h3><p>先看看数据多少行，多少列，对接下来的处理量心里有个数</p>
 
 </div>
 </div>
@@ -14826,16 +14644,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">usecols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;positionId&#39;</span><span class="p">,</span>
-               <span class="s1">&#39;positionName&#39;</span><span class="p">,</span>
-               <span class="s1">&#39;salary&#39;</span><span class="p">]</span>
-<span class="p">)</span>
-<span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
      </div>
@@ -14853,7 +14665,59 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>(262, 11)</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="2---%E9%9A%8F%E6%9C%BA%E6%9F%A5%E7%9C%8B5%E6%9D%A1%E6%95%B0%E6%8D%AE">2 - &#38543;&#26426;&#26597;&#30475;5&#26465;&#25968;&#25454;<a class="anchor-link" href="#2---%E9%9A%8F%E6%9C%BA%E6%9F%A5%E7%9C%8B5%E6%9D%A1%E6%95%B0%E6%8D%AE">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
 
 
 
@@ -14876,41 +14740,33 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>positionId</th>
-      <th>positionName</th>
-      <th>salary</th>
+      <th>片名</th>
+      <th>上映年份</th>
+      <th>评分</th>
+      <th>评价人数</th>
+      <th>导演</th>
+      <th>编剧</th>
+      <th>主演</th>
+      <th>类型</th>
+      <th>国家/地区</th>
+      <th>语言</th>
+      <th>时长(分钟)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
-      <td>6802721</td>
-      <td>数据分析</td>
-      <td>37500</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>5204912</td>
-      <td>数据建模</td>
-      <td>15000</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>6877668</td>
-      <td>数据分析</td>
-      <td>3500</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>6496141</td>
-      <td>数据分析</td>
-      <td>45000</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>6467417</td>
-      <td>数据分析</td>
-      <td>30000</td>
+      <th>207</th>
+      <td>奇迹男孩</td>
+      <td>2017</td>
+      <td>8.6</td>
+      <td>465218.0</td>
+      <td>斯蒂芬·卓博斯基</td>
+      <td>斯蒂芬·卓博斯基 / 斯蒂夫·康拉德 / 杰克·索恩 / R·J·帕拉西奥</td>
+      <td>雅各布·特伦布莱 / 朱莉娅·罗伯茨 / 伊扎贝拉·维多维奇 / 欧文·威尔逊 / 诺亚·尤...</td>
+      <td>剧情 / 家庭 / 儿童</td>
+      <td>美国</td>
+      <td>英语</td>
+      <td>113.0</td>
     </tr>
   </tbody>
 </table>
@@ -14930,309 +14786,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="8-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E5%88%97%EF%BC%88%E5%8C%B9%E9%85%8D%EF%BC%89">8 &#35835;&#21462; Excel &#65372;&#25351;&#23450;&#21015;&#65288;&#21305;&#37197;&#65289;<a class="anchor-link" href="#8-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E5%88%97%EF%BC%88%E5%8C%B9%E9%85%8D%EF%BC%89">&#182;</a></h3><p><br></p>
-<p><strong>根据指定列名匹配读取</strong></p>
-<p>让我们来个更难一点的，还是读取 <code>某招聘网站数据.csv</code> 文件，但现在有一个 list 中包含多个字段👇</p>
-<p><code>usecols = ['positionId','test','positionName', 'test1','salary']</code></p>
-<p>如果 <code>usecols</code> 中的列名存在于 <code>某招聘网站数据.csv</code> 中，则读取。</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;positionId&#39;</span><span class="p">,</span><span class="s1">&#39;test&#39;</span><span class="p">,</span>
-        <span class="s1">&#39;positionName&#39;</span><span class="p">,</span> <span class="s1">&#39;test1&#39;</span><span class="p">,</span>
-        <span class="s1">&#39;salary&#39;</span><span class="p">]</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">usecols</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">cols</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="9-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E7%B4%A2%E5%BC%95">9 &#35835;&#21462; Excel &#65372;&#25351;&#23450;&#32034;&#24341;<a class="anchor-link" href="#9-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E7%B4%A2%E5%BC%95">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件，并在读取时将 <code>positionId</code> 设置为索引列</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">index_col</span><span class="o">=</span><span class="s2">&quot;positionId&quot;</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="10-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E6%A0%87%E9%A2%98">10 &#35835;&#21462; Excel &#65372;&#25351;&#23450;&#26631;&#39064;<a class="anchor-link" href="#10-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E6%A0%87%E9%A2%98">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件的 <code>positionId、positionName、salary</code> 列，并将标题设置为 <code>ID、岗位名称、薪资</code></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">usecols</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">17</span><span class="p">],</span> 
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;ID&#39;</span><span class="p">,</span><span class="s1">&#39;岗位名称&#39;</span><span class="p">,</span><span class="s1">&#39;薪资&#39;</span><span class="p">]</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="11-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%BD%AC%E6%8D%A2">11 &#35835;&#21462; Excel &#65372;&#32570;&#22833;&#20540;&#36716;&#25442;<a class="anchor-link" href="#11-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%BD%AC%E6%8D%A2">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件，<strong>并不将缺失值标记为 <code>NA</code></strong></p>
-<p>思考：为什么要这样做？</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">keep_default_na</span><span class="o">=</span> <span class="kc">False</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="12-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E7%BC%BA%E5%A4%B1%E5%80%BC%E6%A0%87%E8%AE%B0">12 &#35835;&#21462; Excel &#65372;&#32570;&#22833;&#20540;&#26631;&#35760;<a class="anchor-link" href="#12-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E7%BC%BA%E5%A4%B1%E5%80%BC%E6%A0%87%E8%AE%B0">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件，<strong>并将<code>[]</code>标记为缺失值</strong></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">na_values</span><span class="o">=</span> <span class="s2">&quot;[]&quot;</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="13-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E5%BF%BD%E7%95%A5%E7%BC%BA%E5%A4%B1%E5%80%BC">13 &#35835;&#21462; Excel &#65372;&#24573;&#30053;&#32570;&#22833;&#20540;<a class="anchor-link" href="#13-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E5%BF%BD%E7%95%A5%E7%BC%BA%E5%A4%B1%E5%80%BC">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件，<strong>但不处理缺失值</strong></p>
-<p>思考：和之前的有什么不同，为什么这么做？</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">na_filter</span><span class="o">=</span><span class="kc">False</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="14-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E6%A0%BC%E5%BC%8F">14 &#35835;&#21462; Excel &#65372;&#25351;&#23450;&#26684;&#24335;<a class="anchor-link" href="#14-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%8C%87%E5%AE%9A%E6%A0%BC%E5%BC%8F">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件，并将 <code>positionId,companyId</code> 设置为字符串格式</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">dtype</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;positionId&#39;</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> 
-           <span class="s1">&#39;companyId&#39;</span><span class="p">:</span><span class="nb">str</span><span class="p">}</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="15-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F">15 &#35835;&#21462; Excel &#65372;&#26102;&#38388;&#26684;&#24335;<a class="anchor-link" href="#15-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件，并将 <code>createTime</code> 列设置为字符串格式</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">parse_dates</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;createTime&quot;</span><span class="p">]</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="16-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E5%88%86%E5%9D%97%E8%AF%BB%E5%8F%96">16 &#35835;&#21462; Excel &#65372;&#20998;&#22359;&#35835;&#21462;<a class="anchor-link" href="#16-%E8%AF%BB%E5%8F%96-Excel-%EF%BD%9C%E5%88%86%E5%9D%97%E8%AF%BB%E5%8F%96">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某招聘网站数据.csv</code> 文件，要求返回一个可迭代对象，每次读取 10 行</p>
-<p>思考：为什么这样做？</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;./某招聘网站数据.csv&quot;</span><span class="p">,</span> 
-    <span class="n">chunksize</span><span class="o">=</span><span class="mi">10</span>
-<span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="17-%E8%AF%BB%E5%8F%96-txt-%E6%96%87%E4%BB%B6%EF%BD%9C%E5%B8%B8%E8%A7%84">17 &#35835;&#21462; txt &#25991;&#20214;&#65372;&#24120;&#35268;<a class="anchor-link" href="#17-%E8%AF%BB%E5%8F%96-txt-%E6%96%87%E4%BB%B6%EF%BD%9C%E5%B8%B8%E8%A7%84">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>Titanic.txt</code> 文件。</p>
-<p>注意：在接下来的几种格式文件读取中，对于之前重复的参数/功能将不再整理，仅介绍读取功能。</p>
-
+<h3 id="3---%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE%E5%89%8D%E5%90%8E5%E8%A1%8C">3 - &#26597;&#30475;&#25968;&#25454;&#21069;&#21518;5&#34892;<a class="anchor-link" href="#3---%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE%E5%89%8D%E5%90%8E5%E8%A1%8C">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -15244,12 +14798,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span>
-    <span class="s2">&quot;./TOP250.txt&quot;</span><span class="p">,</span> 
-    <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> 
-    <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;gbk&quot;</span>
-<span class="p">)</span>
-<span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15309,14 +14858,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>肖申克的救赎</td>
       <td>1994</td>
       <td>9.7</td>
-      <td>2317937</td>
+      <td>2317937.0</td>
       <td>弗兰克·德拉邦特</td>
       <td>弗兰克·德拉邦特 / 斯蒂芬·金</td>
       <td>蒂姆·罗宾斯 / 摩根·弗里曼 / 鲍勃·冈顿 / 威廉姆·赛德勒 / 克兰西·布朗 / 吉...</td>
       <td>剧情 / 犯罪</td>
       <td>美国</td>
       <td>英语</td>
-      <td>142</td>
+      <td>142.0</td>
     </tr>
   </tbody>
 </table>
@@ -15329,29 +14878,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="19-%E8%AF%BB%E5%8F%96-JSON-%E6%96%87%E4%BB%B6">19 &#35835;&#21462; JSON &#25991;&#20214;<a class="anchor-link" href="#19-%E8%AF%BB%E5%8F%96-JSON-%E6%96%87%E4%BB%B6">&#182;</a></h3><p><br></p>
-<p>读取当前目录下 <code>某基金数据.json</code> 文件。</p>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_json</span><span class="p">(</span><span class="s2">&quot;./某基金数据.json&quot;</span><span class="p">)</span>
-<span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15369,7 +14904,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[59]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 
 
 
@@ -15392,65 +14927,33 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>净值日期</th>
-      <th>单位净值</th>
-      <th>累计净值</th>
-      <th>日增长率</th>
-      <th>申购状态</th>
-      <th>赎回状态</th>
-      <th>分红送配</th>
+      <th>片名</th>
+      <th>上映年份</th>
+      <th>评分</th>
+      <th>评价人数</th>
+      <th>导演</th>
+      <th>编剧</th>
+      <th>主演</th>
+      <th>类型</th>
+      <th>国家/地区</th>
+      <th>语言</th>
+      <th>时长(分钟)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
-      <td>2020-02-13</td>
-      <td>1.884</td>
-      <td>1.884</td>
-      <td>-0.11%</td>
-      <td>开放申购</td>
-      <td>开放赎回</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2020-02-12</td>
-      <td>1.886</td>
-      <td>1.886</td>
-      <td>3.34%</td>
-      <td>开放申购</td>
-      <td>开放赎回</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2020-02-11</td>
-      <td>1.825</td>
-      <td>1.825</td>
-      <td>-0.16%</td>
-      <td>开放申购</td>
-      <td>开放赎回</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2020-02-10</td>
-      <td>1.828</td>
-      <td>1.828</td>
-      <td>1.33%</td>
-      <td>开放申购</td>
-      <td>开放赎回</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2020-02-07</td>
-      <td>1.804</td>
-      <td>1.804</td>
-      <td>0.61%</td>
-      <td>开放申购</td>
-      <td>开放赎回</td>
-      <td>NaN</td>
+      <th>261</th>
+      <td>黑鹰坠落</td>
+      <td>2001</td>
+      <td>8.7</td>
+      <td>239402.0</td>
+      <td>雷德利·斯科特</td>
+      <td>肯·诺兰 / 马克·鲍登</td>
+      <td>乔什·哈奈特 / 伊万·麦克格雷格 / 汤姆·塞兹摩尔 / 金·寇兹 / 艾文·布莱纳 / ...</td>
+      <td>动作 / 历史 / 战争</td>
+      <td>美国</td>
+      <td>英语</td>
+      <td>144.0</td>
     </tr>
   </tbody>
 </table>
@@ -15470,10 +14973,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="22-%E4%BB%8E-SQL-%E8%AF%BB%E5%8F%96%E6%95%B0%E6%8D%AE">22 &#20174; SQL &#35835;&#21462;&#25968;&#25454;<a class="anchor-link" href="#22-%E4%BB%8E-SQL-%E8%AF%BB%E5%8F%96%E6%95%B0%E6%8D%AE">&#182;</a></h3><p><br></p>
-<p>有时我们需要从 <code>SQL</code> 中读取数据，如果先将数据导出再<code>pandas</code>读取并不是一个合适的选择。</p>
-<p>在 <code>pandas</code> 中支持直接从 <code>sql</code> 中查询并读取。</p>
-<p>为了方便统一操作，请先执行下面的代码创建数据。</p>
+<h3 id="4---%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF">4 - &#26597;&#30475;&#25968;&#25454;&#22522;&#26412;&#20449;&#24687;<a class="anchor-link" href="#4---%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF">&#182;</a></h3><p>看看数据类型，有无缺失值什么的</p>
 
 </div>
 </div>
@@ -15483,17 +14983,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[65]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sqlite3</span> <span class="kn">import</span> <span class="n">connect</span>
-<span class="n">conn</span> <span class="o">=</span> <span class="n">connect</span><span class="p">(</span><span class="s1">&#39;:memory:&#39;</span><span class="p">)</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
-    <span class="n">data</span><span class="o">=</span><span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;10/11/12&#39;</span><span class="p">],</span> 
-          <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;12/11/10&#39;</span><span class="p">]],</span>
-    <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;int_column&#39;</span><span class="p">,</span> 
-             <span class="s1">&#39;date_column&#39;</span><span class="p">])</span>
-<span class="n">df</span><span class="o">.</span><span class="n">to_sql</span><span class="p">(</span><span class="s1">&#39;test_data&#39;</span><span class="p">,</span> <span class="n">conn</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
 </pre></div>
 
      </div>
@@ -15511,13 +15004,24 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[65]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>2</pre>
+<pre>片名         object
+上映年份        int64
+评分        float64
+评价人数      float64
+导演         object
+编剧         object
+主演         object
+类型         object
+国家/地区      object
+语言         object
+时长(分钟)    float64
+dtype: object</pre>
 </div>
 
 </div>
@@ -15526,29 +15030,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>下面将 <code>SQL</code> 语句 <code>SELECT int_column, date_column FROM test_data</code> 转换为 <code>DataFrame</code></p>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[123]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_sql</span><span class="p">(</span>
-    <span class="s1">&#39;SELECT int_column, date_column FROM test_data&#39;</span><span class="p">,</span> 
-    <span class="n">conn</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -15566,7 +15056,75 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[123]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 262 entries, 0 to 261
+Data columns (total 11 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   片名      262 non-null    object 
+ 1   上映年份    262 non-null    int64  
+ 2   评分      257 non-null    float64
+ 3   评价人数    259 non-null    float64
+ 4   导演      262 non-null    object 
+ 5   编剧      262 non-null    object 
+ 6   主演      262 non-null    object 
+ 7   类型      262 non-null    object 
+ 8   国家/地区   256 non-null    object 
+ 9   语言      256 non-null    object 
+ 10  时长(分钟)  256 non-null    float64
+dtypes: float64(3), int64(1), object(7)
+memory usage: 22.6+ KB
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="5---%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E4%BF%A1%E6%81%AF%EF%BD%9C%E6%95%B0%E5%80%BC">5 - &#26597;&#30475;&#25968;&#25454;&#32479;&#35745;&#20449;&#24687;&#65372;&#25968;&#20540;<a class="anchor-link" href="#5---%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E4%BF%A1%E6%81%AF%EF%BD%9C%E6%95%B0%E5%80%BC">&#182;</a></h3><p>查看 <strong>数值型</strong> 列的统计信息，计数、均值什么的</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
 
 
 
@@ -15589,20 +15147,60 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>int_column</th>
-      <th>date_column</th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>min</th>
+      <th>25%</th>
+      <th>50%</th>
+      <th>75%</th>
+      <th>max</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
-      <td>0</td>
-      <td>10/11/12</td>
+      <th>上映年份</th>
+      <td>262.0</td>
+      <td>2000.60</td>
+      <td>15.57</td>
+      <td>1931.0</td>
+      <td>1995.00</td>
+      <td>2004.0</td>
+      <td>2011.0</td>
+      <td>2019.0</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>1</td>
-      <td>12/11/10</td>
+      <th>评分</th>
+      <td>257.0</td>
+      <td>8.91</td>
+      <td>0.26</td>
+      <td>8.4</td>
+      <td>8.70</td>
+      <td>8.9</td>
+      <td>9.1</td>
+      <td>9.7</td>
+    </tr>
+    <tr>
+      <th>评价人数</th>
+      <td>259.0</td>
+      <td>577631.72</td>
+      <td>367670.85</td>
+      <td>106462.0</td>
+      <td>335307.50</td>
+      <td>479949.0</td>
+      <td>693230.5</td>
+      <td>2317937.0</td>
+    </tr>
+    <tr>
+      <th>时长(分钟)</th>
+      <td>256.0</td>
+      <td>121.83</td>
+      <td>28.08</td>
+      <td>45.0</td>
+      <td>101.75</td>
+      <td>118.0</td>
+      <td>136.0</td>
+      <td>237.0</td>
     </tr>
   </tbody>
 </table>
@@ -15622,88 +15220,20 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="24-%E5%BE%AA%E7%8E%AF%E8%AF%BB%E5%8F%96%E6%95%B0%E6%8D%AE">24 &#24490;&#29615;&#35835;&#21462;&#25968;&#25454;<a class="anchor-link" href="#24-%E5%BE%AA%E7%8E%AF%E8%AF%BB%E5%8F%96%E6%95%B0%E6%8D%AE">&#182;</a></h3><p><br></p>
-<p>在本小节 <code>demodata</code> 文件夹下有多个 <code>Excel</code> 文件，要求一次性循环读取全部文件</p>
+<h3 id="6---%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E4%BF%A1%E6%81%AF%EF%BD%9C%E7%A6%BB%E6%95%A3">6 - &#26597;&#30475;&#25968;&#25454;&#32479;&#35745;&#20449;&#24687;&#65372;&#31163;&#25955;<a class="anchor-link" href="#6---%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E4%BF%A1%E6%81%AF%EF%BD%9C%E7%A6%BB%E6%95%A3">&#182;</a></h3><p>查看 <strong>离散型</strong> 列的统计信息，计数、频率什么</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
-<span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;demodata/&#39;</span>
-<span class="n">filesnames</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-<span class="n">filesnames</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">filesnames</span> <span class="k">if</span> <span class="n">f</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.xlsx&quot;</span><span class="p">)]</span>
-<span class="n">df_list</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">filesnames</span><span class="p">:</span>
-    <span class="n">df_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="n">filename</span><span class="p">))</span>
-
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">df_list</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="1-2-%E6%95%B0%E6%8D%AE%E5%88%9B%E5%BB%BA">1-2 &#25968;&#25454;&#21019;&#24314;<a class="anchor-link" href="#1-2-%E6%95%B0%E6%8D%AE%E5%88%9B%E5%BB%BA">&#182;</a></h2><p><br></p>
-<p>除了直接读取本地文件，学会直接创建数据框也很重要，常见于测试一些函数，下面是从常见数据结构创建数据框的方法整理</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="25-%E4%BB%8E%E5%88%97%E8%A1%A8%E5%88%9B%E5%BB%BA">25 &#20174;&#21015;&#34920;&#21019;&#24314;<a class="anchor-link" href="#25-%E4%BB%8E%E5%88%97%E8%A1%A8%E5%88%9B%E5%BB%BA">&#182;</a></h3><p><br></p>
-<p>将下面的 <code>list</code> 转换为 <code>dataframe</code>，并指定列名为<code>"早起Python"</code></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[67]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[70]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
-<span class="n">data</span><span class="o">.</span><span class="n">T</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;O&#39;</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -15721,7 +15251,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[70]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 
 
 
@@ -15744,604 +15274,55 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>0</th>
-      <th>1</th>
-      <th>2</th>
-      <th>3</th>
-      <th>4</th>
+      <th>片名</th>
+      <th>导演</th>
+      <th>编剧</th>
+      <th>主演</th>
+      <th>类型</th>
+      <th>国家/地区</th>
+      <th>语言</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
+      <th>count</th>
+      <td>262</td>
+      <td>262</td>
+      <td>262</td>
+      <td>262</td>
+      <td>262</td>
+      <td>256</td>
+      <td>256</td>
+    </tr>
+    <tr>
+      <th>unique</th>
+      <td>249</td>
+      <td>180</td>
+      <td>221</td>
+      <td>249</td>
+      <td>120</td>
+      <td>20</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <th>top</th>
+      <td>无人知晓</td>
+      <td>是枝裕和</td>
+      <td>是枝裕和</td>
+      <td>柳乐优弥 / 北浦爱 / 木村飞影 / 清水萌萌子 / 韩英惠 / 江原由希子 / 串田和美...</td>
+      <td>剧情</td>
+      <td>美国</td>
+      <td>英语</td>
+    </tr>
+    <tr>
+      <th>freq</th>
       <td>5</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="26-%E4%BB%8E%E5%88%97%E8%A1%A8%E5%88%9B%E5%BB%BA%EF%BD%9C%E5%B5%8C%E5%A5%97%E5%88%97%E8%A1%A8">26 &#20174;&#21015;&#34920;&#21019;&#24314;&#65372;&#23884;&#22871;&#21015;&#34920;<a class="anchor-link" href="#26-%E4%BB%8E%E5%88%97%E8%A1%A8%E5%88%9B%E5%BB%BA%EF%BD%9C%E5%B5%8C%E5%A5%97%E5%88%97%E8%A1%A8">&#182;</a></h3><p><br></p>
-<p>将下面的 <code>list</code> 转换为 <code>dataframe</code>，并指定行索引为<code>"公众号","早起Python"</code></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[71]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[73]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
-<span class="n">data</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[73]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>0</th>
-      <th>1</th>
-      <th>2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>4</td>
-      <td>5</td>
-      <td>6</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="27-%E4%BB%8E%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA">27 &#20174;&#23383;&#20856;&#21019;&#24314;<a class="anchor-link" href="#27-%E4%BB%8E%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>执行下方代码，并将字典转换为<code>dataframe</code></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[74]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">d</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">&quot;one&quot;</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">],</span> 
-                     <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">,</span> <span class="s2">&quot;c&quot;</span><span class="p">]),</span>
-    <span class="s2">&quot;two&quot;</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">,</span> <span class="mf">4.0</span><span class="p">],</span>
-                     <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">,</span> <span class="s2">&quot;c&quot;</span><span class="p">,</span> <span class="s2">&quot;d&quot;</span><span class="p">])</span> <span class="p">}</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[77]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
-<span class="n">data</span><span class="o">.</span><span class="n">T</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[77]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>a</th>
-      <th>b</th>
-      <th>c</th>
-      <th>d</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>one</th>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>3.0</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>two</th>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>3.0</td>
-      <td>4.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="28-%E4%BB%8E%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA%EF%BD%9C%E6%8C%87%E5%AE%9A%E7%B4%A2%E5%BC%95">28 &#20174;&#23383;&#20856;&#21019;&#24314;&#65372;&#25351;&#23450;&#32034;&#24341;<a class="anchor-link" href="#28-%E4%BB%8E%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA%EF%BD%9C%E6%8C%87%E5%AE%9A%E7%B4%A2%E5%BC%95">&#182;</a></h3><p><br></p>
-<p>还是上一题的字典<code>d</code>，将其转换为<code>dataframe</code>并指定索引顺序为 <code>d、b、a</code></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
-    <span class="n">d</span><span class="p">,</span> 
-    <span class="n">index</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;d&#39;</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">,</span><span class="s1">&#39;a&#39;</span><span class="p">}</span>
-<span class="p">)</span>
-<span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[79]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>one</th>
-      <th>two</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>b</th>
-      <td>2.0</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>a</th>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>d</th>
-      <td>NaN</td>
-      <td>4.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="29-%E4%BB%8E%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA%EF%BD%9C%E6%8C%87%E5%AE%9A%E5%88%97%E5%90%8D">29 &#20174;&#23383;&#20856;&#21019;&#24314;&#65372;&#25351;&#23450;&#21015;&#21517;<a class="anchor-link" href="#29-%E4%BB%8E%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA%EF%BD%9C%E6%8C%87%E5%AE%9A%E5%88%97%E5%90%8D">&#182;</a></h3><p><br></p>
-<p>还是上一题的字典<code>d</code>，将其转换为<code>dataframe</code>并指定索引顺序为 <code>d、b、a</code>，列名为<code>"two", "three"</code></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[82]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> 
-                    <span class="n">index</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;d&quot;</span><span class="p">,</span><span class="s2">&quot;b&quot;</span><span class="p">,</span><span class="s2">&quot;a&quot;</span><span class="p">},</span> 
-                    <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;two&quot;</span><span class="p">,</span> <span class="s2">&quot;three&quot;</span><span class="p">])</span>
-<span class="n">data</span><span class="o">.</span><span class="n">T</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[82]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>b</th>
-      <th>a</th>
-      <th>d</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>two</th>
-      <td>2.0</td>
-      <td>1.0</td>
-      <td>4.0</td>
-    </tr>
-    <tr>
-      <th>three</th>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="30-%E4%BB%8E%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA%EF%BD%9C%E5%AD%97%E5%85%B8%E5%88%97%E8%A1%A8">30 &#20174;&#23383;&#20856;&#21019;&#24314;&#65372;&#23383;&#20856;&#21015;&#34920;<a class="anchor-link" href="#30-%E4%BB%8E%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA%EF%BD%9C%E5%AD%97%E5%85%B8%E5%88%97%E8%A1%A8">&#182;</a></h3><p><br></p>
-<p>将下方列表型字典转换为<code>dataframe</code></p>
-<p>思考：如何指定行/列索引？</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">d</span> <span class="o">=</span> <span class="p">[{</span><span class="s2">&quot;a&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">},</span> 
-     <span class="p">{</span><span class="s2">&quot;a&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s2">&quot;c&quot;</span><span class="p">:</span> <span class="mi">20</span><span class="p">}]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="31-%E4%BB%8E%E9%9B%86%E5%90%88%E5%88%9B%E5%BB%BA">31 &#20174;&#38598;&#21512;&#21019;&#24314;<a class="anchor-link" href="#31-%E4%BB%8E%E9%9B%86%E5%90%88%E5%88%9B%E5%BB%BA">&#182;</a></h3><p><br></p>
-<p>将下面的元组转换为 dataframe 且行列索引均为 <code>1,2,3,4</code></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[83]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span> <span class="o">=</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,),</span>
-    <span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,),</span>
-    <span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">0</span><span class="p">,),</span>
-    <span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">10</span><span class="p">,))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[85]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
-<span class="n">data</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[85]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>0</th>
-      <th>1</th>
-      <th>2</th>
-      <th>3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>3</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>4</td>
-      <td>5</td>
-      <td>6</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>7</td>
       <td>8</td>
-      <td>9</td>
-      <td>10</td>
+      <td>7</td>
+      <td>5</td>
+      <td>24</td>
+      <td>111</td>
+      <td>72</td>
     </tr>
   </tbody>
 </table>
@@ -16361,7 +15342,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="1-3-%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8">1-3 &#25968;&#25454;&#23384;&#20648;<a class="anchor-link" href="#1-3-%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8">&#182;</a></h2>
+<h2 id="%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86">&#32570;&#22833;&#20540;&#22788;&#29702;<a class="anchor-link" href="#%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -16372,23 +15353,20 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="32-%E4%BF%9D%E5%AD%98%E4%B8%BA-CSV">32 &#20445;&#23384;&#20026; CSV<a class="anchor-link" href="#32-%E4%BF%9D%E5%AD%98%E4%B8%BA-CSV">&#182;</a></h3><p><br></p>
-<p>将第三题读取到的数据保存为 <code>csv</code> 格式至当前目录下（文件名任意）</p>
+<h3 id="7---%E8%AE%A1%E7%AE%97%E7%BC%BA%E5%A4%B1%E5%80%BC%EF%BD%9C%E5%88%86%E5%88%97">7 - &#35745;&#31639;&#32570;&#22833;&#20540;&#65372;&#20998;&#21015;<a class="anchor-link" href="#7---%E8%AE%A1%E7%AE%97%E7%BC%BA%E5%A4%B1%E5%80%BC%EF%BD%9C%E5%88%86%E5%88%97">&#182;</a></h3><p>再看看具体每列有多少缺失值</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[86]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;某招聘网站数据.csv&quot;</span><span class="p">,</span>
-    <span class="n">nrows</span> <span class="o">=</span> <span class="mi">20</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -16396,20 +15374,40 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[88]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;test.csv&quot;</span><span class="p">)</span>
-</pre></div>
 
-     </div>
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>片名        0
+上映年份      0
+评分        5
+评价人数      3
+导演        0
+编剧        0
+主演        0
+类型        0
+国家/地区     6
+语言        6
+时长(分钟)    6
+dtype: int64</pre>
 </div>
+
 </div>
+
+</div>
+
 </div>
 
 </div>
@@ -16419,8 +15417,174 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="33-%E4%BF%9D%E5%AD%98%E4%B8%BA-CSV%EF%BD%9C%E6%8C%87%E5%AE%9A%E5%88%97">33 &#20445;&#23384;&#20026; CSV&#65372;&#25351;&#23450;&#21015;<a class="anchor-link" href="#33-%E4%BF%9D%E5%AD%98%E4%B8%BA-CSV%EF%BD%9C%E6%8C%87%E5%AE%9A%E5%88%97">&#182;</a></h3><p><br></p>
-<p>将第三题读取到的数据保存为 <code>csv</code> 格式至当前目录下（文件名任意），且只保留<code>positionName、salary</code>两列</p>
+<h3 id="8---%E8%AE%A1%E7%AE%97%E7%BC%BA%E5%A4%B1%E5%80%BC%EF%BD%9C%E6%80%BB%E8%AE%A1">8 - &#35745;&#31639;&#32570;&#22833;&#20540;&#65372;&#24635;&#35745;<a class="anchor-link" href="#8---%E8%AE%A1%E7%AE%97%E7%BC%BA%E5%A4%B1%E5%80%BC%EF%BD%9C%E6%80%BB%E8%AE%A1">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>通过上面的查看，我们发现部分列是存在缺失值的，那么先看看一共存在多少个缺失值</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>26</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="9---%E6%9F%A5%E7%9C%8B%E7%BC%BA%E5%A4%B1%E5%80%BC">9 - &#26597;&#30475;&#32570;&#22833;&#20540;<a class="anchor-link" href="#9---%E6%9F%A5%E7%9C%8B%E7%BC%BA%E5%A4%B1%E5%80%BC">&#182;</a></h3><p>&lt;/br&gt;</p>
+<p>为了后面更方便的处理缺失值，现在先看看全部缺失值所在的行</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">any</span><span class="p">()</span> <span class="o">==</span> <span class="kc">True</span><span class="p">][:</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>片名</th>
+      <th>上映年份</th>
+      <th>评分</th>
+      <th>评价人数</th>
+      <th>导演</th>
+      <th>编剧</th>
+      <th>主演</th>
+      <th>类型</th>
+      <th>国家/地区</th>
+      <th>语言</th>
+      <th>时长(分钟)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>6</th>
+      <td>千与千寻</td>
+      <td>2001</td>
+      <td>9.4</td>
+      <td>1822369.0</td>
+      <td>宫崎骏</td>
+      <td>宫崎骏</td>
+      <td>柊瑠美 / 入野自由 / 夏木真理 / 菅原文太 / 中村彰男 / 玉井夕海 / 神木隆之介...</td>
+      <td>剧情 / 动画 / 奇幻</td>
+      <td>日本</td>
+      <td>日语</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="12---%E5%88%A0%E9%99%A4%E7%BC%BA%E5%A4%B1%E5%80%BC">12 - &#21024;&#38500;&#32570;&#22833;&#20540;<a class="anchor-link" href="#12---%E5%88%A0%E9%99%A4%E7%BC%BA%E5%A4%B1%E5%80%BC">&#182;</a></h3><p><br></p>
+<p>处理缺失值最简单的方式，当然是将缺失值出现的行全部删掉～</p>
+<p>-&gt; 现在，将缺失值出现的行全部删掉</p>
 
 </div>
 </div>
@@ -16433,11 +15597,79 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span>
-    <span class="s2">&quot;out.csv&quot;</span><span class="p">,</span>
-    <span class="n">encoding</span> <span class="o">=</span> <span class="s1">&#39;utf_8_sig&#39;</span><span class="p">,</span>
-    <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;positionName&#39;</span><span class="p">,</span>
-             <span class="s1">&#39;salary&#39;</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="13---%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%A1%A5%E5%85%A8%EF%BD%9C%E6%95%B4%E4%BD%93%E5%A1%AB%E5%85%85">13 - &#32570;&#22833;&#20540;&#34917;&#20840;&#65372;&#25972;&#20307;&#22635;&#20805;<a class="anchor-link" href="#13---%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%A1%A5%E5%85%A8%EF%BD%9C%E6%95%B4%E4%BD%93%E5%A1%AB%E5%85%85">&#182;</a></h3><p><br></p>
+<p>除了删除缺失值最省事之外，将全部缺失值替换为一个 <strong>固定的值/文本</strong> 也是一个较为省事的方法'</p>
+<p>-&gt; 现在，将全部缺失值替换为 <code>*</code></p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s1">&#39;*&#39;</span><span class="p">)</span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="14---%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%A1%A5%E5%85%A8%EF%BD%9C%E5%90%91%E4%B8%8A%E5%A1%AB%E5%85%85">14 - &#32570;&#22833;&#20540;&#34917;&#20840;&#65372;&#21521;&#19978;&#22635;&#20805;<a class="anchor-link" href="#14---%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%A1%A5%E5%85%A8%EF%BD%9C%E5%90%91%E4%B8%8A%E5%A1%AB%E5%85%85">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>从上一小节的查看数据中，不难发现整理数据是按照评分进行降序排列的</p>
+<p>因此对于评分列的缺失值处理，我们可以用上一个电影的评分进行填充</p>
+<p>-&gt; 现在将评分列的缺失值，替换为上一个电影的评分</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[76]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;评分&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;评分&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span>
+    <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">method</span><span class="o">=</span><span class="s1">&#39;ffill&#39;</span>
 <span class="p">)</span>
 </pre></div>
 
@@ -16453,8 +15685,19 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="34-%E4%BF%9D%E5%AD%98%E4%B8%BA-CSV%EF%BD%9C%E5%8F%96%E6%B6%88%E7%B4%A2%E5%BC%95">34 &#20445;&#23384;&#20026; CSV&#65372;&#21462;&#28040;&#32034;&#24341;<a class="anchor-link" href="#34-%E4%BF%9D%E5%AD%98%E4%B8%BA-CSV%EF%BD%9C%E5%8F%96%E6%B6%88%E7%B4%A2%E5%BC%95">&#182;</a></h3><p><br></p>
-<p>将第三题读取到的数据保存为 <code>csv</code> 格式至当前目录下（文件名任意），且取消每一行的索引</p>
+<h3 id="15---%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%A1%A5%E5%85%A8%EF%BD%9C%E6%95%B4%E4%BD%93%E5%9D%87%E5%80%BC%E5%A1%AB%E5%85%85">15 - &#32570;&#22833;&#20540;&#34917;&#20840;&#65372;&#25972;&#20307;&#22343;&#20540;&#22635;&#20805;<a class="anchor-link" href="#15---%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%A1%A5%E5%85%A8%EF%BD%9C%E6%95%B4%E4%BD%93%E5%9D%87%E5%80%BC%E5%A1%AB%E5%85%85">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>对于评价人数列的缺失值处理，我们可以使用整列的均值进行填充</p>
+<p>-&gt; 现在，将评价人数列的缺失值，用整列的均值进行填充</p>
 
 </div>
 </div>
@@ -16464,13 +15707,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[91]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[89]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span>
-    <span class="s2">&quot;test.csv&quot;</span><span class="p">,</span> 
-    <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> 
-    <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-16&quot;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;评价人数&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;评价人数&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;评价人数&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
 <span class="p">)</span>
 </pre></div>
 
@@ -16486,8 +15727,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="35-%E4%BF%9D%E5%AD%98%E4%B8%BA-CSV%EF%BD%9C%E6%A0%87%E8%AE%B0%E7%BC%BA%E5%A4%B1%E5%80%BC">35 &#20445;&#23384;&#20026; CSV&#65372;&#26631;&#35760;&#32570;&#22833;&#20540;<a class="anchor-link" href="#35-%E4%BF%9D%E5%AD%98%E4%B8%BA-CSV%EF%BD%9C%E6%A0%87%E8%AE%B0%E7%BC%BA%E5%A4%B1%E5%80%BC">&#182;</a></h3><p><br></p>
-<p>在上一题的基础上，在保存的同时，将缺失值标记为<code>'数据缺失'</code></p>
+<h3 id="16---%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%A1%A5%E5%85%A8%EF%BD%9C%E4%B8%8A%E4%B8%8B%E5%9D%87%E5%80%BC%E5%A1%AB%E5%85%85">16 - &#32570;&#22833;&#20540;&#34917;&#20840;&#65372;&#19978;&#19979;&#22343;&#20540;&#22635;&#20805;<a class="anchor-link" href="#16---%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%A1%A5%E5%85%A8%EF%BD%9C%E4%B8%8A%E4%B8%8B%E5%9D%87%E5%80%BC%E5%A1%AB%E5%85%85">&#182;</a></h3><p><br></p>
+<p>除了可以使用整列的均值进行填充，也可以使用缺失值位置的上下均值进行填充、</p>
+<p>-&gt; 现在，将评价人数列的缺失值，用上下数字的均值进行填充</p>
 
 </div>
 </div>
@@ -16497,11 +15739,339 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[92]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[97]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;test.csv&quot;</span><span class="p">,</span> 
-            <span class="n">na_rep</span><span class="o">=</span><span class="s2">&quot;数据缺失&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;评价人数&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;评价人数&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;评价人数&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">interpolate</span><span class="p">()</span>
+<span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="17--%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%A1%A5%E5%85%A8%EF%BD%9C%E5%8C%B9%E9%85%8D%E5%A1%AB%E5%85%85">17 -&#32570;&#22833;&#20540;&#34917;&#20840;&#65372;&#21305;&#37197;&#22635;&#20805;<a class="anchor-link" href="#17--%E7%BC%BA%E5%A4%B1%E5%80%BC%E8%A1%A5%E5%85%A8%EF%BD%9C%E5%8C%B9%E9%85%8D%E5%A1%AB%E5%85%85">&#182;</a></h3><p><br></p>
+<p>除了利用均值填充，有时还需要根据另一列的值进行匹配填充</p>
+<p>-&gt; 现在填充 “语言” 列的缺失值，要求根据 “国家/地区” 列的值进行填充</p>
+<blockquote><p>例如 《海上钢琴师》国家/地区为 意大利，根据其他意大利国家对应的语言来看，应填充为 意大利语</p>
+</blockquote>
+<p><strong>注意：此题会有多种解法</strong></p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[122]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;语言&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;国家/地区&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">语言</span><span class="o">.</span><span class="n">bfill</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="%E9%87%8D%E5%A4%8D%E5%80%BC%E5%A4%84%E7%90%86">&#37325;&#22797;&#20540;&#22788;&#29702;<a class="anchor-link" href="#%E9%87%8D%E5%A4%8D%E5%80%BC%E5%A4%84%E7%90%86">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="18---%E6%9F%A5%E6%89%BE%E9%87%8D%E5%A4%8D%E5%80%BC">18 - &#26597;&#25214;&#37325;&#22797;&#20540;<a class="anchor-link" href="#18---%E6%9F%A5%E6%89%BE%E9%87%8D%E5%A4%8D%E5%80%BC">&#182;</a></h3><p><br></p>
+<p>将全部重复值所在的行筛选出来</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">duplicated</span><span class="p">()][:</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>片名</th>
+      <th>上映年份</th>
+      <th>评分</th>
+      <th>评价人数</th>
+      <th>导演</th>
+      <th>编剧</th>
+      <th>主演</th>
+      <th>类型</th>
+      <th>国家/地区</th>
+      <th>语言</th>
+      <th>时长(分钟)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>111</th>
+      <td>无人知晓</td>
+      <td>2004</td>
+      <td>9.1</td>
+      <td>233881.0</td>
+      <td>是枝裕和</td>
+      <td>是枝裕和</td>
+      <td>柳乐优弥 / 北浦爱 / 木村飞影 / 清水萌萌子 / 韩英惠 / 江原由希子 / 串田和美...</td>
+      <td>剧情</td>
+      <td>日本</td>
+      <td>日语</td>
+      <td>141.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="19--%E6%9F%A5%E6%89%BE%E9%87%8D%E5%A4%8D%E5%80%BC%EF%BD%9C%E6%8C%87%E5%AE%9A">19 -&#26597;&#25214;&#37325;&#22797;&#20540;&#65372;&#25351;&#23450;<a class="anchor-link" href="#19--%E6%9F%A5%E6%89%BE%E9%87%8D%E5%A4%8D%E5%80%BC%EF%BD%9C%E6%8C%87%E5%AE%9A">&#182;</a></h3><p>上面是所有列完全重复的情况，但有时我们只需要根据某列查找重复值</p>
+<p>-&gt; 查找 片名 列全部重复值</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">duplicated</span><span class="p">([</span><span class="s1">&#39;片名&#39;</span><span class="p">])][:</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>片名</th>
+      <th>上映年份</th>
+      <th>评分</th>
+      <th>评价人数</th>
+      <th>导演</th>
+      <th>编剧</th>
+      <th>主演</th>
+      <th>类型</th>
+      <th>国家/地区</th>
+      <th>语言</th>
+      <th>时长(分钟)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>111</th>
+      <td>无人知晓</td>
+      <td>2004</td>
+      <td>9.1</td>
+      <td>233881.0</td>
+      <td>是枝裕和</td>
+      <td>是枝裕和</td>
+      <td>柳乐优弥 / 北浦爱 / 木村飞影 / 清水萌萌子 / 韩英惠 / 江原由希子 / 串田和美...</td>
+      <td>剧情</td>
+      <td>日本</td>
+      <td>日语</td>
+      <td>141.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="20---%E5%88%A0%E9%99%A4%E9%87%8D%E5%A4%8D%E5%80%BC">20 - &#21024;&#38500;&#37325;&#22797;&#20540;<a class="anchor-link" href="#20---%E5%88%A0%E9%99%A4%E9%87%8D%E5%A4%8D%E5%80%BC">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>删除全部的重复值</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="21---%E5%88%A0%E9%99%A4%E9%87%8D%E5%A4%8D%E5%80%BC%EF%BD%9C%E6%8C%87%E5%AE%9A">21 - &#21024;&#38500;&#37325;&#22797;&#20540;&#65372;&#25351;&#23450;<a class="anchor-link" href="#21---%E5%88%A0%E9%99%A4%E9%87%8D%E5%A4%8D%E5%80%BC%EF%BD%9C%E6%8C%87%E5%AE%9A">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>删除全部的重复值，但保留最后一次出现的值</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[142]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># default &#39;first&#39;</span>
+<span class="c1">#  can be False : </span>
+<span class="c1">#     Drop all duplicates.</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="n">keep</span> <span class="o">=</span> <span class="s1">&#39;last&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
