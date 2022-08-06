@@ -26,22 +26,6 @@ group by player_id
   - `order by` must be the latter one;
   - the result order will take all record into sorting;
   
-- among group ordering:
-  
-  - using windows function:
-    
-    ```mysql
-    select player_id,
-           event_date, 
-           row_number() over (
-               partition by player_id 
-               order by event_date
-           ) as n
-    from Activity
-    ```
-  
-- **NOTE**: It can only be used in `select` clause;
-  
 
 #### 2. First login device
 

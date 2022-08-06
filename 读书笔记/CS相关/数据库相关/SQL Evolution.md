@@ -57,10 +57,12 @@ Another solution is use `union` key words, here are example:
 this two key words are all used as filter to manipulate data, but the there are some nuances between them: 
 
 - Having:
-    - Used after `group by`
+    - Used after `group by` 
+    - Filter groups；
     - function `avg`, `sum`, `max`, `mean`, `count` could be used after having;
 - Where: 
     - must before `group by`,
+    - Filter rows selected;
     - aggregate function must before where
 
 Let me show you the usage:
@@ -68,6 +70,7 @@ Let me show you the usage:
 ```sql
 SELECT column_name, aggregate_function(column_name)
 FROM table_name
+WHERE column_name
 GROUP BY column_name
 HAVING aggregate_function(column_name) operator value;
 ```
@@ -93,6 +96,8 @@ group by score
 
 #### 4. 表内查询
 
+##### 4.1 1对1查询
+
 重复合并本表，实现表内查询并创建新列
 
 ```SQL
@@ -107,5 +112,32 @@ where e_1.employee_id <> 1
 
 注：SQL表不相等的两种方式，`<>` and `!=` 
 
+##### 4.2 1对多查询
 
+`join` 同样可以实现1对多查询
 
+```sql
+select *
+from Friendship t1
+left join Friendship t2
+on t1.user1_id = t2.user2_id
+```
+
+results：
+
+```sql
+## from
+[1, 2], 
+[2, 1], 
+[3, 1], 
+[4, 1]
+
+## to
+[1, 2, 4, 1], 
+[1, 2, 3, 1], 
+[1, 2, 2, 1], 
+
+[2, 1, 1, 2], 
+[3, 1, null, null], 
+[4, 1, null, null]
+```
