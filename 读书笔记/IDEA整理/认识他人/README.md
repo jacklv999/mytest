@@ -5,10 +5,12 @@
 #### 1. 原则
 
 - [Being Humble and responsible](./Being Humble.html) 
+  - [半罐水最响](./半罐水最响.html) 
 - [Professional and Responsible](./Professional and Responsible.html) 
 - [尊重他人: 从做好自己开始](./尊重他人.html) 
 - [近不狎与远不怨](./近不狎与远不怨.html) 
 - [Learning to shut up and being useful](./Learning to shut up.html) 
+- 
 
 #### 2. 认识自己
 
