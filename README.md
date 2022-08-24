@@ -3,6 +3,7 @@
 
 
 
+- [ ] 0824[Cache and Presist](./读书笔记/Business Related/Hard skills/大数据/Cache and Presist.html)
 - [ ] 0821[半罐水最响](./读书笔记/IDEA整理/认识他人/半罐水最响.html)
 - [ ] 0804[数据预览与预处理](./读书笔记/CS相关/Python/Python数据分析/数据预览与预处理.html)
 - [ ] 0803[前缀和](./读书笔记/CS相关/cs基础知识/2. 算法/前缀和.html)
