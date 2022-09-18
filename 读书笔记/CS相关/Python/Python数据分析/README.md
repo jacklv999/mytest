@@ -2,6 +2,7 @@
 
 - [Pytorch与Numpy/pd笔记](./Pytorch与Nppd笔记.html) 
 - [Out of Core: Vaex tutorial](./vaex tutorial.html) 
+- [DataFrame转图片](./DataFrame转图片.html) 
 
 ## Pandas
 

@@ -9,3 +9,5 @@
 - [Canvas模仿小案例: 含canvas基础](./Canvas绘画笔记.html) 
 - [MDN Canvas教程](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial) 
 - [AdBlocker规则简单整理](./ADblocker规则简单整理.html) 
+- [导航栏](./导航栏.html) 
+- [页面全局居中](./页面全局居中.html) 

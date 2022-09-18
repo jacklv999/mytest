@@ -3,6 +3,10 @@
 
 
 
+- [ ] 0919[使用Iframe](./读书笔记/Business Related/Hard skills/前端相关/JS and TS/使用Iframe.html)
+- [ ] 0919[导航栏](./读书笔记/Business Related/Hard skills/前端相关/CSS/导航栏.html)
+- [ ] 0919[页面全局居中](./读书笔记/Business Related/Hard skills/前端相关/CSS/页面全局居中.html)
+- [ ] 0919[DataFrame转图片](./读书笔记/CS相关/Python/Python数据分析/DataFrame转图片.html)
 - [ ] 0824[Cache and Presist](./读书笔记/Business Related/Hard skills/大数据/Cache and Presist.html)
 - [ ] 0821[半罐水最响](./读书笔记/IDEA整理/认识他人/半罐水最响.html)
 - [ ] 0804[数据预览与预处理](./读书笔记/CS相关/Python/Python数据分析/数据预览与预处理.html)
