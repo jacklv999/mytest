@@ -9,4 +9,6 @@
 - [Pandas Package Review](./Pandas Package Review.html) 
 - [1、数据加载与存储](./数据加载与存储.html) 
 - [2、数据预览与预处理](./数据预览与预处理.html) 
+- [3、数据统计描述性分析](./数据统计描述性分析.html) 
+- [4、数据筛选与修改](./数据筛选与修改.html) 
 

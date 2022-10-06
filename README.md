@@ -3,6 +3,8 @@
 
 
 
+- [ ] 1006[数据筛选与修改](./读书笔记/CS相关/Python/Python数据分析/数据筛选与修改.html)
+- [ ] 1006[数据统计描述性分析](./读书笔记/CS相关/Python/Python数据分析/数据统计描述性分析.html)
 - [ ] 0919[使用Iframe](./读书笔记/Business Related/Hard skills/前端相关/JS and TS/使用Iframe.html)
 - [ ] 0919[导航栏](./读书笔记/Business Related/Hard skills/前端相关/CSS/导航栏.html)
 - [ ] 0919[页面全局居中](./读书笔记/Business Related/Hard skills/前端相关/CSS/页面全局居中.html)
