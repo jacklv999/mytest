@@ -392,12 +392,15 @@
 .\读书笔记\CS相关\Python\Python数据分析\README.md
 .\读书笔记\CS相关\Python\Python数据分析\vaex tutorial.html
 .\读书笔记\CS相关\Python\Python数据分析\vaex tutorial.ipynb
+.\读书笔记\CS相关\Python\Python数据分析\数据分组与聚合.html
 .\读书笔记\CS相关\Python\Python数据分析\数据加载与存储.html
 .\读书笔记\CS相关\Python\Python数据分析\数据加载与存储.ipynb
 .\读书笔记\CS相关\Python\Python数据分析\数据筛选与修改.html
 .\读书笔记\CS相关\Python\Python数据分析\数据统计描述性分析.html
+.\读书笔记\CS相关\Python\Python数据分析\数据透视与合并.html
 .\读书笔记\CS相关\Python\Python数据分析\数据预览与预处理.html
 .\读书笔记\CS相关\Python\Python数据分析\数据预览与预处理.ipynb
+.\读书笔记\CS相关\Python\Python数据分析\更多未提及的操作.html
 .\读书笔记\CS相关\Python\Python数据分析\某招聘网站数据.csv
 .\读书笔记\CS相关\Python\Python数据可视化\README.md
 .\读书笔记\CS相关\Python\Python数据可视化\Python-数据可视化Mvan\Animation-动画.html

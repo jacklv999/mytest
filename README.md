@@ -3,6 +3,9 @@
 
 
 
+- [ ] 1007[数据透视与合并](./读书笔记/CS相关/Python/Python数据分析/数据透视与合并.html)
+- [ ] 1007[数据分组与聚合](./读书笔记/CS相关/Python/Python数据分析/数据分组与聚合.html)
+- [ ] 1007[更多未提及的操作](./读书笔记/CS相关/Python/Python数据分析/更多未提及的操作.html)
 - [ ] 1006[数据筛选与修改](./读书笔记/CS相关/Python/Python数据分析/数据筛选与修改.html)
 - [ ] 1006[数据统计描述性分析](./读书笔记/CS相关/Python/Python数据分析/数据统计描述性分析.html)
 - [ ] 0919[使用Iframe](./读书笔记/Business Related/Hard skills/前端相关/JS and TS/使用Iframe.html)
