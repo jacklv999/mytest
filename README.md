@@ -3,6 +3,11 @@
 
 
 
+- [ ] 1007[Excel计算地理距离](./读书笔记/CS相关/Office相关/Excel计算地理距离.html)
+- [ ] 1007[Requests 复用cookie](./读书笔记/CS相关/Python/Python爬虫/Requests 复用cookie.html)
+- [ ] 1007[使用Iframe](./读书笔记/Business Related/Hard skills/前端相关/HTML/使用Iframe.html)
+- [ ] 1007[SQL模糊匹配](./读书笔记/CS相关/数据库相关/SQL模糊匹配.html)
+- [ ] 1007[Requests下载文件](./读书笔记/CS相关/Python/Python爬虫/Requests下载文件.html)
 - [ ] 1007[数据透视与合并](./读书笔记/CS相关/Python/Python数据分析/数据透视与合并.html)
 - [ ] 1007[数据分组与聚合](./读书笔记/CS相关/Python/Python数据分析/数据分组与聚合.html)
 - [ ] 1007[更多未提及的操作](./读书笔记/CS相关/Python/Python数据分析/更多未提及的操作.html)

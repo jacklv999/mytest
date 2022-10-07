@@ -9,6 +9,7 @@
 - [窗口函数](./窗口函数.html) 
 - [SQL日期函数](./SQL日期函数.html) 
 - [SQL字符串处理](./SQL字符串.html) 
+- [SQL模糊匹配](./SQL模糊匹配.html) 
 
 #### SQL Practice
 

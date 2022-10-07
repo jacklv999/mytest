@@ -39,6 +39,8 @@
 .\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML表格插件.html
 .\读书笔记\Business Related\Hard skills\前端相关\HTML\HTML表格插件.md
 .\读书笔记\Business Related\Hard skills\前端相关\HTML\README.md
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\使用Iframe.html
+.\读书笔记\Business Related\Hard skills\前端相关\HTML\使用Iframe.md
 .\读书笔记\Business Related\Hard skills\前端相关\JS and TS\Javascript Base64.html
 .\读书笔记\Business Related\Hard skills\前端相关\JS and TS\Javascript Base64.md
 .\读书笔记\Business Related\Hard skills\前端相关\JS and TS\Javascript Coding.html
@@ -299,6 +301,8 @@
 .\读书笔记\CS相关\Git相关\Github命令.html
 .\读书笔记\CS相关\Git相关\Github命令.md
 .\读书笔记\CS相关\Git相关\README.md
+.\读书笔记\CS相关\Office相关\Excel计算地理距离.html
+.\读书笔记\CS相关\Office相关\Excel计算地理距离.md
 .\读书笔记\CS相关\Office相关\PowerApp笔记.html
 .\读书笔记\CS相关\Office相关\PowerApp笔记.md
 .\读书笔记\CS相关\Office相关\PPT制作中的小和大.html
@@ -424,6 +428,10 @@
 .\读书笔记\CS相关\Python\Python爬虫\Playwright Guide.html
 .\读书笔记\CS相关\Python\Python爬虫\Playwright Guide.md
 .\读书笔记\CS相关\Python\Python爬虫\README.md
+.\读书笔记\CS相关\Python\Python爬虫\Requests 复用cookie.html
+.\读书笔记\CS相关\Python\Python爬虫\Requests 复用cookie.md
+.\读书笔记\CS相关\Python\Python爬虫\Requests下载文件.html
+.\读书笔记\CS相关\Python\Python爬虫\Requests下载文件.md
 .\读书笔记\CS相关\Python\Python爬虫\requests笔记.html
 .\读书笔记\CS相关\Python\Python爬虫\requests笔记.md
 .\读书笔记\CS相关\Python\Python爬虫\Scrapy Note.html
@@ -509,6 +517,8 @@
 .\读书笔记\CS相关\数据库相关\SQL教程.md
 .\读书笔记\CS相关\数据库相关\SQL日期函数.html
 .\读书笔记\CS相关\数据库相关\SQL日期函数.md
+.\读书笔记\CS相关\数据库相关\SQL模糊匹配.html
+.\读书笔记\CS相关\数据库相关\SQL模糊匹配.md
 .\读书笔记\CS相关\数据库相关\数据库基础.html
 .\读书笔记\CS相关\数据库相关\数据库基础.md
 .\读书笔记\CS相关\数据库相关\窗口函数.html
