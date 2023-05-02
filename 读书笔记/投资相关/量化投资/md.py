@@ -16,7 +16,7 @@ for item in os.listdir():
         add_items.append(item)
 
 
-with open("./README.md", "a",,encoding='UTF-8') as f:
+with open("./README.md", "a",encoding='UTF-8') as f:
     for item in add_items:
         if item[-4:] == 'html':
             tmp_str = "- [" + item[:-5] + "](./" + item + ") \n"
