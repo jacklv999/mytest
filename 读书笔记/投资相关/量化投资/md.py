@@ -5,7 +5,7 @@ if not os.path.exists('md.db'):
         for fs in os.listdir():
             f.write(fs+'\n')
 else:
-    with open('./md.db','r',encoding='UTF-8') as f:
+    with open('./md.db','r') as f:
         file_list = f.read().splitlines()
 
 
@@ -22,7 +22,7 @@ with open("./README.md", "a",encoding='UTF-8') as f:
             tmp_str = "- [" + item[:-5] + "](./" + item + ") \n"
             f.write(tmp_str)
         
-with open('./md.db', "r+",encoding='UTF-8') as f:
+with open('./md.db', "r+") as f:
         read_data = f.read()
         f.seek(0)
         f.truncate()   #清空文件
