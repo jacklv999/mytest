@@ -3,8 +3,7 @@ import os
 if not os.path.exists('md.db'):
     with open('md.db','w') as f:
         for fs in os.listdir():
-            f.write(fs)
-            f.write('\n')
+            f.write(fs+'\n')
 else:
     with open('./md.db','r') as f:
         file_list = f.read().splitlines()
