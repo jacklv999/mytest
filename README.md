@@ -3,7 +3,6 @@
 
 
 
-- [ ] 0502[ggg](./读书笔记/投资相关/量化投资/ggg.html)
 - [ ] 0502[量化策略优化](./读书笔记/投资相关/量化投资/量化策略优化.html)
 - [ ] 1007[Excel计算地理距离](./读书笔记/CS相关/Office相关/Excel计算地理距离.html)
 - [ ] 1007[Requests 复用cookie](./读书笔记/CS相关/Python/Python爬虫/Requests 复用cookie.html)
