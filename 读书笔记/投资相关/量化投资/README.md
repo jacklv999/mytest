@@ -5,3 +5,4 @@
 - [基本的APT模型](./APT模型.html) 
 - [CAPM模型到多因子模型](./CAPM模型到多因子模型.html) 
 - [K线有杀气NOTE](./K线有杀气NOTE.html) 
+- [量化策略优化](./量化策略优化.html)
