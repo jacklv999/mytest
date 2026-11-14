@@ -12,6 +12,7 @@
   --accent:#0ea5e9;--accent2:#14b8a6;
 }
 *{margin:0;padding:0;box-sizing:border-box}
+html,body{overflow-x:hidden}
 body{background:var(--bg);color:var(--txt);
   font-family:"SF Pro Display",-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
   -webkit-font-smoothing:antialiased}
@@ -20,10 +21,10 @@ body{background:var(--bg);color:var(--txt);
 h1{font-size:34px;font-weight:600;letter-spacing:.01em;margin-top:10px}
 .meta{margin-top:10px;font-size:13px;color:var(--muted)}
 .meta b{color:var(--txt);font-weight:500}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-top:36px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-top:36px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
 .card .k{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
-.card .v{font-size:24px;font-weight:600;margin-top:8px;font-variant-numeric:tabular-nums}
+.card .v{font-size:24px;font-weight:600;margin-top:8px;font-variant-numeric:tabular-nums;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .card .s{font-size:12px;color:var(--muted);margin-top:6px}
 .pos{color:var(--up)}.neg{color:var(--down)}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px 20px 16px;margin-top:14px}
@@ -39,6 +40,22 @@ h1{font-size:34px;font-weight:600;letter-spacing:.01em;margin-top:10px}
 .mtile .ms{font-size:12px;color:var(--muted);margin-top:6px}
 .foot{margin-top:30px;font-size:12px;color:var(--muted);line-height:1.8}
 .empty{color:var(--muted);font-size:14px;padding:40px 0;text-align:center}
+@media(max-width:760px){
+  .wrap{padding:28px 16px 28px}
+  .label{font-size:10px}
+  h1{font-size:22px}
+  .meta{font-size:12px;line-height:1.7}
+  .kpis{gap:10px;margin-top:20px}
+  .card{padding:13px 14px;border-radius:12px}
+  .card .v{font-size:18px;margin-top:6px}
+  .card .s{font-size:11px}
+  .panel{padding:16px 12px 10px;border-radius:12px}
+  .panel .k{font-size:10px}
+  .mtiles{gap:10px}
+  .mtile .mv{font-size:19px}
+  .mtile .ms{font-size:11px}
+  .foot{margin-top:22px;font-size:11px}
+}
 </style>
 </head>
 <body>
@@ -48,9 +65,9 @@ h1{font-size:34px;font-weight:600;letter-spacing:.01em;margin-top:10px}
   <div class="meta" id="meta">加载中…</div>
 
   <div class="kpis">
-    <div class="card"><div class="k">当前权益</div><div class="v" id="k-eq">—</div><div class="s">最新收盘</div></div>
+    <div class="card"><div class="k">当前权益</div><div class="v" id="k-eq">—</div><div class="s">最新采样点</div></div>
     <div class="card"><div class="k">开仓权益</div><div class="v" id="k-open">—</div><div class="s" id="k-open-s">策略申报 · 对比当前</div></div>
-    <div class="card"><div class="k">当日变动</div><div class="v" id="k-day">—</div><div class="s">最近一个交易日</div></div>
+    <div class="card"><div class="k">当日变动</div><div class="v" id="k-day">—</div><div class="s">最近一个采样区间</div></div>
     <div class="card"><div class="k">窗口盈亏</div><div class="v" id="k-pnl">—</div><div class="s">近两月合计</div></div>
     <div class="card"><div class="k" id="k-days-k">数据点数</div><div class="v" id="k-days">—</div><div class="s">窗口内有记录的数量</div></div>
   </div>
@@ -79,12 +96,34 @@ const $=id=>document.getElementById(id);
 const fmt=(x,d=2)=>x==null?"—":Number(x).toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});
 const pct=x=>x==null?"—":(x>0?"+":"")+fmt(x)+"%";
 const cls=x=>x==null?"":(x>=0?"pos":"neg");
-
-function flat(data){const d=[];data.months.forEach(m=>(m.points||[]).forEach(x=>d.push(x)));return d;}
 const GL_TEXT={minute:{kpi:"采样点数",tile:"个分钟点",bar:"逐分钟盈亏"},
                hour:{kpi:"小时数",tile:"个小时点",bar:"每小时盈亏"},
                day:{kpi:"交易日数",tile:"个交易日",bar:"每日盈亏"}};
 const glText=(g,key)=>(GL_TEXT[g]||GL_TEXT.minute)[key];
+
+let LAST=null;
+let rzTimer=null;
+
+function flat(data){const d=[];data.months.forEach(m=>(m.points||[]).forEach(x=>d.push(x)));return d;}
+
+/* 图表几何：viewBox = 容器实际像素宽，字号线宽恒为屏幕像素，窄屏不缩小 */
+function chartGeom(box,baseH){
+  const W=Math.max(320,Math.min(940,Math.round(box.clientWidth||940)));
+  const narrow=W<600;
+  const H=narrow&&baseH>200?240:baseH;
+  const P={l:narrow?58:64,r:narrow?8:16,t:14,b:narrow?26:30};
+  return {W,H,P,narrow:narrow};
+}
+
+/* 采样点超过绘图区像素宽时按桶开始时间降采样，保证每个元素至少 1px */
+function downsample(points,maxN){
+  const n=Math.max(60,Math.floor(maxN));
+  if(points.length<=n)return points;
+  const out=[];
+  const bucket=Math.ceil(points.length/n);
+  for(let i=0;i<points.length;i+=bucket)out.push(points[i]);
+  return out;
+}
 
 async function load(){
   let data;
@@ -100,8 +139,9 @@ async function load(){
   }
   if(!data||data.months==null){$("meta").textContent="接口返回异常";return;}
   $("updated").textContent=data.updated||"—";
+  LAST=data;
   $("k-days-k").textContent=glText(data.granularity,"kpi");
-  document.querySelector('#bar-title').textContent=glText(data.granularity,"bar")+" · USD";
+  $("bar-title").textContent=glText(data.granularity,"bar")+" · USD";
 
   const d=flat(data);
   if(d.length<2){$("meta").textContent="数据窗口内暂无运行记录";return;}
@@ -128,14 +168,28 @@ async function load(){
   e2.textContent=(pnl>=0?"+":"")+fmt(pnl)+" USD";
   $("k-days").textContent=d.length;
 
-  lineChart(d);
-  barChart(d);
+  drawAll();
   mtiles(data);
 }
 
+function drawAll(){
+  if(!LAST)return;
+  const d=flat(LAST);
+  if(d.length<2)return;
+  lineChart(d);
+  barChart(d);
+}
+
+/* 窗口尺寸变化时按新容器宽度重绘图表（防抖 200ms） */
+window.addEventListener("resize",()=>{
+  clearTimeout(rzTimer);
+  rzTimer=setTimeout(drawAll,200);
+});
+
 function lineChart(days){
   const box=$("chart-box");
-  const W=940,H=300,P={l:64,r:16,t:14,b:30};
+  const {W,H,P,narrow}=chartGeom(box,300);
+  days=downsample(days,W-P.l-P.r);
   const vs=days.map(d=>d.equity);
   let lo=Math.min(...vs),hi=Math.max(...vs);
   if(lo===hi){lo*=0.99;hi*=1.01;}
@@ -147,11 +201,12 @@ function lineChart(days){
   for(let k=0;k<=4;k++){
     const v=lo+(hi-lo)*k/4,y=Y(v);
     g+='<line x1="'+P.l+'" y1="'+y+'" x2="'+(W-P.r)+'" y2="'+y+'" stroke="rgba(15,23,42,.06)"/>'
-      +'<text x="'+(P.l-8)+'" y="'+(y+4)+'" text-anchor="end" font-size="11" fill="#64748b">'+fmt(v)+"</text>";
+      +'<text x="'+(P.l-8)+'" y="'+(y+4)+'" text-anchor="end" font-size="12" fill="#64748b">'
+      +(narrow?fmt(Math.round(v),0):fmt(v))+"</text>";
   }
-  const step=Math.max(1,Math.ceil(days.length/8));
+  const step=Math.max(1,Math.ceil(days.length*52/(W-P.l-P.r)));
   for(let i=0;i<days.length;i+=step){
-    g+='<text x="'+X(i)+'" y="'+(H-8)+'" text-anchor="middle" font-size="11" fill="#64748b">'+days[i].date.slice(5)+"</text>";
+    g+='<text x="'+X(i)+'" y="'+(H-8)+'" text-anchor="middle" font-size="12" fill="#64748b">'+days[i].date.slice(5)+"</text>";
   }
   const pts=days.map((d,i)=>X(i).toFixed(1)+","+Y(d.equity).toFixed(1)).join(" L");
   const area="M"+X(0).toFixed(1)+","+Y(lo).toFixed(1)+" L"+pts+" L"+X(days.length-1).toFixed(1)+","+Y(lo).toFixed(1)+" Z";
@@ -179,7 +234,7 @@ function lineChart(days){
     guide.setAttribute("x1",x);guide.setAttribute("x2",x);guide.style.display="block";
     tip.style.display="block";
     tip.style.left=(e.clientX+14)+"px";tip.style.top=(e.clientY-10)+"px";
-    tip.innerHTML='<span class="d">'+days[i].date+"</span><br>权益 "+fmt(days[i].equity)+" USD";
+    tip.innerHTML='<span class="d">'+days[i].date+" "+days[i].time.slice(11)+"</span><br>权益 "+fmt(days[i].equity)+" USD";
   });
   hit.addEventListener("mouseleave",()=>{
     dot.style.display="none";guide.style.display="none";tip.style.display="none";
@@ -188,10 +243,12 @@ function lineChart(days){
 
 function barChart(days){
   const box=$("bar-box");
-  const W=940,H=220,P={l:64,r:16,t:14,b:30};
+  const {W,H,P,narrow}=chartGeom(box,220);
+  /* 相邻采样点差值先按桶开始时间降采样，再生成柱序列 */
+  const src=downsample(days,W-P.l-P.r);
   const ds=[];
-  for(let i=1;i<days.length;i++){
-    ds.push({date:days[i].date,v:days[i].equity-days[i-1].equity});
+  for(let i=1;i<src.length;i++){
+    ds.push({date:src[i].date,time:src[i].time,v:src[i].equity-src[i-1].equity});
   }
   if(!ds.length){box.innerHTML='<div class="empty">样本不足</div>';return;}
 
@@ -204,18 +261,19 @@ function barChart(days){
   [-1,0,1].forEach(k=>{
     const v=k===0?0:(k<0?lo:hi),y=Y(v);
     g+='<line x1="'+P.l+'" y1="'+y+'" x2="'+(W-P.r)+'" y2="'+y+'" stroke="rgba(15,23,42,.08)"/>'
-      +'<text x="'+(P.l-8)+'" y="'+(y+4)+'" text-anchor="end" font-size="11" fill="#64748b">'+fmt(v)+"</text>";
+      +'<text x="'+(P.l-8)+'" y="'+(y+4)+'" text-anchor="end" font-size="12" fill="#64748b">'
+      +(narrow?fmt(Math.round(v),0):fmt(v))+"</text>";
   });
   let bars="";
   ds.forEach((d,i)=>{
     const y0=Y(0),y1=Y(d.v);
     bars+='<rect x="'+(P.l+i*bw+bw*0.18).toFixed(1)+'" y="'+Math.min(y0,y1).toFixed(1)
-      +'" width="'+(bw*0.64).toFixed(1)+'" height="'+Math.max(Math.abs(y1-y0),1).toFixed(1)
+      +'" width="'+Math.max(bw*0.64,1).toFixed(1)+'" height="'+Math.max(Math.abs(y1-y0),1).toFixed(1)
       +'" rx="2" fill="'+(d.v>=0?"#10b981":"#ef4444")+'"/>';
   });
-  const step=Math.max(1,Math.ceil(ds.length/8));
+  const step=Math.max(1,Math.ceil(ds.length*52/(W-P.l-P.r)));
   for(let i=0;i<ds.length;i+=step){
-    g+='<text x="'+(P.l+(i+0.5)*bw)+'" y="'+(H-8)+'" text-anchor="middle" font-size="11" fill="#64748b">'+ds[i].date.slice(5)+"</text>";
+    g+='<text x="'+(P.l+(i+0.5)*bw)+'" y="'+(H-8)+'" text-anchor="middle" font-size="12" fill="#64748b">'+ds[i].date.slice(5)+"</text>";
   }
   box.innerHTML='<svg class="chart" viewBox="0 0 '+W+" "+H+'" preserveAspectRatio="xMidYMid meet">'
     +'<rect id="hl" y="'+P.t+'" height="'+(H-P.t-P.b)+'" fill="rgba(14,165,233,.10)" style="display:none"/>'
@@ -234,7 +292,7 @@ function barChart(days){
     hl.style.display="block";
     tip.style.display="block";
     tip.style.left=(e.clientX+14)+"px";tip.style.top=(e.clientY-10)+"px";
-    tip.innerHTML='<span class="d">'+ds[i].date+"</span><br>盈亏 "
+    tip.innerHTML='<span class="d">'+ds[i].date+" "+(ds[i].time?ds[i].time.slice(11):"")+"</span><br>盈亏 "
       +(ds[i].v>=0?"+":"")+fmt(ds[i].v)+" USD";
   });
   hit.addEventListener("mouseleave",()=>{
