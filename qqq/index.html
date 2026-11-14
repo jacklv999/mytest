@@ -241,6 +241,7 @@ function lineChart(days){
 function barChart(days){
   const box=$("bar-box");
   const {W,H,P,narrow}=chartGeom(box,220);
+  P.l=narrow?12:24;/* 无纵坐标标签，左留白收窄 */
   /* 相邻采样点差值先按桶开始时间降采样，再生成柱序列 */
   const src=downsample(days,W-P.l-P.r);
   const ds=[];
@@ -254,13 +255,8 @@ function barChart(days){
   const Y=v=>P.t+(H-P.t-P.b)*(1-(v-(lo-pad))/((hi+pad)-(lo-pad)));
   const bw=(W-P.l-P.r)/ds.length;
 
-  let g="";
-  [-1,0,1].forEach(k=>{
-    const v=k===0?0:(k<0?lo:hi),y=Y(v);
-    g+='<line x1="'+P.l+'" y1="'+y+'" x2="'+(W-P.r)+'" y2="'+y+'" stroke="rgba(15,23,42,.08)"/>'
-      +'<text x="'+(P.l-8)+'" y="'+(y+4)+'" text-anchor="end" font-size="12" fill="#64748b">'
-      +(narrow?fmt(Math.round(v),0):fmt(v))+"</text>";
-  });
+  /* 不绘制纵坐标：仅保留零值基线，具体数值看 hover 浮窗 */
+  let g='<line x1="'+P.l+'" y1="'+Y(0)+'" x2="'+(W-P.r)+'" y2="'+Y(0)+'" stroke="rgba(15,23,42,.12)"/>';
   let bars="";
   ds.forEach((d,i)=>{
     const y0=Y(0),y1=Y(d.v);
