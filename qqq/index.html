@@ -69,7 +69,6 @@ h1{font-size:34px;font-weight:600;letter-spacing:.01em;margin-top:10px}
     <div class="card"><div class="k">开仓权益</div><div class="v" id="k-open">—</div><div class="s" id="k-open-s">策略申报 · 对比当前</div></div>
     <div class="card"><div class="k">当日变动</div><div class="v" id="k-day">—</div><div class="s">最近一个采样区间</div></div>
     <div class="card"><div class="k">窗口盈亏</div><div class="v" id="k-pnl">—</div><div class="s">近两月合计</div></div>
-    <div class="card"><div class="k" id="k-days-k">数据点数</div><div class="v" id="k-days">—</div><div class="s">窗口内有记录的数量</div></div>
   </div>
 
   <div class="panel">
@@ -96,9 +95,9 @@ const $=id=>document.getElementById(id);
 const fmt=(x,d=2)=>x==null?"—":Number(x).toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});
 const pct=x=>x==null?"—":(x>0?"+":"")+fmt(x)+"%";
 const cls=x=>x==null?"":(x>=0?"pos":"neg");
-const GL_TEXT={minute:{kpi:"采样点数",tile:"个分钟点",bar:"逐分钟盈亏"},
-               hour:{kpi:"小时数",tile:"个小时点",bar:"每小时盈亏"},
-               day:{kpi:"交易日数",tile:"个交易日",bar:"每日盈亏"}};
+const GL_TEXT={minute:{tile:"个分钟点",bar:"逐分钟盈亏"},
+               hour:{tile:"个小时点",bar:"每小时盈亏"},
+               day:{tile:"个交易日",bar:"每日盈亏"}};
 const glText=(g,key)=>(GL_TEXT[g]||GL_TEXT.minute)[key];
 
 let LAST=null;
@@ -140,7 +139,6 @@ async function load(){
   if(!data||data.months==null){$("meta").textContent="接口返回异常";return;}
   $("updated").textContent=data.updated||"—";
   LAST=data;
-  $("k-days-k").textContent=glText(data.granularity,"kpi");
   $("bar-title").textContent=glText(data.granularity,"bar")+" · USD";
 
   const d=flat(data);
@@ -166,7 +164,6 @@ async function load(){
   e1.textContent=(dr>=0?"+":"")+fmt(dr)+" USD";
   const e2=$("k-pnl");e2.className="v "+cls(pnl);
   e2.textContent=(pnl>=0?"+":"")+fmt(pnl)+" USD";
-  $("k-days").textContent=d.length;
 
   drawAll();
   mtiles(data);
